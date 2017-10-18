@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #ddd;
+    background: #444;
+}
+
+a:link {
+    color: #acf;
+}
+
+a:visited {
+    color: #cbf;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    }
+    th, td {
+            padding: 15px;
+    }
+
+p {
+    margin: 8px 40px 8px 40px;
+}
+
+ol, ul, dl, li {
+    margin: 20px 12px 8px 12px;
+}
+
+p {
+    padding: 0;
+    line-height: 140%;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: bold;
+}
+
+h1 {
+    margin: 28px 8px 24px 8px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+    color: #339;
+    background-color: #cfc;
+}
+
+h2 {
+    font-size: 26px;
+    margin: 20px 24px 12px 24px;
+    color: #9cc;
+}
+
+h2.subhead {
+    font-weight:
+    normal;
+    margin-top:
+    0;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 20px 32px 12px 32px;
+    color: #ecb;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 16px 40px 12px 40px;
+    color: #339;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 16px;
+    margin: 16px 48px 12px 48px;
+    color: #600;
+    font-weight: bold;
+
+}
+
+summary.sum1 {
+    font-size: 1.7em;
+    color: #e69;
+    margin: .8em 1.2em .8em 1.2em;
+}
+
+summary.sum2 {
+    font-size: 1.6em;
+    color: #137;
+    margin: .6em 1.2em .6em 2em;
+}
+
+summary.sum3 {
+    font-size: 1.5em;
+    color: #339;
+    margin: .4em 1.2em .4em 2.8em;
+}
+
+summary.sum4 {
+    font-size: 1.4em;
+    color: #903;
+    margin: .4em 1.2em .4em 2.8em;
+}
+
+summary.menu_sum {
+    font-size: 1.4em;
+    color: #639;
+    margin: .5em 0em .5em 0em;
+}
+
