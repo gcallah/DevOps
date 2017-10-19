@@ -4,6 +4,7 @@ body {
     font-size: 20px;
     color: #ddd;
     background: #444;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 a:link {
@@ -14,6 +15,9 @@ a:visited {
     color: #cbf;
 }
 
+hr {
+    margin: 40px 256px 40px 256px
+}
 
 table, th, td {
     border: 1px solid black;
@@ -23,6 +27,24 @@ table, th, td {
     }
 
 p {
+    margin: 8px 40px 8px 40px;
+}
+
+summary#sum1 {
+    font-size: 22px;
+    color: #cbe;
+    margin: 8px 24px 8px 24px;
+}
+
+summary#sum2 {
+    font-size: 20px;
+    color: #ebc;
+    margin: 8px 32px 8px 32px;
+}
+
+summary#sum3 {
+    font-size: 18px;
+    color: #bce;
     margin: 8px 40px 8px 40px;
 }
 
@@ -40,18 +62,20 @@ h1,h2,h3,h4,h5 {
 }
 
 h1 {
-    margin: 28px 8px 24px 8px;
+    margin: 0px 0px 24px 0px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     text-align: center;
     font-weight: 300;
-    font-size: 32px;
-    color: #339;
-    background-color: #cfc;
+    font-size: 36px;
+    color: #933;
+    background-color: #cbe;
 }
 
 h2 {
     font-size: 26px;
-    margin: 20px 24px 12px 24px;
-    color: #9cc;
+    margin: 48px 24px 12px 24px;
+    color: #f66;
 }
 
 h2.subhead {
@@ -83,33 +107,23 @@ h5 {
 
 }
 
-summary.sum1 {
-    font-size: 1.7em;
-    color: #e69;
-    margin: .8em 1.2em .8em 1.2em;
+.vim_key {
+    color: #e0e
+    font-weight: bold;
 }
 
-summary.sum2 {
-    font-size: 1.6em;
-    color: #137;
-    margin: .6em 1.2em .6em 2em;
+figure {
+    text-align: center;
 }
 
-summary.sum3 {
-    font-size: 1.5em;
-    color: #339;
-    margin: .4em 1.2em .4em 2.8em;
+figure#topfig {
+    margin: 0px 0px 0px 0px;
 }
 
-summary.sum4 {
-    font-size: 1.4em;
-    color: #903;
-    margin: .4em 1.2em .4em 2.8em;
+figcaption {
+    font-size: 12px;
+    color: #fef;
+    font-style: italic;
+    text-align: center;
+    margin: 16px 20px 12px 20px;
 }
-
-summary.menu_sum {
-    font-size: 1.4em;
-    color: #639;
-    margin: .5em 0em .5em 0em;
-}
-
