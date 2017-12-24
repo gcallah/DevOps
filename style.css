@@ -80,8 +80,8 @@ dt {
     height: 3em;
     padding: .5em 2em;
     line-height: 2em;
-    background-color: #9fb;
-    color: #448;
+    background-color: #cbe;
+    color: #933;
     overflow: hidden;
 }
 
@@ -103,7 +103,7 @@ h1 {
     padding-top: .8em;
     text-align: center;
     font-weight: 300;
-    font-size: 2.2em;
+    font-size: 2.4em;
     color: #933;
     background-color: #cbe;
 }
@@ -117,9 +117,9 @@ h1.chap-title {
 }
 
 h2 {
-    font-size: 1.8em;
-    margin: 1.2em 1em .6em 1em;
-    color: #e24;
+    font-size: 1.9em;
+    margin: 1.2em 1em .6em 4em;
+    color: #d59;
 }
 
 h2.subhead {
@@ -130,7 +130,7 @@ h2.subhead {
 h3 {
     font-size: 1.6em;
     margin: 1em 1.4em .6em 1.4em;
-    color: #ecb;
+    color: #ebd;
     font-weight: bold;
 }
 
@@ -190,7 +190,7 @@ p.leadquote {
     text-align: center;
     margin: 1em 1em 1em 2em;
     font-size: 1.4em;
-    color: #9eb;
+    color: #9dc;
 }
 
 p.def {

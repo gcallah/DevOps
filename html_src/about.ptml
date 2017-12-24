@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            About this site
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            About this site
+        </h1>
+
+        <p>
+            A site for a DevOps course, built by Dr. Eugene Callahan
+            and his Spring 2018 DevOps class at NYU Tandon.
+        </p>
+
+
+    </body>
+</html>
