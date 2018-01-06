@@ -4,19 +4,19 @@
         <meta charset="UTF-8">
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <title>
-            About this site
+            Workflow management
         </title>
     </head>
 
     <body>
 <!--include menu.txt -->
         <h1>
-            About this site
+            Workflow management
         </h1>
 
         <p>
-            A site for a DevOps course, built by Dr. Eugene Callahan
-            and his Spring 2018 DevOps class at NYU Tandon.
+            This page will highlight our use of tools such as Slack, Trello,
+            and Kanban boards management.
         </p>
 
 
