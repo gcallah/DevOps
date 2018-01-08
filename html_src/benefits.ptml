@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            DevOps Benefits
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+
+        <h1>
+            DevOps Benefits
+        </h1>
+
+        <p>
+        "In the 2017 State of DevOps report, Puppet found that high-performing
+        DevOps teams had:
+        </p>
+        <ul class="nested">
+            <li>
+                46 times more frequent code deployments
+            </li>
+            <li>
+                440 times faster lead time from commit to deploy
+            </li>
+            <li>
+                96 times faster mean time to recover from downtime
+            </li>
+            <li>
+                5 times lower change failure rate (changes are 1/5 as likely to
+                fail)"
+            </li>
+        </ul>
+
+        <p>
+            (Source: <a
+                                                href="https://stackify.com/top-devops-blogs/">Stackify</a>.)
+        </p>
+
+    </body>
+</html>
