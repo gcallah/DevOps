@@ -88,6 +88,12 @@
                             Agile Courseware
                         </a>
                     </li>
+                    <li>
+                        <a href="http://www.thedevopscourse.com/devops/">
+                            The Django site: the course will manage a cutover
+                            to here!
+                        </a>
+                    </li>
                 </ul>
 
             </details>
