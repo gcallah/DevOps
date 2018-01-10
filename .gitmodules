@@ -2,3 +2,35 @@
 	path = utils
 	url = https://github.com/gcallah/utils.git
 	branch = master
+[submodule "DevOpsWorkflow"]
+	path = DevOpsWorkflow
+	url = https://github.com/gcallah/DevOpsWorkflow.git
+	branch = master
+[submodule "DevOpsUX"]
+	path = DevOpsUX
+	url = https://github.com/gcallah/DevOpsUX.git
+	branch = master
+[submodule "DevOpsTesting"]
+	path = DevOpsTesting
+	url = https://github.com/gcallah/DevOpsTesting.git
+	branch = master
+[submodule "DevOpsSecurity"]
+	path = DevOpsSecurity
+	url = https://github.com/gcallah/DevOpsSecurity.git
+	branch = master
+[submodule "DevOpsMonitoring"]
+	path = DevOpsMonitoring
+	url = https://github.com/gcallah/DevOpsMonitoring.git
+	branch = master
+[submodule "DevOpsDeployment"]
+	path = DevOpsDeployment
+	url = https://github.com/gcallah/DevOpsDeployment.git
+	branch = master
+[submodule "DevOpsCoding"]
+	path = DevOpsCoding
+	url = https://github.com/gcallah/DevOpsCoding.git
+	branch = master
+[submodule "DevOpsCloud"]
+	path = DevOpsCloud
+	url = https://github.com/gcallah/DevOpsCloud.git
+	branch = master
