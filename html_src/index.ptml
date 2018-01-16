@@ -130,36 +130,28 @@
 
             <details>
                 <summary class="sum2">
-                    Workflow: DevOps as a Way of Work
+                    Monitoring
                 </summary>
 
                 <ul class="nested">
                     <li>
-                        <a href="cooperating.html">
-                            DevOps: A Way of Cooperative Production
+                        <a href="monitoring/links.html">
+                            Monitoring links
                         </a>
                     </li>
                     <li>
-                        <a href="divOfLabor.html">
-                            DevOps and the Division of Labor
+                        <a href="monitoring/theory.html">
+                            Monitoring theory
                         </a>
                     </li>
-    
                     <li>
-                        <a href="http://dev2ops.org/2010/02/what-is-devops/">
-                            What Is DevOps?
+                        <a href="monitoring/tools.html">
+                            Monitoring tools
                         </a>
                     </li>
-
                     <li>
-                        <a href="benefits.html">
-                            DevOps Benefits
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="workflow.html">
-                            Workflow Management
+                        <a href="monitoring/implementation.html">
+                            Our monitoring implementation
                         </a>
                     </li>
                 </ul>
@@ -169,17 +161,82 @@
                 <summary class="sum2">
                     Security: Rugged DevOps
                 </summary>
+                <ul class="nested">
+                    <li>
+                        <a href="security/links.html">
+                            Security links
+                        </a>
+                    </li>
+                    <li>
+                        <a href="security/theory.html">
+                            Security theory
+                        </a>
+                    </li>
+                    <li>
+                        <a href="security/tools.html">
+                            Security tools
+                        </a>
+                    </li>
+                    <li>
+                        <a href="security/implementation.html">
+                            Our security implementation
+                        </a>
+                    </li>
+                </ul>
             </details>
 
             <details>
                 <summary class="sum2">
-                    Monitoring
+                    Testing
+                </summary>
+                <ul class="nested">
+                    <li>
+                        <a href="testing/links.html">
+                            Testing links
+                        </a>
+                    </li>
+                    <li>
+                        <a href="testing/theory.html">
+                            Testing theory
+                        </a>
+                    </li>
+                    <li>
+                        <a href="testing/tools.html">
+                            Testing tools
+                        </a>
+                    </li>
+                    <li>
+                        <a href="testing/implementation.html">
+                            Our testing implementation
+                        </a>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    Workflow: DevOps as a Way of Work
                 </summary>
 
                 <ul class="nested">
                     <li>
-                        <a href="monitoring.html">
-                            Monitoring links
+                        <a href="workflow/links.html">
+                            Workflow links
+                        </a>
+                    </li>
+                    <li>
+                        <a href="workflow/theory.html">
+                            Workflow theory
+                        </a>
+                    </li>
+                    <li>
+                        <a href="workflow/tools.html">
+                            Workflow tools
+                        </a>
+                    </li>
+                    <li>
+                        <a href="workflow/implementation.html">
+                            Our workflow implementation
                         </a>
                     </li>
                 </ul>
