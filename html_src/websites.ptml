@@ -15,6 +15,12 @@
         </h1>
         <ul class="nested">
             <li>
+                <a href="https://www.arresteddevops.com">
+                    Arrested DevOps
+                </a>
+            </li>
+
+            <li>
                 <a href="https://devops.com">
                     DevOps.com
                 </a>
