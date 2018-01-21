@@ -59,7 +59,7 @@ ol, ul, dl, li {
     font-size: 1.4em;
 }
 
-ol.centered, ul.centered {
+ol.centered, ul.centered dl.centered {
     text-align: center;
     list-style-position: inside;
     font-size: 1em;

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Kanban: Work Is a Flow, Not a Stock
+        </title>
+    </head>
+
+    <body>
+        <h1>
+            Kanban: Work Is a Flow, Not a Stock
+        </h1>
+
+        <p>
+            Too often, people come to believe they are productive because they
+            are <i>doing</i> lots of things. If you asked them for evidence of
+            their productivity, they would show you all of the tasks "on their
+            plate," i.e., their to-do list.
+        </p>
+
+        <p>
+           This brings us to the distinction in economics between "stocks" and
+           "flows."
+        </p>
+
+    </body>
+</html>
