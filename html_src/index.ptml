@@ -34,7 +34,7 @@
             The Three Ways of DevOps
         </h2>
 
-        <ol>
+        <ol class="nested">
             <li>
                 The Technical Practices of Flow
             </li>
