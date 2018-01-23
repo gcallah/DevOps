@@ -10,6 +10,7 @@ HTMLFILES = $(shell ls $(PTML_DIR)/*.ptml | sed -e 's/.ptml/.html/' | sed -e 's/
 %.html: $(PTML_DIR)/%.ptml $(INCS)
 	python3 utils/html_checker.py $<
 	utils/html_include.awk <$< >$@
+	git add $@
 
 website: $(INCS) $(HTMLFILES)
 	-git commit -a -m "Website rebuild."

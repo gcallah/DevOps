@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Kanban: Work Is a Flow, Not a Stock
+        </title>
+    </head>
+
+    <body>
+        <h1>
+            Kanban: Work Is a Flow, Not a Stock
+        </h1>
+
+        <figure>
+            <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kanban_board_example.jpg/220px-Kanban_board_example.jpg">
+            <figcaption>
+                A sample kanban board
+            </figcaption>
+        </figure>
+        <p>
+            Too often, people come to believe they are productive because they
+            are <i>doing</i> lots of things. If you asked them for evidence of
+            their productivity, they would show you all of the tasks "on their
+            plate," i.e., their to-do list.
+        </p>
+
+        <p>
+           This brings us to the distinction in economics between "stocks" and
+           "flows." Certain things in economics, such as the number of
+           factories a business owns, or the amount of capital an investor has
+           on hand, are a stock: what we are looking to measure here is an
+           amount that exists at a certain point in time. But other economic
+           phenomena are better understood as a flow: e.g., our companies
+           factories can produce 100 automobiles <i>per hour</i>, or an investor's
+           capital produces a 5% return <i>per year</i>.
+        </p>
+
+        <p>
+            The point of
+            <a href="https://en.wikipedia.org/wiki/Kanban_board">kanban boards</a>
+            is to emphasize that one's productivity
+            is a flow, and not a stock. One is productive to the extent that
+            one moves products further down the <a
+            href="https://en.wikipedia.org/wiki/Value_stream">value
+            stream</a>, and not to the extent that one has stacked up lots of
+            unfinished projects at one's work station.
+        </p>
+
+    </body>
+</html>

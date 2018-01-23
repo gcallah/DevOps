@@ -30,6 +30,31 @@
             teams make the switch." -- DevOps.com
         </p>
 
+        <div style="text-align:center">
+            <h2>
+                The Three Ways of DevOps
+            </h2>
+    
+            <figure>
+                <img src="https://www.pinkelephantasia.com/wp-content/uploads/2017/07/The-Three-Ways-The-Third-Way-768x206.png">
+                <figcaption>
+                </figcaption>
+            </figure>
+    
+            <ol class="centered">
+                <li>
+                    The Technical Practices of Flow
+                </li>
+    
+                <li>
+                    The Technical Practices of Feedback
+                </li>
+    
+                <li>
+                    The Technical Practices of Continual Learning
+                </li>
+            </ol>
+        </div>
 
         <h2>
             Major Areas of Coverage

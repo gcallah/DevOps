@@ -15,6 +15,12 @@
         </h1>
         <ul class="nested">
             <li>
+                <a href="https://www.arresteddevops.com">
+                    Arrested DevOps
+                </a>
+            </li>
+
+            <li>
                 <a href="https://devops.com">
                     DevOps.com
                 </a>
@@ -35,10 +41,6 @@
             <li>
                 <a href="https://www.devopsguys.com/">
                     DevOpsGuys
-                </a>
-                <br />
-                <a href="https://www.devopsguys.com/2018/01/10/puppet-vs-ansible/">
-                    Puppet vs. Ansible
                 </a>
             </li>
         </ul>
