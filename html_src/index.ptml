@@ -70,11 +70,32 @@
                 <summary class="sum2">
                     Build
                 </summary>
+
+                <ul class="nested">
+                    <li>
+                        <a href="build/links.html">
+                            Build links
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="build/theory.html">
+                            Build theory
+                        </a>
+                    </li>
+
                     <li>
                         <a href="build/tools.html">
                             Build tools
                         </a>
                     </li>
+
+                    <li>
+                        <a href="build/implementation.html">
+                            Our build implementation
+                        </a>
+                    </li>
+                </ul>
 
                 <summary class="sum2">
                     Cloud 
