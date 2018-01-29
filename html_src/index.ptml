@@ -108,16 +108,19 @@
                             Cloud links
                         </a>
                     </li>
+
                     <li>
                         <a href="cloud/theory.html">
                             Cloud theory
                         </a>
                     </li>
+
                     <li>
                         <a href="cloud/tools.html">
                             Cloud tools
                         </a>
                     </li>
+
                     <li>
                         <a href="cloud/implementation.html">
                             Our cloud implementation
@@ -138,16 +141,19 @@
                             Coding links
                         </a>
                     </li>
+                    
                     <li>
                         <a href="coding/theory.html">
                             Coding theory
                         </a>
                     </li>
+                    
                     <li>
                         <a href="coding/tools.html">
                             Coding tools
                         </a>
                     </li>
+                    
                     <li>
                         <a href="coding/implementation.html">
                             Our coding implementation
@@ -166,16 +172,19 @@
                             Deployment links
                         </a>
                     </li>
+                    
                     <li>
                         <a href="deployment/theory.html">
                             Deployment theory
                         </a>
                     </li>
+                    
                     <li>
                         <a href="deployment/tools.html">
                             Deployment tools
                         </a>
                     </li>
+                    
                     <li>
                         <a href="deployment/implementation.html">
                             Our deployment implementation
@@ -195,16 +204,19 @@
                             Monitoring links
                         </a>
                     </li>
+                    
                     <li>
                         <a href="monitoring/theory.html">
                             Monitoring theory
                         </a>
                     </li>
+                    
                     <li>
                         <a href="monitoring/tools.html">
                             Monitoring tools
                         </a>
                     </li>
+                    
                     <li>
                         <a href="monitoring/implementation.html">
                             Our monitoring implementation
@@ -223,16 +235,19 @@
                             Security links
                         </a>
                     </li>
+                    
                     <li>
                         <a href="security/theory.html">
                             Security theory
                         </a>
                     </li>
+                    
                     <li>
                         <a href="security/tools.html">
                             Security tools
                         </a>
                     </li>
+                    
                     <li>
                         <a href="security/implementation.html">
                             Our security implementation
@@ -251,16 +266,19 @@
                             Testing links
                         </a>
                     </li>
+                    
                     <li>
                         <a href="testing/theory.html">
                             Testing theory
                         </a>
                     </li>
+                    
                     <li>
                         <a href="testing/tools.html">
                             Testing tools
                         </a>
                     </li>
+                    
                     <li>
                         <a href="testing/implementation.html">
                             Our testing implementation
@@ -280,16 +298,19 @@
                             Workflow links
                         </a>
                     </li>
+                    
                     <li>
                         <a href="workflow/theory.html">
                             Workflow theory
                         </a>
                     </li>
+                    
                     <li>
                         <a href="workflow/tools.html">
                             Workflow tools
                         </a>
                     </li>
+                    
                     <li>
                         <a href="workflow/implementation.html">
                             Our workflow implementation
