@@ -32,7 +32,7 @@
         <p>
             The first thing we are going to document is how to setup your 
             clone of an existing submodule. 
-            <br />
+       <!--      <br />
             Here is a screenshot of that step:
         </p>
 
@@ -42,7 +42,37 @@
                 Screen shot submodule init
             </figcaption>
         </figure>
-        
+ -->
+        <p>
+            If you need to add a submodule whether for first time or again, 
+            it is actually easier than some of the online document that suggest.
+            For instance, to add TheDevOpsCourse to DevOps, you would just 
+            run:
+            <br/><br/>
+            <!-- git submodule add git@github.com:gcallah/DevOps.git  -->
+            git submodule add https://github.com/gcallah/TheDevOpsCourse.git
+            <br/>
+            (Clone string of git webpage)
+            <br/>
+
+            <figure>
+            <img src="graphics/AddSubModule.png" width ="1250">
+            <figcaption>
+                Screenshot - Adding a Submodule
+            </figcaption>
+            </figure>
+        </p>
+        <p>
+            Sometimes a submodule can be corrupted and will have to be removed. This process is difficult !
+
+            <figure>
+            <img src="graphics/RemoveSubModule.png" width ="1250">
+            <figcaption>
+                Screenshot - Deleting a Submodule
+            </figcaption>
+            </figure>
+
+        </p>
 
     </body>
 </html>
