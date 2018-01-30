@@ -2,6 +2,3 @@
 	path = utils
 	url = https://github.com/gcallah/utils.git
 	branch = master
-[submodule "TheDevOpsCourse"]
-	path = TheDevOpsCourse
-	url = https://github.com/gcallah/TheDevOpsCourse.git
