@@ -29,16 +29,28 @@
             <li>
                 <i>A Pattern Language</i>,
                 Christopher Alexander
+                <br />
+                <span class="review">
+                Reviewers: 
+                </span>
             </li>
 
             <li>
                 <i>Antifragile</i>,
                 Nassim Nicholas Taleb
+                <br />
+                <span class="review">
+                Reviewers: 
+                </span>
             </li>
 
             <li>
                 <i>Continuous Delivery</i>,
                 Jez Humble and David Farley
+                <br />
+                <span class="review">
+                Reviewers: Sneha Ghosh, Ravish Bhatia
+                </span>
             </li>
 
             <li>
@@ -78,6 +90,11 @@
             </li>
 
             <li>
+                <i>Lean Software Development: An Agile Toolkit</i>,
+                Mary and Tom Poppendieck
+            </li>
+
+            <li>
                 <i><a
                 href="https://itrevolution.com/book/making-work-visible/">
                         Making Work Visible</a></i>,
@@ -92,8 +109,7 @@
 
             <li>
                 "<a
-                        href="http://www.cs.nott.ac.uk/~pszcah/G51ISS/Documents/NoSilverBullet.html">
-                        No Silver Bullet</a>,"
+                        href="http://www.cs.nott.ac.uk/~pszcah/G51ISS/Documents/NoSilverBullet.html">No Silver Bullet</a>,"
                 Fred Brooks
             </li>
 
