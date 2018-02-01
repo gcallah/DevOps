@@ -344,6 +344,13 @@
                             DevOps reading list
                         </a>
                     </li>
+        
+                    <li>
+                        <a href="journals/index.html">
+                            Our DevOps journals
+                        </a>
+                    </li>
+
                     <li>
                         <a href="http://www.thedevopscourse.com/devops/">
                             The Django site: the course will manage a cutover
