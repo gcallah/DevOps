@@ -29,21 +29,42 @@
             <li>
                 <i>A Pattern Language</i>,
                 Christopher Alexander
+                <br />
+                <span class="review">
+                Reviewers: 
+                </span>
             </li>
 
             <li>
                 <i>Antifragile</i>,
                 Nassim Nicholas Taleb
+                <br />
+                <span class="review">
+                Reviewers: 
+                </span>
             </li>
 
             <li>
                 <i>Continuous Delivery</i>,
                 Jez Humble and David Farley
+                <br />
+                <span class="review">
+                Reviewers: Sneha Ghosh, Ravish Bhatia
+                </span>
             </li>
 
             <li>
                 <i>DevOps Case Studies</i>,
                 The IT Revolution
+            </li>
+
+            <li>
+                <i>Docker Up and Running</i>,
+                Karl Matthias and Sean P. Kane
+                <br />
+                <span class="review">
+                Reviewers: 
+                </span>
             </li>
 
             <li>
@@ -72,9 +93,23 @@
             </li>
 
             <li>
+                <i>Kubernetes Up and Running</i>,
+                Kelsey Hightower, Brendan Burns, and Joe Beda
+                <br />
+                <span class="review">
+                Reviewers: 
+                </span>
+            </li>
+
+            <li>
                 <i>Leading the Transformation: Applying Agile and DevOps Principles
                 at Scale</i>,
                 Gary Gruver and Tommy Mouser
+            </li>
+
+            <li>
+                <i>Lean Software Development: An Agile Toolkit</i>,
+                Mary and Tom Poppendieck
             </li>
 
             <li>
@@ -92,8 +127,7 @@
 
             <li>
                 "<a
-                        href="http://www.cs.nott.ac.uk/~pszcah/G51ISS/Documents/NoSilverBullet.html">
-                        No Silver Bullet</a>,"
+                        href="http://www.cs.nott.ac.uk/~pszcah/G51ISS/Documents/NoSilverBullet.html">No Silver Bullet</a>,"
                 Fred Brooks
             </li>
 
@@ -105,6 +139,24 @@
             <li>
                 <i>Practical DevOps</i>,
                 Joakim Verona
+            </li>
+
+            <li>
+                <i>Release It!</i>,
+                Michael T. Nygard
+                <br />
+                <span class="review">
+                Reviewers: 
+                </span>
+            </li>
+
+            <li>
+                <i>Rugged DevOps</i>,
+                The Rugged Summit
+                <br />
+                <span class="review">
+                Reviewers: Arun Kuruvilla
+                </span>
             </li>
 
             <li>
@@ -158,6 +210,15 @@
                 <i>Toyota Production System: an Integrated Approach to
                     Just-in-Time</i>,
                 Yasuhiro Monden
+            </li>
+
+            <li>
+                <i>Version Control with Git</i>,
+                John Loeliger and Matthew McCullough
+                <br />
+                <span class="review">
+                Reviewers: 
+                </span>
             </li>
 
         </ul>

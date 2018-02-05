@@ -233,6 +233,11 @@ figcaption {
     margin: .8em 1em .6em 1em;
 }
 
+span.review {
+    color: #ced;
+    font-size: .8em;
+}
+
 span.frac {
   display: inline-block;
   text-align: center;
