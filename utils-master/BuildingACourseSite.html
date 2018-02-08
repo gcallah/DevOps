@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Building a Course Site
+        </title>
+    </head>
+
+    <body>
+        <h1>
+            Building a Course Site
+        </h1>
+
+        <p>
+        What follows are the steps needed to build a course site with 
+        our current course building system.
+        </p>
+
+        <ul>
+            <li>
+                Each course contains a <i>makefile</i> in its main directory.
+                This uses the <i>
+                    <a href="https://en.wikipedia.org/wiki/Make_(software)">make
+                    </a>
+                </i>
+                utility and a number of rules
+                to build various targets. We will discuss two targets here:
+                <i>local</i> and <i>website</i>.
+            </li>
+            <li>
+                Our courses use "ptml" files (pre-html) to include
+                various common or script-generated components in
+                target html files. Always edit a ptml file, not an 
+                html file.
+            </li>
+            <li>
+                After editing the ptml file, run 'make local' to build
+                the html file. This will run an html-code checker first,
+                and then run an AWK script that includes other content
+                than the ptml file in the final product (the html file).
+                If the code checker reports errors, the build will
+                stop, and you will have to fix the errors before
+                the html file will build.
+            </li>
+            <li>
+                Once you get a good build, test your local version of
+                the html file in a browser (by using
+                'file:///path-to-your-file') and see if it looks
+                like you want it to. Check links, make sure images
+                load, videos play, etc.
+            </li>
+            <li>
+                Once you have verified your work is correct, you
+                can re-build the online website by running
+                'make website'.
+            </li>
+            <li>
+                The final step is to check the online version and
+                make sure it, too, works as you intended.
+            </li>
+        </ul>
+
+    </body>
+</html>
