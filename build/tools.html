@@ -14,24 +14,58 @@
         </h1>
 
         <p>
-            Here are some of the major build
-            tools and their features:
+            A "Build tool" is a single term that refers to anything that is needed
+             to get a piece of software set up, but isn't needed after that. There 
+             are numerous number of build tools each having a different set of 
+             tradeoffs associated with them. Here are some of the major build tools 
+             and their features:
         </p>
 
         <ul class="nested">
             <li>
-                Make
+                Make - Make was first created in 1976, but the variants of this build 
+                tool are still going strong in today’s world of system development. In 
+                make we have to specify dependency followed by a rule to resolve those 
+                dependencies. It is a powerful product oriented tool which is highly capable
+                of tracking dependencies within a build and building only those parts/components
+                that have been updated/changed. Thus helping in optimizing performance whereby
+                compilation time is crucial in development cycles. The drawback of this
+                tool is that with increase in the rise of complexity, the number of dependency
+                between their component also increases causing the rules even more complex 
+                making it really hard to debug. To make things better for this drawback we
+                regularly see teams making a MakeFile in each sub-directory and a top level 
+                MakeFile. The top level MakeFile recursively runs the subdirectories 
+                resulting in the build information and processes to spread over many files.
+                The other drawbacks of this tool is that due to significant amount of
+                whitespaces it makes it susceptible to hard-to-find class of bugs.
+                Make are aksi OS specific. Many people have started using SCons instead of Make.
             </li>
 
             <li>
-                Maven
+                Maven - 
             </li>
 
             <li>
-                Ant
+                Ant - Ant is a Task oriented build tool which was first released in 2000. The 
+                limitations found in Make tool led to the Java Community to experiment different
+                solutions such as porting Make to Java. At this same time XML was coming up into 
+                prominence as a build tool. Combining the power of both these approaches led to 
+                the Apache Ant build tool. Being fully cross platform , a set of instructions 
+                are writted in Java to basic operations like compilation and file manipulation. 
+                Besides being cross-platform it is also an extremely flexible and powerful system,
+                with Ant Tasks for most things we want to do. Despite of being powerful, 
+                it comes with certain drawbacks namely the build scripts have to be written 
+                in XML (not quite pleasant for human readability), a lot of time has to be spent
+                in performing tasks (writing boiler plate to compile, create jars, run tests etc)
+                due to lack of a real domain concept. Ant files are poorly factored and tend to
+                get really long, it wont be surprising if we see thousands of lines long. 
             </li>
 
         </ul>
 
     </body>
 </html>
+
+
+
+ 
