@@ -160,6 +160,15 @@
             </li>
 
             <li>
+                <i>Site Reliability Engineering</i>,
+                Betsy Beyer
+                <br />
+                <span class="review">
+                Reviewers: 
+                </span>
+            </li>
+
+            <li>
                 <i>Software Tools in Pascal</i>,
                 Brian Kernighan and P.J. Plauger
             </li>
