@@ -13,78 +13,86 @@
             Our Build Implementation
         </h1>
 
-        <p>
-        </p>
-
 
         <h2>
-            Building and Git Submodules
+            Topics
         </h2>
 
-        <p>
-            We rely on git submodules in several areas of our 
-            <a href="https://gcallah.github.io/AgileCourseware/index.html">agile courseware</a> program.
-            But this dependence can be tricky: while git supports submodules,
-            it often does not seem to "like" doing so! Here we will write up
-            some problems we've hit in that area.
-        </p>
-
-        <p>
-
-        </p>
-
-        <p>
-            The first thing we are going to document is how to clone from a repository.
-            We need to open our terminal and cd into the file we want to clone our repository in. Once we have done that
-            <!-- In the screenshot shown below we have have cd into a directory called clone which is located on my Desktop. -->
-			we run the following command:<br/>
-            <code>
-        	git clone https://github.com/gcallah/DevOps.git
-        	</code>
-        	<br/>
-            (That last parameter is the clone string you get from the GitHub webpage shown below in the second screenshot.)
-            <br/>
-        </p>
+        <details>
+            <summary class="sum2">
+                Building and Git Submodules
+            </summary>
+    
+            <p>
+                We rely on git submodules in several areas of our 
+                <a href="https://gcallah.github.io/AgileCourseware/index.html">agile courseware</a> program.
+                But this dependence can be tricky: while git supports submodules,
+                it often does not seem to "like" doing so! Here we will write up
+                some problems we've hit in that area.
+            </p>
+    
+            <p>
+    
+            </p>
+    
+            <p>
+                The first thing we are going to document is how to clone from a
+                repository.
+                We need to open our terminal and cd into the file we want to clone
+                our repository in. Once we have done that
+                <!-- In the screenshot shown below we have have cd into a
+                    directory called clone which is located on my Desktop. -->
+    			we run the following command:<br/>
+                <code>
+            	git clone https://github.com/gcallah/DevOps.git
+            	</code>
+            	<br/>
+                (That last parameter is the clone string you get from the GitHub
+                webpage shown below in the second screenshot.)
+            </p>
+    
         	<figure>
             <img src="graphics/Clone.png" width ="1250">
             <figcaption>
                 Screenshot - Cloning a Repository.
             </figcaption>
             </figure>
-       <br/>
+           <br/>
         	<figure>
             <img src="graphics/GithubWebPage.png" width ="1250">
             <figcaption>
                 Screenshot - Github Webpage.
             </figcaption>
             </figure>
-        
-
-        
-
-        <p>
-            If you need to add a submodule whether for first time or again, 
-            it is actually easier than some of the online document that suggest.
-            For instance, to add TheDevOpsCourse to DevOps, you would just 
-            run:
-            <br/>
-        <p>
-            <code>
-            git submodule add https://github.com/gcallah/TheDevOpsCourse.git
-            </code>
-            <br/>
-            (That last parameter is the clone string you get from the GitHub webpage.)
-            <br/>
-        </p>
+    
+            <p>
+                If you need to add a submodule whether for first time or again, 
+                it is actually easier than some of the online document that suggest.
+                For instance, to add TheDevOpsCourse to DevOps, you would just 
+                run:
+            </p>
+    
+            <p>
+                <code>
+                git submodule add https://github.com/gcallah/TheDevOpsCourse.git
+                </code>
+                <br/>
+                (That last parameter is the clone string you get from the
+                GitHub webpage.)
+                <br/>
+            </p>
+    
             <figure>
             <img src="graphics/AddSubModule.png" width ="1250">
             <figcaption>
                 Screenshot - Adding a Submodule
             </figcaption>
             </figure>
-        </p>
-        <p>
-            Sometimes a submodule can be corrupted and will have to be removed. This process is difficult !
+            
+            <p>
+                Sometimes a submodule can be corrupted and will have to be removed.
+                This process is difficult !
+            </p>
 
             <figure>
             <img src="graphics/RemoveSubModule.png" width ="1250">
@@ -92,8 +100,8 @@
                 Screenshot - Deleting a Submodule
             </figcaption>
             </figure>
+        </details>
 
-        </p>
 
     </body>
 </html>
