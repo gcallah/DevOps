@@ -2,21 +2,20 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
         <title>
-            About this site
+            Testing makefile
         </title>
     </head>
 
     <body>
 <!--include menu.txt -->
         <h1>
-            About this site
+            Testing makefile
         </h1>
 
         <p>
-            A site for a DevOps course, built by Dr. Eugene Callahan
-            and his Spring 2018 DevOps class at NYU Tandon.
+            Test our new makefiles!
         </p>
 
         <figure>
