@@ -1,0 +1,15 @@
+# Need to export as ENV var
+export TEMPLATE_DIR = ../templates
+export QUIZ_DIR = ../quizzes
+PTML_DIR = html_src
+INCS = $(TEMPLATE_DIR)/menu.txt 
+UTILS_DIR = ../utils
+
+HTMLFILES = $(shell ls $(PTML_DIR)/*.ptml | sed -e 's/.ptml/.html/' | sed -e 's/html_src\///')
+
+%.html: $(PTML_DIR)/%.ptml $(INCS)
+	python3 $(UTILS_DIR)/html_checker.py $<
+	$(UTILS_DIR)/html_include.awk <$< >$@
+
+local: $(HTMLFILES)
+

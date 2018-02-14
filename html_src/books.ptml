@@ -56,7 +56,11 @@
             <li>
                 <i>DevOps Case Studies</i>,
                 The IT Revolution
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers: 
                 </span>
@@ -74,7 +78,11 @@
             <li>
                 <i>Domain-Driven Design</i>,
                 Eric Evans
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers: 
                 </span>
@@ -83,7 +91,11 @@
             <li>
                 <i>Effective DevOps</i>,
                 Jennifer Davis and Katherine Daniels
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers: 
                 </span>
@@ -92,7 +104,11 @@
             <li>
                 <i>Implementing Lean Software Development</i>,
                 Mary and Tom Poppendieck, Jeff Sutherland, and Kent Beck
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers: Chaoqun Huang, Qiwei Zhou
                 </span>
@@ -101,7 +117,11 @@
             <li>
                 <i>Infrastructure as Code: Managing Servers in the Cloud</i>,
                 Kief Morris
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers: Adit Kumar
                 </span>
@@ -110,7 +130,11 @@
             <li>
                 <i>Just-in-Time for Today and Tomorrow</i>,
                 Taiichi Ohno and Setsuo Mito
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers:
                 </span>
@@ -129,7 +153,11 @@
                 <i>Leading the Transformation: Applying Agile and DevOps Principles
                 at Scale</i>,
                 Gary Gruver and Tommy Mouser
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers:
                 </span>
@@ -138,7 +166,11 @@
             <li>
                 <i>Lean Software Development: An Agile Toolkit</i>,
                 Mary and Tom Poppendieck
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers: Jiawei Wang
                 </span>
@@ -149,7 +181,11 @@
                 href="https://itrevolution.com/book/making-work-visible/">
                         Making Work Visible</a></i>,
                 Dominica DeGrandis
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers:
                 </span>
@@ -159,7 +195,11 @@
                 <i><a href="http://agilemanifesto.org/">
                         Manifesto for Agile Software Development</a></i>,
                 multiple authors
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers: Lili Xu, Yang Lou
                 </span>
@@ -169,7 +209,11 @@
                 "<a
                         href="http://www.cs.nott.ac.uk/~pszcah/G51ISS/Documents/NoSilverBullet.html">No Silver Bullet</a>,"
                 Fred Brooks
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers:
                 </span>
@@ -178,7 +222,11 @@
             <li>
                 <i>Phoenix Project</i>,
                 Gene Kim
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers: Garima Negi, Drumil Kaushik
                 </span>
@@ -187,7 +235,11 @@
             <li>
                 <i>Practical DevOps</i>,
                 Joakim Verona
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers: Pravar Singh, Kanishk Dugar
                 </span>
@@ -223,7 +275,11 @@
             <li>
                 <i>Software Tools in Pascal</i>,
                 Brian Kernighan and P.J. Plauger
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers:
                 </span>
@@ -233,7 +289,11 @@
                 <i><a href="https://www.artofmonitoring.com/">
                         The Art of Monitoring</a></i>,
                 James Turnbull
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers: Tanya Jha
                 </span>
@@ -243,7 +303,11 @@
                 <i>The DevOps Handbook</i>,
                 Gene Kim, Patrick Debois, John Willis, Jez Humble,
                      and John Allspaw
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers: Janiel Atul Patel, Chiquita Ratnakar Prabhu
                 </span>
@@ -252,7 +316,11 @@
             <li>
                 <i>The Machine That Changed the World</i>,
                 James Womack, Daniel Jones, and Daniel Roos
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers: Saniya Alekar
                 </span>
@@ -261,7 +329,11 @@
             <li>
                 <i>The Mythical Man-Month</i>,
                 Fred Brooks
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers:
                 </span>
@@ -270,7 +342,11 @@
             <li>
                 <i>The Principles of Product Development Flow</i>,
                 Donald G. Reinersten
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers:
                 </span>
@@ -279,7 +355,11 @@
             <li>
                 <i>The Timeless Way of Building</i>,
                 Christopher Alexander
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers:
                 </span>
@@ -288,7 +368,11 @@
             <li>
                 <i>The UNIX Programming Environment</i>,
                 Brian Kernighan and Rob Pike
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers: Srinivas, Arun Kuruvilla
                 </span>
@@ -298,12 +382,20 @@
                 <a href="http://www.econlib.org/library/Essays/hykKnw1.html">
                     "The Use of Knowledge in Society</a>,"
                 F.A. Hayek
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers: Linfeng Wang, Lingjung Zhang
                 </span>
             </li>
+<<<<<<< HEAD
 			<li>
+=======
+            <li>
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <i>The Web Application Hacker's Handbook: Discovering and Exploiting Security Flaws</i>
                 <br />
                 <span class="review">
@@ -314,7 +406,11 @@
                 <i>Toyota Production System: an Integrated Approach to
                     Just-in-Time</i>,
                 Yasuhiro Monden
+<<<<<<< HEAD
 				<br />
+=======
+                <br />
+>>>>>>> af3db11b3a7f0e07a44f717ed4d0e564d1123c73
                 <span class="review">
                 Reviewers: Datta Dwarampudi
                 </span>
