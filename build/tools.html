@@ -38,15 +38,12 @@
                 resulting in the build information and processes to spread over many files.
                 The other drawbacks of this tool is that due to significant amount of
                 whitespaces it makes it susceptible to hard-to-find class of bugs.
-                Make are aksi OS specific. Many people have started using SCons instead of Make.
+                Make is also OS specific since it relies on shell scripting. Many developers
+                have started using SCons instead of Make.
             </li>
 
             <li>
-                Maven - 
-            </li>
-
-            <li>
-                Ant - Ant is a Task oriented build tool which was first released in 2000. The 
+                Ant - Ant is a task oriented build tool which was first released in 2000. The 
                 limitations found in Make tool led to the Java Community to experiment different
                 solutions such as porting Make to Java. At this same time XML was coming up into 
                 prominence as a build tool. Combining the power of both these approaches led to 
@@ -59,6 +56,21 @@
                 in performing tasks (writing boiler plate to compile, create jars, run tests etc)
                 due to lack of a real domain concept. Ant files are poorly factored and tend to
                 get really long, it wont be surprising if we see thousands of lines long. 
+            </li>
+
+            <li>
+                Maven - Maven is another build tool that was released in 2004. Maven was built 
+                with the goal to improve on the problems that were faced while using the Ant tool.
+                Maven still has use of XML but relatively less when compared to the Ant tool. Maven 
+                guaranties that it will perform any kind of build, deploy, test and release task with a
+                single command as long as we conform to the structure dictated by Maven. The disadavntage 
+                lies in the fact that we have to conform to the Maven structure, if we dont follow the 
+                Maven structure then it is almost impossible to make Maven do what we want. Another 
+                disadvantage lies in the fact that it uses an external DSL (Domain Specific Language) 
+                written in XML, which means that if we want to extend it then we have to spend a lot of time 
+                learning something extra and making it work. Maven might also end up creating issues since it 
+                continuously tries to automatically upgrade itself every time it runs, this means some 
+                plugins might end up failing and we wont be able to reproduce our builds.
             </li>
 
         </ul>
