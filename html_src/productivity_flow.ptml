@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Productivity Is a Flow, Not a Stock
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Productivity Is a Flow, Not a Stock
+        </h1>
+
+<p>
+I just noticed that it is February, and I already can see I will publish <a
+href="https://gcallah.github.io/BookReviews/index.html">at least seven book
+reviews</a> this year, already tying my best year so far (2016). If I keep my
+pace up, I should be able to knock off between 15 and 20. This is happening as
+I am <i>limiting</i> the number of book reviews I take on.
+</p>
+
+<p>
+And I did this following the <a
+href="https://en.wikipedia.org/wiki/Kanban_(development)">kanban</a> idea of
+limiting work-in-progress, to create flow and avoid waste. I realized that the
+economic distinction between <a
+href="https://en.wikipedia.org/wiki/Stock_and_flow">stocks and flows</a> in
+economics can clarify what is going on here.
+</p>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Stocks_and_Flows.svg/560px-Stocks_and_Flows.svg.png"
+imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
+<img border="0" data-original-height="574" data-original-width="560"
+height="320"
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Stocks_and_Flows.svg/560px-Stocks_and_Flows.svg.png" width="312" />
+</a>
+</div>
+
+<p>
+Too many people, including me a year ago, confuse having a large <i>stock</i>
+of jobs in progress with productivity. In this view, to be productive is to be
+<i>busy</i>. If I was juggling six book reviews, "Boy," I thought, "I sure am
+productive!"
+</p>
+
+<p>
+But productivity is a <i>flow</i>, not a stock! What matters is not how many
+things you are up to, but how many <i>finished products</i>* are coming out of
+your "workstation." And perhaps paradoxically, we can often increase our
+<i>flow</i> by decreasing our <i>stock</i>: our work tends to behave somewhat
+like a highway: the highway can deliver more cars from point A to point B by
+putting more cars on the highway, <i>up to a certain point</i>. But beyond that
+point, we start to get traffic jams, and if we fill the highway with as many
+cars as it will fit, traffic comes to almost a complete stop.
+</p>
+
+<p>
+If you want to be productive, aim to maximize the flow of work through your
+hands, not the amount of work you take on.
+</p>
+
+<hr />
+
+<p>
+* Or at least products with <i>your</i> part finished, if you work in
+cooperative production of some final product.
+</p>
+
+    </body>
+</html>
