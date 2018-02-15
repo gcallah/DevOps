@@ -1,3 +1,6 @@
+# This is the makefile that runs in EACH sub-directory.
+# It lives here in the top level, and is soft linked to the 
+# sub-directories.
 # Need to export as ENV var
 export TEMPLATE_DIR = ../templates
 export QUIZ_DIR = ../quizzes
