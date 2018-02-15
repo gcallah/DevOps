@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Security Links 
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Security Links 
+        </h1>
+
+        <ul class="nested">
+            <li>
+                <a href="https://learn.techbeacon.com/units/devsecops-basics-guide-security-professionals">
+                    An introduction to DevSecOps or rugged DevOps
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://insights.sei.cmu.edu/devops/2016/11/an-introduction-to-secure-devops-including-security-in-the-software-lifecycle.html">
+                    DevSecOps: Including Security in Software Life cycle
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://www.csoonline.com/article/3039313/security/is-devops-the-holy-grail-for-information-security.html">
+                    DevOps: A Holy Grail for Security?
+                </a>
+            </li>
+        </ul>
+
+    </body>
+</html>

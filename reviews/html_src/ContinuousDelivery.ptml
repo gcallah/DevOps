@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Continuous Delivery
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Continuous Delivery, <br>
+            Jez Humble and David Farley
+        </h1>
+        <p class="author">
+            Reviewers: Ravish Bhatia, Sneha Ghosh
+        </p>
+        <p>
+        This book describes an effective pattern for getting 
+        software from development to release using the deployment 
+        pipeline. A <i>deployment pipeline</i> is an automated 
+        implementation of the application’s build, deploy, test, 
+        and release process. The deployment pipeline has several 
+        benefits. It makes every part of the process of building, 
+        deploying, testing, and releasing software visible to 
+        everybody involved thus aiding <i>collaboration</i>. It 
+        improves <i> feedback </i> so that problems are identified 
+        and resolved as early in the process as possible. It also 
+        enables teams to deploy and release any version of their 
+        software to any environment at will through a <i> fully 
+        automated process</i>.
+        </p>
+
+        <p>
+        This book describes ways to <i> deliver high quality, 
+        valuable software in an efficient, fast, and reliable manner
+        </i>. To achieve low cycle time and high quality, frequent 
+        and automated releases of the software are required.
+        The techniques and principles described in this book can be 
+        used on projects in both small and large organizations. 
+        The techniques are aligned with the philosophy and ideas of 
+        the lean movement. Such methods ensure the rapid delivery 
+        of high quality products, focusing on the removal of waste 
+        and the reduction of cost. <i> Lean practices result in 
+        huge cost and resource savings, much higher quality 
+        products, and faster time-to-market in several industries 
+        </i>. This philosophy has become mainstream in the field of 
+        software development. Lean is not limited in its 
+        application to small systems. It was created and applied to 
+        huge organizations, and even whole economies.
+
+        </p>
+    </body>
+</html>

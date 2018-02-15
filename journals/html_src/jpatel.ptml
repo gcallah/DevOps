@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Janeil Patel's DevOps Story
+        </title>
+    </head>
+    <body>
+<!--include menu.txt -->
+    <h1>
+       My DevOps Story
+    </h1>
+    <p class="author">
+            by
+            <br />
+            Janeil Patel
+    </p>
+
+    <p class="leadquote">
+    	DevOps is not a goal but a ever-ending process of continual improvement - Jez Humble
+    </p>
+
+    <p>
+    	It was during my summer internship at Akamai Technologies when I first heard about DevOps. Having never heard this term before, the inquisitive side of me quickly signed up for the DevOps Seminar. The seminar provided a high overview and explained why is there such a heavy demand for DevOps in todays world. Unfortunately, before I could dig a little bit deeper into this topic, my internship came to an end. One thing I learnt was that its about automation but later on going through videos online I learnt its way more than that. A short video further explains this :-
+
+    	<figure>
+            <iframe width="560" height="315"
+               src="https://www.youtube.com/embed/6C4OHP4tsKA" frameborder="0"
+               allowfullscreen>
+            </iframe>
+            <figcaption>
+                David Hayes explains why Devops is more than just automation
+            </figcaption>
+        </figure>
+    </p>
+
+    <p>
+    	Getting back to school <!-- I had decided I would take up a DevOps Course from the various e-learning websites since it wasn't offered in School --> I foud out that the DevOps course was only offered to Courant students. Luckily our school came up with a DevOps course under Professor Callahan and I quickly enrolled in it. I expect the course to provide me the knowledge that will help me go into the corporate world as a DevOps Engineer. 
+    </p>
+    </body>
+</html>

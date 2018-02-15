@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <link href="../style.css" rel="stylesheet" type="text/css"/>
+            <title>
+                Anshal's DevOps Story
+            </title>
+            </head>
+    <body>
+<!--include menu.txt -->
+        <h1>
+            My DevOps Story
+        </h1>
+        <p class="author">
+        by
+        <br />
+        Anshal Savla
+        </p>
+        
+       
+        
+        <p>
+        DevOps is a software engineering culture and practice that aims at unifying software development (Dev) and software operation (Ops). The main characteristic of the DevOps movement is to strongly advocate automation and monitoring at all steps of software construction, from integration, testing, releasing to deployment and infrastructure management.
+        I am exicted to learn about this field.
+        
+                </p>
+        
+      
+    </body>
+</html>

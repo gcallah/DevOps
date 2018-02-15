@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Our Coding Implementation
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Our Coding Implementation
+        </h1>
+
+        <p>
+            This is how we implemented coding standards and practicing.
+        </p>
+
+        <h2>
+            Our Django Site
+        </h2>
+
+        <p>
+            At PythonAnywhere, we are working on porting to a Django site for
+            the course, so we can take advantage of the dynamic backend
+            capabilities of Django.
+        </p>
+
+        <p>
+            Amongst other things, we need to build Docker images so developers
+            can work in a local environment identical to production. To that
+            end, we are collecting details of our PythonAnywhere env:
+        </p>
+
+        <ul>
+            <li>
+                Django 1.10
+            </li>
+        </ul>
+ 
+        <p>
+            Down the road, these Docker images will be used for cloud
+            deployment.
+        </p>
+
+    </body>
+</html>

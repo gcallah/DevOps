@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Continuous Delivery
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Infrastructure as Code: Managing Servers in the Cloud<br>
+            Kief Morris
+        </h1>
+        <p class="author">
+            Reviewers: Adit Kumar, Shivaraj Nesaragi
+        </p>
+    </body>
+</html>

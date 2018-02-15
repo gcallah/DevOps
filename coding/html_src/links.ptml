@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Coding Links 
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Coding Links 
+        </h1>
+
+        <ul class="nested">
+            <li>
+                <a href="../LeanPrinciples.html">
+                    Lean development principles
+                </a>
+            </li>
+
+            <li>
+                <a href="../AgilePrinciples.html">
+                    Agile development principles
+                </a>
+            </li>
+
+            <li>
+                <a href="../LeanVsAgile.html">
+                    Lean versus Agile
+                </a>
+            </li>
+
+            <li>
+                <a href="https://hackerchick.com/just-do-it-quick-intro-to-agiles/">
+                	Agile Technical Practices
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.python.org/dev/peps/pep-0008/">
+                    Style guide for Python code
+                </a>
+            </li>
+
+            <li>
+                <a href="http://mypy-lang.org">
+                    MyPy: static type checking for Python
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.pylint.org">
+                    PyLint: check our Python code!
+                </a>
+            </li>
+
+            <li>
+                <a href="https://codeascraft.com">
+                    Code as Craft
+                </a>
+                <br />
+                A blog from Etsy.
+            </li>
+            
+            <li>
+                <a href="https://github.com/secure-systems-lab/code-style-guidelines">
+                    Code Style guidelines from Secure Systems Lab NYU
+                </a>
+            </li>
+        </ul>
+
+    </body>
+</html>

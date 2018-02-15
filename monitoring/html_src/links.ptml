@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Monitoring Links 
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Monitoring Links 
+        </h1>
+
+        <ul class="nested">
+        </ul>
+
+    </body>
+</html>

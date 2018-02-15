@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Coding Tools used
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Coding Tools used
+        </h1>
+
+        <p>
+            Here are some of the major coding tools and their features:
+        </p>
+
+        <ul class="nested">
+            <li>
+            </li>
+        </ul>
+
+    </body>
+</html>

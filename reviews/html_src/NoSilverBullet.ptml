@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            No Silver Bullet
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            A brief review by Tingjun Zhang
+        </h1>
+
+        <p class="author">
+            Frederick P. Brooks, Jr
+        </p>
+
+        <h2>
+            What is this book about?
+        </h2>
+        <p>
+            When it comes to software developing, people are always getting into some troubles, such as missed schedules, blown budgets, and flawed products, which make developing work very painful.
+            People are desperate to find a silver bullet (an ultimate solution) for those problems.
+            However, when we look back at the past decade, we see no silver bullet.        
+        </p>
+        <p>
+            This article is trying to tell us why there is still no silver bullet, past breakthroughs against those issues and future hope for the silver (potential ultimate solutions).
+        </p>
+    </body>
+</html>
