@@ -1,0 +1,26 @@
+.navbar-brand {
+	padding:10px;
+}
+
+figure {
+    text-align: center;
+}
+
+figure.lead-figure {
+    margin: 0em 1em 1em 1em;
+}
+
+figcaption {
+    color: #ced;
+    font-style: italic;
+    text-align: center;
+    margin: .8em 1em .6em 1em;
+}
+
+p.leadquote {
+    font-style: italic;
+    text-align: center;
+    margin: 1em 1em 1em 2em;
+    font-size: 1.4em;
+    color: #9cd;
+}
