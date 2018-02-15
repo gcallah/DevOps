@@ -121,6 +121,8 @@
             <p>
                 By visually nesting structures that are logically nested, we
                 can more easily see the logical structure, and match end tags.
+                <br />
+                Goodbye cruel world!
             </p>
 
         </details>
