@@ -22,6 +22,7 @@ HTMLFILES = $(shell ls $(PTML_DIR)/*.ptml | sed -e 's/.ptml/.html/' | sed -e 's/
 
 website: $(INCS) $(HTMLFILES)
 	-git commit -a -m "Website rebuild."
+	git pull origin master
 	git push origin master
 
 tests: $(QUIZ_DIR)
