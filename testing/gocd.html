@@ -14,8 +14,24 @@
         </h1>
 
         <p>
-            GoCD is...
-        </p>
-
+            GoCD is an open source tool used in software development to achieve continuous delivery (CD) of software. It supports automating the entire build-test-release process from code check-in to deployment. It helps to keep producing valuable software in short cycles and ensure that the software can be reliably released at any time.
+GoCD was originally developed at ThoughtWorks Studios in 2007 and released as open source in 2014.
+</p><br><ul>
+<li>
+GoCD can easily model and visualize complex workflows. It is suitable for single purpose, focused tool.
+</li><li>
+GoCD can easily configure dependencies for fast feedback and on-demand deployment. Its fan-in/fan-out dependency management ensures that a pipeline triggers only when all its upstream pipelines have triggered off the same version of an ancestor pipeline or material.
+</li><li>
+GoCD compare both files and commit messages across any two arbitrary builds, making it easy to troubleshoot a broken pipeline.
+</li><li>
+GoCD provides parallel execution across pipelines, platforms, versions, branches, etc. and helps eliminate bottlenecks.
+       </li></ul><br> 
+<b> Now for some things that are not so good with GoCD:</b>
+<ul><li>GoCD is built specifically with CD in mind as compared to Jenkins and Travis that are built for CI. This is a huge factor since we are looking for CI at this stage.</li>
+<li>It uses a bit more memory than Jenkins which can be a problem if it runs on Windows VM.</li>
+<li>Almost all operations are shell based, as compared to GUI support through Jenkins and travis plugins</li>
+<li>GoCD does not have a large plugin ecosystem and there are very few documented integrations</li>
+<li>GoCD's community is only 1000 members strong as it is relatively new. It hasn't been used by many companies yet and documentation is comparitively less. This means there is still a great scope for development and newer versions. </li>
+</ul>
     </body>
 </html>
