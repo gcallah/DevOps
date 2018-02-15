@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            A Guide to HTML Coding for the DevOps Course
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            A Guide to HTML Coding for the DevOps Course
+        </h1>
+
+        <p>
+            This is the guide for HTML coding standards and recommended
+            practices for a DevOps course, built by Dr. Eugene Callahan
+            and his Spring 2018 DevOps class at NYU Tandon.
+        </p>
+
+        <details>
+            <summary class="sum4">
+                No use of editors that insert their own code
+            </summary>
+        </details>
+
+        <details>
+            <summary class="sum4">
+                Use spaces not tabs.
+            </summary>
+        </details>
+
+        <details>
+            <summary class="sum4">
+                Keep line length &lt; 80.
+            </summary>
+        </details>
+
+        <details>
+            <summary class="sum4">
+                Use the HTML5 outline feature.
+            </summary>
+        </details>
+
+        <details>
+            <summary class="sum4">
+                Keep structural tags on their own line.
+            </summary>
+        </details>
+
+        <details>
+            <summary class="sum4">
+                Indent each nested structural element 4 more spaces.
+            </summary>
+        </details>
+
+
+    </body>
+</html>
