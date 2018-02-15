@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Our Monitoring Implementation
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Our Monitoring Implementation
+        </h1>
+
+        <p>
+            This is how we implemented our monitoring system.
+        </p>
+
+    </body>
+</html>

@@ -56,6 +56,10 @@
             <li>
                 <i>DevOps Case Studies</i>,
                 The IT Revolution
+                <br />
+                <span class="review">
+                Reviewers: 
+                </span>
             </li>
 
             <li>
@@ -70,31 +74,6 @@
             <li>
                 <i>Domain-Driven Design</i>,
                 Eric Evans
-            </li>
-
-            <li>
-                <i>Effective DevOps</i>,
-                Jennifer Davis and Katherine Daniels
-            </li>
-
-            <li>
-                <i>Implementing Lean Software Development</i>,
-                Mary and Tom Poppendieck, Jeff Sutherland, and Kent Beck
-            </li>
-
-            <li>
-                <i>Infrastructure as Code: Managing Servers in the Cloud</i>,
-                Kief Morris
-            </li>
-
-            <li>
-                <i>Just-in-Time for Today and Tomorrow</i>,
-                Taiichi Ohno and Setsuo Mito
-            </li>
-
-            <li>
-                <i>Kubernetes Up and Running</i>,
-                Kelsey Hightower, Brendan Burns, and Joe Beda
                 <br />
                 <span class="review">
                 Reviewers: 
@@ -102,14 +81,67 @@
             </li>
 
             <li>
+                <i>Effective DevOps</i>,
+                Jennifer Davis and Katherine Daniels
+                <br />
+                <span class="review">
+                Reviewers: 
+                </span>
+            </li>
+
+            <li>
+                <i>Implementing Lean Software Development</i>,
+                Mary and Tom Poppendieck, Jeff Sutherland, and Kent Beck
+                <br />
+                <span class="review">
+                Reviewers: Chaoqun Huang, Qiwei Zhou
+                </span>
+            </li>
+
+            <li>
+                <i>Infrastructure as Code: Managing Servers in the Cloud</i>,
+                Kief Morris
+                <br />
+                <span class="review">
+                Reviewers: Adit Kumar
+                </span>
+            </li>
+
+            <li>
+                <i>Just-in-Time for Today and Tomorrow</i>,
+                Taiichi Ohno and Setsuo Mito
+                <br />
+                <span class="review">
+                Reviewers:
+                </span>
+            </li>
+
+            <li>
+                <i>Kubernetes Up and Running</i>,
+                Kelsey Hightower, Brendan Burns, and Joe Beda
+                <br />
+                <span class="review">
+                Reviewers: Sneha Ghosh, Ravish Bhatia
+                </span>
+            </li>
+
+            <li>
                 <i>Leading the Transformation: Applying Agile and DevOps Principles
                 at Scale</i>,
                 Gary Gruver and Tommy Mouser
+                <br />
+                <span class="review">
+                Reviewers:
+                </span>
             </li>
 
             <li>
                 <i>Lean Software Development: An Agile Toolkit</i>,
                 Mary and Tom Poppendieck
+                <br />
+                <span class="review">
+                Reviewers: Jiawei Wang
+                </span>
             </li>
 
             <li>
@@ -117,28 +149,49 @@
                 href="https://itrevolution.com/book/making-work-visible/">
                         Making Work Visible</a></i>,
                 Dominica DeGrandis
+                <br />
+                <span class="review">
+                Reviewers:
+                </span>
             </li>
 
             <li>
                 <i><a href="http://agilemanifesto.org/">
                         Manifesto for Agile Software Development</a></i>,
                 multiple authors
+                <br />
+                <span class="review">
+                Reviewers: Lili Xu, Yang Lou
+                </span>
             </li>
 
             <li>
                 "<a
                         href="http://www.cs.nott.ac.uk/~pszcah/G51ISS/Documents/NoSilverBullet.html">No Silver Bullet</a>,"
                 Fred Brooks
+                <br />
+                <span class="review">
+                Reviewers:
+                </span>
             </li>
 
             <li>
                 <i>Phoenix Project</i>,
                 Gene Kim
+                <br />
+
+                <span class="review">
+                Reviewers: Garima Negi, Drumil Kaushik
+                </span>
             </li>
 
             <li>
                 <i>Practical DevOps</i>,
                 Joakim Verona
+                <br />
+                <span class="review">
+                Reviewers: Pravar Singh, Kanishk Dugar
+                </span>
             </li>
 
             <li>
@@ -160,56 +213,123 @@
             </li>
 
             <li>
+                <i>Site Reliability Engineering</i>,
+                Betsy Beyer
+                <br />
+                <span class="review">
+                Reviewers: 
+                </span>
+            </li>
+
+            <li>
                 <i>Software Tools in Pascal</i>,
                 Brian Kernighan and P.J. Plauger
+                <br />
+                <span class="review">
+                Reviewers:
+                </span>
             </li>
 
             <li>
                 <i><a href="https://www.artofmonitoring.com/">
                         The Art of Monitoring</a></i>,
                 James Turnbull
+                <br />
+                <span class="review">
+                Reviewers: Tanya Jha
+                </span>
             </li>
 
             <li>
                 <i>The DevOps Handbook</i>,
                 Gene Kim, Patrick Debois, John Willis, Jez Humble,
                      and John Allspaw
+                <br />
+                <span class="review">
+                Reviewers: Janiel Atul Patel, Chiquita Ratnakar Prabhu
+                </span>
             </li>
 
             <li>
                 <i>The Machine That Changed the World</i>,
                 James Womack, Daniel Jones, and Daniel Roos
+
+                <br />
+                <span class="review">
+                Reviewers: Saniya Alekar
+                </span>
             </li>
 
             <li>
                 <i>The Mythical Man-Month</i>,
                 Fred Brooks
+
+                <br />
+                <span class="review">
+                Reviewers:
+                </span>
             </li>
 
             <li>
                 <i>The Principles of Product Development Flow</i>,
                 Donald G. Reinersten
+
+                <br />
+                <span class="review">
+                Reviewers:
+                </span>
             </li>
 
             <li>
                 <i>The Timeless Way of Building</i>,
                 Christopher Alexander
+
+                <br />
+                <span class="review">
+                Reviewers:
+                </span>
             </li>
 
             <li>
                 <i>The UNIX Programming Environment</i>,
                 Brian Kernighan and Rob Pike
+
+                <br />
+
+                <span class="review">
+                Reviewers: Srinivas, Arun Kuruvilla
+                </span>
             </li>
 
             <li>
                 <a href="http://www.econlib.org/library/Essays/hykKnw1.html">
                     "The Use of Knowledge in Society</a>,"
                 F.A. Hayek
+
+                <br />
+
+                <span class="review">
+                Reviewers: Linfeng Wang, Lingjung Zhang
+                </span>
+            </li>
+
+            <li>
+                <i>The Web Application Hacker's Handbook: Discovering and Exploiting Security Flaws</i>
+                <br />
+                <span class="review">
+                Reviewers: Om Narayan
+                </span>
             </li>
             <li>
                 <i>Toyota Production System: an Integrated Approach to
                     Just-in-Time</i>,
                 Yasuhiro Monden
+
+                <br />
+
+                <span class="review">
+                Reviewers: Datta Dwarampudi
+                </span>
             </li>
 
             <li>

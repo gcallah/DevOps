@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            The DevOps Handbook
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            The DevOps Handbook <br>
+            Gene Kim, Patrick Debois, John Willis, Jez Humble, and John Allspaw
+        </h1>
+        <p class="author">
+            Reviewers: Chiquita Ratnakar Prabhu, Janeil Atul Patel
+        </p>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            My DevOps Story
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+
+        <h1>
+            My DevOps Story
+        </h1>
+
+        <p class="author">
+            by
+            <br />
+            Vivek Bharti
+        </p>
+
+        <p>
+        </p>
+
+    </body>
+</html>

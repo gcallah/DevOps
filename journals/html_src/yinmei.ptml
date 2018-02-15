@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Yin's Journal
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Yin's Journal
+        </h1>    
+        <h2>About Yin</h2>
+        <li><a href="https://www.linkedin.com/in/yinmei/">LinkedIn</a></li>
+        <li><a href="https://github.com/msyinmei">Github</a></li>
+        <li><a href="https://msyinmei.github.io/">Projects (WIP)</a></li>
+
+        <p>
+            <h2>Topics of Interest</h2>
+            <details> <summary class="sum2">Definitions</summary>
+                <ul>DevOps: The Connection between Development and Business Operations</ul>
+                <ul>Dev, Staging, Production</ul>
+                <ul>Agile Development</ul>
+            </details>
+
+            <details> <summary class="sum2">Parts of DevOps</summary>
+                <ul>Step 1: Discovery</ul>
+                <ul>Step 2: Standardization</ul>
+                <ul>Step 3: Automation</ul>
+                <ul>Step 4: Continuous Improvements</ul>
+                <ul>Step 5: Driving innovation</ul>
+                <ul>Step 6: Measurement</ul>
+            </details>
+            
+            <details> <summary class="sum2">Comparisons</summary></details>
+            
+            <details> <summary class="sum2">Case Studies</summary>
+                <ul>Yelp</ul>
+                <ul>1-800-flowers</ul>
+                <ul>Staples</ul>
+                <ul>Walmart</ul>
+                <ul>Ambit Energy</ul>
+                <ul>NYSE (New York Stock Exchange)</ul>
+                <ul>Amazon</ul>
+                <ul>Google</ul>
+                <ul>Microsoft</ul>
+                <ul>Apple</ul>
+                <ul>Paypal</ul>
+                <ul>BlueApron</ul>
+                <ul>Startups</ul>
+            </details>
+            
+            <details> <summary class="sum2">Tools, Frameworks and Existing Enterprise Software</summary>
+                <ul>Puppet</ul>
+                <ul>Ansible</ul>
+                <ul>Webpack</ul>
+                <ul>Herokuapp</ul>
+                <ul>Kubernetes</ul>
+                <ul>Mesos</ul>
+                <ul>Docker</ul>
+                <ul>Jenkins</ul>
+            </details>
+            
+            <details> <summary class="sum2">Measurement</summary></details>
+            <details> <summary class="sum2">Implementation</summary></details>
+            <details> <summary class="sum2">Presentation and Communicaiton</summary></details>
+            <details> <summary class="sum2">Security and extensibility</summary></details>
+        </p>
+
+        <p>
+            <h2>Books and Readings</h2>
+            <details>
+                <summary class="sum2">
+                    A Pattern Language, Christopher Alexander
+                </summary>
+                <ul><a href="https://www.youtube.com/watch?v=UWCZUly2_2k">Youtube Summary of A Pattern Language</a></ul>
+            </details>
+            <details>
+                <summary class="sum2">The Use of Knowledge in Society, Hayek Friedrich</summary>
+                <ul><a href="http://www.econlib.org/library/Essays/hykKnw1.html">Library of Economics and Liberty Link</a></ul>
+            </details>
+            <details>
+                <summary class="sum2">Rationalism in Software Engineering</summary>
+                <ul><a href="https://gcallah.github.io/DevOps/rationalism_in_software.html">Online article, Gcallah.github.io</a></ul>
+            </details>
+            <details>
+                <summary class="sum2">State of Devops Report 2016</summary>
+                <ul><a href="https://puppet.com/resources/whitepaper/2016-state-of-devops-report">State of DevOps, Puppet.com</a></ul>
+                <ul><a href="https://newclasses.nyu.edu/access/content/group/92cc2a96-c12c-4c3b-b1e0-b7781c81ea3b/getting-started-with-devops.pdf">PDF, Newclasses</a></ul>
+            </details>
+
+            <!-- Template -->
+            <!-- <details>
+                <summary class="sum2">Title</summary>
+                <ul><a href="link.com">Link</a></ul>
+            </details> -->
+        </p>
+
+    </body>
+</html>

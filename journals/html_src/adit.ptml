@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            My DevOps Story
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+
+        <h1>
+            My DevOps Story
+        </h1>
+
+        <p>
+          My name is Adit kumar ,currently in my 4th semester at NYU tandon. By studying DevOps, I hope to gain knowledge about the tools that can help me in faster software development
+		  and delivery and thereby increasing my productivity.
+        </p>
+        <p class="author">
+            Thanks,
+            <br />
+            Adit
+        </p>
+
+        <p>
+        </p>
+
+    </body>
+</html>

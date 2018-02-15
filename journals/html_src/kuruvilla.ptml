@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            My DevOps Story
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+
+        <h1>
+            My DevOps Story
+        </h1>
+
+        <p class="author">
+            by
+            <br />
+            Arun John Kuruvilla
+        </p>
+
+        <p>
+            Being a cybersecurity major, I wanted to get a taste of software engineering. When the opportunity presented itself in the form of a DevOps course, I decided to take it. Security is being given more emphasis than ever in the software engineering lifecycle, and I felt I needed to learn more about being a part of it. In addition, I felt that the course would give me the necessary skills when I join the industry after I graduate. 
+        </p>
+        <p>
+            DevOps is where the industry is moving towards. Being a combination of Lean and Agile practices, DevOps enables the maximum utilization of the skills of a software engineering team. 
+        </p>
+        <p>
+            Started with the book review and reading up on automated tools for vulnerability analysis.
+        </p>
+
+    </body>
+</html>

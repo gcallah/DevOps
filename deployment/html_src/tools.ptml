@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Deployment/Configuration Tools Comparison
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Deployment/Configuration Tools Comparison
+        </h1>
+
+        <p>
+            Here are some of the major deployment/configuration
+            tools and their features:
+        </p>
+
+        <ul class="nested">
+            <li>
+                <a href="https://puppet.com">
+                Puppet
+                </a>
+            </li>
+
+            <li>
+              <a href="https://www.chef.io/">
+                Chef
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.ansible.com/">
+                Ansible
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.docker.com/">
+                Docker
+              </a>
+            </li>
+
+            <li>
+              <a href="https://kubernetes.io/">
+                Kubernetes
+              </a>
+            </li>
+	    
+ 	    <li>
+              <a href="https://aws.amazon.com/cloudformation/">
+                AWS CloudFormation
+              </a>
+            </li>
+
+            <li>
+              <a href="https://saltstack.com/">
+                SaltStack
+              </a>
+            </li>
+
+        </ul>
+
+    </body>
+</html>

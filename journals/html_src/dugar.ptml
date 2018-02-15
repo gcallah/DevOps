@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            My DevOps Story
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+
+        <h1>
+            My DevOps Story
+        </h1>
+
+
+        <p class="author">
+            by
+            <br />
+            Kanishk Dugar
+        </p>
+
+        <figure>
+            <img
+            src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAIA_wDGAAAAAQAAAAAAAAmsAAAAJDE4YmRiYzQzLWRmNzItNGUxNS1iYjdkLTJmMzQxNzZkOGQ1OQ.jpg">
+            <figcaption>
+              <a href=https://www.linkedin.com/in/kanishkdugar/>
+              LinkedIn </a>
+            </figcaption>
+        </figure>
+
+
+        <p>
+          As a graduate student expecting to graduate soon,
+          I have gained quite a few development skills and know-hows of platforms,
+          infrastructure and frameworks working in tandem.
+          However, as a developer I often find myself annoyed by the fact
+          that a lot of time and effort has to be spent on the
+          "bureaucracy" (searching for euphemism..) of everything,
+          from setting up the evironment, the testing framework to the deployment
+          and redeployment of the releases. Working on a solo project,
+          one has to worry about all of these, apart from writing a working and efficient code.
+          One of the reasons I would release large updates rather than small incremental ones
+          would be to reduce this "inconvenience", not that it helped.
+          How I wished all of this could be automated!!
+        </p>
+
+        <p>
+          So here I am trying to learn how.
+        </p>
+
+    </body>
+</html>

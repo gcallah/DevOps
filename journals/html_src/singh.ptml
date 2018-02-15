@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            My DevOps Story
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+
+        <h1>
+            My DevOps Story
+        </h1>
+
+        <p class="author">
+            by
+            <br />
+            Pravar Singh
+        </p>
+
+        <p>
+        	My overall expectation from this course is to learn all the processes involved in developing and deploying a software the DevOps way. I would love to expand my skill set and gain in-depth practical knowledge of working with containers such as Docker.Also learning how to implement automated testing scripts using Jenkins would be really beneficial since these skills are in huge demand in the industry as of now. Writing scripts to deploy the software on cloud is at the core of DevOps and getting first hand experience doing that would be great. Eventually, I would love if the course prepares us to automate the whole process of deploying to just a single click of a button. All said, I expect the experience of working in a team and collabarating with other teams to be highly beneficial and give us exposure of how things work in industry. 
+        </p>
+
+    </body>
+</html>

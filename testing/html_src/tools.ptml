@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Testing/CI Tools Comparison
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Testing/CI Tools Comparison
+        </h1>
+
+        <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/TestingCup-Polish-Championship-in-Software-Testing-Katowice-2016.jpg/440px-TestingCup-Polish-Championship-in-Software-Testing-Katowice-2016.jpg">
+            <figcaption>
+                Polish software testing championship
+            </figcaption>
+        </figure>
+        
+It is essential to understand the difference between CI and CD before we move to comparisons. <br> Continuous Integration (CI) is about everyone merging code changes to a central repository multiple times a day. Each merge triggers an automated build and testing sequence for the given project.
+<br>
+Continuous Delivery (CD) is a practice of automating the entire software release process. The idea is to do CI, plus automatically prepare and track a release to production. The desired outcome is that anyone with sufficient privileges to deploy a new release can do so at any time in one or a few clicks. By eliminating nearly all manual tasks, developers become more productive.
+         <br><p>
+            Here are some of the major testing/continuous integration
+            tools and their features:
+        </p>
+
+        <ul class="nested">
+            <li>
+                <a href="https://jenkins.io"> 
+                Jenkins
+                </a>
+                <br />
+                Our
+                <a href="jenkins.html">
+                    evaluation
+                </a>
+                of Jenkins
+            </li>
+
+            <li>
+                <a href="https://about.travis-ci.com">
+                Travis CI
+                </a>
+                <br />
+                Our
+                <a href="travis.html">
+                    evaluation
+                </a>
+                of Travis
+            </li>
+
+            <li>
+                <a href="https://www.gocd.org">
+                GoCD
+                </a>
+                <br />
+                Our
+                <a href="gocd.html">
+                    evaluation
+                </a>
+                of GoCD
+            </li>
+
+        </ul>
+
+    </body>
+</html>

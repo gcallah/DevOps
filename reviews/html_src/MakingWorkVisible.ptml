@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Making Work Visible
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Making Work Visible - A brief review by Akshay Hazare
+        </h1>
+
+        <p class="author">
+            Dominca DeGrandis
+        </p>
+    </body>
+</html>

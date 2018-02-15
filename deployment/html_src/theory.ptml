@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Deployment Theory
+        </title>
+        
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Deployment Theory
+        </h1>
+
+        <p>
+        Deployment pipeline is an integral part of Devops 
+        toolchain. It enables best practices like <font color="aqua"
+        > <i> continuous integration and continuous delivery </i> 
+        </font>. It means software changes are continuously
+        deployed and tested to make it production ready. 
+        Automation is the key. Deployment automation can be 
+        achieved using Jenkins pipeline and tools like puppet, chef 
+        or ansible which can turn infrastructure into code. 
+        Puppet, Chef and Ansible were all built the goal to make it 
+        much easier to configure and maintain dozens, hundreds, or 
+        even thousands of servers. Thus these tools have drastic 
+        impact on big organizations. The smaller ones also benefit 
+        as automation and orchestration generally make life easier 
+        in an infrastructure of any size.
+        </p>
+        <p>
+        <font size="5px" color="dodgerblue"> Infrastructure as code </font></p>
+        <blockquote class="w3-panel w3-leftbar w3-light-grey">
+        <p class="w3-large">
+        <i>"The enabling idea of Infrastructure as Code is that the 
+        systems and devices used to run software can be treated as if they, themselves, are software."</i></p>
+        <p>Kief Morris</p>
+        </blockquote>
+        <p>
+        Infrastructure as code means writing code to manage 
+        configurations and automate provisioning of infrastructure 
+        in addition to deployments. Infrastructure as code makes 
+        the infrastructure <font color="aqua">  <i> reliable, 
+        repeatable and fast.</i> </font>
+        </p>
+        <p>
+        Infrastructure as Code (IaC) is the management of 
+        infrastructure in a descriptive model, using a versioning 
+        tool for infrastructure code. IaC model makes the <font 
+        color="aqua"> <i>environment idempotent </i> </font> by 
+        generating the same environment, regardless of the 
+        environment’s starting state, every time infrastructure 
+        code is applied.
+        </p>
+        <p>
+        Organizations who use IaC can deliver <font color="aqua">
+        <i> stable environments rapidly and at scale.</i> </font> 
+        They can avoid manual configuration of environments and 
+        enforce consistency by representing the desired state of 
+        their environments via code. Using code to define the 
+        server configuration means that there is greater 
+        consistency between servers. With manual provisioning 
+        different interpretations of imprecise instructions lead 
+        to diffirent configurations making it hard to debug in 
+        case of faults. 
+        </p>
+        <p>
+        Infrastructure as Code techniques scale effectively to 
+        manage large clusters of servers, both in configuring the 
+        servers and specifying how they should interact. Thus 
+        DevOps teams can work together with a unified set of 
+        practices and tools to deliver applications and their 
+        supporting infrastructure rapidly, reliably, and at scale.
+        </p>
+        <p>
+        <font size="5px" color="dodgerblue">Goals</font>
+        <font size="3px">
+        <ol>
+        <li>Infrastructure should support and enable changes and 
+        not be an obstacle or a constraint.</li>
+        <li>IT staff should spend their time on valuable things 
+        which engage their abilities rather than on routine, 
+        repetitive tasks.</li>
+        <li>Users should be able to spin up new enviornments 
+        easily without help from IT staff.</li>
+        <li>Teams should know how to recover quickly from failure, 
+        rather than depending on avoiding failure.
+        </li>
+        <li>Changes to the system should be routine, automated and not involve stress.</li>
+        </ol>
+        </font>
+        </p>
+        <p>
+        <font size="5px" color="dodgerblue">Properties</font>
+        <font size="3px">
+        <ol>
+        <li> <i> Reproducibility </i> -
+        The ability to effortlessly build and rebuild any part of the infrastructure enables many powerful capabilities of infrastructure as code.
+        </li>
+        <li> <i> Consistency </i> -
+        The ability to provide same software and configurations to servers built using the infrastucture code. 
+        </li>
+        <li> <i> Disposability </i> -
+        The servers could be destroyed unexpectedly, when hardware 
+        fails, or it could be deliberately destroyed in order to 
+        reduce capacity or to replace it. 
+        </li>
+        <li> <i> Service continuity </i> -
+        Service must be continuously available to its users even 
+        when individual infrastructure elements disappear. We need 
+        to make sure our service is always able to handle 
+        requests, in spite of what might be happening to the 
+        infrastructure. If a server disappears, we need to have 
+        backup servers already running and should be able to quickly start up new ones, so that service is not 
+        interrupted.
+        </li>
+        <li> <i> Self-testing systems </i> -
+        Effective automated testing is one of the most important 
+        practices that should be included with the infrastructure.
+        The main benefit from this is fast feedback as to whether the changes will work correctly without breaking other 
+        parts of the system.
+        </li>
+        <li> <i> Self-documenting systems </i> -
+        A great benefit of the infrastructure as code approach is 
+        that the steps to carry out a process are captured in the 
+        scripts and tooling that actually carry out that process.
+        </li>
+        <li> <i> Versioning infrastructure code </i> -
+        Just as versioning development code helps to track 
+        changes, easy to rollback, visible to team members same 
+        benefits apply to infrastructure code as well. Version 
+        control systems also support automatically triggering 
+        actions when a change is committed thus enabling 
+        Continuous Integration and Continuous Delivery pipelines.
+        </li>
+
+        </ol>
+        </font>
+        
+        </p>
+    </body>
+</html>

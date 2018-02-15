@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Our Deployment Implementation
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Our Deployment Implementation
+        </h1>
+
+        <p>
+            This is how we deployed our system.
+        </p>
+
+    </body>
+</html>
