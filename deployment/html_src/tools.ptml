@@ -25,6 +25,24 @@
                 Puppet
                 </a>
             </li>
+            Pros:
+            <ul class="nested">
+                <li>Easy installation
+                </li>
+                <li>Supports all majors operating systems
+                </li>
+                <li>GUI is user friendly</li>
+                <li>Stable and mature solution</li>
+            </ul>
+
+            Cons:
+            <ul class="nested">
+                <li>Built with Ruby, unlike other tools that are Python-based
+                </li>
+                <li>New users must learn Puppet DSL
+                </li>
+                <li>Remote execution is challenging</li>
+            </ul>
 
             <li>
               <a href="https://www.chef.io/">
