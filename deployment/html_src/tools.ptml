@@ -24,7 +24,11 @@
                 <a href="https://puppet.com">
                 Puppet
                 </a>
-            Pros:
+                <br>
+              </li>
+
+            <section>
+            <h3>Pros:</h3>
             <ul class="nested">
                 <li>Easy installation
                 </li>
@@ -33,8 +37,9 @@
                 <li>GUI is user friendly</li>
                 <li>Stable and mature solution</li>
             </ul>
-
-            Cons:
+          </section>
+          <section>
+            <h3>Cons:</h3>
             <ul class="nested">
                 <li>Built with Ruby, unlike other tools that are Python-based
                 </li>
@@ -42,7 +47,7 @@
                 </li>
                 <li>Remote execution is challenging</li>
             </ul>
-            </li>
+          </section>
             <li>
               <a href="https://www.chef.io/">
                 Chef
