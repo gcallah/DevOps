@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <link href="../style.css" rel="stylesheet" type="text/css"/>
         <title>
-            Deployment/Configuration Tools Comparison
+            Deployment/Configuration Tools Comparison!!
         </title>
     </head>
 
@@ -49,7 +49,7 @@
                 Kubernetes
               </a>
             </li>
-	    
+
  	    <li>
               <a href="https://aws.amazon.com/cloudformation/">
                 AWS CloudFormation
