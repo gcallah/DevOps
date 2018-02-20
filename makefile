@@ -21,7 +21,7 @@ HTMLFILES = $(shell ls $(PTML_DIR)/*.ptml | sed -e 's/.ptml/.html/' | sed -e 's/
 #	cd $(DJANGO_DIR) ; git push origin master; cd -
 
 website: $(INCS) $(HTMLFILES)
-	-git commit -a -m "Website rebuild."
+	-git commit -a 
 	git pull origin master
 	git push origin master
 

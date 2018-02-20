@@ -23,8 +23,8 @@
             <table style="width:80%" bgcolor="#2f71d6"  >
             
               <tr>
-                <th>Team Name </th>
-                <th>Members</th>
+                <th class="table-head">Team Name </th>
+                <th class="table-head">Members</th>
               </tr>
               <tr>
                 <th rowspan="2">Build Team</th>

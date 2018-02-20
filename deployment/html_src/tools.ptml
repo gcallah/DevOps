@@ -24,14 +24,55 @@
                 <a href="https://puppet.com">
                 Puppet
                 </a>
-            </li>
+              </li>
 
+            <section>
+            <h4>Pros:</h4>
+            <ul class="nested">
+                <li>Easy installation
+                </li>
+                <li>Supports all majors operating systems
+                </li>
+                <li>GUI is user friendly</li>
+                <li>Stable and mature solution</li>
+            </ul>
+          </section>
+          <section>
+            <h4>Cons:</h4>
+            <ul class="nested">
+                <li>Built with Ruby, unlike other tools that are Python-based
+                </li>
+                <li>New users must learn Puppet DSL
+                </li>
+                <li>Remote execution is challenging</li>
+            </ul>
+          </section>
             <li>
               <a href="https://www.chef.io/">
                 Chef
               </a>
             </li>
-
+            <section>
+            <h4>Pros:</h4>
+            <ul class="nested">
+                <li>Meant to be used by programmers
+                </li>
+                <li>Useful for large-scale development
+                </li>
+                <li>Stable and mature solution</li>
+                <li>Good version control capabilities</li>
+            </ul>
+            </section>
+            <section>
+            <h4>Cons:</h4>
+            <ul class="nested">
+                <li>Complicated tool to use
+                </li>
+                <li>Familiarity with Ruby is required
+                </li>
+                <li>Documentation can be overwhelming</li>
+            </ul>
+            </section>
             <li>
               <a href="https://www.ansible.com/">
                 Ansible
