@@ -102,6 +102,16 @@
         collaboration resulting in a more reliable and sustainable 
         software development.
         </p>
-
+        <details>
+        <summary class="sum2">
+                Sources
+        </summary>
+            <ul>
+             <li><a href="https://xebialabs.com/periodic-table-of-devops-tools/">Devops Periodic Table
+             </a>
+             </li>
+        </ul>
+        </details>
+        
     </body>
 </html>
