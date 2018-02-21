@@ -348,6 +348,12 @@
                     </li>
 
                     <li>
+                        <a href="html_guide.html">
+                            Our guide to web page coding
+                        </a>
+                    </li>
+
+                    <li>
                         <a href="books.html">
                             DevOps reading list
                         </a>

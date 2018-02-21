@@ -1,3 +1,5 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
 body {
     margin: 0;
     padding: 0;
@@ -31,7 +33,7 @@ th {
 }
 
 th.table-head {
-    background: #fcc;
+    background: #258;
 }
 
 td {
@@ -39,6 +41,7 @@ td {
 }
 
 p {
+    font-family: 'Poppins', sans-serif;
     margin: .4em 1.5em .4em 1.5em;
     font-size: 1.4em;
     padding: 0;
