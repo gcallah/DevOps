@@ -45,9 +45,23 @@
         <p>
         Week 3
         <br />
+        This week we(<a href="https://gcallah.github.io/DevOps/journals/tingjun.html">Tingjun Zhang</a> and I) are allocated for task "Integred NYU Class, Stack and Trello to our website". 
+        We had the open source LMS(Learning Management System) called Sakai, which is the basement of NYU Classes. We also get some help from our NYU Classes developer Jeff Pasch. He give us the <a href="https://newclasses.nyu.edu/direct/describe">particular API</a> that NYU Classes uses.
+        I also successful got JSON from our NYU Classes with the condition of complete and maintaining <a href="http://www.nyu.edu/it/mfa">NYU Multi-Factor Authentication</a> in advance.
+
+        <figure>
+            <a data-flickr-embed="true"  href="https://www.flickr.com/photos/138729069@N06/25522384967/in/dateposted-public/" title="mfa"><img src="https://farm5.staticflickr.com/4754/25522384967_d293bac737_z.jpg" width="500" height="414" alt="mfa"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <figcaption>
+                NYU Multi-Factor Authentication: it blocked as from login automatically.
+            </figcaption>
+        </figure>
+
         <br />
         Week 4
         <br />
+
+
+
         <br />
         </p>
         <h2>About a book named "The Use of Knowledge"</h2>
@@ -66,7 +80,7 @@
             The author first suppose a question: What is the problem we wish to solve when we try to construct a rational economic order? 
             It is so complicated for a single person to explain and the solution would not merely "given" by society as a totality.
             <br />
-            On the contrary,  all our individuals in our society poessess some part of the answer to this question. The author believes that there may not have a simple, mathematics logic to explain "why it happens," but he could say, as an individual, the diverse paths of reasoning have converged, because of  (something maybe in the next paragraph).
+            On the contrary,  all individuals in our society poessess some part of the answer to this question. The author believes that there may not have a simple, mathematics logic to explain "why it happens," but he could say, as an individual, the diverse paths of reasoning have converged, because of  (something maybe in the next paragraph).
             <br />
             <br />
         </p>
