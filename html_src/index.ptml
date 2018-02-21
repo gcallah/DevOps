@@ -354,6 +354,12 @@
                     </li>
 
                     <li>
+                        <a href="usingGit.html">
+                            Our guide to using Git
+                        </a>
+                    </li>
+
+                    <li>
                         <a href="books.html">
                             DevOps reading list
                         </a>
