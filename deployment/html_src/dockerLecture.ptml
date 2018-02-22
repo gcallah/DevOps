@@ -2,9 +2,9 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
         <title>
-		Docker lecture
+            Docker lecture
         </title>
     </head>
 
@@ -62,7 +62,8 @@
             this. Yours might have a different than what I have.
         </p>
         <figure>
-            <img width="60%" src="./build/graphics/docker_images.png" alt="docker images">
+            <img width="60%" src="../build/graphics/docker_images.png"
+                alt="docker images">
             <figcaption>
                 List of images in my system
             </figcaption>
@@ -85,7 +86,8 @@
             down below.
         </p>
          <figure>
-            <img width="60%" src="./build/graphics/docker_images_again.png" alt="docker images">
+            <img width="60%" src="../build/graphics/docker_images_again.png"
+                alt="docker images">
             <figcaption>
                 List of images in my system now with nginx
             </figcaption>
@@ -118,7 +120,7 @@
             directory.
         </p>
          <figure>
-            <img width="60%" src="./build/graphics/algorithms.png" alt="docker images">
+            <img width="60%" src="../build/graphics/algorithms.png" alt="docker images">
             <figcaption>
                 List of images in my system now with nginx
             </figcaption>
@@ -142,7 +144,11 @@
             The command for that is as shown below.
         </p>
         <p>
-            <code> docker run --name algo_website -p 127.0.0.1:8080:80 -v /Users/prashant/school/algorithms/:/usr/share/nginx/html -d nginx </code>
+            <code>
+                docker run --name algo_website -p 127.0.0.1:8080:80
+                -v /Users/prashant/school/algorithms/:/usr/share/nginx/html
+                -d nginx
+            </code>
         </p>
 
         <p>
@@ -159,7 +165,7 @@
         <hr>
 
             <p class="copyright">
-                &copy; 2017 Gene Callahan
+                &copy; 2018 Prashant Patel
             </p>
     </body>
 </html>
