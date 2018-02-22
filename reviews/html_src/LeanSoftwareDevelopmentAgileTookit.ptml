@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            The DevOps Handbook
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Lean Software Development: An Agile Toolkit
+        </h1>
+        <p class="author">
+            Authors: Mary and Tom Poppendieck
+            <br>
+            Reviewers: Jiawei Wang, Bowei Xu
+        </p>
+
+    </body>
+</html>
