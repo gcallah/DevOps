@@ -17,5 +17,25 @@
         <p class="author">
             Reviewers: Chiquita Ratnakar Prabhu, Janeil Atul Patel
         </p>
+        <p>This book will give us an insight as to how we can create world 
+        class agility, reliability and security in technology organisation.
+        This book helps us to understand and replicate the DevOps 
+        transformation we have been a part of and also eliminate the myths
+        associated with it.Some of the common myths are listed below:</p>
+        <ul>
+            <li>DevOps is only for Startups:</li>
+            <li>DevOps replaces the agile:</li>
+            <li>DevOps is incompatible with Information Security and Compliance:</li>
+            <li>DevOps means eliminating IT Operations or "NoOps":</li>
+            <li>Devops is only an open source software:</li>
+        </ul>
+        <details>
+        <summary class="sum2">
+          Part 1 -- THE THREE WAYS
+        </summary>
+        <p>
+            
+        </p>
+        </details>
     </body>
 </html>
