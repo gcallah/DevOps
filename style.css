@@ -39,6 +39,7 @@ td {
 }
 
 p {
+    margin: .4em 1.5em .4em 1.5em;
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
@@ -255,3 +256,30 @@ span.frac > sup {border-bottom: 0.08em solid;}
 span.frac > span {display: none;}
 
 .over { text-decoration: overline; }
+
+/****** Nav Bar *****/
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+i, span {
+    display: inline-block;
+}
