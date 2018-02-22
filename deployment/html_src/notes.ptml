@@ -33,7 +33,7 @@
         <h1>
             Raw notes on learning, presentations
         </h1>
-        <p>This pages contains the notes on learning, research or a presentation 
+        <p>This pages contains the notes on learning, research or a presentation
         in the raw form. A formatted version would be updated in the formal pages
         with respect to the tools.</p>
         <br>
@@ -56,6 +56,13 @@
           <b>Presentation: Kubernetes -</b> Getting Started <br>
           <b>Host:</b> Janakiram <br>
           <b>Venue:</b> Kubernetes Webinar - Architecture 101 - https://youtu.be/zeS6OyDoy78<br>
+          <b>History</b><br>
+          Google invented a tool called "Borg" to manage their mighty
+          datacenters or containers. Almost everything at Google is
+          run as a container and a tool to manage containers, allocate
+          resources, run service jobs, scale and recovery was required
+          which led to the tool Borg. This internal container cluster
+          management system was open sourced to be called as Kubernetes
           <b>Notes:</b><br>
         <div class='note_display_with_scrollbar'>
             <img src="https://raw.githubusercontent.com/Srinivas11789/devOpsNuggets/master/deployment/kubernetes/writeups/kw1.jpg" height="800" width="800" title="Note1"/><br>

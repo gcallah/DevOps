@@ -80,28 +80,103 @@
             </li>
 
             <li>
-              <a href="https://www.docker.com/">
-                Docker
-              </a>
-            </li>
-
-            <li>
-              <a href="https://kubernetes.io/">
-                Kubernetes
-              </a>
-            </li>
-
- 	    <li>
-              <a href="https://aws.amazon.com/cloudformation/">
-                AWS CloudFormation
-              </a>
-            </li>
-
-            <li>
               <a href="https://saltstack.com/">
                 SaltStack
               </a>
             </li>
+
+            <li>
+              <a href="https://www.docker.com/">
+                Docker: Containers
+              </a>
+            </li>
+
+            <li>
+              <a href="https://docs.docker.com/engine/swarm/">
+                Docker Swarm: Cluster Management
+              </a>
+            </li>
+            <section>
+            <h4>Pros:</h4>
+            <ul class="nested">
+                <li>Easy Installation and Use</li>
+                <li>Faster reaction times with docker containers,
+                (Most containers in the industry are docker) </li>
+            </ul>
+            </section>
+            <section>
+            <h4>Cons:</h4>
+            <ul class="nested">
+                <li>Only supports 3rd party logging and monitoring tools</li>
+                <li>Supports only manual scaling</li>
+                <li>Limited fault tolerance and functionality</li>
+            </ul>
+          </section>
+
+            <li>
+              <a href="https://kubernetes.io/">
+                Kubernetes: Cluster Management
+              </a>
+            </li>
+            <section>
+            <h4>Pros:</h4>
+            <ul class="nested">
+                <li> Offers inbuilt logging and monitoring tools</li>
+                <li> Open-source, scalable and powerful</li>
+                <li>Stable and mature solution in the market, success stories
+                : Google, Pokemon GO</li>
+                <li>Auto-scaling with CPU utilization</li>
+            </ul>
+            </section>
+            <section>
+            <h4>Cons:</h4>
+            <ul class="nested">
+                <li>Not easy to use - a more complicated setup and configuration</li>
+            </ul>
+          </section>
+
+          <li>
+            <a href="http://mesos.apache.org/">
+              Mesos
+            </a>
+          </li>
+          <section>
+          <h4>Pros:</h4>
+          <ul class="nested">
+              <li></li>
+          </ul>
+          </section>
+          <section>
+          <h4>Cons:</h4>
+          <ul class="nested">
+              <li></li>
+          </ul>
+        </section>
+
+          <li>
+            <a href="https://aws.amazon.com/ecs/">
+              Amazon Elastic Container Service: Cluster Management
+            </a>
+          </li>
+          <section>
+          <h4>Pros:</h4>
+          <ul class="nested">
+              <li></li>
+          </ul>
+          </section>
+          <section>
+          <h4>Cons:</h4>
+          <ul class="nested">
+              <li></li>
+          </ul>
+        </section>
+            <li>
+              <a href="https://aws.amazon.com/cloudformation/">
+                AWS CloudFormation: Infrastructure Deployment and Automation
+              </a>
+            </li>
+
+
 
         </ul>
 
