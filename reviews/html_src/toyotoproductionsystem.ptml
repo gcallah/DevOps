@@ -11,11 +11,13 @@
     <body>
 <!--include menu.txt -->
         <h1>
-            Toyota Production System: an Integrated Approach to Just-in-Time, <br>
-            Yasuhiro Monden
+            Toyota Production System <br>
+            An Integrated Approach to Just-in-Time
         </h1>
         <p class="author">
-            Review by Datta D
+            Authors: Yasuhiro Monden
+            <br>
+            Reviewers: Datta D
         </p>
     </body>
 </html>
