@@ -11,10 +11,11 @@
     <body>
 <!--include menu.txt -->
         <h1>
-            Continuous Delivery, <br>
-            Jez Humble and David Farley
+            Continuous Delivery
         </h1>
         <p class="author">
+            Authors: Jez Humble and David Farley 
+            <br>
             Reviewers: Ravish Bhatia, Sneha Ghosh
         </p>
         <p>

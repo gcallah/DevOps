@@ -18,10 +18,173 @@
             Here are some of the monitoring tools and their features:
         </p>
 
-        <ul class="nested">
-            <li>
-            </li>
-        </ul>
+        <details>
+            <summary class="sum2">
+             Zabbix
+            </summary>
+
+            <ul class="nested">
+                <li>
+                Details about Zabbix
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              Nagios
+            </summary>
+
+            <ul class="nested">
+                <li>
+                Details about Nagios
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              Sensu
+            </summary>
+
+            <ul class="nested">
+                <li>
+                Details about Sensu
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              Prometheus
+            </summary>
+
+            <ul class="nested">
+                <li>
+                Details about Prometheus
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              SysDig
+            </summary>
+
+            <ul class="nested">
+                <li>
+                Details about SysDig
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              New Relic Infrastructure
+            </summary>
+
+            <ul class="nested">
+                <li>
+                Details about New Relic Infrastructure
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              AWS CloudWatch
+            </summary>
+
+            <ul class="nested">
+                <li>
+                Details about AWS CloudWatch
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              Google StackDriver
+            </summary>
+
+            <ul class="nested">
+                <li>
+                Details about Google StackDriver
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              New Relic
+            </summary>
+
+            <ul class="nested">
+                <li>
+                Details about New Relic
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              AppDynamics
+            </summary>
+
+            <ul class="nested">
+                <li>
+                Details about AppDynamics
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              Compuware APM
+            </summary>
+
+            <ul class="nested">
+                <li>
+                Details about Compuware APM
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              Boundary
+            </summary>
+
+            <ul class="nested">
+                <li>
+                Details about Boundary
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              BigPanda
+            </summary>
+
+            <ul class="nested">
+                <li>
+                Details about BigPanda
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              PagerDuty
+            </summary>
+
+            <ul class="nested">
+                <li>
+                Details about PagerDuty
+                </li>
+            </ul>
+        </details>
 
     </body>
 </html>
