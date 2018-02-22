@@ -22,7 +22,7 @@
         </p>
 
         <p class="motivation" style="text-align: justify"><font color ="cyan">
-            <br />
+            
             According to Wikipedia, “DevOps (a clipped compound of “software 
             development” and “information technology operations”) is a term 
             used to refer to a set of practices that emphasize the 
@@ -45,8 +45,6 @@
         </font>
         </p>
         
-
-
 
     </body>
 </html>
