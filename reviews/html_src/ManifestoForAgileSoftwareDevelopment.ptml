@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Manifesto for Agile Software Development
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Manifesto for Agile Software Development, <br>
+            multiple authors
+        </h1>
+        <p class="author">
+            Reviewers: Lili Xu, Yang Lou
+        </p>        
+    </body>
+</html>

@@ -23,8 +23,8 @@
             <table style="width:80%" bgcolor="#2f71d6"  >
             
               <tr>
-                <th>Team Name </th>
-                <th>Members</th>
+                <th class="table-head">Team Name </th>
+                <th class="table-head">Members</th>
               </tr>
               <tr>
                 <th rowspan="2">Build Team</th>
@@ -122,7 +122,7 @@
               </tr>
              
               <tr>
-                <th rowspan="3">Workflow Management Team</th>
+                <th rowspan="4">Workflow Management Team</th>
                 <td>Yin</td>
               </tr>
               <tr>
