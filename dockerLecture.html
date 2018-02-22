@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <title>
-            My DevOps Story
+		Docker lecture
         </title>
     </head>
 
@@ -22,126 +22,152 @@
     </div>
 
         <h1>
-            My DevOps Story
+            Docker
         </h1>
 
         <p class="author">
             by
             <br />
-            Gene Callahan
-        </p>
-
-        <p class="leadquote">
-            Or how, being weaned on nutritious Bell Labs commonsense,
-            and having dined on Oakeshott's critique of rationalism,
-            I was ready to digest the DevOps feast.
+            Prashantkumar Patel
         </p>
 
         <p>
-            I began my career as a software engineer 
-            working on MS-DOS computers in the mid-1980s.
-            But before the decade was over, I had begun 
-            working on UNIX platforms. As I came to appreciate
-            the elegance of the UNIX programming environment,
-            I sought out the writings of the people who had been
-            instrumental in its creation. This was the tremendous
-            group of software engineers assembled in Bell Labs
-            from the late 1960s through the early 1980s, including
-            Ken Thompson, Dennis Ritchie, Brian Kernighan,
-            Alfred Aho, Peter Weinberger, Bjarne Stroustrup, 
-            Jon Bentley, and P.J. Plauger. From them I learned a
-            pragmatic, incremental style of developing software.
-            Rather than pursuing some grand, abstract vision,
-            I learned to deliver minimal but working software to users
-            as regularly as possible, and to learn from
-            user feedback what further features needed to
-            be added.
+            In this webpage we are going to try and host a
+             simple static website in nginx using docker.
+            I have already talked about what version of 
+            docker you should use. If you are using windows 
+            then docker-toolbox otherwise just using 
+            docker native should be okay for the Mac and 
+            linux users. 
+            This tutorial is written and performed in MacBook 
+            computer. Windows users 
+            should not have any problem perorming the same steps 
+            in windows, but if you
+            find youself stuck somewhere please send me a slack
+             message, I will try to help you out.
         </p>
 
+        <p>
+            First step is to download and install docker, 
+            which I am sure everyone in the class did.
+             If not please visit <a>http://www.docker.com</a>. 
+            You should follow the installation instructions
+             given in the website.
+        </p>
+
+        <p> 
+            <ul> 
+                <li style="font-size:100%"> Download the nginx image </li>
+            </ul>
+        </p>
+        <p>
+            Let's run the following command in terminal/quickstart-terminal. 
+        </p>
+        <p>
+           <code> docker images </code>
+        </p>
+        <p>
+            This command should give you the list of images 
+            that are available in the system. For example 
+            in my system it looks something like 
+            this. Yours might have a different than what I have.
+        </p>
         <figure>
-            <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Unix_history-simple.svg/300px-Unix_history-simple.svg.png">
+            <img width="60%" src="./build/graphics/docker_images.png" alt="docker images">
             <figcaption>
-                UNIX and its discontents
+                List of images in my system
             </figcaption>
         </figure>
 
         <p>
-            By the 1990s, I had learned enough that I felt ready to 
-            make my own contributions to this literature, writing
-            <a
-                href="http://dunne.yenn.ulegend.net/semiotics-and-gui-design.html">
-                on the benefits of symbolic interfaces</a>,
-            <a href="https://dl.acm.org/citation.cfm?id=249758">
-                pioneering intranets as a way of delivering in-house
-                software</a>,
-            <a href="">touting infrastructure as code</a>,
-            <a href="http://genecallahan.ulitzer.com/node/36326">
-                describing generic client-server interfaces</a>,
-            <a href="http://genecallahan.ulitzer.com/node/36519">
-                stressing the basics of OOP</a>, and more.
+            As you can see that I don't have the nginx image
+            install. I will run the following command which will
+            install the nginx image for me. 
         </p>
-
         <p>
-            Subsequently, in a decade away from software engineering, I
-            conducted extensive studies on
-            <a href="https://gcallah.github.io/Rationalism/index.html">
-                rationalism</a>. These studies prepared me to understand 
-            development methods like the waterfall model as examples of
-            "dreaming of systems so perfect that no one will need to be good"*
-            -- these practitioners were practicing
-            "rationalism in software engineering."
-            Or, to put it in my colleague Nassim Taleb's terms, these
-            systems were designed to be robust, impervious to change. 
-            (Consider the desire to "lock down" the software's feature
-            set in the requirements phase of the waterfall model.)
-            What was needed instead were systems that were
-            <a
-               href="https://en.wikipedia.org/wiki/Antifragility">antifragile</a>,
-            and actually thrived on change.
+        <code>
+            docker pull nginx
+        </code>
         </p>
-
-        <figure>
-            <iframe width="560" height="315"
-               src="https://www.youtube.com/embed/k4MhC5tcEv0" frameborder="0"
-               allowfullscreen>
-            </iframe>
+        <p>
+            Now that you have installed the nginx image,
+            just run the docker imgeas command again,
+            in the list you should see ngnix image just like
+            down below.
+        </p>
+         <figure>
+            <img width="60%" src="./build/graphics/docker_images_again.png" alt="docker images">
             <figcaption>
-                Nassim Taleb talks antifragility
+                List of images in my system now with nginx
             </figcaption>
         </figure>
 
-        <p>
-            Thus, when I returned to software engineering
-            and came across the DevOps movement, my experience was
-            not one of meeting someone brand new, but of re-acquainting
-            myself with an old friend who was sporting a new look,
-            and had learned some fancy new tricks since we had last met.
-            In particular, the DevOps approach does not try to ensure
-            design is 100% complete before any code is written: an impossible,
-            rationalist dream. The DevOps approach
-            does not attempt to ensure all software
-            leaving a developer's hands is bug-free: again, an impossible,
-            rationalist dream. And it does not attempt to ensure that
-            all released software is 100% crash-free and secure. Instead,
-            the DevOps approach recognizes that humans are fallible and
-            errors will occur, and so stresses <i>fast recovery from
-            errors</i> and a <i>low-blame culture</i>
-            that emphasizes learning from
-            errors rather than punishing transgressors. So, for instance,
-            rather than blaming the programmer who released a piece
-            of buggy code into production, the DevOps approach asks,
-            "What test haven't we written that would have caught that 
-            bug before release?"
+        <p> 
+            <ul> 
+                <li style="font-size:100%"> Download website code </li>
+            </ul>
         </p>
+
+        <p>
+            Ok now that you have download the nginx image,
+            let's download the static website that you
+            are going to host inside the docker container.
+            We are going to use the algorithms website for
+            professor's other subject. You can find the 
+            code for the website to 
+            <a href="http://gitub.com/gcallah/algorithms.git">
+            algorithms
+            </a>
+        </p>
+
+        <p>
+            Please remember the location where you have 
+            cloned the repository. I have cloned it in
+            <code> /Users/prashant/school/algorithms</code>
+            you's will be different than this, please note 
+            the location. Below is the screenshot of algorithms
+            directory.
+        </p>
+         <figure>
+            <img width="60%" src="./build/graphics/algorithms.png" alt="docker images">
+            <figcaption>
+                List of images in my system now with nginx
+            </figcaption>
+        </figure>
+        
+         <p> 
+            <ul> 
+                <li style="font-size:100%"> Let's make a container </li>
+            </ul>
+        </p>
+
+        <p>
+            Ok, so we have downloaded the nginx image and
+            the code of the website which we want to host
+            All we need to do is just make a container
+            out of the image. We will put the code of 
+            website inside the container so that the
+            webserver which is nginx in our case can 
+            read the html files and host it in local
+            server.
+            The command for that is as shown below.
+        </p>
+        <p>
+            <code> docker run --name algo_website -p 127.0.0.1:8080:80 -v /Users/prashant/school/algorithms/:/usr/share/nginx/html -d nginx </code>
+        </p>
+
+        <p>
+            Please don't forget to change the location of
+             algorithms directory in above command. 
+             After you run the command open the browser 
+             and type http://localhost:8080 and you
+             should be able to see the webpage. 
+             Windows user should use the address
+             http://192.168.99.100:8080 instead of localhost. 
+        </p>
+
 
         <hr>
-
-
-        <p>
-            * T.S. Eliot, "Choruses from the Rock"
-        </p>
-
 
             <p class="copyright">
                 &copy; 2017 Gene Callahan
