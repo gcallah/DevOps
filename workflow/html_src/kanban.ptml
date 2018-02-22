@@ -16,9 +16,12 @@
           </div>
       </div>
       <h1> Usage and Importance of Kanban</h1>
+      <p>Report In Progress</p>
       <p>
-        <i>Source:</i> Kanban, Successful Evolutionary Change for Your Technology Business by David J. Anderson <br>
-        <i>Purpose of this page:</i> To understand the importance of kanban in DevOps and how to implement Kanban.
+        <i>Source:</i> Kanban, Successful Evolutionary Change for Your
+        Technology Business by David J. Anderson <br>
+        <i>Purpose of this page:</i> To understand the importance of kanban in
+        DevOps and how to implement Kanban.
       </p>
       <br>
       <figure>
@@ -36,12 +39,14 @@
         to tell an upstream step in a process to produce more. The workers at
         each step in the process are not allowed to do work unless they are
         signaled with a kanban from a downstream step.
-        The signal to pull new work is inferred from visual quantitiy of work-in
-        -progress subtracted from some indicator of the limit (or capacity).
+        The signal to pull new work is inferred from visual quantitiy of
+        work-in-progress subtracted from some indicator of the
+        limit (or capacity).
       </p>
       <br>
       <p>
-        MOST IMPORTANT PRINCIPLES FOR SOFTWARE DEVELOPMENT: <br>
+          MOST IMPORTANT PRINCIPLES REQUIRED TO MAKE QUALITY SOFTWARE
+          DEVELOPMENT: <br>
         1. Visualize Workflow <br>
         2. Limit Work-in-Progress <br>
         3. Measure and Manage Flow <br>
@@ -101,7 +106,35 @@
         </ul>
       </p> -->
       <p>
-        Kanban is very important
+        Implementing Kanban: <br>
+        1. Decide the outer boundaries of the kanban system.  It is often best
+        to limit this to the immediate span of political control.<br>
+        2. Model the card wall to align with the boundary decision made
+        regarding limiting WIP and visualizing work.<br>
+        3. Define work types and model how their work flows.  Some types of
+        work may require every step in the flow.<br>
+        4. Design the work item card to have enough information to faciliate
+        self organization for pull and to enable team members to make good
+        quality decisions with respect to risk based on work item type,
+        service-level agreements, and classes of service.<br>
+        <figure>
+            <img
+            src="multimedia/item_card.png" width="403" height="304">
+            <figcaption>
+                Anatomy of an item card
+            </figcaption>
+        </figure>
+      </p>
+      <p>
+        5. Use an electronic tracking tool if the team is distributed. <br>
+        Examples of electronic tracking tools are Lean Kit Kanban, Agile Zen,
+        Target Process, Silver Catalyst, RadTrack, Kanbanery, VersionOne,
+        Greenhopper for Jira and Flow.io<br>
+        6. Discuss methods for handling concurrency in
+        activites and choose how to model and visualize them<br>
+        7. Discuss methods for handling activites that do not need to follow a
+        specifially ordered flow and choose how to model and visualize them.
+
       </p>
     </body>
 </html>
