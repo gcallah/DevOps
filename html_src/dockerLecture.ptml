@@ -30,9 +30,9 @@
             linux users. 
             This tutorial is written and performed in MacBook 
             computer. Windows users 
-            should not have any problem perorming the same steps 
+            should not have any problem performing the same steps 
             in windows, but if you
-            find youself stuck somewhere please send me a slack
+            find yourself stuck somewhere please send me a slack
              message, I will try to help you out.
         </p>
 
@@ -80,7 +80,7 @@
         </p>
         <p>
             Now that you have installed the nginx image,
-            just run the docker imgeas command again,
+            just run the docker images command again,
             in the list you should see ngnix image just like
             down below.
         </p>
