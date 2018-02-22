@@ -38,10 +38,46 @@
         </p>
         <ul class="nested">
             <li>
+                <h3>Vega</h3>
+            </li>
+            <li>
+                <h3>Grabber</h3>
+            </li>
+            <li>
+                <h3>Zed Attack Proxy</h3>
+            </li>
+            <li>
+                <h3>Wapiti</h3>
+            </li>
 
+            <li>
+                <h3>W3af</h3>
+            </li>
+            <li>
+                <h3>WebScarab</h3>
+            </li>
+            <li>
+                <h3>Skipfish</h3>
+            </li>
+            <li>
+                <h3>Ratproxy</h3>
+            </li>
+            <li>
+                <h3>SQLMap</h3>
+            </li>
+            <li>
+                <h3>Wfuzz</h3>
+            </li>
+            <li>
+                <h3>X5S</h3>
+            </li>
+            <li>
+                <h3>Watcher</h3>
+            </li>
+            <li>
+                <h3>Arachni</h3>
             </li>
         </ul>
-
         <h3>
             Sources:
         </h3>
