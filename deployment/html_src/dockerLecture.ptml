@@ -24,14 +24,14 @@
             In this webpage we are going to try and host a
              simple static website in nginx using docker.
             I have already talked about what version of 
-            docker you should use. If you are using windows 
+            docker you should use. If you are using Windows 
             then docker-toolbox otherwise just using 
             docker native should be okay for the Mac and 
-            linux users. 
-            This tutorial is written and performed in MacBook 
+            Linux users. 
+            This tutorial is written and performed in a MacBook 
             computer. Windows users 
             should not have any problem performing the same steps 
-            in windows, but if you
+            in Windows, but if you
             find yourself stuck somewhere please send me a slack
              message, I will try to help you out.
         </p>
@@ -160,7 +160,7 @@
         <hr>
 
             <p class="copyright">
-                &copy; 2018 Prashant Patel
+                &copy; 2018 Prashantkumar Patel
             </p>
     </body>
 </html>

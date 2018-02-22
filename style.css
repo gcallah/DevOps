@@ -57,12 +57,12 @@ hr {
 
 blockquote {
     margin: .4em 6em .4em 6em;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 ol, ul, dl, li {
     margin: 1em 1.5em .4em 1.5em;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 ol.centered, ul.centered dl.centered {
@@ -128,21 +128,20 @@ h2 {
 }
 
 h2.subhead {
-    font-weight:
-    normal;
+    font-weight: normal;
 }
 
 h3 {
     font-size: 1.6em;
     margin: .8em 1.2em .8em 2em;
     color: #ebd;
-    font-weight: bold;
 }
 
 h4 {
     font-size: 1.4em;
     margin: .8em 1.6em .6em 1.6em;
-    color: #fce;
+    color: #fde;
+    font-weight: normal;
 }
 
 summary.sum1 {
@@ -186,7 +185,7 @@ p.copyright {
 p.author {
     text-align: center;
     margin: 1em 1em 1em 1em;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #e9c;
 }
 
