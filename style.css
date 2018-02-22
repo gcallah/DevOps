@@ -45,10 +45,10 @@ td {
 p {
     margin: .4em 1.5em .4em 1.5em;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
+    color: #aaa;
 }
 
 hr {
@@ -57,12 +57,12 @@ hr {
 
 blockquote {
     margin: .4em 6em .4em 6em;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 ol, ul, dl, li {
     margin: 1em 1.5em .4em 1.5em;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 ol.centered, ul.centered dl.centered {
@@ -99,7 +99,7 @@ dt {
     text-decoration: underline;
 }
 
-h1,h2,h3,h4,h5 {
+h1,h2,h3 {
     font-weight: bold;
 }
 
@@ -124,26 +124,30 @@ h1.chap-title {
 h2 {
     font-size: 1.9em;
     margin: 1.2em 1em .6em 4em;
-    color: #c69;
+    color: #d8a;
+    font-weight: normal;
 }
 
 h2.subhead {
-    font-weight:
-    normal;
+    font-weight: normal;
 }
 
 h3 {
     font-size: 1.6em;
     margin: .8em 1.2em .8em 2em;
     color: #ebd;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin: .8em 1.6em .6em 1.6em;
-    color: #339;
-    font-weight: bold;
+    color: #fde;
+    font-weight: normal;
+}
+
+h4.deployment {
+    color: #1e90ff;
 }
 
 summary.sum1 {
@@ -155,7 +159,6 @@ summary.sum1 {
 summary.sum2 {
     font-size: 1.6em;
     color: #ebd;
-    font-weight: bold;
     margin: .8em 1.2em .8em 2em;
 }
 
@@ -187,7 +190,7 @@ p.copyright {
 p.author {
     text-align: center;
     margin: 1em 1em 1em 1em;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #e9c;
 }
 

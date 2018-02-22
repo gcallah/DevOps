@@ -34,23 +34,36 @@
             About Tingjun Zhang
         </p>
         <p>
-            Hello there, this is Tingjun Zhang. A CS master student from NYU. I take this course to get a hands-on experience of real-world development.
-            I am more interested in backend development so I joined in the coding group. I am familiar with Java and nodeJS. This time I will try Django. 
+            Hello there, this is Tingjun Zhang. 
+            A CS master student from NYU. 
+            I take this course to get a hands-on 
+            experience of real-world development.
+            I am more interested in backend development 
+            so I joined in the coding group. 
+            I am familiar with Java and nodeJS. 
+            This time I will try Django. 
         </p>
         <p>
-            Normally, we just create some simple and naive demo projects in the class. But this time, we will create a real-world project during this semester. Exciting!
+            Normally, we just create some simple and naive 
+            demo projects in the class. 
+            But this time, we will create a real-world 
+            project during this semester. 
+            Exciting!
         </p>
         <p>
             Brief introduction of the book in book review section. 
         </p>
         <h2> Weekly Update </h2>
         <p> Week 3 </p> 
-        <p> Settle down team placement</p>       
+        <p> Settle down team placement </p>       
         <br />
         <p> Week 4 </p>
-        <p> TODO: have a discussion about Classes API, prepare a TODO list and get start working. </p>       
+        <p> Have a discussion about Classes API, 
+        prepare a TODO list and get start working. </p>       
         <br />
-        <p> Week 3 </p>
+        <p> Week 5 </p>
+        <p> Implement url validator for html checker while
+         waiting for further instructions about Classes API </p>
         <br />
     </body>
 </html>

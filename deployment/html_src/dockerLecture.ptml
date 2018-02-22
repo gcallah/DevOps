@@ -24,14 +24,14 @@
             In this webpage we are going to try and host a
              simple static website in nginx using docker.
             I have already talked about what version of 
-            docker you should use. If you are using windows 
+            docker you should use. If you are using Windows 
             then docker-toolbox otherwise just using 
             docker native should be okay for the Mac and 
-            linux users. 
-            This tutorial is written and performed in MacBook 
+            Linux users. 
+            This tutorial is written and performed in a MacBook 
             computer. Windows users 
             should not have any problem performing the same steps 
-            in windows, but if you
+            in Windows, but if you
             find yourself stuck somewhere please send me a slack
              message, I will try to help you out.
         </p>
@@ -44,11 +44,10 @@
              given in the website.
         </p>
 
-        <p> 
-            <ul> 
-                <li style="font-size:100%"> Download the nginx image </li>
-            </ul>
-        </p>
+        <h4> 
+            Download the nginx image 
+        </h4>
+
         <p>
             Let's run the following command in terminal/quickstart-terminal. 
         </p>
@@ -93,11 +92,9 @@
             </figcaption>
         </figure>
 
-        <p> 
-            <ul> 
-                <li style="font-size:100%"> Download website code </li>
-            </ul>
-        </p>
+        <h4> 
+            Download website code
+        </h4>
 
         <p>
             Ok now that you have download the nginx image,
@@ -126,11 +123,9 @@
             </figcaption>
         </figure>
         
-         <p> 
-            <ul> 
-                <li style="font-size:100%"> Let's make a container </li>
-            </ul>
-        </p>
+        <h4> 
+            Let's make a container
+        </h4>
 
         <p>
             Ok, so we have downloaded the nginx image and
@@ -165,7 +160,7 @@
         <hr>
 
             <p class="copyright">
-                &copy; 2018 Prashant Patel
+                &copy; 2018 Prashantkumar Patel
             </p>
     </body>
 </html>
