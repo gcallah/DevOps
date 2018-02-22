@@ -36,7 +36,7 @@
             </h2>
 
             <figure>
-                <img src="graphics/ThirdWay.png">
+                <img width="60%" src="graphics/ThirdWay.png">
                 <figcaption>
                     (Credit: https://www.pinkelephantasia.com/)
                 </figcaption>
@@ -399,6 +399,7 @@
 
         <figure>
             <img
+            width="60%"
             src="https://i2.wp.com/devops.com/wp-content/uploads/2016/09/pic.png?w=499&ssl=1">
             <figcaption>
                 The six phases of the DevOps life cycle
