@@ -44,11 +44,10 @@
              given in the website.
         </p>
 
-        <p> 
-            <ul> 
-                <li style="font-size:100%"> Download the nginx image </li>
-            </ul>
-        </p>
+        <h4> 
+            Download the nginx image 
+        </h4>
+
         <p>
             Let's run the following command in terminal/quickstart-terminal. 
         </p>
@@ -93,11 +92,9 @@
             </figcaption>
         </figure>
 
-        <p> 
-            <ul> 
-                <li style="font-size:100%"> Download website code </li>
-            </ul>
-        </p>
+        <h4> 
+            Download website code
+        </h4>
 
         <p>
             Ok now that you have download the nginx image,
@@ -126,11 +123,9 @@
             </figcaption>
         </figure>
         
-         <p> 
-            <ul> 
-                <li style="font-size:100%"> Let's make a container </li>
-            </ul>
-        </p>
+        <h4> 
+            Let's make a container
+        </h4>
 
         <p>
             Ok, so we have downloaded the nginx image and
