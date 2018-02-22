@@ -34,23 +34,23 @@
             <h2>
                 The Three Ways of DevOps
             </h2>
-    
+
             <figure>
                 <img src="graphics/ThirdWay.png">
                 <figcaption>
                     (Credit: https://www.pinkelephantasia.com/)
                 </figcaption>
             </figure>
-    
+
             <ol class="centered">
                 <li>
                     The Technical Practices of Flow
                 </li>
-    
+
                 <li>
                     The Technical Practices of Feedback
                 </li>
-    
+
                 <li>
                     The Technical Practices of Continual Learning
                 </li>
@@ -101,7 +101,7 @@
 
             <details>
                 <summary class="sum2">
-                    Cloud 
+                    Cloud
                 </summary>
 
                 <ul class="nested">
@@ -131,7 +131,7 @@
                 </ul>
             </details>
 
-   
+
             <details>
                 <summary class="sum2">
                     Coding: Lean and Agile Practices
@@ -143,19 +143,19 @@
                             Coding links
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="coding/theory.html">
                             Coding theory
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="coding/tools.html">
                             Coding tools
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="coding/implementation.html">
                             Our coding implementation
@@ -163,7 +163,7 @@
                     </li>
                 </ul>
             </details>
-    
+
             <details>
                 <summary class="sum2">
                     Deployment
@@ -174,19 +174,19 @@
                             Deployment links
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="deployment/theory.html">
                             Deployment theory
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="deployment/tools.html">
                             Deployment tools
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="deployment/implementation.html">
                             Our deployment implementation
@@ -206,19 +206,19 @@
                             Monitoring links
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="monitoring/theory.html">
                             Monitoring theory
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="monitoring/tools.html">
                             Monitoring tools
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="monitoring/implementation.html">
                             Our monitoring implementation
@@ -237,19 +237,19 @@
                             Security links
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="security/theory.html">
                             Security theory
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="security/tools.html">
                             Security tools
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="security/implementation.html">
                             Our security implementation
@@ -268,19 +268,19 @@
                             Testing links
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="testing/theory.html">
                             Testing theory
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="testing/tools.html">
                             Testing tools
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="testing/implementation.html">
                             Our testing implementation
@@ -300,19 +300,19 @@
                             Workflow links
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="workflow/theory.html">
                             Workflow theory
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="workflow/tools.html">
                             Workflow tools
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="workflow/implementation.html">
                             Our workflow implementation
@@ -334,13 +334,13 @@
                             Course description, Spring 2018
                         </a>
                     </li>
-        
+
                     <li>
                         <a href="courseExpectations.html">
                             Course expectations, Spring 2018
                         </a>
                     </li>
-        
+
                     <li>
                         <a href="TeamsTable.html">
                             Our teams for Spring 2018
@@ -364,7 +364,7 @@
                             DevOps reading list
                         </a>
                     </li>
-        
+
                     <li>
                         <a href="journals/index.html">
                             Our DevOps journals
@@ -391,7 +391,7 @@
                         DevOps websites
                     </a>
                 </li>
-    
+
             </ul>
         </details>
 
