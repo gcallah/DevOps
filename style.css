@@ -4,8 +4,8 @@ body {
     margin: 0;
     padding: 0;
     font-size: 100%;
-    color: #bbc;
-    background: #444;
+    color: #000;
+    background: #fafafa;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -16,7 +16,7 @@ a, a:hover, a:focus {
 }
 
 a:link {
-    color: #acf;
+    color: #579;
 }
 
 table, th, td {
@@ -45,10 +45,10 @@ td {
 p {
     margin: .4em 1.5em .4em 1.5em;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2em;
-    font-weight: 300;
+    font-size: 1.4em;
+    font-weight: 700;
     line-height: 1.7em;
-    color: #bbc;
+    color: #000;
 }
 
 hr {
@@ -57,12 +57,12 @@ hr {
 
 blockquote {
     margin: .4em 6em .4em 6em;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 ol, ul, dl, li {
     margin: 1em 1.5em .4em 1.5em;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 ol.centered, ul.centered dl.centered {
@@ -99,7 +99,7 @@ dt {
     text-decoration: underline;
 }
 
-h1,h2,h3 {
+h1,h2,h3,h4,h5 {
     font-weight: bold;
 }
 
@@ -124,30 +124,26 @@ h1.chap-title {
 h2 {
     font-size: 1.9em;
     margin: 1.2em 1em .6em 4em;
-    color: #d8a;
-    font-weight: normal;
+    color: #a47;
 }
 
 h2.subhead {
-    font-weight: normal;
+    font-weight:
+    normal;
 }
 
 h3 {
     font-size: 1.6em;
     margin: .8em 1.2em .8em 2em;
     color: #ebd;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 h4 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     margin: .8em 1.6em .6em 1.6em;
-    color: #fde;
-    font-weight: normal;
-}
-
-h4.deployment {
-    color: #1e90ff;
+    color: #339;
+    font-weight: bold;
 }
 
 summary.sum1 {
@@ -158,7 +154,8 @@ summary.sum1 {
 
 summary.sum2 {
     font-size: 1.6em;
-    color: #ebd;
+    color: #967;
+    font-weight: bold;
     margin: .8em 1.2em .8em 2em;
 }
 
@@ -190,7 +187,7 @@ p.copyright {
 p.author {
     text-align: center;
     margin: 1em 1em 1em 1em;
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: #e9c;
 }
 
@@ -199,7 +196,7 @@ p.leadquote {
     text-align: center;
     margin: 1em 1em 1em 2em;
     font-size: 1.4em;
-    color: #9cd;
+    color: #000;
 }
 
 p.def {
@@ -236,7 +233,7 @@ figure.lead-figure {
 }
 
 figcaption {
-    color: #ced;
+    color: #7ab;
     font-style: italic;
     text-align: center;
     margin: .8em 1em .6em 1em;
