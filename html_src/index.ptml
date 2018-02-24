@@ -14,14 +14,6 @@
             The DevOps Course
         </h1>
 
-        <figure>
-            <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/220px-Devops-toolchain.svg.png">
-            <figcaption>
-                The DevOps toolchain
-            </figcaption>
-        </figure>
-
         <p class="leadquote">
             "Enterprises with digital aspirations now realize it’s
             DevOps or die. The increase in agility gained from short,
@@ -31,15 +23,13 @@
         </p>
 
         <div style="text-align:center">
-            <h2>
+            <h2 class="centered">
                 The Three Ways of DevOps
             </h2>
 
             <figure>
-                <img width="60%" src="graphics/ThirdWay.png">
-                <figcaption>
-                    (Credit: https://www.pinkelephantasia.com/)
-                </figcaption>
+                <img width="14%"
+                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Trefoil-Architectural-Equilateral-Triangle-interlaced.svg/545px-Trefoil-Architectural-Equilateral-Triangle-interlaced.svg.png">
             </figure>
 
             <ol class="centered">
@@ -414,14 +404,11 @@
             </ul>
         </details>
 
-        <br />
-
         <figure>
             <img
-            width="60%"
-            src="https://i2.wp.com/devops.com/wp-content/uploads/2016/09/pic.png?w=499&ssl=1">
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/220px-Devops-toolchain.svg.png">
             <figcaption>
-                The six phases of the DevOps life cycle
+                The DevOps toolchain
             </figcaption>
         </figure>
 
