@@ -25,7 +25,7 @@
 
             <ul class="nested">
                 <li>
-                Details about Zabbix
+                  Zabbix is an open source network monitoring tool that works with a centralized Linux-based Zabbix server. The Zabbix server automatically collects and parses data from monitored hardware so administrators can check availability and see trends in network performance. The server communicates to the native software agents that are available for many operating systems, including Linux, UNIX and Windows. For operating systems without an agent, generic monitoring protocols such as Simple Network Management Protocol (SNMP) or Intelligent Platform Management Interface (IPMI) can be used.
                 </li>
             </ul>
         </details>
