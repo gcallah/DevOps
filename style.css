@@ -19,6 +19,10 @@ a:link {
     color: #579;
 }
 
+a:visited {
+    color: #957;
+}
+
 table, th, td {
     margin: .4em 2.5em .4em 2.5em;
     font-size: 1em;
