@@ -142,7 +142,7 @@ h2.subhead {
 h3 {
     font-size: 1.6em;
     margin: .8em 1.2em .8em 2em;
-    color: #ebd;
+    color: #857;
     font-weight: bold;
 }
 
@@ -174,7 +174,7 @@ summary.sum3 {
 
 summary.sum4 {
     font-size: 1.4em;
-    color: #d7a;
+    color: #825;
     margin: .4em 1.2em .4em 2.8em;
 }
 
@@ -188,14 +188,14 @@ p.copyright {
     text-align: center;
     margin: 2em 1em 1em 1em;
     font-size: 1.1em;
-    color: #ebd;
+    color: #857;
 }
 
 p.author {
     text-align: center;
     margin: 1em 1em 1em 1em;
     font-size: 1.5em;
-    color: #e9c;
+    color: #936;
 }
 
 p.leadquote {
@@ -209,7 +209,7 @@ p.leadquote {
 p.def {
     margin: .8em 1.5em .3em 4em;
     font-size: 1.3em;
-    color: #cac;
+    color: #757;
 }
 
 .lead_illus {
@@ -240,14 +240,14 @@ figure.lead-figure {
 }
 
 figcaption {
-    color: #7ab;
+    color: #367;
     font-style: italic;
     text-align: center;
     margin: .8em 1em .6em 1em;
 }
 
 span.review {
-    color: #ced;
+    color: #588;
     font-size: .8em;
 }
 
@@ -395,10 +395,12 @@ i, span {
     font-size: 1.1em;
     display: block;
 }
+
 #sidebar ul li a:hover {
     color: #7386D5;
     background: #fff;
 }
+
 #sidebar ul li a i {
     margin-right: 10px;
 }
@@ -420,6 +422,7 @@ a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
     font-family: 'Glyphicons Halflings';
     font-size: 0.6em;
 }
+
 a[aria-expanded="true"]::before {
     content: '\e260';
 }
@@ -462,6 +465,7 @@ The Nav sidebar media effect
     #sidebar ul li a span {
         font-size: 0.85em;
     }
+
     #sidebar ul li a i {
         margin-right:  0;
         display: block;
@@ -474,9 +478,11 @@ The Nav sidebar media effect
     #sidebar ul li a i {
         font-size: 1.3em;
     }
+
     #sidebar {
         margin-left: 0;
     }
+
     #sidebarCollapse span {
         display: none;
     }
