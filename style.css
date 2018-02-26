@@ -264,6 +264,12 @@ span.frac > span {display: none;}
 
 .over { text-decoration: overline; }
 
+span.emphasize {
+    font-style: italic;
+    color: #6600ff;
+    display: inline;
+}
+
 /****** Nav Bar *****/
 .navbar {
     padding: 15px 10px;
