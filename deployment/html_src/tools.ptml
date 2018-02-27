@@ -78,12 +78,27 @@
                 Ansible
               </a>
             </li>
-
-            <li>
-              <a href="https://saltstack.com/">
-                SaltStack
-              </a>
-            </li>
+            <section>
+            <h4>Pros:</h4>
+            <ul class="nested">
+                <li>Easy and fast deployment
+                </li>
+                <li>Secure SSH connection
+                </li>
+                <li>Meant for environments that can scale rapidly</li>
+                <li>Push and pull models are supported</li>
+            </ul>
+          </section>
+          <section>
+            <h4>Cons:</h4>
+            <ul class="nested">
+                <li>Basic support for Windows
+                </li>
+                <li>GUI is not very interactive
+                </li>
+                <li>Difficult to locate syntax errors with YAML</li>
+            </ul>
+          </section>
 
             <li>
               <a href="https://www.docker.com/">
