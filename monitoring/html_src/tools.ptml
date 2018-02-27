@@ -25,7 +25,18 @@
 
             <ul class="nested">
                 <li>
-                Details about Zabbix
+                  Zabbix is an open source network monitoring tool that
+                  works with a centralized Linux-based Zabbix server.
+                  The Zabbix server automatically collects and parses data
+                  from
+                  monitored hardware so administrators can check
+                  availability and see trends in network performance.
+                  The server communicates to the native software agents that
+                  are available for many operating systems, including Linux,
+                  UNIX and Windows. For operating systems without an agent,
+                  generic monitoring protocols such as Simple Network
+                  Management Protocol (SNMP) or Intelligent Platform
+                  Management Interface (IPMI) can be used.
                 </li>
             </ul>
         </details>
@@ -37,7 +48,21 @@
 
             <ul class="nested">
                 <li>
-                Details about Nagios
+                  Nagios is a free and open source application that monitors
+                  systems, networks and infrastructure.
+                </li>
+                <li>
+                  Nagios offers monitoring and alerting services for servers,
+                  switches, applications and services.
+                </li>
+                <li>
+                  It alerts users when things go wrong and alerts them a
+                  second time when the problem has been resolved.
+                </li>
+                <li>
+                  Nagios sets itself up as the “Industry Standard In IT
+                  Infrastructure Monitoring” while Zabbix says it
+                  is “the Enterprise-class Monitoring Solution for Everyone”.
                 </li>
             </ul>
         </details>
@@ -61,8 +86,22 @@
 
             <ul class="nested">
                 <li>
-                Details about Prometheus
+                Prometheus is an open source monitoring and alerting tool.
                 </li>
+                <li>
+                 Its used for recording time series data which is
+                 characterised by metric name and key/value pairs.
+                </li>
+                <li>
+                  It can be used for monitoring machines as well as
+                  microservices.
+                </li>
+                <li>
+                  Prometheus offers reliability and lets you diagnose
+                  a problem quickly during an outage. It can display
+                  statistics even under failure conditions .
+                </li>
+
             </ul>
         </details>
 
@@ -97,8 +136,18 @@
 
             <ul class="nested">
                 <li>
-                Details about AWS CloudWatch
+                  Amazon CloudWatch offers cloud monitoring services for different AWS resources such as Amazon EBS volumes , Amazon RDS DB instances , Amazon EC2 instances and Elastic Load Balancers.
                 </li>
+                <li>
+                  It collects and tracks metrics such as request counts, CPU utilization, and latency. It then provides real time results to keep the ongoing work running smoothly.
+                </li>
+                <li>
+                  CloudWatch Events can be used to send system events from AWS resources to AWS Lambda functions, Amazon SNS topics, streams in Amazon Kinesis and many more.
+                </li>
+                <li>
+                  CloudWatch Logs can also be used to monitor, store, and access the log files from various sources like Amazon EC2 instances and AWS CloudTrail.
+                </li>
+
             </ul>
         </details>
 
@@ -181,7 +230,22 @@
 
             <ul class="nested">
                 <li>
-                Details about PagerDuty
+                Pagerduty is a SaaS incident reporting  tool.
+                </li>
+                <li>
+                Escalation rules and notifications can be defined for a 
+                service which routes the incident to the best person 
+                able to resolve it. 
+                </li>
+                <li>
+                Incident notifications can be received in various ways 
+                such as phone call, sms, email or slack. It can be 
+                customised according to the severity of the incident, 
+                the time it occured.
+                </li>
+                <li>
+                Pageduty provides visual analytics that can help root 
+                cause an incident faster.
                 </li>
             </ul>
         </details>

@@ -33,7 +33,7 @@
         </p>
         <p>
           A good UI gives customers good experience when they visit the
-          website. What makes a great UI? Apart from fast response speed, first, it is crucial that all visitors, with or without specific background knowledge, can 
+          website. What makes a great UI? Apart from fast response speed, first, it is crucial that all visitors, with or without specific background knowledge, can
           understand what the interface is talking about, like what to fill in this blank and where this button leads. Second, important pages, like index pages or sub-index pages, should be accessible from any other page on the website(by adopting a navigation bar, for instance). Third, UI style should
           be consistent across all pages to strive for smoothest transition when users walk across our web
           pages. Also the style should be adapted to most users' comfort that font, background and other
@@ -61,6 +61,12 @@
                     What makes a good user interface?
                   </a>
               </li>
+
+              <li>
+                  <a href="https://www.w3.org/standards/webdesign/accessibility">
+                    Web accessibility
+                  </a>
+              </li>
           </ul>
         </p>
         <br/>
@@ -70,7 +76,7 @@
         <p>
           <figure>
               <img
-              src="img/sampleIndex2.png" style = "width: 100%">
+              src="img/sampleIndex2.png" alt="Screenshot of the first UI Version" style = "width: 100%">
           </figure>
         </p>
 

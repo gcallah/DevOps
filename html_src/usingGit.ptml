@@ -21,6 +21,12 @@
 
         <ul class="nested">
             <li>
+                For the purposes of continuous integration, work should usually
+                be done on the master branch. Creating other branches should be
+                done only in extraordinary circumstances.
+            </li>
+
+            <li>
                 Use <i>real</i> commit messages that give someone viewing the
                 commit an idea of what occurred.
                 <br />

@@ -60,7 +60,17 @@
         Week 4
         <br />
 
+        This Friday, we have a video meeting with Jeff. He told us that if we want to avoid Multi-Factor Authentication, we could use instructor's account to create annoucements.
+        First, we try to show Trello and Stack on website by html or javascript. But I found out that Trello now must use its RESTful API to get infos, so if we want to do so, we need to decode those info and write an UI on our website to show info.
+        There was a quick task for us in this week. The website has a html checker now and it needs a url checker. There are mutural python library tools, so it is easy to achieve.
+        We also connected to staff from NYU IT department, they had experience about how to build "/class" command in Slack to create NYU Classes annoucements. We would try that in next week.
 
+        <br />
+        Week 5
+        <br />
+
+        This week I finally find out what wrong about my python. My python 3 get crashed sometimes and it only happens at specific situation. And I rebuild all my environment before this week task.
+        Then I tried to build a new program(script) for stack. Because it is an individual part, I don't think I could commit this part and let others confuse about and rewrite what I just uploaded. In another word, it is not a part could use agile method, it should be the smallest unsplitable unit in our task.
 
         <br />
         </p>

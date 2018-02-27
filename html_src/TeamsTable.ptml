@@ -34,16 +34,13 @@
                 <td>Drumil</td>
               </tr>
               <tr>
-                <th rowspan="3">Cloud Team</th>
-                <td>Rushabh Patel</td>
-              </tr>
-              <tr>
+                <th rowspan="2">Cloud Team</th>
                 <td>Richa</td>
               </tr>
               <tr>
                 <td>Adit</td>
               </tr>
-              
+                           
               <tr>
                 <th rowspan="7">Coding Team</th>
                 <td>Linfeng Wang</td>
