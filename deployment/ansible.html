@@ -50,8 +50,60 @@
 		
 		<p>
 		</br>
-		BASIC INSTALLATION 
+		<b>ANSIBLE INSTALLATION</b> 
+		</br>
+		Ansible uses SSH protocol for management of the machines.
+		On installation, Ansible does not add any database, or starts any background process. The <b>control machine</b> is installed with ansible, and then it is used to further control other machines (referred as, Nodes) on the same LAN or on remote newtork.
+		
+		NOTE: Windows is not used as a Control Machine. Ansible official documentation page quotes, <i>"Running Ansible from a Windows control machine directly is not a goal of the project. Refrain from asking for this feature, as it limits what technologies, features, and code we can use in the main project in the future."</i>
+		</br> </br>
+		
+		<u>REQUIREMENTS AND DEPENDENCIES </u>
+		</br>
+		<u>Control machine</u>
+		</br>
+		Basic requirement of a control machine is Python 2 (2.6 or 2.7) or Python 3 (3.5 or higher). However, only the latest version of Ansible support Python 3, it is still advisable to run Python 2 for the beginners.
+		
+		</br>
+		<u>Nodes</u>
+		</br>
+		Python 2 (2.6 or 2.7) should be up and running on node machines to be managed.</br>
+		SSH, SFTP, SCP are few protocols which can be used as mode of communictaion to manage the nodes. By default SFTP is used, however, it is advisable to switch to SSH.
+		
+		</br>
+		<u>UBUNTU installation </u>
+		</br>
+		<pre>
+		$ sudo apt-get update
+		$ sudo apt-get install software-properties-common
+		$ sudo apt-add-repository ppa:ansible/ansible
+		$ sudo apt-get update
+		$ sudo apt-get install ansible
+		</pre>
+		
+		</br>
+		<u>MAC installation </u>
+		</br>
+		
+		<p>'pip' is used for easy installation, but it isn't available on OSX by default. So, we can use python's package manager easy_install to install pip.</p>
+		<pre> sudo easy_install pip </pre>
+		
+		</br>
+		Post pip installation, ansible can be very easy installed on an OSX
+		
+		<pre>
+		$ sudo pip install ansible
+		$ sudo pip install ansible --upgrade
+		</pre>
+		
+		On OSX Maverick, compiler might create soem issue, which can be easily dealt with foolowing command.
+		
+		<pre>$ sudo CFLAGS=-Qunused-arguments CPPFLAGS=-Qunused-arguments pip install ansible</pre>
 		</p>
+		
+		
+		
+		
 		<p>
 		</br>
 		
