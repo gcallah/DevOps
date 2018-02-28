@@ -161,7 +161,7 @@
                         <div class="navbar-header">
                             <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
                                 <i class="glyphicon glyphicon-align-left"></i>
-                                <span>Expand Side Nav</span>
+                                <span id="sidebarText">Collapse Side Nav</span>
                             </button>
                         </div>
 
@@ -238,9 +238,17 @@
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
          <script type="text/javascript">
+             var status = 'on';
              $(document).ready(function () {
                  $('#sidebarCollapse').on('click', function () {
                      $('#sidebar').toggleClass('active');
+                     if (status == 'on') {
+                         $('#sidebarText').text("Expand Side Nav");
+                         status = 'off';
+                     } else {
+                         $('#sidebarText').text("Collapse Side Nav");
+                         status = 'on';
+                     }
                  });
              });
          </script>
