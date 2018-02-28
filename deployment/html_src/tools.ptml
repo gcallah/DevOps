@@ -105,6 +105,23 @@
                 Docker: Containers
               </a>
             </li>
+            <section>
+            <h4>Pros:</h4>
+            <ul class="nested">
+                <li>Biggest advantage: Containers use less resources</li>
+                <li>Well documented</li>
+                <li>Fast</li>
+                <li>Consumes less space compared to VMs</li>
+            </ul>
+          </section>
+          <section>
+            <h4>Cons:</h4>
+            <ul class="nested">
+                <li>Security</li>
+                <li>Platform dependent</li>
+                <li>Data storage is complicated</li>
+            </ul>
+          </section>
 
             <li>
               <a href="https://docs.docker.com/engine/swarm/">
