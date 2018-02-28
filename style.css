@@ -333,16 +333,12 @@ i, span {
     text-align: center;
 }
 
-#sidebar.active .sidebar-header h3, #sidebar.active .CTAs {
+#sidebar.active .sidebar-header h1, #sidebar.active .CTAs {
     display: none;
 }
 
 #sidebar.active .sidebar-header strong {
     display: block;
-}
-
-#sidebar ul li a {
-    text-align: left;
 }
 
 #sidebar.active ul li a {
@@ -359,7 +355,8 @@ i, span {
 }
 
 #sidebar.active ul ul a {
-    padding: 10px !important;
+    padding: 1em 1em;
+    font-size: 0.8em;
 }
 
 #sidebar.active a[aria-expanded="false"]::before, #sidebar.active a[aria-expanded="true"]::before {
@@ -372,7 +369,8 @@ i, span {
 }
 
 #sidebar.active ul ul ul a {
-  font-size: 1.8em;
+    padding: 1em 1em;
+    font-size: 0.6em;
 }
 
 #sidebar .sidebar-header {
@@ -391,8 +389,10 @@ i, span {
 }
 
 #sidebar ul li a {
-    padding: 10px;
-    font-size: 1.1em;
+    padding: 0.8em;
+    text-align: left;
+    color: #fff;
+    font-size: 1.4em;
     display: block;
 }
 
@@ -408,6 +408,38 @@ i, span {
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
     background: #6d7fcc;
+}
+
+#sidebar ul ul a {
+    padding-left: 3.0em;
+    text-align: left;
+    color: #fff;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul ul ul a {
+    padding-left: 4.0em;
+    text-align: left;
+    color: #fff;
+    font-size: 0.8em;
+    display: block;
+}
+
+#sidebar h1 {
+    color: #fff;
+    background-color: transparent;
+    text-align: left;
+    margin: 1em 0em 0em 0em;
+    padding: 0em;
+}
+
+#sidebar ul {
+    margin: 0em;
+}
+
+#sidebar ul li {
+    margin: 0em;
 }
 
 a[data-toggle="collapse"] {
