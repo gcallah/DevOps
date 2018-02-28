@@ -99,7 +99,36 @@
                 <li>Difficult to locate syntax errors with YAML</li>
             </ul>
           </section>
-
+            <li>
+              <a href="https://saltstack.com/">
+               SaltStack
+              </a>
+            </li>
+            <section>
+            <h4>Pros:</h4>
+            <ul class="nested">
+                <li>Implemented in python and controlled with YAML files
+                which are simple to understand
+                </li>
+                <li>Fast communication between master and client
+                </li>
+                <li>Provides high scalability and resiliency
+                </li>
+                <li>Vibrant support community
+                </li>
+            </ul>
+          </section>
+          <section>
+            <h4>Cons:</h4>
+            <ul class="nested">
+                <li>Difficult to set up
+                </li>
+                <li>Salt GUI is under development
+                </li>
+                <li>Does not support variety of Operating Systems
+                </li>
+            </ul>
+          </section>
             <li>
               <a href="https://www.docker.com/">
                 Docker: Containers
