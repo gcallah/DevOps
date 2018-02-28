@@ -153,6 +153,13 @@ h4 {
     font-weight: bold;
 }
 
+h5 {
+    font-size: 1.4em;
+    margin: .8em 1.6em .6em 1.6em;
+    color: #9900cc;
+    font-weight: bold;
+}
+
 summary.sum1 {
     font-size: 1.7em;
     color: #903;

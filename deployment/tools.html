@@ -10,7 +10,16 @@
     </head>
 
     <body>
-<p>We attempted to read from menu.txt but failed.</p>
+<div id="header">
+    <div id="logo">
+        <img src="https://gcallah.github.io/DevOps/graphics/Julia.png">
+    </div>
+    <div id="user-tools">
+        <a href="https://gcallah.github.io/DevOps/index.html">Home</a>
+        &nbsp; &nbsp; 
+        <a href="https://gcallah.github.io/DevOps/about.html">About</a>
+    </div>
+</div>
         <h1>
             Deployment/Configuration Tools Comparison
         </h1>
@@ -20,15 +29,11 @@
             tools and their features:
         </p>
 
-        <ul class="nested">
-            <li>
-                <a href="https://puppet.com">
-                Puppet
-                </a>
-              </li>
-
-            <section>
-            <h4>Pros:</h4>
+        <details>
+            <summary class="sum2">
+              Puppet
+            </summary>
+            <h5>Pros:</h5>
             <ul class="nested">
                 <li>Easy installation
                 </li>
@@ -37,9 +42,7 @@
                 <li>GUI is user friendly</li>
                 <li>Stable and mature solution</li>
             </ul>
-          </section>
-          <section>
-            <h4>Cons:</h4>
+            <h5>Cons:</h5>
             <ul class="nested">
                 <li>Built with Ruby, unlike other tools that are Python-based
                 </li>
@@ -47,14 +50,12 @@
                 </li>
                 <li>Remote execution is challenging</li>
             </ul>
-          </section>
-            <li>
-              <a href="https://www.chef.io/">
-                Chef
-              </a>
-            </li>
-            <section>
-            <h4>Pros:</h4>
+        </details>
+        <details>
+            <summary class="sum2">
+              Chef
+            </summary>
+            <h5>Pros:</h5>
             <ul class="nested">
                 <li>Meant to be used by programmers
                 </li>
@@ -63,9 +64,7 @@
                 <li>Stable and mature solution</li>
                 <li>Good version control capabilities</li>
             </ul>
-            </section>
-            <section>
-            <h4>Cons:</h4>
+            <h5>Cons:</h5>
             <ul class="nested">
                 <li>Complicated tool to use
                 </li>
@@ -73,14 +72,12 @@
                 </li>
                 <li>Documentation can be overwhelming</li>
             </ul>
-            </section>
-            <li>
-              <a href="https://www.ansible.com/">
-                Ansible
-              </a>
-            </li>
-            <section>
-            <h4>Pros:</h4>
+        </details>
+        <details>
+            <summary class="sum2">
+              Ansible
+            </summary>
+            <h5>Pros:</h5>
             <ul class="nested">
                 <li>Easy and fast deployment
                 </li>
@@ -89,9 +86,7 @@
                 <li>Meant for environments that can scale rapidly</li>
                 <li>Push and pull models are supported</li>
             </ul>
-          </section>
-          <section>
-            <h4>Cons:</h4>
+            <h5>Cons:</h5>
             <ul class="nested">
                 <li>Basic support for Windows
                 </li>
@@ -99,14 +94,12 @@
                 </li>
                 <li>Difficult to locate syntax errors with YAML</li>
             </ul>
-          </section>
-            <li>
-              <a href="https://saltstack.com/">
-               SaltStack
-              </a>
-            </li>
-            <section>
-            <h4>Pros:</h4>
+        </details>
+        <details>
+            <summary class="sum2">
+              SaltStack
+           </summary>
+            <h5>Pros:</h5>
             <ul class="nested">
                 <li>Implemented in python and controlled with YAML files
                 which are simple to understand
@@ -118,9 +111,7 @@
                 <li>Vibrant support community
                 </li>
             </ul>
-          </section>
-          <section>
-            <h4>Cons:</h4>
+            <h5>Cons:</h5>
             <ul class="nested">
                 <li>Difficult to set up
                 </li>
@@ -129,59 +120,47 @@
                 <li>Does not support variety of Operating Systems
                 </li>
             </ul>
-          </section>
-            <li>
-              <a href="https://www.docker.com/">
-                Docker: Containers
-              </a>
-            </li>
-            <section>
-            <h4>Pros:</h4>
+        </details>
+        <details>
+            <summary class="sum2">
+              Docker: Containers
+            </summary>
+            <h5>Pros:</h5>
             <ul class="nested">
                 <li>Biggest advantage: Containers use less resources</li>
                 <li>Well documented</li>
                 <li>Fast</li>
                 <li>Consumes less space compared to VMs</li>
             </ul>
-          </section>
-          <section>
-            <h4>Cons:</h4>
+            <h5>Cons:</h5>
             <ul class="nested">
                 <li>Security</li>
                 <li>Platform dependent</li>
                 <li>Storage is complicated</li>
             </ul>
-          </section>
-
-            <li>
-              <a href="https://docs.docker.com/engine/swarm/">
-                Docker Swarm: Cluster Management
-              </a>
-            </li>
-            <section>
-            <h4>Pros:</h4>
+        </details>
+        <details>
+            <summary class="sum2">
+              Docker Swarm: Cluster Management
+            </summary>
+            <h5>Pros:</h5>
             <ul class="nested">
                 <li>Easy Installation and Use</li>
                 <li>Faster reaction times with docker containers,
                 (Most containers in the industry are docker) </li>
             </ul>
-            </section>
-            <section>
-            <h4>Cons:</h4>
+            <h5>Cons:</h5>
             <ul class="nested">
                 <li>Only supports 3rd party logging and monitoring tools</li>
                 <li>Supports only manual scaling</li>
                 <li>Limited fault tolerance and functionality</li>
             </ul>
-          </section>
-
-            <li>
-              <a href="https://kubernetes.io/">
-                Kubernetes: Cluster Management
-              </a>
-            </li>
-            <section>
-            <h4>Pros:</h4>
+        </details>
+        <details>
+            <summary class="sum2">
+              Kubernetes: Cluster Management
+            </summary>
+            <h5>Pros:</h5>
             <ul class="nested">
                 <li> Offers inbuilt logging and monitoring tools</li>
                 <li> Open-source, scalable and powerful</li>
@@ -189,58 +168,50 @@
                 : Google, Pokemon GO</li>
                 <li>Auto-scaling with CPU utilization</li>
             </ul>
-            </section>
-            <section>
-            <h4>Cons:</h4>
+            <h5>Cons:</h5>
             <ul class="nested">
                 <li>Not easy to use - a more complicated setup and configuration</li>
             </ul>
-          </section>
-
-          <li>
-            <a href="http://mesos.apache.org/">
-              Mesos
-            </a>
-          </li>
-          <section>
-          <h4>Pros:</h4>
-          <ul class="nested">
+        </details>
+        <details>
+            <summary class="sum2">
+            Mesos
+            </summary>
+            <h5>Pros:</h5>
+            <ul class="nested">
+              <li></li>
+            </ul>
+            <h5>Cons:</h5>
+             <ul class="nested">
               <li></li>
           </ul>
-          </section>
-          <section>
-          <h4>Cons:</h4>
-          <ul class="nested">
+        </details>
+        <details>
+            <summary class="sum2">
+            Amazon Elastic Container Service: Cluster Management
+            </summary>
+            <h5>Pros:</h5>
+            <ul class="nested">
               <li></li>
-          </ul>
-        </section>
-
-          <li>
-            <a href="https://aws.amazon.com/ecs/">
-              Amazon Elastic Container Service: Cluster Management
-            </a>
-          </li>
-          <section>
-          <h4>Pros:</h4>
-          <ul class="nested">
+            </ul>
+            <h5>Cons:</h5>
+            <ul class="nested">
               <li></li>
-          </ul>
-          </section>
-          <section>
-          <h4>Cons:</h4>
-          <ul class="nested">
+            </ul>
+        </details>
+        <details>
+            <summary class="sum2">
+              AWS CloudFormation: Infrastructure Deployment and Automation
+            </summary>
+            <h5>Pros:</h5>
+            <ul class="nested">
               <li></li>
-          </ul>
-        </section>
-            <li>
-              <a href="https://aws.amazon.com/cloudformation/">
-                AWS CloudFormation: Infrastructure Deployment and Automation
-              </a>
-            </li>
-
-
-
-        </ul>
+            </ul>
+            <h5>Cons:</h5>
+            <ul class="nested">
+              <li></li>
+            </ul>
+        </details>
 
     </body>
 </html>
