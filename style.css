@@ -87,7 +87,7 @@ dt {
 
 #header {
     width: auto;
-    height: 3em;
+    height: 5em;
     padding: .5em 2em;
     line-height: 2em;
     background-color: #cbe;
@@ -225,6 +225,7 @@ p.def {
 
 #logo {
     float: left;
+    height: 100%;
 }
 
 #logo img {
@@ -236,7 +237,7 @@ p.def {
     padding: 0;
     margin: 0 0 0 1em;
     font-weight: 300;
-    font-size: .7em;
+    font-size: .9em;
     letter-spacing: .1em;
     text-transform: uppercase;
     text-align: right;
