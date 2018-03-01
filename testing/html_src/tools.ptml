@@ -72,6 +72,11 @@ Continuous Delivery (CD) is a practice of automating the entire software release
             <li> Supports more than a dozen languages </li>
             <li> Excellent user website interaction </li>
             
+            <h2> WE have chosen Jenkins as our continuous Itegration tool because of 
+                a) It gives various options to customize 
+                b) It is windows compatible(Many students in the class use the windows platform)
+                c) Amazing amounts of resources and a great comunity
+             </h2>
             
 
             <li>
