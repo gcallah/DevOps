@@ -6,6 +6,8 @@
         <title>
             Monitoring Tools Comparison
         </title>
+        <!--include googleAnalyticsScript.txt -->
+
     </head>
 
     <body>
@@ -74,7 +76,7 @@
 
             <ul class="nested">
                 <li>
-                Sensu is an application and infrastructure monitoring 
+                Sensu is an application and infrastructure monitoring
                 solution. It is not a SaaS solution.
                 </li>
                 <li>
