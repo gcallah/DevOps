@@ -8,7 +8,9 @@
     </head>
 
     <body>
-<!--include menu.txt -->
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
         <h1>
             Using Git and GitHub
         </h1>
@@ -37,6 +39,8 @@
 
         </ul>
 
+            </div>
+        </div>
 
     </body>
 </html>

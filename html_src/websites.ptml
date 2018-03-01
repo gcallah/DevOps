@@ -8,7 +8,9 @@
     </head>
 
     <body>
-<!--include menu.txt -->
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
         <h1>
             DevOps Websites
         </h1>
@@ -61,6 +63,8 @@
                 </a>
             </li>
         </ul>
+            </div>
+        </div>
 
     </body>
 </html>

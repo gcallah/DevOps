@@ -5,12 +5,174 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
+
+        <!-- jQuery CDN -->
+         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+         <script type="text/javascript">
+             var status = 'on';
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                     if (status == 'on') {
+                         $('#sidebarText').text("Expand Side Nav");
+                         status = 'off';
+                     } else {
+                         $('#sidebarText').text("Collapse Side Nav");
+                         status = 'on';
+                     }
+                 });
+             });
+         </script>
         <title>
             Kanban: Work Is a Flow, Not a Stock
         </title>
     </head>
 
     <body>
+        <div class="wrapper">
+<!-- Sidebar Holder -->
+<nav id="sidebar">
+    <div id="sidebarCollapse">
+        <div class="sidebar-header">
+            <h1>Dev Ops</h1>
+            <strong>DO</strong>
+        </div>
+    </div>
+
+    <ul class="list-unstyled components">
+        <li>
+            <a href="index.html">
+                <i class="glyphicon glyphicon-home"></i>
+                Home
+            </a>
+        </li>
+        <li>
+            <a href="about.html">
+                <i class="glyphicon glyphicon-briefcase"></i>
+                About
+            </a>
+            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                <i class="glyphicon glyphicon-duplicate"></i>
+                Main Area of Coverage
+            </a>
+            <ul class="collapse list-unstyled" id="pageSubmenu">
+                <li>
+                  <a href="#BuildSubmenu" data-toggle="collapse" aria-expanded="false">Build</a>
+                  <ul class="collapse list-unstyled" id="BuildSubmenu">
+                    <li><a href="build/links.html">Build links</a></li>
+                    <li><a href="build/theory.html">Build theory</a></li>
+                    <li><a href="build/tools.html">Build tools</a></li>
+                    <li><a href="build/implementation.html">Our build implementation</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#CloudSubmenu" data-toggle="collapse" aria-expanded="false">Cloud</a>
+                  <ul class="collapse list-unstyled" id="CloudSubmenu">
+                    <li><a href="cloud/links.html">Cloud links</a></li>
+                    <li><a href="cloud/theory.html">Cloud theory</a></li>
+                    <li><a href="cloud/tools.html">Cloud tools</a></li>
+                    <li><a href="cloud/implementation.html">Our cloud implementation</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#CodingSubmenu" data-toggle="collapse" aria-expanded="false">Coding: Lean and Agile Practices</a>
+                  <ul class="collapse list-unstyled" id="CodingSubmenu">
+                    <li><a href="coding/links.html">Coding links</a></li>
+                    <li><a href="coding/theory.html">Coding theory</a></li>
+                    <li><a href="coding/tools.html">Coding tools</a></li>
+                    <li><a href="coding/implementation.html">Our coding implementation</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#DeploySubmenu" data-toggle="collapse" aria-expanded="false">Deployment</a>
+                  <ul class="collapse list-unstyled" id="DeploySubmenu">
+                    <li><a href="deployment/links.html">Deployment links</a></li>
+                    <li><a href="deployment/theory.html">Deployment theory</a></li>
+                    <li><a href="deployment/tools.html">Deployment tools</a></li>
+                    <li><a href="deployment/implementation.html">Our deployment implementation</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#MonitorSubmenu" data-toggle="collapse" aria-expanded="false">Monitoring</a>
+                  <ul class="collapse list-unstyled" id="MonitorSubmenu">
+                    <li><a href="monitoring/links.html">Monitoring links</a></li>
+                    <li><a href="monitoring/theory.html">Monitoring theory</a></li>
+                    <li><a href="monitoring/tools.html">Monitoring tools</a></li>
+                    <li><a href="monitoring/implementation.html">Our monitoring implementation </a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#SecuritySubmenu" data-toggle="collapse" aria-expanded="false">Security: Rugged DevOps</a>
+                  <ul class="collapse list-unstyled" id="SecuritySubmenu">
+                    <li><a href="security/links.html">Security links</a></li>
+                    <li><a href="security/theory.html">Security theory</a></li>
+                    <li><a href="security/tools.html">Security tools</a></li>
+                    <li><a href="security/implementation.html">Our security implementation</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#TestingSubmenu" data-toggle="collapse" aria-expanded="false">Testing</a>
+                  <ul class="collapse list-unstyled" id="TestingSubmenu">
+                    <li><a href="testing/links.html">Testing links</a></li>
+                    <li><a href="testing/theory.html">Testing theory</a></li>
+                    <li><a href="testing/tools.html">Testing tools</a></li>
+                    <li><a href="testing/implementation.html">Our testing implementation</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#WorkflowSubmenu" data-toggle="collapse" aria-expanded="false">Workflow: DevOps as a Way of Work</a>
+                  <ul class="collapse list-unstyled" id="WorkflowSubmenu">
+                    <li><a href="workflow/links.html">Workflow links</a></li>
+                    <li><a href="workflow/theory.html">Workflow theory</a></li>
+                    <li><a href="workflow/tools.html">Workflow tools</a></li>
+                    <li><a href="workflow/implementation.html">Our workflow implementation</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#UXSubmenu" data-toggle="collapse" aria-expanded="false">UX: User Interface</a>
+                  <ul class="collapse list-unstyled" id="UXSubmenu">
+                    <li><a href="UX/UXTeamPage.html">Team Info</a></li>
+                  </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#MaterialsSubmenu" data-toggle="collapse" aria-expanded="false">
+                <i class="glyphicon glyphicon-link"></i>
+                Other Materials
+            </a>
+            <ul class="collapse list-unstyled" id="MaterialsSubmenu">
+              <li>
+                <a href="#CMSubmenu" data-toggle="collapse" aria-expanded="false">Course-specific Material</a>
+                <ul class="collapse list-unstyled" id="CMSubmenu">
+                  <li><a href="courseDescr.html">Course description, Spring 2018</a></li>
+                  <li><a href="courseExpectations.html">Course expectations, Spring 2018</a></li>
+                  <li><a href="TeamsTable.html">Our teams for Spring 2018</a></li>
+                  <li><a href="books.html">DevOps reading list</a></li>
+                  <li><a href="journals/index.html">Our DevOps journals</a></li>
+                  <li><a href="http://www.thedevopscourse.com/devops/">The Django site: the course will manage a cutover to here!</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#SupSubmenu" data-toggle="collapse" aria-expanded="false">Supplementary Material</a>
+                <ul class="collapse list-unstyled" id="SupSubmenu">
+                  <li><a href="websites.html">DevOps websites</a></li>
+                </ul>
+              </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">
+                <i class="glyphicon glyphicon-send"></i>
+                Contact
+            </a>
+        </li>
+    </ul>
+</nav>
+            <div id="content">
         <h1>
             Kanban: Work Is a Flow, Not a Stock
         </h1>
@@ -51,5 +213,7 @@
             unfinished projects at one's work station.
         </p>
 
+            </div>
+        </div>
     </body>
 </html>
