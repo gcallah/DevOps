@@ -65,8 +65,5 @@
         <p> Implement url validator for html checker while
          waiting for further instructions about Classes API </p>
         <br />
-        <p> Week 6 </p>
-        <p> Push url validator to production. Working on Django
-        solution to push slack post request to Classes. </p>
     </body>
 </html>
