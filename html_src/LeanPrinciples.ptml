@@ -8,33 +8,42 @@
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Lean Principles
-        </h1>
-        <ol>
-            <li>
-            Eliminate waste
-            </li>
-            <li>
-            Build quality in
-            </li>
-            <li>
-            Create knowledge
-            </li>
-            <li>
-            Defer commitment
-            </li>
-            <li>
-            Deliver fast
-            </li>
-            <li>
-            Respect people
-            </li>
-            <li>
-            Optimize the whole
-            </li>
-        </ol>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Lean Principles
+                </h1>
+                <ol>
+                    <li>
+                    Eliminate waste
+                    </li>
+                    <li>
+                    Build quality in
+                    </li>
+                    <li>
+                    Create knowledge
+                    </li>
+                    <li>
+                    Defer commitment
+                    </li>
+                    <li>
+                    Deliver fast
+                    </li>
+                    <li>
+                    Respect people
+                    </li>
+                    <li>
+                    Optimize the whole
+                    </li>
+                </ol>
+                <p>
+                    (Source: Mary and Tom Poppendieck,
+                    <i>Lean Software Development</i>)
+                </p>
+
+            </div>
+        </div>
     </body>
 </html>
 

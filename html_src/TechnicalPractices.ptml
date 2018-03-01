@@ -9,15 +9,19 @@
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Technical Practices
-        </h1>
-        <p>
-            <a href="https://hackerchick.com/just-do-it-quick-intro-to-agiles/">
-            	Agile Technical Practices
-            </a>
-        </p>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+            <h1>
+                Technical Practices
+            </h1>
+            <p>
+                <a href="https://hackerchick.com/just-do-it-quick-intro-to-agiles/">
+                	Agile Technical Practices
+                </a>
+            </p>
 
+            </div>
+        </div>
     </body>
 </html>

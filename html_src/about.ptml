@@ -8,16 +8,20 @@
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            About this site
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+            <h1>
+                About this site
+            </h1>
+    
+            <p>
+                A site for a DevOps course, built by Dr. Eugene Callahan
+                and his Spring 2018 DevOps class at NYU Tandon.
+            </p>
 
-        <p>
-            A site for a DevOps course, built by Dr. Eugene Callahan
-            and his Spring 2018 DevOps class at NYU Tandon.
-        </p>
-
+            </div>
+        </div>
 
     </body>
 </html>

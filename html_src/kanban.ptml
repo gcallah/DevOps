@@ -8,6 +8,9 @@
     </head>
 
     <body>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
         <h1>
             Kanban: Work Is a Flow, Not a Stock
         </h1>
@@ -48,5 +51,7 @@
             unfinished projects at one's work station.
         </p>
 
+            </div>
+        </div>
     </body>
 </html>

@@ -8,7 +8,9 @@
     </head>
 
     <body>
-<!--include menu.txt -->
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
         <h1>
             DevOps and the Division of Labor
         </h1>
@@ -143,5 +145,7 @@
         survive can ignore the DevOps revolution. 
         </p>
 
+            </div>
+        </div>
     </body>
 </html>

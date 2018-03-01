@@ -8,76 +8,84 @@
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            DevOps: Course Description
-        </h1>
-
-        <p>
-            DevOps is an umbrella term covering the latest thinking in software
-            development and computer center operations. It encompasses Lean and
-            Agile development practices, software as infrastructure for
-            automating IT configuration and deployment, automated testing, 
-            continuous integration, continuous delivery, version control
-            systems, value-stream mapping, Kanban boards,
-            and other technological practices. But first and foremost,
-            DevOps means breaking down the barriers between business units,
-            development teams, quality assurance, security, and operations,
-            barriers that all too often wind up blocking the creation of
-            value-generating software.
-        </p>
-
-        <p>
-            This course will teach DevOps principles and practices through
-            hands-on participation in developing a real-world software project.
-            The class will divide up the work on the project the way an
-            actual software team would, and apply DevOps principles and
-            technologies to make the work proceed efficiently and enjoyably.
-        </p>
-
-        <section>
-            <h3>
-                Possible Teams for Spring 2018
-            </h3>
-            <ul class="nested">
-                <li>
-                    User Interface
-                </li>
-                <li>
-                    Coding
-                </li>
-                <li>
-                    Testing
-                </li>
-                <li>
-                    Source code control
-                </li>
-                <li>
-                    Configuration management
-                </li>
-                <li>
-                    Monitoring
-                </li>
-                <li>
-                    Deployment
-                </li>
-                <li>
-                    Security
-                </li>
-                <li>
-                    Compliance
-                </li>
-                <li>
-                    Finance
-                </li>
-                <li>
-                    DevOps culture
-                </li>
-                <li>
-                    Workflow management
-                </li>
-            </ul>
-        </section>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+            <h1>
+                DevOps: Course Description
+            </h1>
+    
+            <p>
+                DevOps is an umbrella term covering
+                the latest thinking in software
+                development and computer center
+                operations. It encompasses Lean and
+                Agile development practices, software as infrastructure for
+                automating IT configuration and deployment, automated testing, 
+                continuous integration, continuous delivery, version control
+                systems, value-stream mapping, Kanban boards,
+                and other technological practices. But first and foremost,
+                DevOps means breaking down the barriers between business units,
+                development teams, quality assurance, security, and operations,
+                barriers that all too often wind up blocking the creation of
+                value-generating software.
+            </p>
+    
+            <p>
+                This course will teach DevOps principles
+                and practices through hands-on participation
+                in developing a real-world software project.
+                The class will divide up the work on the project the way an
+                actual software team would, and apply DevOps principles and
+                technologies to make the work proceed
+                efficiently and enjoyably.
+            </p>
+    
+            <section>
+                <h3>
+                    Possible Teams for Spring 2018
+                </h3>
+                <ul class="nested">
+                    <li>
+                        User Interface
+                    </li>
+                    <li>
+                        Coding
+                    </li>
+                    <li>
+                        Testing
+                    </li>
+                    <li>
+                        Source code control
+                    </li>
+                    <li>
+                        Configuration management
+                    </li>
+                    <li>
+                        Monitoring
+                    </li>
+                    <li>
+                        Deployment
+                    </li>
+                    <li>
+                        Security
+                    </li>
+                    <li>
+                        Compliance
+                    </li>
+                    <li>
+                        Finance
+                    </li>
+                    <li>
+                        DevOps culture
+                    </li>
+                    <li>
+                        Workflow management
+                    </li>
+                </ul>
+            </section>
+            </div>
+        </div>
 
     </body>
 </html>

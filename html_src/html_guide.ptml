@@ -8,7 +8,9 @@
     </head>
 
     <body>
-<!--include menu.txt -->
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
         <h1>
             A Guide to HTML Coding for the DevOps Course
         </h1>
@@ -124,6 +126,8 @@
 
         </details>
 
+            </div>
+        </div>
 
     </body>
 </html>
