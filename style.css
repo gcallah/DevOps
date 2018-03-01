@@ -227,6 +227,10 @@ p.def {
     float: left;
 }
 
+#logo img {
+  height: 100%;
+}
+
 #user-tools {
     float: right;
     padding: 0;
@@ -254,7 +258,7 @@ figcaption {
 }
 
 span.review {
-    color: #588;
+    color: #255;
     font-size: .8em;
 }
 
