@@ -15,6 +15,21 @@
             My DevOps Story:
         </h1>
             <p>
+                Week 4: Since last Thursday, I developed a sample application to read data from Github, Slack, and other various sources and display it over the website. Soon a blog regarding how I did the same will be published. 
+
+                I realized the importance of Unit Testing and loggin while developing any application. Unit tests are critical which determines the robustness of the code. I learned few more thing about building efficient deployment cycles by first executing unit test, anazlying results and then automatic deployment process. 
+            </p>
+
+            <p>
+                Week 3: Over the past week, I was engrossed in watching NetFlix 'Roosevelts' Documentary. The documentary involves around how two (Teddy and FDR) of the most influential President's of USA helped to change the course of the country during the most severe times (Depression, WW2). 
+
+            <br>
+            <br>
+                At the devops side, I read about more and more built tool which are currently available for the disposal of developers. I have researched about PyBuilt which involves around Python Projects and I am currently writing a review on it.
+            </p>
+
+
+            <p>
                 Week 2: We completed the proper installation of Docker and ran our DevOps website inside the new container that we created. 
                 It is just amazing to see how light Docker is from Virtualization. Insted of providing us with multiple operating systems, Docker provides us with container that can hold many applications. This is suitable for micro-services architecture.
             </p>
