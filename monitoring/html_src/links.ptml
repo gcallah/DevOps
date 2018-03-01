@@ -28,6 +28,20 @@
                 </a>
             </li>
 
+            <li>
+                <a
+                    href="https://insights.sei.cmu.edu/devops/2015/12/monitoring-in-the-devops-pipeline.html">
+                Monitoring in the DevOps Pipeline
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="https://www.blazemeter.com/blog/top-10-monitoring-tools-every-devops-needs">
+                    DevOps monitoring tools
+                </a>
+            </li>
+
         </ul>
 
     </body>
