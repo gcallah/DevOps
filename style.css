@@ -1,18 +1,26 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
 body {
     margin: 0;
     padding: 0;
     font-size: 100%;
-    color: #ddd;
-    background: #444;
-    font-family: Arial, Helvetica, sans-serif
+    color: #000;
+    background: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
 }
 
 a:link {
-    color: #acf;
+    color: #579;
 }
 
 a:visited {
-    color: #cbf;
+    color: #957;
 }
 
 table, th, td {
@@ -31,7 +39,7 @@ th {
 }
 
 th.table-head {
-    background: #fcc;
+    background: #258;
 }
 
 td {
@@ -40,9 +48,11 @@ td {
 
 p {
     margin: .4em 1.5em .4em 1.5em;
-    font-size: 1.4em;
-    padding: 0;
-    line-height: 140%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    line-height: 1.7em;
+    color: #000;
 }
 
 hr {
@@ -56,7 +66,7 @@ blockquote {
 
 ol, ul, dl, li {
     margin: 1em 1.5em .4em 1.5em;
-    font-size: 1.4em;
+    font-size: 1.1em;
 }
 
 ol.centered, ul.centered dl.centered {
@@ -93,7 +103,7 @@ dt {
     text-decoration: underline;
 }
 
-h1,h2,h3,h4,h5 {
+h1,h2,h3 {
     font-weight: bold;
 }
 
@@ -118,18 +128,21 @@ h1.chap-title {
 h2 {
     font-size: 1.9em;
     margin: 1.2em 1em .6em 4em;
-    color: #c69;
+    color: #649;
+}
+
+h2.centered {
+    margin: 1.2em 2em .6em 2em;
 }
 
 h2.subhead {
-    font-weight:
-    normal;
+    font-weight: normal;
 }
 
 h3 {
     font-size: 1.6em;
     margin: .8em 1.2em .8em 2em;
-    color: #ebd;
+    color: #857;
     font-weight: bold;
 }
 
@@ -137,6 +150,13 @@ h4 {
     font-size: 1.5em;
     margin: .8em 1.6em .6em 1.6em;
     color: #339;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.4em;
+    margin: .8em 1.6em .6em 1.6em;
+    color: #9900cc;
     font-weight: bold;
 }
 
@@ -148,8 +168,8 @@ summary.sum1 {
 
 summary.sum2 {
     font-size: 1.6em;
-    color: #ebd;
-    font-weight: bold;
+    color: #936;
+    font-weight: 500;
     margin: .8em 1.2em .8em 2em;
 }
 
@@ -161,7 +181,7 @@ summary.sum3 {
 
 summary.sum4 {
     font-size: 1.4em;
-    color: #d7a;
+    color: #825;
     margin: .4em 1.2em .4em 2.8em;
 }
 
@@ -175,28 +195,28 @@ p.copyright {
     text-align: center;
     margin: 2em 1em 1em 1em;
     font-size: 1.1em;
-    color: #ebd;
+    color: #857;
 }
 
 p.author {
     text-align: center;
     margin: 1em 1em 1em 1em;
     font-size: 1.5em;
-    color: #e9c;
+    color: #936;
 }
 
 p.leadquote {
     font-style: italic;
     text-align: center;
     margin: 1em 1em 1em 2em;
-    font-size: 1.4em;
-    color: #9cd;
+    font-size: 1.1em;
+    color: #428;
 }
 
 p.def {
     margin: .8em 1.5em .3em 4em;
     font-size: 1.3em;
-    color: #cac;
+    color: #757;
 }
 
 .lead_illus {
@@ -227,14 +247,14 @@ figure.lead-figure {
 }
 
 figcaption {
-    color: #ced;
+    color: #367;
     font-style: italic;
     text-align: center;
     margin: .8em 1em .6em 1em;
 }
 
 span.review {
-    color: #ced;
+    color: #588;
     font-size: .8em;
 }
 
@@ -254,3 +274,255 @@ span.frac > sup {border-bottom: 0.08em solid;}
 span.frac > span {display: none;}
 
 .over { text-decoration: overline; }
+
+span.emphasize {
+    font-style: italic;
+    color: #6600ff;
+    display: inline;
+}
+
+
+/*****
+The Wrapped div in which content will be filled
+***/
+#content {
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+/****** Nav Bar *****/
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+i, span {
+    display: inline-block;
+}
+
+
+
+/******** Side Bar Style *********/
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 300px;
+    max-width: 300px;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+
+#sidebar.active .sidebar-header h1, #sidebar.active .CTAs {
+    display: none;
+}
+
+#sidebar.active .sidebar-header strong {
+    display: block;
+}
+
+#sidebar.active ul li a {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+#sidebar.active ul li a i {
+    margin-right:  0;
+    display: block;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+#sidebar.active ul ul a {
+    padding: 1em 1em;
+    font-size: 0.8em;
+}
+
+#sidebar.active a[aria-expanded="false"]::before, #sidebar.active a[aria-expanded="true"]::before {
+    top: auto;
+    bottom: 5px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+}
+
+#sidebar.active ul ul ul a {
+    padding: 1em 1em;
+    font-size: 0.6em;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+#sidebar .sidebar-header strong {
+    display: none;
+    font-size: 1.8em;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul li a {
+    padding: 0.8em;
+    text-align: left;
+    color: #fff;
+    font-size: 1.4em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+
+#sidebar ul ul a {
+    padding-left: 3.0em;
+    text-align: left;
+    color: #fff;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul ul ul a {
+    padding-left: 4.0em;
+    text-align: left;
+    color: #fff;
+    font-size: 0.8em;
+    display: block;
+}
+
+#sidebar h1 {
+    color: #fff;
+    background-color: transparent;
+    text-align: left;
+    margin: 1em 0em 0em 0em;
+    padding: 0em;
+}
+
+#sidebar ul {
+    margin: 0em;
+}
+
+#sidebar ul li {
+    margin: 0em;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+    content: '\e259';
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+}
+
+a[aria-expanded="true"]::before {
+    content: '\e260';
+}
+
+/*******
+The Nav sidebar media effect
+*****/
+
+@media (max-width: 768px) {
+    #sidebar {
+        min-width: 80px;
+        max-width: 80px;
+        text-align: center;
+        margin-left: -80px !important ;
+    }
+    a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+        top: auto;
+        bottom: 5px;
+        right: 50%;
+        -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+    #sidebar.active {
+        margin-left: 0 !important;
+    }
+
+    #sidebar .sidebar-header h3, #sidebar .CTAs {
+        display: none;
+    }
+
+    #sidebar .sidebar-header strong {
+        display: block;
+    }
+
+    #sidebar ul li a {
+        padding: 20px 10px;
+    }
+
+    #sidebar ul li a span {
+        font-size: 0.85em;
+    }
+
+    #sidebar ul li a i {
+        margin-right:  0;
+        display: block;
+    }
+
+    #sidebar ul ul a {
+        padding: 10px !important;
+    }
+
+    #sidebar ul li a i {
+        font-size: 1.3em;
+    }
+
+    #sidebar {
+        margin-left: 0;
+    }
+
+    #sidebarCollapse span {
+        display: none;
+    }
+}

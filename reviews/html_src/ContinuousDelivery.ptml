@@ -11,10 +11,11 @@
     <body>
 <!--include menu.txt -->
         <h1>
-            Continuous Delivery, <br>
-            Jez Humble and David Farley
+            Continuous Delivery
         </h1>
         <p class="author">
+            Authors: Jez Humble and David Farley 
+            <br>
             Reviewers: Ravish Bhatia, Sneha Ghosh
         </p>
         <p>
@@ -50,7 +51,58 @@
         software development. Lean is not limited in its 
         application to small systems. It was created and applied to 
         huge organizations, and even whole economies.
-
         </p>
+
+        <details>
+        <summary class="sum2">
+          Chapter 2 Configuration Management
+        </summary>
+        <p>
+        Authors describe Configuration Management as the process by which 
+        all relevant artifacts for a project and the relationship between 
+        them are stored, retrieved, uniquely identified and modified. 
+        They describe the importance of version control and points its 
+        benefits that it retains every version of every file that has been 
+        stored in it and also allows teams distributed in space and time to 
+        collaborate. Every single artifact related to the creation of the 
+        software should be under version control. 
+        The authors recommend to check in everything in truck on a regular
+        and frequent basis and oppose the practice of using branches. The 
+        authors advise to treat the configurations of the system similar to 
+        code meaning they should be tested and managed properly. They 
+        describe the various types of configurations and how to manage them, 
+        access them, test them across different environments. 
+        Thus they try to highlight the importance of configuration management
+        which is the foundation for continuous integration, release 
+        management and deployment pipeline.
+        </p>
+        </details>
+        <details>
+        <summary class="sum2">
+          Chapter 3 Continuous Integration
+        </summary>
+        <p>
+        The goal of continuous integration is that the software is in a
+        working state all the time.
+        The teams that use continuous integration effectively are able to 
+        deliver software much faster, with fewer bugs, than teams that 
+        do not. Bugs are caught much earlier in the delivery process when 
+        they 
+        are cheaper to fix, providing significant cost and time savings. 
+        The authors describe how to implement continuous integration by 
+        discussing the prerequisites and how to get started by setting up
+        the CI server. They also discuss tools like Maven and Ivy to help 
+        manage third-party dependencies of the development workspace.
+        The operation of continuous integration software is discussed 
+        which can execute a workflow at regular intervals and provide a 
+        detailed view of success and failures of the builds and tests.
+        The authors then discuss essential practices to make continuous
+        integration effective.
+        Thus authors point out that an established CI system is a foundation
+        on which more infrastructure can be built. It provides visibility 
+        by aggregating the build information to provide high quality 
+        feedback and can be extended to do push-button deployments. 
+        </p>
+        </details>
     </body>
 </html>

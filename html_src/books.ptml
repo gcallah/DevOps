@@ -31,7 +31,7 @@
                 Christopher Alexander
                 <br />
                 <span class="review">
-                Reviewers: 
+                Reviewers:
                 </span>
             </li>
 
@@ -40,7 +40,7 @@
                 Nassim Nicholas Taleb
                 <br />
                 <span class="review">
-                Reviewers: 
+                Reviewers:
                 </span>
             </li>
 
@@ -50,6 +50,10 @@
                 <br />
                 <span class="review">
                 Reviewers: Sneha Ghosh, Ravish Bhatia
+                <br />
+                <a href="reviews/ContinuousDelivery.html">
+                    Our review
+                </a>
                 </span>
             </li>
 
@@ -58,7 +62,7 @@
                 The IT Revolution
                 <br />
                 <span class="review">
-                Reviewers: 
+                Reviewers:
                 </span>
             </li>
 
@@ -67,7 +71,7 @@
                 Karl Matthias and Sean P. Kane
                 <br />
                 <span class="review">
-                Reviewers: 
+                Reviewers:
                 </span>
             </li>
 
@@ -76,7 +80,7 @@
                 Eric Evans
                 <br />
                 <span class="review">
-                Reviewers: 
+                Reviewers:
                 </span>
             </li>
 
@@ -85,7 +89,7 @@
                 Jennifer Davis and Katherine Daniels
                 <br />
                 <span class="review">
-                Reviewers: 
+                Reviewers:
                 </span>
             </li>
 
@@ -103,7 +107,7 @@
                 Kief Morris
                 <br />
                 <span class="review">
-                Reviewers: Adit Kumar
+                Reviewers: Adit Kumar, Shivraj
                 </span>
             </li>
 
@@ -140,7 +144,11 @@
                 Mary and Tom Poppendieck
                 <br />
                 <span class="review">
-                Reviewers: Jiawei Wang
+                Reviewers: Jiawei Wang, Bowei Xu
+                <br />
+                <a href="reviews/LeanSoftwareDevelopmentAgileTookit.html">
+                    Our review
+                </a>
                 </span>
             </li>
 
@@ -151,7 +159,11 @@
                 Dominica DeGrandis
                 <br />
                 <span class="review">
-                Reviewers:
+                Reviewers: Akshay Hazare
+                <br />
+                <a href="reviews/MakingWorkVisible.html">
+                    Our review
+                </a>
                 </span>
             </li>
 
@@ -162,6 +174,10 @@
                 <br />
                 <span class="review">
                 Reviewers: Lili Xu, Yang Lou
+                <br />
+                <a href="reviews/ManifestoForAgileSoftwareDevelopment.html">
+                    Our review
+                </a>
                 </span>
             </li>
 
@@ -171,7 +187,11 @@
                 Fred Brooks
                 <br />
                 <span class="review">
-                Reviewers:
+                Reviewers: Tingjun Zhang
+                <br />
+                <a href="reviews/NoSilverBullet.html">
+                    Our review
+                </a>
                 </span>
             </li>
 
@@ -199,7 +219,7 @@
                 Michael T. Nygard
                 <br />
                 <span class="review">
-                Reviewers: 
+                Reviewers:
                 </span>
             </li>
 
@@ -217,7 +237,7 @@
                 Betsy Beyer
                 <br />
                 <span class="review">
-                Reviewers: 
+                Reviewers:
                 </span>
             </li>
 
@@ -247,6 +267,10 @@
                 <br />
                 <span class="review">
                 Reviewers: Janiel Atul Patel, Chiquita Ratnakar Prabhu
+                <br />
+                <a href="reviews/TheDevOpsHandbook.html">
+                    Our review
+                </a>
                 </span>
             </li>
 
@@ -256,7 +280,7 @@
 
                 <br />
                 <span class="review">
-                Reviewers: Saniya Alekar
+                Reviewers: Saniya Alekar, Anshal
                 </span>
             </li>
 
@@ -310,7 +334,11 @@
 
                 <span class="review">
                 Reviewers: Linfeng Wang, Lingjung Zhang
-                </span>
+                <br>
+        <a href = "reviews/hayek.html">
+        Our review
+        </a>
+        </span>
             </li>
 
             <li>
@@ -329,6 +357,10 @@
 
                 <span class="review">
                 Reviewers: Datta Dwarampudi
+                <br />
+                <a href="reviews/toyotoproductionsystem.html">
+                    Our review
+                </a>
                 </span>
             </li>
 
@@ -337,7 +369,7 @@
                 John Loeliger and Matthew McCullough
                 <br />
                 <span class="review">
-                Reviewers: 
+                Reviewers:
                 </span>
             </li>
 

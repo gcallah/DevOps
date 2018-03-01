@@ -20,7 +20,17 @@
             Reviewers: Arun John Kuruvilla, Srinivas Piskala Ganesh Babu
         </p>
         <p>
-            Helpful links: <a href="https://cs.uwec.edu/~buipj/teaching/cs.388.s14/"/> Course&Book</a>
+            Helpful links: <a href="https://cs.uwec.edu/~buipj/teaching/cs.388.s14/"> Course&Book</a>
         </p>
+
+        <h4>Chapter 1: UNIX for Beginners</h4>
+        <h4>Chapter 2: The File System</h4>
+        <h4>Chapter 3: Using the Shell</h4>
+        <h4>Chapter 4: Filters</h4>
+        <h4>Chapter 5: Shell Programming</h4>
+        <h4>Chapter 6: Programming with Standard I/O</h4>
+        <h4>Chapter 7: UNIX System Calls</h4>
+        <h4>Chapter 8: Program Development</h4>
+        <h4>Chapter 9: Document Preparation</h4>
     </body>
 </html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Manifesto for Agile Software Development
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Manifesto for Agile Software Development
+        </h1>
+        <p class="author">
+            Authors: Kent Beck, James Grenning, Robert C. Martin,
+            <br>
+                     Mike Beedle, Jim Highsmith, Steve Mellor,
+            <br>
+                     Arie van Bennekum, Andrew Hunt, Ken Schwaber,
+            <br>
+                     Alistair Cockburn, Ron Jeffries, Jeff Sutherland,
+            <br>
+                     Ward Cunningham, Jon Kern, Dave Thomas,
+            <br>
+                     Martin Fowler, and Brian Marick
+            <br>
+            Reviewers: Lili Xu, Yang Lou
+        </p>    
+        <P>The Manifesto for Agile Software Development was created by 
+        seventeen software developers in 2001. The Agile Manifesto expressed 
+        four key values and twelve principles of Agile software development. 
+        Based on the values and principles stated in the Agile Manifesto, 
+        Agile software development utilizes the iterative approach that 
+        delivers new pieces of the application more often and provides 
+        greater fiexibility than the waterfall approach.</P>
+    </body>
+</html>

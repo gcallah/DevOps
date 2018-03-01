@@ -14,14 +14,15 @@ HTMLFILES = $(shell ls $(PTML_DIR)/*.ptml | sed -e 's/.ptml/.html/' | sed -e 's/
 %.html: $(PTML_DIR)/%.ptml $(INCS)
 	python3 $(UTILS_DIR)/html_checker.py $<
 	$(UTILS_DIR)/html_include.awk <$< >$@
+	git add $@
 #	python3 $(UTILS_DIR)/html2django.py $< >$(TEMPL_DIR)/$@
-#	git add $@
 #	cd $(DJANGO_DIR) ; git add $(TEMPL_PATH)/$@
 #	cd $(DJANGO_DIR) ; git commit $(TEMPL_PATH)/$@ -m "Rebuilt from DevOps site."
 #	cd $(DJANGO_DIR) ; git push origin master; cd -
 
 website: $(INCS) $(HTMLFILES)
-	-git commit -a -m "Website rebuild."
+	-git commit -a 
+	git pull origin master
 	git push origin master
 
 tests: $(QUIZ_DIR)

@@ -18,12 +18,12 @@
         <p class="author">
              by
             <br />
-		Jatri Dave
+    Jatri Dave
         </p>
 
-        <p><font color="green">
-		In this course , I expect of gaining knowledge on how the whole software development process works. Getting more understanding on all the aspects of software development such as integration, testing, releasing to deployment , infrastructure management, workflow etc. 
-        </font></p>
+        <summary class="sum1">
+    In this course , I expect of gaining knowledge on how the whole software development process works. Getting more understanding on all the aspects of software development such as integration, testing, releasing to deployment , infrastructure management, workflow etc. 
+        </summary>
 
     </body>
 </html>

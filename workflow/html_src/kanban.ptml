@@ -10,15 +10,158 @@
 
     <body>
 <!--include menu.txt -->
-      <div id="header">
-          <div id="logo">
-              <img src="https://gcallah.github.io/DevOps/graphics/Julia.png">
-          </div>
-      </div>
       <h1> Usage and Importance of Kanban</h1>
       <p>
-        <i>Source:</i> Kanban, Successful Evolutionary Change for Your Technology Business by David J. Anderson <br>
-        <i>Purpose of this page:</i> To understand the importance of kanban in DevOps and how to implement Kanban.
+        <i>Source:</i> Kanban, Successful Evolutionary Change for Your
+        Technology Business by David J. Anderson <br>
+        <i>Purpose of this page:</i> To understand the importance of kanban in
+        DevOps and how to implement Kanban.
       </p>
+      <br>
+      <figure>
+          <img
+          src="multimedia/workflow_sample.png">
+          <figcaption>
+              Outline of workflow with added buffers
+          </figcaption>
+      </figure>
+
+      <p>
+        <b>DEFINTION:</b><br>
+        Kan-ban is a Japanese word that literally means "signal card" in
+        English. In a manufacturing environment, this card is used as a signal
+        to tell an upstream step in a process to produce more. The workers at
+        each step in the process are not allowed to do work unless they are
+        signaled with a kanban from a downstream step.
+        The signal to pull new work is inferred from visual quantitiy of
+        work-in-progress subtracted from some indicator of the
+        limit (or capacity).
+      </p>
+
+      <details>
+          <summary class="sum2">
+            MOST IMPORTANT PRINCIPLES REQUIRED TO MAKE QUALITY SOFTWARE
+            DEVELOPMENT
+          </summary>
+          <ul>
+            <li>
+              Visualize Workflow
+            </li>
+            <li>
+              Limit Work-in-Progress
+            </li>
+            <li>
+              Measure and Manage Flow
+            </li>
+            <li>
+              Make Process Policies Explicit
+            </li>
+            <li>
+              Use Models to Recognize Improvement Opportunities
+            </li>
+          </ul>
+      </details>
+
+      <details>
+        <summary class = "sum2">
+          Why should we use Kanban?
+        </summary>
+        <ul>
+          <li>
+            Focus on Quality
+          </li>
+          <li>
+            Reduce Work-in-Progress
+          </li>
+          <li>
+            Deliver Often
+          </li>
+          <li>
+            Balance Demand against Throughput
+          </li>
+          <li>
+            Prioritize
+          </li>
+          <li>
+            Attack Sources of Variability to Improve Predictability
+          </li>
+        </ul>
+      </details>
+
+      <details>
+        <summary class = "sum2">
+          Implementing Kanban
+        </summary>
+        <ol>
+          <li>
+            Decide the outer boundaries of the kanban system.  It is often best
+            to limit this to the immediate span of political control.
+          </li>
+          <li>
+            Model the card wall to align with the boundary decision made
+            regarding limiting WIP and visualizing work.
+          </li>
+          <li>
+            Define work types and model how their work flows.  Some types of
+            work may require every step in the flow.
+          </li>
+          <li>
+            Design the work item card to have enough information to faciliate
+            self organization for pull and to enable team members to make good
+            quality decisions with respect to risk based on work item type,
+            service-level agreements, and classes of service.
+            <figure>
+                <img
+                src="multimedia/item_card.png" width="403" height="304">
+                <figcaption>
+                    Anatomy of an item card
+                </figcaption>
+            </figure>
+          </li>
+          <li>
+            Use an electronic tracking tool if the team is distributed. <br>
+            Examples of electronic tracking tools are Lean Kit Kanban,
+            Agile Zen, Target Process, Silver Catalyst, RadTrack, Kanbanery,
+            VersionOne, Greenhopper for Jira and Flow.io.
+          </li>
+          <li>
+            Discuss methods for handling concurrency in
+            activites and choose how to model and visualize them
+          </li>
+          <li>
+            Discuss methods for handling activites that do not need to follow a
+            specifially ordered flow and choose how to model and visualize
+            them.
+          </li>
+        </ol>
+      </details>
+
+      <details>
+        <summary class = "sum2">
+          Coordinating with Kanban Systems
+        </summary>
+        <ul>
+          <li>
+            Using both physical card wall and an electronic tracking system.
+          </li>
+          <li>
+            Having regular meetings will reduce the coordination cost for those
+            meetings and improves attendance.
+          </li>
+          <li>
+            Daily standup meetings should be used to discuss issues,
+            impediments, and flow. <br>
+            Daily standups also encourage a culture of continous development.
+          </li>
+          <li>
+            Grooming the backlog with regular triage to reduce its size
+            improves the effectiveness and efficiency of prioritization
+            meetings.
+          </li>
+          <li>
+            Escalation paths and policies should be clearly defined.
+          </li>
+        </ul>
+      </details>
     </body>
 </html>
