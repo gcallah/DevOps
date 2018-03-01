@@ -21,7 +21,17 @@
 
         <p>
           In this timely book, IT time management expert Dominica DeGrandis reveals the real crime of the century—time theft, one of the most costly factors impacting enterprises in their day-to-day operations. <br>
-          Through simple solutions that make work visible, DeGrandis helps people round up the five thieves of time and take back their lives with time-saving solutions. Chock-full of exercises, takeaways, real-world examples, colorful diagrams, and an easy-going writing style, readers will quickly learn effective practices to create high-performing workflows within an organization.<br>
+          Through simple solutions that make work visible, DeGrandis helps people round up the five thieves of time and take back their lives with time-saving solutions. Chock-full of exercises, takeaways, real-world examples, colorful diagrams, and an easy-going writing style, readers will quickly learn effective practices to create high-performing workflows within an organization.<br><br>
+        </p>
+        <p>
+          In Part 1 of the book, The author talks about the 5 Thieves of Time:<br>
+        <ul class="nested">
+            <li>Too much work-in-progress (wip)</li>
+            <li>Unknown Dependencies</li>
+            <li>Unplanned Work</li>
+            <li>Conflicting Priorities</li>
+            <li>Neglected Work</li>
+        </ul>
         </p>
     </body>
 </html>
