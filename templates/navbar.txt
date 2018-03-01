@@ -1,8 +1,10 @@
 <!-- Sidebar Holder -->
 <nav id="sidebar">
-    <div class="sidebar-header">
-        <h1>Dev Ops</h1>
-        <strong>DO</strong>
+    <div id="sidebarCollapse">
+        <div class="sidebar-header">
+            <h1>Dev Ops</h1>
+            <strong>DO</strong>
+        </div>
     </div>
 
     <ul class="list-unstyled components">
