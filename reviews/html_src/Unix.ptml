@@ -33,6 +33,21 @@
             <i>Programmer's Manual</i>. The objective of the chapter is to 
             get the user started with his/her system as soon as possible.  
         </p>
+        <p>
+            The chapter is split into three sections:
+            <ul>
+                <li>
+                    <b>Basics</b> - logging, basic commands.
+                </li>
+                <li>
+                    <b>Day-to-day use</b> - filesystems, printing, commonly 
+                    used commands.
+                </li>
+                <li>
+                    <b>Command interpreter</b> - filename shorthands, pipes, etc.
+                </li>
+            </ul>
+        </p>
 
         <h4>Chapter 2: The File System</h4>
         <h4>Chapter 3: Using the Shell</h4>
