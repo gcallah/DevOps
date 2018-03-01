@@ -16,7 +16,7 @@
         </div>
         <div id="user-tools">
             <a href="https://gcallah.github.io/DevOps/index.html">Home</a>
-            &nbsp; &nbsp; 
+            &nbsp; &nbsp;
             <a href="https://gcallah.github.io/DevOps/about.html">About</a>
         </div>
     </div>
@@ -25,126 +25,253 @@
             Security Theory
         </h1>
 
-          <h2>
-            SQL Injection
-         </h2>
-        <p>
-          A SQL Injection attack consists of insertion or "injection" of a SQL
-          query via the input data from the client to the application. A
-          successful SQL injection exploit can read sensitive data from the
-          database, modify database data (Insert/Update/Delete), execute
-          administration operations on the database (such as shutdown the
-          DBMS), recover the content of a given file present on the DBMS file
-          system and in some cases issue commands to the operating system. SQL
-          injection attacks are a type of injection attack, in which SQL
-          commands are injected into data-plane input in order to effect the
-          execution of predefined SQL commands.
-        </p>
 
-          <h2>
-            Corss-Site Scripting (XSS)
-         </h2>
-        <p>
-          Cross-Site Scripting (XSS) attacks are a type of injection, in which
-          malicious scripts are injected into otherwise benign and trusted web
-          sites. XSS attacks occur when an attacker uses a web application to
-          send malicious code, generally in the form of a browser side script,
-          to a different end user. Flaws that allow these attacks to succeed
-          are quite widespread and occur anywhere a web application uses input
-          from a user within the output it generates without validating or
-          encoding it.
-  An attacker can use XSS to send a malicious script to an unsuspecting user.
-  The end user’s browser has no way to know that the script should not be
-  trusted, and will execute the script. Because it thinks the script came from
-  a trusted source, the malicious script can access any cookies, session
-  tokens, or other sensitive information retained by the browser and used with
-  that site. These scripts can even rewrite the content of the HTML page.
-        </p>
+        <details>
+            <summary class="sum2">
+                 SQL Injection
+            </summary>
 
-          <h2>
-            Cross-Site Request Forgery (CSRF) 
-         </h2>
-        <p>
-          Cross-Site Request Forgery (CSRF) is an attack that forces an end
-          user to execute unwanted actions on a web application in which
-          they're currently authenticated. CSRF attacks specifically target
-          state-changing requests, not theft of data, since the attacker has no
-          way to see the response to the forged request. With a little help of
-          social engineering (such as sending a link via email or chat), an
-          attacker may trick the users of a web application into executing
-          actions of the attacker's choosing. If the victim is a normal user, a
-          successful CSRF attack can force the user to perform state changing
-          requests like transferring funds, changing their email address, and
-          so forth. If the victim is an administrative account, CSRF can
-          compromise the entire web application.
-        </p>
+            <ul class="nested">
+                <li>
+                  A SQL Injection attack consists of insertion or "injection" of a SQL
+                  query via the input data from the client to the application. A
+                  successful SQL injection exploit can read sensitive data from the
+                  database, modify database data (Insert/Update/Delete), execute
+                  administration operations on the database (such as shutdown the
+                  DBMS), recover the content of a given file present on the DBMS file
+                  system and in some cases issue commands to the operating system. SQL
+                  injection attacks are a type of injection attack, in which SQL
+                  commands are injected into data-plane input in order to effect the
+                  execution of predefined SQL commands.
+                </li>
 
-          <h2>
-            Command Injection
-         </h2>
-        <p>
-          Command injection is an attack in which the goal is execution of
-          arbitrary commands on the host operating system via a vulnerable
-          application. Command injection attacks are possible when an
-          application passes unsafe user supplied data (forms, cookies, HTTP
-          headers etc.) to a system shell. In this attack, the
-          attacker-supplied operating system commands are usually executed with
-          the privileges of the vulnerable application. Command injection
-          attacks are possible largely due to insufficient input validation.
-        </p>
+            </ul>
+        </details>
 
-          <h2>
-            Web Shell
-         </h2>
-        <p>
-          A web shell is a script that can be uploaded to a web server to
-          enable remote administration of the machine. Infected web servers can
-          be either Internet-facing or internal to the network, where the web
-          shell is used to pivot further to internal hosts.
-        </p>
 
-          <h2>
+        <details>
+            <summary class="sum2">
+                Corss-Site Scripting (XSS)
+            </summary>
+
+              <ul class="nested">
+                <li>
+                    Cross-Site Scripting (XSS) attacks are a type of injection, in which
+                    malicious scripts are injected into otherwise benign and trusted web
+                    sites. XSS attacks occur when an attacker uses a web application to
+                    send malicious code, generally in the form of a browser side script,
+                    to a different end user. Flaws that allow these attacks to succeed
+                    are quite widespread and occur anywhere a web application uses input
+                    from a user within the output it generates without validating or
+                    encoding it.
+                    An attacker can use XSS to send a malicious script to an
+                    unsuspecting user.
+                    The end user’s browser has no way to know that
+                    the script should not be trusted, and will execute the script.
+                    Because it thinks the script came from a trusted source, the
+                    malicious script can access any cookies, session tokens, or other
+                    sensitive information retained by the browser and used with
+                    that site. These scripts can even rewrite the content of the HTML page.
+                  </li>
+
+              </ul>
+        </details>
+
+        <details>
+          <summary class="sum2">
+               Corss-Site Scripting (XSS)
+          </summary>
+
+          <ul class="nested">
+              <li>
+                Cross-Site Scripting (XSS) attacks are a type of injection, in which
+                malicious scripts are injected into otherwise benign and trusted web
+                sites. XSS attacks occur when an attacker uses a web application to
+                send malicious code, generally in the form of a browser side script,
+                to a different end user. Flaws that allow these attacks to succeed
+                are quite widespread and occur anywhere a web application uses input
+                from a user within the output it generates without validating or
+                encoding it.
+                An attacker can use XSS to send a malicious script to an unsuspecting user.
+                The end user’s browser has no way to know that the script should not be
+                trusted, and will execute the script. Because it thinks the script came from
+                a trusted source, the malicious script can access any cookies, session
+                tokens, or other sensitive information retained by the browser and used with
+                that site. These scripts can even rewrite the content of the HTML page.
+              </li>
+
+          </ul>
+        </details>
+
+        <details>
+          <summary class="sum2">
+               Cross-Site Request Forgery (CSRF)
+          </summary>
+
+          <ul class="nested">
+              <li>
+                Cross-Site Request Forgery (CSRF) is an attack that forces an end
+                user to execute unwanted actions on a web application in which
+                they're currently authenticated. CSRF attacks specifically target
+                state-changing requests, not theft of data, since the attacker has no
+                way to see the response to the forged request. With a little help of
+                social engineering (such as sending a link via email or chat), an
+                attacker may trick the users of a web application into executing
+                actions of the attacker's choosing. If the victim is a normal user, a
+                successful CSRF attack can force the user to perform state changing
+                requests like transferring funds, changing their email address, and
+                so forth. If the victim is an administrative account, CSRF can
+                compromise the entire web application.
+              </li>
+
+          </ul>
+        </details>
+
+        <details>
+          <summary class="sum2">
+               Command Injection
+          </summary>
+
+          <ul class="nested">
+              <li>
+                Command injection is an attack in which the goal is execution of
+                arbitrary commands on the host operating system via a vulnerable
+                application. Command injection attacks are possible when an
+                application passes unsafe user supplied data (forms, cookies, HTTP
+                headers etc.) to a system shell. In this attack, the
+                attacker-supplied operating system commands are usually executed with
+                the privileges of the vulnerable application. Command injection
+                attacks are possible largely due to insufficient input validation.
+              </li>
+
+          </ul>
+        </details>
+
+        <details>
+          <summary class="sum2">
+               Web Shell
+          </summary>
+
+          <ul class="nested">
+              <li>
+                A web shell is a script that can be uploaded to a web server to
+                enable remote administration of the machine. Infected web servers can
+                be either Internet-facing or internal to the network, where the web
+                shell is used to pivot further to internal hosts.
+              </li>
+
+          </ul>
+        </details>
+
+        <details>
+          <summary class="sum2">
             Path Traversal
-         </h2>
-        <p>
-          A path traversal attack (also known as directory traversal) aims to
-          access files and directories that are stored outside the web root
-          folder. By manipulating variables that reference files with
-          “dot-dot-slash (../)” sequences and its variations or by using
-          absolute file paths, it may be possible to access arbitrary files and
-          directories stored on file system including application source code
-          or configuration and critical system files. It should be noted that
-          access to files is limited by system operational access control (such
-          as in the case of locked or in-use files on the Microsoft Windows
-          operating system).
+          </summary>
 
-        </p>
-        <p>
-           
-Web Application (In)Security:
+          <ul class="nested">
+              <li>
+                A path traversal attack (also known as directory traversal) aims to
+                access files and directories that are stored outside the web root
+                folder. By manipulating variables that reference files with
+                “dot-dot-slash (../)” sequences and its variations or by using
+                absolute file paths, it may be possible to access arbitrary files and
+                directories stored on file system including application source code
+                or configuration and critical system files. It should be noted that
+                access to files is limited by system operational access control (such
+                as in the case of locked or in-use files on the Microsoft Windows
+                operating system).
+              </li>
 
-Web based application security has become an essential elements for almost every web application developed today reason being they are the favorite targets among attackers. For all concerned, the stakes are high: for businesses that derive increasing revenue from Internet commerce, for users who trust web applications with sensitive information, and for criminals who can make big money by stealing payment details or compromising bank accounts. Reputation plays a critical role. Few people want to do business with an insecure website, so few organizations want to disclose details about their own security vulnerabilities or breaches. Hence, it is not a trivial task to obtain reliable information about the state of web application security today.
+          </ul>
+        </details>
 
-With evolution of technology, web applications have brought with them a new range of security vulnerabilities. The set of most commonly encountered defects has also evolved somewhat over time. New attacks have been conceived that were not considered when existing applications were developed. Some problems have become less prevalent as awareness of them has increased. New technologies have been developed that have introduced new possibilities for exploitation. Some categories of flaws have largely gone away as the result of changes made to web browser software.
+        <details>
+          <summary class="sum2">
+            Web Application Security Summary
+          </summary>
 
-The most serious attacks against web applications are those that expose sensitive data or gain unrestricted access to the back-end systems on which the application is running. High-profile compromises of this kind continue to occur frequently. For many organizations, however, any attack that causes system downtime is a critical event. Application-level denial-of-service attacks can be used to achieve the same results as traditional resource exhaustion attacks against infrastructure. However, they are often used with more subtle techniques and objectives. They may be used to disrupt a particular user or service to gain a competitive edge against peers in the realms of financial trad- ing, gaming, online bidding, and ticket reservations.
+          <ul class="nested">
+              <li>
+                <p>
+                Web based application security has become an essential elements for almost
+                every web application developed today reason being they are the favorite targets
+                among attackers. For all concerned, the stakes are high: for businesses that derive
+                increasing revenue from Internet commerce, for users who trust web applications with
+                sensitive information, and for criminals who can make big money by stealing payment
+                details or compromising bank accounts. Reputation plays a critical role. Few people
+                want to do business with an insecure website, so few organizations want to disclose
+                details about their own security vulnerabilities or breaches. Hence, it is not a
+                trivial task to obtain reliable information about the state of web application
+                security today.
 
-Throughout this evolution, compromises of prominent web applications have remained prevalent. There is no sense that a corner has been turned and that these security problems are on the wane. By some measure, web application security is today the most significant battleground between attackers and those with computer resources and data to defend.
+                With evolution of technology, web applications have brought with them a new range
+                of security vulnerabilities. The set of most commonly encountered defects has
+                also evolved somewhat over time. New attacks have been conceived that were not
+                considered when existing applications were developed. Some problems have become
+                less prevalent as awareness of them has increased. New technologies have been
+                developed that have introduced new possibilities for exploitation. Some
+                categories of flaws have largely gone away as the result of changes made to
+                web browser software.
 
-Below figures are the most commomly categoriesd vulnerability of web based application found during testing in 2007 and 2011:
+                The most serious attacks against web applications are those that expose
+                sensitive data or gain unrestricted access to the back-end systems on which
+                 the application is running. High-profile compromises of this kind continue
+                 to occur frequently. For many organizations, however, any attack that causes
+                  system downtime is a critical event. Application-level denial-of-service
+                  attacks can be used to achieve the same results as traditional resource
+                  exhaustion attacks against infrastructure. However, they are often used
+                  with more subtle techniques and objectives. They may be used to disrupt
+                  a particular user or service to gain a competitive edge against peers in
+                  the realms of financial trad- ing, gaming, online bidding, and ticket
+                  reservations.
 
- Broken authentication (62%) —This category of vulnerability encom- passes various defects within the application’s login mechanism, which may enable an attacker to guess weak passwords, launch a brute-force attack, or bypass the login.
- 
- Broken access controls (71%)  — This involves cases where the application fails to properly protect access to its data and functionality, potentially enabling an attacker to view other users’ sensitive data held on the server or carry out privileged actions.
+                Throughout this evolution, compromises of prominent web applications have
+                remained prevalent. There is no sense that a corner has been turned and that
+                these security problems are on the wane. By some measure, web application
+                security is today the most significant battleground between attackers and
+                those with computer resources and data to defend.
 
- SQL injection (32%) — This vulnerability enables an attacker to submit crafted input to interfere with the application’s interaction with back-end databases. An attacker may be able to retrieve arbitrary data from the application, interfere with its logic, or execute commands on the database server itself.
+                Below figures are the most commomly categoriesd vulnerability of web based
+                application found during testing in 2007 and 2011:
 
- Cross-site scripting (94%) — This vulnerability enables an attacker to target other users of the application, potentially gaining access to their data, performing unauthorized actions on their behalf, or carrying out other attacks against them.
+                 Broken authentication (62%) —This category of vulnerability encom- passes
+                 various defects within the application’s login mechanism, which may enable
+                 an attacker to guess weak passwords, launch a brute-force attack, or bypass
+                 the login.
 
- Information leakage (78%) — This involves cases where an application divulges sensitive information that is of use to an attacker in developing an assault against the application, through defective error handling or other behavior.
+                 Broken access controls (71%)  — This involves cases where the application
+                 fails to properly protect access to its data and functionality, potentially
+                 enabling an attacker to view other users’ sensitive data held on the server
+                 or carry out privileged actions.
 
-Cross-site request forgery (92%) — This flaw means that application users can be induced to perform unintended actions on the application within their user context and privilege level. The vulnerability allows a malicious web site visited by the victim user to interact with the applica- tion to perform actions that the user did not intend.
-       </p>
+                 SQL injection (32%) — This vulnerability enables an attacker to submit
+                 crafted input to interfere with the application’s interaction with back-end
+                 databases. An attacker may be able to retrieve arbitrary data from the application,
+                 interfere with its logic, or execute commands on the database server itself.
+
+                 Cross-site scripting (94%) — This vulnerability enables an attacker to target
+                 other users of the application, potentially gaining access to their data,
+                 performing unauthorized actions on their behalf, or carrying out other
+                 attacks against them.
+
+                 Information leakage (78%) — This involves cases where an application divulges
+                  sensitive information that is of use to an attacker in developing an assault
+                  against the application, through defective error handling or other behavior.
+
+                Cross-site request forgery (92%) — This flaw means that application users
+                can be induced to perform unintended actions on the application within their
+                 user context and privilege level. The vulnerability allows a malicious web site
+                 visited by the victim user to interact with the applica- tion to perform actions
+                 that the user did not intend.
+                </p>
+
+              </li>
+
+          </ul>
+        </details>
+
+
+
 
     </body>
 </html>
