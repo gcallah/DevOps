@@ -28,8 +28,13 @@
                       </figure>
 
                       <p>
-                        <h2> If Slack and Google Docs had a baby, this would be it. This makes every part of your design work searchable, gives your team visual version control, and integrates with all of your other tools (Dropbox, Box, Google Drive). The best part? Comments from Slack, meetings, and emails are automatically attached to your designs. This is a design collaboration tool at its best. <br><br>  
-                        </h2>
+                        If Slack and Google Docs had a baby, this would be it.
+                        This makes every part of your design work searchable,
+                        gives your team visual version control, and integrates
+                        with all of your other tools (Dropbox, Box, Google
+                        Drive). The best part? Comments from Slack, meetings,
+                        and emails are automatically attached to your designs.
+                        This is a design collaboration tool at its best. 
                       </p>
                     </li>
 
@@ -46,14 +51,17 @@
                       </figure>
 
                       <p>
-                        <h2> This bot will visit your website and pick it apart to look for bugs. In other words, it’ll click every element on a page in search of errors (like broken links, missing images, and JacaScript issues). Schedule a test, and you’ll be notified when any bugs pop up. <br><br>  
-                        </h2>
+                        This bot will visit your website and pick it apart to
+                        look for bugs. In other words, it’ll click every
+                        element on a page in search of errors (like broken
+                        links, missing images, and JacaScript issues). Schedule
+                        a test, and you’ll be notified when any bugs pop up.
                       </p>
                     </li>
 
                     <li>
                       <p>
-                        <h1> I Done This </h1>
+                        I Done This
                       </p>
 
                       <figure>
@@ -64,8 +72,11 @@
                       </figure>
 
                       <p>
-                        <h2> Instead of having daily stand-up meetings, use this bot to get a more efficient take on what each member of your team is working on and has accomplished each day. It’s a fun way to keep track of the progress your team is making over the long run, too. 
-                        </h2>
+                        Instead of having daily stand-up meetings, use this bot
+                        to get a more efficient take on what each member of
+                        your team is working on and has accomplished each day.
+                        It’s a fun way to keep track of the progress your team
+                        is making over the long run, too. 
                       </p>
                     </li>
                 </ul>

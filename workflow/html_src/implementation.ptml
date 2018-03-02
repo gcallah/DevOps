@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Our workflow Implementation
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Our workflow Implementation
-        </h1>
-
-        <p>
-            We have adopted
-            <a href="https://slack.com/">Slack</a>
-            as our main communication tool.
-        </p>
-
-        <p>
-            We use Kanban boards to manage our workflow and restrict
-            work-in-progress. We are using
-            <a href="https://trello.com/">Trello</a>
-            as our online Kanban board.
-        </p>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Our workflow Implementation
+                </h1>
+        
+                <p>
+                    We have adopted
+                    <a href="https://slack.com/">Slack</a>
+                    as our main communication tool.
+                </p>
+        
+                <p>
+                    We use Kanban boards to manage our workflow and restrict
+                    work-in-progress. We are using
+                    <a href="https://trello.com/">Trello</a>
+                    as our online Kanban board.
+                </p>
+            </div>
+        </div>
 
     </body>
 </html>

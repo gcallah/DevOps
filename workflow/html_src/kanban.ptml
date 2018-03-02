@@ -8,7 +8,9 @@
     </head>
 
     <body>
-<!--include menu.txt -->
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
       <h1> Usage and Importance of Kanban</h1>
       <p>
         <i>Source:</i> Kanban, Successful Evolutionary Change for Your
@@ -162,5 +164,8 @@
           </li>
         </ul>
       </details>
+
+            </div>
+        </div>
     </body>
 </html>
