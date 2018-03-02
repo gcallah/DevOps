@@ -300,6 +300,7 @@ The Wrapped div in which content will be filled
     padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
+    font-size: 140%
 }
 
 /****** Nav Bar *****/
