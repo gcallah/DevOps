@@ -132,7 +132,7 @@ h1.chap-title {
 }
 
 h2 {
-    font-size: 1.9em;
+    font-size: 2.2em;
     margin: 1.2em 1em .6em 4em;
     color: #649;
 }
@@ -146,21 +146,21 @@ h2.subhead {
 }
 
 h3 {
-    font-size: 1.6em;
+    font-size: 2em;
     margin: .8em 1.2em .8em 2em;
     color: #857;
     font-weight: bold;
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin: .8em 1.6em .6em 1.6em;
     color: #339;
     font-weight: bold;
 }
 
 h5 {
-    font-size: 1.4em;
+    font-size: 1.6em;
     margin: .8em 1.6em .6em 1.6em;
     color: #9900cc;
     font-weight: bold;
