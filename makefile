@@ -7,7 +7,7 @@ TEMPL_PATH = devops/templates
 TEMPL_DIR = $(DJANGO_DIR)/$(TEMPL_PATH)
 UTILS_DIR = utils
 
-INCS = $(TEMPLATE_DIR)/menu.txt 
+INCS = $(TEMPLATE_DIR)/navbar.txt $(TEMPLATE_DIR)/head.txt
 
 HTMLFILES = $(shell ls $(PTML_DIR)/*.ptml | sed -e 's/.ptml/.html/' | sed -e 's/html_src\///')
 

@@ -109,11 +109,14 @@ h1,h2,h3 {
 
 h1 {
     margin: 0em 0em 1em 0em;
-    padding-bottom: .8em;
-    padding-top: .8em;
+    padding-bottom: .6em;
+    padding-top: .6em;
+    padding-right: 2em;
+    padding-left: 2em;
     text-align: center;
     font-size: 2.6em;
-    color: #6879b8;
+    color: #5869a8;
+/*    background: #cdf; */
 }
 
 h1#course-title {
@@ -160,32 +163,32 @@ h5 {
 }
 
 summary.sum1 {
-    font-size: 1.7em;
+    font-size: 2em;
     color: #903;
     margin: 1em 1.2em 1em 1.2em;
 }
 
 summary.sum2 {
-    font-size: 1.6em;
+    font-size: 1.8em;
     color: #937;
     font-weight: 500;
     margin: .8em 1.2em .8em 2em;
 }
 
 summary.sum3 {
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #339;
     margin: .6em 1.2em .6em 2.8em;
 }
 
 summary.sum4 {
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: #825;
     margin: .4em 1.2em .4em 2.8em;
 }
 
 summary.menu_sum {
-    font-size: 1.4em;
+    font-size: 1.5em;
     color: #639;
     margin: .5em 0em .5em 0em;
 }
@@ -387,7 +390,8 @@ i, span {
 #sidebar .sidebar-header {
     padding-bottom: 2.8em;
     padding-top: .8em;
-    background: #6879b8;
+    padding-left: 1.6em;
+    background: #5869a8;
 }
 
 #sidebar .sidebar-header strong {
@@ -439,7 +443,7 @@ i, span {
 }
 
 #sidebar h1 {
-    color: #fff;
+    color: #cdf;
     background-color: transparent;
     text-align: left;
     margin: 1em 0em 0em 0em;

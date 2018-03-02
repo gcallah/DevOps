@@ -5,7 +5,7 @@
 export TEMPLATE_DIR = ../templates
 export QUIZ_DIR = ../quizzes
 PTML_DIR = html_src
-INCS = $(TEMPLATE_DIR)/menu.txt 
+INCS = $(TEMPLATE_DIR)/navbar.txt $(TEMPLATE_DIR)/head.txt
 UTILS_DIR = ../utils
 
 HTMLFILES = $(shell ls $(PTML_DIR)/*.ptml | sed -e 's/.ptml/.html/' | sed -e 's/html_src\///')
