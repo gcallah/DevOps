@@ -28,7 +28,7 @@
                     The key characteristics of build tools are that:
                 </p>
 
-                <ul>
+                <ul class="contents">
                     <li>
                         They automate the build process.
                     </li>
