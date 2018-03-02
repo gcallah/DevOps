@@ -118,7 +118,7 @@ h1 {
     padding-right: 2em;
     padding-left: 2em;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 2em;
     color: #5869a8;
 /*    background: #cdf; */
 }
@@ -173,20 +173,20 @@ summary.sum1 {
 }
 
 summary.sum2 {
-    font-size: 1.7em;
+    font-size: 1.6em;
     color: #937;
     font-weight: 500;
     margin: .8em 1.2em .8em 2em;
 }
 
 summary.sum3 {
-    font-size: 1.6em;
+    font-size: 1.5em;
     color: #339;
     margin: .6em 1.2em .6em 2.8em;
 }
 
 summary.sum4 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #825;
     margin: .4em 1.2em .4em 2.8em;
 }

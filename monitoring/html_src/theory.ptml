@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Monitoring Theory
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Monitoring Theory
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Monitoring Theory
+                </h1>
+        
+                <p>
+                    Monitoring is a key part of DevOps because
+                    monitoring is a source of feedback.
+                </p>
 
+            </div>
+        </div>
     </body>
 </html>
