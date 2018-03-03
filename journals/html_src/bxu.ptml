@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!--include subhead.txt -->
+<!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
+<!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
-
+    <div class="wrapper">
+<!--include navbar.txt -->
+        <div id="content">
         <h1>
             My DevOps Story
         </h1>
@@ -80,5 +82,7 @@
           migration of the head part. Starting moving on to menu (nav bar)
           migration.
         </p>
+      </div>
+    </div>
     </body>
 </html>
