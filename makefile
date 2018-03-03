@@ -25,14 +25,15 @@ website: $(INCS) $(HTMLFILES)
 	git pull origin master
 	git push origin master
 
-tests: $(QUIZ_DIR)
-	cd $(QUIZ_DIR) ; make all
-
 local: $(HTMLFILES)
 
-template: $(TEMPLATE_DIR)
-	cd $(TEMPLATE_DIR) ; make all
-
 clean:
-	rm $(HTMLFILES)
-	cd $(TEMPLATE_DIR) ; make clean
+	touch $(PTML_DIR)/*.ptml
+	cd cloud; $(PTML_DIR)/*.ptml; make local; cd ..
+	cd coding; $(PTML_DIR)/*.ptml; make local; cd ..
+	cd deployment; $(PTML_DIR)/*.ptml; make local; cd ..
+	cd monitoring; $(PTML_DIR)/*.ptml; make local; cd ..
+	cd security; $(PTML_DIR)/*.ptml; make local; cd ..
+	cd testing; $(PTML_DIR)/*.ptml; make local; cd ..
+	cd workflow; $(PTML_DIR)/*.ptml; make local; cd ..
+	cd UX; $(PTML_DIR)/*.ptml; make local; cd ..
