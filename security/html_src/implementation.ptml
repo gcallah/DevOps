@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Our Security Implementation
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Our Security Implementation
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Our Security Implementation
+                </h1>
+        
+                <p>
+                    This is how we implemented our security system.
+                </p>
 
-        <p>
-            This is how we implemented our security system.
-        </p>
-
+            </div>
+        </div>
     </body>
 </html>
