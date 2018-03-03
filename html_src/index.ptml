@@ -30,8 +30,8 @@
                 </h2>
     
                 <figure>
-                    <img width="14%"
-                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Trefoil-Architectural-Equilateral-Triangle-interlaced.svg/545px-Trefoil-Architectural-Equilateral-Triangle-interlaced.svg.png">
+                    <img width="16%"
+                         src="graphics/Three.png">
                 </figure>
     
                 <ol class="centered">
@@ -48,9 +48,7 @@
                     </li>
                 </ol>
     
-                <br />
                 <hr>
-                <br />
     
                 <figure>
                     <img
