@@ -29,6 +29,7 @@ local: $(HTMLFILES)
 
 clean:
 	touch $(PTML_DIR)/*.ptml
+	cd build; $(PTML_DIR)/*.ptml; make local; cd ..
 	cd cloud; $(PTML_DIR)/*.ptml; make local; cd ..
 	cd coding; $(PTML_DIR)/*.ptml; make local; cd ..
 	cd deployment; $(PTML_DIR)/*.ptml; make local; cd ..
