@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
         <title>
             No Silver Bullet
         </title>
@@ -11,16 +11,20 @@
     <body>
 <!--include menu.txt -->
         <h1>
-            A brief review by Tingjun Zhang
+            No Silver Bullet
         </h1>
 
         <p class="author">
             Frederick P. Brooks, Jr
         </p>
 
-        <h2>
-            What is this book about?
-        </h2>
+        <p>
+            Reviewer: Tingjun Zhang
+        </p>
+
+        <h4>
+            What is this article about?
+        </h4>
         <p>
             When it comes to software developing, people are always 
             getting into some troubles, such as missed schedules, 
@@ -38,9 +42,9 @@
             and future hope for the silver 
             (potential ultimate solutions).
         </p>
-        <h2>
+        <h4>
             Essential Difficulties
-        </h2>
+        </h4>
         <p>
             The author clarifies that the relatively slow 
             pace of software progress is normal. 
@@ -60,18 +64,47 @@
             changeability, and invisibility.
         </p>
         <p>
-            Complexity: The Software itself is more complex than other
-            human construct. And since software systems have more states
-            than computers do, their complexity would increase much more
-            than linearly. 
+            <ul>
+                <li>
+                    <b>Complexity</b> - The Software itself 
+                    is more complex than other
+                    human construct. And since software systems have 
+                    more states than computers do, their complexity 
+                    would increase much more than linearly. 
+                    Unlike mathematics and the physical sciences, the complexities
+                    are the essential properties of software development, which is
+                    one of the reason why it is almost impossible to abstract certain
+                    essence to simplicify problems we faced during software developing.
+                    Both technical problems and management problems count when we try
+                    to overview and control all loose ends.
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <b>Conformity</b> - Conformation to other complex interfaces
+                    is a must for the software. And many complexities come from
+                    those conformations, which can not be avoided.
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <b>Changeability</b> - Software is infinitely malleable. Unlike
+                    buildings, cars and computers, software changes are
+                    not that expansive and hard. Software is highly related to 
+                    applications, users, laws, and machine vehicles. Their changes will
+                    force software to change.
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <b>Invisibility</b> - Software has no ready geometric 
+                    representation, which impedes the process of design within
+                    one mind and severely hinders communication among minds.
+                </li>
+            </ul>
         </p>
         <p>
-            Unlike mathematics and the physical sciences, the complexities
-            are the essential properties of software development, which is
-            one of the reason why it is almost impossible to abstract certain
-            essence to simplicify problems we faced during software developing.
-            Both technical problems and management problems count when we try
-            to overview and control all loose ends.
+            
         </p>
     </body>
 </html>
