@@ -25,7 +25,12 @@
 
 
     <p>
-    DevOps is a software engineering culture and practice that aims at unifying software development (Dev) and software operation (Ops). The main characteristic of the DevOps movement is to strongly advocate automation and monitoring at all steps of software construction, from integration, testing, releasing to deployment and infrastructure management.
+    DevOps is a software engineering culture and practice that aims
+    at unifying software development (Dev) and software operation (Ops).
+     The main characteristic of the DevOps movement is to strongly advocate
+      automation and monitoring at all steps of software construction,
+      from integration, testing, releasing to deployment
+      and infrastructure management.
     I am exicted to learn about this field.
 
     </p>
@@ -38,14 +43,14 @@
 
         <ul class="nested">
             <li>
-              <p>
-                <br>
                 Class was introduced to DevOps.
-                <br>
+            </li>
+            <li>
                 Got on Slack and Trello
-                <br>
+            </li>
+            <li>
                 Initialized Git repo
-              </p>
+
             </li>
         </ul>
     </details>
@@ -57,16 +62,18 @@
 
         <ul class="nested">
             <li>
-              <p>
                 Installed and configured Docker in class.
-                <br>
+            </li>
+            <li>
                 It is fascinating how light weight docker is
                 in comparison to virtulization
                 and how it can be used
                 to run micro services.
-                <br>
-                Created Book review page and added inforamtion to security/theory.html
-              </p>
+            </li>
+            <li>
+                Created Book review page and added
+                inforamtion to security/theory.html
+
             </li>
         </ul>
     </details>
@@ -78,14 +85,15 @@
 
         <ul class="nested">
             <li>
-              <p>
-                <br>
-                Leanred about built tool and how it can be used to automate different build processes
-                <br>
+                Leanred about built tool and how
+                it can be used to automate different build processes
+            </li>
+            <li>
                 Added sources to security/theory.html
-                <br>
+            </li>
+            <li>
                 Updated journal/savla.html
-              </p>
+
             </li>
         </ul>
     </details>
@@ -96,19 +104,35 @@
         </summary>
         <ul class="nested">
             <li>
-              <p>
-                <br>
                   Learned about build and deploy piplines
-                <br>
+            </li>
+            <li>
                   Reverted git commit which rolled back journlas folder
-                <br>
+            </li>
+            <li>
                   Fixed styling in security/theory.html
-                <br>
+            </li>
+            <li>
                   Fixed Journal styling
-              </p>
             </li>
         </ul>
       </details>
+
+      <details>
+          <summary class="sum2">
+              Week 5
+          </summary>
+          <ul class="nested">
+              <li>
+                    Very informative lecture by guest
+                    speaker from Stack Overflow.
+              </li>
+
+              <li>
+                Rolled journal/savla.html to new menu
+              </li>
+          </ul>
+        </details>
 
      </div>
     </div>
