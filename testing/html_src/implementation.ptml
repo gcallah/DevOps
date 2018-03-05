@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Our Testing Implementation
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Our Testing Implementation
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Our Testing Implementation
+                </h1>
+        
+                <p>
+                    This will describe how we implement our testing
+                    environment.
+                </p>
 
-        <p>
-            This is how we implemented our testing environment.
-        </p>
-
+            </div>
+        </div>
     </body>
 </html>

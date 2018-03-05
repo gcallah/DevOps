@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include head.txt -->
         <title>
             DevOps Websites
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
         <h1>
             DevOps Websites
         </h1>
@@ -62,6 +63,8 @@
                 </a>
             </li>
         </ul>
+            </div>
+        </div>
 
     </body>
 </html>

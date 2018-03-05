@@ -109,8 +109,36 @@
              <li><a href="https://xebialabs.com/periodic-table-of-devops-tools/">Devops Periodic Table
              </a>
              </li>
-        </ul>
+            </ul>
         </details>
-        
+        <details>
+        <summary class="sum2">
+             Weekly Updates
+        </summary>
+            <ul>
+            <li> Week 1 - Learned about the importance of DevOps, challenges of
+            waterfall model and advantages of using Agile/Lean methodology. 
+            Also got familiar with the structure of the course and how 
+            different teams would collaboratively work on developing the 
+            course website using DevOps principles. I am part of the deployment
+            team and our goal is to create the deployment pipeline to automate
+            deployment of course website on cloud or local machine.
+            <br>
+            Excited to use tools like Slack, Git, Trello and more later during
+            the course.
+            </li>
+            <li> Week 2 - Learned about git usage and submodules. Published my 
+            DevOps Journal.
+            </li>
+            <li> Week 3 - Learned about deploying the application using docker
+            container with a practical exercise. Worked on deployment theory 
+            page. Reviewed chapter 1 of Continuous Delivery book.
+            </li>
+            <li> Week 4 - Learned about building modules using make. Reviewed 
+            chapters 2 and 3 of Continuous Delivery book. 
+            Started studying about puppet installation.
+            </li>
+            </ul>
+        </details>
     </body>
 </html>

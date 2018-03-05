@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--include subhead.txt -->
+        <title>
+            Slack Plugins for Workflow
+        </title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+<!--include navbar.txt -->
+          <div id="content">
+            <p>
+              <h1> Slack Plugins for Workflow </h1>
+            </p>
+
+            <ul class="nested">
+                    <li>
+                      <p> 
+                        <h1> Pixel Kit </h1>
+                      </p>
+                      <figure>
+                          <img width="640" height="360" src="multimedia/Pixelkit.png">
+                          <figcaption>
+                              Pixel Kit
+                          </figcaption>
+                      </figure>
+
+                      <p>
+                        If Slack and Google Docs had a baby, this would be it.
+                        This makes every part of your design work searchable,
+                        gives your team visual version control, and integrates
+                        with all of your other tools (Dropbox, Box, Google
+                        Drive). The best part? Comments from Slack, meetings,
+                        and emails are automatically attached to your designs.
+                        This is a design collaboration tool at its best. 
+                      </p>
+                    </li>
+
+                    <li>
+                      <p>
+                        <h1> Monkey Test it </h1>
+                      </p>
+
+                      <figure>
+                          <img width="640" height="360" src="multimedia/MonkeyTestit.png">
+                          <figcaption>
+                              Monkey Test it
+                          </figcaption>
+                      </figure>
+
+                      <p>
+                        This bot will visit your website and pick it apart to
+                        look for bugs. In other words, it’ll click every
+                        element on a page in search of errors (like broken
+                        links, missing images, and JacaScript issues). Schedule
+                        a test, and you’ll be notified when any bugs pop up.
+                      </p>
+                    </li>
+
+                    <li>
+                      <p>
+                        I Done This
+                      </p>
+
+                      <figure>
+                          <img width="640" height="360" src="multimedia/IDoneThis.png">
+                          <figcaption>
+                              I Done This
+                          </figcaption>
+                      </figure>
+
+                      <p>
+                        Instead of having daily stand-up meetings, use this bot
+                        to get a more efficient take on what each member of
+                        your team is working on and has accomplished each day.
+                        It’s a fun way to keep track of the progress your team
+                        is making over the long run, too. 
+                      </p>
+                    </li>
+                </ul>
+          </div>
+        </div>
+    </body>
+</html>

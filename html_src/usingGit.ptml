@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include head.txt -->
         <title>
             Using Git and GitHub
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
         <h1>
             Using Git and GitHub
         </h1>
@@ -38,6 +39,8 @@
 
         </ul>
 
+            </div>
+        </div>
 
     </body>
 </html>

@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include head.txt -->
         <title>
             Kanban: Work Is a Flow, Not a Stock
         </title>
     </head>
 
     <body>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
         <h1>
             Kanban: Work Is a Flow, Not a Stock
         </h1>
@@ -49,5 +51,7 @@
             unfinished projects at one's work station.
         </p>
 
+            </div>
+        </div>
     </body>
 </html>

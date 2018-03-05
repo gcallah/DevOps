@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Cloud Provider Comparison
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Cloud Provider Comparison
-        </h1>
-
-        <p>
-            Here are some of the major cloud providers and their features:
-        </p>
-
-        <ul class="nested">
-            <li>
-                Amazon Web Services
-            </li>
-
-            <li>
-                Google Cloud Platform
-            </li>
-
-            <li>
-                Microsoft Azure
-            </li>
-
-            <li>
-                Openstack
-            </li>
-
-        </ul>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Cloud Provider Comparison
+                </h1>
+        
+                <p>
+                    Here are some of the major cloud providers and their features:
+                </p>
+        
+                <ul class="contents">
+                    <li>
+                        Amazon Web Services
+                    </li>
+        
+                    <li>
+                        Google Cloud Platform
+                    </li>
+        
+                    <li>
+                        Microsoft Azure
+                    </li>
+        
+                    <li>
+                        Openstack
+                    </li>
+        
+                </ul>
+            </div>
+        </div>
 
     </body>
 </html>
