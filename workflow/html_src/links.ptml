@@ -3,7 +3,7 @@
     <head>
 <!--include subhead.txt -->
         <title>
-            Workflow Links 
+            Workflow Links
         </title>
     </head>
 
@@ -12,56 +12,61 @@
 <!--include navbar.txt -->
             <div id="content">
                 <h1>
-                    Workflow Links 
+                    Workflow Links
                 </h1>
-        
+
                 <ul class="nested">
                     <li>
                         <a href="http://dev2ops.org/2010/02/what-is-devops/">
                             What is DevOps?
                         </a>
                     </li>
-        
+
                     <li>
                         <a href="../cooperating.html">
-                           DevOps: A Way of Cooperative Knowledge Work 
+                           DevOps: A Way of Cooperative Knowledge Work
                         </a>
                     </li>
-        
+
                     <li>
                         <a href="../divOfLabor.html">
                             DevOps and the Division of Labor
                         </a>
                     </li>
-        
+
                     <li>
                         <a href="../rationalism_in_software.html">
-                           Rationalism in Software Engineering 
+                           Rationalism in Software Engineering
                         </a>
                     </li>
-        
+
                     <li>
                         <a href="../productivity_flow.html">
                             Productivity Is a Flow
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="http://www.disciplinedagiledelivery.com">
                             The Disciplined Agile Framework
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="https://continuousdelivery.com/2013/01/on-antifragility-in-systems-and-organizational-architecture/">
                             Continuous Delivery and Antifragility
                         </a>
                     </li>
-        
+
                     <li>
                         <a href="https://github.com/secure-systems-lab/lab-guidelines/blob/a8ed96e62493e5f11bdd49d96d67abaab6ddf70a/commits.md#how-to-write-good-commit-messages">
                             Guidelines to write good commits
                             from Secure Systems Lab NYU
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.disciplinedagiledelivery.com/lifecycle/lean-lifecycle/">
+                            DAD Lifecycle – Lean
                         </a>
                     </li>
                 </ul>
