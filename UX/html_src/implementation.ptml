@@ -5,9 +5,11 @@
         <title>
             UX Implementation
         </title>
+<!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
+<<<<<<< HEAD
         <div class="wrapper">
 <!--include navbar.txt -->
             <div id="content">
@@ -19,5 +21,23 @@
                     Our implementation will be discussed here.
                 </p>
             </div>
+=======
+      <div class="wrapper">
+<!--include navbar.txt -->
+          <div id="content">
+            <h1>
+                UX Implementation
+            </h1>
+
+            <ul class="nested">
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/">
+                        Mozilla Developer's Network
+                    </a>
+                </li>
+            </ul>
+          </div>
+>>>>>>> 87c6f89fca5a98c0d0eda06bbdf7b07507bf5a09
         </div>
     </body>
+</html>
