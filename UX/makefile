@@ -1,1 +1,1 @@
-../submodule
+../submakefile
