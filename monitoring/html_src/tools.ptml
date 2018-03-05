@@ -16,16 +16,16 @@
             <h1>
                 Monitoring Tools Comparison
             </h1>
-    
+
             <p>
                 Here are some of the monitoring tools and their features:
             </p>
-    
+
             <details>
                 <summary class="sum2">
                  Zabbix
                 </summary>
-    
+
                 <ul class="contents">
                     <li>
                       Zabbix is an open source network monitoring tool that
@@ -43,12 +43,12 @@
                     </li>
                 </ul>
             </details>
-    
+
             <details>
                 <summary class="sum2">
                   Nagios
                 </summary>
-    
+
                 <ul class="contents">
                     <li>
                       Nagios is a free and open source application that monitors
@@ -69,12 +69,12 @@
                     </li>
                 </ul>
             </details>
-    
+
             <details>
                 <summary class="sum2">
                   Sensu
                 </summary>
-    
+
                 <ul class="contents">
                     <li>
                     Sensu is an application and infrastructure monitoring
@@ -94,12 +94,12 @@
                     </li>
                 </ul>
             </details>
-    
+
             <details>
                 <summary class="sum2">
                   Prometheus
                 </summary>
-    
+
                 <ul class="contents">
                     <li>
                     Prometheus is an open source monitoring and alerting tool.
@@ -117,39 +117,39 @@
                       a problem quickly during an outage. It can display
                       statistics even under failure conditions .
                     </li>
-    
+
                 </ul>
             </details>
-    
+
             <details>
                 <summary class="sum2">
                   SysDig
                 </summary>
-    
+
                 <ul class="contents">
                     <li>
                     Details about SysDig
                     </li>
                 </ul>
             </details>
-    
+
             <details>
                 <summary class="sum2">
                   New Relic Infrastructure
                 </summary>
-    
+
                 <ul class="contents">
                     <li>
                     Details about New Relic Infrastructure
                     </li>
                 </ul>
             </details>
-    
+
             <details>
                 <summary class="sum2">
                   AWS CloudWatch
                 </summary>
-    
+
                 <ul class="contents">
                     <li>
                       Amazon CloudWatch offers cloud monitoring services for different AWS resources such as Amazon EBS volumes , Amazon RDS DB instances , Amazon EC2 instances and Elastic Load Balancers.
@@ -163,15 +163,15 @@
                     <li>
                       CloudWatch Logs can also be used to monitor, store, and access the log files from various sources like Amazon EC2 instances and AWS CloudTrail.
                     </li>
-    
+
                 </ul>
             </details>
-    
+
             <details>
                 <summary class="sum2">
                   Google StackDriver
                 </summary>
-    
+
                 <ul class="contents">
                     <li>
                       Google Stackdriver is a cloud computing systems management service.
@@ -187,72 +187,78 @@
                     </li>
                 </ul>
             </details>
-    
+
             <details>
                 <summary class="sum2">
                   New Relic
                 </summary>
-    
+
                 <ul class="contents">
                     <li>
                     Details about New Relic
                     </li>
                 </ul>
             </details>
-    
+
             <details>
                 <summary class="sum2">
                   AppDynamics
                 </summary>
-    
+
                 <ul class="contents">
                     <li>
                     Details about AppDynamics
                     </li>
                 </ul>
             </details>
-    
+
             <details>
                 <summary class="sum2">
                   Compuware APM
                 </summary>
-    
+
                 <ul class="contents">
                     <li>
                     Details about Compuware APM
                     </li>
                 </ul>
             </details>
-    
+
             <details>
                 <summary class="sum2">
                   Boundary
                 </summary>
-    
+
                 <ul class="contents">
                     <li>
                     Details about Boundary
                     </li>
                 </ul>
             </details>
-    
+
             <details>
                 <summary class="sum2">
                   BigPanda
                 </summary>
-    
+
                 <ul class="contents">
                     <li>
-                    Details about BigPanda
+                      BigPanda Solutions, transform your IT alerts into actionable insights. With Automated Alert Correlation, Centralized Visibility, and Custom Views.
+                    </li>
+                    <li>
+                      It integrates with monitoring tools, including traditional monitoring systems from Hewlett Packard and IBM along with others like New Relic, AppDynamics, Splunk, Nagios or Zabbix.
+                    </li>
+                    <li>
+                      It uses clustering algorithms to aggregate data across multiple monitoring systems, normalize them into a single consistent data model, and then compressing multiple alerts into consolidated incidents that are displayed based on their relative importance.
                     </li>
                 </ul>
             </details>
-    
+
             <details>
                 <summary class="sum2">
                   PagerDuty
                 </summary>
-    
+
                 <ul class="contents">
                     <li>
                     Pagerduty is a SaaS incident reporting  tool.
