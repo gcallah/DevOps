@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
-            UX Links 
+            UX Links
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            UX Links 
-        </h1>
-
-        <ul class="nested">
-            <li>
-                <a href="https://developer.mozilla.org/en-US/">
-                    Mozilla Developer's Network
-                </a>
-            </li>
-        </ul>
-
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Our UX Links
+                </h1>
+        
+                <ul class="nested">
+                    <li>
+                        <a href="https://developer.mozilla.org/en-US/">
+                            Mozilla Developer's Network
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </body>
+
 </html>

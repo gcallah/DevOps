@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
-            UX Links
+            UX Tools
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            UX tools
-        </h1>
-
-        <ul class="nested">
-            <li>
-                <a href="https://developer.mozilla.org/en-US/">
-                    Mozilla Developer's Network
-                </a>
-            </li>
-        </ul>
-
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Our UX Tools
+                </h1>
+        
+                <p>
+                    Our tools will be listed here.
+                </p>
+            </div>
+        </div>
     </body>
   </html>
