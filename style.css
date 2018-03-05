@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 144%;
+    font-size: 100%;
     color: #000;
     background: #f9f9f9;
     font-family: 'Poppins', sans-serif;
@@ -300,7 +300,7 @@ The Wrapped div in which content will be filled
     padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
-    font-size: 120%
+    font-size: 174%;
 }
 
 /****** Nav Bar *****/
