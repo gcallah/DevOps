@@ -152,16 +152,25 @@
 
                 <ul class="contents">
                     <li>
-                      Amazon CloudWatch offers cloud monitoring services for different AWS resources such as Amazon EBS volumes , Amazon RDS DB instances , Amazon EC2 instances and Elastic Load Balancers.
+                      Amazon CloudWatch offers cloud monitoring services for
+                      different AWS resources such as Amazon EBS volumes ,
+                      Amazon RDS DB instances , Amazon EC2 instances and Elastic
+                      Load Balancers.
                     </li>
                     <li>
-                      It collects and tracks metrics such as request counts, CPU utilization, and latency. It then provides real time results to keep the ongoing work running smoothly.
+                      It collects and tracks metrics such as request counts,
+                      CPU utilization, and latency. It then provides real time
+                      results to keep the ongoing work running smoothly.
                     </li>
                     <li>
-                      CloudWatch Events can be used to send system events from AWS resources to AWS Lambda functions, Amazon SNS topics, streams in Amazon Kinesis and many more.
+                      CloudWatch Events can be used to send system events from
+                      AWS resources to AWS Lambda functions, Amazon SNS topics,
+                      streams in Amazon Kinesis and many more.
                     </li>
                     <li>
-                      CloudWatch Logs can also be used to monitor, store, and access the log files from various sources like Amazon EC2 instances and AWS CloudTrail.
+                      CloudWatch Logs can also be used to monitor, store, and
+                      access the log files from various sources like Amazon EC2
+                      instances and AWS CloudTrail.
                     </li>
 
                 </ul>
@@ -174,16 +183,27 @@
 
                 <ul class="contents">
                     <li>
-                      Google Stackdriver is a cloud computing systems management service.
+                      Google Stackdriver is a cloud computing systems management
+                       service.
                     </li>
                     <li>
-                      It provides powerful monitoring, logging, and diagnostics in multi-cloud environments.
+                      It provides powerful monitoring, logging, and diagnostics
+                      in multi-cloud environments.
                     </li>
                     <li>
-                      It is natively integrated with Google Cloud Platform, Amazon Web Services and works flawlessly with a variety of common application components including Cassandra, Nginx, Apache Web Server and many more. On top of which it provides metrics detailing every layer of the 'stack' in the form of charts and graphs.
+                      It is natively integrated with Google Cloud Platform,
+                      Amazon Web Services and works flawlessly with a variety
+                      of common application components including Cassandra,
+                      Nginx, Apache Web Server and many more. On top of which
+                      it provides metrics detailing every layer of the 'stack'
+                      in the form of charts and graphs.
                     </li>
                     <li>
-                      Stackdriver combines metrics, logs, and metadata from all of your cloud accounts and projects into a single comprehensive view of your environment. Hence you can work easily with Google Cloud Platform, Amazon Web Services, or a hybrid of the two.
+                      Stackdriver combines metrics, logs, and metadata from all
+                      of your cloud accounts and projects into a single
+                      comprehensive view of your environment. Hence you can
+                      work easily with Google Cloud Platform, Amazon Web
+                      Services, or a hybrid of the two.
                     </li>
                 </ul>
             </details>
