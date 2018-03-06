@@ -35,15 +35,15 @@ th, td {
 }
 
 th {
-    background: #245;
+    background: #cdf;
 }
 
 th.table-head {
-    background: #258;
+    background: #7386D5;
 }
 
 td {
-    background: #265;
+    background: #adf;
 }
 
 p {
@@ -69,6 +69,10 @@ ol, ul, dl, li {
     font-size: 1.1em;
 }
 
+ol.contents, ul.contents, dl.contents, li.contents {
+    font-size: 1.1em;
+}
+
 ol.centered, ul.centered dl.centered {
     text-align: center;
     list-style-position: inside;
@@ -87,7 +91,7 @@ dt {
 
 #header {
     width: auto;
-    height: 3em;
+    height: 5em;
     padding: .5em 2em;
     line-height: 2em;
     background-color: #cbe;
@@ -109,12 +113,14 @@ h1,h2,h3 {
 
 h1 {
     margin: 0em 0em 1em 0em;
-    padding-bottom: .8em;
-    padding-top: .8em;
+    padding-bottom: .6em;
+    padding-top: .4em;
+    padding-right: 2em;
+    padding-left: 2em;
     text-align: center;
-    font-size: 2.4em;
-    color: #933;
-    background-color: #cbe;
+    font-size: 2em;
+    color: #5869a8;
+/*    background: #cdf; */
 }
 
 h1#course-title {
@@ -126,9 +132,9 @@ h1.chap-title {
 }
 
 h2 {
-    font-size: 1.9em;
+    font-size: 1.7em;
     margin: 1.2em 1em .6em 4em;
-    color: #649;
+    color: #7386D5;
 }
 
 h2.centered {
@@ -161,14 +167,14 @@ h5 {
 }
 
 summary.sum1 {
-    font-size: 1.7em;
+    font-size: 2em;
     color: #903;
     margin: 1em 1.2em 1em 1.2em;
 }
 
 summary.sum2 {
     font-size: 1.6em;
-    color: #936;
+    color: #937;
     font-weight: 500;
     margin: .8em 1.2em .8em 2em;
 }
@@ -225,6 +231,11 @@ p.def {
 
 #logo {
     float: left;
+    height: 100%;
+}
+
+#logo img {
+  height: 100%;
 }
 
 #user-tools {
@@ -232,7 +243,7 @@ p.def {
     padding: 0;
     margin: 0 0 0 1em;
     font-weight: 300;
-    font-size: .7em;
+    font-size: .9em;
     letter-spacing: .1em;
     text-transform: uppercase;
     text-align: right;
@@ -254,7 +265,7 @@ figcaption {
 }
 
 span.review {
-    color: #588;
+    color: #255;
     font-size: .8em;
 }
 
@@ -289,6 +300,7 @@ The Wrapped div in which content will be filled
     padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
+    font-size: 174%;
 }
 
 /****** Nav Bar *****/
@@ -381,8 +393,10 @@ i, span {
 }
 
 #sidebar .sidebar-header {
-    padding: 20px;
-    background: #6d7fcc;
+    padding-bottom: 2.8em;
+    padding-top: .8em;
+    padding-left: 1.6em;
+    background: #5869a8;
 }
 
 #sidebar .sidebar-header strong {
@@ -434,7 +448,7 @@ i, span {
 }
 
 #sidebar h1 {
-    color: #fff;
+    color: #cdf;
     background-color: transparent;
     text-align: left;
     margin: 1em 0em 0em 0em;

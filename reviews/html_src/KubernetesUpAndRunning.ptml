@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Kubernetes Up and Running
         </title>
     </head>
-
     <body>
-<!--include menu.txt -->
-        <h1>
-            Kubernetes Up and Running, <br> 
-            Kelsey Hightower, Brendan Burns, and Joe Beda
-        </h1>
-        <p class="author">
-            Reviewers: Ravish Bhatia, Sneha Ghosh
-        </p>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Kubernetes Up and Running
+                </h1>
+                <p class="author">
+                    Authors: Kelsey Hightower, Brendan Burns, and Joe Beda 
+                    <br>
+                    Reviewers: Ravish Bhatia, Sneha Ghosh
+                </p>
+            </div>
+        </div>
     </body>
 </html>

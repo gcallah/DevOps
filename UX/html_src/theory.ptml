@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--include subhead.txt -->
+        <title>
+            UX Theory
+        </title>
+<!--include googleAnalyticsScript.txt -->
+    </head>
+
+    <body>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Our UX Theory
+                </h1>
+        
+                <p>
+                    Our theory will be discussed here.
+                </p>
+            </div>
+        </div>
+    </body>
+  </html>

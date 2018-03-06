@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
+<!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
-
+    <div class="wrapper">
+<!--include navbar.txt -->
+        <div id="content">
         <h1>
             My DevOps Story
         </h1>
@@ -63,14 +64,25 @@
           Week 4:
           <br/>
           We build the Team page for our team to provide all information on it.
-          And we also start tesing and immigrating the styles into original one.
+          We present our new UI to the whole class and get suggestion from
+          customers. And we also start tesing and immigrating the styles into
+          original one.
         </p>
         <p>
           Week 5:
           <br/>
           We have almost finish the migration of style sheet this week and start
-          working on the web reconstruction. A common header and footer that 
+          working on the web reconstruction. A common header and footer that
           would be included in all pages are in working process now.
         </p>
+        <p>
+          Week 6:
+          <br/>
+          We have finish the head, menu and subhead including files and the
+          migration of the head part. Starting moving on to menu (nav bar)
+          migration.
+        </p>
+      </div>
+    </div>
     </body>
 </html>
