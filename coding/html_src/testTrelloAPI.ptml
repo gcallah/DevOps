@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Trello Test
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Trello Test
-        </h1>
-
-        <p>
-            Using restful api or js to integred Trello.
-        </p>
-
-        <script src="https://trello.com/b/Nbrll0xF/coding.js">
-        </script>
-        <iframe src="https://trello.com/b/Nbrll0xF/coding.html"></iframe>
-
-        <ul class="nested">
-            <li>
-            </li>
-        </ul>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Trello Test
+                </h1>
+        
+                <p>
+                    Using restful API or Jacascript to integrate with Trello.
+                </p>
+        
+                <script src="https://trello.com/b/Nbrll0xF/coding.js">
+                </script>
+                <iframe src="https://trello.com/b/Nbrll0xF/coding.html"></iframe>
+        
+            </div>
+        </div>
 
     </body>
 </html>

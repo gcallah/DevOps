@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Workflow Tools Comparison
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Workflow Tools Comparison
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Workflow Tools Comparison
+                </h1>
+        
+                <p>
+                    Here are some of the major workflow tools and their features:
+                </p>
+        
+                <ul class="nested">
+                    <li>
+                        <a href="https://git-scm.com/">
+                        Git
+                        </a>
+                    </li>
+                        
+                    <li>
+                        <a href="https://github.com/">
+                        GitHub
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="https://bitbucket.org/"> 
+                        Bitbucket
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="https://slack.com/"> 
+                        Slack
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="https://trello.com/">
+                        Trello
+                        </a>
+                    </li>
+        
+                </ul>
 
-        <p>
-            Here are some of the major workflow tools and their features:
-        </p>
-
-        <ul class="nested">
-            <li>
-                <a href="https://git-scm.com/">
-                Git
-                </a>
-            </li>
-                
-            <li>
-                <a href="https://github.com/">
-                GitHub
-                </a>
-            </li>
-
-            <li>
-                <a href="https://bitbucket.org/"> 
-                Bitbucket
-                </a>
-            </li>
-
-            <li>
-                <a href="https://slack.com/"> 
-                Slack
-                </a>
-            </li>
-
-            <li>
-                <a href="https://trello.com/">
-                Trello
-                </a>
-            </li>
-
-        </ul>
-
+            </div>
+        </div>
     </body>
 </html>

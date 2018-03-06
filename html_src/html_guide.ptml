@@ -1,16 +1,16 @@
-
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include head.txt -->
         <title>
             A Guide to HTML Coding for the DevOps Course
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
         <h1>
             A Guide to HTML Coding for the DevOps Course
         </h1>
@@ -126,6 +126,8 @@
 
         </details>
 
+            </div>
+        </div>
 
     </body>
 </html>

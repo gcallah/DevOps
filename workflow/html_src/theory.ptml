@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Workflow Theory
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Workflow Theory
-        </h1>
-        <ul class="nested">
-          <li>
-            <a href="kanban.html"> Usage and Importance of Kanban </a>
-          </li>
-        </ul>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Workflow Theory
+                </h1>
+                <ul class="nested">
+                  <li>
+                    <a href="kanban.html"> Usage and Importance of Kanban </a>
+                  </li>
+                  <li>
+                    <a href="slackPlugins.html"> Slack Plugins for Workflow </a>
+                  </li>
+        
+                </ul>
+            </div>
+        </div>
     </body>
 </html>

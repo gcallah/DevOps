@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Coding Tools used
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Coding Tools used
-        </h1>
-
-        <p>
-            Here are some of the major coding tools and their features:
-        </p>
-
-        <ul class="nested">
-            <li>
-            </li>
-        </ul>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Coding Tools 
+                </h1>
+        
+                <p>
+                    Here are some of the coding tools we examined:
+                </p>
+        
+                <ul class="contents">
+                    <li>
+                        <a href="https://www.pylint.org">
+                        PyLint
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://mypy-lang.org">
+                        MyPy
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
     </body>
 </html>

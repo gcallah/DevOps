@@ -1,42 +1,108 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            My DevOps Story
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    My DevOps Story
+                </h1>
 
-        <p class="author">
-            by
-            <br />
-            Datta D
-        </p>
-        <br>
-        <h3>About Me:</h3>
-        <li><a href="https://dattasainathd.github.io/">Website</a></li>
-        <li><a href="https://www.linkedin.com/in/dattasainathd/">LinkedIn</a></li>
-        <li><a href="https://github.com/dattasainathd">GitHub</a></li>
-        <br>
-        <h3>Expected Outcome of this course:</h3>
-        <p>
-          My internship experience at Amazon has taught me about how important 'operations' are to a team.
-          Amazon emphasizes a lot of importance on operations,  any small changes observed in the critical parameters
-          of a service is fixed immediately.  At Amazon, the development and maintenance of services is done
-          by the same team.  By doing so we could deliver the deliverables quickly and maintain the services in a good state.
-          <br>
-          I was thrilled when I knew that Prof. Callahan introduced 'DevOps' course in Spring 2018.  I immediately
-          enrolled in it hoping to extend my knowledge on DevOps.  Now, I feel excited to develop a website "To Learn DevOps"
-          by learning and implementing DevOps.  The idea of developing the website is a great idea as it emphasizes that
-          <u>DevOps is not a tool but a way of working and I am looking forward to learn that!</u>
-        </p>
+                <p class="author">
+                    by
+                    <br />
+                    Datta D
+                </p>
+                <br>
+                <h3>
+                    About Me:
+                </h3>
+                <li>
+                    <a href="https://dattasainathd.github.io/">
+                        Website
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/dattasainathd/">
+                        LinkedIn
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/dattasainathd">
+                        GitHub
+                    </a>
+                </li>
+                <br>
+                <h3>
+                    Expected Outcome of this course:
+                </h3>
+                <p>
+                    My internship experience at Amazon has taught me about how
+                    important 'operations' are to a team.  Amazon emphasizes a
+                    lot of importance on operations,  any small changes
+                    observed in the critical parameters of a service is fixed
+                    immediately.  At Amazon, the development and maintenance
+                    of services is done by the same team.  By doing so we
+                    could deliver the deliverables quickly and maintain the
+                    services in a good state.
+                    <br>
+                    I was thrilled when I knew that Prof. Callahan introduced
+                    'DevOps' course in Spring 2018.  I immediately
+                    enrolled in it hoping to extend my knowledge on DevOps.
+                    Now, I feel excited to develop a website "To Learn DevOps"
+                    by learning and implementing DevOps.  The idea of
+                    developing the website is a great idea as it emphasizes
+                    that
+                    <u>
+                        DevOps is not a tool but a way of working and I am
+                        looking forward to learn that!
+                    </u>
+                </p>
 
+                <h2>Weekly Updates: </h2>
+                <ul>
+                    <li>
+                      <strong>Week 1 (Feb 1st - 7th):</strong>
+                      Started my journal and selected a book to
+                      <a href="../reviews/toyotoproductionsystem.html">
+                        review.
+                      </a>
+                    </li>
+                    <li>
+                      <strong>Week 2 (Feb 8th - 14th):</strong>
+                      Completely read a book on kanban <br>
+                      Link:
+                      <a href="https://www.amazon.com/dp/0984521402?tag=amz-mkt-chr-us-20&ascsubtag=1ba00-01000-org00-mac00-other-nomod-us000-pcomp-feature-scomp-wm-4&ref=bit_scomp_ask_sav0">
+                        Kanban
+                      </a>
+                    </li>
+                    <li>
+                      <strong>Week 3 (Feb 15th - Feb 21st):</strong>
+                      Started writing a theory page on Kanban.
+                    </li>
+                    <li>
+                      <strong>Week 4 (Feb 22ndth - Feb 28th):</strong>
+                      Finished writing theory page on Kanban. <br>
+                      Link:
+                      <a href="../workflow/kanban.html">
+                        Theory Page on Kanban
+                      </a>
+                    </li>
+                    <li>
+                      <strong>Week 5 (Feb 28th - Mar 7th):</strong>
+                      Made few changes in interfaces of my journal page, review
+                      book and theory pages. <br>
+                      Finished reviewing Chapter 1 & 2 of my review book.
+                    </li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>

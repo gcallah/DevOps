@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Cloud Theory
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Cloud Theory
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Cloud Theory
+                </h1>
+        
+                <p>
+                    Why deploy to the cloud instead of managing one's own
+                    infrastructure? One reason is to let the pros at managing a
+                    data center manage your data center for you: instead,
+                    concentrate on the things you do best, like being a
+                    restaurant, or a shoe manufacturer, or a mortgage broker.
+                </p>
 
-        <p>
-
-        </p>
-
+            </div>
+        </div>
     </body>
 </html>

@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Our Cloud Implementation
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Our Cloud Implementation
-        </h1>
-
-        <p>
-            This is how we implemented our cloud services.
-        </p>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Our Cloud Implementation
+                </h1>
+        
+                <p>
+                    Our cloud implementation will be described here.
+                </p>
+            </div>
+        </div>
 
     </body>
 </html>
