@@ -2,15 +2,15 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
         <title>
             My DevOps Story
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-
+        <div class="wrapper">
+<!--include navbar.txt -->
+        <div id="content">
         <h1>
             My DevOps Story
         </h1>
@@ -71,5 +71,7 @@
         <p> Week 7 </p>
         <p> Adding scripts to Django site so that it can listen to
         the annoucement made by Classes and push it to slack. </p>
+        </div>
+        </div>
     </body>
 </html>
