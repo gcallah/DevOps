@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-
+    <div class="wrapper">
+<!--include navbar.txt -->
+        <div id="content">
         <h1>
             My DevOps Story
         </h1>
@@ -27,15 +27,36 @@
         <li>
             <a href="http://agilemanifesto.org/">Manifesto for Agile Software Development</a>
         </li>
-        
-        
+                
         <h3>Expected Outcomes:</h3>
         <p>
-            By taking the DevOps course, I am hoping to gain a solid understanding of what DevOps is all about, 
-            and get real experience with DevOps tools and practices. In addition, I plan to creat a functional website with other 
-            coding team members using Django as the backend. I will also learn techniques and processes utilized by Build, Cloud, 
-            Depolyment, Monitoring, Security and Testing teams.
+            By taking the DevOps course, I am hoping to
+            gain a solid understanding of what DevOps is
+            all about, and get real experience with DevOps
+            tools and practices. In addition, I plan to 
+            creat a functional website with other coding 
+            team members using Django as the backend. I 
+            will also learn techniques and processes 
+            utilized by build, cloud, depolyment, monitoring,
+            security and testing teams.
         </p>
-
+        
+        <h3>Weekly Journal</h3>
+        <p>
+            Week 1:
+            <br/>
+            Read required documents for the DevOps course.
+            I learned DevOps is a software development 
+            methodology which uses Agile and lean principles
+            to improve collaboration between development 
+            and operations engineers. The traditional waterfall 
+            model comprises five phases including requirements, 
+            design, implementation, verification and maintenance. 
+            DevOps enables faster feedback loops that result 
+            from delivering smaller batches of code more often, 
+            compared with the waterfall model.
+        </p>
+        </div>
+    </div>
     </body>
 </html>
