@@ -5,26 +5,29 @@
         <title>
             Our Testing Implementation
         </title>
+<!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
+      <div class="wrapper">
+<!--include navbar.txt -->
+          <div id="content">
+            <h1>
+                Our Testing Implementation
+            </h1>
 
-        <h1>
-            Our Testing Implementation
-        </h1>
-        
-        <p>
-            <h3>We have decided to move forward with Jenkins for our CI pipeline.</h3>
-            <h3>Installation</h3>
-            Applications like Jenkins can be downloaded as read-only "images" (or Docker images), each of which is run in Docker as a container. Since we have already downloaded docker in first class, understanding this installation of Jenkins shall be easier.<br>
-        
-            <a href="https://jenkins.io/doc/book/installing/">Jenkins</a> recommends using  <a href="https://hub.docker.com/r/jenkinsci/blueocean/">jenkinsci/blueocean</a> image (from the Docker Hub repository).
+            <p>
+                <h3>We have decided to move forward with Jenkins for our CI pipeline.</h3>
+                <h3>Installation</h3>
+                Applications like Jenkins can be downloaded as read-only "images" (or Docker images), each of which is run in Docker as a container. Since we have already downloaded docker in first class, understanding this installation of Jenkins shall be easier.<br>
 
-            This image is for Jenkins LTS and comes bundled with all Blue Ocean plugins so they don't have to be downloaded separately.
-            <br>
-            Details for downloading Jenkins Docker Image MacOS/linux/Windows can be found <a href="https://jenkins.io/doc/book/installing/">here</a>
-        </p>
+                <a href="https://jenkins.io/doc/book/installing/">Jenkins</a> recommends using  <a href="https://hub.docker.com/r/jenkinsci/blueocean/">jenkinsci/blueocean</a> image (from the Docker Hub repository).
 
-
+                This image is for Jenkins LTS and comes bundled with all Blue Ocean plugins so they don't have to be downloaded separately.
+                <br>
+                Details for downloading Jenkins Docker Image MacOS/linux/Windows can be found <a href="https://jenkins.io/doc/book/installing/">here</a>
+            </p>
+          </div>
+        </div>
     </body>
 </html>
