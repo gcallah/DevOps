@@ -130,20 +130,18 @@
 
                 <ul class="contents">
                     <li>
-                      Sysdig is open source, system-level exploration.
+                      Sysdig is open source, system-level exploration that
+                      captures system state and activity from a running Linux
+                      instance, then save, filter and analyze.
                     </li>
                     <li>
-                      It is the first container-native Docker monitoring 
+                      It is the first container-native Docker monitoring
                       solution that combines container visibility with Swarm,
                       Mesos, and Kubernetes monitoring intelligence.
                     </li>
                     <li>
-                      Sysdig captures system calls and events from the Linux
-                      kernel.
-                    </li>
-                    <li>
-                      It captures system state and activity from a running
-                      Linux instance, then save, filter and analyze.
+                      Sysdig gives you the deployment flexibility you need
+                      for clouds.
                     </li>
                 </ul>
             </details>
