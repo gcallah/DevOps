@@ -26,18 +26,19 @@
                 automated implementation of the application’s build, deploy,
                 test, and release process. The deployment pipeline has several
                 benefits. It makes every part of the process of building,
-                deploying, testing, and releasing software visible to everybody
-                involved thus aiding <span class="emphasize">collaboration</span>. 
-                It improves <span class="emphasize"> feedback </span> so that
-                problems are identified and resolved as early in the process as
-                possible. It also enables teams to deploy and release any
-                version of their software to any environment at will through a
-                <span class="emphasize"> fully automated process</span>.
+                deploying, testing, and releasing software visible to 
+                everybody involved thus aiding <span class="emphasize">
+                collaboration</span>. It improves <span class="emphasize"> 
+                feedback </span> so that problems are identified and resolved
+                as early in the process as possible. It also enables teams to
+                deploy and release any version of their software to any 
+                environment at will through a <span class="emphasize"> fully
+                automated process</span>.
             </p>
             <p>
                 This book describes ways to <span class="emphasize"> deliver
                 high quality, valuable software in an efficient, fast, and
-                reliable manner </span>. To achieve low cycle time and high
+                reliable manner</span>. To achieve low cycle time and high
                 quality, frequent and automated releases of the software are
                 required. The techniques and principles described in this book
                 can be used on projects in both small and large organizations.
@@ -57,7 +58,7 @@
                     Chapter 2 Configuration Management
                 </summary>
                 <p>
-                Authors describe Configuration Management as
+                The authors describe Configuration Management as
                 the process by which all relevant artifacts for a project and
                 the relationship between them are stored, retrieved, uniquely
                 identified and modified. They describe the importance of
@@ -109,6 +110,26 @@
                     Chapter 4 Testing Strategy
                 </summary>
                 <p>
+                This chapter focuses on the planning and impementation of
+                effective automation testing systems and their benefits.
+                The authors encourage writing testing scripts from the 
+                beginning of the project and running them within the
+                deployment pipeline which is triggered whenever any change 
+                is made to the application. They describe the different types
+                of tests in detail like acceptance tests, unit tests, 
+                component tests and deployment tests. Manual testing 
+                techniques like showcases, usability testing and exploratory 
+                testing are important to build quality. They talk about modern
+                automated functional testing tools like Cucumber, JBehave, 
+                Concordion and Twist and their benefits. They describe the 
+                process by which testing strategy can be implemented by 
+                bringing together all the stakeholders to note down the 
+                highest priority scenarios every iteration and then building 
+                automation for them.
+                Thus authors highlight that automation should be included
+                from the beginning to develop a feedback loop which generates
+                higher quality, higher productivity and also the measure of
+                the doneness of the project. 
                 </p>
             </details>
         </div>
