@@ -21,7 +21,9 @@
             Yang Lou
         </p>
 
-        <h3>Team: Coding</h3>
+        <p class="leadquote">
+            Team: Coding
+        </p>
         
         <h3>Write Up Book:</h3>
         <li>
@@ -34,7 +36,7 @@
             gain a solid understanding of what DevOps is
             all about, and get real experience with DevOps
             tools and practices. In addition, I plan to 
-            creat a functional website with other coding 
+            create a functional website with other coding 
             team members using Django as the backend. I 
             will also learn techniques and processes 
             utilized by build, cloud, depolyment, monitoring,
@@ -64,6 +66,17 @@
             commands. Our personal journal webpages for the 
             DevOps course were created locally and then pushed 
             to the DevOps repository.
+        </p>
+        <p>
+            Week 3:
+            <br/>            
+            The TA instructed us to download and install the
+            docker toolbox, pull the nginx image from docker 
+            hub, and create a docker container to run the 
+            DevOps website inside. The professor elaborated
+            some advantages to use docker when developing software.
+            I and another coding team member were assigned to 
+            the task "Build quiz mechanism for Django".
         </p>
         </div>
     </div>
