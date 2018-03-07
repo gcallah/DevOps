@@ -401,7 +401,10 @@ i, span {
 
 #sidebar .sidebar-header strong {
     display: none;
-    font-size: 1.8em;
+    font-size: 2.0em;
+    text-align: center;
+    padding-top: 0.8em;
+    padding-right: 0.8em;
 }
 
 #sidebar ul.components {
