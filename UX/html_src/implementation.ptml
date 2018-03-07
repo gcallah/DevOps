@@ -15,7 +15,40 @@
                 <h1>
                     Our UX Implementation
                 </h1>
-                
+
+                <p class="leadquote">
+                  New UI Designs
+                </p>
+                <p>
+                  For the first version, we want to clear up the web with a more
+                  organized UI. To acheive this, we first think about adding a
+                  navigation bar that allows users to access all links anywhere
+                  on the website. So after several discussions, we choose the
+                  collapsible side bar for the following reason.
+                  <br/><br/>
+                  1. The nav bar only occupies a small area of screen, leaving
+                     most space for contents.
+                  <br/>
+                  2. Animations are cool.
+                  <br/><br/>
+                  Also, for a knowledge-based documentation web, background,
+                  color and other styles should serve the content instead of
+                  diverting attention from people. So after discussion and
+                  template comparison, light background and darker font color
+                  are applied. There is also other changes that serve a better
+                  reading experience for user.
+                  <br/><br/>
+                  The cutover results(VERSION 1.O):
+                  <br />
+                  <p>
+                    <figure>
+                        <img
+                        src="img/V1.png" alt="Screenshot of the first UI Version" style = "width: 100%">
+                    </figure>
+                  </p>
+                </p>
+                <br/>
+
                 <p class="leadquote">
                     Build
                 </p>
