@@ -152,9 +152,15 @@
                 </summary>
 
                 <ul class="contents">
-                    <li>
-                    Details about New Relic Infrastructure
-                    </li>
+                  <li>
+                    New Relic Infrastructure provides flexible, dynamic server monitoring. It runs more efficiently in the cloud with visibility at every layer.
+                  </li>
+                  <li>
+                    By using New Relic APM and Infrastructure together, you get a comprehensive view of the health of your servers and hosts as well as the applications and services they depend on, creating shared context for development and ops teams.
+                  </li>
+                  <li>
+                    As your applications scale and infrastructure changes, easily track the inventory configuration state and correlate those changes to potential impacts on your host and application performance.
+                  </li>
                 </ul>
             </details>
 
@@ -228,7 +234,7 @@
 
                 <ul class="contents">
                     <li>
-                    Details about New Relic
+                      details on New Relic
                     </li>
                 </ul>
             </details>
