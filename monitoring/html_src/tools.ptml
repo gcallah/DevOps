@@ -153,16 +153,28 @@
 
                 <ul class="contents">
                   <li>
-                    New Relic Infrastructure provides flexible, dynamic server monitoring. It runs more efficiently in the cloud with visibility at every layer.
+                    New Relic Infrastructure provides flexible, dynamic server
+                    monitoring. It runs more efficiently in the cloud with
+                    visibility at every layer.
                   </li>
                   <li>
-                    By using New Relic APM and Infrastructure together, you get a comprehensive view of the health of your servers and hosts as well as the applications and services they depend on, creating shared context for development and ops teams.
+                    By using New Relic APM and Infrastructure together, you
+                    get a comprehensive view of the health of your servers
+                    and hosts as well as the applications and services they
+                    depend on, creating shared context for development and
+                    ops teams.
                   </li>
                   <li>
-                    Infrastructure empowers modern operations teams to make intelligent decisions about complex systems, from a physical datacenter to thousands of Amazon Elastic Compute Cloud (Amazon EC2) or Microsoft Azure instance.
+                    Infrastructure empowers modern operations teams to make
+                    intelligent decisions about complex systems, from a
+                    physical datacenter to thousands of Amazon Elastic
+                    Compute Cloud (Amazon EC2) or Microsoft Azure instance.
                   </li>
                   <li>
-                    It can easily track the inventory configuration state and correlate the changes to potential impacts on the host and application performance, with the application scaling and infrastructure changes.
+                    It can easily track the inventory configuration state
+                    and correlate the changes to potential impacts on the
+                    host and application performance, with the application
+                    scaling and infrastructure changes.
                   </li>
                 </ul>
             </details>
