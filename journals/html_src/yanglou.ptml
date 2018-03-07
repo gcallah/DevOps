@@ -65,6 +65,17 @@
             DevOps course were created locally and then pushed 
             to the DevOps repository.
         </p>
+        <p>
+            Week 3:
+            <br/>            
+            The TA instructed us to download and install the
+            docker toolbox, pull the nginx image from docker 
+            hub, and create a docker container to run the 
+            DevOps website inside. The professor elaborated
+            some advantages to use docker when developing software.
+            I and another coding team member were assigned to 
+            the task "Build quiz mechanism for Django".
+        </p>
         </div>
     </div>
     </body>
