@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
@@ -10,7 +9,7 @@
 
     <body>
     <div class = "wrapper">    
-<!--include menu.txt -->
+    <!--include menu.txt -->
     <div id = "content">
         <h1>
             My DevOps Story:
