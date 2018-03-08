@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Review of Practical DevOps - Joakim Verona
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Practical DevOps - Joakim Verona
+        </h1>
+
+        <p class="author">
+            Reviewers: Kanishk Dugar and Pravar Singh
+        </p>
+    </body>
+</html>

@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Coding Theory
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Coding Theory
-        </h1>
-
-        <p>
-
-        </p>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Coding Theory
+                </h1>
+        
+                <p>
+                    The basic idea behind DevOps coding theory is that we
+                    should write code that is easy to maintain, comes with test
+                    cases, is built with instrumentation to allow monitoring,
+                    and is easy to deploy because what it depends on in the
+                    production environment is made explicit.
+                </p>
+            </div>
+        </div>
 
     </body>
 </html>

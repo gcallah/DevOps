@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include head.txt -->
         <title>
             Productivity Is a Flow, Not a Stock
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
         <h1>
             Productivity Is a Flow, Not a Stock
         </h1>
@@ -70,6 +71,8 @@ hands, not the amount of work you take on.
 * Or at least products with <i>your</i> part finished, if you work in
 cooperative production of some final product.
 </p>
+            </div>
+        </div>
 
     </body>
 </html>

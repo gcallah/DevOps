@@ -1,34 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Our Evaluation of Jenkins
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Our Evaluation of Jenkins
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+            <h1>
+                Our Evaluation of Jenkins
+            </h1>
+    
+            <p>
+                Jenkins is an open source automation tool written in Java which
+                supports continuous integration.<strong>Hudson</strong> project
+                was the precursor to Jenkins which was orignally started by Sun
+                Systems, after the acquisition of Sun Systems by Oracle,
+                <strong>Jenkins</strong> was forked from Hudson and it's
+                independent community was formed. Jenkins is widely used by
+                various software industries and the software folks love it.
+            </p>
+    
+            <h2>Why Jenkins is desirable?</h2>
+            <ul>
+                <li> Jenkins is an automation tool that spans across the entire development cycle from Building to Deployment. </li>
+                <li> Jenkins has over 1400 plugins that makes is easily accessible across different platforms and frameworks. </li>
+                <li> It has a master-slave architechture and allows us to create nodes depending on the task in hand i.e you can create different jenkins node to handle tasks 
+                     such as build,delpoy,test etc. </li>
+                <li> Jenkins supports git and many of the version controls for Source code management.</li>   
+                <li> It is most active automation server tool installed in the software industry and has an estimation of more than 1 million active users using Jenkins.</li>
+                <li> Jenkins uses less memory for installation. </li>  
+                <li> Jenkins can be installed on almost all of the operating systems. </li>
+                <li> The Jenkins Community is vastly large and hence we can get support, if for any issues </li>
+            </ul>
 
-        <p>
-            Jenkins is an open source automation tool written in Java which supports continuous integration.<strong>Hudson</strong> project was the precursor to Jenkins which was orignally started by Sun Systems, after the acquisition of Sun Systems by Oracle, <strong>Jenkins</strong> was forked from Hudson and it's independent community was formed. Jenkins is widely used by various software industries and the software folks love it.
-        </p>
-
-        <h2>Why Jenkins is desirable?</h2>
-        <ul>
-            <li> Jenkins is an automation tool that spans across the entire development cycle from Building to Deployment. </li>
-            <li> Jenkins has over 1400 plugins that makes is easily accessible across different platforms and frameworks. </li>
-            <li> It has a master-slave architechture and allows us to create nodes depending on the task in hand i.e you can create different jenkins node to handle tasks 
-                 such as build,delpoy,test etc. </li>
-            <li> Jenkins supports git and many of the version controls for Source code management.</li>   
-            <li> It is most active automation server tool installed in the software industry and has an estimation of more than 1 million active users using Jenkins.</li>
-            <li> Jenkins uses less memory for installation. </li>  
-            <li> Jenkins can be installed on almost all of the operating systems. </li>
-            <li> The Jenkins Community is vastly large and hence we can get support, if for any issues </li>
-        </ul>
+            <h2> Cons of using Jenkins </h2>
+             <li> Allows only Github support </li>
+             <li> Not free for private repos </li>
+             <li> Does Not provide support for windows users </li>
++            <li> Supports more than a dozen languages </li>
++            <li> Excellent user website interaction </li>
+            </div>
+        </div>
     </body>
 </html>

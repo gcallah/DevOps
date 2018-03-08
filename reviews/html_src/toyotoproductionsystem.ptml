@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Toyota Production System: an Integrated Approach to Just-in-Time
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Toyota Production System <br>
-            An Integrated Approach to Just-in-Time
-        </h1>
-        <p class="author">
-            Authors: Yasuhiro Monden
-            <br>
-            Reviewers: Datta D
-        </p>
-        <p>
-            Purpose of this book: <br>
-            This book talks about the great sucess of Toyoto Production Systems
-            which was developed and promotoed by Toyota Motor Corporation and
-            is being adopted by many Japanese companies in the aftermath of the
-            1973 oil shock.  The main purpose of the system is to eliminate
-            through improvement activities various kinds of waste lying
-            concealed within a company.
-        </p>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Toyota Production System <br>
+                    An Integrated Approach to Just-in-Time
+                </h1>
+                <p class="author">
+                    Authors: Yasuhiro Monden
+                    <br>
+                    Reviewers: Datta D
+                </p>
+                <p>
+                    This book talks about the great sucess of Toyoto
+                    Production Systems which was developed and promotoed by
+                    Toyota Motor Corporation and is being adopted by many
+                    Japanese companies in the aftermath of the 1973 oil
+                    shock.  The main purpose of the system is to eliminate
+                    through improvement activities various kinds of waste lying
+                    concealed within a company.
+                </p>
+            </div>
+        </div>
     </body>
 </html>

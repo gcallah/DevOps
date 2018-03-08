@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--include subhead.txt -->
+        <title>
+            Puppet
+        </title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Puppet 
+                </h1>
+                <h3> What is Puppet? </h3>
+                <p>
+                Puppet is one of the most popular
+                tools in DevOps ecosystem used 
+                for configuration management and deployment automation. It can 
+                perform tasks like creating users, installing packages and 
+                configuring servers based on a centralized
+                configuration. It ensures
+                the configurations, packages and
+                services are same across several
+                machines, thus being a powerful tool
+                to automate configuration of
+                similar environments.
+                </p>
+                <h3> Installation Steps </h3>
+                <p>
+                In this section we will show
+                how to setup puppet in a client/server 
+                architecture having one puppet master and one puppet agent.
+                </p>
+                <h4> Installation on Master </h4>
+                <ul>
+                    <li>
+                        sudo su -
+                    </li>
+                    <li>
+                        apt-get update
+                        or yum update
+                    </li>
+                    <li>Install the Puppet Server package:
+                        <br>
+                        apt-get install puppetserver
+                        or yum install puppetserver
+                    </li>
+                    <li> Start the Puppet Server service:
+                        <br>
+                        service puppetserver start
+                        or systemctl start puppetserver
+                    </li>
+                </ul>
+                <h4> Installation on Agent </h4>
+                <ul>
+                    <li>
+                        sudo su -
+                    </li>
+                    <li>
+                        apt-get update
+                        or yum update
+                    </li>
+                    <li>Install the Puppet Agent package:
+                        <br>
+                        apt-get install puppet-agent
+                        or yum install puppet-agent
+                    </li>
+                    <li> Start the Puppet service:
+                        <br>
+                        /opt/puppetlabs/bin/puppet resource service puppet 
+                        ensure=running enable=true
+                    </li>
+                </ul>
+                <h4> Certificates </h4>
+                <ul>
+                    <li>On Puppet Agent run:
+                        <br>
+                        puppet agent --test
+                    </li>
+                    <li>On Puppet Master view certificate requests:
+                        <br>
+                        puppet cert list
+                    </li>
+                    <li>On the Puppet master sign the certificate request:
+                        <br>
+                        puppet cert sign &lt;NAME&gt;
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </body>
+</html>

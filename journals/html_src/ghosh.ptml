@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
-        <title>
-            My DevOps Story
-        </title>
-    </head>
+<head>
+    <!--include subhead.txt -->
+    <title>
+        My DevOps Story
+    </title>
+</head>
 
-    <body>
-<!--include menu.txt -->
+<body>
+    <div class="wrapper">
+        <!--include navbar.txt -->
+        <div id="content">
         <h1>
             My DevOps Story
         </h1>
@@ -76,7 +77,7 @@
         the flow of application easily from time to time. I was 
         really fascinated by such tools which work seamlessly 
         pushing incremental changes automatically after code 
-        commits. 
+        commits.
         </p>
 
         <p>
@@ -89,7 +90,7 @@
         </p>
 
         <figure>
-        <img src="https://xebialabs.com/assets/files/infographics/periodic-table-of-devops-v2.png" width ="1250">
+        <img src="https://xebialabs.com/assets/files/infographics/periodic-table-of-devops-v2.png" width ="90%">
         </figure>
 
         <p>
@@ -138,7 +139,14 @@
             chapters 2 and 3 of Continuous Delivery book. 
             Started studying about puppet installation.
             </li>
+            <li> Week 5 - Compared SaltStack to other deployment tools and
+            fixed styling issues on the tools page. 
+            Created puppet webpage with installation instructions in a client 
+            server architechture setup.
+            </li>
             </ul>
         </details>
-    </body>
+        </div>
+    </div>
+</body>
 </html>

@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include head.txt -->
         <title>
             My DevOps Story
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
         <h1>
             My DevOps Story
         </h1>
