@@ -20,38 +20,15 @@
                 <br> Reviewers: Ravish Bhatia, Sneha Ghosh
             </p>
             <p>
-                This book describes an effective pattern for getting software
-                from development to release using the deployment pipeline. 
-                A <span class="emphasize">deployment pipeline</span> is an
-                automated implementation of the application’s build, deploy,
-                test, and release process. The deployment pipeline has several
-                benefits. It makes every part of the process of building,
-                deploying, testing, and releasing software visible to 
-                everybody involved thus aiding <span class="emphasize">
-                collaboration</span>. It improves <span class="emphasize"> 
-                feedback </span> so that problems are identified and resolved
-                as early in the process as possible. It also enables teams to
-                deploy and release any version of their software to any 
-                environment at will through a <span class="emphasize"> fully
-                automated process</span>.
-            </p>
-            <p>
-                This book describes ways to <span class="emphasize"> deliver
-                high quality, valuable software in an efficient, fast, and
-                reliable manner</span>. To achieve low cycle time and high
-                quality, frequent and automated releases of the software are
-                required. The techniques and principles described in this book
-                can be used on projects in both small and large organizations.
-                The techniques are aligned with the philosophy and ideas of the
-                lean movement. Such methods ensure the rapid delivery of high
-                quality products, focusing on the removal of waste and the
-                reduction of cost. <span class="emphasize"> Lean practices
-                result in huge cost and resource savings, much higher quality
-                products, and faster time-to-market in several industries </span>. 
-                This philosophy has become mainstream in the field of software
-                development. Lean is not limited in its application to small
-                systems. It was created and applied to huge organizations, and
-                even whole economies.
+                This book recommends best practises for continuous, reliable 
+                and efficient software delivery. The goal is to deliver value 
+                to the customer as early as possible and get faster feedback. 
+                It talks about ways to reduce time and risks associated with 
+                new versions of software. It describes the ways to make 
+                delivery reliable, visible and automated using a deployment 
+                pipeline. It highlights the importance of collaboration among 
+                the people responsible for delivering software and how they 
+                can get involved effectively to achieve the goals.
             </p>
             <details>
                 <summary class="sum2">
