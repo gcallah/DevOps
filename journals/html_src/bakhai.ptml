@@ -9,6 +9,7 @@
     </head>
 
     <body>
+    <div class = "wrapper">    
 <!--include menu.txt -->
     <div id = "content">
         <h1>
@@ -100,6 +101,6 @@
             </p>
 
         </div>
-
+    </div>
     </body>
 </html>
