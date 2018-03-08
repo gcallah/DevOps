@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-
+        <div class = "wrapper">
+      <!--include navbar.txt -->
+        <div id = "content">
         <h1>
             My DevOps Story
         </h1>
@@ -22,7 +22,28 @@
         </p>
         <div style="text-align: center;">
             <img src="https://memegenerator.net/img/instances/80736251/automate-everything.jpg">
-        </div>    
+        </div>  
+        <p>
+        <h4>March 7, 2018 : Week 5</h4>
+            I'd like to summarize the amazing session by StackOverflow's Tom Limoncelli.
+            Tom started off by telling us about what misconceptions everyone has about DevOps, how the term is often bound to a few tools like Jenkins, Ansible, etc. but in reality its much more than that.<br>
+            So here it is: DevOps is applying DevOps priciples to simple software engineering processes.<br>
+            The DevOps principles are :<br>
+            </p>
+            <ul>
+                <li> 
+                    3 ways: Process, Communication/Feedback, Innovation
+                </li>
+                <li> 
+                    small batches: Force Fail Frequently, frequency reduces risk.
+                </li>
+                <li> 
+                    MVP-Minimum Valuable Product: Deliver some value, small features sooner than delivering entire product in the end.
+                </li>
+            </ul>
+            <p>
+            The latter part of the session included learning about StackOverflow's operations and technologies. I personally feel the presentation and Tom's funny relatable pictures and examples made an hour seem less. Looking forward to the next talk in coming week. 
+        </p>  
         <p>
         <h4>Feb 26, 2018 : Week 3, 4</h4>
             Here's a documentation of what we have done so far in terms of codes and commands:
@@ -53,7 +74,8 @@
             In Devops Spring 2018 I look forward to team building and collaborative work.    
         </p>
         
-        
+        </div>
+        </div>
 
     </body>
 </html>
