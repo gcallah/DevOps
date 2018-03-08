@@ -80,15 +80,17 @@
 		$ sudo apt-get update
 		$ sudo apt-get install ansible
 		</pre>
-		
+		<p>
 		</br>
 		<u>MAC installation </u>
 		</br>
 		
-		<p>'pip' is used for easy installation, but it isn't available on OSX by default. So, we can use python's package manager easy_install to install pip.</p>
-		<pre> sudo easy_install pip </pre>
-		
+		'pip' is used for easy installation, but it isn't available on OSX by default. So, we can use python's package manager easy_install to install pip.
+		<pre> 		$sudo easy_install pip </pre>
+		</p>
 		</br>
+
+		<p>
 		Post pip installation, ansible can be very easy installed on an OSX
 		
 		<pre>
@@ -96,12 +98,48 @@
 		$ sudo pip install ansible --upgrade
 		</pre>
 		
-		On OSX Maverick, compiler might create soem issue, which can be easily dealt with foolowing command.
+		<p>On OSX Maverick, compiler might create some issue, which can be easily dealt with following command.
 		
-		<pre>$ sudo CFLAGS=-Qunused-arguments CPPFLAGS=-Qunused-arguments pip install ansible</pre>
+		<pre>	$ sudo CFLAGS=-Qunused-arguments CPPFLAGS=-Qunused-arguments pip install ansible</pre>
+		</p>
+		</p>
 		</p>
 		
+
+		<p>
+		<b>ANSIBLE INSTALLATION</b> 
+		</br>
+
+		<u>Essentials 1: PLAYS and PLAYBOOK</u>
 		
+		A 'Play' can be simply defined as set of rules which map host or servers in concern to a task or activity. A play basically is used to call for for an ansible module. A playbook is simply defined as a set of multiple plays in a list. 
+
+		As a formal definition, Playbooks are Ansible’s configuration, deployment, and orchestration language. They can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process. Ansible playbooks are a way to send commands to remote computers in a scripted way. Instead of using Ansible commands individually to remotely configure computers from the command line, you can configure entire complex environments by passing a script to one or more systems.
+
+		As mentioned in previous section, playbooks are written in YAML, with help of minimum syntaxes and rules. The main intent is to make sure that Ansible is least related to any scripting or programming language. 
+		</br></br>
+		EXAMPLE:
+		</p>
+		<pre>
+			---
+			- name: install ansible with pip
+			- hosts: host1
+
+			tasks:
+				-name: ansible pip
+				 pip:
+				 	name: ansible
+				 	virtualenv: ~/ansible_folder
+		</pre>
+		<p>
+		we are using pip module to install ansible package on all the hosts in a particular python virtual environment
+		
+
+
+
+
+
+		</p>
 		
 		
 		<p>
