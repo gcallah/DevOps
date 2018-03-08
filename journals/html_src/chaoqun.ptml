@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+    <!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
+    <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
+    <div class="wrapper">
+    <!--include navbar.txt -->
+        <div id="content">
 
         <h1>
             My DevOps Story
@@ -53,5 +55,7 @@
           have done to migrate our index page to a navgation-bar template, the changes we are about to have
           in the style sheet and some concepts in designing UX. We also gather feedbacks from our users.
         </p>
+      </div>
+    </div>
     </body>
 </html>
