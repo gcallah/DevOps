@@ -32,7 +32,7 @@
                     Christopher Alexander
                     <br />
                     <span class="review">
-                    Reviewers:
+                    Reviewer(s):
                     </span>
                 </li>
 
@@ -41,7 +41,7 @@
                     Nassim Nicholas Taleb
                     <br />
                     <span class="review">
-                    Reviewers:
+                    Reviewer(s):
                     </span>
                 </li>
 
@@ -50,7 +50,7 @@
                     Jez Humble and David Farley
                     <br />
                     <span class="review">
-                    Reviewers: Sneha Ghosh, Ravish Bhatia
+                    Reviewer(s): Sneha Ghosh, Ravish Bhatia
                     <br />
                     <a href="reviews/ContinuousDelivery.html">
                         Our review
@@ -63,7 +63,7 @@
                     The IT Revolution
                     <br />
                     <span class="review">
-                    Reviewers:
+                    Reviewer(s):
                     </span>
                 </li>
 
@@ -72,7 +72,7 @@
                     Karl Matthias and Sean P. Kane
                     <br />
                     <span class="review">
-                    Reviewers:
+                    Reviewer(s):
                     </span>
                 </li>
 
@@ -81,7 +81,7 @@
                     Eric Evans
                     <br />
                     <span class="review">
-                    Reviewers:
+                    Reviewer(s):
                     </span>
                 </li>
 
@@ -90,7 +90,7 @@
                     Jennifer Davis and Katherine Daniels
                     <br />
                     <span class="review">
-                    Reviewers:
+                    Reviewer(s):
                     </span>
                 </li>
 
@@ -99,7 +99,7 @@
                     Mary and Tom Poppendieck, Jeff Sutherland, and Kent Beck
                     <br />
                     <span class="review">
-                    Reviewers: Chaoqun Huang, Qiwei Zhou
+                    Reviewer(s): Chaoqun Huang, Qiwei Zhou
                     </span>
                 </li>
 
@@ -108,7 +108,7 @@
                     Kief Morris
                     <br />
                     <span class="review">
-                    Reviewers: Adit Kumar, Shivraj
+                    Reviewer(s): Adit Kumar, Shivraj
                     <br>
                     <a href = "reviews/InfrastructureAsCode.html">
                     Our review
@@ -121,7 +121,7 @@
                     Taiichi Ohno and Setsuo Mito
                     <br />
                     <span class="review">
-                    Reviewers:
+                    Reviewer(s):
                     </span>
                 </li>
 
@@ -130,7 +130,7 @@
                     Kelsey Hightower, Brendan Burns, and Joe Beda
                     <br />
                     <span class="review">
-                    Reviewers: Sneha Ghosh, Ravish Bhatia
+                    Reviewer(s): Sneha Ghosh, Ravish Bhatia
                     <br>
                     <a href = "reviews/KubernetesUpAndRunning.html">
                     Our review
@@ -144,7 +144,7 @@
                     Gary Gruver and Tommy Mouser
                     <br />
                     <span class="review">
-                    Reviewers:
+                    Reviewer(s):
                     </span>
                 </li>
 
@@ -153,7 +153,7 @@
                     Mary and Tom Poppendieck
                     <br />
                     <span class="review">
-                    Reviewers: Jiawei Wang, Bowei Xu
+                    Reviewer(s): Jiawei Wang, Bowei Xu
                     <br />
                     <a href="reviews/LeanSoftwareDevelopmentAgileTookit.html">
                         Our review
@@ -168,7 +168,7 @@
                     Dominica DeGrandis
                     <br />
                     <span class="review">
-                    Reviewers: Akshay Hazare
+                    Reviewer(s): Akshay Hazare
                     <br />
                     <a href="reviews/MakingWorkVisible.html">
                         Our review
@@ -182,7 +182,7 @@
                     multiple authors
                     <br />
                     <span class="review">
-                    Reviewers: Lili Xu, Yang Lou
+                    Reviewer(s): Lili Xu, Yang Lou
                     <br />
                     <a href="reviews/ManifestoForAgileSoftwareDevelopment.html">
                         Our review
@@ -196,7 +196,7 @@
                     Fred Brooks
                     <br />
                     <span class="review">
-                    Reviewers: Tingjun Zhang
+                    Reviewer(s): Tingjun Zhang
                     <br />
                     <a href="reviews/NoSilverBullet.html">
                         Our review
@@ -210,16 +210,20 @@
                     <br />
 
                     <span class="review">
-                    Reviewers: Garima Negi, Drumil Kaushik
+                    Reviewer(s): Garima Negi, Drumil Kaushik
                     </span>
                 </li>
 
                 <li>
-                    <i><a href = "reviews/Practical_DevOps-Joakim_Verona.html">Practical DevOps</i>,
+                    <i>
+                        <a href =
+                        "reviews/Practical_DevOps-Joakim_Verona.html">Practical
+                        DevOps</a>
+                    </i>,
                     Joakim Verona
                     <br />
                     <span class="review">
-                    Reviewers: Pravar Singh, Kanishk Dugar
+                    Reviewer(s): Pravar Singh, Kanishk Dugar
                     </span>
                 </li>
 
@@ -228,7 +232,7 @@
                     Michael T. Nygard
                     <br />
                     <span class="review">
-                    Reviewers:
+                    Reviewer(s):
                     </span>
                 </li>
 
@@ -237,7 +241,7 @@
                     The Rugged Summit
                     <br />
                     <span class="review">
-                    Reviewers: Arun Kuruvilla
+                    Reviewer(s): Arun Kuruvilla
                     </span>
                 </li>
 
@@ -246,7 +250,7 @@
                     Betsy Beyer
                     <br />
                     <span class="review">
-                    Reviewers:
+                    Reviewer(s):
                     </span>
                 </li>
 
@@ -255,7 +259,7 @@
                     Brian Kernighan and P.J. Plauger
                     <br />
                     <span class="review">
-                    Reviewers:
+                    Reviewer(s):
                     </span>
                 </li>
 
@@ -265,7 +269,7 @@
                     James Turnbull
                     <br />
                     <span class="review">
-                    Reviewers: Tanya Jha, Jatri Dave
+                    Reviewer(s): Tanya Jha, Jatri Dave
                     <br />
                     <a href = "reviews/TheArtOfMonitoring.html">
                         Our Review
@@ -279,7 +283,7 @@
                          and John Allspaw
                     <br />
                     <span class="review">
-                    Reviewers: Janiel Atul Patel, Chiquita Ratnakar Prabhu
+                    Reviewer(s): Janiel Atul Patel, Chiquita Ratnakar Prabhu
                     <br />
                     <a href="reviews/TheDevOpsHandbook.html">
                         Our review
@@ -293,7 +297,7 @@
 
                     <br />
                     <span class="review">
-                    Reviewers: Saniya Alekar, Anshal
+                    Reviewer(s): Saniya Alekar, Anshal
                     </span>
                 </li>
 
@@ -303,7 +307,7 @@
 
                     <br />
                     <span class="review">
-                    Reviewers:
+                    Reviewer(s):
                     </span>
                 </li>
 
@@ -313,7 +317,7 @@
 
                     <br />
                     <span class="review">
-                    Reviewers:
+                    Reviewer(s):
                     </span>
                 </li>
 
@@ -323,7 +327,7 @@
 
                     <br />
                     <span class="review">
-                    Reviewers:
+                    Reviewer(s):
                     </span>
                 </li>
 
@@ -334,7 +338,7 @@
                     <br />
 
                     <span class="review">
-                    Reviewers: Srinivas, Arun Kuruvilla
+                    Reviewer(s): Srinivas, Arun Kuruvilla
                     <br>
                     <a href = "reviews/UNIX.html">
                     Our review
@@ -350,7 +354,7 @@
                     <br />
 
                     <span class="review">
-                    Reviewers: Linfeng Wang, Lingjung Zhang
+                    Reviewer(s): Linfeng Wang, Tingjung Zhang
                     <br>
                     <a href = "reviews/hayek.html">
                     Our review
@@ -362,7 +366,7 @@
                     <i>The Web Application Hacker's Handbook: Discovering and Exploiting Security Flaws</i>
                     <br />
                     <span class="review">
-                    Reviewers: Om Narayan
+                    Reviewer(s): Om Narayan
                     </span>
                 </li>
                 <li>
@@ -373,7 +377,7 @@
                     <br />
 
                     <span class="review">
-                    Reviewers: Datta Dwarampudi
+                    Reviewer(s): Datta Dwarampudi
                     <br />
                     <a href="reviews/toyotoproductionsystem.html">
                         Our review
@@ -386,7 +390,7 @@
                     John Loeliger and Matthew McCullough
                     <br />
                     <span class="review">
-                    Reviewers:
+                    Reviewer(s):
                     </span>
                 </li>
 
