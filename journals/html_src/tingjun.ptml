@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
+
         <title>
             My DevOps Story
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-
+        <div class="wrapper">
+<!--include navbar.txt -->
+        <div id="content">
         <h1>
             My DevOps Story
         </h1>
@@ -26,7 +27,7 @@
         </p>
 
         <p class="leadquote">
-            Write Up Book: <a href="http://www.cs.nott.ac.uk/~pszcah/G51ISS/Documents/NoSilverBullet.html">No Silver Bullet</a>
+            Write Up Article: <a href="http://www.cs.nott.ac.uk/~pszcah/G51ISS/Documents/NoSilverBullet.html">No Silver Bullet</a>
         </p>
 
         <br>
@@ -54,19 +55,75 @@
             Brief introduction of the book in book review section. 
         </p>
         <h2> Weekly Update </h2>
-        <p> Week 3 </p> 
-        <p> Settle down team placement </p>       
-        <br />
-        <p> Week 4 </p>
-        <p> Have a discussion about Classes API, 
-        prepare a TODO list and get start working. </p>       
-        <br />
-        <p> Week 5 </p>
-        <p> Implement url validator for html checker while
-         waiting for further instructions about Classes API </p>
-        <br />
-        <p> Week 6 </p>
-        <p> Push url validator to production. Working on Django
-        solution to push slack post request to Classes. </p>
+
+        <details>
+            <summary class="sum2">
+                Week 3
+            </summary>
+
+            <ul class="nested">
+                <li>
+                    Settle down team placement
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+                Week 4
+            </summary>
+
+            <ul class="nested">
+                <li>
+                    Have a discussion about Classes API, 
+                    prepare a TODO list and get start working.
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+                Week 5
+            </summary>
+
+            <ul class="nested">
+                <li>
+                    Implement url validator for html checker while
+                    waiting for further instructions about Classes API.
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+                Week 6
+            </summary>
+
+            <ul class="nested">
+                <li>
+                    Push url validator to production. Working on Django
+                    solution to push slack post request to Classes.
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+                Week 7
+            </summary>
+
+            <ul class="nested">
+                <li>
+                    Have confirmed that integration with Classes is 
+                    temporarily undoable. 
+                </li>
+                <li>
+                    Found bugs in html_checker. A few accessible urls
+                    got unexpected warnings. Working on fixing it.
+                </li>
+            </ul>
+        </details>
+        </div>
+        </div>
     </body>
 </html>

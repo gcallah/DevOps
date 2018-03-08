@@ -3,22 +3,23 @@
     <head>
 <!--include subhead.txt -->
         <title>
-            Kubernetes Up and Running
+            UX Tools
         </title>
+<!--include googleAnalyticsScript.txt -->
     </head>
+
     <body>
         <div class="wrapper">
 <!--include navbar.txt -->
             <div id="content">
                 <h1>
-                    Kubernetes Up and Running
+                    Our UX Tools
                 </h1>
-                <p class="author">
-                    Authors: Kelsey Hightower, Brendan Burns, and Joe Beda 
-                    <br>
-                    Reviewers: Ravish Bhatia, Sneha Ghosh
+        
+                <p>
+                    Our tools will be listed here.
                 </p>
             </div>
         </div>
     </body>
-</html>
+  </html>

@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!--include subhead.txt -->
+<!--include subhead.txt -->
         <title>
             The DevOps Handbook
         </title>
+<!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Lean Software Development: An Agile Toolkit
-        </h1>
-        <p class="author">
-            Authors: Mary and Tom Poppendieck
-            <br>
-            Reviewers: Jiawei Wang, Bowei Xu
-        </p>
-
+      <div class="wrapper">
+<!--include navbar.txt -->
+          <div id="content">
+            <h1>
+                Lean Software Development: An Agile Toolkit
+            </h1>
+            <p class="author">
+                Authors: Mary and Tom Poppendieck
+                <br>
+                Reviewers: Jiawei Wang, Bowei Xu
+            </p>
+          </div>
+        </div>
     </body>
 </html>

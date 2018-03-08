@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-
+    <div class="wrapper">
+<!--include navbar.txt -->
+        <div id="content">
         <h1>
             My DevOps Story
         </h1>
@@ -21,21 +21,64 @@
             Yang Lou
         </p>
 
-        <h3>Team: Coding</h3>
+        <p class="leadquote">
+            Team: Coding
+        </p>
         
         <h3>Write Up Book:</h3>
         <li>
             <a href="http://agilemanifesto.org/">Manifesto for Agile Software Development</a>
         </li>
-        
-        
+                
         <h3>Expected Outcomes:</h3>
         <p>
-            By taking the DevOps course, I am hoping to gain a solid understanding of what DevOps is all about, 
-            and get real experience with DevOps tools and practices. In addition, I plan to creat a functional website with other 
-            coding team members using Django as the backend. I will also learn techniques and processes utilized by Build, Cloud, 
-            Depolyment, Monitoring, Security and Testing teams.
+            By taking the DevOps course, I am hoping to
+            gain a solid understanding of what DevOps is
+            all about, and get real experience with DevOps
+            tools and practices. In addition, I plan to 
+            create a functional website with other coding 
+            team members using Django as the backend. I 
+            will also learn techniques and processes 
+            utilized by build, cloud, depolyment, monitoring,
+            security and testing teams.
         </p>
-
+        
+        <h3>Weekly Journal</h3>
+        <p>
+            Week 1:
+            <br/>
+            Read required documents for the DevOps course.
+            I learned DevOps is a software development 
+            methodology which uses Agile and lean principles
+            to improve collaboration between development 
+            and operations engineers. The traditional waterfall 
+            model comprises five phases including requirements, 
+            design, implementation, verification and maintenance. 
+            DevOps enables faster feedback loops that result 
+            from delivering smaller batches of code more often, 
+            compared with the waterfall model.
+        </p>
+        <p>
+            Week 2:
+            <br/>            
+            During the class, we cloned the professor's DevOps
+            repository, and were taught to use git submodule
+            commands. Our personal journal webpages for the 
+            DevOps course were created locally and then pushed 
+            to the DevOps repository.
+        </p>
+        <p>
+            Week 3:
+            <br/>            
+            The TA instructed us to download and install the
+            docker toolbox, pull the nginx image from docker 
+            hub, and create a docker container to run the 
+            DevOps website inside. The professor elaborated
+            some advantages to use docker when developing software.
+            I and another coding team member were assigned to 
+            the task "Build quiz mechanism for Django".
+        </p>
+        </div>
+    </div>
     </body>
 </html>

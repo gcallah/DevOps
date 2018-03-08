@@ -26,13 +26,21 @@
                  });
              });
          </script>
+        <title>
+            UX Implementation
+        </title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114841175-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-114841175-1');
+</script>
+    </head>
 
-            <title>
-                Anshal's DevOps Story
-            </title>
-            </head>
     <body>
-      <div class="wrapper">
+        <div class="wrapper">
 <!-- Sidebar Holder -->
 <nav id="sidebar">
     <div id="sidebarCollapse">
@@ -168,133 +176,80 @@
         </li>
     </ul>
 </nav>
-      <div id="content">
+            <div id="content">
+                <h1>
+                    Our UX Implementation
+                </h1>
 
+                <p class="leadquote">
+                  New UI Designs
+                </p>
+                <p>
+                  For the first version, we want to clear up the web with a more
+                  organized UI. To acheive this, we first think about adding a
+                  navigation bar that allows users to access all links anywhere
+                  on the website. So after several discussions, we choose the
+                  collapsible side bar for the following reason.
+                  <br/><br/>
+                  1. The nav bar only occupies a small area of screen, leaving
+                     most space for contents.
+                  <br/>
+                  2. Animations are cool.
+                  <br/><br/>
+                  Also, for a knowledge-based documentation web, background,
+                  color and other styles should serve the content instead of
+                  diverting attention from people. So after discussion and
+                  template comparison, light background and darker font color
+                  are applied. There is also other changes that serve a better
+                  reading experience for user.
+                  <br/><br/>
+                  The cutover results(VERSION 1.O):
+                  <br />
+                  <p>
+                    <figure>
+                        <img
+                        src="img/V1.png" alt="Screenshot of the first UI Version" style = "width: 100%">
+                    </figure>
+                  </p>
+                </p>
+                <br/>
 
-    <h1>
-        My DevOps Story
-    </h1>
-    <p class="author">
-    by
-    <br />
-    Anshal Savla
-    </p>
+                <p class="leadquote">
+                    Build
+                </p>
+                <p>
+                    To achieve our UI design, we have created two templates to be included in the web pages: <strong>subhead.txt</strong> and <strong>navbar.txt</strong>. <strong>subhead.txt</strong> contains javascripts and stylesheets for our website and <strong>navbar.txt</strong> holds the codes for the side navigation bar.
+                </p>
+                <br>
+                <p>
+                    When creating a new page, copy the following template into your text editor:<br>
+                    <strong>
+                        &lt;!DOCTYPE html&gt;<br>
+                        &lt;html&gt;<br>
+                        &emsp;&lt;head&gt;<br>
+                        &lt;!--include subhead.txt --&gt;<br>
+                        &emsp;&emsp;&lt;title&gt;<br>
+                        &emsp;&emsp;&emsp;&lt;% YOUR TITLE HERE %&gt;<br>
+                        &emsp;&emsp;&lt;/title&gt;<br>
+                        &lt;!--include googleAnalyticsScript.txt --&gt;<br>
+                        &emsp;&lt;/head&gt;<br>
 
-
-
-    <p>
-    DevOps is a software engineering culture and practice that aims
-    at unifying software development (Dev) and software operation (Ops).
-     The main characteristic of the DevOps movement is to strongly advocate
-      automation and monitoring at all steps of software construction,
-      from integration, testing, releasing to deployment
-      and infrastructure management.
-    I am exicted to learn about this field.
-
-    </p>
-
-
-    <details>
-        <summary class="sum2">
-            Week 1
-        </summary>
-
-        <ul class="nested">
-            <li>
-                Class was introduced to DevOps.
-            </li>
-            <li>
-                Got on Slack and Trello
-            </li>
-            <li>
-                Initialized Git repo
-
-            </li>
-        </ul>
-    </details>
-
-    <details>
-        <summary class="sum2">
-            Week 2
-        </summary>
-
-        <ul class="nested">
-            <li>
-                Installed and configured Docker in class.
-            </li>
-            <li>
-                It is fascinating how light weight docker is
-                in comparison to virtulization
-                and how it can be used
-                to run micro services.
-            </li>
-            <li>
-                Created Book review page and added
-                inforamtion to security/theory.html
-
-            </li>
-        </ul>
-    </details>
-
-    <details>
-        <summary class="sum2">
-            Week 3
-        </summary>
-
-        <ul class="nested">
-            <li>
-                Leanred about built tool and how
-                it can be used to automate different build processes
-            </li>
-            <li>
-                Added sources to security/theory.html
-            </li>
-            <li>
-                Updated journal/savla.html
-
-            </li>
-        </ul>
-    </details>
-
-    <details>
-        <summary class="sum2">
-            Week 4
-        </summary>
-        <ul class="nested">
-            <li>
-                  Learned about build and deploy piplines
-            </li>
-            <li>
-                  Reverted git commit which rolled back journlas folder
-            </li>
-            <li>
-                  Fixed styling in security/theory.html
-            </li>
-            <li>
-                  Fixed Journal styling
-            </li>
-        </ul>
-      </details>
-
-      <details>
-          <summary class="sum2">
-              Week 5
-          </summary>
-          <ul class="nested">
-              <li>
-                    Very informative lecture by guest
-                    speaker from Stack Overflow.
-              </li>
-
-              <li>
-                Rolled journal/savla.html to new menu
-              </li>
-          </ul>
-        </details>
-
-     </div>
-    </div>
-
-
- </body>
+                        &emsp;&lt;body&gt;<br>
+                        &emsp;&emsp;&lt;div class="wrapper"&gt;<br>
+                        &lt;!--include navbar.txt --&gt;<br>
+                        &emsp;&emsp;&emsp;&lt;div id="content"&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;% YOUR CONTENT HERE %&gt;<br>
+                        &emsp;&emsp;&emsp;&lt;/div&gt;<br>
+                        &emsp;&emsp;&lt;/div&gt;<br>
+                        &emsp;&lt;/body&gt;<br>
+                        &lt;/html&gt;<br>
+                    </strong>
+                </p>
+                <br>
+                <p>
+                    Remember to give your page a new title and put it in <strong>&lt;% YOUR TITLE HERE %&gt;</strong>. Next, replace <strong>&lt;% YOUR CONTENT HERE %&gt;</strong> with your web page contents.
+                </p>
+            </div>
+        </div>
+    </body>
 </html>

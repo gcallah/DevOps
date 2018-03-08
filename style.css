@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 144%;
+    font-size: 100%;
     color: #000;
     background: #f9f9f9;
     font-family: 'Poppins', sans-serif;
@@ -300,7 +300,7 @@ The Wrapped div in which content will be filled
     padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
-    font-size: 120%
+    font-size: 174%;
 }
 
 /****** Nav Bar *****/
@@ -401,7 +401,10 @@ i, span {
 
 #sidebar .sidebar-header strong {
     display: none;
-    font-size: 1.8em;
+    font-size: 2.0em;
+    text-align: center;
+    padding-top: 0.8em;
+    padding-right: 0.8em;
 }
 
 #sidebar ul.components {

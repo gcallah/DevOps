@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
     </head>
 
     <body>
+      <div class="wrapper">
+<!--include navbar.txt -->
+      <div id="content">
 <!--include menu.txt -->
-
         <h1>
             My DevOps Story
         </h1>
@@ -53,5 +54,9 @@
         <p>   * Participated in a DevOps NYC meetup - Deployment tool presentation and updated learnings in the tools page</p>
         <p>   * Went through the Kubernetes Webinar - Architecture 101 and updated learning in the tools page</p>
         <p>   * Book review: started with chapter1, possible summary of a chapter by next week </p>
+        <h3 align=left>Week March 6 Update:</h3>
+        <p>   * Kubernetes Tool theory page and some Deployment theory</p>
+      </div>
+  </div>
     </body>
 </html>

@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
+      <div class="wrapper">
+      <!--include navbar.txt -->
+      <div id="content">
 
         <h1>
             My DevOps Story
@@ -53,6 +54,7 @@
     <p>
       By studying DevOps I hope to learn how to work on projects more efficiently and how to accelerate the process of product delivery by continously analyzing customer feedback and monitoring the system as a whole. I hope to learn more the DevOps culture and in the future hope to adopt the practice.
     </p>
-
+    </div>
+    </div>
     </body>
 </html>
