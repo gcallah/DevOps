@@ -43,7 +43,7 @@
                     <li>
                     <b> Step 2: Prepare Github Repository</b><br>
                     We now need to add service to call Jenkins Github webhook on a push.
-                    Inside the github repo, go to Settings -> Integrations & Services -> Add service <br>
+                    Inside the github repo, go to Settings - Integrations & Services - Add service <br>
                     Select Jenkins(Github Integration) from drop-down menu.
                     In the new window, enter "Jenkins Hook URL+ "/github-webhook/"
                     e.g. http://ci.jenkins-ci.org/github-webhook/ <br>
