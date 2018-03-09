@@ -36,8 +36,14 @@
                         Design for a Python-based spell checker
                     </a>
                     <br />
-                    (We want one of these for our web pages! We will try to build
-                    it.)
+                    (We want one of these for our web pages!
+                    We will try to build it.)
+                </li>
+
+                <li>
+                    <a href="https://gist.github.com/misterbrownlee/3708738">
+                        Setting up Jenkins as a webhook in GitHub
+                    </a>
                 </li>
             </ul>
             </div>
