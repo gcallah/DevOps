@@ -24,6 +24,10 @@
             <img src="https://memegenerator.net/img/instances/80736251/automate-everything.jpg">
         </div>  
         <p>
+        <h4>March 13, 2018 : Week 6</h4>
+            We had Tom from Google give us a lecture on the Web Search and Scheduling. He works in the team that handles 'Join' on the database, which sounds easy but is pretty complicated when scaled to millions of nodes that are accounted during a particular google search or inside gmail. He also explained the differences between SRE and Engg.  
+            </p>
+        <p>
         <h4>March 7, 2018 : Week 5</h4>
             I'd like to summarize the amazing session by StackOverflow's Tom Limoncelli.
             Tom started off by telling us about what misconceptions everyone has about DevOps, how the term is often bound to a few tools like Jenkins, Ansible, etc. but in reality its much more than that.<br>
