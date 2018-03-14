@@ -305,7 +305,7 @@
                       This sets DynaTrace apart as an application
                       performance tool.
                     </li>
-                    <h3> Drawback : </h3>
+                    <summary class="sum4"> Drawback : </summary>
                     <li>
                       However, the one thing to keep in mind is that it
                       takes time to learn. You may have to wait for enough
