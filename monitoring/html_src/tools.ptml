@@ -303,7 +303,13 @@
                     </li>
                     <li>
                       This sets DynaTrace apart as an application
-                      performance tool. 
+                      performance tool.
+                    </li>
+                    <li>
+                      However, the one thing to keep in mind is that it
+                      takes time to learn. You may have to wait for enough
+                      data points to come in before you stop seeing false
+                      positives.
                     </li>
                 </ul>
             </details>
