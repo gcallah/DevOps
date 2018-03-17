@@ -46,7 +46,8 @@
                       monitoring protocols such as Simple Network Management
                       Protocol (SNMP) or Intelligent Platform
                       Management Interface (IPMI) can be used.
-                      You can find more details here.
+                      You can find more details
+                      <a href="https://www.zabbix.com/">here.</a>
                     </li>
                 </ul>
             </details>
@@ -73,7 +74,8 @@
                       Nagios sets itself up as the “Industry Standard In IT
                       Infrastructure Monitoring” while Zabbix says it
                       is “the Enterprise-class Monitoring Solution for
-                      Everyone”. You can find more details here.
+                      Everyone”. You can find more details
+                      <a href="https://www.nagios.org/">here.</a>
                     </li>
                 </ul>
             </details>
@@ -98,7 +100,8 @@
                     </li>
                     <li>
                     Configuration files are written in JSON which makes
-                    it easy to automate. You can find more details here.
+                    it easy to automate. You can find more details
+                    <a href="">here.</a>
                     </li>
                 </ul>
             </details>
@@ -124,7 +127,8 @@
                       Prometheus offers reliability and lets you diagnose
                       a problem quickly during an outage. It can display
                       statistics even under failure conditions.
-                      You can find more details here.
+                      You can find more details
+                      <a href="">here.</a>
                     </li>
 
                 </ul>
@@ -148,7 +152,8 @@
                     </li>
                     <li>
                       Sysdig gives you the deployment flexibility you need
-                      for clouds. You can find more details here.
+                      for clouds. You can find more details
+                      <a href="">here.</a>
                     </li>
                 </ul>
             </details>
@@ -182,7 +187,8 @@
                     and correlate the changes to potential impacts on the
                     host and application performance, with the application
                     scaling and infrastructure changes.
-                    You can find more details here.
+                    You can find more details
+                    <a href="">here.</a>
                   </li>
                 </ul>
             </details>
@@ -213,7 +219,8 @@
                       CloudWatch Logs can also be used to monitor, store, and
                       access the log files from various sources like Amazon EC2
                       instances and AWS CloudTrail.
-                      You can find more details here.
+                      You can find more details
+                      <a href="">here.</a>
                     </li>
 
                 </ul>
