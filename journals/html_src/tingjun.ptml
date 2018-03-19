@@ -123,6 +123,34 @@
                 </li>
             </ul>
         </details>
+
+        <details>
+            <summary class="sum2">
+                Week 8
+            </summary>
+
+            <ul class="nested">
+                <li>
+                    Spring Break.
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+                Week 9
+            </summary>
+
+            <ul class="nested">
+                <li>
+                    Fix bugs for url_checker.
+                </li>
+                <li>
+                    Add flags features for html_checker. 
+                    Re-organize codes for html_checker a bit.
+                </li>
+            </ul>
+        </details>
         </div>
         </div>
     </body>
