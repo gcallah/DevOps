@@ -15,9 +15,18 @@
                 <h1>
                     Our UX Tools
                 </h1>
-        
+
                 <p>
-                    Our tools will be listed here.
+                    For the UX implementation, we use the normal front-end
+                    languages such as JavaScript, HTML, CSS for the animation
+                    and stylesheet including font, background, arrangement,
+                    collapse effects and etc.. And we applied Bootstrap which
+                    helps save time with large front-end library and arrange
+                    the layout very handily. Also, Bootstrap contributes well
+                    on compatibility which allow the website easily migrated
+                    to mobile device.
+                    <br />
+                    You can find some help links in the link page.
                 </p>
             </div>
         </div>
