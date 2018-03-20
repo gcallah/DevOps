@@ -173,14 +173,39 @@
                     Cloud Implementation
                 </h1>
         
+                <p>The AWS Management Console is a web application that comprises and refers to a broad collection of service consoles for managing Amazon Web Services. When you first sign in, you see the console home page.
+
+                <img src="https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/images/console-home.png" alt="Mountain View" style="width:604px;height:442px;">
+                
+
+                </p>
+
+                <p>
+                  The home page provides access to each service console as well as an intuitive user interface for exploring AWS and getting helpful tips. Among other things, the individual service consoles offer tools for working with Amazon S3 buckets, launching and connecting to Amazon EC2 instances, setting Amazon CloudWatch alarms, and getting information about your account and about billing.
+
+                <img src="https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/images/console-parts-new.png" alt="Mountain View" style="width:604px;height:442px;">
+                
+                </p>
+
+                
+
+                 <h1>
+                    How to host a Website on AWS S3?
+                </h1>
                <p>
-           Amazon introduced “commoditized” cloud computing services through its first AWS service launched back in 2004, and ever since then they kept innovating and adding features, which somehow allowed them having the upper hand in the business by building the most extensive array of services and solutions for the cloud. They are also, in many regards, the most expensive.
+                The following steps need to be followed if we wish to host a website on Amazon S3:
+
+                1. Register a Domain
+                2. Create and Configure Buckets and Upload Data
+                3. Create and Configure Amazon Route 53 Hosted Zone
+                4. Switch to Amazon Route 53 as Your DNS Provider
+                5. Testing
+           
         </p>
 
         <p>
 
-           Google, and later Microsoft, came into the game and are quickly coming up to par, bringing their own infrastructure and ideas, offering deals, and pulling the prices down.
-
+           You use Amazon S3 to create buckets, upload a sample website page, configure permissions so that everyone can see the content, and then configure the buckets for website hosting. In this example, because you want to allow requests for both http://www.example.com and http://example.com, you create two buckets; however, you host content in only one bucket. You configure the other Amazon S3 bucket to redirect requests to the bucket that hosts the content.
         </p>
 
         <p>
@@ -188,88 +213,69 @@
         </p>
 
         <p>
-            When you go on the cloud, on the other hand, you just pay for what you use and you can scale to thousands of processing nodes in a few minutes (and blow your credit card while at it, if you’re not careful).
-            Elastic Compute Cloud (EC2) is Amazon’s flagship for scalable computing on demand, competing with Google’s Compute Engine and Azure’s Virtual Machines and Virtual Machine Scale Sets. Amazon’s service is the most comprehensive, but as mentioned, the pricing for EC2 can get very intricate, and the same goes for Azure’s VMs pricing. Google’s offering is somewhat less flexible, but the pricing is a lot easier to follow (see pricing section).
+          To configure your buckets for website hosting
+
+          Sign in to the AWS Management Console and open the Amazon S3 console at https://console.aws.amazon.com/s3/.
+
+          In the Bucket name list, choose the name of the bucket that you want to enable static website hosting for.
+
+          Choose Properties.
+
+          Choose Static website hosting.
+
+          Configure the gcallah.github.io bucket for website hosting. In the Index Document box, type the name that you gave your index page.
+
+            
         </p>
 
         <p>
-            There’s also the option of renting computing processes for web and mobile apps, which can offer significant savings when used instead of EC2 or Compute Engine if your apps fit in the specs of this service (see AWS Elastic Beanstalk and Google App Engine for more details).
+            Now, since we have our domain name ready, let's continue with the further steps. 
+
+            We need to create two buckets. The bucket names must match with our website. In our case, to host gcallah.github.io on Amazon S3, we will name the bucket gcallah.github.io.
+
+            So, sign in to the Amazon S3 console at https://console.aws.amazon.com/s3/ with your AWS account credentials and create the following bucket.
+
+            gcallah.github.io
+
+            Select the desired setting and complete the process. 
+
+            Once you have created the bucket, we configure it for website hosting.
+
+            Now, from the Amazon S3 Console, select the bucket name that we want to enable static website hosting for.
+
+            Select Properties
+
+            Select Static website hosting
+
+            Configure the gcallah.github.io bucket for website hosting. In the Index Document box, type the name of the our index page.
 
 
-        </p>
-
-        <p>
-            There’s also the option of renting computing processes for web and mobile apps, which can offer significant savings when used instead of EC2 or Compute Engine if your apps fit in the specs of this service (see AWS Elastic Beanstalk and Google App Engine for more details).
-
-        </p>
-
-        <p> Storage: Alongside computing, storage is a key pillar to cloud services. In the cloud you can store with the same ease anything from a bunch of GBs to several PBs (1 petabyte = 1,024 terabytes = 1,048,576 gigabytes). Beware, though: implementing these solutions is not so trivial, as this is not a regular hosting for which you just need a user and password to upload files to an FTP. Instead, you’ll need to interact with APIs or third-party programs, and it may take some time before you’re ready to operate your storage entirely in the cloud.
-
-        </p>
-
-        <p>
-            To store objects (that is, pretty much anything), Amazon Simple Storage Service (S3)is the service that’s been running the longest, and as such it has extensive documentation, including free webinars, tons of sample code and libraries, articles and tutorials and very active discussion forums where Amazon developers provide very useful feedback on a regular basis. Of course, Google Cloud Storage and Microsoft Azure Storage provide a service that’s as reliable and robust, but the resources you’ll find don’t come even close that of Amazon’s. That being said, Google and Microsoft may have an edge on the price, so read the fine print.
-        </p>
-
-        <p>
-            For archiving, also sometimes called “cold storage” (like when you store objects you don’t plan to access regularly for the most part), you’ll enjoy lower rates but also lower access speeds, which shouldn’t be much of a problem in most cases. The characteristics and prices are very similar among different providers, so most probably you’ll be conditioned by which API you have implemented on your back-end. For the specs and details, see Amazon Glacier, Cloud Storage Nearline by Google, and Azure Backup; and check also the archiving solutions these providers offer — Data Archive by AWS, and Backup and Archive by Azure.
-
-        </p>
-
-        <p> Analytics: Now we’re getting serious, as we enter the powerful place in which we integrate and make full use of computing, storage and delivery, all at once. And the truth is that there are certain things you just can’t perform anywhere else but in the cloud (that is, except you can afford a huge investment in infrastructure). So let’s talk analytics.
-        </p>
-
-        <p>The challenges of big data are dealing with incredibly large data sets (so big you can’t fit them in memory), making sense of them, using them to make predictions, and even helping modeling completely new situations like new products, services, treatments, ways of planning cities, and a large et cetera.
-        </p>
-
-
-        <p>
-            This requires very specific technologies and programming models, one of which is MapReduce, which was developed by Google, so maybe it isn’t surprising to see Google walking forward in the big data arena by offering an array of products — such as BigQuery (managed data warehouse for large-scale data analytics), Cloud Dataflow(real-time data processing), Cloud Dataproc (managed Spark and Hadoop), Cloud Datalab (large-scale data exploration, analysis, and visualization), Cloud Pub/Sub(messaging and streaming data), and Genomics (for processing up to petabytes of genomic data). Elastic MapReduce (EMR) and HDInsight are Amazon’s and Azure’s take on big data, respectively. For more, check the big data solutions they all offer — GCP, AWS, and Azure.
-        </p>
-
-        <p>
-            Locations: When deploying your services, you may want to choose a data center that’s close to your primary target of users. For example, if you’re doing real estate or retail hosting in the West Coast of the United States, you’ll want to deploy your services right there to minimize the latency and provide a better user experience (UX). Of course, you can still deploy from afar, but the UX will suffer.
-        </p>
-
-        <p>
-            Amazon clearly has the most extensive coverage
-
-            <img src="https://image.slidesharecdn.com/awsoverviewv4-120611171440-phpapp02/95/overview-of-amazon-web-services-9-728.jpg?cb=1434492790" alt="Mountain View" style="width:604px;height:442px;">
-
-        </p>
-     
-
-        <p>
-            Azure comes close, with fairly good support for Asia
-
-             <img src="https://ncmedia.azureedge.net/ncmedia/2017/06/regions.png" alt="Mountain View" style="width:604px;height:442px;">
 
         </p>
 
         <p>
-            Google has a solid coverage in the United States, but falls behind in Europe and, particularly, in Asia (only one spot in Taiwan), with no coverage at all in South America. None of them are able to deploy in Africa.
+            Once you do this and click on the endpoint url, it doesn't show you our website. This is because we haven't uploaded anything into our bucket yet. 
+            Hence, we go to the bucket and upload our entire code there.
+        </p>
 
-            <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/09/1473645753google-server-locations-1024x686.jpg" alt="Mountain View" style="width:604px;height:442px;">
-
+        <p> Once you have uploaded the code, hit the refresh button on the endpoint url. We still see that error 403.
+          This is because our bucket is publicly inaccessible by default. We need to make them public. This can be done by two ways. First is either manually set the properties for each file uploaded. Second is by creating a privacy policy. 
         </p>
 
         <p>
-            Networking:
-            You can network in the cloud by doing domain name system (DNS) with Amazon’s Route 53, Google DNS or Azure DNS.
-            Or do load balancing with Amazon’s Elastic Load Balancing, Google Cloud Loud Balancing and Azure’s Load Balancer.
-            And, of course, set your virtual private network (VPN) with Amazon’s Virtual Private Cloud VPC, Google’s Cloud Virtual Network and Azure’s VPN Gateway.
+           To create a privcy policy, go to the bucket
+
+           Select permissions
+
+           Enter the snippet into the editor and save it
+
+           Once this policy is created, you'll be able to see the contents of the webpage on hitting refresh.
+
+
         </p>
 
-        <p> Databases:
-            You can implement SQL solutions with Amazon’s Relational Database Service (RDS) (supporting many DBMS), Google’s Cloud SQL (supporting only MySQL at the moment), and with Azure’s SQL Database, SQL Data Warehouse and SQL Server Stretch Database.
-        </p>
-
-        <p>
-            Also newer NoSQL solutions are available with Amazon’s DynamoDB, Google’s Bigtable and Cloud Datastore, and Azure’s DocumentDB and Table storage.
-            But who wants a DB when all you need is a cache? If that’s the case, then Amazon’s ElastiCache and Azure’s Redis Cache might do it.
-            For more, check the solution that amazon offers — Cloud Databases with AWS.
-
-</p>
+      
+        
 
 
             </div>
