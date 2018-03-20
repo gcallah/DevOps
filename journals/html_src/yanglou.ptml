@@ -39,7 +39,7 @@
             create a functional website with other coding 
             team members using Django as the backend. I 
             will also learn techniques and processes 
-            utilized by build, cloud, depolyment, monitoring,
+            utilized by build, cloud, deployment, monitoring,
             security and testing teams.
         </p>
         
@@ -77,6 +77,17 @@
             some advantages to use docker when developing software.
             I and another coding team member were assigned to 
             the task "Build quiz mechanism for Django".
+        </p>
+        <p>
+            Week 4:
+            <br/>            
+            Read part of the book Manifesto for Agile Software
+            Development. Got Django running locally for
+            DevOpsCourse. I taught myself how to use Django as a
+            beginner. The professor explained the reasons to
+            edit ptml files first. We used build automation tool
+            Make to generate html files and rebuilt the DevOps
+            website. 
         </p>
         </div>
     </div>
