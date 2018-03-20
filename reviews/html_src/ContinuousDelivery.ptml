@@ -144,6 +144,29 @@
                 into the progress of builds.
                 </p>
             </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 6: Build and Deployment Scripting
+                </summary>
+                <p>
+                The authors describe the techniques of creating an 
+                automated build and deployment process. They categorize 
+                the build tools into task oriented and product oriented 
+                tools describing their properties and the principles common 
+                to all the build and deployment tools. 
+                They also describe the advantages and disadvantages of some 
+                commonly used build tools like Make, Ant, Maven, Rake, 
+                Buildr. They discuss some of the best practices commonly 
+                used in the deployment setup for any application. 
+                The standard project layout used by Maven is described 
+                which gives a good idea for structuring any application.
+                The strategies and best practices to solve common build and 
+                deployment problems  are discussed. The authors emphasize 
+                that the deployment scripts should be version-controlled, 
+                maintained, tested, and refactored and should be the only 
+                way to deploy the software.
+                </p>
+            </details>
         </div>
     </div>
 </body>
