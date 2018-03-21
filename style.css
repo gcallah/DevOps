@@ -297,7 +297,7 @@ span.emphasize {
 The Wrapped div in which content will be filled
 ***/
 #content {
-    padding: 20px;
+    padding: 1.2em;
     min-height: 100vh;
     transition: all 0.3s;
     font-size: 174%;
@@ -401,9 +401,9 @@ i, span {
 
 #sidebar .sidebar-header strong {
     display: none;
-    font-size: 2.0em;
+    font-size: 3.5em;
     text-align: center;
-    padding-top: 0.8em;
+    padding-top: 0.6em;
     padding-right: 0.8em;
 }
 
@@ -451,11 +451,12 @@ i, span {
 }
 
 #sidebar h1 {
-    color: #cdf;
+    color: #f9f9f9;
     background-color: transparent;
     text-align: left;
-    margin: 1em 0em 0em 0em;
+    margin: 0.7em 0em 0em 0em;
     padding: 0em;
+    font-size: 3.5em;
 }
 
 #sidebar ul {
