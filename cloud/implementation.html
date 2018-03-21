@@ -173,108 +173,146 @@
                     Cloud Implementation
                 </h1>
         
-                <p>The AWS Management Console is a web application that comprises and refers to a broad collection of service consoles for managing Amazon Web Services. When you first sign in, you see the console home page.
+                <p>The AWS Management Console is a web application that comprises and refers to a broad collection of service consoles for managing 
+                   Amazon Web Services. When you first sign in, you see the console home page.
 
-                <img src="https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/images/console-home.png" alt="Mountain View" style="width:604px;height:442px;">
+                <br />
+                <br />
+                   <img src="https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/images/console-home.png" alt="Mountain View" style="width:604px;height:442px;">
                 
 
                 </p>
-
+                 <br />
+                 <br />
                 <p>
                   The home page provides access to each service console as well as an intuitive user interface for exploring AWS and getting helpful tips. Among other things, the individual service consoles offer tools for working with Amazon S3 buckets, launching and connecting to Amazon EC2 instances, setting Amazon CloudWatch alarms, and getting information about your account and about billing.
-
-                <img src="https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/images/console-parts-new.png" alt="Mountain View" style="width:604px;height:442px;">
+                  </p>
+                  <br />
+                  <img src="https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/images/console-parts-new.png" alt="Mountain View" style="width:604px;height:442px;">
                 
-                </p>
+               
 
-                
+                  <br />
+                  <br />
 
                  <h1>
                     How to host a Website on AWS S3?
                 </h1>
+                
                <p>
-                The following steps need to be followed if we wish to host a website on Amazon S3:
-
-                1. Register a Domain
-                2. Create and Configure Buckets and Upload Data
-                3. Create and Configure Amazon Route 53 Hosted Zone
-                4. Switch to Amazon Route 53 as Your DNS Provider
-                5. Testing
+                  The following steps need to be followed if we wish to host a website on Amazon S3:
+                <ul>
+                <li> Register a Domain</li>
+                <li> Create and Configure Buckets and Upload Data</li>
+                <li> Create and Configure Amazon Route 53 Hosted Zone</li>
+                <li> Switch to Amazon Route 53 as Your DNS Provider</li>
+                <li> Testing</li>
+              </ul>
            
         </p>
-
+           <br />
         <p>
 
-           You use Amazon S3 to create buckets, upload a sample website page, configure permissions so that everyone can see the content, and then configure the buckets for website hosting. In this example, because you want to allow requests for both http://www.example.com and http://example.com, you create two buckets; however, you host content in only one bucket. You configure the other Amazon S3 bucket to redirect requests to the bucket that hosts the content.
+                  You use Amazon S3 to create buckets, upload a sample website page, configure permissions so that everyone can see the content, and then configure the buckets for website hosting. You host content in the bucket. 
         </p>
-
+           <br />
+       
+           
         <p>
-            Compute: This is what computers are for, after all: to calculate, to process data — to compute. If you need faster processing for graphics rendering, data analysis or what have you, you can either buy more hardware, or you can go on the cloud.
-        </p>
+                  To configure your buckets for website hosting
+          <ul>
+              <li>Sign in to the AWS Management Console and open the Amazon S3 console at https://console.aws.amazon.com/s3/</li>
 
+              <li>In the Bucket name list, choose the name of the bucket that you want to enable static website hosting for</li>
+
+              <li>Choose Properties</li>
+
+              <li>Choose Static website hosting</li>
+
+              <li>Configure the gcallah.github.io bucket for website hosting. In the Index Document box, type the name that you gave your index page</li>
+
+           </ul> 
+        </p>
+           <br />
         <p>
-          To configure your buckets for website hosting
+               Now, since we have our domain name ready, let's continue with the further steps. 
 
-          Sign in to the AWS Management Console and open the Amazon S3 console at https://console.aws.amazon.com/s3/.
-
-          In the Bucket name list, choose the name of the bucket that you want to enable static website hosting for.
-
-          Choose Properties.
-
-          Choose Static website hosting.
-
-          Configure the gcallah.github.io bucket for website hosting. In the Index Document box, type the name that you gave your index page.
-
-            
-        </p>
-
-        <p>
-            Now, since we have our domain name ready, let's continue with the further steps. 
-
-            We need to create two buckets. The bucket names must match with our website. In our case, to host gcallah.github.io on Amazon S3, we will name the bucket gcallah.github.io.
-
-            So, sign in to the Amazon S3 console at https://console.aws.amazon.com/s3/ with your AWS account credentials and create the following bucket.
-
-            gcallah.github.io
-
-            Select the desired setting and complete the process. 
-
-            Once you have created the bucket, we configure it for website hosting.
-
-            Now, from the Amazon S3 Console, select the bucket name that we want to enable static website hosting for.
-
-            Select Properties
-
-            Select Static website hosting
-
-            Configure the gcallah.github.io bucket for website hosting. In the Index Document box, type the name of the our index page.
+               We need to create the bucket. The bucket name must match with our website. In our case, to host gcallah.github.io on Amazon S3, we will name the bucket gcallah.github.io.
 
 
 
-        </p>
+            <ul>
+            <li>So, sign in to the Amazon S3 console at https://console.aws.amazon.com/s3/ with your AWS account credentials and create the following
+                bucket:</li>
 
-        <p>
-            Once you do this and click on the endpoint url, it doesn't show you our website. This is because we haven't uploaded anything into our bucket yet. 
-            Hence, we go to the bucket and upload our entire code there.
-        </p>
+              <h8><b>gcallah.github.io</b></h8>
+            </br>
+            </br>
 
-        <p> Once you have uploaded the code, hit the refresh button on the endpoint url. We still see that error 403.
+              <img src="ss/1.png" style="width:604px;height:442px;">
+
+            <li>Select the desired setting and complete the process</li>
+</ul>
+</p>
+</br>
+<p>
+  <ul>
+            Once you have created the bucket, we configure it for website hosting
+
+            <li>Now, from the Amazon S3 Console, select the bucket name that we want to enable static website hosting for</li>
+
+            <li>Select Properties</li>
+
+            <li>Select Static website hosting</li>
+
+            <li>Configure the gcallah.github.io bucket for website hosting. In the Index Document box, type the name of the our index page</li>
+
+          </br>
+
+            <img src="ss/3.png" style="width:604px;height:442px;">
+
+          </p>
+           <br />
+          <p>
+            Once you do this and click on the endpoint url, it doesn't show you our website. This is because we haven't uploaded anything into our bucket yet
+
+          </br>
+        </br>
+          <img src="ss/404.png" style="width:604px;height:442px;">
+          </br>
+          </br>
+          <p>
+          Hence, we go to the bucket and upload our entire code there
+          </p>
+            </br>
+          </p>
+          <img src="ss/4.png" style="width:604px;height:442px;">
+          </br>
+          </br>
+          <img src="ss/5.png" style="width:604px;height:442px;">
+        </br>
+        <p>Once you have uploaded the code, hit the refresh button on the endpoint url. We still see that error 404.
+
           This is because our bucket is publicly inaccessible by default. We need to make them public. This can be done by two ways. First is either manually set the properties for each file uploaded. Second is by creating a privacy policy. 
         </p>
-
+           <br />
         <p>
-           To create a privcy policy, go to the bucket
+          To create a privcy policy, go to the bucket
 
-           Select permissions
+          Select permissions
 
-           Enter the snippet into the editor and save it
+          Enter the snippet into the editor and save it
+           </br>
+            <img src="ss/7.png" style="width:604px;height:442px;">
+</p>
+<p>
+          Once this policy is created, you'll be able to see the contents of the webpage on hitting refresh.
+           </br>
 
-           Once this policy is created, you'll be able to see the contents of the webpage on hitting refresh.
-
-
+          <img src="C:/Users/richa/Desktop/DevOps/cloud/ss/8.png" style="width:604px;height:442px;">
         </p>
 
-      
+     
         
 
 
