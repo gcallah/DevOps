@@ -30,8 +30,13 @@
                     concealed within a company.
                 </p>
                 <p>
-                  Framework of Toyota Production System:
-                  <img src="../img/toyota_framework.png " alt="">
+                  <figure>
+                      <img
+                      src="../img/toyota_framework.png">
+                      <figcaption>
+                          Framework of Toyota Production System:
+                      </figcaption>
+                  </figure>
                 </p>
                 <details>
                     <summary class="sum2">
