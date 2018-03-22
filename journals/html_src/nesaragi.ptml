@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
     </head>
 
     <body>
-<!--include menu.txt -->
-
+        <div class = "wrapper">
+      <!--include navbar.txt -->
+        <div id = "content">
         <h1>
             My DevOps Story
         </h1>
+
 
         <p class="author">
             by
@@ -37,6 +38,9 @@
             <li><strong>Week 2:</strong> Researching on Jenkins tool and creating a html listing it's important features.</li>
             <li><strong>Week 1:</strong> Writing up my journal.</li>
         </ul>
+
+      </div>
+      </div>
 
     </body>
 </html>
