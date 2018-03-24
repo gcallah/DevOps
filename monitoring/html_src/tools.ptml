@@ -254,6 +254,7 @@
                       comprehensive view of your environment. Hence you can
                       work easily with Google Cloud Platform, Amazon Web
                       Services, or a hybrid of the two.
+                      <a href="https://cloud.google.com/stackdriver/" target="_blank">here.</a>
                     </li>
                 </ul>
             </details>
@@ -279,6 +280,7 @@
                      New Relic can give intelligent suggestions using
                      machine learning techniques by going through
                      the collected data to find patterns or anamolies.
+                     <a href="https://newrelic.com/" target="_blank">here.</a>
                     </li>
                 </ul>
             </details>
@@ -305,6 +307,7 @@
                     <li>
                     Different releases for the application can be compared
                     on AppDynamics.
+                    <a href="https://www.appdynamics.com/" target="_blank">here.</a>
                     </li>
 
                 </ul>
