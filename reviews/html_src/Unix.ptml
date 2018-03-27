@@ -50,6 +50,21 @@
         </p>
 
         <h4>Chapter 2: The File System</h4>
+
+        <p>
+            Everything in UNIX is a file. This is the fundamental principle 
+            dating from the very beginining of UNIX. This approach was decided 
+            as an example of the "Keep It Simple" policy. This chapter dwells 
+            into the fundamentals of files and directories, permissions, 
+            inodes, and finally on the directory hierarchy.
+        </p>
+        <p>
+            Files are a sequence of bytes. File types are not determined by 
+            the file system and the kernel treats every file as a sequence of 
+            bytes. The command <i>file</i> makes an educated guess at the 
+            type of file by using magic numbers.
+        </p>
+        
         <h4>Chapter 3: Using the Shell</h4>
         <h4>Chapter 4: Filters</h4>
         <h4>Chapter 5: Shell Programming</h4>
