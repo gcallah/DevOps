@@ -50,6 +50,36 @@
         </p>
 
         <h4>Chapter 2: The File System</h4>
+
+        <p>
+            Everything in UNIX is a file. This is the fundamental principle 
+            dating from the very beginining of UNIX. This approach was decided 
+            as an example of the "Keep It Simple" policy. This chapter dwells 
+            into the fundamentals of files and directories, permissions, 
+            inodes, and finally on the directory hierarchy.
+        </p>
+        <p>
+            Files are a sequence of bytes. File types are not determined by 
+            the file system and the kernel treats every file as a sequence of 
+            bytes. The command <i>file</i> makes an educated guess at the 
+            type of file by using magic numbers.
+        </p>
+        <p>
+            Every file has has permissions, restricting who can read, write or 
+            execute the file. However, every system has a <i>Super user</i>, 
+            who can read, write, or execute any file on the system. A user can 
+            use a program called <i>crypt</i> to encrypt his/her files, which 
+            can prevent the superuser cannot modify the file. 
+        </p>
+        <p>
+            All the admnistrative components of a file, such as the name, 
+            permissions, and modification times are stored separately as 
+            inodes. Inodes themselves are files, and keep the contents of the 
+            files separate from the administrative metadata. This increases 
+            access times, as many a times the contents of the file are not 
+            required, but only the administrative metadata.
+        </p>
+
         <h4>Chapter 3: Using the Shell</h4>
         <h4>Chapter 4: Filters</h4>
         <h4>Chapter 5: Shell Programming</h4>

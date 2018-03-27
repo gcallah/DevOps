@@ -37,6 +37,13 @@
                 utilizes the iterative approach that delivers new pieces
                 of the application more often and provides greater
                 fiexibility than the waterfall approach.</P>
+                <P>The first key value of the Agile Manifesto is to value
+                people over process. If one company value processes and
+                tools, the processes are on average more clear but
+                processes will be gradually out of date due to the lack
+                of updates. New processes and tools are created by humans.
+                In a human-centric company, the improvement in processes
+                and tools increases productivity.</P>
                 <p>
                   The highest priority is for customer. As we see in the
                   manifesto, the agile development delivers the new
@@ -52,6 +59,12 @@
                 Changing requirements allow the developers reacts quickly
                 to customers' needs, which not only improves the feedback,
                 but also the product quality.
+              </p>
+              <p>
+                Shorter timescale are perferred. As in small batch work, the
+                defects and problems can be easily detected and resolved early.
+                The shorter timescale also helps the developers to identify the
+                problems precisely.
               </p>
             </div>
         </div>
