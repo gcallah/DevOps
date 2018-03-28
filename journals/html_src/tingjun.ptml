@@ -151,6 +151,21 @@
                 </li>
             </ul>
         </details>
+        
+        <details>
+            <summary class="sum2">
+                Week 10
+            </summary>
+
+            <ul class="nested">
+                <li>
+                    Push url_checker to production.
+                </li>
+                <li>
+                    Adding tag checking function in html_checker
+                </li>
+            </ul>
+        </details>
         </div>
         </div>
     </body>
