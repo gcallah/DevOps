@@ -1,0 +1,58 @@
+-Home^https://gcallah.github.io/DevOps/index.html
+-Main Areas of Coverage
+--Build
+---Build links^https://gcallah.github.io/DevOps/build/links.html
+---Build theory^https://gcallah.github.io/DevOps/build/theory.html
+---Build tools^https://gcallah.github.io/DevOps/build/tools.html
+---Our build implementation^https://gcallah.github.io/DevOps/build/implementation.html
+--Cloud
+---Cloud links^https://gcallah.github.io/DevOps/cloud/links.html
+---Cloud theory^https://gcallah.github.io/DevOps/cloud/theory.html
+---Cloud tools^https://gcallah.github.io/DevOps/cloud/tools.html
+---Our cloud implementation^https://gcallah.github.io/DevOps/cloud/implementation.html
+--Coding: Lean and Agile Practices
+---Coding links^https://gcallah.github.io/DevOps/coding/links.html
+---Coding theory^https://gcallah.github.io/DevOps/coding/theory.html
+---Coding tools^https://gcallah.github.io/DevOps/coding/tools.html
+---Our coding implementation^https://gcallah.github.io/DevOps/coding/implementation.html
+--Deployment
+---Deployment links^https://gcallah.github.io/DevOps/deployment/links.html
+---Deployment theory^https://gcallah.github.io/DevOps/deployment/theory.html
+---Deployment tools^https://gcallah.github.io/DevOps/deployment/tools.html
+---Our deployment implementation^https://gcallah.github.io/DevOps/deployment/implementation.html
+--Monitoring
+---Monitoring links^https://gcallah.github.io/DevOps/monitoring/links.html
+---Monitoring theory^https://gcallah.github.io/DevOps/monitoring/theory.html
+---Monitoring tools^https://gcallah.github.io/DevOps/monitoring/tools.html
+---Our monitoring implementation^https://gcallah.github.io/DevOps/monitoring/implementation.html
+--Security
+---Security links^https://gcallah.github.io/DevOps/security/links.html
+---Security theory^https://gcallah.github.io/DevOps/security/theory.html
+---Security tools^https://gcallah.github.io/DevOps/security/tools.html
+---Our security implementation^https://gcallah.github.io/DevOps/security/implementation.html
+--Testing
+---Testing links^https://gcallah.github.io/DevOps/testing/links.html
+---Testing theory^https://gcallah.github.io/DevOps/testing/theory.html
+---Testing tools^https://gcallah.github.io/DevOps/testing/tools.html
+---Our testing implementation^https://gcallah.github.io/DevOps/testing/implementation.html
+--Workflow: DevOps as a Way of Work
+---Workflow links^https://gcallah.github.io/DevOps/workflow/links.html
+---Workflow theory^https://gcallah.github.io/DevOps/workflow/theory.html
+---Workflow tools^https://gcallah.github.io/DevOps/workflow/tools.html
+---Our workflow implementation^https://gcallah.github.io/DevOps/workflow/implementation.html
+--UX: User Interface
+---UX links^https://gcallah.github.io/DevOps/UX/links.html
+---UX theory^https://gcallah.github.io/DevOps/UX/theory.html
+---UX tools^https://gcallah.github.io/DevOps/UX/tools.html
+---Our UX implementation^https://gcallah.github.io/DevOps/UX/implementation.html
+-Other Materials
+--Course-specific Material
+---Course description, Spring 2018^https://gcallah.github.io/DevOps/courseDescr.html
+---Course expectations, Spring 2018^https://gcallah.github.io/DevOps/courseExpectations.html
+---Our teams for Spring 2018^https://gcallah.github.io/DevOps/TeamsTable.html
+---DevOps reading list^https://gcallah.github.io/DevOps/books.html
+---Our DevOps journals^https://gcallah.github.io/DevOps/journals/index.html
+---The Django site: the course will manage a cutover to here!^http://www.thedevopscourse.com/devops/
+--Supplementary Material
+---DevOps websites^https://gcallah.github.io/DevOps/websites.html
+-About^https://gcallah.github.io/DevOps/about.html
