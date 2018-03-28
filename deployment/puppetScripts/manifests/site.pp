@@ -1,3 +1,6 @@
+package { 'git' :
+  ensure => present,
+}
 vcsrepo { '/var/www/html':
   ensure   => latest,
   provider => git,
