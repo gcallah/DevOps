@@ -14,10 +14,70 @@
                 <h1>
                     Our Deployment Implementation
                 </h1>
-        
-                <p>
-                    This page will describe how we can deploy our web site.
+                <h3> Steps to deploy the website on Amazon EC2 
+                    instances using puppet </h3>
+                
+                <h4> Configuration </h4>
+                <p> We have used client/server architecture having one 
+                puppet master and one puppet agent.
                 </p>
+                <h4> Steps </h4>
+                <ol>
+                <li> KeyPair - 
+                    Login to Amazon AWS console. Go to Network and Security 
+                    and create key pairs to login into EC2 instances from 
+                    local machine.
+                    <br>
+                    <figure>
+                    <img src="graphics/key_pair.png" style="width:604px;height:442px;">
+                    </figure>
+                </li>
+                <li> Security Group -
+                    Create Security Group to enable ports for http, ssh, tcp 
+                    and icmp. This group will be associated with the EC2 
+                    instances.
+                    <br>
+                    <figure>
+                    <img src="graphics/security_group.png" style="width:604px;height:442px;">
+                    </figure>
+
+                </li>
+                <li> Launch EC2 Instances -
+                    Go to Instances and click on "Launch Instance". On the 
+                    next screen select "Red Hat Enterprise Linux" image.
+                    <figure>
+                    <img src="graphics/rhel.png" style="width:604px;height:442px;">
+                    </figure>
+
+                    Click "Configure Instance Details" and choose Number of
+                    instances 2 (master and agent). 
+
+                    <figure>
+                    <img src="graphics/number_instances.png" style="width:604px;height:442px;">
+                    </figure>
+
+                    Go to next and on Step 6: "Configure Security Group"
+                    select the security group created before and then launch 
+                    the instances.
+                    <figure>
+                    <img src="graphics/instance_security_group.png" style="width:604px;height:442px;">
+                    </figure>
+                </li>
+                <li>
+                Wait for the instance state change to running. Give names to
+                instances (master, agent).
+                </li>
+                <li>
+                Next connect to the instance using ssh following the steps
+                in connect box as shown below -
+                    <figure>
+                    <img src="graphics/connect.png" style="width:604px;height:442px;">
+                    </figure>
+                </li>
+                </ol>
+                <h4> Master Configuration </h4>
+                
+                <h4> Agent Configuration </h4>
             </div>
         </div>
 
