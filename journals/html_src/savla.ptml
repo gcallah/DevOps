@@ -161,11 +161,59 @@
               </summary>
               <ul class="nested">
                   <li>
-                        Took the week og :)
+                        Took the week of:)
                   </li>
 
               </ul>
             </details>
+
+            <details>
+                <summary class="sum2">
+                    Week 8
+                </summary>
+                <ul class="nested">
+                  <li>
+                    Lecture by Joe West, CTO of BounceX.
+                    He Talked about the following principles.
+                  </li>
+                  <li>
+                   Business is the thing: DevOps
+                   services are expensive and don't always
+                   save money. We must give thought to cost,
+                   business and purpose before resorting
+                   to the tools instead of using t
+                   hem just because they are cool.
+                  </li>
+
+                  <li>
+                  Rightsize toolchain: many a
+                  times, our business may not
+                  need all of the tools. simple
+                  combination of EC2, CI/CD and a
+                  Db may suffice. hence, it is i
+                  mportnat to understand where
+                  the optimization is worth.
+                  </li>
+
+                  <li>
+                  Productivity is the best
+                  practice: We must try to
+                  automate things that are
+                  done repeatedly and take
+                  much of our time.
+                  </li>
+
+                  <li>
+                  Document and rehearse:
+                  Documentation is essential
+                  to keep a record for purposes
+                  of handover or backtracking or
+                  rollbacks. Rehearsing critical
+                  events makes us better equiped
+                  at handling the real scenarios.
+                  </li>
+               </ul>
+          </details>
 
      </div>
     </div>
