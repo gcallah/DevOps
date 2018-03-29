@@ -5,6 +5,7 @@
         <title>
             Deployment/Configuration Tools Comparison!!
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -14,12 +15,12 @@
                 <h1>
                     Deployment/Configuration Tools Comparison
                 </h1>
-        
+
                 <p>
                     Here are some of the major deployment/configuration
                     tools and their features:
                 </p>
-        
+
                 <details>
                     <summary class="sum2">
                       Puppet
@@ -192,7 +193,7 @@
                 </details>
                 <details>
                     <summary class="sum2">
-                      AWS CloudFormation: Infrastructure Deployment and 
+                      AWS CloudFormation: Infrastructure Deployment and
                       Automation
                     </summary>
                     <h5>Pros:</h5>

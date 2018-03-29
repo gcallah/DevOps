@@ -29,6 +29,14 @@
         <title>
             Our Deployment Implementation
         </title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114841175-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-114841175-1');
+</script>
     </head>
 
     <body>
@@ -175,18 +183,18 @@
                 <h1>
                     Our Deployment Implementation
                 </h1>
-                <h3> Steps to deploy the website on Amazon EC2 
+                <h3> Steps to deploy the website on Amazon EC2
                     instances using puppet </h3>
-                
+
                 <h4> Configuration </h4>
-                <p> We have used client/server architecture having one 
+                <p> We have used client/server architecture having one
                 puppet master and one puppet agent.
                 </p>
                 <h4> Steps </h4>
                 <ol>
-                <li> KeyPair - 
-                    Login to Amazon AWS console. Go to Network and Security 
-                    and create key pairs to login into EC2 instances from 
+                <li> KeyPair -
+                    Login to Amazon AWS console. Go to Network and Security
+                    and create key pairs to login into EC2 instances from
                     local machine.
                     <br>
                     <figure>
@@ -194,8 +202,8 @@
                     </figure>
                 </li>
                 <li> Security Group -
-                    Create Security Group to enable ports for http, ssh, tcp 
-                    and icmp. This group will be associated with the EC2 
+                    Create Security Group to enable ports for http, ssh, tcp
+                    and icmp. This group will be associated with the EC2
                     instances.
                     <br>
                     <figure>
@@ -204,21 +212,21 @@
 
                 </li>
                 <li> Launch EC2 Instances -
-                    Go to Instances and click on "Launch Instance". On the 
+                    Go to Instances and click on "Launch Instance". On the
                     next screen select "Red Hat Enterprise Linux" image.
                     <figure>
                     <img src="graphics/rhel.png" style="width:604px;height:442px;">
                     </figure>
 
                     Click "Configure Instance Details" and choose Number of
-                    instances 2 (master and agent). 
+                    instances 2 (master and agent).
 
                     <figure>
                     <img src="graphics/number_instances.png" style="width:604px;height:442px;">
                     </figure>
 
                     Go to next and on Step 6: "Configure Security Group"
-                    select the security group created before and then launch 
+                    select the security group created before and then launch
                     the instances.
                     <figure>
                     <img src="graphics/instance_security_group.png" style="width:604px;height:442px;">
@@ -247,8 +255,8 @@
                 [root@master ~]# vi /etc/hosts
                 ip-address-agent agent.devops.org agent
                 </li>
-                <li> Puppet can be installed from the yum.puppetlabs.com 
-                package repository using below command: 
+                <li> Puppet can be installed from the yum.puppetlabs.com
+                package repository using below command:
                 <br>
                 [root@master ~]# yum -y install https://yum.puppetlabs.com/
                 puppetlabs-release-pc1-el-7.noarch.rpm
@@ -257,31 +265,31 @@
                 <br>
                 [root@master ~]# yum -y install puppetserver
                 </li>
-                <li> Creating symbolic link to make puppet available on 
+                <li> Creating symbolic link to make puppet available on
                 command line:
                 <br>
-                [root@master ~]# ln -s /opt/puppetlabs/bin/puppet* 
+                [root@master ~]# ln -s /opt/puppetlabs/bin/puppet*
                 /usr/local/bin/
                 </li>
                 <li> For agents to connect to the puppet master server, it
                 must allow incoming connections on port 8140:
                 <br>
-                [root@master ~]# iptables -A INPUT -m state --state 
+                [root@master ~]# iptables -A INPUT -m state --state
                 ESTABLISHED,RELATED -j ACCEPT
                 <br>
-                [root@master ~]# iptables -A INPUT -m state --state NEW -p 
+                [root@master ~]# iptables -A INPUT -m state --state NEW -p
                 tcp --dport 8140 -j ACCEPT
                 <br>
                 [root@master ~]# iptables-save
                 <br>
                 [root@master ~]# iptables -L -v
                 </li>
-                <li> In the file /etc/puppetlabs/puppet/puppet.conf add 
+                <li> In the file /etc/puppetlabs/puppet/puppet.conf add
                 below line in [master] section:
                 <br>
                 dns_alt_names = master.devops.org, master
                 </li>
-                <li> Generate CA certificate and the puppet master 
+                <li> Generate CA certificate and the puppet master
                 certificate with the appropriate DNS names:
                 <br>
                 [root@master ~]# puppet master --no-daemonize --verbose
@@ -311,15 +319,15 @@
                 <br>
                 [root@agent ~]# yum -y install puppet-agent
                 </li>
-                <li> Creating symbolic link to make puppet available on 
+                <li> Creating symbolic link to make puppet available on
                 command line:
                 <br>
-                [root@agent ~]# ln -s /opt/puppetlabs/bin/puppet* 
+                [root@agent ~]# ln -s /opt/puppetlabs/bin/puppet*
                 /usr/local/bin/
                 </li>
                 <li> Enable and start puppet on agent node:
                 <br>
-                [root@client ~]# systemctl start puppet.service 
+                [root@client ~]# systemctl start puppet.service
                 <br>
                 [root@client ~]# systemctl enable puppet.service
                 </li>
@@ -328,14 +336,14 @@
                 <ol>
                 <li> Certificate request from agent:
                 <br>
-                [root@agent ~]# puppet agent --test 
+                [root@agent ~]# puppet agent --test
                 --ca_server=master.devops.org
                 </li>
                 <li> On the puppet master server view the certificates:
                 <br>
-                [root@master ~]# puppet cert list 
+                [root@master ~]# puppet cert list
                 </li>
-                <li> On the puppet master server sign the certificate from 
+                <li> On the puppet master server sign the certificate from
                 agent:
                 <br>
                 [root@master ~]# puppet cert sign agent.devops.org
@@ -346,19 +354,19 @@
                 <li> Create manifests for setting up apache server on agent:
                 <br>
                 Go to path "/etc/puppetlabs/code/environments/production/
-                manifests" on master node and copy file 
+                manifests" on master node and copy file
                 <a href="puppetScripts/manifests/apache.pp">apache.pp</a>
                 </li>
-                <li> Create manifests for setting up git and continuous 
+                <li> Create manifests for setting up git and continuous
                 integration on agent:
                 <br>
                 Go to path "/etc/puppetlabs/code/environments/production/
-                manifests" on master node and copy file 
+                manifests" on master node and copy file
                 <a href="puppetScripts/manifests/site.pp">site.pp</a>
                 </li>
                 <li> Run the catalog to setup agent node:
                 <br>
-                [root@agent ~]# puppet agent --test 
+                [root@agent ~]# puppet agent --test
                 --ca_server=master.devops.org
                 </li>
                 </ol>
