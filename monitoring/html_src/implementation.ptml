@@ -5,6 +5,7 @@
         <title>
             Our Monitoring Implementation
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -14,10 +15,16 @@
                 <h1>
                     Our Monitoring Implementation
                 </h1>
-        
+
                 <p>
                     This page will describe our monitoring implementation.
                 </p>
+                <li>
+                    Google Analytics
+                </li>
+                <li>
+                    StatusCake
+                </li>
 
             </div>
         </div>

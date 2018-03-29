@@ -5,7 +5,7 @@
         <title>
             DevOps Course Teams and Their Members
         </title>
-        
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -16,9 +16,9 @@
             <h1>
                 DevOps Course Teams and Their Members
             </h1>
-    
+
             <table style="width:80%" bgcolor="#2f71d6"  >
-            
+
               <tr>
                 <th class="table-head">Team Name </th>
                 <th class="table-head">Members</th>
@@ -37,9 +37,9 @@
               <tr>
                 <td>Adit</td>
               </tr>
-                           
+
               <tr>
-                <th rowspan="7">Coding Team</th>
+                <th rowspan="8">Coding Team</th>
                 <td>Linfeng Wang (Franzzzz)</td>
               </tr>
               <tr>
@@ -60,6 +60,9 @@
               <tr>
                 <td>Parvar</td>
               </tr>
+              <tr>
+                <td>Jayesh Mhatre</td>
+              </tr>
             <tr>
                 <th rowspan="4">Deployment Team</th>
                 <td>Ravish Bhatia</td>
@@ -73,9 +76,9 @@
               <tr>
                 <td>Srinivas</td>
              </tr>
-             
+
              <tr>
-                <th rowspan="3">Monitoring Team</th>
+                <th rowspan="4">Monitoring Team</th>
                 <td>Yancheng Shi</td>
               </tr>
               <tr>
@@ -84,15 +87,21 @@
               <tr>
                 <td>Tanya Jha (tj3006)</td>
               </tr>
-              
+              <tr>
+                <td>Jatri Dave</td>
+              </tr>
+
              <tr>
-                <th rowspan="2">Security Team</th>
+                <th rowspan="3">Security Team</th>
                 <td>Arun John Kuruvilla</td>
               </tr>
               <tr>
                 <td>Om Narayan</td>
               </tr>
-              
+              <tr>
+                <td>Anshal N Savla</td>
+              </tr>
+
              <tr>
                 <th rowspan="3">Testing Team</th>
                 <td>Garima Negi</td>
@@ -103,7 +112,7 @@
               <tr>
                 <td>Chiquita</td>
               </tr>
-              
+
              <tr>
                 <th rowspan="3">UX Team</th>
                 <td>Chaoqun</td>
@@ -114,7 +123,7 @@
               <tr>
                 <td>Bowei Xu (Hunter6)</td>
               </tr>
-             
+
               <tr>
                 <th rowspan="4">Workflow Management Team</th>
                 <td>Yin</td>
@@ -128,9 +137,9 @@
               <tr>
                 <td>Akshay Hazare</td>
               </tr>
-              
+
             </table>
-    
+
         </div>
     </div>
 

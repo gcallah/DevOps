@@ -5,6 +5,7 @@
         <title>
             Trello Test
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -14,15 +15,15 @@
                 <h1>
                     Trello Test
                 </h1>
-        
+
                 <p>
                     Using restful API or Jacascript to integrate with Trello.
                 </p>
-        
+
                 <script src="https://trello.com/b/Nbrll0xF/coding.js">
                 </script>
                 <iframe src="https://trello.com/b/Nbrll0xF/coding.html"></iframe>
-        
+
             </div>
         </div>
 

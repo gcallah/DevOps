@@ -5,6 +5,7 @@
         <title>
             Coding Tools used
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -12,13 +13,13 @@
 <!--include navbar.txt -->
             <div id="content">
                 <h1>
-                    Coding Tools 
+                    Coding Tools
                 </h1>
-        
+
                 <p>
                     Here are some of the coding tools we examined:
                 </p>
-        
+
                 <ul class="contents">
                     <li>
                         <a href="https://www.pylint.org">

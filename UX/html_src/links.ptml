@@ -56,6 +56,29 @@
                         </a>
                     </li>
                 </ul>
+                <br />
+                <br />
+                <p>
+                Also, we would like to provide some links for UI implementation:
+                </p>
+                <ul class="nested">
+                  <li>
+                      <a href="https://getbootstrap.com/">
+                        Bootstrap: the most popular HTML, CSS, and JavaScript
+                        framework for developing websites
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.w3schools.com/bootstrap/default.asp">
+                        Bootstrap Tutorials
+                      </a>
+                  </li>
+                </ul>
+                <br />
+                <p>
+                If you need more info on basic knowledgebase, feel free to
+                contact us with what you want.
+              </p>
             </div>
         </div>
     </body>

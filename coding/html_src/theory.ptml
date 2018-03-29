@@ -5,6 +5,7 @@
         <title>
             Coding Theory
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -14,7 +15,7 @@
                 <h1>
                     Coding Theory
                 </h1>
-        
+
                 <p>
                     The basic idea behind DevOps coding theory is that we
                     should write code that is easy to maintain, comes with test

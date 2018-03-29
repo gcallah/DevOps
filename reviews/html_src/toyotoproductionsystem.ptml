@@ -5,6 +5,7 @@
         <title>
             Toyota Production System: an Integrated Approach to Just-in-Time
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -18,10 +19,9 @@
                 <p class="author">
                     Authors: Yasuhiro Monden
                     <br>
-                    Reviewers: Datta D
+                    Reviewers: Datta Dwarampudi
                 </p>
                 <p>
-                    Purpose of this book: <br>
                     This book talks about the great sucess of Toyoto
                     Production Systems which was developed and promotoed by
                     Toyota Motor Corporation and is being adopted by many
@@ -30,6 +30,432 @@
                     through improvement activities various kinds of waste lying
                     concealed within a company.
                 </p>
+                <p>
+                  <figure>
+                      <img
+                      src="../reviews/img/toyota_framework.png" width="700"
+                      height="700">
+                      <figcaption>
+                          Framework of Toyota Production System:
+                      </figcaption>
+                  </figure>
+                </p>
+                <details>
+                    <summary class="sum2">
+                      Chapter 1: Total Framework of the Toyota Production
+                      System
+                    </summary>
+                    <details>
+                        <summary class="sum2">
+                          Primary Purpose
+                        </summary>
+                        <ul>
+                          <li>Profit through Cost Reduction: <br>
+                            primary goal of the Toyota Production System is
+                            cost reduction, or improvement of productivity.
+                            We can achieve the cost reduction by elimination of
+                             excessive inventory and excessive workforce.
+                          </li>
+                          <li>Elimination of Overproduction: <br>
+                            The most important part of Toyota Production
+                            System is to reduce costs by completely
+                            eliminating waste.  There are four kinds of waste
+                            in manufacturing production operations:
+                            <ul>
+                              <li>Excessive production resources: <br>
+                                people, equipment, materials, or products are
+                                categorized as production resources, they only
+                                increase cash outlay (costs) and add no value
+                                when are in excess.
+                              </li>
+                              <li>Overproduction: <br>
+                                Overproduction is to continue working when
+                                essential operations should be stopped.
+                              </li>
+                              <li>Excessive inventory: <br>
+                                Having lots of extra inventory makes us hire
+                                more people, procure more equipment and have
+                                more floor space to transport and stock the
+                                inventory.
+                              </li>
+                              <li>Unnecessary capital investment: <br>
+                                For handling all those excessive items, we end
+                                up spending unnecessary capital.
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            Unnecessary capital investment include the
+                            following: <br>
+                            <ul>
+                              <li>Building a warehouse to store extra
+                                inventory</li>
+                              <li>Hiring extra workers to transport the
+                                inventory to the new warehouse</li>
+                              <li>Purchasing a fork lift for each
+                                transporter</li>
+                              <li>Hiring an inventory control clerk to work in
+                                the new warehouse</li>
+                              <li>Hiring an operator to repair damaged
+                                inventory</li>
+                              <li>Establishing processes to manage conditions
+                                and quantities of different
+                              types of inventory</li>
+                              <li>Hiring a person to do computerized inventory
+                                control</li>
+                            </ul>
+                            <figure>
+                                <img
+                                src="../reviews/img/cost_reduction_waste_reduction.png"
+                                width="403" height="304">
+                                <figcaption>
+                                   Cost Reduction by waste reduction
+                                </figcaption>
+                            </figure>
+                          </li>
+                          <li>Quantity Control, Quality Assurance,
+                            Respect for Humanity: <br>
+                            This is the most important goal of Toyota
+                            production system because reducing costs without
+                            implementing this goal is of no use.  And all the
+                            3 goals Quanity Control, quality assurance and
+                            respect for humanity should be achieved combined.
+                            <ul>
+                              <li>Quantity control, which enables the system
+                                to adapt to daily and monthly fluctuations in
+                                demand of quantity and variety
+                              </li>
+                              <li>Quality assurance, which assures that each
+                              process will supply only good units to
+                              subsequent processes
+                              </li>
+                              <li>Respect for humanity, or morale, which must
+                                be cultivated while the system utilizes human
+                                resources to attain its cost objectives
+                              </li>
+                            </ul>
+                          </li>
+                          <li>Just-in-Time and Autonomation: <br>
+                            Just-in-Time and Autonomation are the key
+                            concepts to establish continuous flow in the
+                            production. <br>
+                            Just-in-time (JIT) basically means to produce the
+                            necessary units in the necessary quantities at the
+                            necessary time. Automation may be loosely
+                            interpreted as autonomous defects control.
+                          </li>
+                          <li>Flexible Workforce and Originality and Ingenuity:
+                            <br>
+                            Flexible workforce means varying the number of
+                            workers to demand changes, and creative thinking
+                            or inventive ideas means capitalizing on worker
+                            suggestions. <br>
+
+                            The following systems and methods can be used to
+                            achieve this goal: <br>
+                            • Kanban system <br>
+                            • Production smoothing method <br>
+                            • Shortening of the setup time <br>
+                            • Standardization of operations <br>
+                            • Machine layout and multi-function workers <br>
+                            • Improvement activities by small groups and
+                            suggestion system <br>
+                            • Visual control system <br>
+                            • Functional management system <br>
+                          </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary class="sum2">
+                          Kanban Systems
+                        </summary>
+                        <p>You can visit this link for more information regarding
+                        Kanban systesm: <a href="../workflow/kanban.html">Link</a> <br>
+                        Kanban system is a part of Toyoto Production Systems,
+                        it is an information system which harmoniously controls
+                        the production quantities in every process.  <br>
+                        Two kinds are mainly used: the withdrawal kanban and
+                        the productionordering kanban. A withdrawal kanban
+                        details the quantity which the subsequent process
+                        should withdraw, while a production-ordering Kanban
+                        shows the quantity which the preceding process must
+                        produce.</p>
+                        <figure>
+                            <img
+                            src="../reviews/img/kanban_system.png"
+                            width="403" height="304">
+                            <figcaption>
+                               Kanban System
+                            </figcaption>
+                        </figure>
+                    </details>
+                    <details>
+                        <summary class="sum2">
+                          Production Smoothing
+                        </summary>
+                        <p>Production in Accordance with Market Demand: <br>
+                          The final assembly line produces equally each kind of
+                          product in accordance with its own daily time at the
+                          speed it can be sold. The variation in the withdrawn
+                          quantity of each part produced at each subassembly
+                          line is minimized, thereby allowing the subassemblies
+                          to produce each part at a constant speed or at a
+                          fixed quantity per hour.
+                        </p>
+                    </details>
+                    <details>
+                        <summary class="sum2">
+                          Shortening Setup Time
+                        </summary>
+                        <p>To shorten the setup time, it is important to neatly
+                          prepare in advance the necessary jigs, tools, the
+                          next die and materials, and to remove the detached
+                          die and jigs after the new die is settled and the
+                          machine begins to operate.  This phase of setup is
+                          called the external setup. Also, the worker should
+                          concentrate on changing over the dies, jig, tools,
+                          and materials according to the specs of the next
+                          order while the machine is stopping. This phase of
+                          setup actions is called the internal setup. The most
+                          important point is to convert as much as possible of
+                          the internal setup to the external setup.
+                        </p>
+                    </details>
+                    <details>
+                        <summary class="sum2">
+                          Prcess Layout For Shortened Lead Times and One-Piece
+                          Production
+                        </summary>
+                        <p>In a multi-process handling line, a worker handles
+                          several machines of various processes one by one,
+                          and work at each process will proceed only
+                          when the worker completes his given jobs within a
+                          specified takt time. As a result, the introduction
+                          of each unit to the line is balanced by the
+                          completion of another unit of finished product, as
+                          ordered by the operations of a takt time. Such
+                          production is called one-piece production
+                        </p>
+                    </details>
+                    <details>
+                        <summary class="sum2">
+                          Standardization of Operations
+                        </summary>
+                        <p>The standard operations routine indicates the
+                          sequence of operations that should be taken by a
+                          worker in multiple processes of the department. This
+                          is the order for a worker to pick up the materials,
+                          put them on his machine, and detach them after
+                          processing by the machine. This order of operations
+                          continues for each machine that he handles. Line
+                          synchronization or line balancing can be achieved
+                          among workers in this department since each worker
+                          will finish all of his operations within the takt
+                          time.
+                        </p>
+                    </details>
+                    <details>
+                        <summary class="sum2">
+                          Autonomation: Autonomous Defects Control System
+                        </summary>
+                        <p>Autonomation means to build in a mechanism to
+                          prevent mass-production of defective work in
+                          machines or product lines. <br>
+                          Mechanism to prevent defective work by putting
+                          various checking devices on the implements and
+                          instruments is called mistake-proofing (“bakayoke”
+                          or “pokayoke”).
+                        </p>
+                    </details>
+                    <details>
+                        <summary class="sum2">
+                          Improvement Activities
+                        </summary>
+                        <p>Each worker has the chance to make suggestions and
+                          propose improvements via a small group called a
+                          Quality Control (QC) circle. Such a suggestion-making
+                           process allows for improvements (1) in quantity
+                           control by adapting the standard operations routine
+                            to changes in takt time, (2) in quality assurance
+                            by preventing recurrence of defective works and
+                            machines, and (3) in respect for humanity by
+                            allowing each worker to participate in the
+                            production process.
+                        </p>
+                    </details>
+                    <details>
+                        <summary class="sum2">
+                          The Goal of TPS
+                        </summary>
+                        <p>The ultimate goal of the Toyota production system
+                          is to improve the company’s “efficiency” (or
+                          “productivity”) in terms of “return on investment”
+                          (ROI) or “return on assets” (ROA). <br>
+                          Return on assets = Profit margin × Asset Turnover
+                          = (Income/Sales) × (Sales/Assets)
+                        </p>
+                    </details>
+                </details>
+                <details>
+                    <summary class="sum2">
+                      Chapter 2 Implementation Steps for the Toyota Production
+                      System
+                    </summary>
+                    <p>
+                      The steps for introducing a JIT process are discussed
+                      in this chapter
+                    </p>
+                    <details>
+                        <summary class="sum2">
+                          Introductory Steps To The Toyota Production System
+                        </summary>
+                        <p>
+                          <b>Step 1: Upper Management Plays a Key Role</b> <br>
+                          It is important that the upper management launch the
+                          efforts to the line workers and they should provide
+                          all th resources to them.  Doing so effectively
+                          conveys that upper management is in complete support
+                          of the change and, in fact, mandates change. <br>
+                          <b>Step 2: Establish a Project Team</b> <br>
+                          The main objectives of project team is to organize
+                          seminars and training about JIT concepts and
+                          techniques and organize a JIT practice team for
+                          sectional and sub-sectional managers <br>
+                          <b>Step 3: Prepare an Implementation Schedule and
+                            Set Goals to Be Achieved within the Schedule</b> <br>
+                          <b>Step 4: Introduce a Pilot Project</b> <br>
+                          So start small and then implement JIT gradually
+                          across plant-wide <br>
+                          <b>Step 5: Move from a Downstream Process
+                            to an Upstream Process</b> <br>
+                          <br>
+                          <b>Application Order of JIT Techniques</b>
+                          <ul>
+                            <li>Introduction of the 5S foundation for
+                              improvement—The foundation for improvements
+                              in the workplace is the 5S concept: Seiri
+                              (arrangement), Seiton (tidiness), Seiso
+                              (cleaning), Seiketsu (cleanliness), and Shitsuke
+                              (training).
+                            </li>
+                            <li>
+                              Introduction of “one-piece production” within
+                              the synchronized line <br>
+                              a. Change from sitting labor to standing labor <br>
+                              b. Lay out machinery in process sequence <br>
+                              c. Connect adjacent processes <br>
+                              d. Construct U-shaped lines <br>
+                              e. Deploy multi-process handling by multi-skilled
+                               workers <br>
+                              f. Apply “jidoka” in the sense of separating
+                              human operations from machine processing. <br>
+                            </li>
+                            <li>
+                              Implementation of small lot size production
+                              and improvement of the setup method
+                            </li>
+                            <li>
+                              Introduction of standard operations <br>
+                              a. Determine the required workforce number for
+                              each line, based on takt time <br>
+                              b. Create a standard operations sheet
+                            </li>
+                            <li>
+                              Implementation of smoothed production by
+                              assembling products in response to sales velocity
+                            </li>
+                            <li>
+                              Autonomation (“jidoka”)
+                            </li>
+                            <li>
+                              Introduction of kanban cards
+                            </li>
+                          </ul>
+                        </p>
+                    </details>
+                    <details>
+                        <summary class="sum2">
+                          Introduction of JIT at Toyo Aluminum— A Case Study
+                        </summary>
+                        <p>
+                          How did they begin: <br>
+                          <ul>
+                            <li>
+                              A JIT project promotion committee and a practice
+                              team were established.
+                            </li>
+                            <li>
+                              The team set a goal to reduce lead time by 50
+                              percent. They then set four subgoals to help
+                              realize the final objective.
+                            </li>
+                            <li>
+                              The 5S improvement concept was promoted through
+                              quality control circles.
+                            </li>
+                            <li>
+                              A training program on 5S, JIT, TQC, and TPM
+                              encompassing every organizational level was
+                              developed.
+                            </li>
+                          </ul>
+                        </p>
+                        <figure>
+                            <img
+                            src="../reviews/img/GO_GO_Campaign.png" width="502"
+                            height="502">
+                            <figcaption>
+                                GO GO Campaign:
+                            </figcaption>
+                        </figure>
+                        <p>
+                          The purpose of GO GO campaign was to reduce five
+                          main items by 50 percent during a two and one-half
+                          year period from June 1985–December 1987.  <br>
+                        </p>
+                          <figure>
+                              <img
+                              src="../reviews/img/JUMP_60_Campaign.png" width="502"
+                              height="502">
+                              <figcaption>
+                                  JUMP 60 Campaign:
+                              </figcaption>
+                          </figure>
+                        <p>
+                          Those five items were defective products, setup time,
+                          machinery breakdowns, WIP and total lead time. <br>
+                          The objective of the Jump 60 campaign was to increase
+                           productivity and decrease costs by the time the
+                           company reached its 60th anniversary in 1991. <br>
+                          The goal of 34,000t was aimed to increase the present
+                          production capacity of 31,000t by 10 percent per year
+                          without additional capital investment or worker
+                          transfers. <br>
+                          The three subgoals for these reductions are Zero,
+                          Less, and Up.
+                          <ul>
+                            <li>
+                              Zero means the plant was accident free
+                            </li>
+                            <li>
+                              Less means reduction of setup time and WIP
+                              inventories
+                            </li>
+                            <li>
+                              Up in the Jump 60 campaign is composed of three
+                              components: manpower capacity, machine
+                              efficiency, and material efficiency
+                            </li>
+                          </ul>
+                        </p>
+                        <p>
+                          total efficiency of facilities is given by the
+                          following formula: <br>
+                          workable rate × speed operating rate × good product
+                          rate <br>
+                        </p>
+                    </details>
+                </details>
             </div>
         </div>
     </body>

@@ -5,6 +5,7 @@
         <title>
             The Art of Monitoring
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -16,7 +17,7 @@
         </h1>
 
         <p class="author">
-            James Turnbull 
+            James Turnbull
         </p>
     </div>
     </div>

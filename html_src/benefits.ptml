@@ -5,6 +5,7 @@
         <title>
             DevOps Benefits
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -15,7 +16,7 @@
             <h1>
                 DevOps Benefits
             </h1>
-    
+
             <p>
             "In the 2017 State of DevOps report,
             Puppet found that high-performing
@@ -36,7 +37,7 @@
                     1/5 as likely to fail)"
                 </li>
             </ul>
-    
+
             <p>
                 (Source: <a
                     href="https://stackify.com/top-devops-blogs/">Stackify</a>.)

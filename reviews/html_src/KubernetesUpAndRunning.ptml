@@ -5,6 +5,7 @@
         <title>
             Kubernetes Up and Running
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
     <body>
         <div class="wrapper">
@@ -14,7 +15,7 @@
                     Kubernetes Up and Running
                 </h1>
                 <p class="author">
-                    Authors: Kelsey Hightower, Brendan Burns, and Joe Beda 
+                    Authors: Kelsey Hightower, Brendan Burns, and Joe Beda
                     <br>
                     Reviewers: Ravish Bhatia, Sneha Ghosh
                 </p>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--include subhead.txt -->
+        <title>
+            Usage and Importance of Queue in Kanban
+        </title>
+        <!--include googleAnalyticsScript.txt -->
+    </head>
+
+    <body>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+              <h1> Usage and Importance of Queue in Kanban</h1>
+              <p>
+                <b><i>Purpose of this page:</i></b> To understand the importance of Queue in
+                Kanban and how to implement Queue in Kanban.
+              </p>
+              <br>
+
+
+            <p>
+              <b>Why Queue:</b> <br>
+              Not only delivering quality code but also delivering it at
+              'regualar' intervals is very important.  The manager along with
+              his team should decide on how many days/weeks should that
+              interval / cycle be. <br>
+              Queue can be implemented in various ways in kanban. <br>
+              1. We can divide the development in 2 columns into
+              'implementation' column and 'ready to test' column.  This 'ready
+              to test' column will act as a queue for test column. <br>
+              2. We can divide our wishlist in 2 columns into 'wishlist'
+              and 'queue'.  We should implement all the features in the queue
+              before taking in the features from wishlist which can be done
+              only when the new cycle starts.
+            </p>
+            <p>
+              <b>Example of Queue implementation in Kanban:</b>
+            </p>
+            <details>
+              <summary class="sum2">
+                At start of phase:
+              </summary>
+              <figure>
+              <img
+              src="multimedia/start_phase.JPG" width="403" height="304">
+              <figcaption>
+                At start of cycle
+              </figcaption>
+            </figure>
+            <p> We try to pull some features wishlist and transfer them into
+              queue which can be completed in 1 cycle.
+            </p>
+            </details>
+
+            <details>
+              <summary class = "sum2">
+                During implementation of present features in Queue
+              </summary>
+              <figure>
+              <img
+              src="multimedia/during_phase.JPG" width="403" height="304">
+              <figcaption>
+                During cycle
+              </figcaption>
+            </figure>
+            <p>During the implementation of the cycle, we will not be able to
+              pull anymore features or requests from wishlist, we will only
+              work on the features in the queue. <br>
+              Any new requests or features will be thrown into wishlist.
+            </p>
+            </details>
+            </div>
+        </div>
+    </body>
+</html>

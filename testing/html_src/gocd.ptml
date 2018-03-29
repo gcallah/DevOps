@@ -5,6 +5,7 @@
         <title>
             Our Evaluation of GoCD
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -27,7 +28,7 @@
             released as open source in 2014.
         </p><br>
         <ul>
-            
+
             <li>
             GoCD can easily model and visualize complex workflows. It is
             suitable for single purpose, focused tool.
@@ -47,36 +48,36 @@
             GoCD provides parallel execution across pipelines, platforms,
             versions, branches, etc. and helps eliminate bottlenecks.
                    </li>
-        </ul><br> 
+        </ul><br>
         <h2>Now for some things that are not so good with GoCD:</h2>
         <ul>
-            
+
             <li>
             GoCD is built specifically with CD in mind as compared to Jenkins
             and Travis that are built for CI. This is a huge factor since we
             are looking for CI at this stage.
             </li>
-                        
+
             <li>
             It uses a bit more memory than Jenkins which can be a problem if it
             runs on Windows VM.
             </li>
-                        
+
             <li>
             Almost all operations are shell based, as compared to GUI support
             through Jenkins and travis plugins
             </li>
-                        
+
             <li>
             GoCD does not have a large plugin ecosystem and there are very few
             documented integrations
             </li>
-                        
+
             <li>
             GoCD's community is only 1000 members strong as it is relatively
             new. It hasn't been used by many companies yet and documentation is
             comparitively less. This means there is still a great scope for
-            development and newer versions. 
+            development and newer versions.
             </li>
         </ul>
             </div>

@@ -6,6 +6,7 @@
         <title>
              Jiawei Wang's Journal
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -20,7 +21,7 @@
             <br />
             Jiawei Wang
         </p>
-        
+
         <p>
         As a CS student that will graduate from NYU and begin my career this summer,
         I'm having passion in all kinds of knowledge that will help me to become a
