@@ -5,6 +5,7 @@
         <title>
             Cloud Provider Comparison
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -14,28 +15,28 @@
                 <h1>
                     Cloud Provider Comparison
                 </h1>
-        
+
                 <p>
                     Here are some of the major cloud providers and their features:
                 </p>
-        
+
                 <ul class="contents">
                     <li>
                         Amazon Web Services
                     </li>
-        
+
                     <li>
                         Google Cloud Platform
                     </li>
-        
+
                     <li>
                         Microsoft Azure
                     </li>
-        
+
                     <li>
                         Openstack
                     </li>
-        
+
                 </ul>
             </div>
         </div>
