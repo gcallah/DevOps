@@ -17,7 +17,49 @@
       	
 		<p> 
 		In this section, we will walkthrough common modules with their implementation and explanation<br/></br>
-		
+		</p>
+
+
+        <p><b>EXAMPLE 1: Copy file from a local machine to a remote server</b> </p>
+
+    <p> The copy module copies a file from the local or remote machine to a location on the remote machine. Use the fetch module to copy files from remote locations to the local box. For Windows targets, use the win_copy module instead.
+
+        <pre>
+        - hosts: blocks
+          tasks:
+            - name: Copy a file from local to remote server
+              copy:
+                src: ~/Users/test_file.txt
+                dest: /tmp
+                mode: u=rw,g=r,o=r
+        </pre>
+
+       <p> The above example describes simple module for copying a file from one system to another with specific mode and permission for users, group and others. </p>
+    </p>
+        <br>
+        <br>
+
+         <p><b>EXAMPLE 2: Access Control List - Set and Retrieve file ACL information</b> </p>
+
+    <p> Sets and retrieves file ACL information.
+
+        <pre>
+        - hosts: blocks
+          tasks:
+            - name: Grant user John read access to a file
+            acl:
+                path: /etc/acl.conf
+                entity: John
+                etype: user
+                permissions: r
+                state: present
+        </pre>
+
+       <p> The above example describes a module for setting up access control permissions for a user to access a particular file or folder. An entity can be a user as well as a group of users, which may requires certain permissions. </p>
+    </p>
+
+
+
 		<pre><b>                                                              SITE UNDER CONSTRUCTION</b></pre>
 		</p>
 		
