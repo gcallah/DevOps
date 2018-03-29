@@ -5,6 +5,7 @@
         <title>
             Security Theory
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -52,7 +53,7 @@
         </p>
 
           <h2>
-            Cross-Site Request Forgery (CSRF) 
+            Cross-Site Request Forgery (CSRF)
          </h2>
         <p>
           Cross-Site Request Forgery (CSRF) is an attack that forces an end

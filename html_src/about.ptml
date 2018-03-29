@@ -5,6 +5,7 @@
         <title>
             About this site
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -14,7 +15,7 @@
                 <h1>
                     About this site
                 </h1>
-        
+
                 <p>
                     A site for a DevOps course, built by Dr. Eugene Callahan
                     and his Spring 2018 DevOps class at NYU Tandon, including:
@@ -34,11 +35,11 @@
                     </li>
 
                     <li>
-                        Saniya Alekar 
+                        Saniya Alekar
                     </li>
 
                     <li>
-                        Drumil Bakhai 
+                        Drumil Bakhai
                     </li>
 
                     <li>
@@ -82,7 +83,7 @@
                     </li>
 
                     <li>
-                        Arun John Kuruvilla   
+                        Arun John Kuruvilla
                     </li>
 
                     <li>
@@ -118,7 +119,7 @@
                     </li>
 
                     <li>
-                        Anshav Savla   
+                        Anshav Savla
                     </li>
 
                     <li>
@@ -126,7 +127,7 @@
                     </li>
 
                     <li>
-                        Jiawei Wang    
+                        Jiawei Wang
                     </li>
 
                     <li>
@@ -138,7 +139,7 @@
                     </li>
 
                     <li>
-                        Lili Xu                        
+                        Lili Xu
                     </li>
 
                     <li>

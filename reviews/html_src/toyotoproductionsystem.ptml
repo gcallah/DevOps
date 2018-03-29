@@ -5,6 +5,7 @@
         <title>
             Toyota Production System: an Integrated Approach to Just-in-Time
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -377,6 +378,81 @@
                           Introduction of JIT at Toyo Aluminum— A Case Study
                         </summary>
                         <p>
+                          How did they begin: <br>
+                          <ul>
+                            <li>
+                              A JIT project promotion committee and a practice
+                              team were established.
+                            </li>
+                            <li>
+                              The team set a goal to reduce lead time by 50
+                              percent. They then set four subgoals to help
+                              realize the final objective.
+                            </li>
+                            <li>
+                              The 5S improvement concept was promoted through
+                              quality control circles.
+                            </li>
+                            <li>
+                              A training program on 5S, JIT, TQC, and TPM
+                              encompassing every organizational level was
+                              developed.
+                            </li>
+                          </ul>
+                        </p>
+                        <figure>
+                            <img
+                            src="../reviews/img/GO_GO_Campaign.png" width="502"
+                            height="502">
+                            <figcaption>
+                                GO GO Campaign:
+                            </figcaption>
+                        </figure>
+                        <p>
+                          The purpose of GO GO campaign was to reduce five
+                          main items by 50 percent during a two and one-half
+                          year period from June 1985–December 1987.  <br>
+                        </p>
+                          <figure>
+                              <img
+                              src="../reviews/img/JUMP_60_Campaign.png" width="502"
+                              height="502">
+                              <figcaption>
+                                  JUMP 60 Campaign:
+                              </figcaption>
+                          </figure>
+                        <p>
+                          Those five items were defective products, setup time,
+                          machinery breakdowns, WIP and total lead time. <br>
+                          The objective of the Jump 60 campaign was to increase
+                           productivity and decrease costs by the time the
+                           company reached its 60th anniversary in 1991. <br>
+                          The goal of 34,000t was aimed to increase the present
+                          production capacity of 31,000t by 10 percent per year
+                          without additional capital investment or worker
+                          transfers. <br>
+                          The three subgoals for these reductions are Zero,
+                          Less, and Up.
+                          <ul>
+                            <li>
+                              Zero means the plant was accident free
+                            </li>
+                            <li>
+                              Less means reduction of setup time and WIP
+                              inventories
+                            </li>
+                            <li>
+                              Up in the Jump 60 campaign is composed of three
+                              components: manpower capacity, machine
+                              efficiency, and material efficiency
+                            </li>
+                          </ul>
+                        </p>
+                        <p>
+                          total efficiency of facilities is given by the
+                          following formula: <br>
+                          workable rate × speed operating rate × good product
+                          rate <br>
                         </p>
                     </details>
                 </details>

@@ -6,13 +6,14 @@
         <title>
             Yin's Journal
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
 <!--include menu.txt -->
         <h1>
             Yin's Journal
-        </h1>    
+        </h1>
         <h2>About Yin</h2>
         <li><a href="https://www.linkedin.com/in/yinmei/">LinkedIn</a></li>
         <li><a href="https://github.com/msyinmei">Github</a></li>
@@ -34,9 +35,9 @@
                 <ul>Step 5: Driving innovation</ul>
                 <ul>Step 6: Measurement</ul>
             </details>
-            
+
             <details> <summary class="sum2">Comparisons</summary></details>
-            
+
             <details> <summary class="sum2">Case Studies</summary>
                 <ul>Yelp</ul>
                 <ul>1-800-flowers</ul>
@@ -52,7 +53,7 @@
                 <ul>BlueApron</ul>
                 <ul>Startups</ul>
             </details>
-            
+
             <details> <summary class="sum2">Tools, Frameworks and Existing Enterprise Software</summary>
                 <ul>Puppet</ul>
                 <ul>Ansible</ul>
@@ -63,7 +64,7 @@
                 <ul>Docker</ul>
                 <ul>Jenkins</ul>
             </details>
-            
+
             <details> <summary class="sum2">Measurement</summary></details>
             <details> <summary class="sum2">Implementation</summary></details>
             <details> <summary class="sum2">Presentation and Communicaiton</summary></details>

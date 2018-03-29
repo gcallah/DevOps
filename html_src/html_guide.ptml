@@ -5,6 +5,7 @@
         <title>
             A Guide to HTML Coding for the DevOps Course
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>

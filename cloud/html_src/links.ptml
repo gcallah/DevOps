@@ -3,8 +3,9 @@
     <head>
 <!--include subhead.txt -->
         <title>
-            Cloud Links 
+            Cloud Links
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -12,24 +13,24 @@
 <!--include navbar.txt -->
             <div id="content">
                 <h1>
-                    Cloud Links 
+                    Cloud Links
                 </h1>
-        
+
                 <ul class="contents">
                     <li>
                         <a href="https://devops.com/kubernetes-universal-cloud-infrastructure/">
                                 Kubernetes as universal cloud infrastructure
                         </a>
                     </li>
-        
+
                     <li>
                         <a href="https://www.rackspace.com/en-us/cloud/public">
                             Public cloud comparison
                         </a>
                     </li>
-        
+
                     <li>
-        
+
                         <a href="https://devops.com/devopspro-tips-on-cloud-management/">
                             Pro Tips on Cloud Management
                         </a>

@@ -5,6 +5,7 @@
         <title>
             Expectations for Students Taking DevOps, Spring 2018
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -14,7 +15,7 @@
             <h1>
                 Expectations for Students Taking DevOps, Spring 2018
             </h1>
-    
+
             <figure>
                 <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Laurentius_de_Voltolina_001.jpg/290px-Laurentius_de_Voltolina_001.jpg">
@@ -22,7 +23,7 @@
                     Don't sleep in lectures like the students in the back here!
                 </figcaption>
             </figure>
-    
+
             <ul>
                 <li>
                     Attend all sessions: these are

@@ -5,6 +5,7 @@
         <title>
             Testing/CI Tools Comparison
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -15,14 +16,14 @@
             <h1>
                 Testing/CI Tools Comparison
             </h1>
-    
+
             <figure>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/TestingCup-Polish-Championship-in-Software-Testing-Katowice-2016.jpg/440px-TestingCup-Polish-Championship-in-Software-Testing-Katowice-2016.jpg">
                 <figcaption>
                     Polish software testing championship
                 </figcaption>
             </figure>
-            
+
                 <p>
                     It is essential to understand the difference between CI and CD
                     before we move to comparisons. <br> Continuous Integration (CI)
@@ -30,7 +31,7 @@
                     multiple times a day. Each merge triggers an automated build
                     and testing sequence for the given project.
                 </p>
-    
+
                 <p>
                     Continuous Delivery (CD) is a practice of automating the entire
                     software release process. The idea is to do
@@ -40,15 +41,15 @@
                     or a few clicks. By eliminating nearly all manual tasks,
                     developers become more productive.
                 </p>
-    
+
              <p>
                 Here are some of the major testing/continuous integration
                 tools and their features:
             </p>
-    
+
             <ul class="contents">
                 <li>
-                    <a href="https://jenkins.io"> 
+                    <a href="https://jenkins.io">
                     Jenkins
                     </a>
                     <br />
@@ -88,21 +89,21 @@
                 <li> Does Not provide support for windows users </li>
                 <li> Supports more than a dozen languages </li>
                 <li> Excellent user website interaction </li>
-                
+
                 <p>
                     <b> We have chosen Jenkins as our continuous integration tool
                     because:
                     <br />
-                    a) It gives various options to customize 
+                    a) It gives various options to customize
                     <br />
-                    b) It is windows compatible 
+                    b) It is windows compatible
                         (Many students in the class use the windows platform)
                     <br />
                     c) Amazing amounts of resources and a great community
                     </b>
                  </p>
-                
-    
+
+
                 <li>
                     <a href="https://www.gocd.org">
                     GoCD
@@ -114,7 +115,7 @@
                     </a>
                     of GoCD
                 </li>
-    
+
             </ul>
 
             </div>

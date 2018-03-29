@@ -7,6 +7,14 @@
         <title>
             The Unix Programming Environment
         </title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114841175-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-114841175-1');
+</script>
     </head>
 
     <body>
@@ -36,12 +44,12 @@
         <h4>Chapter 1: UNIX for Beginners</h4>
 
         <p>
-            The first chapter goes over introducing the basics of the unix 
-            system as well as giving an idea about the structure of the rest 
-            of the book. The book assumes that the reader has some familirity 
-            with using a terminal. The book also requires a copy of the 
-            <i>Programmer's Manual</i>. The objective of the chapter is to 
-            get the user started with his/her system as soon as possible.  
+            The first chapter goes over introducing the basics of the unix
+            system as well as giving an idea about the structure of the rest
+            of the book. The book assumes that the reader has some familirity
+            with using a terminal. The book also requires a copy of the
+            <i>Programmer's Manual</i>. The objective of the chapter is to
+            get the user started with his/her system as soon as possible.
         </p>
         <p>
             The chapter is split into three sections:
@@ -50,7 +58,7 @@
                     <b>Basics</b> - logging, basic commands.
                 </li>
                 <li>
-                    <b>Day-to-day use</b> - filesystems, printing, commonly 
+                    <b>Day-to-day use</b> - filesystems, printing, commonly
                     used commands.
                 </li>
                 <li>
@@ -62,31 +70,31 @@
         <h4>Chapter 2: The File System</h4>
 
         <p>
-            Everything in UNIX is a file. This is the fundamental principle 
-            dating from the very beginining of UNIX. This approach was decided 
-            as an example of the "Keep It Simple" policy. This chapter dwells 
-            into the fundamentals of files and directories, permissions, 
+            Everything in UNIX is a file. This is the fundamental principle
+            dating from the very beginining of UNIX. This approach was decided
+            as an example of the "Keep It Simple" policy. This chapter dwells
+            into the fundamentals of files and directories, permissions,
             inodes, and finally on the directory hierarchy.
         </p>
         <p>
-            Files are a sequence of bytes. File types are not determined by 
-            the file system and the kernel treats every file as a sequence of 
-            bytes. The command <i>file</i> makes an educated guess at the 
+            Files are a sequence of bytes. File types are not determined by
+            the file system and the kernel treats every file as a sequence of
+            bytes. The command <i>file</i> makes an educated guess at the
             type of file by using magic numbers.
         </p>
         <p>
-            Every file has has permissions, restricting who can read, write or 
-            execute the file. However, every system has a <i>Super user</i>, 
-            who can read, write, or execute any file on the system. A user can 
-            use a program called <i>crypt</i> to encrypt his/her files, which 
-            can prevent the superuser cannot modify the file. 
+            Every file has has permissions, restricting who can read, write or
+            execute the file. However, every system has a <i>Super user</i>,
+            who can read, write, or execute any file on the system. A user can
+            use a program called <i>crypt</i> to encrypt his/her files, which
+            can prevent the superuser cannot modify the file.
         </p>
         <p>
-            All the admnistrative components of a file, such as the name, 
-            permissions, and modification times are stored separately as 
-            inodes. Inodes themselves are files, and keep the contents of the 
-            files separate from the administrative metadata. This increases 
-            access times, as many a times the contents of the file are not 
+            All the admnistrative components of a file, such as the name,
+            permissions, and modification times are stored separately as
+            inodes. Inodes themselves are files, and keep the contents of the
+            files separate from the administrative metadata. This increases
+            access times, as many a times the contents of the file are not
             required, but only the administrative metadata.
         </p>
 

@@ -29,6 +29,14 @@
         <title>
             Puppet
         </title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114841175-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-114841175-1');
+</script>
     </head>
 
     <body>
@@ -130,7 +138,10 @@
                 <li>
                   <a href="#UXSubmenu" data-toggle="collapse" aria-expanded="false">UX: User Interface</a>
                   <ul class="collapse list-unstyled" id="UXSubmenu">
-                    <li><a href="https://gcallah.github.io/DevOps/UX/UXTeamPage.html">Team Info</a></li>
+                    <li><a href="https://gcallah.github.io/DevOps/UX/links.html">UX links</a></li>
+                    <li><a href="https://gcallah.github.io/DevOps/UX/theory.html">UX theory</a></li>
+                    <li><a href="https://gcallah.github.io/DevOps/UX/tools.html">UX tools</a></li>
+                    <li><a href="https://gcallah.github.io/DevOps/UX/implementation.html">Our UX implementation</a></li>
                   </ul>
                 </li>
             </ul>
@@ -170,14 +181,14 @@
 </nav>
             <div id="content">
                 <h1>
-                    Puppet Testing puppet configuration 
+                    Puppet
                 </h1>
                 <h3> What is Puppet? </h3>
                 <p>
                 Puppet is one of the most popular
-                tools in DevOps ecosystem used 
-                for configuration management and deployment automation. It can 
-                perform tasks like creating users, installing packages and 
+                tools in DevOps ecosystem used
+                for configuration management and deployment automation. It can
+                perform tasks like creating users, installing packages and
                 configuring servers based on a centralized
                 configuration. It ensures
                 the configurations, packages and
@@ -189,7 +200,7 @@
                 <h3> Installation Steps </h3>
                 <p>
                 In this section we will show
-                how to setup puppet in a client/server 
+                how to setup puppet in a client/server
                 architecture having one puppet master and one puppet agent.
                 </p>
                 <h4> Installation on Master </h4>
@@ -228,7 +239,7 @@
                     </li>
                     <li> Start the Puppet service:
                         <br>
-                        /opt/puppetlabs/bin/puppet resource service puppet 
+                        /opt/puppetlabs/bin/puppet resource service puppet
                         ensure=running enable=true
                     </li>
                 </ul>
