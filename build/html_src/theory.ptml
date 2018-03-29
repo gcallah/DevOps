@@ -6,6 +6,7 @@
         <title>
             Build Theory
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -16,7 +17,7 @@
                 <h1>
                     Build Theory
                 </h1>
-        
+
                 <p>
                     Build tools control the building of a final product
                     from some number of pieces that compose that product.
@@ -39,13 +40,13 @@
                         They document the build process.
                     </li>
                 </ul>
-                
+
                 <h3>How to ‘make local’?</h3>
                     <p>
-                    If you want to make changes to an html file, do not 
+                    If you want to make changes to an html file, do not
                     directly edit it! Each directory(eg. cloud, testing...etc.)
                     has a html_src folder/dir. This html_src folder contains
-                    .ptml files for all .html files. So, in order to edit 
+                    .ptml files for all .html files. So, in order to edit
                     ‘abc.html’, we need to edit ‘abc.ptml’
                     </p>
                     <ul class="contents">
@@ -55,7 +56,7 @@
                     <li>
                     Step 2: edit ‘abc.ptml’ file
                     </li>
-                    <li> 
+                    <li>
                     Step 3:<br>
                             <code>git add abc.ptml</code><br>
                             <code>git commit abc.ptml</code>
@@ -67,7 +68,7 @@
                     Step 5: Do you see a makefile? great! :blush:<br>
                             <code>make local</code>
                             </li>
-                    <li>        
+                    <li>
                     Step 6: now check your abc.html file. It should have all
                     changes made to abc.ptml
                     </li>
