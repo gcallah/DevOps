@@ -6,6 +6,7 @@
         <title>
             My DevOps Story
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -24,7 +25,7 @@
             What is DevOps?
         </p>
         <p>
-    		DevOps brings together developers and operations, merging them into a single team, and driving them with the idea of mutual support. 
+    		DevOps brings together developers and operations, merging them into a single team, and driving them with the idea of mutual support.
 			DevOps methodology allows delivering software frequently with minor iterable changes.
     	</p>
 

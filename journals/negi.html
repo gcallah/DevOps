@@ -29,6 +29,14 @@
         <title>
             My DevOps Story
         </title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114841175-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-114841175-1');
+</script>
     </head>
 
     <body>
@@ -183,15 +191,15 @@
         </p>
         <div style="text-align: center;">
             <img src="https://memegenerator.net/img/instances/80736251/automate-everything.jpg">
-        </div> 
+        </div>
         <p>
         <h4>March 21, 2018 : Week 7</h4>
             SPRING BREAK<BR>
             Over the spring break I practiced Oauth using Github so that only a verified github user can access a server. I also tried creating a docker image for the Ruby app and experimented with different ways to do it. Docker image needs a DockerFile and a docker-compose.yml file. I faced some difficulties in the process because Docker makes use of VirtualBox, port assignment and networking is not my strongest point! Lots more to learn about containerization.
-            </p> 
+            </p>
         <p>
         <h4>March 13, 2018 : Week 6</h4>
-            We had Tom from Google give us a lecture on the Web Search and Scheduling. He works in the team that handles 'Join' on the database, which sounds easy but is pretty complicated when scaled to millions of nodes that are accounted during a particular google search or inside gmail. He also explained the differences between SRE and Engg.  
+            We had Tom from Google give us a lecture on the Web Search and Scheduling. He works in the team that handles 'Join' on the database, which sounds easy but is pretty complicated when scaled to millions of nodes that are accounted during a particular google search or inside gmail. He also explained the differences between SRE and Engg.
             </p>
         <p>
         <h4>March 7, 2018 : Week 5</h4>
@@ -201,31 +209,31 @@
             The DevOps principles are :<br>
             </p>
             <ul>
-                <li> 
+                <li>
                     3 ways: Process, Communication/Feedback, Innovation
                 </li>
-                <li> 
+                <li>
                     small batches: Force Fail Frequently, frequency reduces risk.
                 </li>
-                <li> 
+                <li>
                     MVP-Minimum Valuable Product: Deliver some value, small features sooner than delivering entire product in the end.
                 </li>
             </ul>
             <p>
-            The latter part of the session included learning about StackOverflow's operations and technologies. I personally feel the presentation and Tom's funny relatable pictures and examples made an hour seem less. Looking forward to the next talk in coming week. 
-        </p>  
+            The latter part of the session included learning about StackOverflow's operations and technologies. I personally feel the presentation and Tom's funny relatable pictures and examples made an hour seem less. Looking forward to the next talk in coming week.
+        </p>
         <p>
         <h4>Feb 26, 2018 : Week 3, 4</h4>
             Here's a documentation of what we have done so far in terms of codes and commands:
 
-            1: Install Docker : <a href="https://www.docker.com/get-docker"> Get Docker</a> <br> 
+            1: Install Docker : <a href="https://www.docker.com/get-docker"> Get Docker</a> <br>
             2: Download docker image for Nginx: docker pull nginx <br>
             3: Create a Docker container using command as follow:<br>
 
                 <div style="text-align: center;">
                     docker run --name DevopsNginx -p 8080:80 -v /Users/garima/Documents/Devops/DevOps:/usr/share/nginx/html nginx
                 </div>
-                <br>    
+                <br>
                 where --name is to specify the name of container being created. In above example, container name is 'DevopsNginx'<br>
                 -p is used for 'port mapping'. Here, 8080:80 specifies that port 8080 will now listen to port 80<br>
                 -v is used for 'volume mapping'. In above example, /usr/share/nginx/html is mounted to /Users/garima/Documents/Devops/DevOps (this is the same folder you have cloned the Devops repository to)<br>
@@ -241,9 +249,9 @@
         <h4>Feb 7, 2018 : Week 1</h4>
             Intro: In Fall'16, I took the Distributed Systems class under Prof. Rosenfeld and was introduced to concepts of Site Reliability, Server Handling, CAP theorem and so on. A class that I took just to learn something new, paved my way into the world of Devops. <br>
             With the little that I could absorb in a span of those 4 months, I stepped into the NYU IT office as a student worker. Under guidance of my mentor and tech lead, I refined my scripting skills, got hands-on GitHub experience and worked in an Agile-SCRUM environment. I was introduced to automated testing, pipelining, deployment for keeping NYU Web Publishing service up and running.<br>
-            In Devops Spring 2018 I look forward to team building and collaborative work.    
+            In Devops Spring 2018 I look forward to team building and collaborative work.
         </p>
-        
+
         </div>
         </div>
 

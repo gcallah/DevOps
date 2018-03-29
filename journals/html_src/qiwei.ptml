@@ -6,6 +6,7 @@
         <title>
             My DevOps Story
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -31,7 +32,7 @@
             My name is Qiwei Zhou, a graduate student in NYU Tandon School of Engineering. By taking this course on DevOps, I am hoping to get a better understanding of how software development works in industry. Through participation and practice, I wish I can learn what processes and procedures the real world software engineers have adopted to make development more efficient and also why they are doing this.
         </p>
 
-        <p> 
+        <p>
             We will be doing a whole-class project this semester and we have a really HUGE team! It's an honor to be a part of this magnificent project. Good luck!
         </p>
 
@@ -47,7 +48,7 @@
         </p>
 
         <p>
-            We gave a presentation to the entire team about what we have done. I Worked on the style sheet to make the background brighter and the font colors darker. However, some aspects are not covered. Need to keep this in mind in the future. 
+            We gave a presentation to the entire team about what we have done. I Worked on the style sheet to make the background brighter and the font colors darker. However, some aspects are not covered. Need to keep this in mind in the future.
             After finishing the style sheet, we will be working on the HTML code.
         </p>
 
