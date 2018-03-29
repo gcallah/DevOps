@@ -20,6 +20,24 @@
             <br />
             Drumil Bakhai
             </p>
+            <p>
+                Week 7:
+                <br>
+                <br>
+                Since the class faced the problem of updating submodule
+                utils, I and Janeil worked together to change the make file
+                
+                The submodule were updated simply by changing directories to 
+                util (submodule). Then once inside the submodule a simple
+                git submodule update.
+
+                <br>
+                <br>
+                Additionally I am working on setting up a Jenkins server 
+                on Docker Images and then uploading on Kubernetes cluster
+                This gave a nice exposure to different container 
+                orchestration tools like Kubernetes.
+            </p>
 
             <p>
                 Week 6:
