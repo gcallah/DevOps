@@ -25,6 +25,24 @@
             <img src="https://memegenerator.net/img/instances/80736251/automate-everything.jpg">
         </div>
         <p>
+        <h4>March 29, 2018 : Week 8</h4>
+            Last week we had Joe West, CTO of BounceX meet us in class. He spoke of 4 important things to know about DevOps and the tools associated with it. 
+            <ul>
+                <li>
+                    Business is the thing: DevOps services are expensive and don't always save money. We must give thought to cost, business and purpose before resorting to the tools instead of using them just because they are cool.
+                </li>
+                <li>
+                    Rightsize toolchain: many a times, our business may not need all of the tools. simple combination of EC2, CI/CD and a Db may suffice. hence, it is importnat to understand where the optimization is worth. 
+                </li>
+                <li>
+                    Productivity is the best practice: We must try to automate things that are done repeatedly and take much of our time.
+                </li>
+                <li>
+                    Document and rehearse: Documentation is essential to keep a record for purposes of handover or backtracking or rollbacks. Rehearsing critical events makes us better equiped at handling the real scenarios.
+                </li>
+            </ul>
+            </p>
+        <p>
         <h4>March 21, 2018 : Week 7</h4>
             SPRING BREAK<BR>
             Over the spring break I practiced Oauth using Github so that only a verified github user can access a server. I also tried creating a docker image for the Ruby app and experimented with different ways to do it. Docker image needs a DockerFile and a docker-compose.yml file. I faced some difficulties in the process because Docker makes use of VirtualBox, port assignment and networking is not my strongest point! Lots more to learn about containerization.
