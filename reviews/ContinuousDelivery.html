@@ -30,6 +30,14 @@
     <title>
         Continuous Delivery
     </title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114841175-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-114841175-1');
+</script>
 </head>
 
 <body>
@@ -181,14 +189,14 @@
                 <br> Reviewers: Ravish Bhatia, Sneha Ghosh
             </p>
             <p>
-                This book recommends best practises for continuous, reliable 
-                and efficient software delivery. The goal is to deliver value 
-                to the customer as early as possible and get faster feedback. 
-                It talks about ways to reduce time and risks associated with 
-                new versions of software. It describes the ways to make 
-                delivery reliable, visible and automated using a deployment 
-                pipeline. It highlights the importance of collaboration among 
-                the people responsible for delivering software and how they 
+                This book recommends best practises for continuous, reliable
+                and efficient software delivery. The goal is to deliver value
+                to the customer as early as possible and get faster feedback.
+                It talks about ways to reduce time and risks associated with
+                new versions of software. It describes the ways to make
+                delivery reliable, visible and automated using a deployment
+                pipeline. It highlights the importance of collaboration among
+                the people responsible for delivering software and how they
                 can get involved effectively to achieve the goals.
             </p>
             <details>
@@ -197,14 +205,14 @@
                 </summary>
                 <p>
                 The authors start by illustrating their goal building a
-                deployment pipeline, which is an automated implementation of 
+                deployment pipeline, which is an automated implementation of
                 the application’s build, deploy, test, and release process.
-                They discuss the common antipatterns prevalent in software 
-                releases today, and the benefits of their approach. They also 
+                They discuss the common antipatterns prevalent in software
+                releases today, and the benefits of their approach. They also
                 briefly discuss that to achieve their goal, the software needs
-                to be frequently and automatically released. Finally they 
-                discuss some of the principles of software delivery like 
-                reliable releases, automation, version control, continuous 
+                to be frequently and automatically released. Finally they
+                discuss some of the principles of software delivery like
+                reliable releases, automation, version control, continuous
                 improvement etc.
                 </p>
             </details>
@@ -217,15 +225,15 @@
                 the process by which all relevant artifacts for a project and
                 the relationship between them are stored, retrieved, uniquely
                 identified and modified. They highlight how version control
-                fosters collaboration among teams distributed in space and 
+                fosters collaboration among teams distributed in space and
                 time. The authors recommend checking in everything in trunk on
-                a regular and frequent basis and oppose the practice of using 
-                branches. The authors also emphasize the importance of testing 
-                and proper management of configurations. They stress the 
-                importance of managing the environment by creating a fully 
-                automated process. Thus they try to highlight the importance 
-                of configuration management which is the foundation for 
-                continuous integration, release management and deployment 
+                a regular and frequent basis and oppose the practice of using
+                branches. The authors also emphasize the importance of testing
+                and proper management of configurations. They stress the
+                importance of managing the environment by creating a fully
+                automated process. Thus they try to highlight the importance
+                of configuration management which is the foundation for
+                continuous integration, release management and deployment
                 pipeline.
                 </p>
             </details>
@@ -264,24 +272,24 @@
                 <p>
                 This chapter focuses on the planning and impementation of
                 effective automation testing systems and their benefits.
-                The authors encourage writing testing scripts from the 
+                The authors encourage writing testing scripts from the
                 beginning of the project and running them within the
-                deployment pipeline which is triggered whenever any change 
+                deployment pipeline which is triggered whenever any change
                 is made to the application. They describe the different types
-                of tests in detail like acceptance tests, unit tests, 
-                component tests and deployment tests. Manual testing 
-                techniques like showcases, usability testing and exploratory 
+                of tests in detail like acceptance tests, unit tests,
+                component tests and deployment tests. Manual testing
+                techniques like showcases, usability testing and exploratory
                 testing are important to build quality. They talk about modern
-                automated functional testing tools like Cucumber, JBehave, 
-                Concordion and Twist and their benefits. They describe the 
-                process by which testing strategy can be implemented by 
-                bringing together all the stakeholders to note down the 
-                highest priority scenarios every iteration and then building 
+                automated functional testing tools like Cucumber, JBehave,
+                Concordion and Twist and their benefits. They describe the
+                process by which testing strategy can be implemented by
+                bringing together all the stakeholders to note down the
+                highest priority scenarios every iteration and then building
                 automation for them.
-                Thus authors highlight that automation testing should be 
+                Thus authors highlight that automation testing should be
                 included from the beginning to develop a feedback loop which
-                generates higher quality, higher productivity and also the 
-                measure of the doneness of the project. 
+                generates higher quality, higher productivity and also the
+                measure of the doneness of the project.
                 </p>
             </details>
             <details>
@@ -289,19 +297,19 @@
                     Chapter 5: Anatomy of the Deployment Pipeline
                 </summary>
                 <p>
-                The authors describe deployment pipeline as the process of 
-                automating the build, deploy, test, and release process to 
-                deliver the feature from check-in to release. They describe 
-                the different stages of deployment pipeline and the best 
-                practices which should be followed in each of those stages. 
-                They also describe the steps to implement a deployment 
-                pipeline. Feedback is important in software delivery and can 
-                be measured by various metrics. The authors suggest having a 
-                global metric like cycle time to measure feedback and its 
-                measurement should be simple and made visible to discover 
-                bottlenecks. Thus the deployment pipeline should help in 
-                discovering which check-ins have caused issues and should 
-                allow everyone involved in software delivery to get visibility 
+                The authors describe deployment pipeline as the process of
+                automating the build, deploy, test, and release process to
+                deliver the feature from check-in to release. They describe
+                the different stages of deployment pipeline and the best
+                practices which should be followed in each of those stages.
+                They also describe the steps to implement a deployment
+                pipeline. Feedback is important in software delivery and can
+                be measured by various metrics. The authors suggest having a
+                global metric like cycle time to measure feedback and its
+                measurement should be simple and made visible to discover
+                bottlenecks. Thus the deployment pipeline should help in
+                discovering which check-ins have caused issues and should
+                allow everyone involved in software delivery to get visibility
                 into the progress of builds.
                 </p>
             </details>
@@ -310,21 +318,21 @@
                     Chapter 6: Build and Deployment Scripting
                 </summary>
                 <p>
-                The authors describe the techniques of creating an 
-                automated build and deployment process. They categorize 
-                the build tools into task oriented and product oriented 
-                tools describing their properties and the principles common 
-                to all the build and deployment tools. 
-                They also describe the advantages and disadvantages of some 
-                commonly used build tools like Make, Ant, Maven, Rake, 
-                Buildr. They discuss some of the best practices commonly 
-                used in the deployment setup for any application. 
-                The standard project layout used by Maven is described 
+                The authors describe the techniques of creating an
+                automated build and deployment process. They categorize
+                the build tools into task oriented and product oriented
+                tools describing their properties and the principles common
+                to all the build and deployment tools.
+                They also describe the advantages and disadvantages of some
+                commonly used build tools like Make, Ant, Maven, Rake,
+                Buildr. They discuss some of the best practices commonly
+                used in the deployment setup for any application.
+                The standard project layout used by Maven is described
                 which gives a good idea for structuring any application.
-                The strategies and best practices to solve common build and 
-                deployment problems  are discussed. The authors emphasize 
-                that the deployment scripts should be version-controlled, 
-                maintained, tested, and refactored and should be the only 
+                The strategies and best practices to solve common build and
+                deployment problems  are discussed. The authors emphasize
+                that the deployment scripts should be version-controlled,
+                maintained, tested, and refactored and should be the only
                 way to deploy the software.
                 </p>
             </details>
