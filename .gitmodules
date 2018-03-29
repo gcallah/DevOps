@@ -1,3 +1,6 @@
 [submodule "TheDevOpsCourse"]
 	path = TheDevOpsCourse
 	url = https://github.com/gcallah/TheDevOpsCourse.git
+[submodule "utils"]
+	path = utils
+	url = https://github.com/gcallah/utils.git

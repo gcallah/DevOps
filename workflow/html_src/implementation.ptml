@@ -5,6 +5,7 @@
         <title>
             Our workflow Implementation
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -14,13 +15,13 @@
                 <h1>
                     Our workflow Implementation
                 </h1>
-        
+
                 <p>
                     We have adopted
                     <a href="https://slack.com/">Slack</a>
                     as our main communication tool.
                 </p>
-        
+
                 <p>
                     We use Kanban boards to manage our workflow and restrict
                     work-in-progress. We are using

@@ -5,6 +5,7 @@
         <title>
             Lean Principles
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -46,5 +47,3 @@
         </div>
     </body>
 </html>
-
-

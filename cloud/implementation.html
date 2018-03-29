@@ -27,8 +27,16 @@
              });
          </script>
         <title>
-            Cloud Theory
+            Our Cloud Implementation
         </title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114841175-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-114841175-1');
+</script>
     </head>
 
     <body>
@@ -130,7 +138,10 @@
                 <li>
                   <a href="#UXSubmenu" data-toggle="collapse" aria-expanded="false">UX: User Interface</a>
                   <ul class="collapse list-unstyled" id="UXSubmenu">
-                    <li><a href="https://gcallah.github.io/DevOps/UX/UXTeamPage.html">Team Info</a></li>
+                    <li><a href="https://gcallah.github.io/DevOps/UX/links.html">UX links</a></li>
+                    <li><a href="https://gcallah.github.io/DevOps/UX/theory.html">UX theory</a></li>
+                    <li><a href="https://gcallah.github.io/DevOps/UX/tools.html">UX tools</a></li>
+                    <li><a href="https://gcallah.github.io/DevOps/UX/implementation.html">Our UX implementation</a></li>
                   </ul>
                 </li>
             </ul>
@@ -170,206 +181,14 @@
 </nav>
             <div id="content">
                 <h1>
-                    Cloud Implementation
+                    Our Cloud Implementation
                 </h1>
-        
-                <p>The AWS Management Console is a web application that comprises 
-                   and refers to a broad collection of service consoles for managing 
-                   Amazon Web Services. When you first sign in, you see the console home page.
 
-                <br />
-                <br />
-                <figure>
-                  <img src="https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/images/console-home.png" alt="Mountain View" style="width:604px;height:442px;">
-                <figcaption> </figcaption>
-                </figure>
-                   
-                
-
-                </p>
-                 <br />
-                 <br />
                 <p>
-                  The home page provides access to each service console as well as an intuitive 
-                  user interface for exploring AWS and getting helpful tips. Among other things, 
-                  the individual service consoles offer tools for working with Amazon S3 buckets, 
-                  launching and connecting to Amazon EC2 instances, setting Amazon CloudWatch 
-                  alarms, and getting information about your account and about billing.
-                  </p>
-                  <br />
-
-                  <figure>
-                    <img src="https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/images/console-parts-new.png" alt="Mountain View" style="width:604px;height:442px;">
-                  <figcaption> </figcaption>
-                  </figure>
-                  
-                
-               
-
-                  <br />
-                  <br />
-
-                 <h1>
-                    How to host a Website on AWS S3?
-                </h1>
-                
-               <p>
-                  The following steps need to be followed if we wish to host a website on Amazon S3:
-                <ul>
-                <li> Register a Domain</li>
-                <li> Create and Configure Buckets and Upload Data</li>
-                <li> Create and Configure Amazon Route 53 Hosted Zone</li>
-                <li> Switch to Amazon Route 53 as Your DNS Provider</li>
-                <li> Testing</li>
-              </ul>
-           
-        </p>
-           <br />
-        <p>
-
-                  You use Amazon S3 to create buckets, upload a sample website page, configure 
-                  permissions so that everyone can see the content, and then configure the 
-                  buckets for website hosting. You host content in the bucket. 
-        </p>
-           <br />
-       
-           
-        <p>
-                  To configure your buckets for website hosting
-          <ul>
-              <li>Sign in to the AWS Management Console and open the Amazon S3 console at 
-                  https://console.aws.amazon.com/s3/</li>
-
-              <li>In the Bucket name list, choose the name of the bucket that you want to 
-                  enable static website hosting for</li>
-
-              <li>Choose Properties</li>
-
-              <li>Choose Static website hosting</li>
-
-              <li>Configure the gcallah.github.io bucket for website hosting. In the Index 
-                  Document box, type the name that you gave your index page</li>
-
-           </ul> 
-        </p>
-           <br />
-        <p>
-               Now, since we have our domain name ready, let's continue with the further steps. 
-
-               We need to create the bucket. The bucket name must match with our website. In our 
-               case, to host gcallah.github.io on Amazon S3, we will name the bucket gcallah.github.io.
-
-
-
-            <ul>
-            <li>So, sign in to the Amazon S3 console at https://console.aws.amazon.com/s3/ with your 
-              AWS account credentials and create the following
-                bucket:</li>
-
-              <h8><b>gcallah.github.io</b></h8>
-            </br>
-            </br>
-            <figure>
-                    <img src="graphics/1.PNG" style="width:604px;height:442px;">
-            <figcaption> </figcaption>
-            </figure>
-              
-
-            <li>Select the desired setting and complete the process</li>
-</ul>
-</p>
-</br>
-<p>
-  <ul>
-            Once you have created the bucket, we configure it for website hosting
-
-            <li>Now, from the Amazon S3 Console, select the bucket name that we want to enable 
-                static website hosting for</li>
-
-            <li>Select Properties</li>
-
-            <li>Select Static website hosting</li>
-
-            <li>Configure the gcallah.github.io bucket for website hosting. In the Index Document 
-                box, type the name of the our index page</li>
-
-          </br>
-
-            <figure>
-                    <img src="graphics/3.PNG" style="width:604px;height:442px;">
-            <figcaption> </figcaption>
-            </figure>
-            
-
-          </p>
-           <br />
-          <p>
-            Once you do this and click on the endpoint url, it doesn't show you our website. 
-            This is because we haven't uploaded anything into our bucket yet
-
-          </br>
-        </br>
-          <figure>
-                    <img src="graphics/404.PNG" style="width:604px;height:442px;">
-            <figcaption> </figcaption>
-            </figure>
-          
-          </br>
-          </br>
-          <p>
-          Hence, we go to the bucket and upload our entire code there
-          </p>
-            </br>
-          </p>
-          <figure>
-              <img src="graphics/4.PNG" style="width:604px;height:442px;">
-          <figcaption> </figcaption>
-          </figure>
-          
-          </br>
-          </br>
-          <figure>
-              <img src="graphics/5.PNG" style="width:604px;height:442px;">
-          <figcaption> </figcaption>
-          </figure>
-          
-        </br>
-        <p>Once you have uploaded the code, hit the refresh button on the endpoint url. 
-           We still see that error 404.
-
-          This is because our bucket is publicly inaccessible by default. We need to make 
-          them public. This can be done by two ways. First is either manually set the 
-          properties for each file uploaded. Second is by creating a privacy policy. 
-        </p>
-           <br />
-        <p>
-          To create a privcy policy, go to the bucket
-
-          Select permissions
-
-          Enter the snippet into the editor and save it
-           </br>
-           <figure>
-              <img src="graphics/7.PNG" style="width:604px;height:442px;">
-          <figcaption> </figcaption>
-          </figure>
-            
-</p>
-<p>
-          Once this policy is created, you'll be able to see the contents of the webpage 
-          on hitting refresh.
-           </br>
-           <figure>
-              <img src="graphics/8.PNG" style="width:604px;height:442px;">
-          <figcaption> </figcaption>
-          </figure>
-        </p>
-
-     
-        
-
-
+                    Our cloud implementation will be described here.
+                </p>
             </div>
         </div>
+
     </body>
 </html>

@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
         <title>
             Review of Practical DevOps - Joakim Verona
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Practical DevOps - Joakim Verona
-        </h1>
+      <div class="wrapper">
+          <!--include navbar.txt -->
+          <div id="content">
+            <h1>
+                Practical DevOps - Joakim Verona
+            </h1>
 
-        <p class="author">
-            Reviewers: Kanishk Dugar and Pravar Singh
-        </p>
+            <p class="author">
+                Reviewers: Kanishk Dugar and Pravar Singh
+            </p>
+          </div>
+      </div>
     </body>
 </html>

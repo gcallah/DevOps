@@ -5,6 +5,7 @@
         <title>
             Our Coding Implementation
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -14,11 +15,11 @@
                 <h1>
                     Our Coding Implementation
                 </h1>
-        
+
                 <p>
                     This is how we implemented coding standards and practicing.
                 </p>
-        
+
                 <ul class="contents">
                     <li>
                         <a href="../html_guide.html">
@@ -26,18 +27,18 @@
                         </a>
                     </li>
                 </ul>
-        
+
                 <h2>
                     Our Django Site
                 </h2>
-        
+
                 <p>
                     At PythonAnywhere, we are working
                     on porting to a Django site for
                     the course, so we can take advantage of the dynamic backend
                     capabilities of Django.
                 </p>
-        
+
                 <p>
                     Amongst other things, we need to
                     build Docker images so developers
@@ -46,7 +47,7 @@
                     end, we are collecting details of
                     our PythonAnywhere env:
                 </p>
-        
+
                 <ul class="contents">
                     <li>
                         <a href="https://hub.docker.com/r/gcallah/django/">
@@ -54,7 +55,7 @@
                         </a>
                     </li>
                 </ul>
-         
+
                 <p>
                     Down the road, these Docker images will be used for cloud
                     deployment.

@@ -5,6 +5,7 @@
         <title>
             Cloud Theory
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -14,7 +15,7 @@
                 <h1>
                     Cloud Theory
                 </h1>
-        
+
                 <p>
                     Why deploy to the cloud instead of managing one's own
                     infrastructure? One reason is to let the pros at managing a
