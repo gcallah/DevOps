@@ -96,6 +96,10 @@
                     <b>Arachni</b>
                     <a href="http://www.arachni-scanner.com/">http://www.arachni-scanner.com/</a>
                 </li>
+                <li>
+                    <b>Nikto</b>
+                    <a href="http://sectools.org/tool/nikto/">http://sectools.org/tool/nikto/</a>
+                </li>
             </ul>
 
             <h5>
