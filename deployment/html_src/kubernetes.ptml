@@ -5,6 +5,7 @@
         <title>
             Kubernetes
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
     <body>
         <div class="wrapper">

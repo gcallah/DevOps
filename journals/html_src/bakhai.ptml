@@ -5,6 +5,7 @@
         <title>
             My DevOps Story
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -20,6 +21,41 @@
             <br />
             Drumil Bakhai
             </p>
+            <p>
+                Week 7:
+                <br>
+                <br>
+                Since the class faced the problem of updating submodule
+                utils, I and Janeil worked together to change the make file
+
+                The submodule were updated simply by changing directories to
+                util (submodule). Then once inside the submodule a simple
+                git submodule update.
+
+                <br>
+                <br>
+                Additionally I am working on setting up a Jenkins server
+                on Docker Images and then uploading on Kubernetes cluster
+                This gave a nice exposure to different container
+                orchestration tools like Kubernetes.
+            </p>
+
+            <p>
+                Week 6:
+                <br>
+                <br>
+                The spring break provided the perfect opportunity to explore
+                learn and experinment new things.
+                I enrolled in lynda.com's couse for Docker which explained
+                the concepts of docker easily.
+                The course gave me a quick idea of how efficient the
+                use of Docker is. I am currently working to dockerize
+                entire application which involves web-servers, database,
+                load balances etc with the help of docker.
+                As mentioned the last week's material, I was able to
+                configure AWS EC2 instance using Terraform.
+
+            </p>
 
             <p>
                 Week 5:
@@ -33,8 +69,8 @@
                 in just not only the field of DevOps or Computer Science
                 but also in normal day-to-day life.
                 <br>
-                After attending the lecture I read quite lot of blogspot 
-                regarding system reliability and maintanence. 
+                After attending the lecture I read quite lot of blogspot
+                regarding system reliability and maintanence.
                 The vital part in any robust system is replication and
                 load balancing. Therefore I am trying to design a simple
                 system with multiple replicated servers on AWS using
@@ -43,7 +79,7 @@
                 <br>
                 Additionally, at my workplace I am trying to setup university
                 wide Jenkins Tool over AWS.
-                
+
 
             </p>
 
@@ -83,7 +119,7 @@
             <p>
                 Week 2:
                 <br>
-                <br> 
+                <br>
                 We completed the proper installation
                 of Docker and
                 ran our DevOps website inside the new container

@@ -5,6 +5,7 @@
         <title>
             Our Cloud Implementation
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -14,7 +15,7 @@
                 <h1>
                     Our Cloud Implementation
                 </h1>
-        
+
                 <p>
                     Our cloud implementation will be described here.
                 </p>

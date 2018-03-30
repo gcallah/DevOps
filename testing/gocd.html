@@ -29,6 +29,14 @@
         <title>
             Our Evaluation of GoCD
         </title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114841175-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-114841175-1');
+</script>
     </head>
 
     <body>
@@ -130,7 +138,10 @@
                 <li>
                   <a href="#UXSubmenu" data-toggle="collapse" aria-expanded="false">UX: User Interface</a>
                   <ul class="collapse list-unstyled" id="UXSubmenu">
-                    <li><a href="https://gcallah.github.io/DevOps/UX/UXTeamPage.html">Team Info</a></li>
+                    <li><a href="https://gcallah.github.io/DevOps/UX/links.html">UX links</a></li>
+                    <li><a href="https://gcallah.github.io/DevOps/UX/theory.html">UX theory</a></li>
+                    <li><a href="https://gcallah.github.io/DevOps/UX/tools.html">UX tools</a></li>
+                    <li><a href="https://gcallah.github.io/DevOps/UX/implementation.html">Our UX implementation</a></li>
                   </ul>
                 </li>
             </ul>
@@ -185,7 +196,7 @@
             released as open source in 2014.
         </p><br>
         <ul>
-            
+
             <li>
             GoCD can easily model and visualize complex workflows. It is
             suitable for single purpose, focused tool.
@@ -205,36 +216,36 @@
             GoCD provides parallel execution across pipelines, platforms,
             versions, branches, etc. and helps eliminate bottlenecks.
                    </li>
-        </ul><br> 
+        </ul><br>
         <h2>Now for some things that are not so good with GoCD:</h2>
         <ul>
-            
+
             <li>
             GoCD is built specifically with CD in mind as compared to Jenkins
             and Travis that are built for CI. This is a huge factor since we
             are looking for CI at this stage.
             </li>
-                        
+
             <li>
             It uses a bit more memory than Jenkins which can be a problem if it
             runs on Windows VM.
             </li>
-                        
+
             <li>
             Almost all operations are shell based, as compared to GUI support
             through Jenkins and travis plugins
             </li>
-                        
+
             <li>
             GoCD does not have a large plugin ecosystem and there are very few
             documented integrations
             </li>
-                        
+
             <li>
             GoCD's community is only 1000 members strong as it is relatively
             new. It hasn't been used by many companies yet and documentation is
             comparitively less. This means there is still a great scope for
-            development and newer versions. 
+            development and newer versions.
             </li>
         </ul>
             </div>

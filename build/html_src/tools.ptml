@@ -5,6 +5,7 @@
         <title>
             Build Tools Comparison
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -18,9 +19,9 @@
 
         <p>
             A "Build tool" is a single term that refers to anything that is needed
-             to get a piece of software set up, but isn't needed after that. There 
-             are numerous number of build tools each having a different set of 
-             tradeoffs associated with them. Here are some of the major build tools 
+             to get a piece of software set up, but isn't needed after that. There
+             are numerous number of build tools each having a different set of
+             tradeoffs associated with them. Here are some of the major build tools
              and their features:
         </p>
         <details>
@@ -29,18 +30,18 @@
                 </summary>
                 <ul class="nested">
                     <p>
-                        Make was first created in 1976, but the variants of this build 
-                        tool are still going strong in today’s world of system development. In 
-                        make we have to specify dependency followed by a rule to resolve those 
+                        Make was first created in 1976, but the variants of this build
+                        tool are still going strong in today’s world of system development. In
+                        make we have to specify dependency followed by a rule to resolve those
                         dependencies. It is a powerful product oriented tool which is highly capable
                         of tracking dependencies within a build and building only those parts/components
                         that have been updated/changed. Thus helping in optimizing performance whereby
                         compilation time is crucial in development cycles. The drawback of this
                         tool is that with increase in the rise of complexity, the number of dependency
-                        between their component also increases causing the rules even more complex 
+                        between their component also increases causing the rules even more complex
                         making it really hard to debug. To make things better for this drawback we
-                        regularly see teams making a MakeFile in each sub-directory and a top level 
-                        MakeFile. The top level MakeFile recursively runs the subdirectories 
+                        regularly see teams making a MakeFile in each sub-directory and a top level
+                        MakeFile. The top level MakeFile recursively runs the subdirectories
                         resulting in the build information and processes to spread over many files.
                         The other drawbacks of this tool is that due to significant amount of
                         whitespaces it makes it susceptible to hard-to-find class of bugs.
@@ -55,19 +56,19 @@
                 </summary>
                 <ul class="nested">
                     <p>
-                        Ant is a task oriented build tool which was first released in 2000. The 
+                        Ant is a task oriented build tool which was first released in 2000. The
                         limitations found in Make tool led to the Java Community to experiment different
-                        solutions such as porting Make to Java. At this same time XML was coming up into 
-                        prominence as a build tool. Combining the power of both these approaches led to 
-                        the Apache Ant build tool. Being fully cross platform , a set of instructions 
-                        are writted in Java to basic operations like compilation and file manipulation. 
+                        solutions such as porting Make to Java. At this same time XML was coming up into
+                        prominence as a build tool. Combining the power of both these approaches led to
+                        the Apache Ant build tool. Being fully cross platform , a set of instructions
+                        are writted in Java to basic operations like compilation and file manipulation.
                         Besides being cross-platform it is also an extremely flexible and powerful system,
-                        with Ant Tasks for most things we want to do. Despite of being powerful, 
-                        it comes with certain drawbacks namely the build scripts have to be written 
+                        with Ant Tasks for most things we want to do. Despite of being powerful,
+                        it comes with certain drawbacks namely the build scripts have to be written
                         in XML (not quite pleasant for human readability), a lot of time has to be spent
                         in performing tasks (writing boiler plate to compile, create jars, run tests etc)
                         due to lack of a real domain concept. Ant files are poorly factored and tend to
-                        get really long, it wont be surprising if we see thousands of lines long. 
+                        get really long, it wont be surprising if we see thousands of lines long.
                     </p>
                 </ul>
         </details>
@@ -77,17 +78,17 @@
                 </summary>
                 <ul class="nested">
                     <p>
-                        Maven is another build tool that was released in 2004. Maven was built 
+                        Maven is another build tool that was released in 2004. Maven was built
                         with the goal to improve on the problems that were faced while using the Ant tool.
-                        Maven still has use of XML but relatively less when compared to the Ant tool. Maven 
+                        Maven still has use of XML but relatively less when compared to the Ant tool. Maven
                         guaranties that it will perform any kind of build, deploy, test and release task with a
-                        single command as long as we conform to the structure dictated by Maven. The disadavntage 
-                        lies in the fact that we have to conform to the Maven structure, if we dont follow the 
-                        Maven structure then it is almost impossible to make Maven do what we want. Another 
-                        disadvantage lies in the fact that it uses an external DSL (Domain Specific Language) 
-                        written in XML, which means that if we want to extend it then we have to spend a lot of time 
-                        learning something extra and making it work. Maven might also end up creating issues since it 
-                        continuously tries to automatically upgrade itself every time it runs, this means some 
+                        single command as long as we conform to the structure dictated by Maven. The disadavntage
+                        lies in the fact that we have to conform to the Maven structure, if we dont follow the
+                        Maven structure then it is almost impossible to make Maven do what we want. Another
+                        disadvantage lies in the fact that it uses an external DSL (Domain Specific Language)
+                        written in XML, which means that if we want to extend it then we have to spend a lot of time
+                        learning something extra and making it work. Maven might also end up creating issues since it
+                        continuously tries to automatically upgrade itself every time it runs, this means some
                         plugins might end up failing and we wont be able to reproduce our builds.
                     </p>
                 </ul>
@@ -98,35 +99,35 @@
                     PyBuild
                 </summary>
                 <p>
-                    Build tools are usually used to perform pre-checks in 
-                    the code before they are sent out for testing and 
-                    deployments. 
-                    Consider a scenario where there are hundreds of 
-                    developers working on the single project. 
+                    Build tools are usually used to perform pre-checks in
+                    the code before they are sent out for testing and
+                    deployments.
+                    Consider a scenario where there are hundreds of
+                    developers working on the single project.
                     Each developers have certain unique coding style.
-                    If each developer commits their changes according to 
+                    If each developer commits their changes according to
                     their style or ideology, there would be hundreds of
-                    different styles leading to inconsistencies all 
+                    different styles leading to inconsistencies all
                     over code base. This is where build tools come into
-                    picture. As seen in our class the use of html checker 
-                    allowed developers to deploy only after the 
-                    checks were successful. There are other aspects and 
-                    uses of build tools too. The build tools performs 
-                    dependencies check, 
-                    improve compile and link time and 
-                    reduces the bad builds. 
-                    
-                    PyBuild is one of the build tools which is largely 
-                    based for Python Projects. 
-                    PyBuild supports all the standard features of a 
+                    picture. As seen in our class the use of html checker
+                    allowed developers to deploy only after the
+                    checks were successful. There are other aspects and
+                    uses of build tools too. The build tools performs
+                    dependencies check,
+                    improve compile and link time and
+                    reduces the bad builds.
+
+                    PyBuild is one of the build tools which is largely
+                    based for Python Projects.
+                    PyBuild supports all the standard features of a
                     typical build tools.
 
-                    There are tons of plugins created by Python 
-                    developers to 
-                    support easy building of Python Projects. 
-                    The plugins are present for the following 
+                    There are tons of plugins created by Python
+                    developers to
+                    support easy building of Python Projects.
+                    The plugins are present for the following
                     areas in Build:
-                    
+
                     <ul class="contents">
                       <li>Unit Testing</li>
                       <li>Measuring Unit Test Coverage</li>
@@ -139,7 +140,7 @@
         <hr>
 
         <p>
-        Sources: 
+        Sources:
         <a href="http://pybuilder.github.io/"> PyBuild </a>
         <a href="https://en.wikipedia.org/wiki/Build_automation"> Build Concept </a>
         </p>
@@ -149,7 +150,3 @@
 
     </body>
 </html>
-
-
-
- 
