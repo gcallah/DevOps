@@ -52,6 +52,17 @@
                         lifecycle from the start. It also helps keep security
                         balanced with business objectives.
                 </li>
+
+                <li>
+                    <a href="https://www.cybrary.it/course/web-application-pen-testing/">
+                        DevOps:Performing Penetration Testing on Web Based Application to find Vulnerabilities
+                    </a>
+                    <br />
+                        Performing a Automated/Manual penetration testing in SDLC can help to find
+                        vulnerability at early stage of development and reduce the threat to the system.
+                        Its good to work in tandem with penetration tetsing team to build a robust 
+                        security posture. 
+                </li>
             </ul>
             </div>
         </div>
