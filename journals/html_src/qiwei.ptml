@@ -1,63 +1,65 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+    <!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
-        <!--include googleAnalyticsScript.txt -->
+    <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
+        <div class="wrapper">
+        <!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    My DevOps Story
+                </h1>
 
-        <h1>
-            My DevOps Story
-        </h1>
+                <p class="author">
+                    by
+                    <br />
+                    Qiwei Zhou
+                </p>
+                <p class="leadquote">
+                  Team: User Interface
+                </p>
+                <br>
+                <p class="leadquote">
+                    Brief Introduction
+                </p>
+                <p>
+                    My name is Qiwei Zhou, a graduate student in NYU Tandon School of Engineering. By taking this course on DevOps, I am hoping to get a better understanding of how software development works in industry. Through participation and practice, I wish I can learn what processes and procedures the real world software engineers have adopted to make development more efficient and also why they are doing this.
+                </p>
 
-        <p class="author">
-            by
-            <br />
-            Qiwei Zhou
-        </p>
-        <p class="leadquote">
-          Team: User Interface
-        </p>
-        <br>
-        <p class="leadquote">
-            Brief Introduction
-        </p>
-        <p>
-            My name is Qiwei Zhou, a graduate student in NYU Tandon School of Engineering. By taking this course on DevOps, I am hoping to get a better understanding of how software development works in industry. Through participation and practice, I wish I can learn what processes and procedures the real world software engineers have adopted to make development more efficient and also why they are doing this.
-        </p>
+                <p>
+                    We will be doing a whole-class project this semester and we have a really HUGE team! It's an honor to be a part of this magnificent project. Good luck!
+                </p>
 
-        <p>
-            We will be doing a whole-class project this semester and we have a really HUGE team! It's an honor to be a part of this magnificent project. Good luck!
-        </p>
+                <p>
+                    Working with my teammates to update the stylesheet for our website. After discussion, we decide to work on the index page first. The three os of us will be working on three different styles so we can compare with each other when we finish with the index page. Next, we will meet and sort out a final style for the entire website. We agree to start as soon as possible since we may find better styles when we begin to implement.
+                </p>
+                <p>
+                    Just finished with my new style for the index page. A new navigation bar is added and the contents are reorganized in a grid system. Also switched to a brighter colour theme. These should make our website feel more like an IT site.
+                </p>
 
-        <p>
-            Working with my teammates to update the stylesheet for our website. After discussion, we decide to work on the index page first. The three os of us will be working on three different styles so we can compare with each other when we finish with the index page. Next, we will meet and sort out a final style for the entire website. We agree to start as soon as possible since we may find better styles when we begin to implement.
-        </p>
-        <p>
-            Just finished with my new style for the index page. A new navigation bar is added and the contents are reorganized in a grid system. Also switched to a brighter colour theme. These should make our website feel more like an IT site.
-        </p>
+                <p>
+                    We now have a sidebar template for our website. Include this template (with the new style2.css stylesheet) on the webpage will give the page a new look! Further negotiations needed to move forward.
+                </p>
 
-        <p>
-            We now have a sidebar template for our website. Include this template (with the new style2.css stylesheet) on the webpage will give the page a new look! Further negotiations needed to move forward.
-        </p>
+                <p>
+                    We gave a presentation to the entire team about what we have done. I Worked on the style sheet to make the background brighter and the font colors darker. However, some aspects are not covered. Need to keep this in mind in the future.
+                    After finishing the style sheet, we will be working on the HTML code.
+                </p>
 
-        <p>
-            We gave a presentation to the entire team about what we have done. I Worked on the style sheet to make the background brighter and the font colors darker. However, some aspects are not covered. Need to keep this in mind in the future.
-            After finishing the style sheet, we will be working on the HTML code.
-        </p>
+                <p>
+                	Several bugs were found when integrating the sidebar with existing pages. Styles of a few tags in the sidebar were not defined so the styles for the contents were applied. I added new styles for these tags and the problem was solved. Also, I found that styles with a higher specifity has a higher priority when being applied. Should keep this in mind in the future.
+        		</p>
 
-        <p>
-        	Several bugs were found when integrating the sidebar with existing pages. Styles of a few tags in the sidebar were not defined so the styles for the contents were applied. I added new styles for these tags and the problem was solved. Also, I found that styles with a higher specifity has a higher priority when being applied. Should keep this in mind in the future.
-		</p>
-
-        <p>
-            After finishing all current work, our team moved on to write a script to generate HTML code automatically. We are discussing which programming language we will use. We decide to do some experiments before we make the final decison.
-        </p>
+                <p>
+                    After finishing all current work, our team moved on to write a script to generate HTML code automatically. We are discussing which programming language we will use. We decide to do some experiments before we make the final decison.
+                </p>
+            </div>
+        </div>
     </body>
 </html>
