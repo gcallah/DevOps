@@ -17,7 +17,14 @@
                 </h1>
 
                 <p>
-                    This is how we implemented our security system.
+                    
+                    We are responible for the security of the DevOps Project. We have used the best security industry practices and ensure every other team to be in compliance with that.
+
+
+                     Initially, We started  understanding the system, its component and interactions between them. We spent a good amount of time to holistically analyse the system to find various threat vectors. Our focus was to build a robust and secure infrastructure and hence we scope the Web-application and Network infrastcture for our security testing.
+
+
+
                 </p>
 
             </div>

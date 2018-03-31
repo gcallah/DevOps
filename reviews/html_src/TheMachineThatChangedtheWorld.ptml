@@ -1,22 +1,71 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-            <link href="../style.css" rel="stylesheet" type="text/css"/>
+          <!--include subhead.txt -->
             <title>
               Book Review
             </title>
             <!--include googleAnalyticsScript.txt -->
             </head>
     <body>
-<!--include menu.txt -->
+      <div class="wrapper">
+          <!--include navbar.txt -->
+      <div id="content">
         <h1>
-            Review of: The Machine That Changed the World, James Womack, Daniel Jones, and Daniel Roos
+            Review of: The Machine That
+            Changed the World, James Womack,
+            Daniel Jones, and Daniel Roos
         </h1>
         <p class="author">
         by
         <br />
         By Anshal Savla , Saniya Alekar
         </p>
+
+        <p>
+          Summary:
+          When The Machine That Changed the World
+          was first published in 1990,
+          Toyota was half the size of General Motors.
+          Today Toyota is passing GM as the world's
+          largest auto maker and is the most consistently
+          successful global enterprise of the past
+          fifty years. This management classic
+          was the first book to reveal Toyota's
+          lean production system that is
+          the basis for its enduring success.
+        </p>
+        <p>
+          Now reissued with a new Foreword
+          and Afterword, Machine contrasts
+          two fundamentally different business
+          systems -- lean versus mass, two very
+          different ways of thinking about how
+          humans work together to create value.
+          Based on the largest and most thorough
+          study ever undertaken of any
+          industry -- MIT's five-year,
+          fourteen-country International Motor
+          Vehicle Program -- this book describes t
+          he entire managerial system of
+          lean production.
+        </p>
+        <p>
+           Nearly twenty years ago, Womack, Jones,
+           and Roos provided a comprehensive
+           description of the entire
+           lean system. They exhaustively documented
+           its advantages over the mass production
+           model pioneered by General Motors
+           and predicted that lean production would
+           eventually triumph. Indeed, they argued
+           that it would triumph
+           not just in manufacturing but in every
+           value-creating activity
+           from health care to retail to distribution.
+        </p>
+
+      </div>
+     </div>
     </body>
 </html>

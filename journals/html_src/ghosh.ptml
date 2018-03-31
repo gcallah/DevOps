@@ -144,6 +144,22 @@
             fixed styling issues on the tools page.
             Created puppet webpage with installation instructions in a client
             server architechture setup.
+            Reviewed chapter 4 of Continuous Delivery book.
+            </li>
+            <li> Week 6 - Reviewed chapters 5 and 6 of Continuous Delivery
+            book. Studied puppet deployment tutorials and videos to learn
+            writing puppet manifests.
+            </li>
+            <li> Week 7 - Attended presentation by Joe West, CTO of BounceX-
+            software company that provides behavioral automation software 
+            and analytics. 
+            He talked about 4 important things to know about devops-
+            Business is the thing, right size your toolchain, productivity
+            is the best practice, document and rehearse.
+            <br>
+            Worked on the deployment implementation webpage. 
+            Provided all steps for setting up puppet master/agent 
+            configuration and deploying the website using puppet.
             </li>
             </ul>
         </details>

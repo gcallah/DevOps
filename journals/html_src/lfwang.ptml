@@ -128,7 +128,8 @@
             Week 10
             <br />
 
-            Rewrite url checker and html_checker code and push them to production.
+            Rewrite url checker and html_checker code and push them to production. The problem of submodule solved.
+            Also, about the new feature of html checker. There are a large amount of rules for html and now we gonna imple a few of it.
 
             <br />
 

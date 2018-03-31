@@ -196,6 +196,21 @@
                 manifests" on master node and copy file
                 <a href="puppetScripts/manifests/site.pp">site.pp</a>
                 </li>
+                <li> Install the puppet vcsrepo module for continuous 
+                delivery on master node:
+                <br>
+                [root@master ~]# puppet module install puppetlabs-vcsrepo 
+                --version 2.3.0
+                </li>
+                <li> Configure the time interval for continuous delivery:
+                <br>
+                Edit file "/etc/puppetlabs/puppet/puppet.conf" and add below
+                lines of code on agent node -
+                <br>
+                server = master.devops.org
+                <br>
+                runinterval = 30
+                </li>
                 <li> Run the catalog to setup agent node:
                 <br>
                 [root@agent ~]# puppet agent --test
