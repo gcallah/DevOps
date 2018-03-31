@@ -33,6 +33,7 @@
                 <li> The build output is available on the Jenkins dashboard. 
                      Automatic notifications can be sent to user regarding code 
                      status </li>
+                <li></li>
             </ul>
 
             <h2>Why Jenkins is desirable?</h2>
