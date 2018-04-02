@@ -125,7 +125,16 @@
                       <strong>Week 7 (Mar 29th - Apr 4th):</strong> <br>
                       Finished Reviewing Chapter 3 of my review book<br>
                       Started Reviewing Chapter 4 of my review book<br>
-                      Started working on Trello API <br>
+                      Started working on Trello API: <br>
+                      Implemented Feature 1: To send a mail to the professor
+                      regarding inactive trello cards in any of our Trello
+                      boards <br>
+                      Started working on Feature 2: To send out an email alert
+                      to the professor whenever any card hits Testing list.
+                    </li>
+                    <li>
+                      <strong>Week 8 (Apr 5th - Apr 11th):</strong> <br>
+                       <br>
                     </li>
                 </ul>
             </div>
