@@ -187,6 +187,37 @@
                 various tasks
               </p>
               <br>
+              <p>
+                <b>How to get started with Trello API: </b> <br>
+                <ul>
+                  <li>
+                    Login into your <a href="https://trello.com/">Trello</a> Account.
+                  </li>
+                  <li>
+                    Go to this <a href="https://trello.com/app-key"> Link</a>
+                    To get the API Key.
+                  </li>
+                  <li>
+                    On the same page, click on generate token to generate a
+                    token which needs to be used to get authorization for your
+                    boards, lists & cards.
+                  </li>
+                  <li>
+                    Sample Code in Python to read all the details related to
+                    user having dsd2981 as his member id
+<pre>
+<code>
+import requests
+url_member = "https://api.trello.com/1/members/dsd2981"
+querystring = {"key":"b282952c1211b7eb3c16b7c3adfbbf7f","token":"12f1ebbfd62746257dbfb66c07ce42d1240d0a0cf0d1959b5706f411edd6315d"}
+response_member = requests.request("GET", url_member, params=querystring)
+</code>
+</pre>
+                    Note: You can find your memberid in your Trello Profile
+                    page
+                  </li>
+                </ul>
+              </p>
             </div>
         </div>
     </body>
