@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--include subhead.txt -->
+        <title>
+            Usage and Importance of Queue in Kanban
+        </title>
+        <!--include googleAnalyticsScript.txt -->
+    </head>
+
+    <body>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+              <h1> How to use Trello API</h1>
+              <p>
+                <b><i>Purpose of this page:</i></b> To discuss about
+                implementation of Trello API in simple steps to implement
+                various tasks
+              </p>
+              <br>
+            </div>
+        </div>
+    </body>
+</html>
