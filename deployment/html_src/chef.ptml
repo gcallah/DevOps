@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <link href="../style.css" rel="stylesheet" type="text/css"/>
         <title>
-            CHEF
+            CHEF!
         </title>
     <!--include googleAnalyticsScript.txt -->
     </head>
@@ -42,10 +42,10 @@
 
     		<ul>
     		<h6>
-    		<li> <u>Meant to be used by programmers</u>
-    		<li> <u>Useful for large-scale development</u>
-    		<li> <u>Stable and mature solution</u>
-    		<li> <u>Good version control capabilities</u>
+    		<li> <u>Meant to be used by programmers</u></li>
+    		<li> <u>Useful for large-scale development</u></li>
+    		<li> <u>Stable and mature solution</u></li>
+    		<li> <u>Good version control capabilities</u></li>
     		</h6>
     		</ul>
 
@@ -60,6 +60,6 @@
     		</br> </br>
       </p>
       </div>
-  </div>
+    </div>
     </body>
   </html>
