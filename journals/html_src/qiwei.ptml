@@ -59,6 +59,10 @@
                 <p>
                     After finishing all current work, our team moved on to write a script to generate HTML code automatically. We are discussing which programming language we will use. We decide to do some experiments before we make the final decison.
                 </p>
+
+                <p>
+                    Continue working on the auto-sidebar-creation script. All major functions are now done. We may need some tests to see if the script is error-prune. Also, we switched to '-' instead of '\t' to identify different levels of tab. 
+                </p>
             </div>
         </div>
     </body>
