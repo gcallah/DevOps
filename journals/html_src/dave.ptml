@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
@@ -10,21 +9,31 @@
     </head>
 
     <body>
-<!--include menu.txt -->
 
-        <h1>
-            My DevOps Story
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    My DevOps Story
+                </h1>
 
-        <p class="author">
-             by
-            <br />
-    Jatri Dave
-        </p>
+                <p class="author">
+                    by
+                    <br />
+                    Jatri Dave
+                </p>
 
-        <summary class="sum1">
-    In this course , I expect of gaining knowledge on how the whole software development process works. Getting more understanding on all the aspects of software development such as integration, testing, releasing to deployment , infrastructure management, workflow etc. 
-        </summary>
+                <p style="text-align: justify">
+                  In this course , I expect of gaining knowledge on how the
+                  whole software development process works. Getting more
+                  understanding on all the aspects of software development
+                  such as integration, testing, releasing to deployment , 
+                  infrastructure management, workflow etc. 
+
+
+                </p>
+            </div>
+        </div>
 
     </body>
 </html>

@@ -15,19 +15,26 @@
                 <h1>
                     Our workflow Implementation
                 </h1>
-
-                <p>
+                <ul>
+                  <li>
                     We have adopted
                     <a href="https://slack.com/">Slack</a>
                     as our main communication tool.
-                </p>
-
-                <p>
+                  </li>
+                  <li>
                     We use Kanban boards to manage our workflow and restrict
                     work-in-progress. We are using
                     <a href="https://trello.com/">Trello</a>
                     as our online Kanban board.
-                </p>
+                  </li>
+                  <li>
+                    <a href="queue.html"> Usage and Importance of Queue in
+                      Kanban </a>
+                  </li>
+                  <li>
+                    <a href="trelloapi.html"> How to use Trello API</a>
+                  </li>
+                </ul>
             </div>
         </div>
 

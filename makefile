@@ -27,14 +27,30 @@ website: $(INCS) $(HTMLFILES)
 
 local: $(HTMLFILES)
 
+all:
+	make local
+	cd build; make local; cd ..
+	cd cloud; make local; cd ..
+	cd coding; make local; cd ..
+	cd deployment; make local; cd ..
+	cd journals; make local; cd ..
+	cd monitoring; make local; cd ..
+	cd reviews; make local; cd ..
+	cd security; make local; cd ..
+	cd testing; make local; cd ..
+	cd workflow; make local; cd ..
+	cd UX; make local; cd ..
+
 clean:
-	touch $(PTML_DIR)/*.ptml
-	cd build; $(PTML_DIR)/*.ptml; make local; cd ..
-	cd cloud; $(PTML_DIR)/*.ptml; make local; cd ..
-	cd coding; $(PTML_DIR)/*.ptml; make local; cd ..
-	cd deployment; $(PTML_DIR)/*.ptml; make local; cd ..
-	cd monitoring; $(PTML_DIR)/*.ptml; make local; cd ..
-	cd security; $(PTML_DIR)/*.ptml; make local; cd ..
-	cd testing; $(PTML_DIR)/*.ptml; make local; cd ..
-	cd workflow; $(PTML_DIR)/*.ptml; make local; cd ..
-	cd UX; $(PTML_DIR)/*.ptml; make local; cd ..
+	touch $(PTML_DIR)/*.ptml; make local
+	cd build; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd cloud; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd coding; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd deployment; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd journals; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd monitoring; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd reviews; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd security; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd testing; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd workflow; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd UX; touch $(PTML_DIR)/*.ptml; make local; cd ..

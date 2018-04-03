@@ -109,6 +109,20 @@
             questions and answers instead of showing all questions
             and answers as object.
         </p>
+        <p>
+            Week 7:
+            <br/>
+            Reviewed Tom Limoncelli's slides on DevOps, and gained
+            a deeper understanding about some concepts of DevOps.            
+        </p>
+        <p>
+            Week 8:
+            <br/>
+            We modified the Dango quizzes site to display all 
+            questions and corresponding answers in a single page.
+            We also implemented the mechanism to calculate the 
+            quiz taker's quiz score and added the result page.
+        </p>
         </div>
     </div>
     </body>
