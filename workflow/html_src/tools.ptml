@@ -17,7 +17,8 @@
                 </h1>
 
                 <p>
-                    Here are some of the major workflow tools and their features:
+                    Here are some of the major workflow tools and their
+                    features:
                 </p>
 
                 <ul class="nested">
@@ -50,7 +51,9 @@
                         Trello
                         </a>
                     </li>
-
+                    <li>
+                      <a href="slackPlugins.html"> Slack Plugins for Workflow </a>
+                    </li>
                 </ul>
 
             </div>
