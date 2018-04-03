@@ -124,7 +124,10 @@ h1 {
     text-align: center;
     font-size: 2em;
     color: #5869a8;
-/*    background: #cdf; */
+}
+
+h1.no-menu {
+    margin: 2em 0em 1em 0em;
 }
 
 h1#course-title {
