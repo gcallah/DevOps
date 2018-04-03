@@ -492,6 +492,11 @@ a[aria-expanded="true"]::before {
     content: '\e260';
 }
 
+#carousel {
+  width:80%;
+  margin: 0 auto;
+}
+
 /*******
 The Nav sidebar media effect
 *****/
