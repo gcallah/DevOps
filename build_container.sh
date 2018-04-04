@@ -7,4 +7,4 @@ if [ -z "$1" ]
     exit 1
 fi
 docker pull python
-docker run -it -p 8000:8000 -v $1:/home/DevOps --name python bash
+docker run -it -p 8000:8000 -v $1:/home/DevOps --name alpine bash
