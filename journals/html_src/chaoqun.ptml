@@ -70,12 +70,19 @@
         <p>
           This week, our team have been working the news feed for the lonely index page :)
         </p>
-        
+
         <p class="leadquote">
           Week 9-10
         </p>
         <p>
           This week, I have implemented a static news feed
+        </p>
+
+        <p class="leadquote">
+          Week 11-12
+        </p>
+        <p>
+          This week, integrate news feed to the devops website.
         </p>
 
 
