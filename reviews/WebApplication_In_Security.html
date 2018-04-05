@@ -27,7 +27,7 @@
              });
          </script>
         <title>
-            Our Security Implementation
+            Web Application Insecurity
         </title>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114841175-1"></script>
@@ -180,39 +180,39 @@
     </ul>
 </nav>
             <div id="content">
-                <h1>
-                    Our Security Implementation
-                </h1>
+            <h1>
+                Discovering and Exploiting Security Flaws
+            </h1>
 
-                <p>
-                    
+            <p class="author">
+                Author: Dafydd Stuttard & Marcus Pinto <br>
+                Reviewer: OM NARAYAN
+            </p>
 
-We are responsible for the security of the DevOps Project. We have used the best security industry practices and ensure every other team to be in compliance with that.
+            <p>
 
+Web based application security has become an essential elements for almost every web application developed today reason being they are the favorite targets among attackers. For all concerned, the stakes are high: for businesses that derive increasing revenue from Internet commerce, for users who trust web applications with sensitive information, and for criminals who can make big money by stealing payment details or compromising bank accounts. Reputation plays a critical role. Few people want to do business with an insecure website, so few organizations want to disclose details about their own security vulnerabilities or breaches. Hence, it is not a trivial task to obtain reliable information about the state of web application security today.
 
-                     Initially, We started understanding the system, its component, and interactions between them. We spent a good amount of time to holistically analyze the system to find various threat vectors. Our focus was to build a robust and secure infrastructure and hence we scope the Web-application and Network infrastructure for our security testing.
+With evolution of technology, web applications have brought with them a new range of security vulnerabilities. The set of most commonly encountered defects has also evolved somewhat over time. New attacks have been conceived that were not considered when existing applications were developed. Some problems have become less prevalent as awareness of them has increased. New technologies have been developed that have introduced new possibilities for exploitation. Some categories of flaws have largely gone away as the result of changes made to web browser software.
 
-                     1. Web Application Penetration Testing:
-                           We configured ZAP on our local system which is the Web Application Vulnerability tool and pointed it to the Django. We ran an attack on the system to find any vulnerability. This tools produced a bunch of potential vulnerability which we shared with the development team along with mitigation technique to fix this.
+The most serious attacks against web applications are those that expose sensitive data or gain unrestricted access to the back-end systems on which the application is running. High-profile compromises of this kind continue to occur frequently. For many organizations, however, any attack that causes system downtime is a critical event. Application-level denial-of-service attacks can be used to achieve the same results as traditional resource exhaustion attacks against infrastructure. However, they are often used with more subtle techniques and objectives. They may be used to disrupt a particular user or service to gain a competitive edge against peers in the realms of financial trad- ing, gaming, online bidding, and ticket reservations.
 
-                     2. Network Penetration Testing:
-                          For performing Network based penetration testing we followed the standard approach which involves mainly six steps.
+Throughout this evolution, compromises of prominent web applications have remained prevalent. There is no sense that a corner has been turned and that these security problems are on the wane. By some measure, web application security is today the most significant battleground between attackers and those with computer resources and data to defend.
 
-                            a. Reconnaissance
-                            b. Scanning
-                            c. Vulnerability Detection
-                            d. Exploitation
-                            e. Post Exploitation
-                            f. Reporting
+Below figures are the most commomly categoriesd vulnerability of web based application found during testing in 2007 and 2011:
 
-                   In the ninth week, we completed the Reconnaissance phase which essentially is gathering information about the target. We built a profile of the system which includes gathering information about DNS record, Location, POC for this website and much more.
+ Broken authentication (62%) —This category of vulnerability encom- passes various defects within the application’s login mechanism, which may enable an attacker to guess weak passwords, launch a brute-force attack, or bypass the login.
+ 
+ Broken access controls (71%)  — This involves cases where the application fails to properly protect access to its data and functionality, potentially enabling an attacker to view other users’ sensitive data held on the server or carry out privileged actions.
 
-                   We are currently in scanning phase where we are analyzing the network infrastructure, ports, and services for vulnerability.
+ SQL injection (32%) — This vulnerability enables an attacker to submit crafted input to interfere with the application’s interaction with back-end databases. An attacker may be able to retrieve arbitrary data from the application, interfere with its logic, or execute commands on the database server itself.
 
+ Cross-site scripting (94%) — This vulnerability enables an attacker to target other users of the application, potentially gaining access to their data, performing unauthorized actions on their behalf, or carrying out other attacks against them.
 
-                </p>
-
-            </div>
-        </div>
-    </body>
+ Information leakage (78%) — This involves cases where an application divulges sensitive information that is of use to an attacker in developing an assault against the application, through defective error handling or other behavior.
+Cross-site request forgery (92%) — This flaw means that application users can be induced to perform unintended actions on the application within their user context and privilege level. The vulnerability allows a malicious web site visited by the victim user to interact with the applica- tion to perform actions that the user did not intend.
+</p>
+</div>
+</div>
+</body>
 </html>
