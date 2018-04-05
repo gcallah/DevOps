@@ -56,7 +56,7 @@ p {
 }
 
 p.present {
-    font-size: 1.4em;
+    font-size: 1.6em;
 }
 
 hr {
@@ -70,7 +70,11 @@ blockquote {
 
 ol, ul, dl, li {
     margin: 1em 1.5em .4em 1.5em;
-    font-size: 1.1em;
+    font-size: 1.2em;
+}
+
+ul.present, ol.present {
+    font-size: 1.6em;
 }
 
 ol.contents, ul.contents, dl.contents, li.contents {

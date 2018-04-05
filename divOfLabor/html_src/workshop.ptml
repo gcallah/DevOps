@@ -36,6 +36,26 @@
                 </figcaption>
             </figure>
 
+            <ul class="present">
+                <li>
+                    Workers were <i>discouraged</i> from thinking about the
+                    overall production process.
+                </li>
+                <li>
+                    "Keep your head down and do your own job."
+                </li>
+                <li>
+                    A form of "central planning" prevailed: a few expert
+                    engineers were the only ones who were supposed to think
+                    about the entire process and product.
+                </li>
+                <li>
+                    F. A. Hayek's "Use of Knowledge in Society": each person is
+                    an "expert" on the<i>r</i> own particular
+                    circumstances of time and place.
+                </li>
+            </ul>
+
         </details>
 
         <details>
@@ -54,13 +74,22 @@
                 </figcaption>
             </figure>
 
-            <ul>
+            <ul class="present">
                 <li>
                     DevOps represents a reincarnation of "craft work."
                 </li>
                 <li>
                     A reincarnation, because it is craft work with a new layer
                     of automation available.
+                </li>
+                <li>
+                    The expert craftsperson understands the roles of the other
+                    experts with whom they interact.
+                </li>
+                <li>
+                    "Get <i>all</i> workers deeply involved in analyzing feedback from
+                    the market and rapidly figuring out how to act on that
+                    feedback." -- Mary Poppendieck
                 </li>
             </ul>
 
@@ -80,10 +109,58 @@
                 </figcaption>
             </figure>
 
-            <ul>
+            <ul class="present">
                 <li>
                     The mechanical, repetitive tasks the assembly-line worker
                     performed in the 20th century must be automated!
+                </li>
+                <li>
+                    Testers cannot test successfully
+                    unless they are part of the
+                    production process from day one: thus, <i>continuous
+                        testing</i>.
+                </li>
+
+                <li>
+                     Operations cannot successfully deploy constantly evolving
+                     products unless deployment itself becomes a software
+                     product capable of swiftly evolving:
+                     thus, <i>software as infrastructure</i>.
+                </li>
+
+                <li>
+                    The "business" stakeholders in the product can't ensure
+                    it is meeting business needs unless they
+                    are continually engaged: thus
+                    <i>continual interaction</i> between the engineers and the
+                    "business people."
+                </li>
+
+                <li>
+                    Why is "business" in scare quotes above?
+                    <br />
+                    "We are not developing software. We are doing something
+                    larger and software is just part of the solution." -- Tom
+                    Poppendieck
+                </li>
+                <li>
+                    How new versions of a piece of software impact the end
+                    users cannot be determined without <i>continual feedback</i>
+                    from those users, thus:
+                </li>
+                <li>
+                    <i>Incremental development</i>, which means
+                    developer work on small batches and can easily change
+                    course;
+                </li>
+                <li>
+                    <i>Continuous deployment</i>, allowing users to
+                    comment on the work done in those small batches;
+                    and
+                </li>
+                <li>
+                    <i>Continuous monitoring</i>, so that problems using the
+                    product become known right away.
                 </li>
             </ul>
 
@@ -102,17 +179,22 @@
                 </figcaption>
             </figure>
 
-            <ul>
+            <ul class="present">
                 <li>
                     An agile enterprise needs to hire people with broad 
                     understanding of various technologies and
-                    how they fit into the enterprise and forward
-                    its goals.
+                    how they forward the goals of the enterprise.
                 </li>
+
                 <li>
                     Nevertheless, we still are coping with extremely complex
                     technologies, and we will need people who understand them
                     in great depth!
+                </li>
+
+                <li>
+                    A story of the need for "generalizing specialists":
+                    adding exchanges to a price feed.
                 </li>
             </ul>
 
@@ -130,7 +212,7 @@
                 </figcaption>
             </figure>
 
-            <ul>
+            <ul class="present">
                 <li>
                     Each enterprise will have to make its own trade-offs
                     between its need for specialists and its need for
