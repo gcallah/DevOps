@@ -127,7 +127,8 @@ h1 {
 }
 
 h1.no-menu {
-    margin: 2em 0em 1em 0em;
+    margin: 1em 1em 1em 1em;
+    font-size: 2.2em;
 }
 
 h1#course-title {
@@ -176,6 +177,12 @@ h5 {
 summary.sum1 {
     font-size: 2em;
     color: #903;
+    margin: 1em 1.2em 1em 1.2em;
+}
+
+summary.sum1a {
+    font-size: 1.8em;
+    color: #814;
     margin: 1em 1.2em 1em 1.2em;
 }
 
@@ -262,6 +269,10 @@ figure {
 
 figure.lead-figure {
     margin: 0em 1em 1em 1em;
+}
+
+figure.top-fig {
+    margin: 2em 1em 0em 1em;
 }
 
 figcaption {
