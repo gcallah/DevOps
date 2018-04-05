@@ -6,5 +6,4 @@ if [ -z "$1" ]
     echo "You must provide the location of your DevOps repo."
     exit 1
 fi
-docker pull python
-docker run -it -p 8000:8000 -v $1:/home/DevOps --name alpine bash
+docker run -it -p 8000:8000 -v $1:/home/DevOps --name devops gcallah/devopsbuild:v2 bash
