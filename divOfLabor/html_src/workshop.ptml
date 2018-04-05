@@ -151,7 +151,7 @@
                 <li>
                     <i>Incremental development</i>, which means
                     developers work on small batches and can easily change
-                    course;
+                    course based on feedback;
                 </li>
                 <li>
                     <i>Continuous deployment</i>, allowing users to
