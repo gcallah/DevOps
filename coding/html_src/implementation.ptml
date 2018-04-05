@@ -1,49 +1,67 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Our Coding Implementation
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Our Coding Implementation
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Our Coding Implementation
+                </h1>
 
-        <p>
-            This is how we implemented coding standards and practicing.
-        </p>
+                <p>
+                    This is how we implemented coding standards and practicing.
+                </p>
 
-        <h2>
-            Our Django Site
-        </h2>
+                <ul class="contents">
+                    <li>
+                        <a href="../html_guide.html">
+                            HTML guidelines
+                        </a>
+                    </li>
+                </ul>
 
-        <p>
-            At PythonAnywhere, we are working on porting to a Django site for
-            the course, so we can take advantage of the dynamic backend
-            capabilities of Django.
-        </p>
+                <h2>
+                    Our Django Site
+                </h2>
 
-        <p>
-            Amongst other things, we need to build Docker images so developers
-            can work in a local environment identical to production. To that
-            end, we are collecting details of our PythonAnywhere env:
-        </p>
+                <p>
+                    At PythonAnywhere, we are working
+                    on porting to a Django site for
+                    the course, so we can take advantage of the dynamic backend
+                    capabilities of Django.
+                </p>
 
-        <ul>
-            <li>
-                Django 1.10
-            </li>
-        </ul>
- 
-        <p>
-            Down the road, these Docker images will be used for cloud
-            deployment.
-        </p>
+                <p>
+                    Amongst other things, we need to
+                    build Docker images so developers
+                    can work in a local environment
+                    identical to production. To that
+                    end, we are collecting details of
+                    our PythonAnywhere env:
+                </p>
+
+                <ul class="contents">
+                    <li>
+                        <a href="https://hub.docker.com/r/gcallah/django/">
+                        Django 1.10
+                        </a>
+                    </li>
+                </ul>
+
+                <p>
+                    Down the road, these Docker images will be used for cloud
+                    deployment.
+                </p>
+            </div>
+        </div>
 
     </body>
 </html>

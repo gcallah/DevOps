@@ -1,31 +1,223 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-            <link href="../style.css" rel="stylesheet" type="text/css"/>
+      <!--include subhead.txt -->
+
             <title>
                 Anshal's DevOps Story
             </title>
+            <!--include googleAnalyticsScript.txt -->
             </head>
     <body>
-<!--include menu.txt -->
-        <h1>
-            My DevOps Story
-        </h1>
-        <p class="author">
-        by
-        <br />
-        Anshal Savla
-        </p>
-        
-       
-        
-        <p>
-        DevOps is a software engineering culture and practice that aims at unifying software development (Dev) and software operation (Ops). The main characteristic of the DevOps movement is to strongly advocate automation and monitoring at all steps of software construction, from integration, testing, releasing to deployment and infrastructure management.
-        I am exicted to learn about this field.
-        
-                </p>
-        
-      
-    </body>
+      <div class="wrapper">
+          <!--include navbar.txt -->
+      <div id="content">
+
+
+    <h1>
+        My DevOps Story
+    </h1>
+    <p class="author">
+    by
+    <br />
+    Anshal Savla
+    </p>
+
+
+
+    <p>
+    DevOps is a software engineering culture and practice that aims
+    at unifying software development (Dev) and software operation (Ops).
+     The main characteristic of the DevOps movement is to strongly advocate
+      automation and monitoring at all steps of software construction,
+      from integration, testing, releasing to deployment
+      and infrastructure management.
+    I am exicted to learn about this field.
+
+    </p>
+
+
+    <details>
+        <summary class="sum2">
+            Week 1
+        </summary>
+
+        <ul class="nested">
+            <li>
+                Class was introduced to DevOps.
+            </li>
+            <li>
+                Got on Slack and Trello
+            </li>
+            <li>
+                Initialized Git repo
+
+            </li>
+        </ul>
+    </details>
+
+    <details>
+        <summary class="sum2">
+            Week 2
+        </summary>
+
+        <ul class="nested">
+            <li>
+                Installed and configured Docker in class.
+            </li>
+            <li>
+                It is fascinating how light weight docker is
+                in comparison to virtulization
+                and how it can be used
+                to run micro services.
+            </li>
+            <li>
+                Created Book review page and added
+                inforamtion to security/theory.html
+
+            </li>
+        </ul>
+    </details>
+
+    <details>
+        <summary class="sum2">
+            Week 3
+        </summary>
+
+        <ul class="nested">
+            <li>
+                Leanred about built tool and how
+                it can be used to automate different build processes
+            </li>
+            <li>
+                Added sources to security/theory.html
+            </li>
+            <li>
+                Updated journal/savla.html
+
+            </li>
+        </ul>
+    </details>
+
+    <details>
+        <summary class="sum2">
+            Week 4
+        </summary>
+        <ul class="nested">
+            <li>
+                  Learned about build and deploy piplines
+            </li>
+            <li>
+                  Reverted git commit which rolled back journlas folder
+            </li>
+            <li>
+                  Fixed styling in security/theory.html
+            </li>
+            <li>
+                  Fixed Journal styling
+            </li>
+        </ul>
+      </details>
+
+      <details>
+          <summary class="sum2">
+              Week 5
+          </summary>
+          <ul class="nested">
+              <li>
+                    Very informative lecture by guest
+                    speaker from Stack Overflow.
+              </li>
+
+              <li>
+                Rolled journal/savla.html to new menu
+              </li>
+          </ul>
+        </details>
+
+        <details>
+            <summary class="sum2">
+                Week 6
+            </summary>
+            <ul class="nested">
+                <li>
+                      Very informative lecture by Tom from Google.
+                </li>
+
+                <li>
+                  He talked about Web Search and Scheduling.
+                  He works in the team that handles 'Join'
+                  on the database, which sounds easy but
+                  is pretty complicated when scaled to millions
+                   of nodes that are accounted during a particular
+                   google search or inside gmail.
+                </li>
+            </ul>
+          </details>
+
+          <details>
+              <summary class="sum2">
+                  Week 7 - Spring Break
+              </summary>
+              <ul class="nested">
+                  <li>
+                        Took the week of:)
+                  </li>
+
+              </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    Week 8
+                </summary>
+                <ul class="nested">
+                  <li>
+                    Lecture by Joe West, CTO of BounceX.
+                    He Talked about the following principles.
+                  </li>
+                  <li>
+                   Business is the thing: DevOps
+                   services are expensive and don't always
+                   save money. We must give thought to cost,
+                   business and purpose before resorting
+                   to the tools instead of using t
+                   hem just because they are cool.
+                  </li>
+
+                  <li>
+                  Rightsize toolchain: many a
+                  times, our business may not
+                  need all of the tools. simple
+                  combination of EC2, CI/CD and a
+                  Db may suffice. hence, it is i
+                  mportnat to understand where
+                  the optimization is worth.
+                  </li>
+
+                  <li>
+                  Productivity is the best
+                  practice: We must try to
+                  automate things that are
+                  done repeatedly and take
+                  much of our time.
+                  </li>
+
+                  <li>
+                  Document and rehearse:
+                  Documentation is essential
+                  to keep a record for purposes
+                  of handover or backtracking or
+                  rollbacks. Rehearsing critical
+                  events makes us better equiped
+                  at handling the real scenarios.
+                  </li>
+               </ul>
+          </details>
+
+     </div>
+    </div>
+
+
+ </body>
 </html>

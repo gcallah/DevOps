@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--include subhead.txt -->
+        <title>
+            The DevOps Handbook
+        </title>
+<!--include googleAnalyticsScript.txt -->
+    </head>
+
+    <body>
+      <div class="wrapper">
+<!--include navbar.txt -->
+          <div id="content">
+            <h1>
+                Lean Software Development: An Agile Toolkit
+            </h1>
+            <p class="author">
+                Authors: Mary and Tom Poppendieck
+                <br>
+                Reviewers: Jiawei Wang, Bowei Xu
+            </p>
+            <h2>
+              Introduction
+            </h2>
+            <p>
+              This book aims to introduce the thinking tools for software
+              development process to go agile.It is a toolkit to help translate
+              widely accepted lean principles into effective, agile practices
+              that tailored to individual software development domains. It
+              tries to dig out the potential improvement for development
+              process.
+              <br />
+              This books contanis 22 thinking tools to help develop the agile
+              practices that work best in all people's particular domains.
+              These tools are summarized into 7 lean principals from Which
+              they are translated.
+              <br />
+              <ul class="nested">
+                  <li>Eliminate waste</li>
+                  <li>Amplify learning</li>
+                  <li>Decide as late as possible</li>
+                  <li>Deliver as fast as possible</li>
+                  <li>Empower the team</li>
+                  <li>Build integrity in</li>
+                  <li>See the whole</li>
+              </ul>
+              <br />
+              These principles and its related toolkits are introduced in
+              details one principle each chapter. And the book also provide
+              practical suggestions for implementing the priciples and these
+              toolkits. Very good book for managers, project managers and
+              technical leaders. 
+            </p>
+          </div>
+        </div>
+    </body>
+</html>

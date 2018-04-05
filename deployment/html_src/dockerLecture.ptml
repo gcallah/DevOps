@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--include subhead.txt -->
+        <title>
+            Docker lecture
+        </title>
+        <!--include googleAnalyticsScript.txt -->
+    </head>
+
+    <body>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Docker
+                </h1>
+
+                <p class="author">
+                    by
+                    <br />
+                    Prashantkumar Patel
+                </p>
+
+                <p>
+                    In this webpage we are going to try and host a
+                     simple static website in nginx using docker.
+                    I have already talked about what version of
+                    docker you should use. If you are using Windows
+                    then docker-toolbox otherwise just using
+                    docker native should be okay for the Mac and
+                    Linux users.
+                    This tutorial is written and performed in a MacBook
+                    computer. Windows users
+                    should not have any problem performing the same steps
+                    in Windows, but if you
+                    find yourself stuck somewhere please send me a slack
+                     message, I will try to help you out.
+                </p>
+
+                <p>
+                    First step is to download and install docker,
+                    which I am sure everyone in the class did.
+                     If not please visit <a>http://www.docker.com</a>.
+                    You should follow the installation instructions
+                     given in the website.
+                </p>
+
+                <h4>
+                    Download the nginx image
+                </h4>
+
+                <p>
+                    Let's run the following command in terminal/quickstart-terminal.
+                </p>
+                <p>
+                   <code> docker images </code>
+                </p>
+                <p>
+                    This command should give you the list of images
+                    that are available in the system. For example
+                    in my system it looks something like
+                    this. Yours might have a different than what I have.
+                </p>
+                <figure>
+                    <img width="60%" src="../build/graphics/docker_images.png"
+                        alt="docker images">
+                    <figcaption>
+                        List of images in my system
+                    </figcaption>
+                </figure>
+
+                <p>
+                    As you can see that I don't have the nginx image
+                    install. I will run the following command which will
+                    install the nginx image for me.
+                </p>
+                <p>
+                <code>
+                    docker pull nginx
+                </code>
+                </p>
+                <p>
+                    Now that you have installed the nginx image,
+                    just run the docker images command again,
+                    in the list you should see ngnix image just like
+                    down below.
+                </p>
+                 <figure>
+                    <img width="60%" src="../build/graphics/docker_images_again.png"
+                        alt="docker images">
+                    <figcaption>
+                        List of images in my system now with nginx
+                    </figcaption>
+                </figure>
+
+                <h4>
+                    Download website code
+                </h4>
+
+                <p>
+                    Ok now that you have download the nginx image,
+                    let's download the static website that you
+                    are going to host inside the docker container.
+                    We are going to use the algorithms website for
+                    professor's other subject. You can find the
+                    code for the website to
+                    <a href="http://gitub.com/gcallah/algorithms.git">
+                    algorithms
+                    </a>
+                </p>
+
+                <p>
+                    Please remember the location where you have
+                    cloned the repository. I have cloned it in
+                    <code> /Users/prashant/school/algorithms</code>
+                    you's will be different than this, please note
+                    the location. Below is the screenshot of algorithms
+                    directory.
+                </p>
+                 <figure>
+                    <img width="60%" src="../build/graphics/algorithms.png" alt="docker images">
+                    <figcaption>
+                        List of images in my system now with nginx
+                    </figcaption>
+                </figure>
+
+                <h4>
+                    Let's make a container
+                </h4>
+
+                <p>
+                    Ok, so we have downloaded the nginx image and
+                    the code of the website which we want to host
+                    All we need to do is just make a container
+                    out of the image. We will put the code of
+                    website inside the container so that the
+                    webserver which is nginx in our case can
+                    read the html files and host it in local
+                    server.
+                    The command for that is as shown below.
+                </p>
+                <p>
+                    <code>
+                        docker run --name algo_website -p 127.0.0.1:8080:80
+                        -v /Users/prashant/school/algorithms/:/usr/share/nginx/html
+                        -d nginx
+                    </code>
+                </p>
+
+                <p>
+                    Please don't forget to change the location of
+                     algorithms directory in above command.
+                     After you run the command open the browser
+                     and type http://localhost:8080 and you
+                     should be able to see the webpage.
+                     Windows user should use the address
+                     http://192.168.99.100:8080 instead of localhost.
+                </p>
+
+
+                <hr>
+
+                <p class="copyright">
+                    &copy; 2018 Prashantkumar Patel
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

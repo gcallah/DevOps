@@ -3,35 +3,54 @@ export TEMPLATE_DIR = templates
 export QUIZ_DIR = quizzes
 PTML_DIR = html_src
 DJANGO_DIR = TheDevOpsCourse
-TEMPL_PATH = devops/templates
-TEMPL_DIR = $(DJANGO_DIR)/$(TEMPL_PATH)
+DTEMPL_PATH = devops/templates
+DTEMPL_DIR = $(DJANGO_DIR)/$(DTEMPL_PATH)
 UTILS_DIR = utils
 
-INCS = $(TEMPLATE_DIR)/menu.txt 
+INCS = $(TEMPLATE_DIR)/navbar.txt $(TEMPLATE_DIR)/head.txt
 
 HTMLFILES = $(shell ls $(PTML_DIR)/*.ptml | sed -e 's/.ptml/.html/' | sed -e 's/html_src\///')
 
 %.html: $(PTML_DIR)/%.ptml $(INCS)
-	python3 $(UTILS_DIR)/html_checker.py $<
+	python3 $(UTILS_DIR)/html_checker.py $< -u https://gcallah.github.io/DevOps/
 	$(UTILS_DIR)/html_include.awk <$< >$@
-#	python3 $(UTILS_DIR)/html2django.py $< >$(TEMPL_DIR)/$@
-#	git add $@
-#	cd $(DJANGO_DIR) ; git add $(TEMPL_PATH)/$@
-#	cd $(DJANGO_DIR) ; git commit $(TEMPL_PATH)/$@ -m "Rebuilt from DevOps site."
+	git add $@
+#	python3 $(UTILS_DIR)/html2django.py $< >$(DTEMPL_DIR)/$@
+#	cd $(DJANGO_DIR) ; git add $(DTEMPL_PATH)/$@
+#	cd $(DJANGO_DIR) ; git commit $(DTEMPL_PATH)/$@ -m "Rebuilt from DevOps site."
 #	cd $(DJANGO_DIR) ; git push origin master; cd -
 
 website: $(INCS) $(HTMLFILES)
-	-git commit -a -m "Website rebuild."
+	-git commit -a 
+	git pull origin master
 	git push origin master
-
-tests: $(QUIZ_DIR)
-	cd $(QUIZ_DIR) ; make all
 
 local: $(HTMLFILES)
 
-template: $(TEMPLATE_DIR)
-	cd $(TEMPLATE_DIR) ; make all
+all:
+	make local
+	cd build; make local; cd ..
+	cd cloud; make local; cd ..
+	cd coding; make local; cd ..
+	cd deployment; make local; cd ..
+	cd journals; make local; cd ..
+	cd monitoring; make local; cd ..
+	cd reviews; make local; cd ..
+	cd security; make local; cd ..
+	cd testing; make local; cd ..
+	cd workflow; make local; cd ..
+	cd UX; make local; cd ..
 
 clean:
-	rm $(HTMLFILES)
-	cd $(TEMPLATE_DIR) ; make clean
+	touch $(PTML_DIR)/*.ptml; make local
+	cd build; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd cloud; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd coding; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd deployment; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd journals; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd monitoring; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd reviews; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd security; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd testing; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd workflow; touch $(PTML_DIR)/*.ptml; make local; cd ..
+	cd UX; touch $(PTML_DIR)/*.ptml; make local; cd ..

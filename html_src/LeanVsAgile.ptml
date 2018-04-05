@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include head.txt -->
         <title>
             Lean Vs. Agile
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Lean Vs. Agile
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+            <h1>
+                Lean Vs. Agile
+            </h1>
 
-        <p>
-            <a href="https://hackerchick.com/agile-vs-lean-yeah-yeah-whats-the-difference/">
-            	Lean Verus Agile: What's the Difference?
-            </a>
-        </p>
+            <p>
+                <a href="https://hackerchick.com/agile-vs-lean-yeah-yeah-whats-the-difference/">
+                	Lean Verus Agile: What's the Difference?
+                </a>
+            </p>
+        </div>
+    </div>
 
     </body>
 </html>

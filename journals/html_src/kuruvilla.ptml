@@ -6,6 +6,7 @@
         <title>
             My DevOps Story
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -22,14 +23,66 @@
         </p>
 
         <p>
-            Being a cybersecurity major, I wanted to get a taste of software engineering. When the opportunity presented itself in the form of a DevOps course, I decided to take it. Security is being given more emphasis than ever in the software engineering lifecycle, and I felt I needed to learn more about being a part of it. In addition, I felt that the course would give me the necessary skills when I join the industry after I graduate. 
+            Being a cybersecurity major, I wanted to get a taste of software
+            engineering. When the opportunity presented itself in the form of
+            a DevOps course, I decided to take it. Security is being given
+            more emphasis than ever in the software engineering lifecycle,
+            and I felt I needed to learn more about being a part of it. In
+            addition, I felt that the course would give me the necessary
+            skills when I join the industry after I graduate.
         </p>
         <p>
-            DevOps is where the industry is moving towards. Being a combination of Lean and Agile practices, DevOps enables the maximum utilization of the skills of a software engineering team. 
+            DevOps is where the industry is moving towards. Being a
+            combination of Lean and Agile practices, DevOps enables the
+            maximum utilization of the skills of a software engineering team.
         </p>
         <p>
-            Started with the book review and reading up on automated tools for vulnerability analysis.
+            Started with the book review and reading up on automated tools
+            for vulnerability analysis.
         </p>
 
+        <h2>Weekly Summary</h2>
+        <h3>Week 1</h3>
+        <ul>
+            <li>
+                Read up on using Docker for developement in linux.
+            </li>
+        </ul>
+
+        <h3>Week 2</h3>
+        <ul>
+            <li>
+                Read up on automation using make tool.
+            </li>
+        </ul>
+
+        <h3>Week 3</h3>
+        <ul>
+            <li>
+                Enumerated tools that can be used for vulnerability scanning.
+            </li>
+        </ul>
+
+        <h3>Week 4</h3>
+        <ul>
+            <li>
+                Wrote a brief description on the Security links in
+                security/links.html
+            </li>
+            <li>
+                Started with review for "The Unix Programming Environment".
+            </li>
+        </ul>
+        <h3>Week 5</h3>
+        <h3>Week 6</h3>
+        <h3>Week 7</h3>
+        <h3>Week 8</h3>
+        <h3>Week 9</h3>
+        <h3>Week 10</h3>
+        <h3>Week 11</h3>
+        <h3>Week 12</h3>
+        <h3>Week 13</h3>
+        <h3>Week 14</h3>
+        <h3>Week 15</h3>
     </body>
 </html>

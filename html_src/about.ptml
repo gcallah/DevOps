@@ -1,24 +1,159 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include head.txt -->
         <title>
             About this site
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            About this site
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    About this site
+                </h1>
 
-        <p>
-            A site for a DevOps course, built by Dr. Eugene Callahan
-            and his Spring 2018 DevOps class at NYU Tandon.
-        </p>
+                <p>
+                    A site for a DevOps course, built by Dr. Eugene Callahan
+                    and his Spring 2018 DevOps class at NYU Tandon, including:
+                </p>
 
+                <ul>
+                    <li>
+                        Manjiri Acharekar (TA)
+                    </li>
+
+                    <li>
+                        Vivek Bharti (TA)
+                    </li>
+
+                    <li>
+                        Prashant Patel (TA)
+                    </li>
+
+                    <li>
+                        Saniya Alekar
+                    </li>
+
+                    <li>
+                        Drumil Bakhai
+                    </li>
+
+                    <li>
+                        Ravish Bhatia
+                    </li>
+
+                    <li>
+                        Jatri Dave
+                    </li>
+
+                    <li>
+                        Richa Desai
+                    </li>
+
+                    <li>
+                        Kanishk Dugar
+                    </li>
+
+                    <li>
+                        Datta Dwarampudi
+                    </li>
+
+                    <li>
+                        Sneha Ghosh
+                    </li>
+
+                    <li>
+                        Akshay Hazare
+                    </li>
+
+                    <li>
+                        Chaoqun Huang
+                    </li>
+
+                    <li>
+                        Tanya Jha
+                    </li>
+
+                    <li>
+                        Adit Kumar
+                    </li>
+
+                    <li>
+                        Arun John Kuruvilla
+                    </li>
+
+                    <li>
+                        Yang Lou
+                    </li>
+
+                    <li>
+                        Jayesh Matre
+                    </li>
+
+                    <li>
+                        Om Narayam
+                    </li>
+
+                    <li>
+                        Garima Negi
+                    </li>
+
+                    <li>
+                        Shivaraj Nesaragi
+                    </li>
+
+                    <li>
+                        Janeil Patel
+                    </li>
+
+                    <li>
+                        Srinivas Piskala Ganesh Babu
+                    </li>
+
+                    <li>
+                        Chiquita Prabhu
+                    </li>
+
+                    <li>
+                        Anshav Savla
+                    </li>
+
+                    <li>
+                        Pravar Singh
+                    </li>
+
+                    <li>
+                        Jiawei Wang
+                    </li>
+
+                    <li>
+                        Linfeng Wang
+                    </li>
+
+                    <li>
+                        Bowei Xu
+                    </li>
+
+                    <li>
+                        Lili Xu
+                    </li>
+
+                    <li>
+                        Tingjun Zhang
+                    </li>
+
+                    <li>
+                        Qiwei Zhou
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
 
     </body>
 </html>

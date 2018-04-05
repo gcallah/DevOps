@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include head.txt -->
         <title>
             Expectations for Students Taking DevOps, Spring 2018
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Expectations for Students Taking DevOps, Spring 2018
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+            <h1>
+                Expectations for Students Taking DevOps, Spring 2018
+            </h1>
 
-        <figure>
-            <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Laurentius_de_Voltolina_001.jpg/290px-Laurentius_de_Voltolina_001.jpg">
-            <figcaption>
-                Don't sleep in lectures like the students in the back here!
-            </figcaption>
-        </figure>
+            <figure>
+                <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Laurentius_de_Voltolina_001.jpg/290px-Laurentius_de_Voltolina_001.jpg">
+                <figcaption>
+                    Don't sleep in lectures like the students in the back here!
+                </figcaption>
+            </figure>
 
-        <ul>
-            <li>
-                Attend all sessions: these are crucial stand-up meetings where
-                we coordinate our work.
-            </li>
-            <li>
-                Work steadily: it is completely anti-DevOps to try to finish
-                your work in a rush at the end of the semester. If you attempt
-                to do this, you will fail the course, <i>regardless of whether
-                you submit "good" work or not</i>.
-            </li>
-            <li>
-                Purchase at least one of the books on the DevOps reading list.
-            </li>
-        </ul>
+            <ul>
+                <li>
+                    Attend all sessions: these are
+                    crucial stand-up meetings where
+                    we coordinate our work.
+                </li>
+                <li>
+                    Work steadily: it is completely
+                    anti-DevOps to try to finish
+                    your work in a rush at the
+                    end of the semester. If you attempt
+                    to do this, you will fail the course,
+                    <i>regardless of whether
+                    you submit "good" work or not</i>.
+                </li>
+                <li>
+                    Purchase at least one of the books
+                    on the DevOps reading list.
+                </li>
+            </ul>
+            </div>
+        </div>
 
     </body>
 </html>

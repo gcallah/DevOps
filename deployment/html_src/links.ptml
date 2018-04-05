@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
-            Deployment Links 
+            Deployment Links
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Deployment Links 
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Deployment Links
+                </h1>
 
-        <ul class="nested">
-            <li>
-                <a href="https://www.devopsguys.com/2018/01/10/puppet-vs-ansible/">
-                    Puppet vs. Ansible
-                </a>
-            </li>
+                <ul class="nested">
+                    <li>
+                        <a href="dockerLecture.html">
+                            Prashant Patel's Docker lecture
+                        </a>
+                    </li>
 
-            <li>
-                <a href="https://www.infoq.com/articles/kubernetes-effect">
-                    The Kubernetes Effect
-                </a>
-            </li>
+                    <li>
+                        <a href="https://www.devopsguys.com/2018/01/10/puppet-vs-ansible/">
+                            Puppet vs. Ansible
+                        </a>
+                    </li>
 
-            <li>
-                <a href="https://www.deployhub.org">
-                    DeployHub
-                </a>
-            </li>
-        </ul>
+                    <li>
+                        <a href="https://www.infoq.com/articles/kubernetes-effect">
+                            The Kubernetes Effect
+                        </a>
+                    </li>
 
+                    <li>
+                        <a href="https://www.deployhub.org">
+                            DeployHub
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
     </body>
 </html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--include subhead.txt -->
+        <title>
+            UX Tools
+        </title>
+<!--include googleAnalyticsScript.txt -->
+    </head>
+
+    <body>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Our UX Tools
+                </h1>
+
+                <p>
+                    For the UX implementation, we use the normal front-end
+                    languages such as JavaScript, HTML, CSS for the animation
+                    and stylesheet including font, background, arrangement,
+                    collapse effects and etc.. And we applied Bootstrap which
+                    helps save time with large front-end library and arrange
+                    the layout very handily. Also, Bootstrap contributes well
+                    on compatibility which allow the website easily migrated
+                    to mobile device.
+
+                    Our team uses atom and sublime as the html editors.
+                    <br />
+                    You can find some help links in the link page.
+                </p>
+            </div>
+        </div>
+    </body>
+  </html>

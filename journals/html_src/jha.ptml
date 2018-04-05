@@ -1,45 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
 
-        <h1>
-            My DevOps Story
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    My DevOps Story
+                </h1>
 
-        <p class="author">
-            By
-            <br />
-            Tanya Jha
-        </p>
+                <p class="author">
+                    by
+                    <br />
+                    Tanya Jha
+                </p>
 
-        <p class="motivation" style="text-align: justify"><font color ="cyan">
-            <br />
-            According to Wikipedia, “DevOps (a clipped compound of “software development” and “information technology operations”) is a term used to refer to a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes.”
-         </p>
-         <br />
-        
+                <p style="text-align: justify">
+                    According to Wikipedia, “DevOps (a clipped compound
+                    of “software development” and “information technology
+                    operations”) is a term used to refer to a set of
+                    practices that emphasize the collaboration and
+                    communication of both software developers
+                    and information technology (IT) professionals while
+                    automating the process of software delivery and
+                    infrastructure changes.”
 
-        <p>
-        	DevOps is a combination of software development, operations and Quality Assurance. If you are a DevOps professional, chances are that some of the top companies are looking for people like you.
-        </p>
-        <br />
+                    <br>
 
+                    DevOps is a combination of software development,
+                    operations and Quality Assurance. If you are a DevOps
+                    professional, chances are that some of the top
+                    companies are looking for people like you.
 
-        <p>
-        	I realised the importance of DevOps at my summer internship. There were lot of buzzwords related to DevOps that kept going around and I had to constantly look them up. I wish I had taken or could take a DevOps course. Luckily Professor Callahan was going to take a DevOps course in Spring 2018! This course is new at NYU and I am happy to be a student and a contributor to it. 
-        </p>
-        </font>
+                    <br>
 
+                    I realised the importance of DevOps at my summer
+                    internship. There were lot of buzzwords related to
+                    DevOps that kept going around and I had to constantly
+                    look them up. I wish I had taken  or could take a
+                    DevOps course. Luckily Professor Callahan was
+                    going to take a DevOps course in Spring 2018! This
+                    course is new at NYU and I am happy to be a student
+                    and a contributor to it.
 
+                </p>
+            </div>
+        </div>
 
     </body>
 </html>

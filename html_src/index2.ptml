@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <!--include head.txt -->
+        <title>Sample Index Page</title>
+  <!--include googleAnalyticsScript.txt -->
+    </head>
+    <body>
+        <div class="wrapper">
+            <!--include navbar.txt -->
+            <!-- Page Content Holder -->
+            <div id="content">
+                <div>
+                <figure>
+                    <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/220px-Devops-toolchain.svg.png">
+                    <figcaption>
+                        The DevOps toolchain
+                    </figcaption>
+                </figure>
+
+                <p class="leadquote">
+                    "Enterprises with digital aspirations now realize it’s
+                    DevOps or die. The increase in agility gained from short,
+                    automated deployment cycles is staggering, and
+                    it’s a matter of when, not if, software engineering
+                    teams make the switch." -- DevOps.com
+                </p>
+              </div>
+                <div class="line"></div>
+                <div style="text-align:center">
+                    <h2>
+                        The Three Ways of DevOps
+                    </h2>
+
+                    <figure>
+                        <img src="graphics/ThirdWay.png">
+                        <figcaption>
+                            (Credit: https://www.pinkelephantasia.com/)
+                        </figcaption>
+                    </figure>
+
+                    <ol class="centered">
+                        <li>
+                            The Technical Practices of Flow
+                        </li>
+
+                        <li>
+                            The Technical Practices of Feedback
+                        </li>
+
+                        <li>
+                            The Technical Practices of Continual Learning
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="line"></div>
+                <figure>
+                    <img
+                    src="https://i2.wp.com/devops.com/wp-content/uploads/2016/09/pic.png?w=499&ssl=1">
+                    <figcaption>
+                        The six phases of the DevOps life cycle
+                    </figcaption>
+                </figure>
+
+            </div>
+        </div>
+    </body>
+</html>

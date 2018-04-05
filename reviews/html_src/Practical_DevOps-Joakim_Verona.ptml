@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--include subhead.txt -->
+        <title>
+            Review of Practical DevOps - Joakim Verona
+        </title>
+        <!--include googleAnalyticsScript.txt -->
+    </head>
+
+    <body>
+      <div class="wrapper">
+          <!--include navbar.txt -->
+          <div id="content">
+            <h1>
+                Practical DevOps - Joakim Verona
+            </h1>
+
+            <p class="author">
+                Reviewers: Kanishk Dugar and Pravar Singh
+            </p>
+          </div>
+      </div>
+    </body>
+</html>

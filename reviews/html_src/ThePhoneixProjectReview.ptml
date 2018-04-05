@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--include subhead.txt -->
+<title>
+The Phoenix Project Review
+</title>
+<!--include googleAnalyticsScript.txt -->
+</head>
+
+<body>
+
+<div class="wrapper">
+<!--include navbar.txt -->
+<div id="content">
+
+<title>
+The Phoenix Project
+</title>
+
+<p class="author">
+Authors: Gene Kim, Kevin Behr, George Spafford,
+
+<br>
+Reviewers: Garima Negi, Drumil Bakhai
+</p>
+<p>
+This book is a novel about IT, DevOps
+and helping business
+win.The novel delivers a story that can be recognized by anyone
+in IT.
+It uses the storyline to highlight the problems such as
+deadlines,
+bottlenecks, interdepartmental communication,
+security aspects, etc.
+It lays out the struggle with growing complexity of
+IT and solution
+with DevOps concepts.
+</p>
+<p>
+Have you ever read a book which involves an intruguing
+storyline that
+discusses all the problems faced by an engineer who
+struggles to handle a fast growing organiztion.
+If no then this is the book
+that you should pick up and read.
+The book explains different concepts of DevOps and
+how to handle them
+
+</p>
+<p>
+<h3> 
+  Chapter 1: 
+</h3>
+Our protagonist Bill Palmer is called to 
+meet the CEO and worries that he may be getting fired. 
+Instead he learns that the CIO and Chief of IT 
+Operations(Luke and Damon) have been fired. 
+After CEO Steve convinces Bill of the hard times 
+the company is going through, Bill accepts the 
+role of VP of Operations. He is already facing a new 
+problem as Paychecks for company employees are stuck!
+</p>
+<p>
+<h3> 
+  Chapter 2: 
+</h3>
+Bill meets Dick and Ann who explain to him about 
+the Payroll problem. There are only zeroes in salary 
+column for hourly employees. One backup option is to 
+pay everyone based on previous cycle but that will lead 
+to overpaying or underpaying some employees inviting the 
+Union to step in. Bill suggests working on plan B while he 
+investigates further. On reaching IT dept., Wes and Patty 
+tell him about the SAN(Storage Area Network) failure which 
+everyone is trying to fix since all servers are down. Bill 
+tries to relate payroll failure to SAN failure.
+</p>
+<p>
+<h3>
+  Chapter 3:
+</h3>
+The SAN failure was caused due to firmware upgrade. 
+The upgrade was pending for a few years, taking a toll 
+on system performance. On rebooting the SAN, self-tests 
+started failing as they were written according to 
+previous versions.
+
+<br>
+<br>
+Here we see a classic example of lack of a 
+ticketing system as well as absence of change 
+authorization system!
+<br>
+The issue of payroll is identified to be an effect of 
+change introduced to system, without following processes 
+and notifying other teams. John the Head of Security, 
+deployed a tokenization application that affected 
+timekeeping and caused payroll failure.
+
+</p>
+
+</div>
+</div>
+
+</body>
+</html>

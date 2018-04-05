@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--include head.txt -->
+        <title>
+            Using Git and GitHub
+        </title>
+        <!--include googleAnalyticsScript.txt -->
+    </head>
+
+    <body>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+        <h1>
+            Using Git and GitHub
+        </h1>
+
+        <p>
+            Some guidelines for using Git and GitHub in the DevOps class (and
+            perhaps in other, future classes as well).
+        </p>
+
+        <ul class="nested">
+            <li>
+                For the purposes of continuous integration, work should usually
+                be done on the master branch. Creating other branches should be
+                done only in extraordinary circumstances.
+            </li>
+
+            <li>
+                Use <i>real</i> commit messages that give someone viewing the
+                commit an idea of what occurred.
+                <br />
+                <b>Bad</b>: "Updated a file."
+                <br />
+                <b>Good</b>: "Started work on git page and
+                added section on commit messages."
+            </li>
+
+        </ul>
+
+            </div>
+        </div>
+
+    </body>
+</html>

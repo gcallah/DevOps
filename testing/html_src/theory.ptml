@@ -1,23 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Testing Theory
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Testing Theory
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+            <h1>
+                Testing Theory
+            </h1>
 
-        <p>
- <a href="https://blog.travis-ci.com/2017-12-05-what-is-ci-part-1">Testing in Continuous Integration part 1</a>
-<a href="https://blog.travis-ci.com/2018-01-25-what-is-ci-part-2">Testing in Continuous Integration part 2:(Unit testing)</a>
-        </p>
+            <p>
+     <a href="https://blog.travis-ci.com/2017-12-05-what-is-ci-part-1">Testing
+         and Continuous Integration Part 1</a>
+             <br />
+    <a href="https://blog.travis-ci.com/2018-01-25-what-is-ci-part-2">Testing
+        and Continuous Integration Part 2 (Unit testing)</a>
+            </p>
 
+            <h2>
+               The Importance of Testing
+            </h2>
+
+            <ul>
+            <li>
+            Recognition of Error and Faults : Errors may be in unit level or in
+            system level. After going through so many testing the application will
+            be free of errors that may be disturbing the application.
+            </li>
+
+            <li>
+            Enhancement in Product Standards : Testing can help to know the real
+            result and the probable result. With proper testing an application can
+            come out of bugs and build up ideal software for the end-users.
+            </li>
+            <li>
+            Credibility Evaluation : If the software application has gone through
+            all the testing types
+            (like unit testing, regression testing etc.), the application will
+            surely be a reliable one.
+            </li>
+            <li>
+            Avoid Fault Immigration : The faults can be noticed first stage of SDLC
+            hence, these may be prohibited from immigrating to the following
+            progress stage.
+            </li>
+            </ul>
+
+            <p>
+                <b>Credits</b>:
+                http://mrbool.com/software-development-life-cycle-the-role-of-testing/29838#ixzz57oCpwRPl
+            </p>
+            </div>
+        </div>
     </body>
 </html>

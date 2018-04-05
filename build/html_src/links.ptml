@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--include subhead.txt -->
+        <title>
+            Build Links
+        </title>
+        <!--include googleAnalyticsScript.txt -->
+    </head>
+
+    <body>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+
+                <h1>
+                    Build Links
+                </h1>
+                <ul class="contents">
+                    <li>
+                        <a href="http://www.gearstream.com/devops-build-management-2/">
+                            DevOps Build Management
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </body>
+</html>

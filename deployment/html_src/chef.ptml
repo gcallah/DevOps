@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <!--include subhead.txt -->
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            CHEF!
+        </title>
+    <!--include googleAnalyticsScript.txt -->
+    </head>
+
+    <body>
+    <div class="wrapper">
+      <!--include navbar.txt -->
+        <div id="content">
+
+        <h1>
+            <u><b>CHEF</b></u>
+        </h1>
+
+        <p>
+    		In this section, we will cover the advantages of using Chef and a quick start guide for the same<br/></br>
+
+    		<div style="text-align: center;"> <img src="https://severalnines.com/sites/default/files/chef_logo.png"> </div>
+
+    		</p>
+
+        <p>
+    		</br></br>
+
+    		<b>WHAT IS CHEF?</b> </br>
+
+    		CHEF is a configuration management tool written in Ruby and Erlang. It is used to configure and maintain a company's servers.
+    		</p>
+
+    		<p>
+    		</br>
+
+    		<b>Why Chef?</b> </br>
+
+    		<ul>
+    		<h6>
+    		<li> <u>Meant to be used by programmers</u></li>
+    		<li> <u>Useful for large-scale development</u></li>
+    		<li> <u>Stable and mature solution</u></li>
+    		<li> <u>Good version control capabilities</u></li>
+    		</h6>
+    		</ul>
+
+    		</p>
+
+    		<p>
+    		</br>
+    		<u><b>CHEF INSTALLATION</b> </u>
+    		</br>
+    		Use the following link: https://downloads.chef.io/chefdk/ to install the Chef development toolkit.
+    		It has download and install options for different versions of Linux as well as Mac and Windows. It contains a set of tools needed to test your infrastructure.
+    		</br> </br>
+      </p>
+      </div>
+    </div>
+    </body>
+  </html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--include subhead.txt -->
+        <title>
+            Staffing Your DevOps Organization: Agile Development and
+            the Division of Labor
+        </title>
+        <!--include googleAnalyticsScript.txt -->
+    </head>
+
+    <body>
+        <h1 class="no-menu">
+            Staffing Your DevOps Organization: Agile Development and
+            the Division of Labor
+        </h1>
+
+        <details>
+            <summary class="sum2">
+                The extreme division of labor prevailing during much of
+                the 20th century was a transitory phenomenon.
+            </summary>
+
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Ford_assembly_line_-_1913.jpg"
+                width="25%">
+                <figcaption>
+                    Ford assembly line, 1913
+                </figcaption>
+            </figure>
+
+        </details>
+
+        <details>
+            <summary class="sum2">
+                DevOps patterns and practices represent a
+                different way of working, and that is based
+                on the different demands of the 21<sup>st</sup>
+                century.
+            </summary>
+
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/MorganWoodworking.jpg/440px-MorganWoodworking.jpg"
+                width="25%">
+                <figcaption>
+                    A wood craftsperson
+                </figcaption>
+            </figure>
+
+            <ul>
+                <li>
+                    DevOps represents a reincarnation of "craft work."
+                </li>
+                <li>
+                    A reincarnation, because it is craft work with a new layer
+                    of automation available.
+                </li>
+            </ul>
+
+        </details>
+
+        <details>
+            <summary class="sum2">
+                What is the role of the "DevOps toolchain" in establishing this
+                new way of working??
+            </summary>
+
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/440px-Devops-toolchain.svg.png"
+                width="22%">
+                <figcaption>
+                    The DevOps toolchain
+                </figcaption>
+            </figure>
+
+            <ul>
+                <li>
+                    The mechanical, repetitive tasks the assembly-line worker
+                    performed in the 20th century must be automated!
+                </li>
+            </ul>
+
+        </details>
+
+        <details>
+            <summary class="sum2">
+                How can an enterprise balance the need for highly capable
+                specialists with the DevOps demand to "break down silos"?
+            </summary>
+
+            <ul>
+                <li>
+                    An agile enterprise needs to hire people with broad 
+                    understanding of various technologies and
+                    how they fit into the enterprise and forward
+                    its goals.
+                </li>
+                <li>
+                    Nevertheless, we still are coping with extremely complex
+                    technologies, and we will need people who understand them
+                    in great depth!
+                </li>
+            </ul>
+
+        </details>
+
+        <details>
+            <summary class="sum2">
+                There is no "one size fits all" approach to implementing
+                a DevOps change.
+            </summary>
+
+            <ul>
+                <li>
+                    Each enterprise will have to make its own trade-offs
+                    between its need for specialists and its need for
+                    generalists.
+                </li>
+                <li>
+                    To suggest this trade-off could be made according to some
+                    mechanical formula would be... "anti-DevOps"!
+                </li>
+            </ul>
+
+        </details>
+
+    </body>
+</html>

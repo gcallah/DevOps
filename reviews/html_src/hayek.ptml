@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
-            The Use of Knowledge in Society
+            The DevOps Handbook
         </title>
+<!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            The Use of Knowledge in Society
-        </h1>
+      <div class="wrapper">
+<!--include navbar.txt -->
+          <div id="content">
+            <h1>
+               The Use of Knowledge in Society
+            </h1>
+            <p class="author">
+                Authors: F.A. Hayek
+                <br>
+                Reviewers: Linfeng Wang
+            </p>
 
-        <p class="author">
-            F.A. Hayek
-        </p>
+            <p>
+                I
+                <br />
+                <br />
+                The author first suppose a question: What is the problem we wish to solve when we try to construct a rational economic order? 
+                It is so complicated for a single person to explain and the solution would not merely "given" by society as a totality.
+                <br />
+                On the contrary,  all individuals in our society poessess some part of the answer to this question. The author believes that there may not have a simple, mathematics logic to explain "why it happens," but he could say, as an individual, the diverse paths of reasoning have converged, because of their vision.
+                <br />
+                <br />
+            </p>
+            <p>
+                II
+                <br />
+                Anyway, there must be someone need to decide what the whole system should do. We call that process: planning. Usually, planning means "central planning" - direction of the whole system according to one unified plan. And the other side of central planning is competition, a decentralized planning process. These two process decide the organization of modern industries and companies.
+            </p>
+            <p>
+                III
+                <br />
+                <br />
+            </p>
+            <p>
+            </p>
+          </div>
+        </div>
     </body>
 </html>
+

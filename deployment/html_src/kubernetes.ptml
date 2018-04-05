@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--include subhead.txt -->
+        <title>
+            Kubernetes
+        </title>
+        <!--include googleAnalyticsScript.txt -->
+    </head>
+    <body>
+        <div class="wrapper">
+<!--include navbar.txt -->
+        <div id="content">
+        <h1>
+            Kubernetes
+        </h1>
+        <h2>
+            What?
+        </h2>
+        <p>
+        </p>
+        <h2>
+            Why?
+        </h2>
+        <p></p>
+        <h2>
+            How?
+        </h2>
+        <p></p>
+        <h2>
+            Setup?
+        </h2>
+        <p></p>
+        <h2>
+            Configuration?
+        </h2>
+        <p></p>
+            </div>
+        </div>
+    </body>
+</html>

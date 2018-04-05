@@ -1,178 +1,186 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include head.txt -->
         <title>
             DevOps: A Way of Cooperative Production
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            DevOps: A Way of Cooperative Production
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+            <h1>
+                DevOps: A Way of Cooperative Production
+            </h1>
 
-            <figure>
-                <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Common_clownfish_curves_dnsmpl.jpg/220px-Common_clownfish_curves_dnsmpl.jpg">
-                <figcaption>
-                    Symbiosis between clownfish and anemone
-                </figcaption>
-            </figure>
+                <figure>
+                    <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Common_clownfish_curves_dnsmpl.jpg/220px-Common_clownfish_curves_dnsmpl.jpg">
+                    <figcaption>
+                        Symbiosis between clownfish and anemone
+                    </figcaption>
+                </figure>
 
-            <p class="leadquote">
-                "DevOps is a human problem." -- Patrick Debois
-            </p>
+                <p class="leadquote">
+                    "DevOps is a human problem." -- Patrick Debois
+                </p>
 
-            <p>
-                During the 1980s and 1990s, a number of trends in software
-                development such as
-                <a
-                    href="https://en.wikipedia.org/wiki/Rapid_application_development">
-                    Rapid-Application Development</a>,
-                <a
-                    href="https://en.wikipedia.org/wiki/Scrum_(software_development)">
-                    Scrum</a>,
-                and
-                <a href="https://en.wikipedia.org/wiki/Extreme_programming">
-                    Extreme Programming</a>,
-                led to the <a href="http://agilemanifesto.org">Agile
-                    Manifesto</a>, a summary of the lessons learned
-                from applying these various practices over many years.
-                Meanwhile, similar ideas, moving over from the world
-                of manufacturing, in particular, from the
-                <a href="https://en.wikipedia.org/wiki/Toyota_Production_System">
-                    Toyota Production System</a>,
-                coalesced into
-                <a
-                    href="https://en.wikipedia.org/wiki/Lean_software_development">
-                    Lean Programming</a>,
-                which shared so many features with Agile that they can
-                essentially be considered variants on a theme. (If we want to
-                be good historians of software engineering practice, we
-                must note that these ideas have earlier antecedents,
-                particularly to be found in the group of brilliant
-                engineers who worked at Bell Labs in the 1960s and 1970s,
-                and who pioneered the notion of incremental development
-                of small tools that could be easily combined into
-                larger systems as the need arose, an idea at the heart
-                of the UNIX operating system.)
-            </p>
-
-            <figure>
-                <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Toyota_Loom_Mass_Production_Bertel_Schmitt.jpg/220px-Toyota_Loom_Mass_Production_Bertel_Schmitt.jpg">
-                <figcaption>
-                    Producing the Toyoda automated loom
-                </figcaption>
-            </figure>
-
-            <p>
-                These trends, along with the increasing viability of the Web
-                as an application delivery platform, gave rise to development
-                groups that could deliver new software to customers at an
-                unprecedented pace. But this pace strained the capabilities of
-                many operations teams: operations had traditionally acted as
-                a regulator stopping buggy, insecure software from reaching
-                production boxes. This job often delayed new software from
-                reaching production for a number of months. When development
-                cycles for new releases were measured in years, adding a few
-                months to the release date was relatively unproblematic.
-                But once development teams were ready to release new software
-                much more frequently, often <i>daily</i>, adding a couple of
-                month delay to a one-day release cycle no longer seemed
-                acceptable.
-            </p>
-
-            <p>
-                Thus, operations, if it was not to be the fly in the ointment,
-                had to become lean and agile itself. Practitioners realized
-                that this required a new approach to operations: operations 
-                had to work together with development from the very start of
-                a project, to ensure that new software, at every step along
-                its development path, was always "production ready." This 
-                close collaboration between development and operations
-                was christened with a name in 2008: in a talk on "Agile
-                Infrastructure," Andrew Shafer and Patrick Debois coined the
-                term "DevOps."
-            </p>
-
-            <p>
-                So DevOps can be seen as an extension of Lean and Agile ideas
-                into the realm of deploying software into production and
-                monitoring and fixing it once it has been deployed. In order
-                to accomodate the pace of release achieved by Lean/Agile
-                developers, operations teams realized that operations had 
-                to shift from a way of working where they were an
-                after-the-fact check on the work of developers to one 
-                in which they were involved in the development process
-                from day one: operations has to swiftly provide developers
-                with production-like environments in which to work
-                (infra-structure as code), to enable quality assurance
-                at every step of the development process (continuous, automated
-                testing), to enable swift rollbacks when errors do appear in
-                production (version control systems), and to constantly
-                track the performance of these frequently released systems
-                (automated monitoring).
-            </p>
-
-            <p>
-                New developments in DevOps have extended this notion of 
-                continual cooperation into the realms of security
-                (<a
-                    href="https://blog.newrelic.com/2015/08/27/secdevops-rugged-devops/">Rugged DevOps</a>),
-                compliance, and even
-                <a href="https://devops.com/measure-whats-important-devfinops/">
-                    finance</a>.
-            </p>
-
-            <p>
-                Perhaps the most important aspect of the DevOps movement, 
-                however, is the idea of <i>continuous learning</i>: by speeding
-                up the pace at which software is released by orders of
-                magnitude (Amazon releases new code into production at
-                an average pace of one release every 11 seconds), DevOps
-                can enable organizations to <i>learn</i> much more swiftly,
-                since it is by actually <i>using</i> new features that the
-                customers can best provide feedback as to what is really
-                helping them in their jobs, what is irrelevant, and what is
-                positively harmful. Until a feature is actually being used by
-                the customer, it is merely specualtion as to how important it
-                is: once the customer can use it, they will let us know!
-            </p>
-
-            <hr>
-
-            <h2>
-                More on This Topic
-            </h2>
-
-            <ul class="nested">
-                <li>
-                    <a href="myStory.html">
-                    My DevOps Story: Gene Callahan
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://itrevolution.com/devops-culture-part-1/">
-                        DevOps Culture: John Willis
-                    </a>
-                </li>
-
-                <li>
+                <p>
+                    During the 1980s and 1990s, a number of trends in software
+                    development such as
                     <a
-                        href="http://www.jedi.be/blog/2010/02/12/what-is-this-devops-thing-anyway/">
-                        What Is This DevOps Thing Anyway?
-                    </a>
-                </li>
-            </ul>
+                        href="https://en.wikipedia.org/wiki/Rapid_application_development">
+                        Rapid-Application Development</a>,
+                    <a
+                        href="https://en.wikipedia.org/wiki/Scrum_(software_development)">
+                        Scrum</a>,
+                    and
+                    <a href="https://en.wikipedia.org/wiki/Extreme_programming">
+                        Extreme Programming</a>,
+                    led to the <a href="http://agilemanifesto.org">Agile
+                        Manifesto</a>, a summary of the lessons learned
+                    from applying these various practices over many years.
+                    Meanwhile, similar ideas, moving over from the world
+                    of manufacturing, in particular, from the
+                    <a href="https://en.wikipedia.org/wiki/Toyota_Production_System">
+                        Toyota Production System</a>,
+                    coalesced into
+                    <a
+                        href="https://en.wikipedia.org/wiki/Lean_software_development">
+                        Lean Programming</a>,
+                    which shared so many features with Agile that they can
+                    essentially be considered variants
+                    on a theme. (If we want to
+                    be good historians of software engineering practice, we
+                    must note that these ideas have earlier antecedents,
+                    particularly to be found in the group of brilliant
+                    engineers who worked at Bell Labs in the 1960s and 1970s,
+                    and who pioneered the notion of incremental development
+                    of small tools that could be easily combined into
+                    larger systems as the need arose, an idea at the heart
+                    of the UNIX operating system.)
+                </p>
 
-            <p class="copyright">
-                &copy; 2017 Gene Callahan
-            </p>
+                <figure>
+                    <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Toyota_Loom_Mass_Production_Bertel_Schmitt.jpg/220px-Toyota_Loom_Mass_Production_Bertel_Schmitt.jpg">
+                    <figcaption>
+                        Producing the Toyoda automated loom
+                    </figcaption>
+                </figure>
+
+                <p>
+                    These trends, along with the increasing viability of the
+                    Web as an application delivery platform,
+                    gave rise to development
+                    groups that could deliver new software to customers at an
+                    unprecedented pace. But this pace strained the capabilities of
+                    many operations teams: operations had traditionally acted as
+                    a regulator stopping buggy, insecure software from reaching
+                    production boxes. This job often delayed new software from
+                    reaching production for a number of months. When development
+                    cycles for new releases were measured in years, adding a few
+                    months to the release date was relatively unproblematic.
+                    But once development teams were ready to release new software
+                    much more frequently, often <i>daily</i>, adding a couple of
+                    month delay to a one-day release cycle no longer seemed
+                    acceptable.
+                </p>
+
+                <p>
+                    Thus, operations, if it was not to be the fly in the ointment,
+                    had to become lean and agile itself. Practitioners realized
+                    that this required a new approach to operations: operations
+                    had to work together with development from the very start of
+                    a project, to ensure that new software, at every step along
+                    its development path, was always "production ready." This
+                    close collaboration between development and operations
+                    was christened with a name in 2008: in a talk on "Agile
+                    Infrastructure," Andrew Shafer and Patrick Debois coined the
+                    term "DevOps."
+                </p>
+
+                <p>
+                    So DevOps can be seen as an extension of Lean and Agile ideas
+                    into the realm of deploying software into production and
+                    monitoring and fixing it once it has been deployed. In order
+                    to accomodate the pace of release achieved by Lean/Agile
+                    developers, operations teams realized that operations had
+                    to shift from a way of working where they were an
+                    after-the-fact check on the work of developers to one
+                    in which they were involved in the development process
+                    from day one: operations has to swiftly provide developers
+                    with production-like environments in which to work
+                    (infra-structure as code), to enable quality assurance
+                    at every step of the development process (continuous, automated
+                    testing), to enable swift rollbacks when errors do appear in
+                    production (version control systems), and to constantly
+                    track the performance of these frequently released systems
+                    (automated monitoring).
+                </p>
+
+                <p>
+                    New developments in DevOps have extended this notion of
+                    continual cooperation into the realms of security
+                    (<a
+                        href="https://blog.newrelic.com/2015/08/27/secdevops-rugged-devops/">Rugged DevOps</a>),
+                    compliance, and even
+                    <a href="https://devops.com/measure-whats-important-devfinops/">
+                        finance</a>.
+                </p>
+
+                <p>
+                    Perhaps the most important aspect of the DevOps movement,
+                    however, is the idea of <i>continuous learning</i>: by speeding
+                    up the pace at which software is released by orders of
+                    magnitude (Amazon releases new code into production at
+                    an average pace of one release every 11 seconds), DevOps
+                    can enable organizations to <i>learn</i> much more swiftly,
+                    since it is by actually <i>using</i> new features that the
+                    customers can best provide feedback as to what is really
+                    helping them in their jobs, what is irrelevant, and what is
+                    positively harmful. Until a feature
+                    is actually being used by
+                    the customer, it is merely specualtion
+                    as to how important it is: once the customer
+                    can use it, they will let us know!
+                </p>
+
+                <hr>
+
+                <h2>
+                    More on This Topic
+                </h2>
+
+                <ul class="nested">
+                    <li>
+                        <a href="myStory.html">
+                        My DevOps Story: Gene Callahan
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://itrevolution.com/devops-culture-part-1/">
+                            DevOps Culture: John Willis
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="http://www.jedi.be/blog/2010/02/12/what-is-this-devops-thing-anyway/">
+                            What Is This DevOps Thing Anyway?
+                        </a>
+                    </li>
+                </ul>
+
+                <p class="copyright">
+                    &copy; 2017 Gene Callahan
+                </p>
+            </div>
+        </div>
 
     </body>
 </html>

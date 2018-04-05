@@ -1,26 +1,86 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
-            UX Links 
+            UX Links
         </title>
+<!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            UX Links 
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Our UX Links
+                </h1>
+                <p>
+                To improve UI of applications, the common rules in UI Design
+                must be acknowledged. In this page, we provide all the links
+                and marterials we researched in our design process. Anyone
+                interested in UI design feels free to drop in. We will keep
+                updating in our research process.
+                </p>
+                <ul class="nested">
+                  <li>
+                      <a href="http://bokardo.com/principles-of-user-interface-design/">
+                        Principles of User Interface Design
+                      </a>
+                  </li>
+                    <li>
+                        <a href="http://www.argondesign.com/news/2014/feb/5/5-aspects-good-user-interface/">
+                            5 aspects of a good user interface
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://usabilitypost.com/2009/04/15/8-characteristics-of-successful-user-interfaces/">
+                            8 Characteristics Of Successful User Interfaces
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://osr600doc.sco.com/en/SDK_vtcl/vtclgN.style_goodui.html">
+                          What makes a good user interface?
+                        </a>
+                    </li>
 
-        <ul class="nested">
-            <li>
-                <a href="https://developer.mozilla.org/en-US/">
-                    Mozilla Developer's Network
-                </a>
-            </li>
-        </ul>
+                    <li>
+                        <a href="https://www.w3.org/standards/webdesign/accessibility">
+                          Web accessibility
+                        </a>
+                    </li>
 
+                    <li>
+                        <a href="https://www.w3.org/WAI/intro/accessibility.php">
+                          More on Web accessibility
+                        </a>
+                    </li>
+                </ul>
+                <br />
+                <br />
+                <p>
+                Also, we would like to provide some links for UI implementation:
+                </p>
+                <ul class="nested">
+                  <li>
+                      <a href="https://getbootstrap.com/">
+                        Bootstrap: the most popular HTML, CSS, and JavaScript
+                        framework for developing websites
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.w3schools.com/bootstrap/default.asp">
+                        Bootstrap Tutorials
+                      </a>
+                  </li>
+                </ul>
+                <br />
+                <p>
+                If you need more info on basic knowledgebase, feel free to
+                contact us with what you want.
+              </p>
+            </div>
+        </div>
     </body>
+
 </html>

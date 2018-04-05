@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+    <!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
+    <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
+    <div class="wrapper">
+    <!--include navbar.txt -->
+        <div id="content">
 
         <h1>
             My DevOps Story
@@ -36,5 +38,56 @@
           is changing. I am excited to participating in this hands-on course to learn DevOps.
         </p>
 
+        <p class="leadquote">
+          Week 1-2
+        </p>
+        <p>
+          During the first two weeks, I have leant some basic concepts in DevOps, including the history
+          of DevOps, the reason why DevOps emerges, the lean developing and so on. The lectures have been
+          very helpful to me, as these concepts are taught using examples and hands-on project.
+        </p>
+
+        <p class="leadquote">
+          Week 3-4
+        </p>
+        <p>
+          This week, our team has given a presentation to our class. Our presentation includes the work we
+          have done to migrate our index page to a navgation-bar template, the changes we are about to have
+          in the style sheet and some concepts in designing UX. We also gather feedbacks from our users.
+        </p>
+
+        <p class="leadquote">
+          Week 5-6
+        </p>
+        <p>
+          This week, our team has cut over to the new muem to the index page. We have changed the interface
+          of the all devops page, including font, font color, font size, layout and so on.
+        </p>
+
+        <p class="leadquote">
+          Week 7-8
+        </p>
+        <p>
+          This week, our team have been working the news feed for the lonely index page :)
+        </p>
+
+        <p class="leadquote">
+          Week 9-10
+        </p>
+        <p>
+          This week, I have implemented a static news feed
+        </p>
+
+        <p class="leadquote">
+          Week 11-12
+        </p>
+        <p>
+          This week, integrate news feed to the devops website.
+        </p>
+
+
+
+      </div>
+    </div>
     </body>
 </html>

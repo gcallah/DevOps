@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--include subhead.txt -->
+        <title>
+            The Art of Monitoring
+        </title>
+        <!--include googleAnalyticsScript.txt -->
+    </head>
+
+    <body>
+        <div class="wrapper">
+<!--include navbar.txt -->
+    <div id = "content">
+        <h1>
+            The Art of Monitoring
+        </h1>
+
+        <p class="author">
+            James Turnbull
+        </p>
+    </div>
+    </div>
+    </body>
+</html>

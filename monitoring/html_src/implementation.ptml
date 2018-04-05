@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Our Monitoring Implementation
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Our Monitoring Implementation
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+                <h1>
+                    Our Monitoring Implementation
+                </h1>
 
-        <p>
-            This is how we implemented our monitoring system.
-        </p>
+                <p>
+                    This page will describe our monitoring implementation.
+                </p>
+                <li>
+                    Google Analytics
+                </li>
+                <li>
+                    StatusCake
+                </li>
 
+            </div>
+        </div>
     </body>
 </html>

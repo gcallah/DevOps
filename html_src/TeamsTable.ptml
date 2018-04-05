@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include head.txt -->
         <title>
             DevOps Course Teams and Their Members
         </title>
-        
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
 
-<!--include menu.txt -->
-        <h1>
-            DevOps Course Teams and Their Members
-        </h1>
-        <p>
-            Below are the teams and their members:
-        </p>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+            <h1>
+                DevOps Course Teams and Their Members
+            </h1>
 
-        <ul class="nested">
             <table style="width:80%" bgcolor="#2f71d6"  >
-            
+
               <tr>
-                <th>Team Name </th>
-                <th>Members</th>
+                <th class="table-head">Team Name </th>
+                <th class="table-head">Members</th>
               </tr>
               <tr>
                 <th rowspan="2">Build Team</th>
@@ -34,19 +31,16 @@
                 <td>Drumil</td>
               </tr>
               <tr>
-                <th rowspan="3">Cloud Team</th>
-                <td>Rushabh Patel</td>
-              </tr>
-              <tr>
+                <th rowspan="2">Cloud Team</th>
                 <td>Richa</td>
               </tr>
               <tr>
                 <td>Adit</td>
               </tr>
-              
+
               <tr>
-                <th rowspan="7">Coding Team</th>
-                <td>Linfeng Wang</td>
+                <th rowspan="8">Coding Team</th>
+                <td>Linfeng Wang (Franzzzz)</td>
               </tr>
               <tr>
                 <td>Yang</td>
@@ -66,6 +60,9 @@
               <tr>
                 <td>Parvar</td>
               </tr>
+              <tr>
+                <td>Jayesh Mhatre</td>
+              </tr>
             <tr>
                 <th rowspan="4">Deployment Team</th>
                 <td>Ravish Bhatia</td>
@@ -79,26 +76,32 @@
               <tr>
                 <td>Srinivas</td>
              </tr>
-             
+
              <tr>
-                <th rowspan="3">Monitoring Team</th>
+                <th rowspan="4">Monitoring Team</th>
                 <td>Yancheng Shi</td>
               </tr>
               <tr>
                 <td>Rong Chen</td>
               </tr>
               <tr>
-                <td>Tanya Jha</td>
+                <td>Tanya Jha (tj3006)</td>
               </tr>
-              
+              <tr>
+                <td>Jatri Dave</td>
+              </tr>
+
              <tr>
-                <th rowspan="2">Security Team</th>
+                <th rowspan="3">Security Team</th>
                 <td>Arun John Kuruvilla</td>
               </tr>
               <tr>
                 <td>Om Narayan</td>
               </tr>
-              
+              <tr>
+                <td>Anshal N Savla</td>
+              </tr>
+
              <tr>
                 <th rowspan="3">Testing Team</th>
                 <td>Garima Negi</td>
@@ -109,7 +112,7 @@
               <tr>
                 <td>Chiquita</td>
               </tr>
-              
+
              <tr>
                 <th rowspan="3">UX Team</th>
                 <td>Chaoqun</td>
@@ -118,11 +121,11 @@
                 <td>Qiwei</td>
               </tr>
               <tr>
-                <td>Bowei Xu</td>
+                <td>Bowei Xu (Hunter6)</td>
               </tr>
-             
+
               <tr>
-                <th rowspan="3">Workflow Management Team</th>
+                <th rowspan="4">Workflow Management Team</th>
                 <td>Yin</td>
               </tr>
               <tr>
@@ -134,11 +137,11 @@
               <tr>
                 <td>Akshay Hazare</td>
               </tr>
-            
-              
+
             </table>
 
-        </ul>
+        </div>
+    </div>
 
     </body>
 </html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Version Control Links 
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Version Control Links 
+        </h1>
+
+        <ul class="nested">
+            
+            <li>
+                <a href="https://github.com/secure-systems-lab/lab-guidelines/blob/master/git-github-introduction.md">
+                    An introduction to Git and Github from Secure Systems Lab NYU
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://medium.com/@porteneuve/mastering-git-submodules-34c65e940407">
+                    Mastering Git submodules
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/secure-systems-lab/lab-guidelines/blob/a8ed96e62493e5f11bdd49d96d67abaab6ddf70a/commits.md#how-to-write-good-commit-messages">
+                    Guidelines to write good commits from Secure Systems Lab NYU
+                </a>
+            </li>
+
+            <li>
+                <a href="../usingGit.html">
+                    Using Git in Our Project
+                </a>
+            </li>
+        </ul>
+
+    </body>
+</html>

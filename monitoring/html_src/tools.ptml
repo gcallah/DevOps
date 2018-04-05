@@ -1,27 +1,430 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             Monitoring Tools Comparison
         </title>
+        <!--include googleAnalyticsScript.txt -->
+
     </head>
 
     <body>
-<!--include menu.txt -->
-        <h1>
-            Monitoring Tools Comparison
-        </h1>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+            <h1>
+                Monitoring Tools Comparison
+            </h1>
 
-        <p>
-            Here are some of the monitoring tools and their features:
-        </p>
+            <p>
+                Here are some of the monitoring tools and their features:
+            </p>
 
-        <ul class="nested">
-            <li>
-            </li>
-        </ul>
+            <details>
+                <summary class="sum2">
+                 Zabbix
+                </summary>
+
+                <ul class="contents">
+                    <li>
+                      Zabbix is an open source network monitoring tool that
+                      works with a centralized Linux-based Zabbix server.
+                    </li>
+                    <li>
+                      The Zabbix server automatically collects and parses data
+                      from monitored hardware so administrators can check
+                      availability and see trends in network performance.
+                    </li>
+                    <li>
+                      The server communicates to the native software agents
+                      that are available for many operating systems,
+                      including Linux, UNIX and Windows.
+                    </li>
+                    <li>
+                      For operating systems without an agent, generic
+                      monitoring protocols such as Simple Network Management
+                      Protocol (SNMP) or Intelligent Platform
+                      Management Interface (IPMI) can be used.
+                      You can find more details
+                      <a href="https://www.zabbix.com/" target="_blank">here.</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                  Nagios
+                </summary>
+
+                <ul class="contents">
+                    <li>
+                      Nagios is a free and open source application that
+                      monitors systems, networks and infrastructure.
+                    </li>
+                    <li>
+                      Nagios offers monitoring and alerting services for
+                      servers, switches, applications and services.
+                    </li>
+                    <li>
+                      It alerts users when things go wrong and alerts them a
+                      second time when the problem has been resolved.
+                    </li>
+                    <li>
+                      Nagios sets itself up as the “Industry Standard In IT
+                      Infrastructure Monitoring” while Zabbix says it
+                      is “the Enterprise-class Monitoring Solution for
+                      Everyone”. You can find more details
+                      <a href="https://www.nagios.org/" target="_blank">here.</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                  Sensu
+                </summary>
+
+                <ul class="contents">
+                    <li>
+                    Sensu is an application and infrastructure monitoring
+                    solution. It is not a SaaS solution.
+                    </li>
+                    <li>
+                    Sensu is easy to integrate with the tools used by the
+                    organisation to send alerts and notifications.
+                    </li>
+                    <li>
+                    New servers that are provisioned can be automatically
+                    register with Sensu without any manual intervention.
+                    </li>
+                    <li>
+                    Configuration files are written in JSON which makes
+                    it easy to automate. You can find more details
+                    <a href="https://sensuapp.org/" target="_blank">here.</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                  Prometheus
+                </summary>
+
+                <ul class="contents">
+                    <li>
+                    Prometheus is an open source monitoring and alerting tool.
+                    </li>
+                    <li>
+                     Its used for recording time series data which is
+                     characterised by metric name and key/value pairs.
+                    </li>
+                    <li>
+                      It can be used for monitoring machines as well as
+                      microservices.
+                    </li>
+                    <li>
+                      Prometheus offers reliability and lets you diagnose
+                      a problem quickly during an outage. It can display
+                      statistics even under failure conditions.
+                      You can find more details
+                      <a href="https://prometheus.io/" target="_blank">here.</a>
+                    </li>
+
+                </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                  SysDig
+                </summary>
+
+                <ul class="contents">
+                    <li>
+                      Sysdig is open source, system-level exploration that
+                      captures system state and activity from a running Linux
+                      instance, then save, filter and analyze.
+                    </li>
+                    <li>
+                      It is the first container-native Docker monitoring
+                      solution that combines container visibility with Swarm,
+                      Mesos, and Kubernetes monitoring intelligence.
+                    </li>
+                    <li>
+                      Sysdig gives you the deployment flexibility you need
+                      for clouds. You can find more details
+                      <a href="https://sysdig.com/opensource/" target="_blank">here.</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                  New Relic Infrastructure
+                </summary>
+
+                <ul class="contents">
+                  <li>
+                    New Relic Infrastructure provides flexible, dynamic server
+                    monitoring. It runs more efficiently in the cloud with
+                    visibility at every layer.
+                  </li>
+                  <li>
+                    By using New Relic APM and Infrastructure together, you
+                    get a comprehensive view of the health of your servers
+                    and hosts as well as the applications and services they
+                    depend on, creating shared context for development and
+                    ops teams.
+                  </li>
+                  <li>
+                    Infrastructure empowers modern operations teams to make
+                    intelligent decisions about complex systems, from a
+                    physical datacenter to thousands of Amazon Elastic
+                    Compute Cloud (Amazon EC2) or Microsoft Azure instance.
+                  </li>
+                  <li>
+                    It can easily track the inventory configuration state
+                    and correlate the changes to potential impacts on the
+                    host and application performance, with the application
+                    scaling and infrastructure changes.
+                    You can find more details
+                    <a href="https://docs.newrelic.com/docs/infrastructure/new-relic-infrastructure" target="_blank">here.</a>
+                  </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                  AWS CloudWatch
+                </summary>
+
+                <ul class="contents">
+                    <li>
+                      Amazon CloudWatch offers cloud monitoring services for
+                      different AWS resources such as Amazon EBS volumes ,
+                      Amazon RDS DB instances , Amazon EC2 instances and
+                      Elastic Load Balancers.
+                    </li>
+                    <li>
+                      It collects and tracks metrics such as request counts,
+                      CPU utilization, and latency. It then provides real time
+                      results to keep the ongoing work running smoothly.
+                    </li>
+                    <li>
+                      CloudWatch Events can be used to send system events from
+                      AWS resources to AWS Lambda functions, Amazon SNS
+                      topics, streams in Amazon Kinesis and many more.
+                    </li>
+                    <li>
+                      CloudWatch Logs can also be used to monitor, store, and
+                      access the log files from various sources like Amazon EC2
+                      instances and AWS CloudTrail.
+                      You can find more details
+                      <a href="https://aws.amazon.com/cloudwatch/" target="_blank">here.</a>
+                    </li>
+
+                </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                  Google StackDriver
+                </summary>
+
+                <ul class="contents">
+                    <li>
+                      Google Stackdriver is a cloud computing systems
+                      management service.
+                    </li>
+                    <li>
+                      It provides powerful monitoring, logging, and diagnostics
+                      in multi-cloud environments.
+                    </li>
+                    <li>
+                      It is natively integrated with Google Cloud Platform,
+                      Amazon Web Services and works flawlessly with a variety
+                      of common application components including Cassandra,
+                      Nginx, Apache Web Server and many more. On top of which
+                      it provides metrics detailing every layer of the 'stack'
+                      in the form of charts and graphs.
+                    </li>
+                    <li>
+                      Stackdriver combines metrics, logs, and metadata from all
+                      of your cloud accounts and projects into a single
+                      comprehensive view of your environment. Hence you can
+                      work easily with Google Cloud Platform, Amazon Web
+                      Services, or a hybrid of the two.You can find more details
+                      <a href="https://cloud.google.com/stackdriver/" target="_blank">here.</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                  New Relic
+                </summary>
+
+                <ul class="contents">
+                    <li>
+                      New Relic is an APM based on the SaaS model.
+                    </li>
+                    <li>
+                     The New Relic dashboard provides real time
+                     insights of the health of the software.
+                    </li>
+                    <li>
+                     Custom alert policies can be created for faster
+                     incident reporting.
+                    </li>
+                    <li>
+                     New Relic can give intelligent suggestions using
+                     machine learning techniques by going through
+                     the collected data to find patterns or anamolies.
+                     You can find more details
+                     <a href="https://newrelic.com/" target="_blank">here.</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                  AppDynamics
+                </summary>
+
+                <ul class="contents">
+                    <li>
+                    AppDynamics is an APM which measures application
+                    performance.
+                    </li>
+                    <li>
+                    It provides continuous monitoring which allows
+                    to detect the slowest transactions which can be
+                    optimised later.
+                    </li>
+                    <li>
+                    If the logger logs an error related to a transaction
+                    AppDynamics helps to detect the error.
+                    </li>
+                    <li>
+                    Different releases for the application can be compared
+                    on AppDynamics.
+                    You can find more details
+                    <a href="https://www.appdynamics.com/" target="_blank">here.</a>
+                    </li>
+
+                </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                  DynaTrace
+                </summary>
+
+                <ul class="contents">
+                    <li>
+                    DynaTrace, previously known as Compuware APM, is
+                    considered as the first self-learning Application
+                     Performance Monitoring Software.
+                    </li>
+                    <li>
+                      Through its agent is provides auto-discovered topology
+                       visualizations of applications and their components.
+                    </li>
+                    <li>
+                      This sets DynaTrace apart as an application
+                      performance tool.
+                    </li>
+                    <li>
+                      Drawback : However, the one thing to keep in mind is
+                       that it takes time to learn. You may have to wait
+                       for enough data points to come in before you stop
+                       seeing false positives. You can find more details
+                       <a href="https://www.dynatrace.com/" target="_blank">here.</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                  Boundary
+                </summary>
+
+                <ul class="contents">
+                    <li>
+                    Boundary is an APM solution based on SaaS model.
+                    </li>
+                    <li>
+                    It can monitor in house, cloud or hybrid environments.
+                    It requires zero change to the application.
+                    </li>
+                    <li>
+                    Boundary collects a massive amount of data and
+                    combines them from different sources.
+                    </li>
+                    <li>
+                    It can display this data as a real time visual map.
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                  BigPanda
+                </summary>
+
+                <ul class="contents">
+                    <li>
+                      BigPanda Solutions, transform your IT alerts into
+                      actionable insights. With Automated Alert Correlation,
+                      Centralized Visibility, and Custom Views.
+                    </li>
+                    <li>
+                      It integrates with monitoring tools, including
+                      traditional monitoring systems from Hewlett Packard and
+                      IBM along with others like New Relic, AppDynamics,
+                      Splunk, Nagios or Zabbix.
+                    </li>
+                    <li>
+                      It uses clustering algorithms to aggregate data across
+                      multiple monitoring systems, normalize them into a single
+                      consistent data model, and then compressing multiple
+                      alerts into consolidated incidents that are displayed
+                      based on their relative importance.
+                      You can find more details
+                      <a href="https://bigpanda.io/" target="_blank">here.</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                  PagerDuty
+                </summary>
+
+                <ul class="contents">
+                    <li>
+                    Pagerduty is a SaaS incident reporting  tool.
+                    </li>
+                    <li>
+                    Escalation rules and notifications can be defined for a
+                    service which routes the incident to the best person
+                    able to resolve it.
+                    </li>
+                    <li>
+                    Incident notifications can be received in various ways
+                    such as phone call, sms, email or slack. It can be
+                    customised according to the severity of the incident,
+                    the time it occured.
+                    </li>
+                    <li>
+                    Pageduty provides visual analytics that can help root
+                    cause an incident faster. You can find more details
+                    <a href="https://www.pagerduty.com/" target="_blank">here.</a>
+                    </li>
+                </ul>
+            </details>
+            </div>
+        </div>
 
     </body>
 </html>

@@ -6,6 +6,7 @@
         <title>
             Our Evaluation of Travis CI
         </title>
+        <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -15,8 +16,22 @@
         </h1>
 
         <p>
-            Travis CI is...
+            Travis CI is the home of open source testing<br>
+            It is used by some big names like Facebook, Twitter, Zendesk, etc.
         </p>
-
+        <h2>Why Travis CI is awesome?</h2>
+        <ul>
+            <li> Travis is being used for over 900k open source projects and 600k users are testing on Travis CI. </li>
+            <li> Travis provides support for multiple languages and their versions. </li>
+            <li> It gets set up quickly to test build and pull requests. </li>
+            <li> Travis is cloud based and has Docker support to run tests.</li>
+            <li> Travis has a lightweight yaml config.</li>
+            <li> Travis CI can run tests on linux and Mac OS at the same time</li>
+        </ul>
+        <h2>What are cons of using Travis CI?</h2>
+        <ul>
+            <li> Travis CI needs customization with 3rd parties.</li>
+            <li> Travis CI does not provide many plugins as compared to Jenkins. </li>
+        </ul>
     </body>
 </html>
