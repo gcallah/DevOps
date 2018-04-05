@@ -10,15 +10,22 @@
     </head>
 
     <body>
+        <figure class="top-fig">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Gepardjagt1_%28Acinonyx_jubatus%29.jpg/640px-Gepardjagt1_%28Acinonyx_jubatus%29.jpg"
+                width="22%">
+            <figcaption>
+            </figcaption>
+        </figure>
+
         <h1 class="no-menu">
             Staffing Your DevOps Organization: Agile Development and
             the Division of Labor
         </h1>
 
         <details>
-            <summary class="sum2">
-                The extreme division of labor prevailing during much of
-                the 20th century was a transitory phenomenon.
+            <summary class="sum1a">
+                The extreme division of labor during much of
+                the 20<sup>th</sup> century was a temporary thing.
             </summary>
 
             <figure>
@@ -29,12 +36,32 @@
                 </figcaption>
             </figure>
 
+            <ul class="present">
+                <li>
+                    Workers were <i>discouraged</i> from thinking about the
+                    overall production process.
+                </li>
+                <li>
+                    "Keep your head down and do your own job."
+                </li>
+                <li>
+                    A form of "central planning" prevailed: a few expert
+                    engineers were the only ones who were supposed to think
+                    about the entire process and product.
+                </li>
+                <li>
+                    F. A. Hayek's "Use of Knowledge in Society": each person is
+                    an "expert" on the<i>r</i> own particular
+                    circumstances of time and place.
+                </li>
+            </ul>
+
         </details>
 
         <details>
-            <summary class="sum2">
-                DevOps patterns and practices represent a
-                different way of working, and that is based
+            <summary class="sum1a">
+                DevOps practices are a
+                different way of working, based
                 on the different demands of the 21<sup>st</sup>
                 century.
             </summary>
@@ -47,7 +74,7 @@
                 </figcaption>
             </figure>
 
-            <ul>
+            <ul class="present">
                 <li>
                     DevOps represents a reincarnation of "craft work."
                 </li>
@@ -55,14 +82,23 @@
                     A reincarnation, because it is craft work with a new layer
                     of automation available.
                 </li>
+                <li>
+                    The expert craftsperson understands the roles of the other
+                    experts with whom they interact.
+                </li>
+                <li>
+                    "Get <i>all</i> workers deeply involved in analyzing feedback from
+                    the market and rapidly figuring out how to act on that
+                    feedback." -- Mary Poppendieck
+                </li>
             </ul>
 
         </details>
 
         <details>
-            <summary class="sum2">
-                What is the role of the "DevOps toolchain" in establishing this
-                new way of working??
+            <summary class="sum1a">
+                What is the role of the "DevOps toolchain" in this
+                new way of working?
             </summary>
 
             <figure>
@@ -73,44 +109,110 @@
                 </figcaption>
             </figure>
 
-            <ul>
+            <ul class="present">
                 <li>
                     The mechanical, repetitive tasks the assembly-line worker
                     performed in the 20th century must be automated!
+                </li>
+                <li>
+                    Testers cannot test successfully
+                    unless they are part of the
+                    production process from day one: thus, <i>continuous
+                        testing</i>.
+                </li>
+
+                <li>
+                     Operations cannot successfully deploy constantly evolving
+                     products unless deployment itself becomes a software
+                     product capable of swiftly evolving:
+                     thus, <i>software as infrastructure</i>.
+                </li>
+
+                <li>
+                    The "business" stakeholders in the product can't ensure
+                    it is meeting business needs unless they
+                    are continually engaged: thus
+                    <i>continual interaction</i> between the engineers and the
+                    "business people."
+                </li>
+
+                <li>
+                    Why is "business" in scare quotes above?
+                    <br />
+                    "We are not developing software. We are doing something
+                    larger and software is just part of the solution." -- Tom
+                    Poppendieck
+                </li>
+                <li>
+                    How new versions of a piece of software impact the end
+                    users cannot be determined without <i>continual feedback</i>
+                    from those users, thus:
+                </li>
+                <li>
+                    <i>Incremental development</i>, which means
+                    developers work on small batches and can easily change
+                    course based on feedback;
+                </li>
+                <li>
+                    <i>Continuous deployment</i>, allowing users to
+                    comment on the work done in those small batches;
+                    and
+                </li>
+                <li>
+                    <i>Continuous monitoring</i>, so that problems using the
+                    product become known right away.
                 </li>
             </ul>
 
         </details>
 
         <details>
-            <summary class="sum2">
-                How can an enterprise balance the need for highly capable
+            <summary class="sum1a">
+                How can we balance the need for 
                 specialists with the DevOps demand to "break down silos"?
             </summary>
 
-            <ul>
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Silos%2C_Acatlán%2C_Hidalgo%2C_México%2C_2013-10-11%2C_DD_02.JPG/600px-Silos%2C_Acatlán%2C_Hidalgo%2C_México%2C_2013-10-11%2C_DD_02.JPG"
+                width="33%">
+                <figcaption>
+                </figcaption>
+            </figure>
+
+            <ul class="present">
                 <li>
                     An agile enterprise needs to hire people with broad 
                     understanding of various technologies and
-                    how they fit into the enterprise and forward
-                    its goals.
+                    how they forward the goals of the enterprise.
                 </li>
+
                 <li>
                     Nevertheless, we still are coping with extremely complex
                     technologies, and we will need people who understand them
                     in great depth!
                 </li>
+
+                <li>
+                    A story of the need for "generalizing specialists":
+                    adding exchanges to a price feed.
+                </li>
             </ul>
 
         </details>
 
         <details>
-            <summary class="sum2">
+            <summary class="sum1a">
                 There is no "one size fits all" approach to implementing
-                a DevOps change.
+                DevOps.
             </summary>
 
-            <ul>
+            <figure>
+                <img src="graphics/BigSuit.png" width="21%">
+                <figcaption>
+                </figcaption>
+            </figure>
+
+            <ul class="present">
                 <li>
                     Each enterprise will have to make its own trade-offs
                     between its need for specialists and its need for

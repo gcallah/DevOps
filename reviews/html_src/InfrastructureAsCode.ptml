@@ -34,5 +34,19 @@
                 Infrastructure as code, introducing us to the principles with examples where they are necesary.
             </p>
         </details>
+
+        <details>
+            <summary class="sum2">
+              Chapter 2: Dynamic Infrastructure Platforms
+            </summary>
+            <p>
+                In this chapter the author talks about what dynamic infrastructure is and the different types of dynamic infrastructure platforms like Public Iaas, Community Iaas Cloud,
+                private Iaas and bare-metal cloud. Implementing dynamic infrastructure as per the company requirements is the heart of topic and the process you follow to achieve it marks
+                the essence of the topic. The chapter then explains the three important building blocks of Infrastructure platform: Compute, Storage and Networking and how the make up
+                cloud infrastructure. It also provides examples on how the different types of clouds : IaaS,PaaS and SaaS work. The chapter basically prepares the us on the theoretical
+                aspects of the dynamic infrastructure by case studies and examples and leads the path for implementation of it in the next chapter.
+            </p>
+        </details>
+
     </body>
 </html>
