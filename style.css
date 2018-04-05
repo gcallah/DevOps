@@ -375,7 +375,7 @@ i, span {
 
 #sidebar.active {
     min-width: 80px;
-    max-width: 80px;
+    max-width: 150px;
     text-align: center;
 }
 
@@ -402,7 +402,7 @@ i, span {
 
 #sidebar.active ul ul a {
     padding: 1em 1em;
-    font-size: 0.8em;
+    font-size: 0.65em;
 }
 
 #sidebar.active a[aria-expanded="false"]::before, #sidebar.active a[aria-expanded="true"]::before {
@@ -416,7 +416,7 @@ i, span {
 
 #sidebar.active ul ul ul a {
     padding: 1em 1em;
-    font-size: 0.6em;
+    font-size: 0.45em;
 }
 
 #sidebar .sidebar-header {
@@ -431,7 +431,7 @@ i, span {
     font-size: 3.5em;
     text-align: center;
     padding-top: 0.6em;
-    padding-right: 0.8em;
+    padding-right: 0.4em;
 }
 
 #sidebar ul.components {
@@ -443,7 +443,7 @@ i, span {
     padding: 0.8em;
     text-align: left;
     color: #fff;
-    font-size: 1.4em;
+    font-size: 1.2em;
     display: block;
 }
 
@@ -465,7 +465,7 @@ i, span {
     padding-left: 3.0em;
     text-align: left;
     color: #fff;
-    font-size: 1.1em;
+    font-size: 0.8em;
     display: block;
 }
 
@@ -473,7 +473,7 @@ i, span {
     padding-left: 4.0em;
     text-align: left;
     color: #fff;
-    font-size: 0.8em;
+    font-size: 0.5em;
     display: block;
 }
 
