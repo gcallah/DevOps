@@ -55,6 +55,10 @@ p {
     color: #000;
 }
 
+p.present {
+    font-size: 1.4em;
+}
+
 hr {
     margin: 2em 20em 2em 20em;
 }
