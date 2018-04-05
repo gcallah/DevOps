@@ -45,17 +45,27 @@
                     "Keep your head down and do your own job."
                 </li>
                 <li>
+                    Humans were, in essence, turned into machines on the
+                    assembly line.
+                </li>
+                <li>
                     A form of "central planning" prevailed: a few expert
                     engineers were the only ones who were supposed to think
                     about the entire process and product.
                 </li>
                 <li>
+<<<<<<< HEAD
                     The waterfall model was an attempt to duplicate this
                     condition for software development.
                 </li>
                 <li>
                     F. A. Hayek's "Use of Knowledge in Society": each person is
                     an "expert" on the<i>r</i> own particular
+=======
+                    F. A. Hayek's "Use of Knowledge in Society":
+                    each person is
+                    an "expert" on their own particular
+>>>>>>> 4ed9af1dc3252ae85f3172aa7596e922cefcdf4e
                     circumstances of time and place.
                 </li>
             </ul>
@@ -83,17 +93,24 @@
                     DevOps represents a reincarnation of "craft work."
                 </li>
                 <li>
-                    A reincarnation, because it is craft work with a new layer
-                    of automation available.
+                    A reincarnation, because it is craft work with a
+                    new layer of automation available.
                 </li>
                 <li>
-                    The expert craftsperson understands the roles of the other
-                    experts with whom they interact.
+                    The expert craftsperson understands the roles of
+                    the other experts with whom they interact.
                 </li>
                 <li>
-                    "Get <i>all</i> workers deeply involved in analyzing feedback from
-                    the market and rapidly figuring out how to act on that
-                    feedback." -- Mary Poppendieck
+                    "Get <i>all</i> workers deeply involved in analyzing
+                    feedback from the market and rapidly figuring out how
+                    to act on that feedback." -- Mary Poppendieck
+                </li>
+                <li>
+                    Software-controlled machines can take the place of "human
+                    machines."
+                </li>
+                <li>
+                    People re-take their rightful place: rational animals.
                 </li>
             </ul>
 
@@ -116,7 +133,8 @@
             <ul class="present">
                 <li>
                     The mechanical, repetitive tasks the assembly-line worker
-                    performed in the 20th century must be automated!
+                    performed in the 20th century must be automated! (And
+                    automation <i>is</i> documentation!)
                 </li>
                 <li>
                     Testers cannot test successfully
