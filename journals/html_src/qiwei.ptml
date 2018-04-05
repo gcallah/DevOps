@@ -63,6 +63,10 @@
                 <p>
                     Continue working on the auto-sidebar-creation script. All major functions are now done. We may need some tests to see if the script is error-prune. Also, we switched to '-' instead of '\t' to identify different levels of tab. 
                 </p>
+
+                <p>
+                	We had a bit of miscommunication. We finally decided to switch to '*' instead of '-'.
+                </p>
             </div>
         </div>
     </body>

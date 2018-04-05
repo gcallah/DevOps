@@ -3,7 +3,7 @@
     <head>
 <!--include subhead.txt -->
         <title>
-            Our Monitoring Implementation
+            Exploring Docker
         </title>
         <!--include googleAnalyticsScript.txt -->
     </head>
@@ -13,18 +13,19 @@
 <!--include navbar.txt -->
             <div id="content">
                 <h1>
-                    Our Monitoring Implementation
+                    Exploring Docker
                 </h1>
 
-                <p>
-                    This page will describe our monitoring implementation.
+                <p class="author">
+                    by
+                    <br />
+                    Professor Callahan, Adnan Hoq, and 
+                    Syed Maudud E Rabbi
+
                 </p>
-                <li>
-                    Google Analytics
-                </li>
-                <li>
-                    StatusCake
-                </li>
+
+                <p>
+                </p>
 
             </div>
         </div>
