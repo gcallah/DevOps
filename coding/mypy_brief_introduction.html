@@ -187,13 +187,13 @@
                 </h4>
                 <p>
                     Mypy is actually not a kind of programming language, it is a type
-                    checker, and a semantics error checker. By using
+                    checker, and a semantics error checker. After adding <b>type hints</b> and <b>type annotations</b> to normal python code,
+                    we can find semantics error by runing
                     <span style="color: #0000f0; text-decoration: underline ">
                         'mypy'</span> command
-                    to run your code instead of using
+                    instead of using
                     <span style="color: #0000f0; text-decoration: underline ">
-                        'python'</span> command, you can find bugs in your programs
-                    without even running them.
+                        'python'</span> command. In this way we can find bugs in our programs more safely.
                 </p>
                 <h4>
                     What should we know to start using mypy?
@@ -208,12 +208,64 @@
                     <a href="../coding/mypy_windows.html">
                         Windows
                     </a>
-                    ). The mypy commond is
-                    always combine with the python syntax called
-                    <a href="https://www.python.org/dev/peps/pep-0484/">
-                        Type Hints
-                    </a> . By adding type hints to your python code, mypy can find the
-                    type error easily. For other information please go to
+                    ).
+                    
+                </p>
+                <div class="section" id="example">
+                    <p>
+                    Mypy syntax can be complex at some special situation, like this:
+                    </p>
+                    <pre class="literal-block">
+       from typing import Callable
+                        
+       def feeder(get_next_item: Callable[[], str]) -> None:
+       # Body
+                        
+       def async_query(on_success: Callable[[int], None],
+       on_error: Callable[[int, Exception], None]) -> None:
+       # Body
+                    </pre>
+
+                </div>
+                <p>
+                    It all depends on what kind of type you are going to check. In this example we are checking a <b>Callback Function</b>.
+                </p>
+                <p>
+                    But most time we don’t need to use callback function or something else complex like that.
+                    If you want to start experiencing mypy quickly, all the thing you need to know is :
+                </p>
+                <ul class="contents">
+                    <li>
+                         <a href="http://mypy.readthedocs.io/en/latest/basics.html" target="_blank">
+                             Basic syntax of mypy
+                         </a>
+                    </li>
+                    <li>
+                        <a href="http://mypy.readthedocs.io/en/latest/builtin_types.html" target="_blank">
+                            Common built-in types
+                        </a>
+                    
+                    </li>
+                    <li>
+                        
+                         <a href="http://mypy.readthedocs.io/en/latest/cheat_sheet_py3.html" target="_blank">
+                             Some examples about mypy
+                         </a>
+                         (Read only Built-in types and Functions)
+                    </li>
+                </ul>
+                <p>
+                    After adding <b>type hints</b> and <b>type annotations</b> to your code, you can run following command
+                    in your command line to test your code.
+                </p>
+                <p>
+                    <code>
+                        mypy PROGRAM_NAME
+                    </code>
+                </p>
+                    
+                <p>
+                    For other information please go to
                     <a href="http://mypy.readthedocs.io/en/latest/introduction.html" target="_blank">
                         mypy introduction
                     </a>.
