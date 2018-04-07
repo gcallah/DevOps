@@ -56,12 +56,30 @@
             </h2>
 
             <ul>
-              <li>Week 1 and 2 : I joined the 'coding' team and picked
+              <li>
+                Week 1 and 2 : I joined the 'coding' team and picked
                 'Practical Devops - Joakim Verona' to study and review. Within
                 the coding team, we divided the group into pairs to target the
                 various tasks on the Trello board. My first assignment would be
-                to work on an html spell-checker. 
+                to work on an html spell-checker.
                </li>
+               <li>
+                 Week 3: I paired with Pravar to push the initial release of the
+                 spell-checker. This week we learned about Docker and had some
+                 hands-on with it. We could leverage a docker container to
+                 develop locally with a Django container which could be deployed
+                 as is to the cloud provider of choice.
+               </li>
+               <li>
+                 Week 4: This week we added certain critical features to the
+                 spell-checker. It can now add new words to dictionary and
+                 extract word between punctuations. We also met with Professor
+                 Callahan to discuss the progress with the tool. Professor
+                 made some great recommendations and we look forward to
+                 implementing them.  
+               </li>
+
+
             </ul>
           </div>
         </div>
