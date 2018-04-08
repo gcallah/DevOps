@@ -160,7 +160,10 @@
                   <li><a href="https://gcallah.github.io/DevOps/TeamsTable.html">Our teams for Spring 2018</a></li>
                   <li><a href="https://gcallah.github.io/DevOps/books.html">DevOps reading list</a></li>
                   <li><a href="https://gcallah.github.io/DevOps/journals/index.html">Our DevOps journals</a></li>
-                  <li><a href="http://www.thedevopscourse.com/devops/">The Django site: the course will manage a cutover to here!</a></li>
+                  <li>
+                  <a href="http://www.thedevopscourse.com/quiz/">Our Django
+                  site: we are creating a quiz system here.</a>
+                  </li>
                 </ul>
               </li>
               <li>
@@ -198,8 +201,9 @@
 
                 <br>
                 <h3>Here's another simpler way of Trigerring a Jenkins build from a push to Github.</h3>
-                One of the reasons to choose Jenkins was the availability of many plugins. <br>
+                <p> One of the reasons to choose Jenkins was the availability of many plugins. <br>
                 One such plugin is the <a href="https://wiki.jenkins.io/display/JENKINS/GitHub+Integration+Plugin">Github Integration Plugin</a>
+               </p>
 
                 <ul>
                     <li>
@@ -227,7 +231,30 @@
                     To be further discussed..
                     </li>
                 </ul>
-            
+
+                <h3>Installing Jenkins on AWS</h3>
+                <ul>
+                  <li>
+                      <b> Step 1: Creating an AWS EC2 instance</b> </br>
+                        Create an EC2 instance on the AWS account by following the routine steps, one thing to keep in mind is while associating security group to this EC2 instance
+                        make sure the port 8080 is open to the world and download the secret key.
+                  </li>
+                  <li>
+                      <b> Step 2: SSH into the AWS machine</b> </br>
+                      Next step is to SSH into the AWS machine using the credentials downloaded in the previous step.
+                  </li>
+                  <li>
+                      <b> Step 3: Configuring and starting Jenkins</b> </br>
+                      Follow the steps in the link to configure and start jenkins <a href="https://github.com/carlosCharz/installjenkinsaws" > Configure and Start Jenkins </a>
+                  </li>
+                  <li>
+                      <b> Step 4: Initial Jenkins setup </b> </br>
+                      After following the previous steps, you need to go the url which is your public dns of your EC2 instance:8080(Ex: http://ec2-aws.compute:8080) and follow
+                      the steps displayed on the website. After these steps you should be able to see the jenkins server up and running.
+                  </li>
+                </ul>
+
+
           </div>
         </div>
     </body>
