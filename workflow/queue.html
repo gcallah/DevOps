@@ -160,7 +160,10 @@
                   <li><a href="https://gcallah.github.io/DevOps/TeamsTable.html">Our teams for Spring 2018</a></li>
                   <li><a href="https://gcallah.github.io/DevOps/books.html">DevOps reading list</a></li>
                   <li><a href="https://gcallah.github.io/DevOps/journals/index.html">Our DevOps journals</a></li>
-                  <li><a href="http://www.thedevopscourse.com/devops/">The Django site: the course will manage a cutover to here!</a></li>
+                  <li>
+                  <a href="http://www.thedevopscourse.com/quiz/">Our Django
+                  site: we are creating a quiz system here.</a>
+                  </li>
                 </ul>
               </li>
               <li>
@@ -181,17 +184,11 @@
 </nav>
             <div id="content">
               <h1> Usage and Importance of Queue in Kanban</h1>
-              <p>
-                <b><i>Purpose of this page:</i></b> To understand the importance of Queue in
-                Kanban and how to implement Queue in Kanban.
-              </p>
               <br>
-
-
             <p>
-              <b>Why Queue:</b> <br>
+              <b>Why queue?</b> <br>
               Not only delivering quality code but also delivering it at
-              'regualar' intervals is very important.  The manager along with
+              'regular' intervals is very important.  The manager along with
               his team should decide on how many days/weeks should that
               interval / cycle be. <br>
               Queue can be implemented in various ways in kanban. <br>
@@ -204,41 +201,42 @@
               only when the new cycle starts.
             </p>
             <p>
-              <b>Example of Queue implementation in Kanban:</b>
+              <b>Example of queue implementation in kanban:</b>
             </p>
-            <details>
-              <summary class="sum2">
-                At start of phase:
-              </summary>
-              <figure>
-              <img
-              src="multimedia/start_phase.JPG" width="403" height="304">
-              <figcaption>
-                At start of cycle
-              </figcaption>
-            </figure>
-            <p> We try to pull some features wishlist and transfer them into
-              queue which can be completed in 1 cycle.
+            <p>
+              <details>
+                <summary class="sum4">
+                  At the start of phase:
+                </summary>
+                <figure>
+                <img
+                src="multimedia/start_phase.JPG" width="403" height="304">
+                <figcaption>
+                  At the start of cycle
+                </figcaption>
+              </figure>
+              <p> We try to pull some features wishlist and transfer them into
+                queue which can be completed in 1 cycle.
+              </p>
+              </details>
+              <details>
+                <summary class = "sum4">
+                  During implementation of present features in queue
+                </summary>
+                <figure>
+                <img
+                src="multimedia/during_phase.JPG" width="403" height="304">
+                <figcaption>
+                  During cycle
+                </figcaption>
+              </figure>
+              <p>During the implementation of the cycle, we will not be able to
+                pull anymore features or requests from wishlist, we will only
+                work on the features in the queue. <br>
+                Any new requests or features will be thrown into wishlist.
+              </p>
+              </details>
             </p>
-            </details>
-
-            <details>
-              <summary class = "sum2">
-                During implementation of present features in Queue
-              </summary>
-              <figure>
-              <img
-              src="multimedia/during_phase.JPG" width="403" height="304">
-              <figcaption>
-                During cycle
-              </figcaption>
-            </figure>
-            <p>During the implementation of the cycle, we will not be able to
-              pull anymore features or requests from wishlist, we will only
-              work on the features in the queue. <br>
-              Any new requests or features will be thrown into wishlist.
-            </p>
-            </details>
             </div>
         </div>
     </body>
