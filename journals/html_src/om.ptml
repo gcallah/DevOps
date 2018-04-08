@@ -70,6 +70,17 @@ This week work was mostly geared towards setting up envrionment for security tes
 <p>
 This week we tested the vulnerability on the djanjo web application. We used automated tools ZAP which provided a comprehesnive report for potential vulnerability. This report will help developers to fix security bugs in the code.
 </p>
+
+<h><b>Week 9</b></h>
+<p>
+This week we initiated the process of Network Penetration Testing to find the vulnerability. We are in reconnaissance phase for this week which essentially is building information about the Target in Scope.
+</p>
+
+<h><b>Week 10</b></h>
+<p>
+This week is the second phase of Network Penetration Testing which is scanning to find any vulnerable port and services. We are also analyzing the network infrastructure of the system to find the topology and existence of NIDS/HIDS and firewalls. Our Next week target is to exploit any vulnerability if it is found.
+</p>
+
  </div>
         </div>
     </body>
