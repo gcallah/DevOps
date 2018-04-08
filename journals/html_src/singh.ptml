@@ -25,6 +25,15 @@
         <p>
         	My overall expectation from this course is to learn all the processes involved in developing and deploying a software the DevOps way. I would love to expand my skill set and gain in-depth practical knowledge of working with containers such as Docker.Also learning how to implement automated testing scripts using Jenkins would be really beneficial since these skills are in huge demand in the industry as of now. Writing scripts to deploy the software on cloud is at the core of DevOps and getting first hand experience doing that would be great. Eventually, I would love if the course prepares us to automate the whole process of deploying to just a single click of a button. All said, I expect the experience of working in a team and collabarating with other teams to be highly beneficial and give us exposure of how things work in industry.
         </p>
+        <p>
+            <b>Week 1 and 2 :</b><br/>
+            The whole class was divided into groups such as coding, workflows, cloud ,deployment, build etc. Due to my excessive interst in coding , i chose to be a part of the coding group. The coding group had 4 different tools to implement out of which one of those was building a spell checker tool. Me and Kanishk decided to work and collaborate on this project and one of the major reasons i chose this tool was beacuse of my interest in Natural Language Understanding(NLU). I believe i could put to use a lot of domain knowledge on the subject along with my excellent coding skills to build the tool in python. <br/>
+            Also we learnt how to use trello for managing the workflow of the projects and updated it by addding a trello card for HTML spell checker in the wish list column.
+
+        </p>
+        <p>
+            <b>Week 3:</b><br/>
+        </p>
 
     </body>
 </html>
