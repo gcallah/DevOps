@@ -33,7 +33,14 @@
         </p>
         <p>
             <b>Week 3:</b><br/>
-        </p>
+            Attended a wonderful session on Docker by Prashant Patel which was a very practical and hands-on session. I learnt the practical usage of docker and bunch of commands on how to start and and manage docker conatainers.Learnt how to work with nginx. Some of the commands we executed in the terminal were as follows :
+            docker start, docker ps,docker images , docker pull nginx etc. <br/>
+            We also started the development work for spell checker tool by first performing a requirements analysis of the tool for which we also met with professor to clarify the tool requirements and the features it should possess. After that we wrote down the code contating the basic features of the spell checker and made our first commit for the tool.
 
+        </p>
+        <p>
+            <b>Week 4 :</b><br/>
+            We added more features to the spell checker tool such as the functionality for the user to be able to add words to the dictionary that dont exist beforehand. Also, we met with professor to discuss the project status where he gave us a bunch of suggestions as well on how we could improve the tool.
+        </p>
     </body>
 </html>
