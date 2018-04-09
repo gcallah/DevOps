@@ -19,13 +19,26 @@
                 <p>
                     This page will describe our monitoring implementation.
                 </p>
-                <li>
-                    Google Analytics
-                </li>
-                <li>
-                    StatusCake
-                </li>
-
+                <details>
+                  <summary class="sum2">
+                   Google Analytics
+                  </summary>
+                  <ul class="contents">
+                    <li>
+                    implementation : google analytics
+                    </li>
+                  </ul>
+                </details>
+                <details>
+                  <summary class="sum2">
+                   StatusCake
+                  </summary>
+                  <ul class="contents">
+                    <li>
+                    implementation Status Cake
+                    </li>
+                  </ul>
+              </details>
             </div>
         </div>
     </body>
