@@ -74,6 +74,15 @@
                         to build a robust and secure infrastructure. NMAP is an important tools to scan ports and find vulnerable services running
                         on a server.
                 </li>
+                <li>
+                     <a href="https://wiki.sei.cmu.edu/confluence/display/seccode/Top+10+Secure+Coding+Practices">
+                     </a>
+                     <br/>
+                         Secure coding is the practice of writing programs that are resistant to attack by malicious or mischievous people or programs.
+                         Secure coding helps protect a user’s data from theft or corruption. In addition, an insecure program can provide access for an
+                         attacker to take control of a server or a user’s computer, resulting in anything from a denial of service to a single user to
+                         the compromise of secrets, loss of service, or damage to the systems of thousands of users.
+                </li>
             </ul>
             </div>
         </div>
