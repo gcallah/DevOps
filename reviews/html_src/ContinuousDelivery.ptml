@@ -308,23 +308,25 @@
                     Chapter 13: Managing Components and Dependencies
                 </summary>
                 <p>
-                The authors introduce the chapter with the explanation of an
-                important term like componentization and how the abstract use
-                of this term has led to ambiguity around the concept. The major
-                advantage of dividing an application into multiple components
-                is that during the integration of a major functionality into 
-                the system, it reduces the chances of introducing new bugs and
-                even if added to the system, only the particular component has
-                to be mended. The authors claim that for a small project it is 
-                understandable to have single version control repository, 
-                however, a project can expand to a bigger level and that is when
-                need to create discrete component comes in. But, once a project 
+                The authors introduce the chapter with the explanation of
+                an important term like componentization and how the 
+                abstract use of this term has led to ambiguity around the
+                concept. The major advantage of dividing an application 
+                into multiple components is that during the integration of
+                a major functionality into the system, it reduces the 
+                chances of introducing new bugs and even if added to the 
+                system, only the particular component has to be mended. 
+                The authors claim that for a small project it is understandable 
+                to have single version control repository, however, a 
+                project can expand to a bigger level and that is when need 
+                to create discrete component comes in. But, once a project 
                 attains a certain threshold it becomes cost inefficient to 
                 attempt code componentization. Thumb-rule for a continuous 
-                integration process is to keep the application releasable. One 
-                of the universally accepted solutions to this is 'version control',
-                however, it is less-efficient and a better approach to obtain
-                a high optimal solution to allow everyone to work on the mainline.
+                integration process is to keep the application releasable.
+                One of the universally accepted solutions to this is 
+                'version control', however, it is less-efficient and a better
+                approach to obtain a high optimal solution to allow 
+                everyone to work on the mainline.
                 </p>
             </details>
 
