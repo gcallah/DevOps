@@ -26,15 +26,24 @@
                   <ul class="contents">
 
                     <h4> Steps : </h4>
-                    <ol>
+                    <ul>
 
                       <li>
-                        Step 1 : Sign Up for Google Analytics.
+                        <b>Step 1</b> : Sign Up for Google Analytics from
+                        <a href="https://analytics.google.com/analytics/web/provision/?authuser=0#provision/CreateAccount/">
+                          here.</a> In this form , you need to fill up the
+                          details about website.
                       </li>
                       <li>
-                        Step 2 : Add the tracking code on your pages.
+                        <b>Step 2</b> : Once you are done signing up, you'll
+                          get the Tracking ID. Along with the Tracking ID,
+                          you'll also get Global Site Tag (gtag.js) tracking
+                          code. You need to put the code in the HEAD-tag of
+                          all the webpages you want to track. You can also
+                          add the code to some file and simply include that
+                          file on all the webpages.
                       </li>
-                  </ol>
+                  </ul>
                   </ul>
                 </details>
                 <details>
