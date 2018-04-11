@@ -80,7 +80,6 @@
             access times, as many a times the contents of the file are not
             required, but only the administrative metadata.
         </p>
-
         <p>
             The unix system uses a directory hierachy starting from "/". They 
             are as follows:
@@ -120,6 +119,30 @@
         </p>
 
         <h4>Chapter 3: Using the Shell</h4>
+
+        <p>
+            This chapter goes ahead to explain one of the most frequently 
+            used programs and one of the most important program for unix 
+            users. The shell helps in automating and carrying out a lot of 
+            tasks without resorting to programming languages such as C. The 
+            shell takes commands and runs them line by line. Other than 
+            characters, the shell recongnises meta characters, such as <b>*
+            </b>. Shell commands are not limited to the ones that already 
+            exist. The command "<i>new</i>" command can be used to concatenate 
+            multiple commands to create new commands for specific purposes. 
+        </p>
+        <p>
+            Just like any other programming language, the shell too has 
+            variables. Argumental variables, such as $1, are used to pass data 
+            to programs. The digit indicates the position in the argument 
+            list, with $0 being the name of the command. Shell variables can 
+            be created, accessed, and modified. Some shell variables, such as 
+            <b>PATH</b> and <b>HOME</b> hold special meaning to commands, and 
+            may cause other programs to crash if they do not contain proper 
+            values. Other that those variables, new variables can be created 
+            and used as the user desires. 
+        </p>
+
         <h4>Chapter 4: Filters</h4>
         <h4>Chapter 5: Shell Programming</h4>
         <h4>Chapter 6: Programming with Standard I/O</h4>
