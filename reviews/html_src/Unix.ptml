@@ -81,6 +81,29 @@
             required, but only the administrative metadata.
         </p>
 
+        <p>
+            The unix system uses a directory hierachy starting from "/". They 
+            are as follows:
+            <ul>
+                <li>bin</li>
+                <li>boot</li>
+                <li>dev</li>
+                <li>etc</li>
+                <li>lib</li>
+                <li>tmp</li>
+                <li>unix</li>
+                <li>usr</li>
+            </ul>
+            Each of these directories serve a specific purpose. <b><i>/bin
+            </i></b> is the direcotry which contains basic binaries such as 
+            <i>who</i> and <i>ed</i>. <b><i>/dev</i></b> contains device 
+            files. <b><i>/etc</i></b> contains device administration files, 
+            such as password and configuration files. <b><i>/lib</i></b> 
+            contains parts of the C compiler. <b><i>/tmp</i></b> contains 
+            temprory files used by different programs. <b><i>/usr</i></b> 
+            is the user file system.
+        </p>
+
         <h4>Chapter 3: Using the Shell</h4>
         <h4>Chapter 4: Filters</h4>
         <h4>Chapter 5: Shell Programming</h4>
