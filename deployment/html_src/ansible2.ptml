@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
         <title>
             ANSIBLE Part 2
         </title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     </head>
-
     <body>
-
+    <div class="wrapper">
+    <!--include navbar.txt -->
+    <div id="content">
         <h1>
             <u><b>ANSIBLE Modules</b></u>
         </h1>
@@ -125,5 +126,7 @@
 
         <pre><b> SITE UNDER CONSTRUCTION</b></pre>
         </p>
+        </div>
+      </div>
     </body>
 </html>
