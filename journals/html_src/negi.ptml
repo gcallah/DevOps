@@ -25,6 +25,10 @@
             <img src="https://memegenerator.net/img/instances/80736251/automate-everything.jpg">
         </div>
         <p>
+        <h4>April 10, 2018 : Week 9</h4>
+            The testing team has made progress with pipelining. We installed jenkins on our EC2 server and tested connection to a Github Repo. After getting credentials from prof. we shall integrate with the DevOps repo instead.  
+            </p>
+        <p>
         <h4>March 29, 2018 : Week 8</h4>
             Last week we had Joe West, CTO of BounceX meet us in class. He spoke of 4 important things to know about DevOps and the tools associated with it.</p> 
             <ul class="nested">
