@@ -344,7 +344,33 @@
                 everyone to work on the mainline.
                 </p>
             </details>
-
+            <details>
+                <summary class="sum2">
+                    Chapter 14: Advanced Version Control
+                </summary>
+                <p>
+                In this chapter, the authors dive into the concept of version
+                control mechanism, discussing from the history to the needs 
+                which gave birth to version control. The authors then discuss
+                the in-depth history of version control systems like CVS, 
+                Subversion (SVN), and Commercial Version Control Systems 
+                (Perfore, AccuRev, BitKeeper). To explain the components of 
+                version control, the authors briefly explain the concept of
+                branching and merging. The branching basically facilitates 
+                the ability to perform parallel development by different 
+                groups or individuals without affecting each other's work. 
+                Also, they provide with multiple logical reasons on why 
+                different teams may branch the code. Further, they introduce 
+                the Distributed Version Control Systems (DVCS), followed by 
+                the history and its implementation corporate environment. 
+                To clarify DVCS in details, the authors also exemplify 
+                the workflow diagram for it. In conclusion, the authors 
+                present various options around version control system to 
+                ensure an efficient development process, however, an important
+                 exercise is to continuously push the developed code bit
+                 regularly to the mainline code, minimize the risk.
+                </p>
+            </details>
         </div>
     </div>
 </body>
