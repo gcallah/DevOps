@@ -90,6 +90,34 @@
                         puppet cert sign &lt;NAME&gt;
                     </li>
                 </ul>
+                <h3> Important Concepts </h3>
+                <h4> Resources </h4>
+                <p>
+                Puppet comes with a number of built-in resources which can be 
+                used as the components for building the infrastructure. Some of
+                the most commonly used resource types are files, services, 
+                packages and user. 
+                <br>
+                To know all the available resource types use this command-
+                <br>
+                puppet resource --types
+                <br>
+                <br>
+                Examples of using file resource -
+                <br>
+                Put below lines in your manifest file.
+                <br>
+                file { 'infra.txt':
+                <br>
+                    path    =&gt; '/home/infra.txt',
+                <br>
+                    content =&gt; 'Starting to learn puppet'
+                <br>
+                }
+                <br>
+                After applying the catalog on agent node the file infra.txt 
+                will be created at the given path with the provided content.
+                </p>
             </div>
         </div>
 
