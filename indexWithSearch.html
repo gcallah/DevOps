@@ -44,10 +44,18 @@
                           ];
 
              $(document).ready(function() {
-                 $("#SearchBar").autocomplete({
+                 $("#searchbar").autocomplete({
                    source: source,
                    select: function( event, ui ) {
                      window.location.href = ui.item.value;
+                   },
+                   response: function(event, ui) {
+                      // ui.content is the array that's about to be sent to the response callback.
+                      if (ui.content.length === 0) {
+                          $("#empty").text("No results found");
+                      } else {
+                          $("#empty").empty();
+                      }
                    }
                  });
              });
@@ -211,7 +219,7 @@
         </li>
         <li>
             <a>
-                <i class="glyphicon glyphicon-search"><input style="margin-left:10px;" id="searchbar"/></i>
+                <i class="glyphicon glyphicon-search"><input style="margin-left:10px;" id="searchbar"/><p id="empty"></p></i>
             </a>
         </li>
     </ul>
