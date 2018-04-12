@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
         <title>
             ANSIBLE
         </title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     </head>
-
     <body>
-
+    <div class="wrapper">
+    <!--include navbar.txt -->
+    <div id="content">
         <h1>
             <u><b>ANSIBLE</b></u>
         </h1>
@@ -329,6 +330,7 @@
         <br>www.digitalocean.com/community/tutorials/how-to-create-ansible-
         playbooks-to-automate-system-configuration-on-ubuntu       
         </p>
-
+        </div>
+      </div>
     </body>
 </html>

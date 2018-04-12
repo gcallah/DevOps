@@ -4,12 +4,15 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="style.css">
 
         <!-- jQuery CDN -->
          <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
          <!-- Bootstrap Js CDN -->
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
          <script type="text/javascript">
              var status = 'on';
@@ -25,9 +28,34 @@
                      }
                  });
              });
+
+             var source = [ { value: "https://gcallah.github.io/DevOps/UX/links.html",
+                              label: "UX links"
+                            },
+                            { value: "https://gcallah.github.io/DevOps/UX/theory.html",
+                              label: "UX theory"
+                            },
+                            { value: "https://gcallah.github.io/DevOps/UX/tools.html",
+                              label: "UX tools"
+                            },
+                            { value: "https://gcallah.github.io/DevOps/UX/implementation.html",
+                              label: "Our UX implementation"
+                            },
+                          ];
+
+             $(document).ready(function() {
+                 $("#SearchBar").autocomplete({
+                   source: source,
+                   select: function( event, ui ) {
+                     window.location.href = ui.item.value;
+                   }
+                 });
+             });
+
+
          </script>
         <title>
-            Making Work Visible
+            The DevOps Course
         </title>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114841175-1"></script>
@@ -49,6 +77,7 @@
             <strong>DO</strong>
         </div>
     </div>
+
 
     <ul class="list-unstyled components">
         <li>
@@ -180,117 +209,100 @@
                 About
             </a>
         </li>
+        <li>
+            <a>
+                <i class="glyphicon glyphicon-search"><input style="margin-left:10px;" id="SearchBar"/></i>
+            </a>
+        </li>
     </ul>
 </nav>
             <div id="content">
             <h1>
-                Making Work Visible
+                The DevOps Course
             </h1>
 
-            <p class="author">
-                Author: Dominca DeGrandis <br>
-                Reviewer: Akshay Hazare <br>
+            <p class="leadquote">
+                "Enterprises with digital aspirations now realize it’s
+                DevOps or die. The increase in agility gained from short,
+                automated deployment cycles is staggering, and
+                it’s a matter of when, not if, software engineering
+                teams make the switch." -- DevOps.com
             </p>
 
-            <p>
-              In this timely book, IT time management expert
-              Dominica DeGrandis reveals the real crime of the
-              century—time theft, one of the most costly factors
-              impacting enterprises in their day-to-day operations.
-              <br>
-              Through simple solutions that make work visible,
-              DeGrandis helps people round up the five thieves
-              of time and take back their lives with time-saving
-              solutions. Chock-full of exercises, takeaways,
-              real-world examples, colorful diagrams, and an
-              easy-going writing style, readers will quickly
-              learn effective practices to create high-performing
-              workflows within an organization.<br><br>
-            </p>
-            <p>
-              In Part 1 of the book, The author
-              talks about the 5 Thieves of Time:<br>
-            <ul class="nested">
-                <li>Too much work-in-progress (wip)<br>
-                Trying to parallelize work or multitasking is not a 
-                beneficial approach as maintaing synchronisation
-                leads to undue loss of time.
-                </li>
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+              </ol>
 
-                <li>Unknown Dependencies<br>
-                Always know beforehand the set of things you need
-                to finish a task at hand.
-                </li>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="https://i0.wp.com/devops.com/wp-content/uploads/2018/03/DevOps-Careers.jpg?fit=770%2C330&ssl=1"
+                  alt="..." onclick="window.location.href='https://devops.com/devops-careers-report-examines-what-it-takes-sre/'">
+                </div>
 
-                <li>Unplanned Work<br>
-                Plan of action is the key to tackle any task as it 
-                keeps you in the right direction.
-                </li>
+                <div class="item">
+                  <img src="https://i1.wp.com/devops.com/wp-content/uploads/2018/04/Odyssey.jpg?fit=770%2C330&ssl=1"
+                  alt="..." onclick="window.location.href='https://devops.com/devops-its-an-odyssey-not-a-journey/'">
+                </div>
 
-                <li>Conflicting Priorities<br>
-                When handling a task ensure to priorities its components
-                as it saves time over continuing from a checkpoint.
-                </li>
+                <div class="item">
+                  <img src="https://i0.wp.com/devops.com/wp-content/uploads/2018/04/Software-Supply-Chain.jpg?fit=770%2C330&ssl=1"
+                  alt="..." onclick="window.location.href='https://devops.com/why-your-software-supply-chain-might-be-your-achilles-heel/'">
+                </div>
 
-                <li>Neglected Work<br>
-                Ensure that you understand the scope of the task 
-                at hand to avoid future surprises.
-                </li>
-            </ul>
-            </p>
-            <p>
-              In Part 2 of the book, The author
-              talks about How to expose Time Theft
-              to optimize Workflow:<br>
-            <ul class="nested">
-                <li>Make Work Visible</li>
-                <li>Ambush the Ringleader</li>
-                <li>Exposed Dependencies</li>
-                <li>Committing the perfect crime - Unplanned Work</li>
-                <li>Prioritize Prioritize Prioritize</li>
-                <li>Preventing Negligence</li>
-            </ul>
-            </p>
-            <p>
-              In Part 3 of the book, The author
-              talks about How to use Metrics, Feedback and
-              Circumstances to optimize Workflow:<br>
-            <ul class="nested">
-                <li>Treat Metrics as Money</li>
-                <li>The time Thief o'gram</li>
-                <li>Operations review</li>
-                <li>The art of the meeting </li>
-                <li>Beastly Practices</li>
-            </ul>
-            </p>
-            <p>
-            Conclusion:
-            Dominica starts by exposing the five time thieves and
-            detailing how they keep us busy and overcommited while
-            allowing critical work to fall by the wayside. It is in
-            this section that Dominica describes tech debt work (work
-            that has accumulated due to short cuts, deferred maintenence,
-            the passage of time, or other point in time decisions) as
-            revenue protection.
+              </div>
 
-            For me, this was a criticial connection. In the DevOps
-            and Digital Transformation discussion, we look at how
-            we can relate our development and IT operations work to
-            customer value. What we often have a hard time voicing is
-            how to fit those tech debt tasks into that value stream.
-            When we look at it from a perspective of revenue protection,
-            (keeping services available, responsive, and secure helps
-            keep customers ya know..), it becomes evident that those
-            tasks need to be represented in the work we are doing.
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
 
-            Another major takeaway for me was in the focus on the
-            metrics of the flow of work. Dominica dives in to a
-            variety of metrics that can be gleaned from using Kanban
-            and, more importantly, what those metrics mean for the
-            flow of work through the organization.
-            </p>
+            <div style="text-align:center">
+                <h2 class="centered">
+                    The Three Ways of DevOps
+                </h2>
 
+                <figure>
+                    <img width="16%"
+                         src="graphics/Three.png">
+                </figure>
+
+                <ol class="centered">
+                    <li>
+                        The Technical Practices of Flow
+                    </li>
+
+                    <li>
+                        The Technical Practices of Feedback
+                    </li>
+
+                    <li>
+                        The Technical Practices of Continual Learning
+                    </li>
+                </ol>
+
+                <hr>
+
+                <figure>
+                    <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/220px-Devops-toolchain.svg.png">
+                    <figcaption>
+                        The DevOps toolchain
+                    </figcaption>
+                </figure>
+            </div>
             </div>
         </div>
+
     </body>
 </html>

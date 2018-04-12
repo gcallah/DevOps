@@ -243,28 +243,108 @@
                 <p>
                 In this chapter, the authors focus on the differences between 
                 deploying the software in a testing environment and releasing 
-                it in the production, supported by an interesting example of the
-                test and release process diagram. They have discussed about two 
-                effective strategies to ensure zero-downtime releases and 
-                rollbacks: blue-green deployments and canary releasing. A critical
-                stress has been put on the suggestion of 'not' subverting the 
-                processes in case of emergency fixes. They define that the 
-                aggressive approach of directly deploying changes to the production
-                environment in case of an emergency fix might lead to severe 
-                consequences like introducing new issue due to the incompatibility
-                of the changes made, and also, the environment might move to 
-                unknown state due to unregistered changes and make it impossible
-                to reproduce. Lastly, they refer to few tips and tricks like 
-                encouraging the people who are involved in deployment should be 
-                involved in creating the deployment process and techniques, every
-                activity should be registered, avoid deleting the old file and 
-                rather relocate them. Most importantly, release planning is getting
-                the representatives from every part of your organization involved in 
-                the delivery and these people should continue to meet throughout 
-                the life of the project and continually work to make the delivery 
-                process more efficient.
+                it in the production, supported by an interesting example of 
+                the test and release process diagram. They have discussed about
+                two effective strategies to ensure zero-downtime releases and 
+                rollbacks: blue-green deployments and canary releasing. A 
+                critical stress has been put on the suggestion of 'not' 
+                subverting the processes in case of emergency fixes. They 
+                define that the aggressive approach of directly deploying 
+                changes to the production environment in case of an emergency 
+                fix might lead to severe consequences like introducing new 
+                issue due to the incompatibility of the changes made, and also,
+                the environment might move to unknown state due to unregistered
+                changes and make it impossible to reproduce. Lastly, they refer
+                to few tips and tricks like encouraging the people who are 
+                involved in deployment should be involved in creating the 
+                deployment process and techniques, every activity should be 
+                registered, avoid deleting the old file and rather relocate 
+                them. Most importantly, release planning is getting the 
+                representatives from every part of your organization involved 
+                in the delivery and these people should continue to meet 
+                throughout the life of the project and continually work to make
+                the delivery process more efficient.
                 </p>
             </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 11: Managing Infrastructure and Environments
+                </summary>
+                <p>
+                The authors of the chapter review the first step of deploying 
+                software as discussed in Chapter 1 of this book, that is, 
+                creating and managing the infrastructure in which the 
+                application will run. There are two attributes which describe 
+                any environment, first, The hardware configuration of the 
+                servers that form the environment (CPUs, amount of memory, 
+                spindles, NICs, etc.) and secondly, The configuration of the 
+                operating system and middleware (such as messaging systems, 
+                application and web servers, database servers) required to 
+                support the applications that will run within it. The authors
+                also explain how the needs of the operation team and state 
+                that the group or stakeholder management plays an important 
+                role in the success of any project. To explain the concept of 
+                managing server provisioning and configuration, they have 
+                provided various examples and puppet configuration for 
+                multiple modules. To deal with problems due to different 
+                servers, they have introduced the concept of virtualization and
+                discussed its benefits like fast-response to the changing 
+                environment, standardized hardware, ease of managing the 
+                baselines, etc. In the end, the authors have mentioned 4 areas
+                of consideration while creating an application monitoring 
+                strategy: Instrumenting applications and infrastructure for 
+                data collection, data storage for quick and easy retrieval, 
+                aggregation of data to make it suitable for the operations, and
+                setting up of notifications.
+                </p>
+            </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 12: Managing Data
+                </summary>
+                <p>
+                In this chapter, authors discuss about database management and 
+                data setup for testing. They start by discussing the importance
+                of database scripting for database initialization and migration
+                and integrating those scripts with the continuous delivery 
+                process. Then they describe the techniques which can help to 
+                roll back databases without losing data and how to release with
+                zero-downtime. Next they describe the challenges associated 
+                with testing data setup and different approaches that can be 
+                used to handle them. Then they discuss the strategies to manage
+                data for different stages of automated testing within the 
+                deployment pipeline. In the end they provide list of principles
+                and practices which can be used to handle the issues with data
+                management in automated testing and production environments.
+                </p>
+            </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 13: Managing Components and Dependencies
+                </summary>
+                <p>
+                The authors introduce the chapter with the explanation of
+                an important term like componentization and how the 
+                abstract use of this term has led to ambiguity around the
+                concept. The major advantage of dividing an application 
+                into multiple components is that during the integration of
+                a major functionality into the system, it reduces the 
+                chances of introducing new bugs and even if added to the 
+                system, only the particular component has to be mended. 
+                The authors claim that for a small project it is understandable
+                to have single version control repository, however, a 
+                project can expand to a bigger level and that is when need 
+                to create discrete component comes in. But, once a project 
+                attains a certain threshold it becomes cost inefficient to 
+                attempt code componentization. Thumb-rule for a continuous 
+                integration process is to keep the application releasable.
+                One of the universally accepted solutions to this is 
+                'version control', however, it is less-efficient and a better
+                approach to obtain a high optimal solution to allow 
+                everyone to work on the mainline.
+                </p>
+            </details>
+
         </div>
     </div>
 </body>

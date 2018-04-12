@@ -24,9 +24,26 @@
                    Google Analytics
                   </summary>
                   <ul class="contents">
-                    <li>
-                    implementation : google analytics
-                    </li>
+
+                    <h4> Steps : </h4>
+                    <ul>
+
+                      <li>
+                        <b>Step 1</b> : Sign Up for Google Analytics from
+                        <a href="https://analytics.google.com/analytics/web/provision/?authuser=0#provision/CreateAccount/">
+                          here.</a> In this form , you need to fill up the
+                          details about website.
+                      </li>
+                      <li>
+                        <b>Step 2</b> : Once you are done signing up, you'll
+                          get the Tracking ID. Along with the Tracking ID,
+                          you'll also get Global Site Tag (gtag.js) tracking
+                          code. You need to put the code in the HEAD-tag of
+                          all the webpages you want to track. You can also
+                          add the code to some file and simply include that
+                          file on all the webpages.
+                      </li>
+                  </ul>
                   </ul>
                 </details>
                 <details>
@@ -34,9 +51,46 @@
                    StatusCake
                   </summary>
                   <ul class="contents">
-                    <li>
-                    implementation Status Cake
-                    </li>
+
+
+                    <h4> Steps </h4>
+                    <ol>
+                        <li>
+                            Login: The first step is to login to the
+                            Status Cake Account.
+                            To get the login details please contact Professor
+                            Callahan.
+                        </li>
+                        <li>
+                            Create a Contact group: Click on create group
+                            on the menu on the left. Give a name for the 
+                            group. This group will be alerted in case
+                            the website goes down. 
+                            There are different ways alerts  can be 
+                            received like email, mobile or using an 
+                            application. The next step explains how to 
+                            create the Slack Integration.
+                        </li>
+                        <li>
+                          Slack: To receive alerts on a Slack channel we need
+                          to integrate StatusCake with Slack. Generate a 
+                          webhook URL. Select slack as the 3RD party 
+                          integration. The Alias field is a must. 
+                        </li>
+                        <li>
+                            
+                            Create a New Test: Click on menu on the left side
+                            and select new test. Enter the url you want to 
+                            monitor. You can add a contact group for the test.
+                            This group will be contacted in case of alerts.
+                            <figure>
+                            <img src="Images/AddTest.png" stype= "width:604px;height:442px;">
+                            </figure>
+                        </li>
+
+                    </ol>
+
+
                   </ul>
               </details>
             </div>

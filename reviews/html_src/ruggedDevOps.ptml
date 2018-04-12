@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            The Rugged Handbook
+        </title>
+        <!--include googleAnalyticsScript.txt -->
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            The Rugged Handbook
+        </h1>
+        <p class="author">
+             Josh Corman, David Rice, and Jeff Williams
+        </p>
+        <p>
+            Reviewers: Arun John Kuruvilla
+        </p>
+        <p>
+            Helpful links: 
+            <a href="https://www.ruggedsoftware.org/wp-content/uploads/2013/11/Rugged-Handbook-v7.pdf"> Rugged Handbook (Strawman) v7 (pdf)</a>
+            <a href="https://www.ruggedsoftware.org/wp-content/uploads/2013/11/Rugged-Implementation-Guide-v4.pdf">Rugged Implementation Guide v4 (pdf)</a>
+        </p>
+    </body>
+</html>

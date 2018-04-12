@@ -127,8 +127,25 @@
             Week 9:
             <br/>
             We used project styles for our django quizzes site, 
-            and also added the quiz model. Attended Joe's talk 
+            and also added the Quiz model. Attended Joe's talk 
             on DevOps and his work experience.
+        </p>
+        <p>
+            Week 10:
+            <br/>
+            The added Quiz model has one to many relationship 
+            with the Question model. We also added some quiz 
+            data in the database The result page would show
+            the quiz was passed or not.
+        </p>
+        <p>
+            Week 11:
+            <br/>
+            We pulled apart errors and wrote code to handle 
+            exceptions seperately that the user forgot to 
+            answer the question or submitted answer is not 
+            valid. Comments were added to explain the code. 
+            Code style was adjusted to satisfy PEP8.
         </p>
         </div>
     </div>

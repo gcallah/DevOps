@@ -516,6 +516,10 @@ a[aria-expanded="true"]::before {
   margin: 0 auto;
 }
 
+#searchbar {
+  margin-left:10px;
+}
+
 /*******
 The Nav sidebar media effect
 *****/
