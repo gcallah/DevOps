@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--include head.txt -->
         <title>
             Technical Practices
         </title>
-        <!--include googleAnalyticsScript.txt -->
+<!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
@@ -18,7 +17,7 @@
             </h1>
             <p>
                 <a href="https://hackerchick.com/just-do-it-quick-intro-to-agiles/">
-                	Agile Technical Practices
+                    Agile Technical Practices
                 </a>
             </p>
 
