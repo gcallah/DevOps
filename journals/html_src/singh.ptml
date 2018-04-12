@@ -56,7 +56,12 @@
         <p>
             <b>Week 7 :</b><br/>
             Spring Break
-        </p>
+        </p>    
         <p>
+            <b>Week 8 :</b><br/>
+            Attended a very informational session by Joe West, Former CTO of BounceX who gave a deep insight about how devops is being adopted in the indusrty and also shared his experiences about Akamai. Some of the main take away concepts from his presentation were as follows:<br/>
+            Productivity is the most important thing: He gave an example of a lazy systems engineer who is better than a more active one because he will always find ways to automate things.<br/>
+            Focus on the business value: Don't use DevOps tools just because the technology looks cool, assess the customer requirements and whether it adds value to business and will be profitable in the future to make decision on whether it makes sense to use those services.<br/>
+            Using the right toolkit : Optimizee the workflow to understand the minimum amount of resources needed to fullfil the requirement. Keep it simple.
         </p>
 </html>
