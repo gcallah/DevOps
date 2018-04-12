@@ -27,7 +27,7 @@
              });
          </script>
         <title>
-            Our Monitoring Implementation
+            Our Cloud Implementation
         </title>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114841175-1"></script>
@@ -411,7 +411,44 @@
                   <summary class="sum2">
                    Database Implementation
                   </summary>
-                  <ul class="contents">
+                   <div id="content">
+                <h1>
+                    Database Implementation
+                </h1>
+        
+                <p>The AWS counterpart for relational database is AWS RDS(Relational Database Schema). It supports several database engines. In our implementation we will use MySQL because
+				it is compatible with SQLite Database implemented by coding team.
+
+                <br />
+                <br />
+                <figure>
+                  <img src="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/images/MySQL-Launch01.png" alt="Mountain View" style="width:604px;height:442px;"></img>
+                <figcaption> </figcaption>
+                </figure>
+                </p>
+                 <br />
+                 <br />   
+				<p>Following steps are involved in our implementation.
+				<ul>
+					<li> Download the original database from <a href="https://github.com/gcallah/TheDevOpsCourse/blob/master/db.sqlite3">here</a>.
+					</li>
+					<li> The obtained database is from sqlite. It is converted into MySQL type using free online tools such as <a href="https://www.rebasedata.com/convert-sqlite-to-mysql-online">this</a>.
+					</li>
+					<li> Restore the obtained mysql database file in local MySQL Server.
+					</li>
+					<li> Create an AWS RDS MySql instance using the tutorial given <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html">here</a>.
+					</li>
+					<li> Once instance is up and running, note down the instance endpoint url. This url will be used to access our AWS RDS database.
+					</li>
+					<li> Migrate the MySql database from local MySQL Server to AWS RDS using the tutorial given <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Procedural.Importing.SmallExisting.html">here</a>. In our case the final command for migration using windows OS is 
+					<code>mysqldump -u adi ^ --databases db ^ --single-transaction ^ --compress ^ --order-by-primary  ^ -p temp | mysql -u devops ^ --port=3306 ^ --host=db.c4x1mr3ptoih.us-east-1.rds.amazonaws.com ^ -p nyu123456</code>.
+					</li>
+					<li> Once the command is executed successfully. Check the database on AWS RDS instance. In our case the implemented AWS RDS url is  "db.c4x1mr3ptoih.us-east-1.rds.amazonaws.com".
+					</li>
+					
+				</ul>
+				</p>
+            </div>
 
 
                     <h4> Steps </h4>
