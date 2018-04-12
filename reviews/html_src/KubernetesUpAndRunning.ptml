@@ -19,6 +19,30 @@
                     <br>
                     Reviewers: Ravish Bhatia, Sneha Ghosh
                 </p>
+                <p>
+                </p>
+                <details>
+                <summary class="sum2">
+                    Chapter 1: Introduction
+                </summary>
+                <p>
+                This chapter provides a quick introduction to Kubernetes with 
+                its several benefits. Kubernetes is an open source tool for 
+                deploying containerized applications and can be used to deploy 
+                scalable, reliable distributed systems. It provides benefits 
+                like velocity, scaling, abstraction of infrastructure and 
+                efficiency. The authors also describe how these benefits are 
+                easily achieved by using Kubernetes for deployment.
+                </p>
+                </details>
+                <details>
+                <summary class="sum2">
+                    Chapter 2: Creating and Running Containers
+                </summary>
+                <p>
+                In Progress
+                </p>
+                </details>
             </div>
         </div>
     </body>

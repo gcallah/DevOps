@@ -124,6 +124,16 @@
           I have finished a general walk through of the book "Lean Software
           Development: an Agile Tookit" and start writing review in details.
         </p>
+        <p>
+          Week 11:
+          <br/>
+          Improve the original menu automatic generation with recursive
+          generation that can handle menu with different levels. Also we
+          add the feature that the title and collapsed title can be also
+          hanlded automatically by adding them into the input menu. The new
+          version has been tested with the OOP site and the result is pretty
+          positive.
+        </p>  
       </div>
     </div>
     </body>
