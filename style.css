@@ -579,4 +579,9 @@ The Nav sidebar media effect
     #sidebarCollapse span {
         display: none;
     }
+    #searchbar {
+      margin-left:10px;
+      min-width: 80px;
+      max-width: 80px;
+    }
 }
