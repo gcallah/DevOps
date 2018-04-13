@@ -43,6 +43,17 @@
                           add the code to some file and simply include that
                           file on all the webpages.
                       </li>
+                      <li>
+                        <b>Step 3</b> : After adding the code to each and every
+                        webpage you want to track, you should be able to see
+                        data about your site in a couple of hours. You can see
+                        Real-time data such as number of active users, their
+                        locations, the device from which they are accessing the
+                        website etc. Moreover, you can also see the reports of
+                        user activity with respect to time for past week, month
+                        and year. You can also see your most frequently visited
+                        webpages from pageviews.
+                      </li>
                   </ul>
                   </ul>
                 </details>
@@ -63,29 +74,26 @@
                         </li>
                         <li>
                             Create a Contact group: Click on create group
-                            on the menu on the left. Give a name for the 
+                            on the menu on the left. Give a name for the
                             group. This group will be alerted in case
-                            the website goes down. 
-                            There are different ways alerts  can be 
-                            received like email, mobile or using an 
-                            application. The next step explains how to 
+                            the website goes down.
+                            There are different ways alerts  can be
+                            received like email, mobile or using an
+                            application. The next step explains how to
                             create the Slack Integration.
                         </li>
                         <li>
                           Slack: To receive alerts on a Slack channel we need
-                          to integrate StatusCake with Slack. Generate a 
-                          webhook URL. Select slack as the 3RD party 
-                          integration. The Alias field is a must. 
+                          to integrate StatusCake with Slack. Generate a
+                          webhook URL. Select slack as the 3RD party
+                          integration. The Alias field is a must.
                         </li>
                         <li>
-                            
+
                             Create a New Test: Click on menu on the left side
-                            and select new test. Enter the url you want to 
+                            and select new test. Enter the url you want to
                             monitor. You can add a contact group for the test.
                             This group will be contacted in case of alerts.
-                            <figure>
-                            <img src="Images/AddTest.png" stype= "width:604px;height:442px;">
-                            </figure>
                         </li>
 
                     </ol>
