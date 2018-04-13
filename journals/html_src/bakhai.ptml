@@ -22,6 +22,22 @@
             Drumil Bakhai
         </p>
             <p>
+                Week 9:
+                <br>
+                <br>
+                I have worked on finding different tools that developers
+                use for build files.
+                One of the tool is sonarqube that helps the build process
+                relatively quicker. 
+                It can be used with multiple technologies like Maven,
+                Makefile, Apache ANT, etc
+
+                I will write a review about the same in the upcoming 
+                week. 
+                Also I was working with Dockerizing a sample Flask Project
+                with help of DockerBuild and DockerCompose files
+            </p>
+            <p>
                 Week 8:
                 <br>
                 <br>

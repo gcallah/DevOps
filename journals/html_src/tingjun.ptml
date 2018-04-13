@@ -174,7 +174,8 @@
 
             <ul class="nested">
                 <li>
-                    Fix url_checker bugs and develop img tag check function.                
+                    Fix url_checker bugs and develop img 
+                    tag check function.                
                 </li>
             </ul>
         </details>

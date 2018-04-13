@@ -40,11 +40,31 @@
               In Part 1 of the book, The author
               talks about the 5 Thieves of Time:<br>
             <ul class="nested">
-                <li>Too much work-in-progress (wip)</li>
-                <li>Unknown Dependencies</li>
-                <li>Unplanned Work</li>
-                <li>Conflicting Priorities</li>
-                <li>Neglected Work</li>
+                <li>Too much work-in-progress (wip)<br>
+                Trying to parallelize work or multitasking is not a 
+                beneficial approach as maintaing synchronisation
+                leads to undue loss of time.
+                </li>
+
+                <li>Unknown Dependencies<br>
+                Always know beforehand the set of things you need
+                to finish a task at hand.
+                </li>
+
+                <li>Unplanned Work<br>
+                Plan of action is the key to tackle any task as it 
+                keeps you in the right direction.
+                </li>
+
+                <li>Conflicting Priorities<br>
+                When handling a task ensure to priorities its components
+                as it saves time over continuing from a checkpoint.
+                </li>
+
+                <li>Neglected Work<br>
+                Ensure that you understand the scope of the task 
+                at hand to avoid future surprises.
+                </li>
             </ul>
             </p>
             <p>
