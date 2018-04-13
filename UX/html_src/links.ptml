@@ -76,6 +76,17 @@
                 </ul>
                 <br />
                 <p>
+                  Here is the template from which our new UI generated from:
+                </p>
+                <ul class="nested">
+                  <li>
+                      <a href="https://bootstrapious.com/p/bootstrap-sidebar">
+                        Bootstrapious: Bootsrap Sidebar
+                      </a>
+                  </li>
+                </ul>
+                <br />
+                <p>
                 If you need more info on basic knowledgebase, feel free to
                 contact us with what you want.
               </p>
