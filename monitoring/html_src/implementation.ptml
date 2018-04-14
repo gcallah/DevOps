@@ -38,10 +38,10 @@
                         <b>Step 2</b> : Once you are done signing up, you'll
                           get the Tracking ID. Along with the Tracking ID,
                           you'll also get Global Site Tag (gtag.js) tracking
-                          code. You need to put the code in the HEAD-tag of
-                          all the webpages you want to track. You can also
-                          add the code to some file and simply include that
-                          file on all the webpages.
+                          code under PROPERTY. You need to put the code in
+                          the HEAD-tag of all the webpages you want to track.
+                          You can also add the code to some file and simply
+                          include that file on all the webpages.
                       </li>
                       <li>
                         <b>Step 3</b> : After adding the code to each and every
@@ -51,7 +51,7 @@
                         locations, the device from which they are accessing the
                         website etc. Moreover, you can also see the reports of
                         user activity with respect to time for past week, month
-                        and year. You can also see your most frequently visited
+                        and year. You can also see most frequently visited
                         webpages from pageviews.
                       </li>
                   </ul>
