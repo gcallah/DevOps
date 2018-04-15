@@ -18,43 +18,41 @@
 
             <p>
                 Jenkins is an open source automation tool written in Java which
-                supports continuous integration.<strong>Hudson</strong> project
+                supports continuous integration. The <strong>Hudson</strong> project
                 was the precursor to Jenkins which was orignally started by Sun
-                Systems, after the acquisition of Sun Systems by Oracle,
-                <strong>Jenkins</strong> was forked from Hudson and it's
-                independent community was formed. Jenkins is widely used by
-                various software industries and the software folks love it.
+                Microsystems, after the acquisition of Sun Microsystems by Oracle,
+                <strong>Jenkins</strong> was forked from Hudson and its
+                independent community was formed. After this, Jenkins has became the most popular automation tool in
+                software industries.
             </p>
-            <h1> Simple workflow of how Jenkins works? </h1>
-            <ul>
-                <li> Developers change their source code </li>
-                <li> Jenkins picks up the changed source code and triggers a 
+            <h4> Simple workflow of how Jenkins works </h4>
+            <ul class="nested">
+                <li> Developers change their source code. </li>
+                <li> Jenkins picks up the changed source code and triggers a
                      build that runs any tests that are required.</li>
-                <li> The build output is available on the Jenkins dashboard. 
-                     Automatic notifications can be sent to user regarding code 
-                     status </li>
-                <li></li>
+                <li> The build output is available on the Jenkins dashboard.
+                     Automatic notifications can be sent to user regarding code
+                     status. </li>
             </ul>
 
-            <h2>Why Jenkins is desirable?</h2>
-            <ul>
-                <li> Jenkins is an automation tool that spans across the entire development cycle from Building to Deployment. </li>
-                <li> Jenkins has over 1400 plugins that makes is easily accessible across different platforms and frameworks. </li>
-                <li> It has a master-slave architechture and allows us to create nodes depending on the task in hand i.e you can create different jenkins node to handle tasks
-                     such as build,delpoy,test etc. </li>
-                <li> Jenkins supports git and many of the version controls for Source code management.</li>
-                <li> It is most active automation server tool installed in the software industry and has an estimation of more than 1 million active users using Jenkins.</li>
-                <li> Jenkins uses less memory for installation. </li>
-                <li> Jenkins can be installed on almost all of the operating systems. </li>
-                <li> The Jenkins Community is vastly large and hence we can get support, if for any issues </li>
+            <h4>Why Jenkins is good?</h4>
+            <ul class="nested">
+                <li> Jenkins is an automation tool that spans the entire development cycle from Building to Deployment. </li>
+                <li> Jenkins has over 1400 plugins which helps it to integrate with any other tool across different platforms and framework. </li>
+                <li> It has a master-slave architechture and allows us to create nodes depending on the task in hand i.e., you can create different Jenkins node to handle tasks
+                     such as build, delpoy, test etc. </li>
+                <li> Jenkins supports git and many other version control systems.</li>
+                <li> It is most active automation server tool installed in the software industry and is estimated to have more than 1 million users.</li>
+                <li> Jenkins uses less memory for installation compared to other automation tools. </li>
+                <li> Jenkins can be installed on most popular operating systems. </li>
+                <li> The Jenkins community is vastly large and hence we can get support for many of the issues. </li>
             </ul>
 
-            <h2> Cons of using Jenkins </h2>
-             <li> Allows only Github support </li>
-             <li> Not free for private repos </li>
-             <li> Does Not provide support for windows users </li>
-+            <li> Supports more than a dozen languages </li>
-+            <li> Excellent user website interaction </li>
+            <h4> Cons of using Jenkins </h4>
+            <ul class="nested">
+             <li> Jenkins is not free for private repositories. </li>
+             <li> Even though Jenkins can be installed on windows, it does not provide further support for windows users. </li>
+           </ul>
             </div>
         </div>
     </body>
