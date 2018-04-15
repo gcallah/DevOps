@@ -222,14 +222,14 @@
             </p>
 
             <figure>
-            <img src="graphics/Clone.png" width ="800">
+            <img src="graphics/Clone.png" width ="90%">
             <figcaption>
                 Screenshot - Cloning a Repository.
             </figcaption>
             </figure>
            <br/>
             <figure>
-            <img src="graphics/GithubWebPage.png" width ="800">
+            <img src="graphics/GithubWebPage.png" width ="90%">
             <figcaption>
                 Screenshot - Github Webpage.
             </figcaption>
@@ -253,7 +253,7 @@
             </p>
 
             <figure>
-            <img src="graphics/AddSubModule.png" width ="800">
+            <img src="graphics/AddSubModule.png" width ="90%">
             <figcaption>
                 Screenshot - Adding a Submodule
             </figcaption>
@@ -265,13 +265,98 @@
             </p>
 
             <figure>
-            <img src="graphics/RemoveSubModule.png" width ="800">
+            <img src="graphics/RemoveSubModule.png" width ="90%">
             <figcaption>
                 Screenshot - Deleting a Submodule
             </figcaption>
             </figure>
         </details>
-<!-- Frequently asked build question -->
+<!-- How to implement the build process -->
+        <details>
+        <summary class="sum2">
+            How to implement the build process
+        </summary>
+            <p>
+                    Build tools control the building of a final product
+                    from some number of pieces that compose that product.
+                    The final product could be a web page, a compiled
+                    executable, a piece of documentation, or a book.
+
+                    Please Note that the following steps are only for
+                    Linux, MacOS. 
+
+                    Windows users, please have a look at the bottom of
+                    the page.
+                </p>
+
+                <p>
+                    The key characteristics of build tools are that:
+                </p>
+
+                <ul class="contents">
+                    <li>
+                        They automate the build process.
+                    </li>
+                    <li>
+                        They re-build only what is necessary to re-build.
+                    </li>
+                    <li>
+                        They document the build process.
+                    </li>
+                </ul>
+
+                <h3>How to ‘make local’?</h3>
+                    <p>
+                    If you want to make changes to an html file, do not
+                    directly edit it! Each directory(eg. cloud, testing...etc.)
+                    has a html_src folder/dir. This html_src folder contains
+                    .ptml files for all .html files. So, in order to edit
+                    ‘abc.html’, we need to edit ‘abc.ptml’
+                    </p>
+                    <ul class="contents">
+                    <li>
+                    Step 1: navigate to required html_src folder
+                    </li>
+                    <li>
+                    Step 2: edit ‘abc.ptml’ file
+                    </li>
+                    <li>
+                    Step 3:<br>
+                            <code>git add abc.ptml</code><br>
+                            <code>git commit abc.ptml</code>
+                    </li>
+                    <li>
+                    Step 4: <code>cd .. </code>(basically come to outer directory)
+                    </li>
+                    <li>
+                    Step 5: Do you see a makefile? great! :blush:<br>
+                            <code>make local</code>
+                            </li>
+                    <li>
+                    Step 6: now check your abc.html file. It should have all
+                    changes made to abc.ptml
+                    </li>
+                    <li>
+                    Step 7: git add and git commit the abc.html file
+                    </li>
+                    <li>
+                    Step 8: <br><code>git push</code>
+                    </li>
+                </ul>
+            <br>
+            <br>
+
+            <ul class="contents">
+                <li>
+                <a href="http://gnuwin32.sourceforge.net/packages/make.htm">
+                    Instruction for Make File on Windows.
+                </a>                    
+                </li>
+            </ul>
+
+        </details>
+
+        <!-- Frequently asked build questions -->
         <details>
         <summary class="sum2">
             Frequently Asked Build Questions
@@ -341,7 +426,16 @@
             <code>git pull origin master</code>
         </p>
         </details>
-
+        <details>
+        <summary class="sum3">
+           Build doesn't work even though you followed all the build steps
+        </summary>
+        <p>
+           You must make sure that your utils folder is upto date. Hence 
+           we will have to cd into the utils folder and do a 
+           <code>git pull origin master</code>
+        </p>
+        </details>
         <details>
         <summary class="sum3">
             Cannot build website
@@ -351,6 +445,7 @@
                  team subdirectory. If you only have Python 2.7… time
                  to upgrade!</p>
         </details>
+
         </details>
             </div>
         </div>
