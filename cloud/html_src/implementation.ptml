@@ -289,7 +289,7 @@
             </br>
             </br>
             <figure>
-                    <img src="graphics/1.PNG" style="width:604px;height:442px;">
+                    <img src="graphics/CreateBucket.PNG" style="width:604px;height:442px;">
             <figcaption> </figcaption>
             </figure>
               
@@ -316,7 +316,7 @@
           </br>
 
             <figure>
-                    <img src="graphics/3.PNG" style="width:604px;height:442px;">
+                    <img src="graphics/StaticWebsiteHosting.PNG" style="width:604px;height:442px;">
             <figcaption> </figcaption>
             </figure>
             
@@ -331,7 +331,7 @@
           </br>
         </br>
           <figure>
-                    <img src="graphics/404.PNG" style="width:604px;height:442px;">
+                    <img src="graphics/Error404.PNG" style="width:604px;height:442px;">
             <figcaption> </figcaption>
             </figure>
           
@@ -343,14 +343,14 @@
             </br>
           </p>
           <figure>
-              <img src="graphics/4.PNG" style="width:604px;height:442px;">
+              <img src="graphics/UploadSrcFiles.PNG" style="width:604px;height:442px;">
           <figcaption> </figcaption>
           </figure>
           
           </br>
           </br>
           <figure>
-              <img src="graphics/5.PNG" style="width:604px;height:442px;">
+              <img src="graphics/SourceFiles.PNG" style="width:604px;height:442px;">
           <figcaption> </figcaption>
           </figure>
           
@@ -372,7 +372,7 @@
           Enter the snippet into the editor and save it
            </br>
            <figure>
-              <img src="graphics/7.PNG" style="width:604px;height:442px;">
+              <img src="graphics/BucketPermissions.PNG" style="width:604px;height:442px;">
           <figcaption> </figcaption>
           </figure>
             
@@ -382,7 +382,7 @@
           of the webpage on hitting refresh.
            </br>
            <figure>
-              <img src="graphics/8.PNG" style="width:604px;height:442px;">
+              <img src="graphics/WebsiteOnBucket.PNG" style="width:604px;height:442px;">
           <figcaption> </figcaption>
           </figure>
         </p>
