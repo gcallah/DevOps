@@ -11,7 +11,9 @@
 
     <body>
 <!--include menu.txt -->
-
+    <div class="wrapper">
+    <!--include navbar.txt -->
+        <div id="content">
         <h1>
             My DevOps Story
         </h1>
@@ -83,5 +85,11 @@
                      quiz. The judge system will tell if the user passed or
                      not.
                   </p>
+
+                  <p class="copyright">
+                      &copy; 2018 Lili Xu
+                  </p>
+                </div>
+            </div>
     </body>
 </html>
