@@ -163,6 +163,15 @@
             valid. Comments were added to explain the code. 
             Code style was adjusted to satisfy PEP8.
         </p>
+        <p>
+            Week 12:
+            <br/>
+            More questions and corresponding answers of the 
+            DevOps quiz were added into the database. The 
+            sequential model was also added. Templates for 
+            each lesson's material pages were created. 
+            The material - quiz flow was implemented.
+        </p>
         </div>
     </div>
     </body>
