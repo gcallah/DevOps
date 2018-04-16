@@ -25,7 +25,7 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/HylDB3bN6hQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
             <h2>When to start testing?</h2>
-                <ul>
+                <ul class="nested">
                     <li> Cost and rework is reduced when testing starts early in
                     the developement phase.</li>
                     <li> Testing can start from the requirement gathering phase to
@@ -33,13 +33,14 @@
                     <li> Testing takes many forms and depends on the software 
                     development model.</li>
                 </ul>
+
             <h2> Testing myths to overcome:</h2>
-            <ul class="nested">
-                <li>Testing is too expensive.</li>
-                <li>Testing is time-consuming.</li>
-                <li>Only fully developed processes are tested.</li>
-                <li>A tested software is bug-free.</li>
-            </ul>
+                <ul class="nested">
+                    <li>Testing is too expensive.</li>
+                    <li>Testing is time-consuming.</li>
+                    <li>Only fully developed processes are tested.</li>
+                    <li>A tested software is bug-free.</li>
+                </ul>
 
             <h2>
                The Importance of Testing
