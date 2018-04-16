@@ -68,6 +68,13 @@
             </ul>
 
             <p>
+            <h2> Testing myths to overcome:</h2>
+                <ul>
+                    <li>Testing is too expensive.</li>
+                    <li>Testing is time-consuming.</li>
+                    <li>Only fully developed processes are tested.</li>
+                    <li>A tested software is bug-free.<li>
+                </ul>
                 <b>Credits</b>:
                 http://mrbool.com/software-development-life-cycle-the-role-of-testing/29838#ixzz57oCpwRPl
             </p>
