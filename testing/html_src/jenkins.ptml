@@ -35,6 +35,15 @@
                      status. </li>
             </ul>
 
+            <h4> Why Jenkins is better than Continuous Integration tools</h4>
+            <ul>
+            	<li>Jenkins is widespread.</li>
+            	<li>It is interconnected very well with over a 1000 
+            	plug-ins that allow easy integration with development, 
+            	testing and deployment tools.
+            	</li>
+            </ul>
+
             <h4>Why Jenkins is good?</h4>
             <ul class="nested">
                 <li> Jenkins is an automation tool that spans the entire development cycle from Building to Deployment. </li>
