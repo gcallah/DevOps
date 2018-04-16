@@ -37,6 +37,13 @@
                     <li> Testing takes many forms and depends on the software 
                     development model.</li>
                 </ul>
+            <h2> Testing myths to overcome:</h2>
+            <ul>
+                <li>Testing is too expensive.</li>
+                <li>Testing is time-consuming.</li>
+                <li>Only fully developed processes are tested.</li>
+                <li>A tested software is bug-free.</li>
+            </ul>
 
             <h2>
                The Importance of Testing
@@ -65,13 +72,6 @@
             hence, these may be prohibited from immigrating to the following
             progress stage.
             </li>
-            </ul>
-            <h2> Testing myths to overcome:</h2>
-            <ul>
-            <li>Testing is too expensive.</li>
-            <li>Testing is time-consuming.</li>
-            <li>Only fully developed processes are tested.</li>
-            <li>A tested software is bug-free.<li>
             </ul>
             <p>
                 <b>Credits</b>:
