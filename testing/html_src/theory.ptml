@@ -16,13 +16,6 @@
                 Testing Theory
             </h1>
 
-            <p>
-     <a href="https://blog.travis-ci.com/2017-12-05-what-is-ci-part-1">Testing
-         and Continuous Integration Part 1</a>
-             <br />
-    <a href="https://blog.travis-ci.com/2018-01-25-what-is-ci-part-2">Testing
-        and Continuous Integration Part 2 (Unit testing)</a>
-            </p>
             <h2> What is Software Testing?</h2>
                 <p>Definition: The process of Evaluation of a system and its 
                 components with the intent of validating against specific
@@ -41,7 +34,7 @@
                     development model.</li>
                 </ul>
             <h2> Testing myths to overcome:</h2>
-            <ul>
+            <ul class="nested">
                 <li>Testing is too expensive.</li>
                 <li>Testing is time-consuming.</li>
                 <li>Only fully developed processes are tested.</li>
@@ -52,7 +45,7 @@
                The Importance of Testing
             </h2>
 
-            <ul>
+            <ul class="nested">
             <li>
             Recognition of Error and Faults : Errors may be in unit level or in
             system level. After going through so many testing the application will
@@ -76,10 +69,10 @@
             progress stage.
             </li>
             </ul>
-            <p>
-                <b>Credits</b>:
-                http://mrbool.com/software-development-life-cycle-the-role-of-testing/29838#ixzz57oCpwRPl
-            </p>
+            
+                
+            <a href="http://mrbool.com/software-development-life-cycle-the-role-of-testing/29838#ixzz57oCpwRPl">source</a>
+        
             </div>
         </div>
     </body>
