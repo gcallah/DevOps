@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Chiquita's Journal
+        </title>
+        <!--include googleAnalyticsScript.txt -->
+    </head>
+
+    <body>
+<!--include menu.txt -->
+        <h1>
+            Chiquita's Journal
+        </h1>
+        <p> I was first introduced to the Devops facet of engineering during my
+            Internship at Edu.Chat. This was the time when I was simultaneously
+        developing and testing using Travis CI. While working on unit tests I
+        understood the real meaning of continuous integration tool and how it 
+        shapes the Software Development cycle. </p>
+        <br>
+        <p> I decided to take up the Devops course to explore the testing phase 
+        of software development and build a strong understanding of various 
+        tools that can be used in the software development life cycle and 
+        also to understand which tools to use in which situation</p>
+        
+    </body>
+</html>
