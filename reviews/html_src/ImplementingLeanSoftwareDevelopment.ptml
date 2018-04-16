@@ -40,6 +40,38 @@
                 This chapter gives an insightful view about how the term 'lean' was introduced and how it is gradually accepted into the modern enterprises. There are plenty of stories and facts cited in this chapter. The way the author organizes the contents is brilliant and inspiring. 
               </p>
             </details>
+            <details>
+              <summary class="sum2">
+                Chapter 2: Principles
+              </summary>
+              <p>
+                This chapter talks about the senven principles of lean software development. The writers not only give detailed explanation on what the principles mean, they also provide a 'Myth' section after each principle, discussing one common wrong understanding of the principle. The book starts by pointing out the most important character of software development - software changes very often. It also claims that it assumes the development process should be empirical - have a high-level concept in mind and then apply feedback-driven methods to implement the concept.
+                The seven principles of lean software development the book states are:
+                <ul>
+                  <li>
+                    Eliminate all nonvalue-adding waste: These wastes are generally partially done work, churns and unused feature.
+                  </li>
+                  <li>
+                    Build Quality In: Fix defects as soon as you find them. Write GOOD code the first time. Test-driven development is recommended.
+                  </li>
+                  <li>
+                    Create Knowledge: When we are implementing what we have planned to do, we tend to find problems or better ways. We should make good use of these knowledge instead of sticking to the plan.
+                  </li>
+                  <li>
+                    Defer Commitment: Make vital decisions only before it is too late because at that time you have the most information on which to chooose. We can't make our software completely flexible but we should make it be able to change at several crucial points. Do NOT go too far with an assumption.
+                  </li>
+                  <li>
+                    Deliver Fast: Because if you deliver fast, your customers don't have the time to change their requirements. You can also receive more feedback from them.
+                  </li>
+                  <li>
+                    Respect People: There is no process that cannot be improved. 
+                  </li>
+                  <li>
+                    Optimize the Whole: Make measurements on high-level instead of low-level
+                  </li>
+                </ul>
+              </p>
+            </details>
           </div>
         </div>
     </body>
