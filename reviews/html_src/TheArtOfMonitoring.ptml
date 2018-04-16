@@ -38,9 +38,13 @@
         (1) The business (2) Information Technology <br>
         The stages of a three-level maturity model reflecting
         monitoring evolution are :<br>
-        <b>(i) Manual : </b><br>
-        <b>(ii) Reactive : </b><br>
-        <b>(iii) Proactive : </b><br/>
+        <b>(i) Manual : </b> In this stage , monitoring is largely manual, user initiated,
+        or not done at all.<br>
+        <b>(ii) Reactive : </b> This type of monitoring is mostly automatic
+        with some remnants of manual or unmonitored components.<br>
+        <b>(iii) Proactive : </b>Here, monitoring is automatic and generated
+        by configuration management. Example of different monitoring tools
+        are Nagios, Sensu, and Graphite.<br/>
       </p>
     <h4>Chapter 2: Monitoring, Metrics and Measurement</h4>
     <h4>Chapter 3: Events and metrics with Riemann</h4>
