@@ -190,6 +190,13 @@ Python 3.x).</li>
     Follow the <a href="http://mypy-lang.blogspot.co.uk/" target="_blank">
     mypy blog</a> for more information.
     </p>
+<br><p>
+<b> Sources:</b>
+<ul>
+<li> <a href="http://mypy-lang.org/"> http://mypy-lang.org/</a></li>
+<li> <a href="https://github.com/python/mypy"> https://github.com/python/mypy</a></li>
+</ul>
+    </p>
             </div>
         </div>
     </body>
