@@ -26,7 +26,9 @@
         also to understand which tools to use in which situation</p>
 
         <h1> Simple Devops Introduction </h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/cus7WYHdQic?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <center>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cus7WYHdQic?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </center>
         
     </body>
 </html>
