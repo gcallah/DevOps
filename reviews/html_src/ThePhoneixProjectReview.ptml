@@ -61,7 +61,21 @@ the company is going through, Bill accepts the
 role of VP of Operations. He is already facing a new 
 problem as Paychecks for company employees are stuck!
 </p>
-
+<p>
+<h3> 
+  Chapter 2: 
+</h3>
+Bill meets Dick and Ann who explain to him about 
+the Payroll problem. There are only zeroes in salary 
+column for hourly employees. One backup option is to 
+pay everyone based on previous cycle but that will lead 
+to overpaying or underpaying some employees inviting the 
+Union to step in. Bill suggests working on plan B while he 
+investigates further. On reaching IT dept., Wes and Patty 
+tell him about the SAN(Storage Area Network) failure which 
+everyone is trying to fix since all servers are down. Bill 
+tries to relate payroll failure to SAN failure.
+</p>
 <p>
 <h3>
   Chapter 3:
@@ -85,6 +99,22 @@ deployed a tokenization application that affected
 timekeeping and caused payroll failure.
 
 </p>
+
+<br>
+<br>
+<h3>
+	Chapter 4:
+</h3>
+
+The project management meeting discusses important aspects 
+of phoenix project; the project which is delayed by 2 years 
+even after spending $20million. There are disagreements about 
+deploying the project which is still unstable, doesnt have 
+good  documentation. we also see a lack of change management 
+process in the team.
+
+<br>
+<br>
 
 </div>
 </div>

@@ -25,6 +25,43 @@
         <p>
         	My overall expectation from this course is to learn all the processes involved in developing and deploying a software the DevOps way. I would love to expand my skill set and gain in-depth practical knowledge of working with containers such as Docker.Also learning how to implement automated testing scripts using Jenkins would be really beneficial since these skills are in huge demand in the industry as of now. Writing scripts to deploy the software on cloud is at the core of DevOps and getting first hand experience doing that would be great. Eventually, I would love if the course prepares us to automate the whole process of deploying to just a single click of a button. All said, I expect the experience of working in a team and collabarating with other teams to be highly beneficial and give us exposure of how things work in industry.
         </p>
+        <p>
+            <b>Week 1 and 2 :</b><br/>
+            The whole class was divided into groups such as coding, workflows, cloud ,deployment, build etc. Due to my excessive interst in coding , i chose to be a part of the coding group. The coding group had 4 different tools to implement out of which one of those was building a spell checker tool. Me and Kanishk decided to work and collaborate on this project and one of the major reasons i chose this tool was beacuse of my interest in Natural Language Understanding(NLU). I believe i could put to use a lot of domain knowledge on the subject along with my excellent coding skills to build the tool in python. <br/>
+            Also we learnt how to use trello for managing the workflow of the projects and updated it by addding a trello card for HTML spell checker in the wish list column.
 
-    </body>
+        </p>
+        <p>
+            <b>Week 3:</b><br/>
+            Attended a wonderful session on Docker by Prashant Patel which was a very practical and hands-on session. I learnt the practical usage of docker and bunch of commands on how to start and and manage docker conatainers.Learnt how to work with nginx. Some of the commands we executed in the terminal were as follows :
+            docker start, docker ps,docker images , docker pull nginx etc. <br/>
+            We also started the development work for spell checker tool by first performing a requirements analysis of the tool for which we also met with professor to clarify the tool requirements and the features it should possess. After that we wrote down the code contating the basic features of the spell checker and made our first commit for the tool.
+
+        </p>
+        <p>
+            <b>Week 4 :</b><br/>
+            We added more features to the spell checker tool such as the functionality for the user to be able to add words to the dictionary that dont exist beforehand. Also, we met with professor to discuss the project status where he gave us a bunch of suggestions as well on how we could improve the tool.
+        </p>
+        <p>
+            <b>Week 5 :</b><br/>
+            Got a chance to attend a very fruitful and informative session by Tom Limoncelli who's a Site reliability Engineer at StackOverflow. He gave a very detailed insight into how DevOps really works in industry. There were 3 main main takeaways from his presentation about the DevOps principles which were as follows:<br/>
+            -> "The Three ways of DevOps" : The Process, Communication and Trying New Things.He believes that an organization can increase their throughput if they focus on improving the above three criteria's. <br/>
+            -> The Small Batches Principle : Doing work in small batches or increments is always better than developing the whole software and deploying only after completion. It ensures that feedback from all the stakeholders in the process is obtained at an early stage rather than at the end.<br/>
+            ->Minimum Viable Product: Delivering some value sooner is better than all value later.
+        </p>
+        <p>
+            <b>Week 6 :</b><br/>
+            Attended a talk by Tom Germano from Google who gave a deep insight about how Web Search works also how results are served to search queries. One of his primary responsibilities is to handle joins on databases which becomes a complex task when performing info update operations on millions of servers concurrently. 
+        </p>
+        <p>
+            <b>Week 7 :</b><br/>
+            Spring Break
+        </p>    
+        <p>
+            <b>Week 8 :</b><br/>
+            Attended a very informational session by Joe West, Former CTO of BounceX who gave a deep insight about how devops is being adopted in the indusrty and also shared his experiences about Akamai. Some of the main take away concepts from his presentation were as follows:<br/>
+            Productivity is the most important thing: He gave an example of a lazy systems engineer who is better than a more active one because he will always find ways to automate things.<br/>
+            Focus on the business value: Don't use DevOps tools just because the technology looks cool, assess the customer requirements and whether it adds value to business and will be profitable in the future to make decision on whether it makes sense to use those services.<br/>
+            Using the right toolkit : Optimizee the workflow to understand the minimum amount of resources needed to fullfil the requirement. Keep it simple.
+        </p>
 </html>

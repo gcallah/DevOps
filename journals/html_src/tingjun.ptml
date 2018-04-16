@@ -167,6 +167,30 @@
                 </li>
             </ul>
         </details>
+        <details>
+            <summary class="sum2">
+                Week 11
+            </summary>
+
+            <ul class="nested">
+                <li>
+                    Fix url_checker bugs and develop img 
+                    tag check function.                
+                </li>
+            </ul>
+        </details>
+        <details>
+            <summary class="sum2">
+                Week 12
+            </summary>
+
+            <ul class="nested">
+                <li>
+                    Make url_checker a seperate program. Keep working on
+                    img and tag check function.
+                </li>
+            </ul>
+        </details>
         </div>
         </div>
     </body>

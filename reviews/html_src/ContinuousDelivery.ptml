@@ -194,6 +194,212 @@
                 adopt the practice of continuous integration.
                 </p>
             </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 8: Automated Acceptance Testing
+                </summary>
+                <p>
+                The authors discuss the importance of acceptance tests within
+                the deployment pipeline. They describe how acceptance
+                tests are different from unit or component tests, the former
+                being more business focused. In their experience, the cost of
+                creating and maintaining automated acceptance tests is much
+                lower than repetitive manual and regression testing. They
+                also discuss how to implement and maintain effective 
+                acceptance tests with code examples. They describe the 
+                principles and practices that should be used in the 
+                acceptance test stage. They also discuss the benefits of 
+                making the delivery team that includes developers and 
+                testers, owners of the automated acceptance tests. Lastly,
+                they describe the techniques which can improve the 
+                performance of the acceptance test suite.
+                </p>
+            </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 9: Testing Nonfunctional Requirements
+                </summary>
+                <p>
+                In this chapter authors discuss nonfunctional requirements 
+                specifically capacity testing. They start by discussing the 
+                importance of nonfunctional requirements, how to analyze them 
+                and how to measure capacity. Then they describe how to create 
+                the capacity testing environment to conduct the measurements. 
+                They recommend creating a replica of production environments 
+                for the applications in which performance is a serious concern.
+                They discuss the strategies for creating capacity tests from 
+                the automated acceptance test suite which represent realistic 
+                scenarios to obtain comprehensive, maintainable coverage of the
+                system. They recommend adding nonfunctional testing as a
+                separate stage into the deployment pipeline. Lastly, they 
+                discuss some additional benefits of using a capacity testing 
+                system and call it an invaluable resource.
+                </p>
+            </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 10: Deploying and Releasing the Applications
+                </summary>
+                <p>
+                In this chapter, the authors focus on the differences between 
+                deploying the software in a testing environment and releasing 
+                it in the production, supported by an interesting example of 
+                the test and release process diagram. They have discussed about
+                two effective strategies to ensure zero-downtime releases and 
+                rollbacks: blue-green deployments and canary releasing. A 
+                critical stress has been put on the suggestion of 'not' 
+                subverting the processes in case of emergency fixes. They 
+                define that the aggressive approach of directly deploying 
+                changes to the production environment in case of an emergency 
+                fix might lead to severe consequences like introducing new 
+                issue due to the incompatibility of the changes made, and also,
+                the environment might move to unknown state due to unregistered
+                changes and make it impossible to reproduce. Lastly, they refer
+                to few tips and tricks like encouraging the people who are 
+                involved in deployment should be involved in creating the 
+                deployment process and techniques, every activity should be 
+                registered, avoid deleting the old file and rather relocate 
+                them. Most importantly, release planning is getting the 
+                representatives from every part of your organization involved 
+                in the delivery and these people should continue to meet 
+                throughout the life of the project and continually work to make
+                the delivery process more efficient.
+                </p>
+            </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 11: Managing Infrastructure and Environments
+                </summary>
+                <p>
+                The authors of the chapter review the first step of deploying 
+                software as discussed in Chapter 1 of this book, that is, 
+                creating and managing the infrastructure in which the 
+                application will run. There are two attributes which describe 
+                any environment, first, The hardware configuration of the 
+                servers that form the environment (CPUs, amount of memory, 
+                spindles, NICs, etc.) and secondly, The configuration of the 
+                operating system and middleware (such as messaging systems, 
+                application and web servers, database servers) required to 
+                support the applications that will run within it. The authors
+                also explain how the needs of the operation team and state 
+                that the group or stakeholder management plays an important 
+                role in the success of any project. To explain the concept of 
+                managing server provisioning and configuration, they have 
+                provided various examples and puppet configuration for 
+                multiple modules. To deal with problems due to different 
+                servers, they have introduced the concept of virtualization and
+                discussed its benefits like fast-response to the changing 
+                environment, standardized hardware, ease of managing the 
+                baselines, etc. In the end, the authors have mentioned 4 areas
+                of consideration while creating an application monitoring 
+                strategy: Instrumenting applications and infrastructure for 
+                data collection, data storage for quick and easy retrieval, 
+                aggregation of data to make it suitable for the operations, and
+                setting up of notifications.
+                </p>
+            </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 12: Managing Data
+                </summary>
+                <p>
+                In this chapter, authors discuss about database management and 
+                data setup for testing. They start by discussing the importance
+                of database scripting for database initialization and migration
+                and integrating those scripts with the continuous delivery 
+                process. Then they describe the techniques which can help to 
+                roll back databases without losing data and how to release with
+                zero-downtime. Next they describe the challenges associated 
+                with testing data setup and different approaches that can be 
+                used to handle them. Then they discuss the strategies to manage
+                data for different stages of automated testing within the 
+                deployment pipeline. In the end they provide list of principles
+                and practices which can be used to handle the issues with data
+                management in automated testing and production environments.
+                </p>
+            </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 13: Managing Components and Dependencies
+                </summary>
+                <p>
+                The authors introduce the chapter with the explanation of
+                an important term like componentization and how the 
+                abstract use of this term has led to ambiguity around the
+                concept. The major advantage of dividing an application 
+                into multiple components is that during the integration of
+                a major functionality into the system, it reduces the 
+                chances of introducing new bugs and even if added to the 
+                system, only the particular component has to be mended. 
+                The authors claim that for a small project it is understandable
+                to have single version control repository, however, a 
+                project can expand to a bigger level and that is when need 
+                to create discrete component comes in. But, once a project 
+                attains a certain threshold it becomes cost inefficient to 
+                attempt code componentization. Thumb-rule for a continuous 
+                integration process is to keep the application releasable.
+                One of the universally accepted solutions to this is 
+                'version control', however, it is less-efficient and a better
+                approach to obtain a high optimal solution to allow 
+                everyone to work on the mainline.
+                </p>
+            </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 14: Advanced Version Control
+                </summary>
+                <p>
+                In this chapter, the authors dive into the concept of version
+                control mechanism, discussing from the history to the needs 
+                which gave birth to version control. The authors then discuss
+                the in-depth history of version control systems like CVS, 
+                Subversion (SVN), and Commercial Version Control Systems 
+                (Perfore, AccuRev, BitKeeper). To explain the components of 
+                version control, the authors briefly explain the concept of
+                branching and merging. The branching basically facilitates 
+                the ability to perform parallel development by different 
+                groups or individuals without affecting each other's work. 
+                Also, they provide with multiple logical reasons on why 
+                different teams may branch the code. Further, they introduce 
+                the Distributed Version Control Systems (DVCS), followed by 
+                the history and its implementation corporate environment. 
+                To clarify DVCS in details, the authors also exemplify 
+                the workflow diagram for it. In conclusion, the authors 
+                present various options around version control system to 
+                ensure an efficient development process, however, an important
+                 exercise is to continuously push the developed code bit
+                 regularly to the mainline code, minimize the risk.
+                </p>
+            </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 15: Managing Continuous Delivery
+                </summary>
+                <p>
+                In the last chapter of the book, the authors primarily focus
+                on the management of a development project. They state that an
+                effective collaboration depends on the stakeholders or people 
+                involved and there willingness to bring changes to the project.
+                The authors have presented with four major sections in the
+                chapter to assist in the adaptation of continuous delivery 
+                within an organization, namely, maturity model, project 
+                lifecycle, risk management and common delivery problems. With 
+                respect to the maturity model, the authors believe that 
+                organizational change is a tough task but can be achieved if
+                implemented incrementally and impacts are checked regularly. 
+                Also, they have discussed in detail that projects could 
+                different in nature, but it is possible to filter the common
+                elements from them and generalize a lifecycle for the software
+                delivery. The authors have taken a firm stand on the risk 
+                management process and have also provided details on how to
+                perform a risk-management exercise. In the end, they have 
+                mentioned symptoms and causes for few common delivery problems
+                like infrequent or buggy deployment, poor application quality,
+                poorly managed continuous integration process, and poor 
+                configuration management.
+                </p>
+            </details>
+
         </div>
     </div>
 </body>

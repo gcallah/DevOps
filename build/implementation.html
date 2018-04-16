@@ -161,7 +161,10 @@
                   <li><a href="https://gcallah.github.io/DevOps/TeamsTable.html">Our teams for Spring 2018</a></li>
                   <li><a href="https://gcallah.github.io/DevOps/books.html">DevOps reading list</a></li>
                   <li><a href="https://gcallah.github.io/DevOps/journals/index.html">Our DevOps journals</a></li>
-                  <li><a href="http://www.thedevopscourse.com/devops/">The Django site: the course will manage a cutover to here!</a></li>
+                  <li>
+                  <a href="http://www.thedevopscourse.com/quiz/">Our Django
+                  site: we are creating a quiz system here.</a>
+                  </li>
                 </ul>
               </li>
               <li>
@@ -196,7 +199,7 @@
                 <a href="https://gcallah.github.io/AgileCourseware/index.html">agile courseware</a>
                 program.
                 But this dependence can be tricky: while git supports
-                submodules,it often does not seem to "like" doing so! Here we
+                submodules, it often does not seem to "like" doing so! Here we
                 will write up some problems we've hit in that area.
             </p>
 
@@ -219,14 +222,14 @@
             </p>
 
             <figure>
-            <img src="graphics/Clone.png" width ="1250">
+            <img src="graphics/Clone.png" width ="90%">
             <figcaption>
                 Screenshot - Cloning a Repository.
             </figcaption>
             </figure>
            <br/>
             <figure>
-            <img src="graphics/GithubWebPage.png" width ="1250">
+            <img src="graphics/GithubWebPage.png" width ="90%">
             <figcaption>
                 Screenshot - Github Webpage.
             </figcaption>
@@ -243,14 +246,14 @@
                 <code>
                 git submodule add https://github.com/gcallah/TheDevOpsCourse.git
                 </code>
-                <br/>
+                <br>
                 (That last parameter is the clone string you get from the
                 GitHub webpage.)
-                <br/>
+                <br>
             </p>
 
             <figure>
-            <img src="graphics/AddSubModule.png" width ="1250">
+            <img src="graphics/AddSubModule.png" width ="90%">
             <figcaption>
                 Screenshot - Adding a Submodule
             </figcaption>
@@ -262,19 +265,106 @@
             </p>
 
             <figure>
-            <img src="graphics/RemoveSubModule.png" width ="1250">
+            <img src="graphics/RemoveSubModule.png" width ="90%">
             <figcaption>
                 Screenshot - Deleting a Submodule
             </figcaption>
             </figure>
         </details>
-<!-- Frequently asked build question -->
+<!-- How to implement the build process -->
+        <details>
+        <summary class="sum2">
+            How to implement the build process
+        </summary>
+            <p>
+                    Build tools control the building of a final product
+                    from some number of pieces that compose that product.
+                    The final product could be a web page, a compiled
+                    executable, a piece of documentation, or a book.
+
+                    Please Note that the following steps are only for
+                    Linux, MacOS. 
+
+                    Windows users, please have a look at the bottom of
+                    the page.
+                </p>
+
+                <p>
+                    The key characteristics of build tools are that:
+                </p>
+
+                <ul class="contents">
+                    <li>
+                        They automate the build process.
+                    </li>
+                    <li>
+                        They re-build only what is necessary to re-build.
+                    </li>
+                    <li>
+                        They document the build process.
+                    </li>
+                </ul>
+
+                <h3>How to ‘make local’?</h3>
+                    <p>
+                    If you want to make changes to an html file, do not
+                    directly edit it! Each directory(eg. cloud, testing...etc.)
+                    has a html_src folder/dir. This html_src folder contains
+                    .ptml files for all .html files. So, in order to edit
+                    ‘abc.html’, we need to edit ‘abc.ptml’
+                    </p>
+                    <ul class="contents">
+                    <li>
+                    Step 1: navigate to required html_src folder
+                    </li>
+                    <li>
+                    Step 2: edit ‘abc.ptml’ file
+                    </li>
+                    <li>
+                    Step 3:<br>
+                            <code>git add abc.ptml</code><br>
+                            <code>git commit abc.ptml</code>
+                    </li>
+                    <li>
+                    Step 4: <code>cd .. </code>(basically come to outer directory)
+                    </li>
+                    <li>
+                    Step 5: Do you see a makefile? great! :blush:<br>
+                            <code>make local</code>
+                            </li>
+                    <li>
+                    Step 6: now check your abc.html file. It should have all
+                    changes made to abc.ptml
+                    </li>
+                    <li>
+                    Step 7: git add and git commit the abc.html file
+                    </li>
+                    <li>
+                    Step 8: <br><code>git push</code>
+                    </li>
+                </ul>
+            <br>
+            <br>
+
+            <ul class="contents">
+                <li>
+                <a href="http://gnuwin32.sourceforge.net/packages/make.htm">
+                    Instruction for Make File on Windows.
+                </a>                    
+                </li>
+            </ul>
+
+        </details>
+
+        <!-- Frequently asked build questions -->
         <details>
         <summary class="sum2">
             Frequently Asked Build Questions
         </summary>
-        <ol type = "I" class="nested">
-        <li><p>How to install Command Line Tool on Mac OS X ?</p>
+        <details>
+        <summary class="sum3">
+         How to install Command Line Tool on Mac OS X ?
+        </summary>
         <p>The steps listed below will guide you through the process of
            installing command line tool on Mac OS X</p>
             <ol type = "1" class="nested">
@@ -307,25 +397,60 @@
                     in the following directory:<br><br>
                      <code>/Library/Developer/CommandLineTools/ </code></li>
             </ol>
-        </li>
-        <li>python 3
-            <br />
-            Put a symbolic link called ‘python3’ in the directory where you
+        <p>
+            Sources: 
+            <a href="http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/">OSXDAILY</a>
+        </p>
+        </details>
+        <details>
+        <summary class="sum3">
+            python 3
+        </summary>
+             <p>
+             Put a symbolic link called ‘python3’ in the directory where you
              have python: now running ‘python3’ should work. *But* make sure it
              points to some python 3 version, and not 2.7.
-            </li>
-            <li><p> Problems with your git submodules</p>
-             <ol type = "1" class="nested">
-             </ol>
-            </li>
-            <li><p> Cannot build website</p>
+             </p>
+        </details>
+        <details>
+        <summary class="sum3">
+            Problems with your git submodules
+        </summary>
+        <!-- Add content here -->
+        <p>
+            Make sure you have the all the contents pulled from the submodule 
+            if build fails. In order to do this follow the steps shown below
+            once you are in the main DevOps directory. <br>
+            <code>
+                git sobmodule update
+            </code>
+            <br>
+            Alternatively we can also do the following: -<br>
+            <code>cd utils</code><br>
+            <code>git pull origin master</code>
+        </p>
+        </details>
+        <details>
+        <summary class="sum3">
+           Build doesn't work even though you followed all the build steps
+        </summary>
+        <p>
+           You must make sure that your utils folder is upto date. Hence 
+           we will have to cd into the utils folder and do a 
+           <code>git pull origin master</code>
+        </p>
+        </details>
+        <details>
+        <summary class="sum3">
+            Cannot build website
+        </summary> 
                 <p>You must run that from the "main" DevOps directory, not your
+    
                  team subdirectory. If you only have Python 2.7… time
                  to upgrade!</p>
-            </li>
-        </ol>
         </details>
 
+        </details>
             </div>
         </div>
     </body>

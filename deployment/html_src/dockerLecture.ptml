@@ -41,7 +41,9 @@
                 <p>
                     First step is to download and install docker,
                     which I am sure everyone in the class did.
-                     If not please visit <a>http://www.docker.com</a>.
+                     If not please visit <a href="http://www.docker.com">
+                     http://www.docker.com
+                     </a>.
                     You should follow the installation instructions
                      given in the website.
                 </p>
@@ -121,7 +123,7 @@
                  <figure>
                     <img width="60%" src="../build/graphics/algorithms.png" alt="docker images">
                     <figcaption>
-                        List of images in my system now with nginx
+                        List of images in my system now with nginx.
                     </figcaption>
                 </figure>
 

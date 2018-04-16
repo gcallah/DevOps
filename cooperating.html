@@ -4,12 +4,14 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
         <link rel="stylesheet" href="style.css">
 
         <!-- jQuery CDN -->
          <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
          <!-- Bootstrap Js CDN -->
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
          <script type="text/javascript">
              var status = 'on';
@@ -160,7 +162,10 @@
                   <li><a href="https://gcallah.github.io/DevOps/TeamsTable.html">Our teams for Spring 2018</a></li>
                   <li><a href="https://gcallah.github.io/DevOps/books.html">DevOps reading list</a></li>
                   <li><a href="https://gcallah.github.io/DevOps/journals/index.html">Our DevOps journals</a></li>
-                  <li><a href="http://www.thedevopscourse.com/devops/">The Django site: the course will manage a cutover to here!</a></li>
+                  <li>
+                  <a href="http://www.thedevopscourse.com/quiz/">Our Django
+                  site: we are creating a quiz system here.</a>
+                  </li>
                 </ul>
               </li>
               <li>
@@ -245,49 +250,50 @@
                     Web as an application delivery platform,
                     gave rise to development
                     groups that could deliver new software to customers at an
-                    unprecedented pace. But this pace strained the capabilities of
-                    many operations teams: operations had traditionally acted as
-                    a regulator stopping buggy, insecure software from reaching
-                    production boxes. This job often delayed new software from
-                    reaching production for a number of months. When development
-                    cycles for new releases were measured in years, adding a few
-                    months to the release date was relatively unproblematic.
-                    But once development teams were ready to release new software
-                    much more frequently, often <i>daily</i>, adding a couple of
-                    month delay to a one-day release cycle no longer seemed
-                    acceptable.
+                    unprecedented pace. But this pace strained the capabilities
+                    of many operations teams: operations had traditionally
+                    acted as a regulator stopping buggy, insecure software from
+                    reaching production boxes. This job often delayed new
+                    software from reaching production for a number of months.
+                    When development cycles for new releases were measured in
+                    years, adding a few months to the release date was
+                    relatively unproblematic.  But once development teams were
+                    ready to release new software much more frequently, often
+                    <i>daily</i>, adding a couple of month delay to a one-day
+                    release cycle no longer seemed acceptable.
                 </p>
 
                 <p>
-                    Thus, operations, if it was not to be the fly in the ointment,
-                    had to become lean and agile itself. Practitioners realized
-                    that this required a new approach to operations: operations
-                    had to work together with development from the very start of
-                    a project, to ensure that new software, at every step along
-                    its development path, was always "production ready." This
-                    close collaboration between development and operations
+                    Thus, operations, if it was not to be the fly in the
+                    ointment, had to become lean and agile itself.
+                    Practitioners realized that this required a new approach to
+                    operations: operations had to work together with
+                    development from the very start of a project, to ensure
+                    that new software, at every step along its development
+                    path, was always "production ready." This close
+                    collaboration between development and operations
                     was christened with a name in 2008: in a talk on "Agile
                     Infrastructure," Andrew Shafer and Patrick Debois coined the
                     term "DevOps."
                 </p>
 
                 <p>
-                    So DevOps can be seen as an extension of Lean and Agile ideas
-                    into the realm of deploying software into production and
-                    monitoring and fixing it once it has been deployed. In order
-                    to accomodate the pace of release achieved by Lean/Agile
-                    developers, operations teams realized that operations had
-                    to shift from a way of working where they were an
-                    after-the-fact check on the work of developers to one
-                    in which they were involved in the development process
+                    So DevOps can be seen as an extension of Lean and Agile
+                    ideas into the realm of deploying software into production
+                    and monitoring and fixing it once it has been deployed. In
+                    order to accomodate the pace of release achieved by
+                    Lean/Agile developers, operations teams realized that
+                    operations had to shift from a way of working where they
+                    were an after-the-fact check on the work of developers to
+                    one in which they were involved in the development process
                     from day one: operations has to swiftly provide developers
                     with production-like environments in which to work
                     (infra-structure as code), to enable quality assurance
-                    at every step of the development process (continuous, automated
-                    testing), to enable swift rollbacks when errors do appear in
-                    production (version control systems), and to constantly
-                    track the performance of these frequently released systems
-                    (automated monitoring).
+                    at every step of the development process (continuous,
+                    automated testing), to enable swift rollbacks when errors
+                    do appear in production (version control systems), and to
+                    constantly track the performance of these frequently
+                    released systems (automated monitoring).
                 </p>
 
                 <p>

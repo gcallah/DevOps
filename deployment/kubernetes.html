@@ -159,7 +159,10 @@
                   <li><a href="https://gcallah.github.io/DevOps/TeamsTable.html">Our teams for Spring 2018</a></li>
                   <li><a href="https://gcallah.github.io/DevOps/books.html">DevOps reading list</a></li>
                   <li><a href="https://gcallah.github.io/DevOps/journals/index.html">Our DevOps journals</a></li>
-                  <li><a href="http://www.thedevopscourse.com/devops/">The Django site: the course will manage a cutover to here!</a></li>
+                  <li>
+                  <a href="http://www.thedevopscourse.com/quiz/">Our Django
+                  site: we are creating a quiz system here.</a>
+                  </li>
                 </ul>
               </li>
               <li>
@@ -179,30 +182,104 @@
     </ul>
 </nav>
         <div id="content">
+
         <h1>
             Kubernetes
         </h1>
+
         <h2>
             What?
         </h2>
         <p>
+          Is a deployment automation, scaling and management framwork for
+          containerized applications.<br>
         </p>
+
+        <h2>
+            History?
+        </h2>
+        <p>
+          <b>*</b> Kubernetes roots come from project Borg used for deployment
+          automation at google.<br>
+          <b>*</b> It is considered the most effective solution based on its success
+          at Google running the search engine at a large scale.<br>
+        </p>
+
         <h2>
             Why?
         </h2>
-        <p></p>
+        <p>
+        <b>The Problem: </b><br>
+        <b>*</b> Containers (more here:<a></a>) simplied the deployment of an
+          application or bringing up a service across various environments.
+          When the application spans large scale or bed of users,
+          A problem or challenge that arose is the management, recovery,
+          scale, update of the container.<br>
+        <b>The Solution: </b><br>
+        <b>*</b> The elegant solution would be to build an automation framework
+        that handles all of these requirements and maintains the service at
+        scale.<br>
+        <b>*</b> The solution had to schedule, measure and allocate resources for
+        required applications, deploy and maintain them as a cluster service.<br>
+        <b>*</b> The solution =&gt Kubernetes<br>
+        </p>
+
         <h2>
             How?
         </h2>
-        <p></p>
+        <p>
+          * Basic usecase -
+        </p>
+
+        <h2>
+            Components?
+        </h2>
+        <p>
+          <b>*</b> Kubernetes Cluster Service - Manage the pods, create, deploy,
+          scale, recovery from the configuration<br>
+          <b>*</b> Kubelet Process - communication between Kubernetes cluster
+          service and workers<br>
+          <b>*</b> Kubernetes API - Provision to talk to the container service<br>
+          <b>*</b> Workers - nodes or machines to run the container<br>
+          <b>*</b> Configuration<br>
+            <b>*</b> Pods - a very basic or smallest unit of deployment<br>
+        </p>
+
         <h2>
             Setup?
         </h2>
         <p></p>
+
         <h2>
             Configuration?
         </h2>
         <p></p>
+
+        <h2>
+            Implementation?
+        </h2>
+        <p>
+        <b>Kuberenets Locally</b><br>
+        <b>*</b> Using MiniKube, a local kubernetes could be setup with a virtual
+        machine like virutal box or vmware workstation.<br>
+        <b>Basic Kubernetes Cluster Implementation as a Simple Project for
+          the Course:</b><br>
+        <b>*</b> Deploy the gcallah/DevOps static website as a cluster service with
+        AWS or any machines in the cloud.<br>
+        <b>*</b> Pod1 - git-sync(gcallah/devops) pulling latest updates + Pod2 - nginx
+        container ==&gt Kubernetes Cluster Service ==&gt AWS Worker machines<br>
+        </p>
+
+        <h2>
+            References:
+        </h2>
+        <p>
+          <b>*</b> <a>https://kubernetes.io/</a><br>
+          <b>*</b> <a>https://youtu.be/PH-2FfFD2PU</a><br>
+          <b>*</b> <a>http://paulbakker.io/kubernetes/kubernetes-static-sites/</a><br>
+          <b>*</b> <a>https://daemonza.github.io/2017/01/15/kubernetes-on-aws/</a><br>
+        </p>
+
             </div>
         </div>
     </body>

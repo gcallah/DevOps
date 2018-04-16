@@ -20,7 +20,8 @@
                   New UI Designs
                 </p>
                 <p>
-                  For the first version, we want to clear up the web with a more
+                  For the first version, we want to clear up the web with a
+                  more
                   organized UI. To acheive this, we first think about adding a
                   navigation bar that allows users to access all links anywhere
                   on the website. So after several discussions, we choose the
@@ -53,11 +54,17 @@
                     Build
                 </p>
                 <p>
-                    To achieve our UI design, we have created two templates to be included in the web pages: <strong>subhead.txt</strong> and <strong>navbar.txt</strong>. <strong>subhead.txt</strong> contains javascripts and stylesheets for our website and <strong>navbar.txt</strong> holds the codes for the side navigation bar.
+                    To achieve our UI design, we have created two templates to
+                    be included in the web pages: <strong>subhead.txt</strong>
+                    and <strong>navbar.txt</strong>. <strong>subhead.txt
+                    </strong> contains javascripts and stylesheets for our
+                    website and <strong>navbar.txt</strong> holds the codes
+                    for the side navigation bar.
                 </p>
                 <br>
                 <p>
-                    When creating a new page, copy the following template into your text editor:<br>
+                    When creating a new page, copy the following template into
+                    your text editor:<br>
                     <strong>
                         &lt;!DOCTYPE html&gt;<br>
                         &lt;html&gt;<br>
@@ -73,7 +80,8 @@
                         &emsp;&emsp;&lt;div class="wrapper"&gt;<br>
                         &lt;!--include navbar.txt --&gt;<br>
                         &emsp;&emsp;&emsp;&lt;div id="content"&gt;<br>
-                        &emsp;&emsp;&emsp;&emsp;&lt;% YOUR CONTENT HERE %&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;% YOUR CONTENT HERE %&gt;
+                        <br>
                         &emsp;&emsp;&emsp;&lt;/div&gt;<br>
                         &emsp;&emsp;&lt;/div&gt;<br>
                         &emsp;&lt;/body&gt;<br>
@@ -82,7 +90,78 @@
                 </p>
                 <br>
                 <p>
-                    Remember to give your page a new title and put it in <strong>&lt;% YOUR TITLE HERE %&gt;</strong>. Next, replace <strong>&lt;% YOUR CONTENT HERE %&gt;</strong> with your web page contents.
+                    Remember to give your page a new title and put it in
+                    <strong>&lt;% YOUR TITLE HERE %&gt;</strong>. Next, replace
+                    <strong>&lt;% YOUR CONTENT HERE %&gt;</strong> with your
+                    web page contents.
+                </p>
+                <br />
+                <p class="leadquote">
+                    Menu Auto Generation
+                </p>
+                <p>
+                  After the new UI is cut over, there is some new ideas come
+                  up. Since we use the include to avoid duplicate implementat,
+                  should we make a further steps for automatio?
+                  <br />
+                  So, professor and we talk about the possibility of generating
+                  the navigration bar menu that included into the web
+                  automatically so the new UI can be easily cut over to any
+                  other websites by simply providing customized menu content.
+                  After some discussion and test, we finally get this done
+                  functionally. With our script, users only need to provide a
+                  text file followed our sample input, a customized menu of
+                  navbar can be provided automatically.
+                  <br />
+                  Here is the <strong>sample input</strong>:<br>
+                  <strong>
+                  &nbsp;&nbsp;&nbsp;&nbsp;0^Object-Oriented Programming^^OOP^<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;1^Home^index.html^^glyphicon-home<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;1^Course Topics^<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;2^Introductory Material^<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;3^The Basics^basics.html^<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;3^Abstraction Mechanisms^abstraction_mech.html^<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;3^Containers and Algorithms^containers_algo.html^<br>
+                </strong>
+                  <br />
+                  Introduction to the sample input:<br>
+                  As you can see, each line stands for an entry in the
+                  navigation bar. ^ is the delimeter chosen to divide the
+                  five fields which would be necessary in each entity<br>
+                  The <strong>first</strong> field, the number, stands for the
+                  level. If larger number follows a smaller number, the item
+                  with the larger number line should be the subtitle in
+                  the item with smaller number line.<br>
+                  The <strong>second</strong> is the title field which would be
+                  the display title of the entry.<br>
+                  The <strong>third</strong>  filed is the URL field. Normally
+                  it is the filename or relative path of the target page.
+                  However if these menu is used in page files of different
+                  hierarchy, we recommend to use full URL on your server to
+                  ensure the menu's universality. Also entry with subtitles
+                  should not have a URL.<br>
+                  The <strong>fourth</strong>  field is the shortcut title which
+                  would be the display title of the entry when the navigation
+                  bar collapsed.<br>
+                  The <strong>fifth</strong> field is the glyphicon which
+                  is the icon before the title.<br>
+                  If a field and its following fields are not necessary, all of
+                  them and their delimiter can be dumped. But if a field is
+                  empty, you cann't jump directly to its next one which is not
+                  empty and must put a delimiter there. For example,
+                  "1^Home^index.html^^glyphicon-home", it doesn't have a url
+                  but need a glyphicon, there must be a field with nothing
+                  between URL and glyphicon.
+                  <br />
+                  After the menu is provided following above sample, a
+                  navigation bar text and all relative files would be created
+                  automatically. It gonna rise a new web structure quickly and
+                  save tons of time of duplicate work.
+                  <br />
+                  The script has been tested with the DevOps and OOPs files so
+                  far and it works well, and we will keep improve it to cover
+                  more corner cases and fault tolerance which give users better
+                  experience.
                 </p>
             </div>
         </div>

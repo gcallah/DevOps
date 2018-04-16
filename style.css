@@ -55,6 +55,10 @@ p {
     color: #000;
 }
 
+p.present {
+    font-size: 1.6em;
+}
+
 hr {
     margin: 2em 20em 2em 20em;
 }
@@ -66,7 +70,11 @@ blockquote {
 
 ol, ul, dl, li {
     margin: 1em 1.5em .4em 1.5em;
-    font-size: 1.1em;
+    font-size: 1.2em;
+}
+
+ul.present, ol.present {
+    font-size: 1.5em;
 }
 
 ol.contents, ul.contents, dl.contents, li.contents {
@@ -127,7 +135,8 @@ h1 {
 }
 
 h1.no-menu {
-    margin: 2em 0em 1em 0em;
+    margin: 1em 1em 1em 1em;
+    font-size: 2.3em;
 }
 
 h1#course-title {
@@ -176,6 +185,12 @@ h5 {
 summary.sum1 {
     font-size: 2em;
     color: #903;
+    margin: 1em 1.2em 1em 1.2em;
+}
+
+summary.sum1a {
+    font-size: 1.9em;
+    color: #814;
     margin: 1em 1.2em 1em 1.2em;
 }
 
@@ -262,6 +277,10 @@ figure {
 
 figure.lead-figure {
     margin: 0em 1em 1em 1em;
+}
+
+figure.top-fig {
+    margin: 2em 1em 0em 1em;
 }
 
 figcaption {
@@ -356,7 +375,7 @@ i, span {
 
 #sidebar.active {
     min-width: 80px;
-    max-width: 80px;
+    max-width: 150px;
     text-align: center;
 }
 
@@ -383,7 +402,7 @@ i, span {
 
 #sidebar.active ul ul a {
     padding: 1em 1em;
-    font-size: 0.8em;
+    font-size: 0.65em;
 }
 
 #sidebar.active a[aria-expanded="false"]::before, #sidebar.active a[aria-expanded="true"]::before {
@@ -397,7 +416,7 @@ i, span {
 
 #sidebar.active ul ul ul a {
     padding: 1em 1em;
-    font-size: 0.6em;
+    font-size: 0.45em;
 }
 
 #sidebar .sidebar-header {
@@ -412,7 +431,7 @@ i, span {
     font-size: 3.5em;
     text-align: center;
     padding-top: 0.6em;
-    padding-right: 0.8em;
+    padding-right: 0.4em;
 }
 
 #sidebar ul.components {
@@ -424,7 +443,7 @@ i, span {
     padding: 0.8em;
     text-align: left;
     color: #fff;
-    font-size: 1.4em;
+    font-size: 1.2em;
     display: block;
 }
 
@@ -446,7 +465,7 @@ i, span {
     padding-left: 3.0em;
     text-align: left;
     color: #fff;
-    font-size: 1.1em;
+    font-size: 0.8em;
     display: block;
 }
 
@@ -454,7 +473,7 @@ i, span {
     padding-left: 4.0em;
     text-align: left;
     color: #fff;
-    font-size: 0.8em;
+    font-size: 0.5em;
     display: block;
 }
 
@@ -495,6 +514,10 @@ a[aria-expanded="true"]::before {
 #carousel {
   width:80%;
   margin: 0 auto;
+}
+
+#searchbar {
+  margin-left:10px;
 }
 
 /*******
@@ -555,5 +578,10 @@ The Nav sidebar media effect
 
     #sidebarCollapse span {
         display: none;
+    }
+    #searchbar {
+      margin-left:10px;
+      min-width: 80px;
+      max-width: 80px;
     }
 }

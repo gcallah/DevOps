@@ -34,5 +34,48 @@
                 Infrastructure as code, introducing us to the principles with examples where they are necesary.
             </p>
         </details>
+
+        <details>
+            <summary class="sum2">
+              Chapter 2: Dynamic Infrastructure Platforms
+            </summary>
+            <p>
+                In this chapter the author talks about what dynamic infrastructure is and the different types of dynamic infrastructure platforms like Public Iaas, Community Iaas Cloud,
+                private Iaas and bare-metal cloud. Implementing dynamic infrastructure as per the company requirements is the heart of topic and the process you follow to achieve it marks
+                the essence of the topic. The chapter then explains the three important building blocks of Infrastructure platform: Compute, Storage and Networking and how the make up
+                cloud infrastructure. It also provides examples on how the different types of clouds : IaaS,PaaS and SaaS work. The chapter basically prepares the us on the theoretical
+                aspects of the dynamic infrastructure by case studies and examples and leads the path for implementation of it in the next chapter.
+            </p>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              Chapter 3: Infrastructure Definition Tools
+            </summary>
+            <p>
+                The chapter describes infrastructure tools(Eg: TerraForm, Cloud Formation etc.) for managing resources following the principles mentioned in the previous chapter.
+                Many automation tools do not follow the principles mentioned here but they get the work done in real world following these principles in one or the other way. The first
+                part of the chapter deals with Command Line Interface(CLI) Tools and how the tools could be configured and writen using the scripts and their interdependency.
+                According to the book the scripts should follow the properties of Idempotency, Pre-checks, Post-checks, Visible failure and parameterized and it discusses how
+                these properties make scripts more reliable. The next half of the chapter deals with using VCS tools to configure resources for a particular infrastructure and
+                handles cases such as configuring files, users etc. Overall it describes how resources could be carefully and successfully allocated so that they work perfectly
+                in the given enviroment.
+            </p>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              Chapter 4: Server Configuration Tools
+            </summary>
+            <p>
+                This chapter explains how different tools such as Puppet, Chef, Ansible and other tools are used to configure the server so that automation works in a new level
+                compared to using scripts. The author delineates the goals for Automated server management. He gives some insight on "Tools for creating servers",
+                "Tools for configuring servers", "Tools for packaging server templates", "Tools for running commands on Servers etc.". The tools such as Docker are being widely
+                used these days and are refereed to as containerization tools. In the last part of the book the author explains the advantages of using containerzation tools vs
+                virtual machines and discusses how to use them securely.  
+
+            </p>
+        </details>
+
     </body>
 </html>

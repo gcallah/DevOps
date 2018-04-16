@@ -160,7 +160,10 @@
                   <li><a href="https://gcallah.github.io/DevOps/TeamsTable.html">Our teams for Spring 2018</a></li>
                   <li><a href="https://gcallah.github.io/DevOps/books.html">DevOps reading list</a></li>
                   <li><a href="https://gcallah.github.io/DevOps/journals/index.html">Our DevOps journals</a></li>
-                  <li><a href="http://www.thedevopscourse.com/devops/">The Django site: the course will manage a cutover to here!</a></li>
+                  <li>
+                  <a href="http://www.thedevopscourse.com/quiz/">Our Django
+                  site: we are creating a quiz system here.</a>
+                  </li>
                 </ul>
               </li>
               <li>
@@ -186,11 +189,28 @@
 
                 <p>
                     
-                    We are responible for the security of the DevOps Project. We have used the best security industry practices and ensure every other team to be in compliance with that.
+
+We are responsible for the security of the DevOps Project. We have used the best security industry practices and ensure every other team to be in compliance with that.
 
 
-                     Initially, We started  understanding the system, its component and interactions between them. We spent a good amount of time to holistically analyse the system to find various threat vectors. Our focus was to build a robust and secure infrastructure and hence we scope the Web-application and Network infrastcture for our security testing.
+                     Initially, We started understanding the system, its component, and interactions between them. We spent a good amount of time to holistically analyze the system to find various threat vectors. Our focus was to build a robust and secure infrastructure and hence we scope the Web-application and Network infrastructure for our security testing.
 
+                     1. Web Application Penetration Testing:
+                           We configured ZAP on our local system which is the Web Application Vulnerability tool and pointed it to the Django. We ran an attack on the system to find any vulnerability. This tools produced a bunch of potential vulnerability which we shared with the development team along with mitigation technique to fix this.
+
+                     2. Network Penetration Testing:
+                          For performing Network based penetration testing we followed the standard approach which involves mainly six steps.
+
+                            a. Reconnaissance
+                            b. Scanning
+                            c. Vulnerability Detection
+                            d. Exploitation
+                            e. Post Exploitation
+                            f. Reporting
+
+                   In the ninth week, we completed the Reconnaissance phase which essentially is gathering information about the target. We built a profile of the system which includes gathering information about DNS record, Location, POC for this website and much more.
+
+                   We are currently in scanning phase where we are analyzing the network infrastructure, ports, and services for vulnerability.
 
 
                 </p>

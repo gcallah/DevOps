@@ -219,7 +219,9 @@
                 </ol>
                 <p>
                 After following the above steps, the website is deployed
-                on agent node and can be accessed as shown -
+                on agent node and can be accessed by clicking 
+                <a href="http://ec2-18-232-86-184.compute-1.amazonaws.com/"> 
+                here </a>. It should open the deployed website as shown -
                 <figure>
                     <img src="graphics/websiteup.png" style="width:604px;height:442px;">
                 </figure>
@@ -227,6 +229,25 @@
                 If there are any new commits made on git the website will
                 be continuously refreshed with the changes.
                 </p>
+                <details>
+                <summary class="sum2">
+                    Sources
+                </summary>
+                <ul>
+                <li><a href="https://rnelson0.com/2014/09/29/deploying-your-custom-application-with-puppet/">Deploying
+                custom application using puppet
+                </a>
+                </li>
+                <li><a href="https://computingforgeeks.com/working-with-puppet-4-on-rhel-7-and-centos-7/">Getting Started
+                and Working with Puppet 4 On RHEL 7 and CentOS 7
+                </a>
+                </li>
+                <li><a href="https://www.itzgeek.com/how-tos/linux/how-to-create-puppet-manifests-modules-on-centos-rhel.html">
+                How to Create Puppet Manifests
+                </a>
+                </li>
+                </ul>
+                </details>
             </div>
         </div>
 
