@@ -35,13 +35,17 @@
                      status. </li>
             </ul>
 
+            <h4> This will help us understand CI, CD and Jenkins easily.</h4>
+            <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vuzQy33mNRA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </center>
             <h4> Why Jenkins is better than Continuous Integration tools</h4>
             <ul>
-            	<li>Jenkins is widespread.</li>
-            	<li>It is interconnected very well with over a 1000 
-            	plug-ins that allow easy integration with development, 
-            	testing and deployment tools.
-            	</li>
+                <li>Jenkins is widespread.</li>
+                <li>It is interconnected very well with over a 1000 
+                plug-ins that allow easy integration with development, 
+                testing and deployment tools.
+                </li>
             </ul>
 
             <h4>Why Jenkins is good?</h4>
