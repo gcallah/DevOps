@@ -23,6 +23,10 @@
     <a href="https://blog.travis-ci.com/2018-01-25-what-is-ci-part-2">Testing
         and Continuous Integration Part 2 (Unit testing)</a>
             </p>
+            <h2> What is Software Testing?</h2>
+            <p>Definition: The process of Evaluation of a system and its 
+            components with the intent of validating against specified 
+            requirements</p>
 
             <h2>
                The Importance of Testing
