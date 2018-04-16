@@ -28,6 +28,9 @@
                 components with the intent of validating against specific
                 requirements</p>
 
+            <h2>Software Testing Life Cycle.</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HylDB3bN6hQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
             <h2>When to start testing?</h2>
                 <ul>
                     <li> Cost and rework is reduced when testing starts early in
