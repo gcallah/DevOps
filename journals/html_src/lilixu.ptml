@@ -40,13 +40,24 @@
                  <h4>Week 3</h4>
                  <p>
                    We had a discussion with professor to have the basic
-                   datebase design diagram and application structure.
+                   datebase design diagram and application structure. We also
+                   plan to use django to implemnet our web server.
                  </p>
+
+                 <figure>
+                     <img
+                     src="https://www.vizteams.com/wp-content/uploads/2014/04/django.png">
+                     <figcaption>
+                         Django
+                     </figcaption>
+                 </figure>
 
                  <h4> Week 4</h4>
                  <p> We had a prelimary study of Django's design scope and
                    organizing structure, and start a basic demo by following
                    the official turtorial.
+                   <a href='https://docs.djangoproject.com/en/2.0/misc/design-philosophies/'>
+                     Django Design philosophies</a>
                  </p>
 
                  <h4> Week 5 </h4>
