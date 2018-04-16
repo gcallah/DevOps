@@ -28,6 +28,16 @@
             components with the intent of validating against specified 
             requirements</p>
 
+            <h2>When to start testing?</h2>
+            <ul>
+                <li> Cost and rework is reduced when testing starts early in
+                the developement phase.</li>
+                <li> Testing can start from the requirement gathering phase to
+                the deployment phase.</li>
+                <li> Testing takes many forms and depends on the software 
+                development model.</li>
+            </ul>
+
             <h2>
                The Importance of Testing
             </h2>
