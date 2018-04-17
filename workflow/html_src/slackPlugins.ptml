@@ -80,6 +80,29 @@
                         is making over the long run, too.
                       </p>
                     </li>
+
+                    <li>
+                      <p>
+                        Google+ Hangout
+                      </p>
+
+                      <figure>
+                          <img width="640" height="360" src="multimedia/HANGOUTS.jpg">
+                          <figcaption>
+                              Hangout
+                          </figcaption>
+                      </figure>
+
+                      <p>
+                        Here's another great Slack integration for those times when you 
+                        want to take a conversation face-to-face on a video conference call 
+                        with a team member who isn't in your office. To do so, 
+                        simply type /hangout to launch a Google+ Hangout in a new window:
+                        <img src="multimedia/Hangout.png"><br>
+                        That command will provide you with a link that you can use to 
+                        quickly hop on a video call. 
+                      </p>
+                    </li>
                 </ul>
           </div>
         </div>
