@@ -68,5 +68,9 @@
             <b>Week 9 :</b><br/>
             This week we added functionality in the spell checker tool to use regular expressions and skip any words containing characters other than alphabets or hyphen.
         </p>
+        <p>
+            <b>Week 10 :</b><br/>
+            This week we added functionality to skip all the content inside code tags in the spell checker tool.
+        </p>
     </body>
 </html>
