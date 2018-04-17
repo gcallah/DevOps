@@ -23,7 +23,57 @@
         <p>
             Helpful links: 
             <a href="https://www.ruggedsoftware.org/wp-content/uploads/2013/11/Rugged-Handbook-v7.pdf"> Rugged Handbook (Strawman) v7 (pdf)</a>
+            <br/>
             <a href="https://www.ruggedsoftware.org/wp-content/uploads/2013/11/Rugged-Implementation-Guide-v4.pdf">Rugged Implementation Guide v4 (pdf)</a>
         </p>
+
+        <h4>Introduction</h4>
+
+        <p>
+            "Rugged" is a frame of mind which is used by organizations to 
+            create stable and secure code that anticipates future threats 
+            and vulnerabilites. By staying ahead of threats in time, a rugged 
+            mindset reduces cost and increases savings for the organization in 
+            the long run. Rugged organizations produce rugged applications 
+            that is easily maintainable, understandable, and secure. These 
+            applications can self analyze, detect attacks, and also respond to 
+            events according to their severity.
+        </p>
+
+        <p>
+            Software plays an important role in our day to day lives, such 
+            as monitor our health, our finances and so on. With the increases 
+            reliance on software, it becomes even more paramont that these 
+            softwares and applications can take a hit and survive without 
+            causing damages to humans. Compared to nature, which incorporates 
+            ruggedness, human developed objects are quite fragile. The book 
+            provides several examples taken from nature which can be used by 
+            software engineering organizations to structure their teams and 
+            give rugged output.
+        </p>
+
+        <h4>Getting Rugged</h4>
+
+        <h4>Telling the Security Story</h4>
+
+        <h4>Rugged Roles</h4>
+
+        <h5>The Rugged Executive</h5>
+        <h5>The Rugged Security Analyst</h5>
+        <h5>The Rugged Architect</h5>
+        <h5>The Rugged Project Manager</h5>
+        <h5>The Rugged Developer</h5>
+        <h5>The Rugged Tester</h5>
+
+        <h4>Getting started with Rugged</h4>
+
+        <h4>Proving that you are Rugged</h4>
+
+        <h4>Supporting Tools and Technology</h4>
+
+        <h4>How Rugged fits</h4>
+
+        <h4>Case Studies</h4>
+
     </body>
 </html>
