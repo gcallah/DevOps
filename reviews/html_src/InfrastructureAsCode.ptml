@@ -72,8 +72,21 @@
                 compared to using scripts. The author delineates the goals for Automated server management. He gives some insight on "Tools for creating servers",
                 "Tools for configuring servers", "Tools for packaging server templates", "Tools for running commands on Servers etc.". The tools such as Docker are being widely
                 used these days and are refereed to as containerization tools. In the last part of the book the author explains the advantages of using containerzation tools vs
-                virtual machines and discusses how to use them securely.  
+                virtual machines and discusses how to use them securely.
 
+            </p>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              Chapter 5: General Infrastructure Services
+            </summary>
+            <p>
+              Until now, the author has described about configuring, provisioning of infrastructure resources but in real world scenario the infrastructure needs number of other
+              tools to support it and this chapter delineates general set of such tools.
+              The preference of such tools is based on factors such as external configuration, how dynamic the tools are and how easy it to obtain cloud-compatible license.
+              Sharing a service across the team or company is one of the important factors and author substantiates this with an example here. He then discusses about the
+              Monitoring and what goals should it achieve, importance of Logging, deployment and packaging of the software etc.
             </p>
         </details>
 
