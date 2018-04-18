@@ -87,7 +87,7 @@ started failing as they were written according to
 previous versions.
 
 <br>
-<br>
+
 Here we see a classic example of lack of a 
 ticketing system as well as absence of change 
 authorization system!
@@ -99,11 +99,9 @@ deployed a tokenization application that affected
 timekeeping and caused payroll failure.
 
 </p>
-
-<br>
-<br>
+<p>
 <h3>
-	Chapter 4:
+    Chapter 4:
 </h3>
 
 The project management meeting discusses important aspects 
@@ -112,9 +110,26 @@ even after spending $20million. There are disagreements about
 deploying the project which is still unstable, doesnt have 
 good  documentation. we also see a lack of change management 
 process in the team.
+</p>
 
-<br>
-<br>
+
+<!-- add chapter 5 here -->
+
+<p>
+<h3>
+    Chapter 6:
+</h3>
+
+The change management tool in the team is not efficient 
+leading to either clashes or delayed changes. Hence the 
+team start to implement a sort of physical Kanban board 
+on the whiteboard itself using paper cards. There is also 
+a good discussion and definition to ‘what is change’-in 
+short they conclude that change is any activity that impacts 
+delivery of service.
+
+</p>
+
 
 </div>
 </div>
