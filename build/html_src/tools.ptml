@@ -181,6 +181,9 @@
                 can provide continuous Integration and 
                 reports based on the analyzis of the code.
 
+                SonarQube is known for the integration of the various 
+                technologies to analyze the code in a single version.
+
             </p>
         </details>
 

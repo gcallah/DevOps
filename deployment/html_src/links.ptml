@@ -40,6 +40,11 @@
                             DeployHub
                         </a>
                     </li>
+                    <li>
+                         <a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/">
+                             Online easy hands-on with Kubernetes cluster and application deployment
+                         </a>
+                    </li>
                 </ul>
 
             </div>

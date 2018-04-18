@@ -75,13 +75,21 @@
                         on a server.
                 </li>
                 <li>
-                     <a href="https://wiki.sei.cmu.edu/confluence/display/seccode/Top+10+Secure+Coding+Practices">
+                     <a href="https://wiki.sei.cmu.edu/confluence/display/seccode/Top+10+Secure+Coding+Practices">Devops: Secure Coding Practice
                      </a>
                      <br/>
                          Secure coding is the practice of writing programs that are resistant to attack by malicious or mischievous people or programs.
                          Secure coding helps protect a user’s data from theft or corruption. In addition, an insecure program can provide access for an
                          attacker to take control of a server or a user’s computer, resulting in anything from a denial of service to a single user to
                          the compromise of secrets, loss of service, or damage to the systems of thousands of users.
+                </li>
+                <li>
+                     <a href="https://techbeacon.com/getting-devsecops-5-best-practices-integrating-security-your-devops">Devops: 5 best practices for integrating security into your DevOps
+                     </a>
+                     <br/>
+                        These five best practice can help to integrate security features in SDLC within DevOps practice.
+                        It entails fast and efficient way to cultivate security and has an edge over traditional way of
+                        implementing security. 
                 </li>
             </ul>
             </div>

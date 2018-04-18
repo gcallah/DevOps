@@ -90,19 +90,6 @@
                 <li> Supports more than a dozen languages </li>
                 <li> Excellent user website interaction </li>
 
-                <p>
-                    <b> We have chosen Jenkins as our continuous integration tool
-                    because:
-                    <br />
-                    a) It gives various options to customize
-                    <br />
-                    b) It is windows compatible
-                        (Many students in the class use the windows platform)
-                    <br />
-                    c) Amazing amounts of resources and a great community
-                    </b>
-                 </p>
-
 
                 <li>
                     <a href="https://www.gocd.org">
@@ -117,7 +104,18 @@
                 </li>
 
             </ul>
-
+            <p>
+                <b> We have chosen Jenkins as our continuous integration tool
+                    because:
+                <br />
+                a) It gives various options to customize
+                <br />
+                b) It is windows compatible
+                (Many students in the class use the windows platform)
+                <br />
+                c) Amazing amounts of resources and a great community
+                </b>
+            </p>
             </div>
         </div>
 
