@@ -69,9 +69,9 @@
                 identify the problems precisely.
               </p>
               <p>
-                One of the principles is business people and developers must work
-                together daily. The communication is of great importance in
-                devops, as listed above, the requirments are changing and
+                One of the principles is business people and developers must
+                work together daily. The communication is of great importance
+                in devops, as listed above, the requirments are changing and
                 highest pirority is for customer, working together helps the
                 developers quickly notice the requirment change and react.
               </p>
@@ -86,15 +86,24 @@
                 the understanding.
               </p>
               <p>
+                As said in above, in order to show the progress, the quick
+                delivery of the working software helps. The shorter timescale
+                informs others the progress and improves the communication.
+                It also reduces the work of detailed documentation because some
+                work are self-explaining, which is more smoothly than the
+                detailed documentation.
+              </p>
+              <p>
                 The third key value of the Agile Manifesto is to focus on
                 collaboration between development team and customer, instead of
                 emphasizing negotiation. Collaboration will produce more
-                valuable product since the customer is involved to provide helpful
-                feedbacks to increase values of the product during the sprint 
-                review. In addition, technologies and customer's needs are rapidly
-                changing, hence it's hard to determine all the details of the 
-                product at the very beginning. By collaborating, the development 
-                team can integrate needed changes with existing product smoothly.             
+                valuable product since the customer is involved to provide
+                helpful feedbacks to increase values of the product during the
+                sprint review. In addition, technologies and customer's needs
+                are rapidly changing, hence it's hard to determine all the
+                details of the product at the very beginning. By collaborating,
+                the development team can integrate needed changes with existing
+                product smoothly.
               </p>
             </div>
         </div>

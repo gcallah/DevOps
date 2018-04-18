@@ -25,6 +25,35 @@
                 </p>
 
                 <p>
+                Pulling Ubuntu image
+                Install Alpine Image
+                Apk- to install python 3,
+                Alpine-sdk to give us awk, make and git
+                Make local command tested
+
+               
+                </p>
+
+                <p>
+                WhoamI can be run inside the container and outside the
+                container and we can get two different results
+                Same thing for Hostname, does not give us the same hostname                 numbers 
+
+                370+ processes being run 
+                only 2 are running inside the container- bash and ps -ef
+
+                There is 8 Docker processes running even for docker.
+                From the point of view of the host, the container looks just
+                like a process but ...
+
+                process namespace, network namespace, etc all hidden from
+
+                Has its own file namespace.
+
+                </p>
+                
+                <p>
+                
                 </p>
 
             </div>

@@ -1,4 +1,4 @@
-# Need to export as ENV var
+# Need to export the next two as ENV vars
 export TEMPLATE_DIR = templates
 export QUIZ_DIR = quizzes
 PTML_DIR = html_src
