@@ -159,7 +159,7 @@
                 </p>
         </details>
 
-        <hr>
+       
 
         <details>
             <summary class="sum2">
@@ -169,7 +169,8 @@
                 What is SonarQube?
                 <br>
                 <br>
-                SonarQube is open source tool written in Java that helps to analyze the quality of the source code.
+                SonarQube is open source tool written in Java that helps 
+                to analyze the quality of the source code.
                 It has the ability to analyze the source code
                 in 20+ language.
 
@@ -186,6 +187,8 @@
 
             </p>
         </details>
+        
+        <hr>
 
         <p>
         Sources:
