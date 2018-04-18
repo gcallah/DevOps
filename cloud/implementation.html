@@ -438,7 +438,41 @@
             </div>
                   
               </details>
+				 <details>
+                  <summary class="sum2">
+                   Plagirism Implementation
+                  </summary>
+                   <div id="content">
+                <h1>
+                    Plagiarism Implementation
+                </h1>
+        
+                <p>To implement plagiarism detection, We used AWS Lambda to host a plagiarism detection script coded in python. This Lambda function is then used to create API gateway which will be used by coding team to send a document for plagiarism detection.</p>
+                <br />
+                <br />
+                </p>
+                 <br />
+                 <br />   
+				<p>Following Algorithm is used in the coding of script.
+				<ul>
+					<li>The script divides the document into n words subtrings. </li><br/>
+					<li>Each substring are sent to FAROO Web Search API as a query.</li><br/>
+					<li>Plagiarism is checked into returned result from Faroo.</li><br/>
+					<li>The final plagiarism % is calculated using the formula - </li><br/>
+					<li><code>(no of plagiarized subs/ total no of subs)*100</code></li>
+					<li>The final script is hosted <a href="https://github.com/aditkumar1/PlagiarismCheck">here</a></li>
+				</ul>
+				</p>
+				<p>Following steps are involved in our implementation of script On AWS.
+				<ul>
+					<li>Implementation here </li><br/>
+				</ul>
+				</p>
             </div>
+                  
+              </details>
+            
+			</div>
         </div>
     </body>
 </html>

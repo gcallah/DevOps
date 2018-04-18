@@ -54,12 +54,22 @@
         Chapter 2: Monitoring, Metrics and Measurement
       </summary>
       <p>
-      This chapter proposes an architecture for a monitoring framework. 
-      This new architecture is based on "whitebox" or push based monitoring 
+      This chapter proposes an architecture for a monitoring framework.
+      It also discusses the faults of traditional monitoring frameworks 
+      and compared the new architecture with it. 
+      The new architecture is based on "whitebox" or push based monitoring 
       rather than a "blackbox" or pull based monitoring. In a white box or 
       push based monitoring the components being monitored are queried. But 
       in a "blackbox" or pull based monitoring the components being monitored
-      send their data to a central collector.
+      send their data to a central collector. This kind of architecture
+      is centered around collecting events,log and metrics. Metrics are 
+      properties of hardware and software. They are usually collected
+      with as a value that occurred at a time stamp. These metrics can be
+      transformed mathematically using sum, count, average, percentiles etc.
+      If we have multiple sources, we may want to show aggregated result of
+      the metrics across all the sources. 
+      A good visualization of data provides powerful analytics. It should
+      clearly show the data without distorting it. 
       </p>
 
   </details>
