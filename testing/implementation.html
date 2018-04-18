@@ -186,45 +186,78 @@
             <h1>
                 Our Testing Implementation
             </h1>
+            
+            <h4>Installation</h4>
+            <p> We have decided to move forward with Jenkins for our CI pipeline.
+            For this we need to host Jenkins on an AWS EC2 instance 
+            and then connect it to the DevOps Github Repository </p>
+            <h4>Installing Jenkins on AWS</h4>
+                <ul class="nested">
+                  <li>
+                      <b> Step 1: Creating an AWS EC2 instance</b> 
+                      </br>
+                        Create an EC2 instance on the AWS 
+                        account by 
+                        following the routine steps, one thing to keep 
+                        in mind is while associating security 
+                        group to this EC2 instance
+                        make sure the port 8080 is open to the world and 
+                        download the secret key.
+                  </li>
+                  <li>
+                      <b> Step 2: SSH into the AWS machine</b> </br>
+                      Next step is to SSH into the AWS machine using the 
+                      credentials downloaded in the previous step.
+                  </li>
+                  <li>
+                      <b> Step 3: Configuring and starting Jenkins</b> </br>
+                      Follow the steps in the link to configure and 
+                      start jenkins <a href="https://github.com/carlosCharz/installjenkinsaws" > Configure and Start Jenkins </a>
+                  </li>
+                  <li>
+                      <b> Step 4: Initial Jenkins setup </b> </br>
+                      After following the previous steps, you need to go 
+                      the url which is your public dns of your EC2 
+                      instance:8080(E.g. http://ec2-aws.compute:8080) and follow
+                      the steps displayed on the website. After these steps you
+                      should be able to see the jenkins server up and running.
+                  </li>
+                </ul>
 
-            <p>
-                <h3>We have decided to move forward with Jenkins for our CI pipeline.</h3>
-                <h3>Installation</h3>
-                Applications like Jenkins can be downloaded as read-only "images" (or Docker images), each of which is run in Docker as a container. Since we have already downloaded docker in first class, understanding this installation of Jenkins shall be easier.<br>
-
-                <a href="https://jenkins.io/doc/book/installing/">Jenkins</a> recommends using  <a href="https://hub.docker.com/r/jenkinsci/blueocean/">jenkinsci/blueocean</a> image (from the Docker Hub repository).
-
-                This image is for Jenkins LTS and comes bundled with all Blue Ocean plugins so they don't have to be downloaded separately.
-                <br>
-                Details for downloading Jenkins Docker Image MacOS/linux/Windows can be found <a href="https://jenkins.io/doc/book/installing/">here</a>
-            </p>
-
-                <br>
-                <h3>Here's another simpler way of Trigerring a Jenkins build from a push to Github.</h3>
-                <p> One of the reasons to choose Jenkins was the availability of many plugins. <br>
+            <h4>Here's a way of Trigerring a Jenkins 
+            build from a push to Github.</h4>
+                <p> A reason to choose Jenkins was the 
+                availability of many plugins.
                 One such plugin is the <a href="https://wiki.jenkins.io/display/JENKINS/GitHub+Integration+Plugin">Github Integration Plugin</a>
                </p>
 
-                <ul>
+                <ul class="nested">
                     <li>
                     <b>Step 1: Install Github Integration Plugin</b><br>
-                    It can be accessed through Plugin Manager under 'available' tab or simply through search box.
+                    It can be accessed through Plugin Manager under 
+                    'available' tab or simply through search box.
                     After checking against the plugin, click on 'Download Now'.
                     </li>
 
                     <li>
                     <b> Step 2: Prepare Github Repository</b><br>
-                    We now need to add service to call Jenkins Github webhook on a push.
-                    Inside the github repo, go to Settings - Integrations & Services - Add service <br>
-                    Select Jenkins(Github Integration) from drop-down menu.
-                    In the new window, enter "Jenkins Hook URL+ "/github-webhook/"
+                    We now need to add service to call Jenkins Github 
+                    webhook on a push.
+                    Inside the github repo, go to Settings - Integrations 
+                    & Services - Add service <br>
+                    Select Jenkins(Github Integration) from 
+                    drop-down menu.
+                    In the new window, enter 
+                    "Jenkins Hook URL+ "/github-webhook/"
                     e.g. http://ci.jenkins-ci.org/github-webhook/ <br>
                     Click on "test service"
                     </li>
 
                     <li>
-                    <b>Step 3: Give repo access to Jenkins User</b><br>
-                    This is a very important step. There are several ways to do so.<br>
+                    <b>Step 3: Give repo access to Jenkins 
+                    User</b><br>
+                    This is a very important step. There are 
+                    several ways to do so.<br>
                     1. use github OAuth plugin. <br>
                     2. Store plain-text user/password combo on Github
                     <br>
@@ -232,27 +265,7 @@
                     </li>
                 </ul>
 
-                <h3>Installing Jenkins on AWS</h3>
-                <ul>
-                  <li>
-                      <b> Step 1: Creating an AWS EC2 instance</b> </br>
-                        Create an EC2 instance on the AWS account by following the routine steps, one thing to keep in mind is while associating security group to this EC2 instance
-                        make sure the port 8080 is open to the world and download the secret key.
-                  </li>
-                  <li>
-                      <b> Step 2: SSH into the AWS machine</b> </br>
-                      Next step is to SSH into the AWS machine using the credentials downloaded in the previous step.
-                  </li>
-                  <li>
-                      <b> Step 3: Configuring and starting Jenkins</b> </br>
-                      Follow the steps in the link to configure and start jenkins <a href="https://github.com/carlosCharz/installjenkinsaws" > Configure and Start Jenkins </a>
-                  </li>
-                  <li>
-                      <b> Step 4: Initial Jenkins setup </b> </br>
-                      After following the previous steps, you need to go the url which is your public dns of your EC2 instance:8080(Ex: http://ec2-aws.compute:8080) and follow
-                      the steps displayed on the website. After these steps you should be able to see the jenkins server up and running.
-                  </li>
-                </ul>
+            
 
 
           </div>

@@ -535,7 +535,52 @@
                           takes the form of either a withdrawal kanban or a
                           production kanban, and must be collected just after
                           its use. <br>
-
+                          Job-Order Kanban <br>
+                          While all the aforementioned kanban will be applied
+                          to the line of recurrently produced products, a
+                          job-order kanban is prepared for a job-order
+                          production line and is issued for each job order.<br>
+                          Through Kanban <br>
+                          If two or more processes are so closely connected
+                          with each other that they can be seen as a single
+                          process, there is no need to exchange Kanban between
+                          these adjacent processes. In such a case, a common
+                          Kanban sheet is used by these multiple processes.
+                          Such a kanban is called a through kanban (or tunnel
+                          kanban), and is similar to the “through ticket” used
+                          between two adjacent railways. <br>
+                          Common Kanban <br>
+                          A withdrawal kanban can also be used as a
+                          production-ordering Kanban if the distance between
+                          two processes is very short and one supervisor is
+                          supervising both processes.  The carrier of the
+                          subsequent process will bring the empty boxes and
+                          the common kanban to the store of the preceding
+                          process. Then, he will bring the kanban to the
+                          kanban receiving post, and withdraw as many boxes
+                          as the number of kanban brought. However, he need
+                          not exchange kanban at the store. <br>
+                          Cart or Truck as a Kanban <br>
+                          Kanban is often very effective when used in
+                          combination with a cart. In the Honsha plant of
+                          Toyota, in order for the final assembly line to
+                          withdraw large unit parts such as engines or
+                          transmissions, a cart is used which can load only a
+                          limited quantity.  In this case, the cart itself
+                          also plays a role as a kanban. <br>
+                          Label <br>
+                          A chain conveyor is often used to convey the parts
+                          to the assembly line by hanging the parts on hangers.
+                           A label specifying which parts, how many and when
+                          the parts will be hung is attached to each hanger
+                          with a smoothed interval. In this case, a label is
+                          used as a kind of kanban, though not actually called
+                          kanban, to instruct the worker putting various parts
+                          on the hanger from the parts store or the worker
+                          assembling various parts at the subassembly line.
+                          As a result, the subassembly process can produce
+                          only the parts required. A hanger with a label is
+                          called a reserved seat at Toyota. <br>
                         </p>
                     </details>
                 </details>

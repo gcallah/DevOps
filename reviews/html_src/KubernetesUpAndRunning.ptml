@@ -19,6 +19,44 @@
                     <br>
                     Reviewers: Ravish Bhatia, Sneha Ghosh
                 </p>
+                <p>
+                </p>
+                <details>
+                <summary class="sum2">
+                    Chapter 1: Introduction
+                </summary>
+                <p>
+                This chapter provides a quick introduction to Kubernetes with 
+                its several benefits. Kubernetes is an open source tool for 
+                deploying containerized applications and can be used to deploy 
+                scalable, reliable distributed systems. It provides benefits 
+                like velocity, scaling, abstraction of infrastructure and 
+                efficiency. The authors also describe how these benefits are 
+                easily achieved by using Kubernetes for deployment.
+                </p>
+                </details>
+                <details>
+                <summary class="sum2">
+                    Chapter 2: Creating and Running Containers
+                </summary>
+                <p>
+                This chapter starts by discussing the problems that occur in
+                distributed system such as applications having dependency on
+                shared library or any dependency on asset files which causes
+                failures or complexities when deployed in production. Then the
+                solution for these problems are discussed which involve using 
+                container immutable images for deploying the application. 
+                Docker is the most popular container image that can package an 
+                application and is supported by Kubernetes. The authors then 
+                discuss how to package an application into Docker image, 
+                security related considerations to keep in mind while building
+                images and how to optimize image sizes. The authors recommend
+                storing images in remote repository and describe its benefits.
+                Then they discuss how to start running the application using
+                docker image, how to limit resource utilization while running
+                and in the end how to clean up docker images.
+                </p>
+                </details>
             </div>
         </div>
     </body>

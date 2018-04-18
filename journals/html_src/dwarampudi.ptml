@@ -139,6 +139,16 @@
                        list. <br>
                        Started Reviewing Chapter 4 and 5 of my review book <br>
                     </li>
+                    <li>
+                      <strong>Week 9 (Apr 12th - Apr 19th): </strong> <br>
+                      Refactored the trelloapi_feature1.py and
+                      trelloapi_feature2.py code completely. <br>
+                      Set up a new webpage detailing use of trello api <br>
+                      Link:
+                      <a href="https://gcallah.github.io/utils/trelloapi.html">
+                        Trello Custom Notifications using Trello API
+                      </a>
+                    </li>
                 </ul>
             </div>
         </div>

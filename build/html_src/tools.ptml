@@ -161,6 +161,32 @@
 
         <hr>
 
+        <details>
+            <summary class="sum2">
+                SonarQube
+            </summary>
+            <p>
+                What is SonarQube?
+                <br>
+                <br>
+                SonarQube is open source tool written in Java that helps to analyze the quality of the source code.
+                It has the ability to analyze the source code
+                in 20+ language.
+
+                Code analysis step can be used manually by executing 
+                sonar runner but however the best use of SonarQube
+                is during the build process.
+
+                If SonarQube integrated with Jenkins server it 
+                can provide continuous Integration and 
+                reports based on the analyzis of the code.
+
+                SonarQube is known for the integration of the various 
+                technologies to analyze the code in a single version.
+
+            </p>
+        </details>
+
         <p>
         Sources:
         <a href="http://pybuilder.github.io/"> PyBuild </a>
