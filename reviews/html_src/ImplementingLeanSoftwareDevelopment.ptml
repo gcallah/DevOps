@@ -20,16 +20,17 @@
                 <br>
                 Reviewers: Chaoqun Huang, Qiwei Zhou
             </p>
-
-            <p>
-                This book is mainly about the Poppendiecks' unparalleled experience helping
-                development organizations optimize the entire software value stream.
-            </p>
-
-            <p>
-                This book uses Toyota and its "make it when need it" idea to illustrate the 
-                modern ways of developing softwares.
-            </p>
+            <details>
+                <summary class="sum2">
+                  Introduction
+                </summary>
+                <p>
+                    This book is mainly about the Poppendiecks' unparalleled experience helping
+                    development organizations optimize the entire software value stream.
+                    This book uses Toyota and its "make it when need it" idea to illustrate the
+                    modern ways of developing softwares.
+                </p>
+            </details>
             <details>
                 <summary class="sum2">
                   Chapter 1: History
@@ -37,7 +38,7 @@
                 <p>
                   The book starts with historical stories about Toyota Production System which, according to the designer Taiichi Ohno, was designed to eliminate waster abosulutely. One of the writer was working in a cassette plant when Japanese competitors entered the market with a much lower price. She described her experience about how she adopted the idea as an example of how lean production works before the term was invented.
                   According to the writer, the key to a successful lean production is to put the Just-in-Time flow and stop-the-line together. Next, She talked about lean supply chain, lean product development and finally, lean software development.
-                  This chapter gives an insightful view about how the term 'lean' was introduced and how it is gradually accepted into the modern enterprises. There are plenty of stories and facts cited in this chapter. The way the author organizes the contents is brilliant and inspiring. 
+                  This chapter gives an insightful view about how the term 'lean' was introduced and how it is gradually accepted into the modern enterprises. There are plenty of stories and facts cited in this chapter. The way the author organizes the contents is brilliant and inspiring.
                 </p>
             </details>
             <details>
@@ -64,7 +65,7 @@
                       Deliver Fast: Because if you deliver fast, your customers don't have the time to change their requirements. You can also receive more feedback from them.
                     </li>
                     <li>
-                      Respect People: There is no process that cannot be improved. 
+                      Respect People: There is no process that cannot be improved.
                     </li>
                     <li>
                       Optimize the Whole: Make measurements on high-level instead of low-level
