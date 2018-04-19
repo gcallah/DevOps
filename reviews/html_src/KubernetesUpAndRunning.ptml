@@ -74,6 +74,28 @@
                 Kubernetes UI and their role within the cluster is discussed. 
                 </p>
                 </details>
+                <details>
+                <summary class="sum2">
+                    Chapter 4: Common kubectl Commands
+                </summary>
+                <p>
+                In this chapter, the authors dive into one of the command 
+                line utilities of Kubernetes called, 'kubectl' which is 
+                basically responsible for creating objects and interacting
+                with kubernetes APIs. Then they briefly talk about namespaces
+                for the organization of objects in a cluster, and to 
+                permanently store the naming schema in the config file, 
+                'context' is used. One of the important utility of kubectl 
+                apart from the creation of API objects is viewing them. 
+                Kubectl also enables users to create update and delete the 
+                kubernetes objects. Also, it enables the commands for 
+                debugging of the container and can execute the logs. 
+                The authors have discussed the annotations and labels of 
+                the objects as well, which has been discussed in details 
+                in Chapter 6. 
+                </p>
+                </details>
+
             </div>
         </div>
     </body>
