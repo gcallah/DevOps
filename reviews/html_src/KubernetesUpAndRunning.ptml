@@ -100,7 +100,22 @@
                     Chapter 5: Pods
                 </summary>
                 <p>
-                pods....... 
+                The authors explain the core concept of Kubernetes called 
+                'Pods', which are considered as the smallest deployable 
+                unit in a kubernetes environment. It is a collection of 
+                multiple containers and volumes in a same execution 
+                environment. They explain the behavior of how application 
+                containers in the same pod will be different from containers 
+                in different pods to clarify the network understanding of the 
+                pods. Authors also exemplified the issues when two different 
+                applications are scaled with the same strategy within a pod, 
+                and how it could defeat the purpose of containers. To define 
+                a pod, users have to define the kubernetes API object details 
+                in a pod manifestation, which aligns with the declarative 
+                configuration principle. The authors further define 
+                technicalities and provide details in creating, running and 
+                listing of pods. To summarize the concept, authors also 
+                mention the multiple ways of using volumes with Pods. 
                 </p>
                 </details>
                 <details>
