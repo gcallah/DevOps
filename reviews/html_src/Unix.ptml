@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
         <title>
             The Unix Programming Environment
         </title>
@@ -10,7 +9,10 @@
     </head>
 
     <body>
-<!--include menu.txt -->
+        <div class="wrapper">
+        <!--include navbar.txt -->
+        <div id="content">
+        <!--include menu.txt -->
         <h1>
             The Unix Programming Environment
         </h1>
@@ -144,10 +146,18 @@
         </p>
 
         <h4>Chapter 4: Filters</h4>
+        <p>
+           This chapter dives into various filters in unix to perform,
+           <b>input (stdin) ===&gt processing (pattern) ===&gt output (stdout)</b>
+           operations based on categories of data tranformation filters vs
+           programmable filters.
+        </p>
         <h4>Chapter 5: Shell Programming</h4>
         <h4>Chapter 6: Programming with Standard I/O</h4>
         <h4>Chapter 7: UNIX System Calls</h4>
         <h4>Chapter 8: Program Development</h4>
         <h4>Chapter 9: Document Preparation</h4>
+    </div>
+    </div> 
     </body>
 </html>
