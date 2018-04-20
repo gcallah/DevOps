@@ -26,12 +26,14 @@
                       <b> Step 1: Creating an AWS EC2 instance</b> 
                       </br>
                         Create an EC2 instance on the AWS 
-                        account by 
-                        following the routine steps, one thing to keep 
+                        account. Use a free tier eligible, 
+                        Ubuntu server that comes with 
+                        pre-installed Python 3.6<br> 
+                        One thing to keep 
                         in mind is while associating security 
                         group to this EC2 instance
                         make sure the port 8080 is open to the world and 
-                        download the secret key.
+                        download the secret key. 
                   </li>
                   <li>
                       <b> Step 2: SSH into the AWS machine</b> </br>
@@ -39,18 +41,16 @@
                       credentials downloaded in the previous step.
                   </li>
                   <li>
-                      <b> Step 3: Configuring and starting Jenkins</b> </br>
-                      Follow the steps in the link to configure and 
-                      start jenkins <a href="https://github.com/carlosCharz/installjenkinsaws" > Configure and Start Jenkins </a>
+                      <b> Step 3: Installing Jenkins</b> </br>
+                      Follow the steps in the link to install jenkins <a href="https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Ubuntu" > Install Jenkins </a><br>
+                      To start the Jenkins service : "sudo service jenkins start"
                   </li>
                   <li>
                       <b> Step 4: Initial Jenkins setup </b> </br>
                       After following the previous steps, you need to go 
                       the url which is your public dns of your EC2 
                       instance:8080(E.g. http://ec2-aws.compute:8080) 
-                      and follow
-                      the steps displayed on the website. After these steps you
-                      should be able to see the jenkins server up and running.
+                      You should be able to see the jenkins server up and running.
                   </li>
                 </ul>
 
@@ -94,8 +94,8 @@
                     To be further discussed..
                     </li>
                 </ul>
-
-            
+               <!-- add webhook related steps -->
+               <!-- add slack integration steps and video link -->
 
 
           </div>
