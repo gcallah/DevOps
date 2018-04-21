@@ -322,7 +322,12 @@
                     Chapter 8: Diffs
                 </summary>
                 <p>
-                
+                A diff refers to a brief summary of the differences between two 
+                objects. For example, if we consider two text files, diff will 
+                compare them line by line and show the deviations. While diff 
+                shows the differences, it shows no reason for justifying the 
+                changes. However, it doess offer a formal description on how 
+                one file can be transformed into another.
                 </p>
             </details>
             <details>
@@ -330,7 +335,22 @@
                     Chapter 9: Merges
                 </summary>
                 <p>
-                
+                Git is a Distributed Version Control System, and thus allows 
+                developers in different cities or even countries to work 
+                independently and commit their respective changes. It also 
+                permits them to merge their work whenever needed without the 
+                need of a central repository. A merge unifies multiple commit 
+                history branches. This merge must occur within a single 
+                repository. When there are no conflicts between the modifications 
+                in different branches, Git creates a merge result and a new commit 
+                representing the merge is created. However, when there is a conflict 
+                in the modifciations, Git does not resolve the issue. Rather, it 
+                leaves the merge to the users. It is upto the user to make a final 
+                commit when all the conflicts are resolved. During a merge, Git 
+                generates new versions of the files in the working directory once 
+                finished. Git makes use of index to store the intermediate versions 
+                of files during operations. 
+              
                 </p>
             </details>
             <details>
