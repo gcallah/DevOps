@@ -357,8 +357,19 @@
                     Chapter 10: Altering Commits
                 </summary>
                 <p>
-                
-                </p>
+                A commit maintains the history of one's work, but the commit 
+                itself isn't saved as immutable. Git offers various tools and 
+                commands designed specially to aide us edit and improve the 
+                commit history. One may want to modify their commit to prevent 
+                a problem from becoming a legacy, to break down a large change 
+                into smaller chunks of modifications, or to combine a number 
+                of small changes to a big commit, to add review feedback and 
+                suggestions, to reorder the commits in a more logical sense, 
+                and to remove debug code committed accidentally. The simplest 
+                way to modify the recentmost commit is using git commit --amend. 
+                The 'amend' indicates that the fundamental content is the same, 
+                but some adjustment is required. Another use is to fix typos or 
+                errors immediately post commit.     </p>
             </details>
             <details>
                 <summary class="sum2">
