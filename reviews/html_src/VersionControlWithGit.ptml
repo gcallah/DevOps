@@ -321,7 +321,12 @@
                     Chapter 8: Diffs
                 </summary>
                 <p>
-                
+                A diff refers to a brief summary of the differences between two 
+                objects. For example, if we consider two text files, diff will 
+                compare them line by line and show the deviations. While diff 
+                shows the differences, it shows no reason for justifying the 
+                changes. However, it doess offer a formal description on how 
+                one file can be transformed into another.
                 </p>
             </details>
             <details>
