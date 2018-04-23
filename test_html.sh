@@ -6,8 +6,8 @@ set -e
 
 python3 $2/html_checker.py $1
 python3 $2/url_checker.py $1 https://gcallah.github.io/DevOps/
-#if python3 $2/html_spell.py $1 ../utils/English.txt ../utils/custom_dict.txt; 
-#then
-#    echo "Spell checker produced an error"
-#    exit 0
-#fi
+
+if [ "$USER" == "pravarsingh" ]; then
+	devops_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+	sh $devops_dir/spell_checker.sh $1 $2 $devops_dir
+fi
