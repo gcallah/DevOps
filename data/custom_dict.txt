@@ -105,5 +105,5 @@ expectation
 repo
 gist
 ptml
-embedding
-wrapper
+embeddingwrapper
+collaborating
