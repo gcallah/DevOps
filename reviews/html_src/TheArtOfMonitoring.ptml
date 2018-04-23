@@ -77,7 +77,6 @@
       <summary class= "sum2">
         Chapter 3: Events and metrics with Riemann
       </summary>
-      <p>
         Key design features for routing engine are as follows :
         <ul>
           <li> Receive events and metrics including scaling with growing
@@ -89,6 +88,7 @@
             or sent to any other potential destinations.</li>
         </ul>
         <br>
+        <p>
         <b>"If only I had the theorems! Then I should  nd the proofs
           easily enough."</b> -Bernard Riemann <br>
           Riemann is a monitoring tool that aggregates events from hosts
