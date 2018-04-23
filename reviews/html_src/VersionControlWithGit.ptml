@@ -393,7 +393,20 @@
                     Chapter 12: Repository Management
                 </summary>
                 <p>
-                
+                There are two main approaches to repository management. One 
+                focusses on centralizing the repository while the other 
+                focusses on distributing it. For instance, if one is working 
+                on a centralized repository, every contributor to that repository 
+                has a complete, private copy of that repository and can work in 
+                an independent and parallel manner. All the work is managed 
+                through a central repository which is shared. Many version 
+                control systems make use of a centralized server in order 
+                to maintain a repository. On the other hand, larger projects 
+                often follow a distributed development model, which comprises 
+                of a centralized, yet logically segmented repository. This 
+                repository is segmented logically. Hence, even though it 
+                exists as a singly physical entity, logical proportions 
+                are assigned to different teams or people who work independently.
                 </p>
             </details>
         </div>
