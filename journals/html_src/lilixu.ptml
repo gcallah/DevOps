@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
@@ -17,20 +16,34 @@
         <h1>
             My DevOps Story
         </h1>
-
+        <p class="author">
+            by
+            <br />
+            Lili Xu
+        </p>
         <p>
           By studying DevOps, I am hoping to gain knowledge of the full
           developemnt cycle and cooperation. To have a deeper knowledage of
           efficiency improvement during software development.
           To have a better understanding of the work flow and communication.
         </p>
-        <p class="author">
-            by
-            <br />
-            Lili Xu
-        </p>
 
-        <h3>Weekly Update</h3>
+        <p class="leadquote">
+            Team: Coding
+        </p>
+            <p class="leadquote">
+              Write Up Book: <a href="http://agilemanifesto.org/">Manifesto for Agile Software Development</a>
+          </p>
+
+          <h2>About Lili</h2>
+          <li><a href="https://github.com/lilixu93">Github</a></li>
+          <p>
+              Hi, I'm Lili. A CS master student at NYU.
+              In this course, I am in coding team and write a quiz app with
+              django.
+          </p>
+
+        <h2>Weekly Update</h2>
 
                  <h4>Week 2</h4>
                  <p>
