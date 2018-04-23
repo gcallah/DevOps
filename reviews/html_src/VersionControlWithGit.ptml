@@ -373,23 +373,24 @@
             </details>
             <details>
                 <summary class="sum2">
-                    Chapter 11: The Stash and the Reflog
+                    Chapter 11: Remote Repositories
                 </summary>
                 <p>
-                
+                A remote is a reference to another repoitory. A repository can 
+                have any number of repositories and have a vast network of 
+                repository sharing. A local repository is created by cloning 
+                the master repository. Once the repository is created, you 
+                can update and edit it by using pull and push, respectively. 
+                One should regularly update their local repository from the 
+                master to maintain syncronization. In order to keep a check 
+                on other repositories using tracking branches. You can share 
+                your repository with others by publishing it. Git provides 
+                several ways for doing so. 
                 </p>
             </details>
             <details>
                 <summary class="sum2">
-                    Chapter 12: Remote Repositories
-                </summary>
-                <p>
-                
-                </p>
-            </details>
-            <details>
-                <summary class="sum2">
-                    Chapter 13: Repository Management
+                    Chapter 12: Repository Management
                 </summary>
                 <p>
                 
