@@ -98,7 +98,13 @@
         <p>
           This week, presented the search bar test
         </p>
-
+        
+        <p class="leadquote">
+          Week 15
+        </p>
+        <p>
+          This week, working on the makefile to include the devops news feed dynamic fetching
+        </p>
 
 
       </div>
