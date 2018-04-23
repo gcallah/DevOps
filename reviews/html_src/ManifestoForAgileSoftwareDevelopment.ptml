@@ -62,6 +62,14 @@
                   the developers quickly notice the requirement change and
                   react.
                 </p>
+                <p>
+                  Another principle states that face-to-face conversation is
+                  the most efficient and effective method for communication
+                  within the development teams. The information is more likely
+                  to divert via multiple channels. And the face-to-face
+                  communication delivers the most authentic idea, which reduces
+                   risk of misinterpreting and misunderstanding.
+                </p>
               </details>
               <details>
                 <summary class="sum2">
@@ -135,8 +143,8 @@
                   Since agile devolvement iterates fast.
                   Changing requirements allow the developers reacts quickly
                   to customers' needs, which not only improves the feedback,
-                  but also the product quality. Shorter timescale are
-                  perferred. As in small batch work, the defects and problems
+                  but also the product quality. Shorter timescale is
+                  preferred. As in small batch work, the defects and problems
                   can be easily detected and resolved early. It also helps the
                   developers to identify the problems precisely.
                 </p>
