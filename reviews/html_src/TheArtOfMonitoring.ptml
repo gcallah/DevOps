@@ -107,6 +107,12 @@
       <summary class= "sum2">
         Chapter 4: Storing and graphing metrics, including Graphite and Grafana
       </summary>
+      <p>The last chapter dealt with Reimann that provides a central
+        destination and routing engine for the events and metrics. This
+        chapter deals with the storage of the time series metrics. "Grpahite
+        is an engine that stores time-series data and then can reder
+        graphs from that data using an API.""
+      </p>
   </details>
    
     <h4>Chapter 5: Host-based monitoring with collected</h4>
