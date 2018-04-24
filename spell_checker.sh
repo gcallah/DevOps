@@ -4,7 +4,8 @@
 #the exit code
 
 python3 $2/html_spell.py $1 $2/data/English.txt $3/data/custom_dict.txt -e
-echo $?
+exit_code=$?
 git pull
 git add $3/data/custom_dict.txt
 git commit $3/data/custom_dict.txt -m "Custom dictionary updated by spell checker tool"
+echo $exit_code
