@@ -122,6 +122,8 @@
 	                        Defects: Make defects at a low rate at the beginning of the development. Make sure you test in the customers' environment as well. Also, testing to find errors is a waste while testing to prevent errors is what we truly want.
 	                    </li>
                     </ul>
+                    At last, the book discusses about value streams, a timeline showing what happens between the moment a customer makes an order to the time we deliver the product. The author claims that a value stream should always start and end with a customer and the aim of our lean approach is to remove all the non-value adding procedures in the stream. To create a value stream, first, we need to decide what to map. Then, we should decide when to start and end. Remember to idenitfy an owner of value stream and keep it as simple as possible.
+                    Next, the book gives detailed examples of value streams. It analyzes what wastes are included in the timeline and explains the lean principles using these samples. It points out that to diagnose problems in the value stream is to find churns and delays. Finally, if we want to create a future map, make sure we only draw the immediate improvements. We should draw a new one once these improvements are done.
             	</p>
             </details>
           </div>
