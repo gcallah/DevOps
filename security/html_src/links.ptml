@@ -98,6 +98,15 @@
                         Cloud security is paramount in DevOps culture since most of the organisation is prefering to host off-premises services. This book
                         provides the best way to provide security at SaaS,IaaS,PaaS services.
                 </li>
+
+                <li>
+                     <a href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/mistakes-in-the-iaas-cloud-could-put-your-data-at-risk.pdf">Devops: Misconfiguration and Security Threat in IaaS cloud
+                     </a>
+                     <br/>
+                         Various problems affecting the cloud are insecure interface APIs, shared resources, data breaches, malicious insiders, and misconfiguration issues.
+                         The potential attack vectors could be storage enumeration attack, link swap attacks, leaked access tokens, Key management and legal concerns.
+                         Deploying mitigation techniques like second factor authentication, encrypted key management, Logging, Audits can help to reduce the risk.
+                </li>
             </ul>
             </div>
         </div>
