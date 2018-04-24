@@ -136,11 +136,17 @@
             <p>
             Search and conclude the initial simple rule of html. Mainly reference to <a href="https://www.w3schools.com/html/default.asp">HTML5 Tutorial </a> and <a href="https://www.w3schools.com/html/html5_syntax.asp">HTML5 Style Guide and Coding Conventions</a>. Base on those rules, I write a graph of logic and pseudocode, then write a java code of <a href="https://github.com/franzzzz/testJavaDemo/blob/master/src/Q14_htmlChecker.java"> basic logic</a> <a href="https://github.com/franzzzz/testJavaDemo/blob/master/src/T14_htmlChecker.java"> test code</a>, after that I send to Tingjun to implement it in htmlchecker in python. 
             </p>
-                        <p class="leadquote">
+            <p class="leadquote">
             Week 12
             </p>
             <p>
             Our colleges reported two bug to us. One is about "../" to jump out(it should be a warning now), the other is "html_checker.html does not exist". And it turns out that somehow the command of “submodule” in the script of “make local” doesn’t work automatically. We also have reported this problem to build team.
+            </p>
+            <p class="leadquote">
+            Week 13
+            </p>
+            <p>
+            Change some warnings to none and remove flags. As my team member(tingjun) solve utils submodule problem, we could start new nested checker using a simple two stacks structure. 
             </p>
             </div>
         </div>
