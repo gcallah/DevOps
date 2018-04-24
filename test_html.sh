@@ -9,5 +9,6 @@ python3 $2/url_checker.py $1 https://gcallah.github.io/DevOps/
 
 if [ "$USER" == "pravarsingh" ]; then
 	devops_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+	chmod +x $devops_dir/spell_checker.sh
 	sh $devops_dir/spell_checker.sh $1 $2 $devops_dir
 fi
