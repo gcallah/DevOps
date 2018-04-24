@@ -113,7 +113,7 @@
                 </summary>              
                     <p>
                        Symbolic Link or Soft link is nothing but a file that 
-                       points to another file. In out root directory we have
+                       points to another file. In our root directory we have
                        the submakefile and if we look closely at the makefile
                        inside each team directory (build,cloud,monitoring etc)
                        using commands:  
