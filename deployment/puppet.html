@@ -262,6 +262,30 @@
                     </li>
                 </ul>
                 <h3> Important Concepts </h3>
+                <h4> Manifests </h4>
+                <p>
+                Puppet programs are called manifests and they contain a set of
+                instructions to be executed for building the infrastructure. 
+                Manifests are a collection of resource declarations and use 
+                the .pp extension.
+                <br>
+                <br>
+                Example of manifest file which first updates apt-get and
+                then installs mysql-server package and ensures mysql service 
+                is running -
+        <pre>
+        exec { 'apt-get update':
+            command =&gt; '/usr/bin/apt-get update'
+        }
+        package { 'mysql-server':
+            require =&gt; Exec['apt-get update'],
+            ensure =&gt; installed,
+        }
+        service { 'mysql':
+            ensure =&gt; running,
+        }
+        </pre>
+                </p>
                 <h4> Resources </h4>
                 <p>
                 Puppet comes with a number of built-in resources which can be 
@@ -270,25 +294,38 @@
                 packages and user. 
                 <br>
                 To know all the available resource types use this command-
-                <br>
-                puppet resource --types
-                <br>
+        <pre>
+        puppet resource --types
+        </pre>
                 <br>
                 Examples of using file resource -
                 <br>
                 Put below lines in your manifest file.
-                <br>
-                file { 'infra.txt':
-                <br>
-                    path    =&gt; '/home/infra.txt',
-                <br>
-                    content =&gt; 'Starting to learn puppet'
-                <br>
-                }
-                <br>
+        <pre>
+        file { 'infra.txt':
+            path    =&gt; '/home/infra.txt',
+            content =&gt; 'Starting to learn puppet'
+        }
+        </pre>
                 After applying the catalog on agent node the file infra.txt 
                 will be created at the given path with the provided content.
                 </p>
+                <details>
+                <summary class="sum2">
+                    Sources
+                </summary>
+                <ul>
+                <li><a href="https://www.digitalocean.com/community/tutorials/configuration-management-101-writing-puppet-manifests">
+                Writing Puppet Manifests
+                </a>
+                </li>
+                <li>
+                <a href="https://www.tutorialspoint.com/puppet/index.htm">
+                Puppet Tutorial
+                </a>
+                </li>
+                </ul>
+                </details>
             </div>
         </div>
 

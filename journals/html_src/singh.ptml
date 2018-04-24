@@ -70,7 +70,11 @@
         </p>
         <p>
             <b>Week 10 :</b><br/>
-            This week we added functionality to skip all the content inside code tags in the spell checker tool.
+            This week we added functionality to skip all the content inside code tags in the spell checker tool. Also started reading chapter 1 of Practical DevOps by Joakim Verona.
+        </p>
+        <p>
+            <b>Week 11 :</b><br/>
+            Attended the very informative lecture about the importance and application of security in the DevOps pipeline. Also wrote book review for Chapter 1 - Introduction to DevOps and Continuous Delivery. Worked on refactoring the code of spell checker tool and removing redundant parts in the code.
         </p>
     </body>
 </html>

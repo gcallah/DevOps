@@ -149,7 +149,7 @@ h1.chap-title {
 
 h2 {
     font-size: 1.7em;
-    margin: 1.2em 1em .6em 4em;
+    margin: 1.2em 1em .6em 1em;
     color: #7386D5;
 }
 
@@ -217,6 +217,18 @@ summary.menu_sum {
     font-size: 1.4em;
     color: #639;
     margin: .5em 0em .5em 0em;
+}
+
+details p{
+  margin-left: 4em;
+}
+
+details table{
+  margin-left: 4em;
+}
+
+details img{
+  margin-left: 4em;
 }
 
 p.copyright {

@@ -86,6 +86,12 @@ This week is the second phase of Network Penetration Testing which is scanning t
 We performed the scanning the application server to find any vulnerable port and services. We found mostly benign and legitimate services running on the server. We also checked for the presence or absence of firewall and we found there was one.
 
 </p>
+
+<h><b>Week 12</b></h>
+<p>
+We perfomed scanning on the web server. We did not find any vulnerability, server is running only the required services. We also conluded that there are firewalls placed and the servers are secured.
+
+</p>
  </div>
         </div>
     </body>

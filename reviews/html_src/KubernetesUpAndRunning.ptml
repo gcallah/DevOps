@@ -74,6 +74,89 @@
                 Kubernetes UI and their role within the cluster is discussed. 
                 </p>
                 </details>
+                <details>
+                <summary class="sum2">
+                    Chapter 4: Common kubectl Commands
+                </summary>
+                <p>
+                In this chapter, the authors dive into one of the command 
+                line utilities of Kubernetes called, 'kubectl' which is 
+                basically responsible for creating objects and interacting
+                with kubernetes APIs. Then they briefly talk about namespaces
+                for the organization of objects in a cluster, and to 
+                permanently store the naming schema in the config file, 
+                'context' is used. One of the important utility of kubectl 
+                apart from the creation of API objects is viewing them. 
+                Kubectl also enables users to create update and delete the 
+                kubernetes objects. Also, it enables the commands for 
+                debugging of the container and can execute the logs. 
+                The authors have discussed the annotations and labels of 
+                the objects as well, which has been discussed in details 
+                in Chapter 6. 
+                </p>
+                </details>
+                <details>
+                <summary class="sum2">
+                    Chapter 5: Pods
+                </summary>
+                <p>
+                The authors explain the core concept of Kubernetes called 
+                'Pods', which are considered as the smallest deployable 
+                unit in a kubernetes environment. It is a collection of 
+                multiple containers and volumes in a same execution 
+                environment. They explain the behavior of how application 
+                containers in the same pod will be different from containers 
+                in different pods to clarify the network understanding of the 
+                pods. Authors also exemplified the issues when two different 
+                applications are scaled with the same strategy within a pod, 
+                and how it could defeat the purpose of containers. To define 
+                a pod, users have to define the kubernetes API object details 
+                in a pod manifestation, which aligns with the declarative 
+                configuration principle. The authors further define 
+                technicalities and provide details in creating, running and 
+                listing of pods. To summarize the concept, authors also 
+                mention the multiple ways of using volumes with Pods. 
+                </p>
+                </details>
+                <details>
+                <summary class="sum2">
+                    Chapter 6: Labels and Annotations
+                </summary>
+                <p>
+                After explaining the core concept of Pods, the authors 
+                immediately discuss the foundational concepts like Labels and 
+                Annotations. Authors feel that Labels and Annotations are 
+                often wrongly considered as the same concept and thus make a 
+                great effort in explaining the difference and why it is 
+                actually required to differentiate between the two. Authors 
+                state that 'labels' are basically key-value pair and are 
+                useful in attaching identifiable information to kubernetes 
+                objects like Pods. Whereas, 'annotations' are storage 
+                technique designed to hold unidentifiable information which 
+                can be used by tools and libraries. The authors further 
+                explain the application of labels and their modification 
+                with help of commands and examples. Further, the authors 
+                provide insight on annotation with detailed applicability.
+                </p>
+                </details>
+                <details>
+                <summary class="sum2">
+                    Chapter 7: Service Discovery
+                </summary>
+                <p>
+                The authors start by defining what Service discovery is and
+                the characteristics of a good service discovery system. Since
+                Kubernetes is a dynamic system where applications are placed
+                dynamically, service discovery is crucial to fully utilize the
+                power of Kubernetes. The service object allows to expose
+                services within and outside the cluster. Kubernetes provides a
+                DNS service which provides DNS names for cluster IPs, exposed
+                to Pods running in the cluster. The authors also describe how
+                to add readiness check within deployment to track which pods
+                are ready. Some advanced features like using Endpoints to
+                communicate directly with the service are also discussed.
+                </p>
+                </details>
             </div>
         </div>
     </body>
