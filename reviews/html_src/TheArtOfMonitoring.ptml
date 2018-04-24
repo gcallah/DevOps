@@ -103,7 +103,12 @@
       </p>
 
   </details>
-    <h4>Chapter 4: Storing and graphing metrics, including Graphite and Grafana</h4>
+  <details>
+      <summary class= "sum2">
+        Chapter 4: Storing and graphing metrics, including Graphite and Grafana
+      </summary>
+  </details>
+   
     <h4>Chapter 5: Host-based monitoring with collected</h4>
     <h4>Chapter 6: Monitoring hosts and services</h4>
     <h4>Chapter 7: Containers - another kind of host</h4>
