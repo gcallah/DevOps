@@ -54,9 +54,28 @@
 
         <h4>Getting Rugged</h4>
 
+        <p>
+            The author speaks about drawing parallels from nature when getting 
+            rugged. Prairie dogs are good examples of monitoring threats that 
+            are faced by an application. Ant colonies demonstrate the benifits 
+            of working together. Defenses against common threats should be 
+            unified like musk oxen. The various libraries and components used 
+            by an application should be controlled similar to how a family of 
+            beavers control their environment. Several other parallels are 
+            explained in this chapter.
+        </p>
+
         <h4>Telling the Security Story</h4>
 
         <h4>Rugged Roles</h4>
+
+        <p>
+            While roles and responsibilities are different for each 
+            organization, this chapter tries to understand what these roles 
+            perform and how ruggedness can be incorporated into them. These 
+            roles might be labelled differently for one organization or might 
+            not even exist for another.
+        </p>
 
         <h5>The Rugged Executive</h5>
         <h5>The Rugged Security Analyst</h5>
