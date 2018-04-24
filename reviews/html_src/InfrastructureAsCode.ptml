@@ -90,5 +90,22 @@
             </p>
         </details>
 
+        <details>
+            <summary class="sum2">
+              Chapter 6: Patterns for provisioning servers
+            </summary>
+            <p>
+              In the first part of the book the author described design and configuration of infrastructure tools. This chapter is the beginning of the
+              2nd part of the book where the author describes how to make servers ready for use. To provision server means allocating resources to server and
+              making it functional so that it can be used by various users. Server has life cycle which includes: 1) Packaging a server template
+              2) Creating a new server 3)Updating the server and 4) Deleting the server. He substantiates each of the step with an example and explains
+              the lifecycle of a server unambiguously.
+
+              The patterns for creating the servers such as cloning the existing server,instantiating from a snapshot etc can be accomplished by using AWS Free
+              tier account. We should also know about the anti pattern discussed in the book which is one of the important ways of creating servers. In overall,
+              the author here discusses about patterns of creating servers and gives an overview of server's lifecycle.
+            </p>
+        </details>
+
     </body>
 </html>
