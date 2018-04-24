@@ -107,9 +107,38 @@
             <summary class="sum2">
                 Our Make File
             </summary>
-
-
-
+            <details>
+                <summary class="sum3">
+                    Symbolic Link  
+                </summary>              
+                    <p>
+                       Symbolic Link or Soft link is nothing but a file that 
+                       points to another file. In out root directory we have
+                       the submakefile and if we look closely at the makefile
+                       inside each team directory (build,cloud,monitoring etc)
+                       using commands:  
+                       <code>ls -las</code>
+                    </p>
+                       <figure>
+                        <img src="graphics/ls_las.png" width ="90%">
+                        <figcaption>Running ls -las inside build team directory</figcaption>
+                       </figure>
+                    <p>
+                       We see that makefile is referring to submakefile with
+                       a pointer (makefile --&gt ../submakefile).
+                    </p><br>
+                    <p>
+                       Following is the command to create a symbolic link:-<br>
+                       <code>ln -s source_file destination_file</code><br>
+                       In order to create a makefile to perform the build
+                       process we will have to do the following in the main
+                       directory:-<br>
+                       <code>ln -s submakefile destination_file</code><br>
+                       NOTE:- The destination_file should not be created in the
+                       destination directory prior to running this command.
+                       It will be created by itself when we run it.
+                    </p>
+            </details>
         </details>
 
 <!-- How to implement the build process -->
