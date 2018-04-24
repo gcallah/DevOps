@@ -258,7 +258,66 @@
                   well apply it, engineer must be experienced and research much
                   to decide which options should be open instead of keeping
                   everything open.
-                </p>
+                </p><br />
+                <p>
+                  The second tool is the last responsible moment. According to
+                  previous approach, concurrent development allow delay
+                  commitment but the delay has to be a deadline. The last
+                  responsible moment is the toolkit to help make decisions.
+                  It is the due date that commitments have to be made to
+                  eliminate other important alternatives. or decisions would be
+                  made by default. Several tactics are introduced for making
+                  decisions at the last responsible moment:<br />
+                  1. Share partially complete design information:
+                  This helps
+                  reduce the length of feedback and shorten the exploratory
+                  cycles. <br />
+                  2. Organize for direct, worker-to-worker collaboration:
+                  This is demanded heavily when partial complete design is
+                  shared. People knwo details in requirement and implementation
+                  must work closely to refine in development process.<br />
+                  3. Develop a sense of how to absorb changes:
+                  This part brings some tactics that experts use to endorse in
+                  OOP design or any component-based development. <br />
+                  4. Develop a sense of what is critically important in the
+                  domain:
+                  Some features are so important that they drive early
+                  commitments which turns out to be flawed. It will narrow the
+                  field and overlook some critical elements than late
+                  commitment. So it should be clear what is more important.
+                  <br />
+                  5. Develop a sense of when decisions must be made:
+                  Delay commitment doesn't mean no commitment. A keen sense of
+                  timing and mechanism must be developed to make decisions in
+                  time.<br />
+                  6. Develop a quick response capability:
+                  Response time is the capacibility to allow late commitments.
+                  The faster the response can be made, the later the
+                  commitments can be made.
+                </p><br />
+                <p>
+                  The third tool is making decisions. In this part, the authors
+                  have summarize some components in previous tools and talk
+                  about approaches in decision making. First, they talk about
+                  the comparison between depth-first approach and breadth-first
+                  one as mentioned in the first tool and claim their advantages
+                  and risk and see conidtions which approach should be applied.
+                  Breath-first approach is normally the more effective one
+                  since it has less limitaion and requirement. Then it talked
+                  about the intuitive decision making compared to rational
+                  decision making. It is actually pretty surprising that
+                  intuitive decision making performs better in most conditions
+                  that high-stakes mistakes is more likely detected because
+                  rational decision would suffer tunnel version and timing.
+                  The authors have given examples in fire department and
+                  the Marrines to support this opinion which is pretty
+                  convincing. At last, the author clarify that the rules that
+                  decision making follows must be simple. Simple rule can
+                  help well in flexibility, robustness and self-organization.
+                  It allows people to act quickly without waiting. And as
+                  metioned before, quicker action/response allows later
+                  decition making.
+                </p><br />
             </details>
             <h2>
               Citation:
