@@ -22,6 +22,24 @@
             Drumil Bakhai
         </p>
             <p>
+                Week 10:
+                <br>
+                <br>
+                I am currently working on Jenkinsfile to improve the
+                the automation of our builds.
+
+                I have figured out a way in Jenkins which will able
+                to build, test and deploy any commits made on our
+                Github repository.
+
+                The advantage of using this pipeline is that 
+                the commits will be first be build in different
+                Docker Containers then the different tests can
+                be performed and once the tests passes the code
+                can be deployed on our AWS servers
+                
+            </p>
+            <p>
                 Week 9:
                 <br>
                 <br>
