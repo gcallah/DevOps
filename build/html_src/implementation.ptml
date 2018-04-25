@@ -105,12 +105,12 @@
 
         <details>
             <summary class="sum2">
-                Our Make File
+                Deep Dive Into Our Make File Workflow
             </summary>
             <details>
                 <summary class="sum3">
                     Symbolic Link  
-                </summary>              
+                </summary>  
                     <p>
                        Symbolic Link or Soft link is nothing but a file that 
                        points to another file. In our root directory we have
@@ -138,7 +138,39 @@
                        destination directory prior to running this command.
                        It will be created by itself when we run it.
                     </p>
-            </details>
+                </details>
+                <details>
+                  <summary class="sum3">
+                      Submakefile
+                  </summary>
+                      <p>
+                        After taking a look at the Symbolic link we now know
+                        that the makefile is referring to the submakefile. The
+                        submakefile has the following contents:-
+                      </p>
+                      <figure>
+                        <img src="graphics/submakefile.png" width ="90%">
+                        <figcaption>Submakefile code</figcaption>
+                      </figure>
+                      <p>
+                       In the first few lines of the code we have just 
+                       initialized a few variables to make sure that we don't
+                       repeat ourselves. On line 17 we run shell commands to
+                       list files (ls) and stream edit them. ls first list all
+                       the files present inside the html_src directory which
+                       was initialized with PTML_DIR on line 7. Then we use a
+                       stream editor on these files to convert from .ptml to 
+                       .html file and then extracting out the html_src file
+                       from it which would lead to placing it in the team 
+                       directory.The test_html.sh has all
+                       the code test required to run on our html files for 
+                       example html checker, url checker, spell checker e.t.c.
+                       The '%' sign acts as a wildcard (*) in a pattern.
+                       $&lt is the first prerequisite, whereas $@ means
+                       evaluate all.
+                      </p>
+
+                </details>
         </details>
 
 <!-- How to implement the build process -->
