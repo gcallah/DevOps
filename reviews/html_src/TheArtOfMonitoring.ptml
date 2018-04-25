@@ -110,8 +110,22 @@
       <p>The last chapter dealt with Reimann that provides a central
         destination and routing engine for the events and metrics. This
         chapter deals with the storage of the time series metrics. "Grpahite
-        is an engine that stores time-series data and then can reder
-        graphs from that data using an API.""
+        is an engine that stores time-series data and then can render
+        graphs from that data using an API. Grafana is an
+        open-source metrics dashboard that supports Graphite, 
+        InfluxDB, and OpenTSDB." Graphite is made up for 3 components - 
+        carbon, whisper and Graphite Web. Carbon is a collection of
+        daemons that are event driven and listen on network ports. THey
+        listen receive and write time series data. Whisper is a flat-file
+        database used for storing time-series data. Graphite web is a 
+        Django-based web UI that can be used to compose graphs from the 
+        metrics data collected. But it can be hard to configure and install 
+        it and hence Grafana is used instead.
+        The chapter discusses how to install and
+        configure and run Graphite and Grafana. The events are gathered
+        from Reimann and sent in the form of metrics to Graphite. In order
+        for the events to be consistent between Reimann and Graphite
+        NTP is configured.
       </p>
   </details>
    
