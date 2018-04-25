@@ -74,15 +74,64 @@
             organization, this chapter tries to understand what these roles 
             perform and how ruggedness can be incorporated into them. These 
             roles might be labelled differently for one organization or might 
-            not even exist for another.
+            not even exist for another. Several metrics are also provided 
+            which helps monitor how well a particuler role is performing with 
+            respect to ruggedness.
         </p>
 
         <h5>The Rugged Executive</h5>
+
+        <p>
+            A rugged executive's role is to express the organizations concerns 
+            and to explain its security story. Several steps can be taken 
+            towards this direction and are mentioned in this chapter.
+        </p>
+
         <h5>The Rugged Security Analyst</h5>
+
+        <p>
+            The role of a rugged Security analyst and the various scopes of 
+            information and insights needed by such a role are mentioned in 
+            this sub-chapter. 
+        </p>
+
         <h5>The Rugged Architect</h5>
+
+        <p>
+            This subsection mentions some of the points that a rugged 
+            architect has to keep in mind while designing a system so that 
+            it will meet the expected threats. The architect's role is to 
+            set up defenses so that the application stays strong against 
+            resent as well as future threats.
+        </p>
+
         <h5>The Rugged Project Manager</h5>
+
+        <p>
+            The responsibilites of a rugged project manager includes 
+            understanding enough of the security architecture and managing the 
+            project and team to deliver a rugged application. Several of these 
+            responsibilities are mentioned in this sub-section.
+        </p>
+
         <h5>The Rugged Developer</h5>
+
+        <p>
+            Getting rugged eventually boils down to the developer. The 
+            developer is the role that implements the entire security 
+            architecture and gets data and statistics for other roles to 
+            monitor the health of the system. This subsection explains the 
+            responsibilities of that role. 
+        </p>
+
         <h5>The Rugged Tester</h5>
+
+        <p>
+            This is the role that monitors the application and keeps the 
+            application and organization updated against current threats and 
+            future ones. The various responsibilities of the rugged tester are 
+            explained here.
+        </p>
 
         <h4>Getting started with Rugged</h4>
 
