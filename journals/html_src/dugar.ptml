@@ -110,7 +110,20 @@
                <li>
                  Week 9: This week we utilized regular expressions to capture
                  and filter words in the spell-checker. I also spent some time
-                reading 'Practical DevOps', the book I am planning on reviewing. 
+                reading 'Practical DevOps', the book I am planning on reviewing.
+               </li>
+               <li>
+                 Week 10: We tweaked the spell-checker tool to ignore text
+                 between 'code' tags. We also started posting our review of the
+                 book 'Practical DevOps' by Joakim Verona.
+               </li>
+               <li>
+                 Week 11: I have not had much experience with application
+                 security, specially vulnerability at development stages and
+                 pre-release, for eg. if the packaging stage is compromised,
+                 potentially every instance of the released product could be
+                 malicious. We learnt about the importance of security at every
+                 level of the Dev+Ops pipeline.
                </li>
 
             </ul>
