@@ -107,5 +107,26 @@
             </p>
         </details>
 
+        <details>
+            <summary class="sum2">
+              Chapter 7: Patterns for Managing Server Templates
+            </summary>
+            <p>
+              This chapter provides an overiew of server templates and how servers can be provisioned from using these templates. The important
+              thing while provisioning the server would be as what packages should the templates include for customer usage and what packages should
+              be used while creating the server. The book discusses 3 steps involved in provisioning the servers using templates in detail.
+              The three steps being:
+              <ul class=nested>
+              <li> Selecting an image </li>
+              <li> Applying customizations to the image </li>
+              <li> Packaging the image into server template image </li>
+              </ul>
+            </p>
+            <p>
+              The author then discusses about the different kinds of building the templates and explains them with examples.
+              This chapter along with the previous two chapters provide an insight as how to provision the servers.
+            </p>
+        </details>
+
     </body>
 </html>
