@@ -268,7 +268,65 @@
           <p>
                 “Attacking Session Management,” examines the mechanism by which most applications supplement the stateless HTTP protocol with the concept of different requests. This mechanism is a key target when you are attacking a web application because if you can break it, you can effectively bypass the login and masquerade as other users without knowing their credentials.           
       </p>
-        </div>
+       <h4>Chapter 8: Attacking Access Controls </h4>  
+          <p>
+                This chapter deals with categories of access controls which can be implemented in Web Based Application and how such access control can be vulnerable and exploited and further provides solution to mitigate such attacks.
+                These are some of the access control mechanism which can be exploited if it is not implemented securely.
+               <ul>
+                      <li>Completely Unprotected Functionality</li>
+                      <li>Direct Access to Methods</li>
+                      <li>Identifier-Based Functions</li>
+                      <li>Platform Misconfiguration</li>
+                </ul>   
+               <h1> Below are the various defense mechanism which can be deployed to mitigate potential attacks.</h1>
+                <ul>
+                   <li> Using central application to check user access control.</li>
+                   <li> Driving access control decision from user's session.</li>
+                   <li> A multilayer priviledged model.</li>
+                   <li>Role based access control</li>
+                </ul>
+      </p>
+
+            <h4>Chapter 9 and 10: Attacking Datastores and Back-End components </h4>  
+          <p>
+            This chapter discusses potential attack surface with datastores like SQL databases,XML-Based repositories,LDAP
+            directories, and servies like SOAP and SMTP. The vulnerability in web application can allow to perform sql-injection,injection in xml also known as xpath injection, LDAP injection which can reveal insensitive data. There are numerous approaches to mitigate these attacks and the most important and generic one is to sanitize user input and place a validation mechanism both on client and server.
+          </p>
+
+           <h4>Chapter 11:  Attacking Application Logic </h4>  
+          
+          <p>
+          This chapter deals with various application logic flaws which can be exploited to gain unathorise access. Missing null
+          checks, failing to check size of input, improper exception and error handling can be categorise as application logic flaw.
+          Sometimes inherent assumption can led to a logical or functional flaw. Chapter states few secure coding practice but
+          that can't be considerd as silver bullet to mitigate. Few of the secure coding practice are.
+             <ul>
+
+                    <li>Ensuring application’s design to be clearly documented in sufficient detail for an outsider to understand every assumption the designer made. </li>
+                    <li>Mandating all source code to be clearly commented to be readble and easily understandable for any person. </li>
+
+             </ul>
+        </p>
+
+         <h4> Chapter 12: Attacking Users: Cross-Site Scripting </h4>  
+         <p>
+         This chapter discusses the most prevalent attack in web applications. These attacks are featured as the top 10 OWASP vulnerability in Web Server.
+         It explains about XSS and its various types in details and mitigation techniques for each of them. Below are the various types of XSS.
+      <ul>
+         <li>Stored XSS</li>
+         <li>Reflected XSS</li>
+         <li>DOM-based XSS</li>
+         <li>Cross Site Request Forgery</li>
+      </ul>
+           It mentions various mitigation techniques but again there is no silver bullet. The best practices to mitigate these potential attacks are.
+           <ul>
+             <li> Input Sanitization and Validation</li>
+             <li> Implementing Web Application Firewalls</li>
+             <li> Client side input encoding</li>
+             <li> Whitelisting User Input Characters.</li>
+           </ul>       
+          </p>
+         </div>
           </div>
 </body>
 </html>
