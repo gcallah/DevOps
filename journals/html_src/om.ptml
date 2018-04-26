@@ -92,6 +92,12 @@ We performed the scanning the application server to find any vulnerable port and
 We perfomed scanning on the web server. We did not find any vulnerability, server is running only the required services. We also conluded that there are firewalls placed and the servers are secured.
 
 </p>
+<h><b>Week 13</b></h>
+<p>
+This week task was to perfom analysis of various attack vectors in cloud envionment. We checked the configuration parameter of cloud infrastrcture
+hosting the static web application, sql server instance on cloud. We will be doing security testing on the cloud for the next week.
+
+</p>
  </div>
         </div>
     </body>
