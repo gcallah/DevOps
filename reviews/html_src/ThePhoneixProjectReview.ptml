@@ -154,6 +154,22 @@ Bill to understand 3 ways of DevOps and figure out 4 types of work.
 
 </p>
 
+<p>
+<h3>
+	Chapter 8
+</h3>
+
+There are over 400 changes submitted for the week which 
+are too many to be handled! Hence they are classified into 3 groups: 
+1. Fragile/high risk changes - changes that can lead to system crash.
+Such changes need authorization and proper scheduling.
+2. Standard/everyday changes - these are changes that are done 
+frequently and pose less or no threat. Such changes can be pre 
+approved but must be scheduled.
+3. Medium risk changes - For such changes we can depend on the team’s
+manager to have an idea and give authorization.
+</p>
+
 </div>
 </div>
 
