@@ -68,3 +68,43 @@ else:
                         KeyName=instance_param['keyName'],
                         SecurityGroupIds=[s_grp_id],
                         InstanceType=instance_param['instanceType'])
+
+#TODO - WAIT FOR INSTANCE TO RUN
+#Describing the details of the instances to fetch the ip address and dns name
+response = ec2_client.describe_instances(Filters=[
+        {
+            'Name': 'image-id',
+            'Values': [
+                instance_param['imageID'],
+            ]
+        },
+        {
+            'Name': 'instance-state-name',
+            'Values': [
+                'running'
+            ]
+        },
+    ])
+#print(response)
+reservations = response.get('Reservations')
+out_file = open('puppet.config','w')
+#print(instances)
+instance_count = 0
+for reservation in reservations:
+    instances = reservation.get('Instances')
+    for instance in instances:
+        instance_id = instance.get('InstanceId')
+        dns = instance.get('PublicDnsName')
+        private_ip = instance.get('PrivateIpAddress')
+        instance_count += 1
+        if instance_count == 1:
+            out_file.write("master_ip="+private_ip+"\n")
+            out_file.write("master_dns="+dns+"\n")
+        else:
+            out_file.write("agent_ip="+private_ip+"\n")
+            out_file.write("agent_dns="+dns+"\n")
+        print(private_ip)
+        print(instance)
+        print(dns)
+#TODO - Login to instances and run the master and agent scripts
+ 
