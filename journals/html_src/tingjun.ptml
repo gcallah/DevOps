@@ -213,6 +213,7 @@
             <ul class="nested">
                 <li>
                     Add unit tests for html_checker codes.
+                    Add tag checking function for html_checker.
                 </li>
             </ul>
         </details>
