@@ -77,14 +77,71 @@
       <summary class= "sum2">
         Chapter 3: Events and metrics with Riemann
       </summary>
-      <p>
-
+        Key design features for routing engine are as follows :
+        <ul>
+          <li> Receive events and metrics including scaling with growing
+            environment. </li>
+          <li>Maintain sufficient state to do event matching and provide
+            context for notifications.</li>
+          <li>Munge events including extracting metrics from events.</li>
+          <li>Categorize and route data to be stored, graphed, alerted on,
+            or sent to any other potential destinations.</li>
+        </ul>
+        <br>
+        <p>
+        <b>"If only I had the theorems! Then I should  nd the proofs
+          easily enough."</b> -Bernard Riemann <br>
+          Riemann is a monitoring tool that aggregates events from hosts
+          and applications and can feed them into a stream processing
+          language to be manipulated, summarized, or actioned. It can also
+          track the state of incoming event and provides notifications.<br>
+          A brief explanation on installing Riemann on three different hosts
+          is given. Moreover, Configuring Riemann, Connecting Riemann servers,
+          Alerting on the upstream Riemann servers, Testing, Validating,
+          Performance, scaling, and making Riemann highly available
+          is also explained in detail.
       </p>
 
   </details>
-    <h4>Chapter 4: Storing and graphing metrics, including Graphite and Grafana</h4>
-    <h4>Chapter 5: Host-based monitoring with collected</h4>
-    <h4>Chapter 6: Monitoring hosts and services</h4>
+  <details>
+      <summary class= "sum2">
+        Chapter 4: Storing and graphing metrics, including Graphite and Grafana
+      </summary>
+      <p>The last chapter dealt with Reimann that provides a central
+        destination and routing engine for the events and metrics. This
+        chapter deals with the storage of the time series metrics. "Grpahite
+        is an engine that stores time-series data and then can render
+        graphs from that data using an API. Grafana is an
+        open-source metrics dashboard that supports Graphite, 
+        InfluxDB, and OpenTSDB." Graphite is made up for 3 components - 
+        carbon, whisper and Graphite Web. Carbon is a collection of
+        daemons that are event driven and listen on network ports. THey
+        listen receive and write time series data. Whisper is a flat-file
+        database used for storing time-series data. Graphite web is a 
+        Django-based web UI that can be used to compose graphs from the 
+        metrics data collected. But it can be hard to configure and install 
+        it and hence Grafana is used instead.
+        The chapter discusses how to install and
+        configure and run Graphite and Grafana. The events are gathered
+        from Reimann and sent in the form of metrics to Graphite. In order
+        for the events to be consistent between Reimann and Graphite
+        NTP is configured.
+      </p>
+  </details>
+  <details>
+    <summary class= "sum2">
+        Chapter 5: Host-based monitoring with collected
+      </summary>
+  </details>
+
+  <details>
+    <summary class= "sum2">
+        Chapter 6: Monitoring hosts and services
+      </summary>
+  </details>
+   
+    
+   
     <h4>Chapter 7: Containers - another kind of host</h4>
     <h4>Chapter 8: Logs and Logging, covering structure logging and the ELK stack</h4>
     <h4>Chapter 9: Building monitored applications</h4>

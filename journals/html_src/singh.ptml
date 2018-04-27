@@ -23,19 +23,19 @@
         </p>
 
         <p>
-        	My overall expectation from this course is to learn all the processes involved in developing and deploying a software the DevOps way. I would love to expand my skill set and gain in-depth practical knowledge of working with containers such as Docker.Also learning how to implement automated testing scripts using Jenkins would be really beneficial since these skills are in huge demand in the industry as of now. Writing scripts to deploy the software on cloud is at the core of DevOps and getting first hand experience doing that would be great. Eventually, I would love if the course prepares us to automate the whole process of deploying to just a single click of a button. All said, I expect the experience of working in a team and collabarating with other teams to be highly beneficial and give us exposure of how things work in industry.
+        	My overall expectation from this course is to learn all the processes involved in developing and deploying a software the DevOps way. I would love to expand my skill set and gain in-depth practical knowledge of working with containers such as Docker.Also learning how to implement automated testing scripts using Jenkins would be really beneficial since these skills are in huge demand in the industry as of now. Writing scripts to deploy the software on cloud is at the core of DevOps and getting first hand experience doing that would be great. Eventually, I would love if the course prepares us to automate the whole process of deploying to just a single click of a button. All said, I expect the experience of working in a team and collaborating with other teams to be highly beneficial and give us exposure of how things work in industry.
         </p>
         <p>
             <b>Week 1 and 2 :</b><br/>
-            The whole class was divided into groups such as coding, workflows, cloud ,deployment, build etc. Due to my excessive interst in coding , i chose to be a part of the coding group. The coding group had 4 different tools to implement out of which one of those was building a spell checker tool. Me and Kanishk decided to work and collaborate on this project and one of the major reasons i chose this tool was beacuse of my interest in Natural Language Understanding(NLU). I believe i could put to use a lot of domain knowledge on the subject along with my excellent coding skills to build the tool in python. <br/>
-            Also we learnt how to use trello for managing the workflow of the projects and updated it by addding a trello card for HTML spell checker in the wish list column.
+            The whole class was divided into groups such as coding, workflows, cloud ,deployment, build etc. Due to my excessive interest in coding , i chose to be a part of the coding group. The coding group had 4 different tools to implement out of which one of those was building a spell checker tool. Me and Kanishk decided to work and collaborate on this project and one of the major reasons i chose this tool was because of my interest in Natural Language Understanding(NLU). I believe i could put to use a lot of domain knowledge on the subject along with my excellent coding skills to build the tool in python. <br/>
+            Also we learnt how to use trello for managing the workflow of the projects and updated it by adding a trello card for HTML spell checker in the wish list column.
 
         </p>
         <p>
             <b>Week 3:</b><br/>
             Attended a wonderful session on Docker by Prashant Patel which was a very practical and hands-on session. I learnt the practical usage of docker and bunch of commands on how to start and and manage docker conatainers.Learnt how to work with nginx. Some of the commands we executed in the terminal were as follows :
             docker start, docker ps,docker images , docker pull nginx etc. <br/>
-            We also started the development work for spell checker tool by first performing a requirements analysis of the tool for which we also met with professor to clarify the tool requirements and the features it should possess. After that we wrote down the code contating the basic features of the spell checker and made our first commit for the tool.
+            We also started the development work for spell checker tool by first performing a requirements analysis of the tool for which we also met with professor to clarify the tool requirements and the features it should possess. After that we wrote down the code containing the basic features of the spell checker and made our first commit for the tool.
 
         </p>
         <p>
@@ -59,10 +59,10 @@
         </p>    
         <p>
             <b>Week 8 :</b><br/>
-            Attended a very informational session by Joe West, Former CTO of BounceX who gave a deep insight about how devops is being adopted in the indusrty and also shared his experiences about Akamai. Some of the main take away concepts from his presentation were as follows:<br/>
+            Attended a very informational session by Joe West, Former CTO of BounceX who gave a deep insight about how devops is being adopted in the industry and also shared his experiences about Akamai. Some of the main take away concepts from his presentation were as follows:<br/>
             Productivity is the most important thing: He gave an example of a lazy systems engineer who is better than a more active one because he will always find ways to automate things.<br/>
             Focus on the business value: Don't use DevOps tools just because the technology looks cool, assess the customer requirements and whether it adds value to business and will be profitable in the future to make decision on whether it makes sense to use those services.<br/>
-            Using the right toolkit : Optimizee the workflow to understand the minimum amount of resources needed to fullfil the requirement. Keep it simple.
+            Using the right toolkit : Optimizee the workflow to understand the minimum amount of resources needed to fulfill the requirement. Keep it simple.
         </p>
         <p>
             <b>Week 9 :</b><br/>
@@ -75,6 +75,19 @@
         <p>
             <b>Week 11 :</b><br/>
             Attended the very informative lecture about the importance and application of security in the DevOps pipeline. Also wrote book review for Chapter 1 - Introduction to DevOps and Continuous Delivery. Worked on refactoring the code of spell checker tool and removing redundant parts in the code.
+        </p>
+        <p>
+            <b>Week 12 :</b><br/>
+            Deployed the spell checker tool on the website and fixed issues in the shell script which executes the tool .Updated the journal and
+            read chapter 2 of Practical Devops.
+        </p>
+        <p>
+            <b>Week 13 :</b><br/>
+            Took the decision to do partial rollout of the tool instead of rolling it out for everyone at once due to arising bugs. Basically focused on 4 tasks during the week :<br/> 
+            1. Moved the custom dictionary from utils repo to DevOps repo.<br/> 
+            2. Added the class roster to custom dictionary so that the tool recognizes names of class students.<br/> 
+            3. Added a wrapper shell script to automate : executes the spell checker program , commits the custom dictionary to git, and subsequently returns the exit code to the calling shell script.<br/> 
+            4. Added partial rollout feature by checking $USER in the shell script and rolled out the tool to only spell checker team and Professor Callahan.<br/> 
         </p>
     </body>
 </html>

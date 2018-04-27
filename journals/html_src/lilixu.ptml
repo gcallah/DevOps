@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
@@ -17,45 +16,67 @@
         <h1>
             My DevOps Story
         </h1>
-
+        <p class="author">
+            by
+            <br />
+            Lili Xu
+        </p>
         <p>
           By studying DevOps, I am hoping to gain knowledge of the full
           developemnt cycle and cooperation. To have a deeper knowledage of
           efficiency improvement during software development.
           To have a better understanding of the work flow and communication.
         </p>
-        <p class="author">
-            by
-            <br />
-            Lili Xu
-        </p>
 
-        <h3>Weekly Update</h3>
+        <p class="leadquote">
+            Team: Coding
+        </p>
+            <p class="leadquote">
+              Write Up Book: <a href="http://agilemanifesto.org/">Manifesto for Agile Software Development</a>
+          </p>
+
+          <h2>About Lili</h2>
+          <li><a href="https://github.com/lilixu93">Github</a></li>
+          <p>
+              Hi, I'm Lili. A CS master student at NYU.
+              In this course, I am in coding team and write a quiz app with
+              django.
+          </p>
+
+        <h2>Weekly Update</h2>
 
                  <h4>Week 2</h4>
                  <p>
-                   We finalized our team placements and the task to take.
-                 </p>
-
-                 <h4>Week 3</h4>
-                 <p>
-                   We had a discussion with professor to have the basic
-                   datebase design diagram and application structure. We also
-                   plan to use django to implemnet our web server.
+                   We finalized our team placements and the task to take. We
+                   plan to use django to implement our web server.
                  </p>
 
                  <figure>
                      <img
-                     src="https://www.vizteams.com/wp-content/uploads/2014/04/django.png">
+                     src="https://www.vizteams.com/wp-content/uploads/2014/04/django.png" height="260">
                      <figcaption>
                          Django
                      </figcaption>
+                 </figure>
+
+                 <h4>Week 3</h4>
+                 <p>
+                   We had a discussion with professor to have the basic
+                   datebase design diagram and application structure.
+                 </p>
+
+                 <figure>
+                  <a data-flickr-embed="true"  href="https://www.flickr.com/photos/153956769@N04/41612941172/in/dateposted-public/" title="QQ20180423-142914@2x"><img src="https://farm1.staticflickr.com/852/41612941172_9fe72eb8fc.jpg" width="500" height="330" alt="QQ20180423-142914@2x"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+                  <figcaption>
+                     Database Schema Design
+                 </figcaption>
                  </figure>
 
                  <h4> Week 4</h4>
                  <p> We had a prelimary study of Django's design scope and
                    organizing structure, and start a basic demo by following
                    the official turtorial.
+                 </br>
                    <a href='https://docs.djangoproject.com/en/2.0/misc/design-philosophies/'>
                      Django Design philosophies</a>
                  </p>
@@ -89,6 +110,13 @@
                     to implemnet quiz app work flow. As described by professor,
                      it works as material - quiz - material - quiz ...
                   </p>
+
+                  <figure>
+                    <a data-flickr-embed="true"  href="https://www.flickr.com/photos/153956769@N04/40763629235/in/dateposted-public/" title="quiz_system"><img src="https://farm1.staticflickr.com/870/40763629235_508f229628.jpg" width="500" height="375" alt="quiz_system"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+                   <figcaption>
+                      Database Schema Design
+                  </figcaption>
+                  </figure>
 
                   <h4> Week 10</h4>
                   <p> This week we finished implementing the quiz app work flow.

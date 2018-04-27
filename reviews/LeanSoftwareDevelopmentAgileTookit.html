@@ -164,6 +164,11 @@
                   <a href="http://www.thedevopscourse.com/quiz/">Our Django
                   site: we are creating a quiz system here.</a>
                   </li>
+                  <li>
+                    <a href="https://gcallah.pythonanywhere.com/berkeley/">
+                        DevOps Bibliographic Search
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li>
@@ -207,6 +212,7 @@
               practices that work best in all people's particular domains.
               These tools are summarized into 7 lean principals from which
               they are translated.
+            </p>
               <br />
               <ul class="nested">
                   <li>Eliminate waste</li>
@@ -218,6 +224,7 @@
                   <li>See the whole</li>
               </ul>
               <br />
+            <p>
               These principles and its related toolkits are introduced in
               details one principle each chapter and provide
               practical suggestions for implementing the priciples and these
@@ -249,13 +256,14 @@
                   So before everything else, to implement this principle, the
                   first step is learning to see waste. If a thing can't
                   contribute to customer's perception or there is a way to go
-                  around it, it is waste. By this definition, Windston Royce had
-                  seen all steps besides coding and analysis are waste to
+                  around it, it is waste. By this definition, Windston Royce
+                  had seen all steps besides coding and analysis are waste to
                   development in 1970. The author metion this because it is a
                   good start to re-evalue steps in development waterfall
                   process. Then the auther translates the 7 wastes of
-                  manufacturing identified by Shigeo into 7 corresponding wastes
-                  in software development.
+                  manufacturing identified by Shigeo into 7 corresponding
+                  wastes in software development.
+                </p>
                   <br />
                   <table>
                     <tr>
@@ -308,7 +316,8 @@
                     <th>
                       The process of motion could become waste in process, not
                       only the people, but also the artifact information. Team
-                      work apart would cost time to communicate with each other.
+                      work apart would cost time to communicate with each other
+                      .
                       Handoff document from group to group also would be the
                       source since it can't contain all creater's knowledge.
                     </th>
@@ -325,6 +334,7 @@
                 </table>
                 <br />
                 <br />
+                <p>
                 Although management, project tracking and control syste,
                 authorization system would not directly add value to the
                 production process, they are still very important because
@@ -356,14 +366,142 @@
                 delay in the development process.
                 </p>
             </details>
-
+            <details>
+                <summary class="sum2">
+                    Chapter 2: Amplify Learning
+                </summary>
+                <p>
+                  Coming soon.
+                </p>
+            </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 3: Decide as late as possible
+                </summary>
+                <p>
+                  So in this part, the authors brings up the priority of
+                  concurrent development over sequatial development and
+                  what is "decide as late as possible" and why. They start
+                  with the comparison of cost of adapting changes to die design
+                  in American and Japanese car production process in 80s last
+                  century. The cost in Japan is much lower not due to a better
+                  original design but because they are using a more
+                  efficient and change-tolerance method, cocurrent process.
+                  And same in software development, programing has shown great
+                  improvement after switching to concurrent development.
+                  Instead
+                  of traditional depth-first design that constrains high-level
+                  and low-level decisions together, the new developemt applies
+                  breadth-first approach in design that high-level problem or
+                  changes can be adapted with much less cost since
+                  breadth-first
+                  method allow engineer to consider most options so inevitable
+                  changes or problems can be found and worked out as soon as
+                  possible which will overal cost much less time in deliverying
+                  the final product. Also, software is the kind of product that
+                  requires lifetime uprgade and these upgrades are not small
+                  even compared to the original product. So the design of
+                  a product should be more flexible to accept possible changes
+                  that could occur in development process or after release to
+                  avoid cost escalation. Decide as late as possible could help
+                  with it since it could help minimized the high-stake
+                  constrains and apply breadth-first approach to make them as
+                  correct as possible. It also can reduce the decisions number
+                  leading to changes and the cost escalation factor for
+                  changes. So using concurrent development and decide as late
+                  as possible help reduce the cost by minimize the constrains
+                  of a product to accept changes and reduce the changes cost.
+                </p><br />
+                <p>
+                  The first tool introduced in this part is options thinking.
+                  As mentioned by the authors, the arraction of satisfication
+                  guaranteed warranties is that irrevocable decision is not
+                  preferred by people when there is uncertainty. HP has brought
+                  a good example of how delay decisions helps in this condition
+                  that they make the electrical configuration of their printers
+                  after the orders are made so there could be adjustment among
+                  countries with different configuration. This is called
+                  "option opened" that delay the decision that make less
+                  constrains on options until the uncertainty gone. Microsoft
+                  also gambled in options by providing several systems that
+                  allow them to hold most options in market to reduce risk. And
+                  same in software development, minimize the options limit by
+                  delaying decisions until the customer requirement is clear
+                  or mature technology has been achieved would reduce cost in
+                  future changes or adjustment. However, options thinking is
+                  not something guaranteeing success but move the development
+                  into a favorable direction when there is uncertainty. To
+                  well apply it, engineer must be experienced and research much
+                  to decide which options should be open instead of keeping
+                  everything open.
+                </p><br />
+                <p>
+                  The second tool is the last responsible moment. According to
+                  previous approach, concurrent development allow delay
+                  commitment but the delay has to be a deadline. The last
+                  responsible moment is the toolkit to help make decisions.
+                  It is the due date that commitments have to be made to
+                  eliminate other important alternatives. or decisions would be
+                  made by default. Several tactics are introduced for making
+                  decisions at the last responsible moment:<br />
+                  1. Share partially complete design information:
+                  This helps
+                  reduce the length of feedback and shorten the exploratory
+                  cycles. <br />
+                  2. Organize for direct, worker-to-worker collaboration:
+                  This is demanded heavily when partial complete design is
+                  shared. People knwo details in requirement and implementation
+                  must work closely to refine in development process.<br />
+                  3. Develop a sense of how to absorb changes:
+                  This part brings some tactics that experts use to endorse in
+                  OOP design or any component-based development. <br />
+                  4. Develop a sense of what is critically important in the
+                  domain:
+                  Some features are so important that they drive early
+                  commitments which turns out to be flawed. It will narrow the
+                  field and overlook some critical elements than late
+                  commitment. So it should be clear what is more important.
+                  <br />
+                  5. Develop a sense of when decisions must be made:
+                  Delay commitment doesn't mean no commitment. A keen sense of
+                  timing and mechanism must be developed to make decisions in
+                  time.<br />
+                  6. Develop a quick response capability:
+                  Response time is the capacibility to allow late commitments.
+                  The faster the response can be made, the later the
+                  commitments can be made.
+                </p><br />
+                <p>
+                  The third tool is making decisions. In this part, the authors
+                  have summarize some components in previous tools and talk
+                  about approaches in decision making. First, they talk about
+                  the comparison between depth-first approach and breadth-first
+                  one as mentioned in the first tool and claim their advantages
+                  and risk and see conidtions which approach should be applied.
+                  Breath-first approach is normally the more effective one
+                  since it has less limitaion and requirement. Then it talked
+                  about the intuitive decision making compared to rational
+                  decision making. It is actually pretty surprising that
+                  intuitive decision making performs better in most conditions
+                  that high-stakes mistakes is more likely detected because
+                  rational decision would suffer tunnel version and timing.
+                  The authors have given examples in fire department and
+                  the Marrines to support this opinion which is pretty
+                  convincing. At last, the author clarify that the rules that
+                  decision making follows must be simple. Simple rule can
+                  help well in flexibility, robustness and self-organization.
+                  It allows people to act quickly without waiting. And as
+                  metioned before, quicker action/response allows later
+                  decition making.
+                </p><br />
+            </details>
             <h2>
               Citation:
             </h2>
             <p>
-              [1] Poppendieck, Mary. Lean Software Development: An Agile Toolkit
-              (Agile Software Development Series) (p. 1). Pearson Education.
-              Kindle Edition.
+              [1] Poppendieck, Mary. Lean Software Development: An Agile
+              Toolkit (Agile Software Development Series) (p. 1). Pearson
+              Education. Kindle Edition.
             </p>
           </div>
         </div>

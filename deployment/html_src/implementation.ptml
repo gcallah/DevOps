@@ -23,7 +23,7 @@
                 puppet master and one puppet agent.
                 </p>
                 <h4> Steps </h4>
-                <ol>
+                <ol class="nested">
                 <li> KeyPair -
                     Login to Amazon AWS console. Go to Network and Security
                     and create key pairs to login into EC2 instances from
@@ -77,7 +77,7 @@
                 </li>
                 </ol>
                 <h4> Master Configuration </h4>
-                <ol>
+                <ol class="nested">
                 <li> Configure hostname for master node as:
                 <br>
                 [root@master ~]# hostname master.devops.org
@@ -134,7 +134,7 @@
                 </li>
                 </ol>
                 <h4> Agent Configuration </h4>
-                <ol>
+                <ol class="nested">
                 <li> Configure hostname for agent node as:
                 <br>
                 [root@agent ~]# hostname agent.devops.org
@@ -165,7 +165,7 @@
                 </li>
                 </ol>
                 <h4> Certificates </h4>
-                <ol>
+                <ol class="nested">
                 <li> Certificate request from agent:
                 <br>
                 [root@agent ~]# puppet agent --test
@@ -182,7 +182,7 @@
                 </li>
                 </ol>
                 <h4> Deploying website on agent </h4>
-                <ol>
+                <ol class="nested">
                 <li> Create manifests for setting up apache server on agent:
                 <br>
                 Go to path "/etc/puppetlabs/code/environments/production/
@@ -219,9 +219,9 @@
                 </ol>
                 <p>
                 After following the above steps, the website is deployed
-                on agent node and can be accessed by clicking 
-                <a href="http://ec2-18-232-86-184.compute-1.amazonaws.com/"> 
-                here </a>. It should open the deployed website as shown -
+                on agent node and can be accessed by using the agent ip
+                address or dns name. It should open the deployed website as
+                shown -
                 <figure>
                     <img src="graphics/websiteup.png" style="width:604px;height:442px;">
                 </figure>

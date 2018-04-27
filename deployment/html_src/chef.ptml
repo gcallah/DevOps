@@ -58,7 +58,36 @@
     		Use the following link: https://downloads.chef.io/chefdk/ to install the Chef development toolkit.
     		It has download and install options for different versions of Linux as well as Mac and Windows. It contains a set of tools needed to test your infrastructure.
         The following link can be used to download the Chef server: https://downloads.chef.io/chef-server
+
+        Chef Cookbooks:
+        Cookbooks are said to be the fundamental unit of configuration. Chef uses cookbooks to perform work and makes sure everything is running smoothly.
+        The nodes on your system use the configuration details from your cookbooks.
+        A number of terms related to cookbooks are:
+        <ul>
+    		<h6>
+        <li> <u>Recipes</u></li>
+        <li> <u>Files</u></li>
+        <li> <u>Attributes</u></li>
+        <li> <u>Templates</u></li>
+        </h6>
+        </ul>
         </br> </br>
+
+        We can now move on to the creation of cookbooks:
+        Go to your specific chef directory:
+        cd ~/chef-repo
+
+        Create a cookbook:
+        knife cookbook create cookbook_name
+
+        Lets call it devops, so:
+        knife cookbook create devops
+
+        cd cookbooks/devops
+        ls
+
+        This will create a folder for your cookbook.
+        
       </p>
       </div>
     </div>

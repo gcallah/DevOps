@@ -21,7 +21,7 @@
               <br>
               <p>
                 <b>How to get started with Trello API: </b> <br>
-                <ul>
+                <ul class = 'nested'>
                   <li>
                     Login into your <a href="https://trello.com/">Trello</a> Account.
                   </li>
@@ -36,17 +36,73 @@
                   </li>
                   <li>
                     Sample Code in Python to read all the details related to
-                    user having dsd2981 as his member id
+                    user having dsd2981 as his member id <br>
+                    Code:
 <pre>
 <code>
 import requests
 url_member = "https://api.trello.com/1/members/dsd2981"
 querystring = {"key":"b282952c1211b7eb3c16b7c3adfbbf7f","token":"12f1ebbfd62746257dbfb66c07ce42d1240d0a0cf0d1959b5706f411edd6315d"}
 response_member = requests.request("GET", url_member, params=querystring)
+data_member = json.loads(response_member.text)
+board_ids = data_member['idBoards']
 </code>
 </pre>
                     Note: You can find your memberid in your Trello Profile
                     page
+                  </li>
+                </ul>
+              </p>
+              <p>
+                <b>Extracting all the cards in a board:</b>
+                <ul class = 'nested'>
+                  <li>
+                    Code:
+<pre>
+<code>
+url_board_cards = "https://api.trello.com/1/boards/" + board_ids[i]+"/cards"
+response_board_cards = requests.request("GET", url_board_cards, params=querystring)
+data_board_cards = json.loads(response_board_cards.text)
+</code>
+</pre>
+                  </li>
+                </ul>
+              </p>
+              <p>
+                <b>How to send a mail using python:</b>
+                <ul class = 'nested'>
+                  <li>
+                    Code:
+<pre>
+<code>
+# set up the SMTP server
+s = smtplib.SMTP(host='smtp.gmail.com', port=587)
+s.starttls()
+
+# reading login credentials from a EMAIL_INFO.txt file
+# Format of EMAIL_INFO.txt file:&lt;email_id&gt;&lt;password&gt;
+text_file = open("EMAIL_INFO.txt","r")
+lines = text_file.read().split(' ')
+s.login(user=lines[0], password=lines[1])
+
+to_contacts = ["dsd298@nyu.edu"]
+for i in range(0, len(to_contacts)):
+    msg = MIMEMultipart()       # create a message
+    # message = "this is a test"
+    msg['From'] = "devopsnyu@gmail.com"
+    msg['To'] = to_contacts[i]
+    msg['Subject'] = "Card Inactivity Information E-Mail"
+
+    # add in the message body
+    msg.attach(MIMEText(message, 'plain'))
+
+    s.send_message(msg)
+    del msg
+
+# closing SMTP connection
+s.quit()
+</code>
+</pre>
                   </li>
                 </ul>
               </p>

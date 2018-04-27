@@ -217,16 +217,16 @@
                     Chapter 2: Installing Git
                 </summary>
                 <p>
-                	Git isn't preinstalled in any GNU/ Linux distribution or any 
-                	other operating system. To use Git, we need to explicitly 
-                	install it, depending on our local OS. Git is offered as 
-                	a bunch of packages, and every individual package can be 
-                	installed separately based on our requirement. For every 
-                	OS, we need to find the appropriate package to use to their 
-                	native package member to install the software. Like any 
-                	other open source software, Git needs to be configured 
-                	before running the made command and then finally be 
-                	installed.
+                Git isn't preinstalled in any GNU/ Linux distribution or any 
+                other operating system. To use Git, we need to explicitly 
+                install it, depending on our local OS. Git is offered as 
+                a bunch of packages, and every individual package can be 
+                installed separately based on our requirement. For every 
+                OS, we need to find the appropriate package to use to their 
+                native package member to install the software. Like any 
+                other open source software, Git needs to be configured 
+                before running the made command and then finally be 
+                installed.
                 
                 </p>
             </details>
@@ -260,8 +260,8 @@
                 discussed next. Index is a temporary and dynamic binary file 
                 that describes the directory structure of the entire repository. 
                 Some other features of Git are discussed like Content Addressable 
-                Names, Git Tracks Content, difference between pathname and content, 
-                pack files, object store pictures, etc. 
+                Names, Git Tracks Content, difference between pathname and 
+                content, pack files, object store pictures, etc. 
                 </p>
             </details>
             <details>
@@ -269,20 +269,19 @@
                     Chapter 5: File Management and the Index
                 </summary>
                 <p>
-                	This chapter discusses about the classification of files in 
-                	Git. Git classifies your files into three main categories: 
-                	Tracked files, ignored files, and untracked files. Tracked 
-                	files are the files which are already added in the repository 
-                	or files that are staged in the index. Ignored files have to 
-                	be explicitly declared invisible or ignored in the 
-                	repository, inspite of being present within the working 
-                	directory. Untracked files are any files which aren't tracked 
-                	or ignored. The 'git add' command is used to stage a file or 
-                	directory of files. 'Git commit' is used to stage unstaged, 
-                	tracked file changes. 'Git status' shows what a regular 
-                	commit would do. 'Git rm' is the natural inverse of 
-                	'git add'. It removes the file from the repository as well 
-                	as the working directory.
+                This chapter discusses about the classification of files in 
+                Git. Git classifies your files into three main categories: 
+                Tracked files, ignored files, and untracked files. Tracked 
+                files are the files which are already added in the repository 
+                or files that are staged in the index. Ignored files have to 
+                be explicitly declared invisible or ignored in the repository, 
+                inspite of being present within the working directory. 
+                Untracked files are any files which aren't tracked or ignored. 
+                The 'git add' command is used to stage a file or directory of 
+                files. 'Git commit' is used to stage unstaged, tracked file 
+                changes. 'Git status' shows what a regular commit would do. 
+                'Git rm' is the natural inverse of 'git add'. It removes the 
+                file from the repository as well as the working directory.
                 </p>
             </details>
             <details>
@@ -312,9 +311,10 @@
 		may later lead to production of numberous versions of the same 
 		project. A branch usually merges with the other branches towards 
 		the end. The default branch is called master, and it usually 
-		contains the more robust line of development. It is introduced by 
-		Git during the repository initialization. Heirarchical branch names 
-		can be used to enable categorized organization and scalability. 
+		contains the more robust line of development. It is introduced 
+                by Git during the repository initialization. Heirarchical branch 
+                names can be used to enable categorized organization and 
+                scalability. 
                 </p>
             </details>
             <details>
@@ -322,7 +322,12 @@
                     Chapter 8: Diffs
                 </summary>
                 <p>
-                
+                A diff refers to a brief summary of the differences between two 
+                objects. For example, if we consider two text files, diff will 
+                compare them line by line and show the deviations. While diff 
+                shows the differences, it shows no reason for justifying the 
+                changes. However, it doess offer a formal description on how 
+                one file can be transformed into another.
                 </p>
             </details>
             <details>
@@ -330,7 +335,22 @@
                     Chapter 9: Merges
                 </summary>
                 <p>
-                
+                Git is a Distributed Version Control System, and thus allows 
+                developers in different cities or even countries to work 
+                independently and commit their respective changes. It also 
+                permits them to merge their work whenever needed without the 
+                need of a central repository. A merge unifies multiple commit 
+                history branches. This merge must occur within a single 
+                repository. When there are no conflicts between the modifications 
+                in different branches, Git creates a merge result and a new 
+                commit representing the merge is created. However, when there is 
+                a conflict in the modifciations, Git does not resolve the issue. 
+                Rather, it leaves the merge to the users. It is upto the user to 
+                make a final commit when all the conflicts are resolved. During a 
+                merge, Git generates new versions of the files in the working 
+                directory once finished. Git makes use of index to store the 
+                intermediate versions of files during operations. 
+              
                 </p>
             </details>
             <details>
@@ -338,12 +358,81 @@
                     Chapter 10: Altering Commits
                 </summary>
                 <p>
-                
+                A commit maintains the history of one's work, but the commit 
+                itself isn't saved as immutable. Git offers various tools and 
+                commands designed specially to aide us edit and improve the 
+                commit history. One may want to modify their commit to prevent 
+                a problem from becoming a legacy, to break down a large change 
+                into smaller chunks of modifications, or to combine a number 
+                of small changes to a big commit, to add review feedback and 
+                suggestions, to reorder the commits in a more logical sense, 
+                and to remove debug code committed accidentally. The simplest 
+                way to modify the recentmost commit is using git commit --amend. 
+                The 'amend' indicates that the fundamental content is the same, 
+                but some adjustment is required. Another use is to fix typos or 
+                errors immediately post commit.     </p>
+            </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 11: Remote Repositories
+                </summary>
+                <p>
+                A remote is a reference to another repoitory. A repository can 
+                have any number of repositories and have a vast network of 
+                repository sharing. A local repository is created by cloning 
+                the master repository. Once the repository is created, you 
+                can update and edit it by using pull and push, respectively. 
+                One should regularly update their local repository from the 
+                master to maintain syncronization. In order to keep a check 
+                on other repositories using tracking branches. You can share 
+                your repository with others by publishing it. Git provides 
+                several ways for doing so. 
                 </p>
             </details>
             <details>
                 <summary class="sum2">
-                    Chapter 11: The Stash and the Reflog
+                    Chapter 12: Repository Management
+                </summary>
+                <p>
+                There are two main approaches to repository management. One 
+                focusses on centralizing the repository while the other 
+                focusses on distributing it. For instance, if one is working 
+                on a centralized repository, every contributor to that repository 
+                has a complete, private copy of that repository and can work in 
+                an independent and parallel manner. All the work is managed 
+                through a central repository which is shared. Many version 
+                control systems make use of a centralized server in order to 
+                maintain a repository. On the other hand, larger projects often 
+                follow a distributed development model, which comprises of 
+                a centralized, yet logically segmented repository. This 
+                repository is segmented logically. Hence, even though it 
+                exists as a singly physical entity, logical proportions 
+                are assigned to different teams or people who work 
+                independently.
+                </p>
+            </details>
+	    <details>
+                <summary class="sum2">
+                    Chapter 13: Patches
+                </summary>
+                <p>
+                Git lets development work to be transferred between different 
+                repositories directly and instantly using the push and pull model. 
+                Various people clone a repository and work independently and push 
+                commits. Finally, they share their modifications with the other 
+                collaborators. Patches are sent via emails, thus each recipient 
+                may chose to apply all, some, or none of the patches. Patches are 
+                used for two main reasons: Git native protocols and HTTP protocol 
+                can't be used for data exchange between repositories in the 
+                direction of either pull or push, and patches allow collaboration 
+                in a peer-to-peer development. Before making the patches permanent, 
+                other collaborators can discuss and review, and may give a red or 
+                green signal.  
+                </p>
+            </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 14: Hooks
                 </summary>
                 <p>
                 
@@ -351,15 +440,27 @@
             </details>
             <details>
                 <summary class="sum2">
-                    Chapter 12: Remote Repositories
+                    Chapter 15: Hooks
                 </summary>
                 <p>
+                Git hooks are used to run one or more arbitrary scripts on 
+                account of a patch or commit occuring in the repository. 
+                Usually, an event is broken down into a number of prescribed 
+                steps, and we can tie up a customized script to each step. An 
+                appropriate script is called on even of the outset of every step. 
+                A hook runs in context of either the current local repository or 
+                the remote repository. Moreover, hooks can be categorized into 2 
+                main categories: a 'pre' hook runs before the completion of an 
+                action. Such hooks can be used to approve, reject, or update a 
+                modification before being applied. On the other hand, the 'post' 
+                hooks run after the completion of an action. It triggers 
+                notifications or launches required processing.
                 
                 </p>
             </details>
             <details>
                 <summary class="sum2">
-                    Chapter 13: Repository Management
+                    Chapter 16: Hooks
                 </summary>
                 <p>
                 

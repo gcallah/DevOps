@@ -23,6 +23,9 @@ website: $(INCS) $(HTMLFILES)
 
 local: $(HTMLFILES)
 
+newsfeed: 
+	cd $(UTILS_DIR);python fetch_news_feed.py
+
 all:
 	make local
 	cd build; make local; cd ..

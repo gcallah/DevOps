@@ -29,8 +29,8 @@
               Chapter 1: Challenges and Principles
             </summary>
             <p>
-                The first chapter explains about what Infrastructure as Code means to the readers and the goals that Infrastructure as a Code intends to achieve. The automation fear
-                spiral is one thing that engineers have to consider if they wish to automate the work with minimum hassle. The chapter then delves into the principles of
+                The first chapter explains about what Infrastructure as Code means to the readers and the goals that Infrastructure as a Code intends to achieve. The author also explains 
+				the challanges with dynamic infrastructure with the help of case studies from his own experience as an engineer.The chapter then delves into the principles of
                 Infrastructure as code, introducing us to the principles with examples where they are necesary.
             </p>
         </details>
@@ -87,6 +87,44 @@
               The preference of such tools is based on factors such as external configuration, how dynamic the tools are and how easy it to obtain cloud-compatible license.
               Sharing a service across the team or company is one of the important factors and author substantiates this with an example here. He then discusses about the
               Monitoring and what goals should it achieve, importance of Logging, deployment and packaging of the software etc.
+            </p>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              Chapter 6: Patterns for provisioning servers
+            </summary>
+            <p>
+              In the first part of the book the author described design and configuration of infrastructure tools. This chapter is the beginning of the
+              2nd part of the book where the author describes how to make servers ready for use. To provision server means allocating resources to server and
+              making it functional so that it can be used by various users. Server has life cycle which includes: 1) Packaging a server template
+              2) Creating a new server 3)Updating the server and 4) Deleting the server. He substantiates each of the step with an example and explains
+              the lifecycle of a server unambiguously.
+
+              The patterns for creating the servers such as cloning the existing server,instantiating from a snapshot etc can be accomplished by using AWS Free
+              tier account. We should also know about the anti pattern discussed in the book which is one of the important ways of creating servers. In overall,
+              the author here discusses about patterns of creating servers and gives an overview of server's lifecycle.
+            </p>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              Chapter 7: Patterns for Managing Server Templates
+            </summary>
+            <p>
+              This chapter provides an overiew of server templates and how servers can be provisioned from using these templates. The important
+              thing while provisioning the server would be as what packages should the templates include for customer usage and what packages should
+              be used while creating the server. The book discusses 3 steps involved in provisioning the servers using templates in detail.
+              The three steps being:
+              <ul class=nested>
+              <li> Selecting an image </li>
+              <li> Applying customizations to the image </li>
+              <li> Packaging the image into server template image </li>
+              </ul>
+            </p>
+            <p>
+              The author then discusses about the different kinds of building the templates and explains them with examples.
+              This chapter along with the previous two chapters provide an insight as how to provision the servers.
             </p>
         </details>
 

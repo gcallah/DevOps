@@ -139,6 +139,85 @@
                 provide insight on annotation with detailed applicability.
                 </p>
                 </details>
+                <details>
+                <summary class="sum2">
+                    Chapter 7: Service Discovery
+                </summary>
+                <p>
+                The authors start by defining what Service discovery is and
+                the characteristics of a good service discovery system. Since
+                Kubernetes is a dynamic system where applications are placed
+                dynamically, service discovery is crucial to fully utilize the
+                power of Kubernetes. The service object allows to expose
+                services within and outside the cluster. Kubernetes provides a
+                DNS service which provides DNS names for cluster IPs, exposed
+                to Pods running in the cluster. The authors also describe how
+                to add readiness check within deployment to track which pods
+                are ready. Some advanced features like using Endpoints to
+                communicate directly with the service are also discussed.
+                </p>
+                </details>
+                <details>
+                <summary class="sum2">
+                    Chapter 8: ReplicaSets
+                </summary>
+                <p>
+                Building on the information provided in the chapter 5: Pods, 
+                the authors in this sections explains the concept of 
+                ReplicaSets to  ensure redundancy for making the system failure
+                tolerant, scaling and sharding of the Pods. In a cluster, the 
+                ReplicaSets are important to support the declarative 
+                configuration of desired state and current state on the basis 
+                of reconciliation loops. The authors also discuss the loosely 
+                coupled relationship between Pods and ReplicaSets. The later 
+                part of the chapter involves a technical overview of the 
+                ReplicaSets with various specifications, templates and labels. 
+                The Authors have also provided with multiple commands and 
+                declarative configs for creating, inspecting,scaling and 
+                deleting a ReplicaSet. One of the interesting take away from 
+                the chapter is the auto-scaling based on the CPU usage which 
+                is commonly used for Pods scaling.
+                </p>
+                </details>
+                <details>
+                <summary class="sum2">
+                    Chapter 9: DaemonSets
+                </summary>
+                <p>
+                In this chapter, the authors present an in-depth discussion 
+                on DaemonSet, which is basically responsible for deploying 
+                the system daemons like log collectors and monitoring agent.
+                Authors define the similarity and difference between the 
+                concept and use of ReplicaSet and DaemonSet. The relationship 
+                between these two components of Kubernetes gives great idea 
+                behind the 'decoupled architecture' of Kubernetes. The authors 
+                further explain the practical examples of creating, updating 
+                and deleting DaemonSet in a K8 environment. DaemonSets are 
+                critical in an autoscaled Kubernetes cluster where nodes may 
+                constantly be coming and going without user intervention.
+                </p>
+                </details>
+                <details>
+                <summary class="sum2">
+                    Chapter 10: Jobs
+                </summary>
+                <p>
+                Until now, the authors have only discussed the major components
+                for running and maintaining the long-term processes, however, 
+                in this section, they have presented a discussion on 
+                short-lived or short-term process executing objects called 
+                'jobs'. The basic idea behind jobs is to create pods until 
+                successful termination is received, that is, if a pod fails 
+                before a successful termination, the job object will create a 
+                new pod based on the declarative configuration template until 
+                successful termination is achieved. The authors have also 
+                explained in detail the two attributes of job patterns like 
+                'completions' and 'parallelism'. The authors concluded the 
+                chapter by defining a job as low-level primitive which can be 
+                used for simple workloads but can be used for high-level 
+                orchestration systems.
+                </p>
+                </details>
 
             </div>
         </div>
