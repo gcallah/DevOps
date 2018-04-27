@@ -357,6 +357,32 @@
           </span>
         </code>
       </pre>
+      <p>Command line output sample:</p>
+      <pre>
+      <code>
+         <span>
+          <b>MacBook-Pro:devOps deployment$ docker-machine create --driver virtualbox myvm1</b>
+          Running pre-create checks...
+          Creating machine...
+          (myvm1) Copying /Users/darkknight/.docker/machine/cache/boot2docker.iso to /Users/darkknight/.docker/machine/machines/myvm1/boot2docker.iso...
+          (myvm1) Creating VirtualBox VM...
+          (myvm1) Creating SSH key...
+          (myvm1) Starting the VM...
+          (myvm1) Check network to re-create if needed...
+          (myvm1) Waiting for an IP...
+          Waiting for machine to be running, this may take a few minutes...
+          Detecting operating system of created instance...
+          Waiting for SSH to be available...
+          Detecting the provisioner...
+          Provisioning with boot2docker...
+          Copying certs to the local machine directory...
+          Copying certs to the remote machine...
+          Setting Docker configuration on the remote daemon...
+          Checking connection to Docker...
+          Docker is up and running!
+         </span>
+      </code>
+    </pre>
     </li>
     <li> List the virtual machines to look at the created vms.
       <pre>
@@ -366,6 +392,18 @@
           </span>
         </code>
       </pre>
+      <p>Command line output sample:</p>
+      <pre>
+      <code>
+         <span>
+          <b>MacBook-Pro:devOps deployment$ docker-machine ls</b>
+          NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER        ERRORS     
+          myvm1     -        virtualbox   Running   tcp://192.168.99.100:2376           v18.03.1-ce   
+          myvm2     -        virtualbox   Running   tcp://192.168.99.101:2376           v18.03.1-ce   
+          myvm3     -        virtualbox   Running   tcp://192.168.99.102:2376           v18.03.1-ce  
+         </span>
+      </code>
+    </pre>
     </li>
         <li> The virtual machines can be connected using ssh to execute 
           commands and make proper swarm setup. Consider the "vm1" 
@@ -378,6 +416,21 @@
           </span>
         </code>
       </pre>
+      <p>Command line output sample:</p>
+      <pre>
+      <code>
+         <span>
+          <b>MacBook-Pro:devOps deployment$ docker-machine ssh myvm1 "docker swarm init --advertise-addr 192.168.99.100"</b>
+          Swarm initialized: current node (lhys3d8lpqc1onnikx5t9jaep) is now a manager.
+
+          To add a worker to this swarm, run the following command:
+
+          docker swarm join --token SWMTKN-1-0u40ts3aguqoa4jmt7rmrxh1gpkujs2fahhdmi55uz0eum3bxi-cwaxy2whk4pq2sxpg0g7prao0 192.168.99.100:2377
+
+          To add a manager to this swarm, run 'docker swarm join-token manager' and follow the instructions.
+         </span>
+      </code>
+    </pre>
     </li> 
       <li> Next, the worker nodes have to configured such that
        they recognize the swarm configuration and know the master. 
@@ -390,7 +443,24 @@
           </span>
         </code>
       </pre>
+      <p>Command line output sample:</p>
+      <pre>
+      <code>
+         <span>
+          <b>MacBook-Pro:devOps deployment$ docker-machine ssh myvm2 "docker swarm join --token SWMTKN-1-0u40ts3aguqoa4jmt7rmrxh1gpkujs2fahhdmi55uz0eum3bxi-cwaxy2whk4pq2sxpg0g7prao0 192.168.99.100:2377"</b>
+          This node joined a swarm as a worker.
+         </span>
+      </code>
+    </pre>
     </li> 
+    </ul>
+    <ul>
+      <h4>References and Source:</h4>
+      <li>Image from https://raw.githubusercontent.com/docker-library/</li>
+      <li>Image from https://raw.githubusercontent.com/docker/compose/master/logo.png</li>
+      <li>Image from https://i.stack.imgur.com/jc2IW.jpg</li>
+      <li>Docker compose reference at https://hub.docker.com/r/openweb/git-sync/</li>
+      <li>Docker Swarm - https://docs.docker.com/get-started/part4/#configure-a-docker-machine-shell-to-the-swarm-manager</li>
     </ul>
       </div>
     </div>
