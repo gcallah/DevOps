@@ -197,6 +197,27 @@
                 constantly be coming and going without user intervention.
                 </p>
                 </details>
+                <details>
+                <summary class="sum2">
+                    Chapter 10: Jobs
+                </summary>
+                <p>
+                Until now, the authors have only discussed the major components
+                for running and maintaining the long-term processes, however, 
+                in this section, they have presented a discussion on 
+                short-lived or short-term process executing objects called 
+                'jobs'. The basic idea behind jobs is to create pods until 
+                successful termination is received, that is, if a pod fails 
+                before a successful termination, the job object will create a 
+                new pod based on the declarative configuration template until 
+                successful termination is achieved. The authors have also 
+                explained in detail the two attributes of job patterns like 
+                'completions' and 'parallelism'. The authors concluded the 
+                chapter by defining a job as low-level primitive which can be 
+                used for simple workloads but can be used for high-level 
+                orchestration systems.
+                </p>
+                </details>
 
             </div>
         </div>
