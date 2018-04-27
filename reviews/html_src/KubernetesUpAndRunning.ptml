@@ -162,13 +162,13 @@
                     Chapter 8: ReplicaSets
                 </summary>
                 <p>
-                Building up on the information provided in the chapter 5: Pods, 
+                Building on the information provided in the chapter 5: Pods, 
                 the authors in this sections explains the concept of 
                 ReplicaSets to  ensure redundancy for making the system failure
                 tolerant, scaling and sharding of the Pods. In a cluster, the 
                 ReplicaSets are important to support the declarative 
                 configuration of desired state and current state on the basis 
-                of reconciliation loops. The authors also discusses the loosely 
+                of reconciliation loops. The authors also discuss the loosely 
                 coupled relationship between Pods and ReplicaSets. The later 
                 part of the chapter involves a technical overview of the 
                 ReplicaSets with various specifications, templates and labels. 
@@ -177,6 +177,24 @@
                 deleting a ReplicaSet. One of the interesting take away from 
                 the chapter is the auto-scaling based on the CPU usage which 
                 is commonly used for Pods scaling.
+                </p>
+                </details>
+                <details>
+                <summary class="sum2">
+                    Chapter 9: DaemonSets
+                </summary>
+                <p>
+                In this chapter, the authors present an in-depth discussion 
+                on DaemonSet, which is basically responsible for deploying 
+                the system daemons like log collectors and monitoring agent.
+                Authors define the similarity and difference between the 
+                concept and use of ReplicaSet and DaemonSet. The relationship 
+                between these two components of Kubernetes gives great idea 
+                behind the 'decoupled architecture' of Kubernetes. The authors 
+                further explain the practical examples of creating, updating 
+                and deleting DaemonSet in a K8 environment. DaemonSets are 
+                critical in an autoscaled Kubernetes cluster where nodes may 
+                constantly be coming and going without user intervention.
                 </p>
                 </details>
 
