@@ -50,7 +50,7 @@
                     <img src="graphics/rhel.png" style="width:604px;height:442px;">
                     </figure>
 
-                    Click "Configure Instance Details" and choose Number of
+                    Click "Configure Instance Details" and choose number of
                     instances 2 (master and agent).
 
                     <figure>
@@ -222,10 +222,12 @@
                 on agent node and can be accessed by using the agent ip
                 address or dns name. It should open the deployed website as
                 shown -
+                </p>
                 <figure>
                     <img src="graphics/websiteup.png" style="width:604px;height:442px;">
                 </figure>
                 <br>
+                <p>
                 If there are any new commits made on git the website will
                 be continuously refreshed with the changes.
                 </p>
