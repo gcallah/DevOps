@@ -72,6 +72,22 @@
         </h6>
         </ul>
         </br> </br>
+
+        We can now move on to the creation of cookbooks:
+        Go to your specific chef directory:
+        cd ~/chef-repo
+
+        Create a cookbook:
+        knife cookbook create cookbook_name
+
+        Lets call it devops, so:
+        knife cookbook create devops
+
+        cd cookbooks/devops
+        ls
+
+        This will create a folder for your cookbook.
+        
       </p>
       </div>
     </div>
