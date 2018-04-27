@@ -75,10 +75,20 @@
                  <h4> Week 4</h4>
                  <p> We had a prelimary study of Django's design scope and
                    organizing structure, and start a basic demo by following
-                   the official turtorial.
+                   the official turtorial. During the Study, I learnt a lot
+                   from Django Design philosophies, it not only applies to
+                   Django, but also for agile development.
                  </br>
-                   <a href='https://docs.djangoproject.com/en/2.0/misc/design-philosophies/'>
-                     Django Design philosophies</a>
+                   <h5 href='https://docs.djangoproject.com/en/2.0/misc/design-philosophies/'>
+                     Key Points From Django Design Philosophies</h5>
+                     <ol>
+                       <li>Loose coupling</li>
+                       <li>Less code</li>
+                       <li>Quick development</li>
+                       <li>No Repeating</li>
+                       <li>Explict over implict</li>
+                       <li>Consistency</li>
+                     </ol>
                  </p>
 
                  <h4> Week 5 </h4>
