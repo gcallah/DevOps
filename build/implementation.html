@@ -347,6 +347,17 @@
                       </p>
 
                 </details>
+                <details>
+                <summary class="sum3">
+                  Test_html file
+                </summary>
+                     <p>
+                      Test_html file is basically the file which consists of 
+                      all the codes. This seperation is done to avoid
+                      repeating ourselves since this code may be required by
+                      different teams to perform their own testing.
+                     </p>
+                </details>
         </details>
 
 <!-- How to implement the build process -->
@@ -439,6 +450,23 @@
         <summary class="sum2">
             Frequently Asked Build Questions
         </summary>
+        <details>
+        <summary class="sum3">
+            Why is that when I run make local, I get a message saying: <br>
+            make: Nothing to be done for `local'.
+        </summary>
+            <p>
+              The build tool make takes into consideration the timestamps of 
+              ptml (pre-html) and the html. If our ptml is newer than the html
+              files then the command make local will work. If you have been
+              editing the html file and it has a timestamp newer than ptml then
+              you are likely to see this error. One more possibility is when 
+              you run make local on a file and without making any changes
+              we run make local again. This means that both the
+              timestamps are the same and our code will assume there is
+              nothing to be done.
+            </p>
+        </details>
         <details>
         <summary class="sum3">
          How to install Command Line Tool on Mac OS X ?
