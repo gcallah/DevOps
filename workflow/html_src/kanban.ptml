@@ -19,8 +19,7 @@
       </p>
       <br>
       <figure>
-          <img
-          src="multimedia/workflow_sample.png" width="403" height="304">
+          <img src="multimedia/workflow_sample.png" width="30%">
           <figcaption>
               Outline of workflow with added buffers
           </figcaption>
@@ -43,7 +42,7 @@
             Most important principles required to make quality software
             development
           </summary>
-          <ul>
+          <ul class="nested">
             <li>
               Visualize Workflow
             </li>
@@ -66,7 +65,7 @@
         <summary class = "sum4">
           Why should we use kanban?
         </summary>
-        <ul>
+        <ul class="nested">
           <li>
             Focus on Quality
           </li>
@@ -92,7 +91,7 @@
         <summary class = "sum4">
           Implementing kanban
         </summary>
-        <ol>
+        <ol class="nested">
           <li>
             Decide the outer boundaries of the kanban system.  It is often best
             to limit this to the immediate span of political control.
@@ -140,7 +139,7 @@
         <summary class = "sum4">
           Coordinating with kanban systems
         </summary>
-        <ul>
+        <ul class="nested">
           <li>
             Using both physical card wall and an electronic tracking system.
           </li>
