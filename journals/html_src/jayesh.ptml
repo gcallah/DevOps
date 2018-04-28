@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+<!--include subhead.txt -->
         <title>
-            Why DevOps
+            My DevOps Story
         </title>
         <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id = "content">
 
         <h1>
             Why DevOps
@@ -30,6 +32,25 @@ Hello, My name is Jayesh Mhatre. I'm a graduate student at NYU pursuing Masters 
 <li> Finally and very important, it's <b>VERY INTERESTING!!!</b></li>
 </ul>
         </p>
+		<h2>Weekly Updates: </h2>
+            <ul>
+                <li><strong>Week 3:</strong> Started reading the Web Developer's Hacker handbook.
+                Joined Slack and Trello Coding groups.</li>
+                <li><strong>Week 4:</strong> Started reading documentations on MyPy,
+                followed tutorials on YouTube. </li>
+                <li><strong>Week 5:</strong> Installed MyPy and wrote the "How to Install MyPy"
+                page "for the coding team. </li>
+                <li><strong>Week 6:</strong> Started reviewing the chapters of Web Developer Hacker.
+                Wrote a page on "Advantages of MyPy" for the coding team. </li>
+                <li><strong>Week 7:</strong> Started testing mypy with sample code and also with
+				python files in utils folder.</li>
+                <li><strong>Week 8:</strong> Implemented mypy for all the python files in Utils  
+                repository successfully. Updated book review page.</li>
+                <li><strong>Week 9:</strong> Started working on unit testing scripts for html_spell
+  	            team.</li>
+            </ul>
+		</div>
+        </div>
 
     </body>
 </html>
