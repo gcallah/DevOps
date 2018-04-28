@@ -25,10 +25,10 @@
             </h2>
             <p>
               This book aims to introduce the thinking tools for software
-              development process to go agile. It functions aside
+              development process to go agile. It functions as
               a toolkit to help translate widely accepted lean principles
-              into effective, agile practices that can be customized
-              to individual software development domains. The author is
+              into practices that can be customized to individual software
+              development domains. The author is
               trying to dig out the potential improvement for development
               process.
               <br />
@@ -39,21 +39,20 @@
             </p>
               <br />
               <ul class="nested">
-                  <li>Eliminate waste</li>
-                  <li>Amplify learning</li>
-                  <li>Decide as late as possible</li>
-                  <li>Deliver as fast as possible</li>
-                  <li>Empower the team</li>
-                  <li>Build integrity in</li>
-                  <li>See the whole</li>
+                  <li>Eliminate waste[1]</li>
+                  <li>Amplify learning[1]</li>
+                  <li>Decide as late as possible[1]</li>
+                  <li>Deliver as fast as possible[1]</li>
+                  <li>Empower the team[1]</li>
+                  <li>Build integrity in[1]</li>
+                  <li>See the whole[1]</li>
               </ul>
               <br />
             <p>
               These principles and its related toolkits are introduced in
               details one principle each chapter and provide
               practical suggestions for implementing the priciples and these
-              toolkits. Very good book for managers, project managers and
-              technical leaders.
+              toolkits. Very good book for workers in manager level.
             </p>
             <details>
                 <summary class="sum2">
@@ -65,12 +64,12 @@
                   Taiichi Ohno, known as the father of the Toyota Production
                   System, to deal with the conflict of market requirement and
                   manufacture cost. In this concept, he gives waste a new
-                  definition "anything that does not create value for a
+                  definition "Anything that does not create value for a
                   customer is waste. A part that is sitting around waiting to
                   be used is waste. Making something that is not immediately
                   needed is waste. Motion is waste. Transportation is waste.
                   Waiting is waste. Any extra processing steps are waste.
-                  And of course defects are waste"[1]. The core of his ideal is
+                  And of course defects are waste"[2]. The core of his ideal is
                   that immediate production delivery is better than inventory.
                   The history has proven the validity of his idea and this
                   concept is becoming the most fundamental lean principles that
@@ -78,16 +77,16 @@
                   <br /><br />
                 </p>
                 <p>
-                  Then the author give us a guide on how to implement
+                  Then the authors give us a guide on how to implement
                   the principals by introducing two toolkits.
-                  The first tookit, also should be the first step is
+                  The first toolkit, also should be the first step is
                   learning to see waste. If a thing can't
                   contribute to customer's perception or there is a way to go
                   around it, it is waste. By this definition, Windston Royce
                   had seen all steps besides coding and analysis are waste to
-                  development in 1970[1]. The author metion this because it is
+                  development in 1970[3]. The authors metion this because it is
                   a good start to re-evalue steps in development waterfall
-                  process. Then the auther translates the 7 wastes of
+                  process. Then the authors translates the 7 wastes of
                   manufacturing identified by Shigeo into 7 corresponding
                   wastes in software development.
                 </p>
@@ -98,7 +97,7 @@
                       <th>Cost</th>
                     </tr>
                     <tr>
-                     <th>Partially Done Work</th>
+                     <th>Partially Done Work[4]</th>
                      <th>
                   Partially done work will not get in the way of other
                   development but also yields no valuable delivery and tie up
@@ -106,7 +105,7 @@
                     </th>
                   </tr>
                   <tr>
-                    <th>Extra Process</th>
+                    <th>Extra Process[4]</th>
                     <th>
                   Unnecessary paperwork are a mass extra cost to Development
                   process. Paperwork should be something eager to use and
@@ -114,7 +113,7 @@
                     </th>
                   </tr>
                   <tr>
-                    <th>Extra Features</th>
+                    <th>Extra Features[4]</th>
                     <th>
                   Extra features that seems harmless  would increase complexity
                   and tential failure point. Codes that not needed now should
@@ -122,7 +121,7 @@
                     </th>
                   </tr>
                   <tr>
-                    <th>Task Switching</th>
+                    <th>Task Switching[4]</th>
                     <th>
                     Assigning people multiple projects is a waste since the
                     switch among them would cost much time for developers
@@ -131,7 +130,7 @@
                     </th>
                   </tr>
                   <tr>
-                    <th>Waiting</th>
+                    <th>Waiting[4]</th>
                     <th>
                       Waiting is one of the biggest wastes that delys are very
                       common in software development. It keeps
@@ -139,18 +138,17 @@
                     </th>
                   </tr>
                   <tr>
-                    <th>Motion</th>
+                    <th>Motion[4]</th>
                     <th>
                       The process of motion could become waste in process, not
                       only the people, but also the artifact information. Team
                       work apart would cost time to communicate with each other
-                      .
-                      Handoff document from group to group also would be the
+                      . Handoff document from group to group also would be the
                       source since it can't contain all creater's knowledge.
                     </th>
                   </tr>
                   <tr>
-                    <th>Defects</th>
+                    <th>Defects[4]</th>
                     <th>
                       Defect is a waste due to its impact and its undetected
                       period. The reduction can be improved by testing
@@ -162,36 +160,26 @@
                 <br />
                 <br />
                 <p>
-                Although management, project tracking and control system,
-                authorization system would not directly add value to the
-                production process, they are still very important because
-                wastes mentioned above can be minimized by these systems.
+                Although items like management, project tracking would not
+                directly contribute to the production process, they are still
+                very important because wastes mentioned above can be minimized
+                by these systems.
                 </p>
                 <p>
-                The second step(toolkit) of implementation intoduced by the
-                author is value stream mapping.
-                Value stream map is a good way to evaluate the waste and value
-                of items in process. The author bring up the comparison between
-                traditional development process and agile development
-                by value stream map. It is very obvious that where the delays
-                and waste are in process. From this, we are well acknowledged
-                of the power of the value stream map. It is very helpful for
-                management level to take an overall view of the process and
-                uncover all hiden waste which should be eliminated. A value
-                stream map is also a effective tool that development team can
-                acknowledge the biggest opportunites to deliver value and
-                expediate the workflow. The author also give an simplified
-                action model to create and apply the value stream map:
-                <br /><br />
-                1. Make list of 10-15 most important activities and evaluate
-                their rank of value with customer. Plan to cut time on the
-                lowest two activities.<br />
-                2. Evaluate all items according to the 7 waste introduced
-                in toolkit 1 and plan on time reduction of the waste
-                found.<br />
-                3. Create a value stream map and find out the time of adding
-                value and waiting. Develop plan on cut the biggest cause of
-                delay in the development process.
+                The second step(toolkit) of implementation introduced by the
+                author is value stream mapping. The author bring up the
+                comparison between traditional development process and agile
+                development by value stream map. It is very obvious that
+                where the delays and waste are in process.
+                From this, we are well acknowledged of the power of the value
+                stream map. It is very helpful for management level to take an
+                overall view of the process and uncover all hidden waste which
+                should be eliminated. A value stream map is also a effective
+                tool that development team can acknowledge the biggest
+                opportunities to deliver value and expediate the workflow.
+                The author also give an simplified action model to create
+                and apply the value stream map in the last part of this
+                section.
                 </p>
             </details>
             <details>
@@ -209,22 +197,21 @@
                 <p>
                   So in this part, the authors brings up the priority of
                   concurrent development over sequatial development and
-                  what is "decide as late as possible" and why. They start
+                  what is "decide as late as possible"[5] and why. They start
                   with the comparison of cost of adapting changes to die design
                   in American and Japanese car production process in 80s last
                   century. The cost in Japan is much lower not due to a better
                   original design but because they are using a more
-                  efficient and change-tolerance method, cocurrent process.
+                  efficient and change-tolerance method, concurrent process.
                   And same in software development, programing has shown great
-                  improvement after switching to concurrent development.
-                  Instead
-                  of traditional depth-first design that constrains high-level
-                  and low-level decisions together, the new developemt applies
-                  breadth-first approach in design that high-level problem or
-                  changes can be adapted with much less cost since
-                  breadth-first
-                  method allow engineer to consider most options so inevitable
-                  changes or problems can be found and worked out as soon as
+                  improvement after switching to concurrent development[6].
+                  Instead of traditional depth-first design that constrains
+                  high-level and low-level decisions together,
+                  the new developemt applies breadth-first approach in design
+                  that high-level problem or changes can be adapted with much
+                  less cost since breadth-first method allow engineers
+                  to consider most options so inevitable changes or problems
+                  can be found and worked out as soon as
                   possible which will overal cost much less time in deliverying
                   the final product. Also, software is the kind of product that
                   requires lifetime uprgade and these upgrades are not small
@@ -242,26 +229,27 @@
                 </p><br />
                 <p>
                   The first tool introduced in this part is options thinking.
-                  As mentioned by the authors, the arraction of satisfication
+                  As mentioned by the authors, the attraction of satisfication
                   guaranteed warranties is that irrevocable decision is not
-                  preferred by people when there is uncertainty. HP has brought
-                  a good example of how delay decisions helps in this condition
-                  that they make the electrical configuration of their printers
-                  after the orders are made so there could be adjustment among
-                  countries with different configuration. This is called
-                  "option opened" that delay the decision that make less
-                  constrains on options until the uncertainty gone. Microsoft
+                  preferred by people when there is uncertainty. They use HP
+                  printer sales as a good example of how delay decisions helps
+                  in this condition that they make the electrical configuration
+                  of their printers after the orders are made so there could be
+                  adjustment among countries with different configuration.
+                  This is called "option open"[7] that delay the decision
+                  that make less constrains on options until the uncertainty
+                  gone. Another example given is the Microsoft which
                   also gambled in options by providing several systems that
                   allow them to hold most options in market to reduce risk. And
                   same in software development, minimize the options limit by
                   delaying decisions until the customer requirement is clear
                   or mature technology has been achieved would reduce cost in
-                  future changes or adjustment. However, options thinking is
-                  not something guaranteeing success but move the development
-                  into a favorable direction when there is uncertainty. To
-                  well apply it, engineer must be experienced and research much
-                  to decide which options should be open instead of keeping
-                  everything open.
+                  future changes or adjustment. However, the authors emphasize
+                  that options thinking is not something guaranteeing success
+                  but move the development into a favorable direction when
+                  there is uncertainty. To well apply it, engineer must be
+                  experienced and research much to decide which options
+                  should be open instead of keeping everything open.
                 </p><br />
                 <p>
                   The second tool is the last responsible moment. According to
@@ -269,58 +257,63 @@
                   commitment but the delay has to be a deadline. The last
                   responsible moment is the toolkit to help make decisions.
                   It is the due date that commitments have to be made to
-                  eliminate other important alternatives. or decisions would be
-                  made by default. Several tactics are introduced for making
-                  decisions at the last responsible moment:<br />
-                  1. Share partially complete design information[1]:
+                  eliminate other important alternatives, or decisions would be
+                  made by default[8]. The authors shows several practical
+                  tactics to help. These tactics not only
+                  help make decision before the last responsible moment but
+                  also teach us how to decide and improve the last
+                  responsible moment. I will summaize several main tactics in
+                  this part:
+                  <br />
+                  1. Share partially complete design information[9]:
                   This helps
                   reduce the length of feedback and shorten the exploratory
                   cycles. <br />
-                  2. Organize for direct, worker-to-worker collaboration[1]:
+                  2. Organize for direct, worker-to-worker collaboration[9]:
                   This is demanded heavily when partial complete design is
                   shared. People knwo details in requirement and implementation
                   must work closely to refine in development process.<br />
-                  3. Develop a sense of how to absorb changes[1]:
+                  3. Develop a sense of how to absorb changes[9]:
                   This part brings some tactics that experts use to endorse in
                   OOP design or any component-based development. <br />
                   4. Develop a sense of what is critically important in the
-                  domain[1]:
+                  domain[9]:
                   Some features are so important that they drive early
                   commitments which turns out to be flawed. It will narrow the
                   field and overlook some critical elements than late
                   commitment. So it should be clear what is more important.
                   <br />
-                  5. Develop a sense of when decisions must be made[1]:
+                  5. Develop a sense of when decisions must be made[9]:
                   Delay commitment doesn't mean no commitment. A keen sense of
                   timing and mechanism must be developed to make decisions in
                   time.<br />
-                  6. Develop a quick response capability[1]:
+                  6. Develop a quick response capability[9]:
                   Response time is the capacibility to allow late commitments.
                   The faster the response can be made, the later the
                   commitments can be made.
                 </p><br />
                 <p>
                   The third tool is making decisions. In this part, the authors
-                  have summarize some components in previous tools and talk
+                  have summarized some components in previous tools and talk
                   about approaches in decision making. First, they talk about
                   the comparison between depth-first approach and breadth-first
                   one as mentioned in the first tool and claim their advantages
                   and risk and see conidtions which approach should be applied.
                   Breath-first approach is normally the more effective one
-                  since it has less limitaion and requirement. Then it talked
+                  since it has less limitaion and requirement. Then talk
                   about the intuitive decision making compared to rational
                   decision making. It is actually pretty surprising that
                   intuitive decision making performs better in most conditions
                   that high-stakes mistakes is more likely detected because
                   rational decision would suffer tunnel version and timing.
                   The authors have given examples in fire department and
-                  the Marrines to support this opinion which is pretty
+                  the Marines to support this opinion which is pretty
                   convincing. At last, the author clarify that the rules that
                   decision making follows must be simple. Simple rule can
-                  help well in flexibility, robustness and self-organization.
-                  It allows people to act quickly without waiting. And as
-                  metioned before, quicker action/response allows later
-                  decition making.
+                  help well in flexibility, robustness and
+                  self-organization[10]. It allows people to act quickly
+                  without waiting and as mentioned before, quicker
+                  action/response allows later decision making.
                 </p><br />
             </details>
             <h2>
@@ -328,8 +321,35 @@
             </h2>
             <p>
               [1] Poppendieck, Mary. Lean Software Development: An Agile
-              Toolkit (Agile Software Development Series) (p. 1). Pearson
-              Education. Kindle Edition.
+              Toolkit (Agile Software Development Series)(Introduction).
+              <br />
+              [2] Poppendieck, Mary. Lean Software Development: An Agile
+              Toolkit (Agile Software Development Series)(p.2).
+              <br />
+              [3] Poppendieck, Mary. Lean Software Development: An Agile
+              Toolkit (Agile Software Development Series)(p.4).
+              <br />
+              [4] Poppendieck, Mary. Lean Software Development: An Agile
+              Toolkit (Agile Software Development Series)(p.4-7).
+              <br />
+              [5] Poppendieck, Mary. Lean Software Development: An Agile
+              Toolkit (Agile Software Development Series)(p.47).
+              <br />
+              [6] Information drawn from Womack, Jones and Roos, The Machine
+              That Changed the World, 116–119, and Clark and Fujimoto, Product
+              Development Performance, 187, 236–237.
+              <br />
+              [7] Poppendieck, Mary. Lean Software Development: An Agile
+              Toolkit (Agile Software Development Series)(p.53).
+              <br />
+              [8] Poppendieck, Mary. Lean Software Development: An Agile
+              Toolkit (Agile Software Development Series)(p.57).
+              <br />
+              [9] Poppendieck, Mary. Lean Software Development: An Agile
+              Toolkit (Agile Software Development Series)(p.57-59).
+              <br />
+              [10] Poppendieck, Mary. Lean Software Development: An Agile
+              Toolkit (Agile Software Development Series)(p.64-65).
             </p>
           </div>
         </div>
