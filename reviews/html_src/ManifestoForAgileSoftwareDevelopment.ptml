@@ -30,6 +30,9 @@
                     <br>
                     Reviewers: Lili Xu, Yang Lou
                 </p>
+              <h2>
+              Introduction
+              </h2> 
               <p>
                   The Manifesto for Agile Software Development was created
                   by seventeen software developers in 2001. The Agile Manifesto
@@ -40,6 +43,14 @@
                   of the application more often and provides greater
                   flexibility than the traditional waterfall approach.
               </p>
+              <p>
+                  The Manifesto for Agile Software Development provides 
+                  critical guidance on how to apply Agile practices to 
+                  software development.
+              </p>
+              <h2>
+              Core values and principles
+              </h2>
               <details>
                 <summary class="sum2">
                     The first core value - Individuals and interactions
