@@ -3,7 +3,7 @@
     <head>
         <!--include subhead.txt -->
         <title>
-            Usage and Importance of Queue in Kanban
+            Usage and Importance of Queues in Kanban
         </title>
         <!--include googleAnalyticsScript.txt -->
     </head>
@@ -12,7 +12,7 @@
         <div class="wrapper">
 <!--include navbar.txt -->
             <div id="content">
-              <h1> Usage and Importance of Queue in Kanban</h1>
+              <h1> Usage and Importance of Queues in Kanban</h1>
               <br>
             <p>
               <b>Why queue?</b> <br>

@@ -3,7 +3,7 @@
     <head>
         <!--include subhead.txt -->
         <title>
-            Usage and Importance of Queue in Kanban
+            How to use the Trello API
         </title>
         <!--include googleAnalyticsScript.txt -->
     </head>
@@ -12,11 +12,10 @@
         <div class="wrapper">
 <!--include navbar.txt -->
             <div id="content">
-              <h1> How to use Trello API</h1>
+              <h1> How to use the Trello API</h1>
               <p>
-                <b><i>Purpose of this page:</i></b> To discuss about
-                implementation of Trello API in simple steps to implement
-                various tasks
+                <b><i>Purpose of this page:</i></b> Simple steps for using the
+                Trello API to implement various tasks.
               </p>
               <br>
               <p>
@@ -26,8 +25,8 @@
                     Login into your <a href="https://trello.com/">Trello</a> Account.
                   </li>
                   <li>
-                    Go to this <a href="https://trello.com/app-key"> Link</a>
-                    To get the API Key.
+                    Go to this <a href="https://trello.com/app-key"> link</a>
+                    to get the API Key.
                   </li>
                   <li>
                     On the same page, click on generate token to generate a
@@ -48,7 +47,7 @@ data_member = json.loads(response_member.text)
 board_ids = data_member['idBoards']
 </code>
 </pre>
-                    Note: You can find your memberid in your Trello Profile
+                    Note: You can find your  member ID in your Trello Profile
                     page
                   </li>
                 </ul>
