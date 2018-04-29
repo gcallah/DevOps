@@ -47,6 +47,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="https://www.youtube.com/watch?v=TWwvxn2-J7E">
+                        Slack notification plugin integration with Jenkins
+                    </a>
+                </li>
+                <li>
                     <a href="https://blog.travis-ci.com/2017-12-05-what-is-ci-part-1">
                         Testing
          and Continuous Integration Part 1
