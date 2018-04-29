@@ -3,7 +3,7 @@
 #Runs spell checker ,commits the custom dictionary and returns
 #the exit code
 
-python3 $2/html_spell.py $1 $2/data/English.txt $3/data/custom_dict.txt -e
+python3 $2/html_spell.py $1 $2/data/Dictionary.json $3/data/custom_dict.txt -e
 exit_code=$?
 
 if [ $exit_code -eq 0 ]; then
