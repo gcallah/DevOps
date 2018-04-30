@@ -17,7 +17,7 @@
             </h1>
 
             <p class="author">
-                Reviewers: Kanishk Dugar and Pravar Singh
+                Reviewers: Kanishk Dugar and Pravar Singh<br/>
 
                 <b>Chapter 1  - Introduction to DevOps and Continuous Delivery</b>
                 <br/>
@@ -55,8 +55,9 @@
                   change the status quo of software development drawing
                   conclusions from their several years of experience in the
                   industry. One of the major concepts jotted down in this
-                  manifesto emphasizes the importance of focusing on Individuals
-                  &amp; Interactions rather than on processes &amp;tools which
+                  manifesto according to the author emphasizes the importance of 
+                  focusing on Individuals &amp; Interactions rather than on processes 
+                  &amp;tools which
                   basically means that company’s should invest not only in tools
                   and processes but rather also in breaking down the silos in
                   which various software disciplines work &amp;fostering a
@@ -102,28 +103,12 @@
                   spent on development rather than deployment.
                 </p>
                 <p>
-                  Now the author focuses on understanding the purpose behind
+                  Now the author focuses on explaining the purpose behind
                   building deployment pipelines and not just wind up as
                   followers of the “cargo cults”- a term coined by Richard
                   Feynman in 1965 describing the behavior of cargo cults in the
-                  Melanesian South Sea islands. These cargo cults formed during
-                  World War II when the islanders watched planes land with
-                  useful cargo. After the war stopped, the cargo also stopped
-                  coming. The islanders started simulating landing strips, doing
-                  everything just as they had observed the American military do,
-                  in order to make the planes land. This means that having a
-                  DevOps pipeline simply because one has a puppet implementation
-                  that only the operations team know anything about should not
-                  be the sole reason for using DevOps, but rather the goal is to
-                  allow people with different roles to interact with new systems
-                  faster and with less work. This, in turn, helps people with
-                  different roles interact with each other more efficiently
-                  and with less turnaround times.
+                  Melanesian South Sea islands, as given in the book.
                 </p>
-                <br/>
-                <img src="img/Cargo_Cult.PNG" width="640px"
-                  height="480px" alt="Cargo Cult Airplane">
-                <br/>
                 <p>
                   A very common problem faced quite often is that the output
                   from sprint retrospective - where the team gets together and
