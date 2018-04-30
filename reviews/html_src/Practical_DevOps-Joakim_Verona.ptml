@@ -29,7 +29,7 @@
                   software development processes to maximize efficiency &amp;
                   accuracy. The author first sets the tone for the chapter by
                   emphasizing that implementing DevOps techniques doesn't only
-                  require practical skills but soft skills as well. The foremost
+                  require practical skills but soft skills as well.The foremost
                   important step in adopting DevOps is to be able to explain
                   your coworkers about what it is and its advantages &amp;to do
                   that ,having an in depth understanding yourself is
@@ -79,7 +79,7 @@
                 <p>
                   Next the author goes on to say that DevOps &amp;Continuous
                   Delivery are analogous &amp;cautions how easy it is to lose
-                  track of the big picture while following DevOps implementaions
+                  track of the big picture while following DevOps implementations
                   by saying “Doing nothing faster is of no use to anyone”.  If
                   the teams are laying idle during the deploys for unnecessarily
                   long periods of times, this raises a red flag that something
@@ -137,6 +137,27 @@
                   implementation of DevOps approach can certainly benefit
                   since it emphasizes on cooperation between roles in an
                   organization.
+                </p>
+
+                <b>Chapter 2  - A view from orbit</b>
+                <br/>
+                <p>
+                  In this chapter the author has described how the various
+                  components of the Continuous Delivery pipeline work and 
+                  how they fit in together to form the bigger picture. 
+                  After that he also goes on to explain how the Continuous 
+                  Delivery pipeline fits into the Agile Development Cycles
+                  such as Scrum and Kanban. At the end of the chapter he 
+                  emphasizes on how to identify the bottlenecks in the 
+                  deployment process and gives a baseline that if a change 
+                  being propagated doesn’t reach the integration test servers
+                  within a 15 minute window, then there exists a problem in 
+                  your deployment pipeline which needs to be identified. 
+                  To support that,he gives an example of a real world practice
+                  called Scrum Retrospective also. Everywhere in the chapter 
+                  he makes comparisons about the various variations that 
+                  occur with respect to the CD pipeline depending on the 
+                  company size. 
                 </p>
             </p>
           </div>
