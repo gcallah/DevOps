@@ -130,8 +130,14 @@
   </details>
   <details>
     <summary class= "sum2">
-        Chapter 5: Host-based monitoring with collected
+        Chapter 5: Host-based monitoring with collectd
       </summary>
+      <p> In this chapter, host-based data is collected and sent to Reimann.
+        This is done by collectd which is a daeamon acting as a monitoring
+        collection agent. This will do the local monitoring and send
+        it to Reimann. Collectd runs locally on the hosts and monitors 
+        and collects data from a variety of components. 
+      </p>
   </details>
 
   <details>
