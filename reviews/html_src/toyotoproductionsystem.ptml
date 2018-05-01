@@ -46,195 +46,35 @@
                       </figcaption>
                   </figure>
                 </p>
-                <details>
-                    <summary class="sum2">
-                      Chapter 1: Total Framework of the Toyota Production
-                      System
-                    </summary>
-                    <p>
-                      This chapter primarily focuses on various important
-                      aspects on which total framework of the toyoto
-                      production systems lies on.  The topics it highlights
-                      are primary purpose, kanban systems, production
-                      smoothing, shortening setup time, process layout for
-                      shortened lead times and one-piece production,
-                      standardization of operations, autonomation, improvement
-                      activities, the Goal of TPS. <br>
+                <p>
+                  <b><u> Book Review: </u></b> <br>
+                  Are you interested to work in an automobile industry or
+                  setup your own automobile industry like Elon Musk, this is
+                  the right book to read.   Be a little cautious if you are
+                  thinking about doing the later as the automobile industry in
+                  USA is very heavily crowded. <br> <br>
 
-                      The author describes about each topic in much detail and
-                      in great depth.  He talks about how did toyoto achieved
-                      its primary goal of profit through cost reduction by
-                      employing good strategies like elimination of
-                      overproduction, limiting excess inventory and
-                      overproduction, reducing unncessary capital
-                      investments. <br>
+                  This book talks about the great success of Toyota Production
+                  Systems which was developed and promoted by Toyota Motor
+                  Corporation and is being adopted by many Japanese companies
+                  and US companies in the aftermath of the 1973 oil shock.
+                  The main purpose of the system is to eliminate through
+                  improvement activities various kinds of waste lying
+                  concealed within a company. <br> <br>
 
-                      Quantity control, quality assurance, respect for
-                      umanity are other important points in the framework of
-                      toyoto production systems.  To achieve continous flow in
-                      the production, Just-in-Time and automation were
-                      introduced.  Other important systems like kanban systems
-                      were introduced to complement the goals of toyoto
-                      production systems but kanban systems do not make up the
-                      complete framework. <br>
-
-                      You can visit this link for more information regarding
-                      Kanban systesm: <a href="https://gcallah.github.io/DevOps/workflow/kanban.html">Link</a> <br>
-
-                      <figure>
-                          <img
-                          src="../reviews/img/kanban_system.png"
-                          width="403" height="304">
-                          <figcaption>
-                             Kanban System (page 10)
-                          </figcaption>
-                      </figure>
-                      <p>
-                        Another important point was discussed in this chapter
-                        relating to the production of the toyoto production
-                        systems.  They could eleminate unnecessary inventories
-                        and capital investments by employing methods like
-                        production smoothing which stated that there should
-                        be a production of item when it is able to sell enough
-                        in the market or when the market demands that
-                        particular product for that day.  <br>
-                      </p>
-
-                      <figure>
-                          <img
-                          src="../reviews/img/cost_reduction_waste_reduction.png"
-                          width="403" height="304">
-                          <figcaption>
-                             Cost Reduction by waste reduction (page 5)
-                          </figcaption>
-                      </figure>
-
-                    </p>
-                </details>
-                <details>
-                    <summary class="sum2">
-                      Chapter 2 Implementation Steps for the Toyota Production
-                      System
-                    </summary>
-                    <p>
-                      This chapter discusses all the important steps regarding
-                      a JIT process and also gives a case study about
-                      introduction of JIT at Toyo aluminum.  <br>
-                      Steps given in the book (on page 25) are: <br>
-                      1. Upper Management Plays a Key Role <br>
-                      2. Establish a Project Team <br>
-                      3. Prepare an Implementation Schedule and Set Goals to
-                      Be Achieved within the Schedule <br>
-                      4. Introduce a Pilot Project  <br>
-                      5. Move from a Downstream Process to an Upstream Process <br> <br>
-
-                      The JIT process starts off with the upper management
-                      which makes the crucial decisions regarding the
-                      production design, plan and allotmenet of resources for
-                      the lower employess.  This step is followed by
-                      establishing a JIT team which overlooks all the processes
-                      related to the JIT process, this team consists of
-                      sectional and sub-sectional managers.  These managers
-                      make up plans which needs to be followed by other
-                      employees to meed the deadlines then implement the last
-                      step to move a downstream process to an upstream
-                      process. <br> <br>
-
-                      This chapter also introduces other important concepts
-                      which can be used to implement JIT like 5S concept
-                      (Seiri (arrangement), Seiton (tidiness), Seiso (cleaning)
-                      , Seiketsu (cleanliness), and Shitsuke (training)),
-                      one-piece-production, automation, kanban cards systems. <br>
-
-                      The other part of this chapter deals about a case study
-                      about introduction of JIT at Toyo Aluminum.  It talk
-                      about how they followed all the steps which are listed
-                      above.  There campaigns included "JUMP 60" & "GO GO
-                      Campaign".
-
-                      <figure>
-                          <img
-                          src="../reviews/img/GO_GO_Campaign.png" width="430"
-                          height="430">
-                          <figcaption>
-                              GO GO Campaign (page 30):
-                          </figcaption>
-                      </figure>
-                      <figure>
-                          <img
-                          src="../reviews/img/JUMP_60_Campaign.png" width="430"
-                          height="430">
-                          <figcaption>
-                              JUMP 60 Campaign (page 31):
-                          </figcaption>
-                      </figure>
-                    </p>
-                </details>
-                <details>
-                    <summary class="sum2">
-                      Chapter 3: Adaptable Kanban System Maintains Just-In-Time
-                       Production
-                    </summary>
-                    <p>
-                      This chapter discusses about how kanban systems where
-                      implemented within Toyota Production System to implement
-                      JIT.  As previously stated that kanban systems on a
-                      whole don't make up the toyoto production systems but
-                      kanban systems just complement the JIT. The author
-                      defines the pull system as "The subsequent process of
-                      withdrawing the parts from the preceding process". The
-                      author subsequently explains that final assembly line
-                      pulls the necessary products as they know the exact
-                      quantity of parts required and then subsequent processes
-                      utilize them. <br> <br>
-
-                      The author talks about various types of kanbans like
-                      withdrawal kanban and production-ordering kanban.
-                      </p>
-
-                      <figure>
-                          <img
-                          src="../reviews/img/kanban_types.png" width="430"
-                          height="430">
-                          <figcaption>
-                              Main Types of Kanban Systems (page 41)
-                          </figcaption>
-                      </figure>
-
-                    <p>
-                      The author talks about how a kanban can be implemented
-                      effectively in JIT process of a toyoto production
-                      systems by stating few rules and talking about why
-                      those rules are important for JIT. (These rules are
-                      very specific to the toyoto production systems).  The
-                      rest of the chapter author talks about various kanban
-                      systems like express kanban, emergency kanban, job-order
-                      kanban, through kanban, common kanban, card or truck as
-                      kanban.
-                    </p>
-                    <figure>
-                        <img
-                        src="../reviews/img/Emergency.png" width="250"
-                        height="187">
-                        <img
-                        src="../reviews/img/Express.png" width="250"
-                        height="187">
-                        <img
-                        src="../reviews/img/Job_Order.png" width="250"
-                        height="187">
-                        <figcaption>
-                            Other Types of Kanban Systems (pages 53, 52 & 54)
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img
-                        src="../reviews/img/Sample_Of_Labels.png" width="430"
-                        height="430">
-                        <figcaption>
-                            Main Types of Kanban Systems (page 57)
-                        </figcaption>
-                    </figure>
-                </details>
+                  The author starts of his first chapter by primarily focusing
+                  on various important aspects on which total framework of the
+                  Toyota production systems lies on. He highlights topics such
+                  as primary purpose, kanban systems, production smoothing,
+                  shortening setup time, process layout for shortened lead
+                  times and one-piece production, standardization of
+                  operations, autonomation, improvement activities, the Goal
+                  of TPS. Later in the first section of his book, he talks
+                  about how Toyota achieved its primary goal of profit through
+                  cost reduction by employing good strategies like elimination
+                  of overproduction, limiting excess inventory and
+                  overproduction, reducing unnecessary capital investments. <br> <br>
+                </p>
                 <!-- <details>
                     <summary class="sum2">
 

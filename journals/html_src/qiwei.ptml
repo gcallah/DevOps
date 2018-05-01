@@ -74,6 +74,9 @@
                 <p>
                 	Fixed several problems in the script for menu creation. Now most input errors are handled and error messages about how to fix them are provided. There was a bug in the create_submenu function where submenu_id was not generated correctly after the previous switch to recursion. Furthermore, more book reviews are coming.
                 </p>
+                <p>
+                	Reviewing my previous code. Will add more comments to explain what it does. Also, continue working on the book review.
+                </p>
             </div>
         </div>
     </body>
