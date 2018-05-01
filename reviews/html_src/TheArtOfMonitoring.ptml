@@ -144,6 +144,19 @@
     <summary class= "sum2">
         Chapter 6: Using collectd events in Riemann
       </summary>
+      <p>
+        Following things about collectd event in Riemann are covered in this
+        chapter.
+        <li> The processes plugin is introduced to check for running processes.
+          It generates a series of metrics for the processes such as ps_count
+          metric which counts the number of running processes.</br>
+          These three streams are ustilized to measure availibility.
+          <ul>The tagged stream wrapper</ul>
+          <ul>A stream that matches the threshold notification</ul>
+          <ul>A stream that matches expired events.</ul>
+  
+        </li>
+      </p>
   </details>
 
 
