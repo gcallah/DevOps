@@ -126,6 +126,15 @@
                     Next, the book gives detailed examples of value streams. It analyzes what wastes are included in the timeline and explains the lean principles using these samples. It points out that to diagnose problems in the value stream is to find churns and delays. Finally, if we want to create a future map, make sure we only draw the immediate improvements. We should draw a new one once these improvements are done.
             	</p>
             </details>
+            <details>
+            	<summary class="sum2">
+            		Chapter 5: Speed
+            	</summary>
+            	<p>
+            		This chapter talks about how speed impacts software development and how to achieve fast delivery. It starts with a story about PatientKeeper, a software company that dominates the market of patient information presentation by delivering products and features much faster than other competitors. The author explains the secrets behind this, which gives the readers an insight into the contents of this chapter. Then, the writer introduces a methodology on how to measure the quality of software development: to measure the AVERAGE time yoru team spend to deliver a product or release. The writer explains the word 'AVERAGE' clearly. For products with different sizes, try to establish a regular tiem for your release cycle, for example, two weeks or two months. 
+            		Next, the oook gives an equation called Little's Law which says that cycle time is calculated by dividing number of things in process by the average completion rate. Therefore, it becomes obvious that to speed things up (to reduce cycle time) is to increase average completion rate or reduce the number of things in process. The book claims that the former generally requires more money while the latter doesn't. The book moves on to discuss variations and utilization. It gives a real life example where, in general, when a server's utilizaton rate goes high, say 80%, the server tends to slow down. Therefore, we don't use our servers to maximum utilization. However, when managing software engineers, we almost always try to use our people to maximum utilization. The writer points out the controversy here and claims that we shouldn't focus on maximizing utilization but instead, assign work into small batches and keep more attention on making the work flow more easily.
+            	</p>
+            </details>
           </div>
         </div>
     </body>
