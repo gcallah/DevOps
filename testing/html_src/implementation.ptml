@@ -50,7 +50,8 @@
                       After following the previous steps, you need to go 
                       the url which is your public dns of your EC2 
                       instance:8080(E.g. http://ec2-aws.compute:8080) 
-                      You should be able to see the jenkins server up and running.
+                      You should be able to see the jenkins server up 
+                      and running.
                   </li>
                 </ul>
 
@@ -103,24 +104,73 @@
             get notified if tests fail on Jenkins hence we have 
             integrated it with Slack to be well-informed.</p>
             <ul class="nested">
-            <li> Step 1: On Jenkins page, go to Manage Plugins, 
+            <li> <b>Step 1:</b> On Jenkins page, go to Manage Plugins, 
             click on Available tab to show all available plugins.
             </li>
-            <li> Step 2: In the search bar, type 'Slack'. You will 
+            <li> <b>Step 2:</b> In the search bar, type 'Slack'. You will 
             see all Slack related plugins. Select the 'Slack Notifier Plugin'.
             </li>
-            <li> Step 3: Now click on 'Install without restart'. 
+            <li> <b>Step 3:</b> Now click on 'Install without restart'. 
             You should see 'success' written. Now you have the plugin 
             successfully installed and ready to be configured.
             </li>
-            <li> Step 4: click on Manage Plugins -- select Configure 
+            <li> <b>Step 4: </b>click on Manage Plugins -- select Configure 
             System -- 
             scroll to the bottom of page to see section 'Global 
             Slack Notifier Settings'. You will see that it requires 
-            a few important details to be filled in. We will get 
-            these details from Slack.</li>
+            a few important details to be filled in. <b>We will get 
+            these details from Slack.</b>
+            </li>
+            <li> <b>Step 5: Add integration in Slack </b>
+            First create new channel for getting Jenkins notifications. Now
+            Go to Settings - Add an app or integration - Search for Jenkins.
+            Click on add configurations button on the Jenkins CI page and 
+            give it rights for your newly created channel e.g. testing
+            This will add your integration on Slack.
+            </li>
+            <li> <b>Step 6: Generate integration token in Slack </b>
+            On sucessful integration, Slack shows a page with instructions.
+            Scroll till Step 3 of these instructions. You will see the 
+            'team domain' and the 'integration token' have been provided.
+            Copy team domain value and paste it in the Jenkins page for team 
+            subdomain.
+            </li>
+            <li> <b>Step 7: Create Token Credential in Jenkins</b>
+            Jenkins asks us to create a Token credential and not paste the 
+            token directly for security reasons.
+            Click on add credentials - choose Jenkins - in the pop-up box, 
+            set 'Kind' as 'Secret Text'
+            Paste the integration token in the textbox next to label 'Secret'.
+            give an appropriate id e.g. Jenkins-integration-token 
+            and a description 
+            before you click Add.
+            Now you can pick the recently created token from the drop-down.
 
+            </li>
+            <li> <b>Step 8: Specify channel to post notifications </b>
+            Finally, type the channel name e.g. testing , in the last box.
+            This is the channel that will get all notifications.
+            Click on 'Test Connection', it shall result in success written 
+            so you can save this configuration by clicking on save 
+            button at the bottom.
+            </li>
 
+            <li> <b>Step 9: Set Post-build actions in Jenkins </b>
+            Open the project - Click on configue (left sidebar).
+            Scroll to the bottom till you find 'Post-build Actions' section.
+            On clicking the button, select Slack notification. You can now 
+            select when you want to get notified 
+            e.g. when build starts/when build fails/ when it passes, etc.
+            Save these settings.
+            </li>
+            <li> <b>Step 10: Trigger Build to test </b>
+            Now that the configuration is ready and integration is completed
+            you can trigger a build manually to check the notification on 
+            specified Slack channel. To do this select 'Build Now' 
+            from left side menu.
+            Now open Slack and see the notification messages from Jenkins.
+            Yay!
+            </li>
             </ul>
           </div>
         </div>
