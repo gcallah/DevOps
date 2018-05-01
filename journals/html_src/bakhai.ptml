@@ -22,6 +22,26 @@
             Drumil Bakhai
         </p>
             <p>
+                Week 11:
+                <br>
+                <br>
+                In the previous week, I am reading about Docker
+                compose and Dockerfile. The Docker becomes handy
+                to package our application in a single Image and 
+                we can port to any client. 
+
+                Additionally, in the previous week I had a chance
+                to interview with a startup regarding DevOps Engineer
+                I will be shortly updating my blog over the devops
+                engineering questions and links to study for the 
+                same. 
+
+                As we move to the final one week of the semester,
+                I try to work on automating the build process and 
+                provide a generalized template for Prof to use later
+                on, for his new projects and other courses.
+            </p>
+            <p>
                 Week 10:
                 <br>
                 <br>

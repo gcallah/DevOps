@@ -164,6 +164,11 @@
                   <a href="http://www.thedevopscourse.com/quiz/">Our Django
                   site: we are creating a quiz system here.</a>
                   </li>
+                  <li>
+                    <a href="https://gcallah.pythonanywhere.com/berkeley/">
+                        DevOps Bibliographic Search
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li>
@@ -199,25 +204,23 @@
                     It is essential to understand the difference between CI and CD
                     before we move to comparisons. <br> Continuous Integration (CI)
                     is about everyone merging code changes to a central repository
-                    multiple times a day. Each merge triggers an automated build
+                    multiple times a day. "Each merge triggers an automated build
                     and testing sequence for the given project.
-                </p>
-
-                <p>
                     Continuous Delivery (CD) is a practice of automating the entire
                     software release process. The idea is to do
                     CI, plus automatically prepare and track a release to
                     production. The desired outcome is that anyone with sufficient
                     privileges to deploy a new release can do so at any time in one
                     or a few clicks. By eliminating nearly all manual tasks,
-                    developers become more productive.
+                    developers become more productive." (
+                    <a href="https://semaphoreci.com/blog/2017/07/27/what-is-the-difference-between-continuous-integration-continuous-deployment-and-continuous-delivery.html"> https://semaphoreci.com/blog/2017/07/27/what-is-the-difference-between-continuous-integration-continuous-deployment-and-continuous-delivery.html </a>)
                 </p>
 
              <p>
                 Here are some of the major testing/continuous integration
                 tools and their features:
             </p>
-
+            
             <ul class="contents">
                 <li>
                     <a href="https://jenkins.io">
@@ -229,15 +232,9 @@
                         evaluation
                     </a>
                     of Jenkins
+                
                 </li>
-                <li> Free to download and use</li>
-                <li> It gives endless options of customization </li>
-                <li> Needs a dedicated server at all times which could increase the overall cost </li>
-                <li> Takes a while to configure </li>
-                <li> Safe to store key environment variables </li>
-                <li> Supports multiple version control systems </li>
-                <li> Allows for distributed builds due to master and slave capability </li>
-                <li> Users need to host and setup Jenkins all by themselves hence leads to high overhead </li>
+                
                 <li>
                     <a href="https://about.travis-ci.com">
                     Travis CI
@@ -249,18 +246,7 @@
                     </a>
                     of Travis
                 </li>
-                <li> Light weight and easy to set up </li>
-                <li> Cheaper option, as no dedicted server needed </li>
-                <li> Gives user a build matrix feature </li>
-                <li> Limited options for customization </li>
-                <li> Free for open source projects </li>
-                <li> Provides multiple test environments for different runtimes </li>
-                <li> Allows only Github support </li>
-                <li> Not free for private repos </li>
-                <li> Does Not provide support for windows users </li>
-                <li> Supports more than a dozen languages </li>
-                <li> Excellent user website interaction </li>
-
+                
 
                 <li>
                     <a href="https://www.gocd.org">
@@ -279,12 +265,12 @@
                 <b> We have chosen Jenkins as our continuous integration tool
                     because:
                 <br />
-                a) It gives various options to customize
+                a) It gives us various options to customize with plugins
                 <br />
                 b) It is windows compatible
                 (Many students in the class use the windows platform)
                 <br />
-                c) Amazing amounts of resources and a great community
+                c) It has amazing amounts of resources and a great community
                 </b>
             </p>
             </div>

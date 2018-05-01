@@ -7,9 +7,8 @@ set -e
 python3 $2/html_checker.py $1
 python3 $2/url_checker.py $1 https://gcallah.github.io/DevOps/
 
-if [[ "$USER" == "pravarsingh" || "$USER" == "kdugar" ]]; then
+if [[ "$USER" == "pravarsingh" || "$USER" == "kdugar" || "$USER" == "gcallah" ]]; then
 	devops_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-	chmod +x $devops_dir/spell_checker.sh
 	echo "Checking word spellings..."
 	sh $devops_dir/spell_checker.sh $1 $2 $devops_dir
 fi

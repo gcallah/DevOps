@@ -263,6 +263,45 @@
                 configuration is defined using code.
                 </li>
                 </ol>
+
+                <h4 class="deployment">
+                    Principles
+                </h4>
+                <p>
+                As described in detail in the book "Infrastructure as Code" 
+                by Kief Morris, following are the principles of IaC.
+                </p>
+                <ol class="nested">
+                <li> <b>Reproducibility</b>: One should be able to build or 
+                rebuild any part of the infrastructure.
+                </li>
+                <li> <b>Consistency</b>: All servers should run the same 
+                version of software and configurations.
+                </li>
+                <li> <b>Disposability</b>: It should be possible to destroy
+                servers for cases like hardware failures, reducing capacity, 
+                replacing servers etc.
+                </li>
+                <li> <b>Service Continuity</b>: Even if infrastructure pieces 
+                fail, service should be able to handle user requests. Having 
+                backup servers are required to prevent interruption of 
+                service in case a server goes down.
+                </li>
+                <li> <b>Self-testing systems</b>: Automated testing is one of 
+                the key practices that enables fast feedback to developers in 
+                order to assess whether their changes would work correctly 
+                without causing any breakages.
+                </li>
+                <li> <b>Self-documenting systems</b>: With IaC, the 
+                documentation is implicit in the scripts and tools carrying 
+                out the process.
+                </li>
+                <li> <b>Versioning infrastructure code</b>: Just like in 
+                application code, version control helps in keeping track of 
+                changes to infrastructure code and rolling them back if 
+                required.
+                </li>
+                </ol>
                 <details>
                 <summary class="sum2">
                         Sources

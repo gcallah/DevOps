@@ -36,7 +36,7 @@
                 architecture having one puppet master and one puppet agent.
                 </p>
                 <h4> Installation on Master </h4>
-                <ul>
+                <ul class="nested">
                     <li>
                         sudo su -
                     </li>
@@ -56,7 +56,7 @@
                     </li>
                 </ul>
                 <h4> Installation on Agent </h4>
-                <ul>
+                <ul class="nested">
                     <li>
                         sudo su -
                     </li>
@@ -76,7 +76,7 @@
                     </li>
                 </ul>
                 <h4> Certificates </h4>
-                <ul>
+                <ul class="nested">
                     <li>On Puppet Agent run:
                         <br>
                         puppet agent --test
@@ -123,19 +123,23 @@
                 packages and user. 
                 <br>
                 To know all the available resource types use this command-
+                </p>
         <pre>
         puppet resource --types
         </pre>
                 <br>
+                <p>
                 Examples of using file resource -
                 <br>
                 Put below lines in your manifest file.
+                </p>
         <pre>
         file { 'infra.txt':
             path    =&gt; '/home/infra.txt',
             content =&gt; 'Starting to learn puppet'
         }
         </pre>
+                <p>
                 After applying the catalog on agent node the file infra.txt 
                 will be created at the given path with the provided content.
                 </p>
