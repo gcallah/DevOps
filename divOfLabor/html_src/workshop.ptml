@@ -48,12 +48,30 @@
                     Humans were, in essence, turned into machines on the
                     assembly line.
                 </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="sum1a">
+                The lure of central planning.
+            </summary>
+
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/DneproGES_1947.JPG/440px-DneproGES_1947.JPG"
+                width="25%">
+                <figcaption>
+                    Soviet hydro-electric power plant
+                </figcaption>
+            </figure>
+            <ul class="present">
                 <li>
                     A form of "central planning" prevailed: a few expert
                     engineers/managers were the only ones who were supposed to
                     think about the entire process and product.
-                    <br />
-                    Taylorism:
+                </li>
+
+                <li>
+                    <b>Taylorism</b>:
                     "Taylorism was based on trying to replace the implicit
                     knowledge of the workmen with mass production methods
                     developed, planned, monitored, and controlled by managers.
@@ -67,10 +85,21 @@
                     by management in accordance with the laws of science.' --
                     Jerry Muller, <i>The Tyranny of Metrics</i>, pp.32-33.
                 </li>
+
+                <li>
+                    General Motors: "The managerial 'superstructure which
+                    organizes and directs production... draws all possible
+                    brainpower away from the shop; everything is centered in
+                    the planning and schedule and design departments.'" --
+                    Daniel Bell, quoted in Muller, p. 33
+                </li>
+
                 <li>
                     The waterfall model was an attempt to duplicate this
-                    condition for software development.
+                    condition for software development: everything was centered
+                    on the analysts: the coders just had to turn it into COBOL!
                 </li>
+
                 <li>
                     A problem with central planning:
                     F. A. Hayek's "Use of Knowledge in Society":
@@ -226,32 +255,6 @@
                 <li>
                     A story of the need for "generalizing specialists":
                     adding exchanges to a price feed.
-                </li>
-            </ul>
-
-        </details>
-
-        <details>
-            <summary class="sum1a">
-                There is no "one size fits all" approach to implementing
-                DevOps.
-            </summary>
-
-            <figure>
-                <img src="graphics/BigSuit.png" width="21%">
-                <figcaption>
-                </figcaption>
-            </figure>
-
-            <ul class="present">
-                <li>
-                    Each enterprise will have to make its own trade-offs
-                    between its need for specialists and its need for
-                    generalists.
-                </li>
-                <li>
-                    To suggest this trade-off could be made according to some
-                    mechanical formula would be... "anti-DevOps"!
                 </li>
             </ul>
 
