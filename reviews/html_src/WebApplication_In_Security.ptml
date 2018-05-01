@@ -325,6 +325,24 @@
              <li> Whitelisting User Input Characters.</li>
            </ul>       
           </p>
+		  
+		  <h4> Chapter 13: Attacking Users: Other Techniques </h4>  
+         <p>
+         This chapter deals with other types of techniques followed by hackers to destroy a web application. The author explains each of the
+         technique in-depth and also discusses the precautions to be taken for mitigating the risk.
+		 For example:
+      <ul>
+         <li>UI Redress</li>
+         <li>Capturing data cross-domain</li>
+         <li>HTTP header injection</li>
+         <li>Session fixation</li>
+		 <li>Client-side SQL Injection</li>
+		 <li>Open redirection</li>
+      </ul>
+        The chapter also covers the implementation of such attacks on different browser extensions and the changes brought by HTML5. The
+        chapter concludes with explanation on attacks that do not depend on the vulnerabilities of any web application, but the ones that
+        can be delivered by other user(attacker) or any other malicious/compromised website.       
+          </p>
          </div>
           </div>
 </body>
