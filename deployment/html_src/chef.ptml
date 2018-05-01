@@ -60,7 +60,7 @@
         The following link can be used to download the Chef server: https://downloads.chef.io/chef-server
 
         Chef Cookbooks:
-        Cookbooks are said to be the fundamental unit of configuration. Chef uses cookbooks to perform work and makes sure everything is running smoothly.
+        "Cookbooks are said to be the fundamental unit of configuration." (Definition from digitalocean.com) Chef uses cookbooks to perform work and makes sure everything is running smoothly.
         The nodes on your system use the configuration details from your cookbooks.
         A number of terms related to cookbooks are:
         <ul>
@@ -78,7 +78,7 @@
         cd ~/chef-repo
 
         Create a cookbook:
-        knife cookbook create cookbook_name
+        knife cookbook create name_of_cookbook
 
         Lets call it devops, so:
         knife cookbook create devops
@@ -87,8 +87,23 @@
         ls
 
         This will create a folder for your cookbook.
-        
+
       </p>
+      <details>
+      <summary class="sum2">
+          Sources
+      </summary>
+      <ul>
+      <li><a href="https://www.digitalocean.com/community/tutorials/how-to-create-simple-chef-cookbooks-to-manage-infrastructure-on-ubuntu"> Basic
+        Cookbook concepts
+      </a>
+      </li>
+      <li><a href="https://www.digitalocean.com/community/tutorials/how-to-create-simple-chef-cookbooks-to-manage-infrastructure-on-ubuntu">How to
+      create a Chef cookbook
+      </a>
+      </li>
+      </ul>
+      </details>
       </div>
     </div>
     </body>

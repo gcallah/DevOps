@@ -42,6 +42,7 @@
                         </li>
                         <li>Remote execution is challenging</li>
                     </ul>
+
                     <p>
                     <a href="https://gcallah.github.io/DevOps/deployment/puppet.html"> More on puppet </a>
                     </p>
@@ -183,6 +184,22 @@
                     Sources
                 </summary>
                 <ul>
+                <li><a href="https://www.upguard.com/articles/ansible-puppet">
+                Puppet pros and cons
+                </a>
+                </li>
+                <li><a href="https://www.upguard.com/articles/ansible-puppet">
+                Ansible pros and cons
+                </a>
+                </li>
+                <li><a href="https://blog.takipi.com/deployment-management-tools-chef-vs-puppet-vs-ansible-vs-saltstack-vs-fabric/">
+                Chef, Puppet, Ansible comparison - 1
+                </a>
+                </li>
+                <li><a href="https://www.intigua.com/blog/puppet-vs.-chef-vs.-ansible-vs.-saltstack">
+                Chef, Puppet, Ansible comparison - 2
+                </a>
+                </li>
                 <li><a href="https://www.upguard.com/articles/puppet-vs-salt">
                 Puppet vs Salt
                 </a>
