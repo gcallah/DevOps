@@ -51,6 +51,58 @@
                         </a>
                     </li>
 
+                    <li>
+                        <a
+                            href="https://searchitoperations.techtarget.com/definition/Zabbix">
+                            Zabbix
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="https://en.wikipedia.org/wiki/Nagios">
+                            Nagios
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="https://medium.com/linux-monitoring-with-nagios/what-is-nagios-64e547db57ca">
+                            What is Nagios?
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="https://www.netadmintools.com/zabbix-vs-nagios-comparison">
+                            Zabbix vs Nagios Comparison for Network and
+                            Bandwidth Monitoring
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="https://docs.sensu.io/sensu-core/0.29/overview/what-is-sensu/">
+                            What is Sensu?
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="https://xebialabs.com/technology/sysdig/">
+                            Sysdig
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="https://newrelic.com/products/infrastructure">
+                            New relic : Change the way you monitor
+                            infrastructure
+                        </a>
+                    </li>
+
+                    
                 </ul>
             </div>
         </div>
