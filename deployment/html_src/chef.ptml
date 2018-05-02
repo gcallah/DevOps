@@ -32,7 +32,7 @@
 
     		<b>WHAT IS CHEF?</b> </br>
 
-    		CHEF is a configuration management tool written in Ruby and Erlang. It is used to configure and maintain a company's servers.
+    		CHEF is a configuration management tool written in Ruby and Erlang. It is used to configure and maintain a company's servers. <a href "https://en.wikipedia.org/wiki/Chef_(software)">(Source)</a>
     		</p>
 
     		<p>
@@ -94,6 +94,10 @@
           Sources
       </summary>
       <ul>
+      <li><a href="https://blog.takipi.com/deployment-management-tools-chef-vs-puppet-vs-ansible-vs-saltstack-vs-fabric/"> Why
+      Chef?
+      </a>
+      </li>
       <li><a href="https://www.digitalocean.com/community/tutorials/how-to-create-simple-chef-cookbooks-to-manage-infrastructure-on-ubuntu"> Basic
         Cookbook concepts
       </a>
