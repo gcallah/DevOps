@@ -78,6 +78,50 @@
                             </ul>    
                         </summary>
                     </details>
+
+                    <details>
+                        <summary class="sum2">
+                            Git Version Control
+                            <ul class = "nested">
+                                <li>
+                                    Different Version Control 
+                                    
+                                </li>
+                                <li>
+                                    What is Git Flow?
+                                </li>
+                                <li>
+                                    What are different branching strategies?
+                                </li>
+                                <li>
+                                    What are Git Submodules and Git Subtrees
+                                </li>
+                            </ul>    
+                        </summary>
+                    </details>
+
+                    <details>
+                        <summary class="sum2">
+                            Cloud Technologies
+                            <ul class = "nested">
+                                <li>
+                                    What are different Cloud Based 
+                                    Service Providers?
+                                </li>
+                                <li>
+                                    Benefits of using the Cloud Services?
+                                </li>
+                                <li>
+                                    What are the procedure to connect to 
+                                    remote EC2 Instances?
+                                </li>
+                                <li>
+                                    How are the media files stored in 
+                                    the cloud based DB?
+                                </li>
+                            </ul>    
+                        </summary>
+                    </details>
                
 
 
