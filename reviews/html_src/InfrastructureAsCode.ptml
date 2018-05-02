@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
         <title>
-            Continuous Delivery
+            Infrastructure as Code
         </title>
         <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
+      <div class="wrapper">
+          <!--include navbar.txt -->
+          <div id="content">
         <h1>
             Infrastructure as Code: Managing Servers in the Cloud
         </h1>
@@ -145,6 +146,7 @@
         <p>
           The chapter names and the key points if any mentioned are taken from the book <i>"Infrastructure as a code,Managing servers in cloud"</i> by Kief Morris
         </p>
-
+      </div>
+  </div>
     </body>
 </html>
