@@ -102,7 +102,12 @@
                         window:
                         <img src="multimedia/Hangout.png"><br>
                         That command will provide you with a link that you can use to 
-                        quickly hop on a video call. 
+                        quickly hop on a video call. <br>
+
+                        After opening the video call window, you may have to login 
+                        to your google account and also have the option of adding 
+                        more participants to the call beyond which you are added to 
+                        the meeting room.
                       </p>
                     </li>
 
