@@ -1,31 +1,59 @@
 import sys
+import os
 import subprocess
 import boto3
 from botocore.exceptions import ClientError
+import time
+
+REGION = 'us-east-1'
+KEY_PAIR = 'puppetkey'
+SECURITY_GROUP = 'puppetsg'
+INSTANCE_DETAILS = {
+"imageID": "ami-6871a115",
+"minCount": 1,
+"maxCount": 2,
+"keyName": KEY_PAIR,
+"securityGroups": SECURITY_GROUP,
+"instanceType": "t2.micro"
+}
+CREATE=False
+
+def enter_host(dns, ip, hostnames, file):
+    command = (
+'ssh -i %s ec2-user@%s /bin/bash << \'ENDHERE\'\n'
+'    sudo su\n'
+'    found=$(grep %s /etc/hosts)\n'
+'    if [ -z "$found" ]; then\n'
+'        echo \"%s %s\" >> /etc/hosts\n'
+'    fi\n'
+'    exit\n'
+'ENDHERE' % (file, dns, ip, ip, hostnames))
+    print(command)
+    os.system(command)
 
 #Creating Key Pairs
-ec2_client = boto3.client('ec2', region_name="us-east-1")
+ec2_client = boto3.client('ec2', region_name=REGION)
 try:
-    existing_pair = ec2_client.describe_key_pairs(KeyNames=['puppetwebapp'])
+    existing_pair = ec2_client.describe_key_pairs(KeyNames=[KEY_PAIR])
     print(existing_pair)
 except ClientError as e:
-    print(e)
+    #print(e)
     print("Key pair not found")
-    out_file = open('puppet.pem','w')
-    key_pair = ec2_client.create_key_pair(KeyName='puppetwebapp')
+    out_file = open(KEY_PAIR+'.pem','w')
+    key_pair = ec2_client.create_key_pair(KeyName=KEY_PAIR)
     out_content = str(key_pair['KeyMaterial'])
     out_file.write(out_content)
     print("Created key pair")
-subprocess.call(['chmod', '0400', 'puppet.pem'])
+subprocess.call(['chmod', '0400', KEY_PAIR+'.pem'])
 
 #Creating Security Groups
 try:
-    response = ec2_client.describe_security_groups(GroupNames=['puppetdeploy'])
-    print(response)
+    response = ec2_client.describe_security_groups(GroupNames=[SECURITY_GROUP])
+    #print(response)
 except ClientError as e:
-    print(e)
+    #print(e)
     vpc_id = ec2_client.describe_vpcs().get('Vpcs', [{}])[0].get('VpcId', '')
-    security_group = ec2_client.create_security_group(GroupName='puppetdeploy',
+    security_group = ec2_client.create_security_group(GroupName=SECURITY_GROUP,
                                          Description='Security group for puppet deployment instances',
                                          VpcId=vpc_id)
     security_group_id = security_group['GroupId']
@@ -40,42 +68,47 @@ except ClientError as e:
             {'IpProtocol': 'tcp',
              'FromPort': 22,
              'ToPort': 22,
+             'IpRanges': [{'CidrIp': '0.0.0.0/0'}]},
+            {'IpProtocol': 'tcp',
+             'FromPort': 8140,
+             'ToPort': 8140,
              'IpRanges': [{'CidrIp': '0.0.0.0/0'}]}
         ])
     print('Ingress Successfully Set %s' % data)
 
-if len(sys.argv) < 1:
-    print('Please input the config file')
-    sys.exit(1)
-else:
-    instance_param = {
-      "imageID": "ami-6871a115",
-      "minCount": 1,
-      "maxCount": 2,
-      "placement": { "AvailabilityZone": "us-east-1a" },
-      "keyName": "puppetwebapp",
-      "securityGroups": "puppetdeploy",
-      "instanceType": "t2.micro"
-    }
-    s_grp_id = ec2_client.describe_security_groups(GroupNames=[instance_param['securityGroups']]).get('SecurityGroups', [{}])[0].get('GroupId', '')
-    print(s_grp_id)
-    print(instance_param['imageID'])
-    vpc_id = ec2_client.describe_vpcs().get('Vpcs', [{}])[0].get('VpcId', '')
-    ec2 = boto3.resource('ec2')
-    instances = ec2.create_instances(ImageId=instance_param['imageID'],
-                        MinCount=instance_param['minCount'],
-                        MaxCount=instance_param['maxCount'],
-                        KeyName=instance_param['keyName'],
+s_grp_id = ec2_client.describe_security_groups(GroupNames=[INSTANCE_DETAILS['securityGroups']]).get('SecurityGroups', [{}])[0].get('GroupId', '')
+print(s_grp_id)
+print(INSTANCE_DETAILS['imageID'])
+vpc_id = ec2_client.describe_vpcs().get('Vpcs', [{}])[0].get('VpcId', '')
+ec2 = boto3.resource('ec2')
+if CREATE:
+    instances = ec2.create_instances(ImageId=INSTANCE_DETAILS['imageID'],
+                        MinCount=INSTANCE_DETAILS['minCount'],
+                        MaxCount=INSTANCE_DETAILS['maxCount'],
+                        KeyName=INSTANCE_DETAILS['keyName'],
                         SecurityGroupIds=[s_grp_id],
-                        InstanceType=instance_param['instanceType'])
-
-#TODO - WAIT FOR INSTANCE TO RUN
-#Describing the details of the instances to fetch the ip address and dns name
+                        InstanceType=INSTANCE_DETAILS['instanceType'])
+    #Connecting to instances
+    print("WAITING FOR INSTANCES TO INITIALIZE")
+    waiter = ec2_client.get_waiter('instance_status_ok')
+    waiter.wait(Filters=[
+                {
+                    'Name': 'instance-state-name',
+                    'Values': [
+                        'running'
+                    ]
+                },
+            ],
+            WaiterConfig={
+            'Delay': 30,
+            'MaxAttempts': 50
+            })
+    print("ALL INSTANCES INITIALIZED")
 response = ec2_client.describe_instances(Filters=[
         {
             'Name': 'image-id',
             'Values': [
-                instance_param['imageID'],
+                INSTANCE_DETAILS['imageID'],
             ]
         },
         {
@@ -87,24 +120,50 @@ response = ec2_client.describe_instances(Filters=[
     ])
 #print(response)
 reservations = response.get('Reservations')
-out_file = open('puppet.config','w')
-#print(instances)
+print("RESERVATIONS in response")
+print(reservations)
+
 instance_count = 0
+#print(instances)
+master_ip = None
+agent_ip = None
+master_dns = None
+agent_dns = None
 for reservation in reservations:
-    instances = reservation.get('Instances')
+    instances = reservation.get('Instances')   
     for instance in instances:
         instance_id = instance.get('InstanceId')
         dns = instance.get('PublicDnsName')
         private_ip = instance.get('PrivateIpAddress')
         instance_count += 1
         if instance_count == 1:
-            out_file.write("master_ip="+private_ip+"\n")
-            out_file.write("master_dns="+dns+"\n")
+            master_dns = dns
+            master_ip = private_ip
         else:
-            out_file.write("agent_ip="+private_ip+"\n")
-            out_file.write("agent_dns="+dns+"\n")
+            agent_dns = dns
+            agent_ip = private_ip
         print(private_ip)
         print(instance)
         print(dns)
-#TODO - Login to instances and run the master and agent scripts
- 
+
+os.system('rm puppet.config')
+os.system('echo "master_ip=%s" >> puppet.config' % master_ip)
+os.system('echo "master_dns=%s" >> puppet.config' % master_dns)
+os.system('echo "agent_ip=%s" >> puppet.config' % agent_ip)
+os.system('echo "agent_dns=%s" >> puppet.config' % agent_dns)
+os.system('echo "pem_file=%s" >> puppet.config' % (KEY_PAIR + '.pem'))
+
+print("EDITING HOST OF MASTER")
+enter_host(master_dns, agent_ip, "agent.devops.org agent", KEY_PAIR + '.pem')
+
+print("EDITING HOST OF AGENT")
+enter_host(agent_dns, master_ip, "master.devops.org master", KEY_PAIR + '.pem')
+
+print("INSTALL MASTER")
+os.system('./install_master.sh')
+print("INSTALL AGENT")
+os.system('./install_agent.sh')
+print("RUN MASTER")
+os.system('./run_master.sh')
+print("RUN AGENT")
+os.system('./run_agent.sh')
