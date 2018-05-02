@@ -87,7 +87,7 @@
                   a good start to re-evalue steps in development waterfall
                   process. Then the authors translates the 7 wastes of
                   manufacturing identified by Shigeo into 7 corresponding
-                  wastes in software development.
+                  wastes in software development[4].
                 </p>
                   <br />
                   <table>
@@ -100,7 +100,7 @@
                      <th>
                   Partially done work will not get in the way of other
                   development but also yields no valuable delivery and tie up
-                  resources. It also gonna be a high risk in final production.
+                  resources. It also gonna be a high risk in final production[4].
                     </th>
                   </tr>
                   <tr>
@@ -108,7 +108,7 @@
                     <th>
                   Unnecessary paperwork are a mass extra cost to Development
                   process. Paperwork should be something eager to use and
-                  need to transmit effective information.
+                  need to transmit effective information[4].
                     </th>
                   </tr>
                   <tr>
@@ -116,7 +116,7 @@
                     <th>
                   Extra features that seems harmless  would increase complexity
                   and tential failure point. Codes that not needed now should
-                  be treated as waste.
+                  be treated as waste[4].
                     </th>
                   </tr>
                   <tr>
@@ -125,7 +125,7 @@
                     Assigning people multiple projects is a waste since the
                     switch among them would cost much time for developers
                     to switch their thoughts and may cause interruptions.
-                    With same resource, projects should be done one by one.
+                    With same resource, projects should be done one by one[4].
                     </th>
                   </tr>
                   <tr>
@@ -133,7 +133,7 @@
                     <th>
                       Waiting is one of the biggest wastes that delys are very
                       common in software development. It keeps
-                      customers from realizing value as soon as possible[1].
+                      customers from realizing value as soon as possible[4].
                     </th>
                   </tr>
                   <tr>
@@ -143,7 +143,7 @@
                       only the people, but also the artifact information. Team
                       work apart would cost time to communicate with each other
                       . Handoff document from group to group also would be the
-                      source since it can't contain all creater's knowledge.
+                      source since it can't contain all creater's knowledge[4].
                     </th>
                   </tr>
                   <tr>
@@ -152,7 +152,7 @@
                       Defect is a waste due to its impact and its undetected
                       period. The reduction can be improved by testing
                       immediately, integrating often and release as soon as
-                      possible.
+                      possible[4].
                     </th>
                   </tr>
                 </table>
@@ -343,7 +343,7 @@
                   to be a very good method to keep workers motivated and
                   improve the efficiency. CMMI, an advanced verison of CMM, is
                   introduced as a successful mature management tool applying
-                  the above principals.
+                  the above principals[11].
                 </p><br />
                 <p>
                   The first tool introduced to empower the team is
@@ -360,7 +360,7 @@
                   decide by themselves instead of told by higher level people
                   who is less experienced can fully inspire their capability
                   and motivation. The author also clarify in a easily
-                  understood words, "Treat People Like Volunteers"[13].
+                  understood words, "Treat People Like Volunteers"[14].
                 </p><br />
             </details>
             <h2>
@@ -399,12 +399,15 @@
               Toolkit (Agile Software Development Series)(p.64-65).
               <br />
               [11] Poppendieck, Mary. Lean Software Development: An Agile
-              Toolkit (Agile Software Development Series)(p.97).
+              Toolkit (Agile Software Development Series)(p.96-97).
               <br />
               [12] Poppendieck, Mary. Lean Software Development: An Agile
               Toolkit (Agile Software Development Series)(p.99).
               <br />
               [13] Poppendieck, Mary. Lean Software Development: An Agile
+              Toolkit (Agile Software Development Series)(p.100).
+              <br />
+              [14] Poppendieck, Mary. Lean Software Development: An Agile
               Toolkit (Agile Software Development Series)(p.102).
             </p>
           </div>
