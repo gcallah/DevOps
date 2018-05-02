@@ -61,8 +61,10 @@
         It has download and install options for different versions of Linux as well as Mac and Windows.
         It contains a set of tools needed to test your infrastructure.
         The following link can be used to download the Chef server: <a href="https://downloads.chef.io/chef-server">Link to download Chef server</a>
-
-        Chef Cookbooks:
+      </br>
+      </br>
+        <b>Chef Cookbooks</b>:
+      </br>
         "Cookbooks are said to be the fundamental unit of configuration." (Definition from <a href="www.digitalocean.com"></a>) Chef uses cookbooks to perform work and makes sure everything is running smoothly.
         The nodes on your system use the configuration details from your cookbooks.
         A number of terms related to cookbooks are:
@@ -75,7 +77,8 @@
         </h6>
         </ul>
         </br> </br>
-
+      </p>
+        <p>
         <b>We can now move on to the creation of cookbooks:</b>
       </br>
         Go to your specific chef directory:
