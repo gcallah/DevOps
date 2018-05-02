@@ -267,10 +267,49 @@
         <h3>
             Configuration:
         </h3>
-        <p>
-        <b>*</b>
-        <b>*</b>
-        </p>
+
+        <p><b>*</b> Docker Compose used as a base and reference to create deployment
+           and service configuration</p>
+        <span>
+          <pre>
+            <code>
+              # A Docker compose to create the application with two containers
+              # * 1. Nginx container
+              # * 2. git-sync container
+              # Reference from: https://hub.docker.com/r/openweb/git-sync/
+              # Run with `docker-compose up -d` once the dockerCompose
+              file is created
+              version: "2"
+                services:
+                  nginx:
+                    image: nginx:latest
+                    ports:
+                      - "8080:80"
+                    volumes:
+                      - website_sources:/usr/share/nginx/html:z
+                    depends_on:
+                      - git-sync
+                    restart: always
+                  git-sync:
+                    image: openweb/git-sync:0.0.1
+                    environment:
+                      GIT_SYNC_REPO: "https://github.com/gcallah/DevOps"
+                      GIT_SYNC_DEST: "/git"
+                      GIT_SYNC_BRANCH: "master"
+                      GIT_SYNC_REV: "FETCH_HEAD"
+                      GIT_SYNC_WAIT: "100"
+                    volumes:
+                      - website_sources:/git:z
+                    restart: always
+                volumes:
+                  website_sources:
+                driver: local
+            </code>
+          </pre>
+        </span>
+        <b>*</b><p> Used "kompose" <a href="https://github.com/kubernetes/kompose"/>
+          to convert docker compose -&gt respective kubernetes deployment
+          and service configuration</p>
 
         <h3>
             Steps:
@@ -296,6 +335,8 @@
           <b>*</b> <a href="http://paulbakker.io/kubernetes/kubernetes-static-sites/"> Kubernetes Static Site reference</a><br>
           <b>*</b> <a href="https://daemonza.github.io/2017/01/15/kubernetes-on-aws/"> Kubernetes on AWS</a><br>
           <b>*</b> <a href="https://hub.docker.com/r/openweb/git-sync/">DockerCompose</a><br>
+          <b>*</b> <a href="https://github.com/dysinger/learn-minikube">DockerCompose</a><br>
+          <b>*</b> <a href="https://github.com/kubernetes/kompose">Kompose</a><br>
         </p>
             </div>
         </div>
