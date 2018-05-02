@@ -315,6 +315,54 @@
                   action/response allows later decision making.
                 </p><br />
             </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 4: Deliver as fast as possible
+                </summary>
+                <p>
+                  Coming soon.
+                </p>
+            </details>
+            <details>
+                <summary class="sum2">
+                    Chapter 5: Empower the team
+                </summary>
+                <p>
+                  This chapter start to talk about the toolkits to improve the
+                  satification and manufacture efficiency. The authors start
+                  his point by going back to the historical period that
+                  traditional scientific management start turning from a
+                  impressive method to a source of dissatification in the
+                  industry and being challenged by the
+                  lean development method. After several failed reformative
+                  versions, people realized that it's time to make essential
+                  changes. After some exploration, the idea "moving decisions
+                  to the lowest possible level in an organization while
+                  developing the capacity of those people to make decisions
+                  wisely."[11] has been raised and accepted. Empower is proved
+                  to be a very good method to keep workers motivated and
+                  improve the efficiency. CMMI, an advanced verison of CMM, is
+                  introduced as a successful mature management tool applying
+                  the above principals.
+                </p><br />
+                <p>
+                  The first tool introduced to empower the team is
+                  self-determination. The autors raise the sample that NUMMI
+                  (New United Motor Manufacturing)[12] turned a disaster plant
+                  into one of the highest productive plant in the US. It turns
+                  out the crux of previous disaster is "the workers did not
+                  appreciate being told how to do their jobs."[13] which lead
+                  to the lack of motivation. The secret is the toolkit which
+                  is gonna be introduced in this part, self-determination that
+                  workers are trained to make decition themselves and work in
+                  team made of workders instead of being commanded by manager.
+                  The author using this sample to claim that let workers
+                  decide by themselves instead of told by higher level people
+                  who is less experienced can fully inspire their capability
+                  and motivation. The author also clarify in a easily
+                  understood words, "Treat People Like Volunteers"[13].
+                </p><br />
+            </details>
             <h2>
               Citation:
             </h2>
@@ -349,6 +397,15 @@
               <br />
               [10] Poppendieck, Mary. Lean Software Development: An Agile
               Toolkit (Agile Software Development Series)(p.64-65).
+              <br />
+              [11] Poppendieck, Mary. Lean Software Development: An Agile
+              Toolkit (Agile Software Development Series)(p.97).
+              <br />
+              [12] Poppendieck, Mary. Lean Software Development: An Agile
+              Toolkit (Agile Software Development Series)(p.99).
+              <br />
+              [13] Poppendieck, Mary. Lean Software Development: An Agile
+              Toolkit (Agile Software Development Series)(p.102).
             </p>
           </div>
         </div>
