@@ -253,26 +253,36 @@
         </p>
 
         <h2>
-            Implementation?
+            Implementation:
         </h2>
+        <p>
+        <b>Kuberenets Locally</b><br>
+        <b>*</b> Using MiniKube, a local kubernetes could be setup with a virtual
+        machine like virutal box or vmware workstation.<br>
+        <b>Basic Kubernetes Cluster Implementation as a Simple Project for
+          the Course:</b><br>
+        <b>*</b> Deploy the gcallah/DevOps static website as a cluster service with
+        AWS or any machines in the cloud.<br>
+        <b>*</b> Pod1 - git-sync(gcallah/devops) pulling latest updates + Pod2 - nginx
+        container ==&gt Kubernetes Cluster Service ==&gt AWS Worker machines<br>
+        </p>
 
         <h3>
             Setup:
         </h3>
         <p>
-          <b>*</b>
-          <b>*</b>
+          <b>* Install minikube</b><br>
+          <b>* Install any hypervisor like virtualbox or vmware</b><br>
         </p>
 
         <h3>
             Configuration:
         </h3>
-
         <p><b>*</b> Docker Compose used as a base and reference to create deployment
            and service configuration</p>
-        <span>
           <pre>
             <code>
+                <span>
               # A Docker compose to create the application with two containers
               # * 1. Nginx container
               # * 2. git-sync container
@@ -304,27 +314,88 @@
                 volumes:
                   website_sources:
                 driver: local
+                </span>
             </code>
           </pre>
-        </span>
+
+
         <b>*</b><p> Used "kompose" <a href="https://github.com/kubernetes/kompose"/>
           to convert docker compose -&gt respective kubernetes deployment
-          and service configuration</p>
+          and service configuration. Use this command
+          <b>./kompose convert -f ../docker-compose.yml </b> to get the configs.</p>
+          <p><br><b> Deployment configuration </b></p>
+            <pre>
+              <code>
+                <span>
+                # Deployment YAML Configuration File
+                # * Pod specification of using 2 containers with a shared volume
+                # References:
+                # * http://paulbakker.io/kubernetes/kubernetes-static-sites/
+                # * https://github.com/dysinger/learn-minikube
+                # * https://github.com/kubernetes/kompose
+                kind: Deployment
+                apiVersion: extensions/v1beta1
+                metadata:
+                  name: devopswebsite
+                spec:
+                  replicas: 2
+                  template:
+                    metadata:
+                       labels:
+                          app: devopswebsite
+                    spec:
+                      containers:
+                      - image: nginx
+                        name: nginx
+                        ports:
+                        - containerPort: 80
+                        volumeMounts:
+                        - mountPath: "/usr/share/nginx/html"
+                          name: www
+                          readOnly: true
+                      - image: paulbakker/git-sync
+                        name: git-sync
+                        imagePullPolicy: Always
+                        env:
+                        - name: GIT_SYNC_REPO
+                          value: https://github.com/gcallah/DevOps
+                        - name: GIT_SYNC_WAIT
+                          value: '10'
+                        volumeMounts:
+                        - mountPath: "/git"
+                          name: www
+                      volumes:
+                      - name: www
+                        emptyDir: {}
+                    </span>
+              </code>
+            </pre>
+
+          <p><br><b> Service configuration </b></p>
+            <pre>
+              <code>
+                <span>
+                apiVersion: v1
+                kind: Service
+                metadata:
+                  name: devopswebsite
+                spec:
+                    type: NodePort
+                    ports:
+                      - name: http
+                        port: 80
+                        protocol: TCP
+                    selector:
+                        app: devopswebsite
+                </span>
+              </code>
+            </pre>
+
 
         <h3>
             Steps:
         </h3>
-        <p>
-        <b>Kuberenets Locally</b><br>
-        <b>*</b> Using MiniKube, a local kubernetes could be setup with a virtual
-        machine like virutal box or vmware workstation.<br>
-        <b>Basic Kubernetes Cluster Implementation as a Simple Project for
-          the Course:</b><br>
-        <b>*</b> Deploy the gcallah/DevOps static website as a cluster service with
-        AWS or any machines in the cloud.<br>
-        <b>*</b> Pod1 - git-sync(gcallah/devops) pulling latest updates + Pod2 - nginx
-        container ==&gt Kubernetes Cluster Service ==&gt AWS Worker machines<br>
-        </p>
+
 
         <h2>
             References and Source:
@@ -335,8 +406,9 @@
           <b>*</b> <a href="http://paulbakker.io/kubernetes/kubernetes-static-sites/"> Kubernetes Static Site reference</a><br>
           <b>*</b> <a href="https://daemonza.github.io/2017/01/15/kubernetes-on-aws/"> Kubernetes on AWS</a><br>
           <b>*</b> <a href="https://hub.docker.com/r/openweb/git-sync/">DockerCompose</a><br>
-          <b>*</b> <a href="https://github.com/dysinger/learn-minikube">DockerCompose</a><br>
+          <b>*</b> <a href="https://github.com/dysinger/learn-minikube">DockerCompose2</a><br>
           <b>*</b> <a href="https://github.com/kubernetes/kompose">Kompose</a><br>
+          <b>*</b> <a href="https://kubernetes.io/docs/user-guide/walkthrough/">Kubernetes101</a><br>
         </p>
             </div>
         </div>
