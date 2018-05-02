@@ -32,7 +32,8 @@
 
     		<b>WHAT IS CHEF?</b> </br>
 
-    		CHEF is a configuration management tool written in Ruby and Erlang. It is used to configure and maintain a company's servers. <a href "https://en.wikipedia.org/wiki/Chef_(software)">(Source)</a>
+    		CHEF is a configuration management tool written in Ruby and Erlang. It is used to configure and maintain a company's servers.
+        <a href="https://en.wikipedia.org/wiki/Chef_(software)">(Wikipedia definition)</a>
     		</p>
 
     		<p>
@@ -42,10 +43,10 @@
 
     		<ul>
     		<h6>
-    		<li> <u>Meant to be used by programmers</u></li>
-    		<li> <u>Useful for large-scale development</u></li>
-    		<li> <u>Stable and mature solution</u></li>
-    		<li> <u>Good version control capabilities</u></li>
+    		<li>Meant to be used by programmers</li>
+    		<li>Useful for large-scale development</li>
+    		<li>Stable and mature solution</li>
+    		<li>Good version control capabilities</li>
     		</h6>
     		</ul>
 
@@ -55,12 +56,14 @@
     		</br>
     		<u><b>CHEF INSTALLATION</b> </u>
     		</br>
-    		Use the following link: https://downloads.chef.io/chefdk/ to install the Chef development toolkit.
-    		It has download and install options for different versions of Linux as well as Mac and Windows. It contains a set of tools needed to test your infrastructure.
-        The following link can be used to download the Chef server: https://downloads.chef.io/chef-server
+    		Use the following link: <a href="https://downloads.chef.io/chefdk/">Link to install Chef DK</a> to install the Chef development toolkit.
+      </br>
+        It has download and install options for different versions of Linux as well as Mac and Windows.
+        It contains a set of tools needed to test your infrastructure.
+        The following link can be used to download the Chef server: <a href="https://downloads.chef.io/chef-server">Link to download Chef server</a>
 
         Chef Cookbooks:
-        "Cookbooks are said to be the fundamental unit of configuration." (Definition from digitalocean.com) Chef uses cookbooks to perform work and makes sure everything is running smoothly.
+        "Cookbooks are said to be the fundamental unit of configuration." (Definition from <a href="www.digitalocean.com"></a>) Chef uses cookbooks to perform work and makes sure everything is running smoothly.
         The nodes on your system use the configuration details from your cookbooks.
         A number of terms related to cookbooks are:
         <ul>
@@ -73,19 +76,24 @@
         </ul>
         </br> </br>
 
-        We can now move on to the creation of cookbooks:
+        <b>We can now move on to the creation of cookbooks:</b>
+      </br>
         Go to your specific chef directory:
+      </br>
         cd ~/chef-repo
-
+      </br>
         Create a cookbook:
+      </br>
         knife cookbook create name_of_cookbook
-
+      </br>
         Lets call it devops, so:
+      </br>
         knife cookbook create devops
-
+      </br>
         cd cookbooks/devops
+      </br>
         ls
-
+      </br>
         This will create a folder for your cookbook.
 
       </p>
