@@ -160,6 +160,9 @@
                         <li>Less capable for failures, recovery and such
                           functionality</li>
                     </ul>
+                    <p>
+                    <a href="https://gcallah.github.io/DevOps/deployment/dockerSwarm.html"> More on DockerSwarm </a>
+                    </p>
                 </details>
                 <details>
                     <summary class="sum2">
@@ -178,6 +181,9 @@
                         <li>Not easy to use - a more complicated setup and
                            configuration</li>
                     </ul>
+                    <p>
+                    <a href="https://gcallah.github.io/DevOps/deployment/kubernetes.html"> More on Kubernetes </a>
+                    </p>
                 </details>
                 <details>
                 <summary class="sum2">
