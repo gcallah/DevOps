@@ -102,7 +102,34 @@
                         </a>
                     </li>
 
-                    
+                    <li>
+                        <a
+                            href="https://en.wikipedia.org/wiki/Stackdriver">
+                            Google Stackdriver
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="https://blog.newrelic.com/2017/09/13/applied-intelligence-radar/r">
+                            Introducing New Relic Applied Intelligence
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="https://stackify.com/application-performance-management-tools/">
+                            Comparison of 18 APM & Application Monitoring Tools
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="https://en.wikipedia.org/wiki/BigPanda">
+                            BigPanda
+                        </a>
+                    </li>
+
                 </ul>
             </div>
         </div>
