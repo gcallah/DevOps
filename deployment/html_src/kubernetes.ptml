@@ -219,12 +219,46 @@
         <h3>
             Steps:
         </h3>
+        <p><br><b> Minikube Start </b></p>
+          <pre>
+            <code>
+              <span>
+
+              </span>
+            </code>
+          </pre>
+          <p><br><b> Status Verification </b></p>
+            <pre>
+              <code>
+                <span>
+
+                </span>
+              </code>
+            </pre>
+          <p><br><b> Deploy Pods and Create Service </b></p>
+              <pre>
+                <code>
+                  <span>
+
+                  </span>
+                </code>
+              </pre>
+
+          <p><br><b> Deploy Pods and Create Service </b></p>
+                  <pre>
+                    <code>
+                      <span>
+
+                      </span>
+                    </code>
+                  </pre>
 
 
         <h2>
             References and Source:
         </h2>
         <p>
+          <b>*</b> <a href="https://gcallah.github.io/DevOps/deployment/notes.html"> Some presentation notes</a><br>
           <b>*</b> <a href="https://kubernetes.io/"> kubernetes site</a><br>
           <b>*</b> <a href="https://youtu.be/PH-2FfFD2PU"> kubernetes in 5 mins</a><br>
           <b>*</b> <a href="http://paulbakker.io/kubernetes/kubernetes-static-sites/"> Kubernetes Static Site reference</a><br>
