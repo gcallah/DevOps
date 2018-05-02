@@ -35,12 +35,15 @@
                 </ul>
 
             <h2> Testing myths to overcome:</h2>
-                <ul class="nested">
-                    <li>Testing is too expensive.</li>
-                    <li>Testing is time-consuming.</li>
-                    <li>Only fully developed processes are tested.</li>
-                    <li>A tested software is bug-free.</li>
-                </ul>
+               <p>
+                Testing is too expensive.<br>
+                Testing is time-consuming.<br>
+                Only fully developed processes are tested.<br>
+                A tested software is bug-free.<br>
+                (<a href="http://www.tutorialspoint.com/software_testing/software_testing_myths.htm">
+                http://www.tutorialspoint.com/software_testing/software_testing_myths.htm</a>)
+                </p>
+              
 
             <h2>
                The Importance of Testing
