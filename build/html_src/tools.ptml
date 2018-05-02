@@ -18,9 +18,9 @@
         </h1>
 
         <p>
-            A "Build tool" is a single term that refers to anything that is 
+            "A 'Build tool' is a single term that refers to anything that is 
             needed to get a piece of software set up, but isn't needed after 
-            that. There are numerous number of build tools each having a 
+            that"[5]. There are numerous number of build tools each having a 
             different set of tradeoffs associated with them. Here are some of
             the major build tools and their features:
         </p>
@@ -93,8 +93,8 @@
                 <ul class="nested">
                     <p>
                         Maven is another build tool that was released in 2004. 
-                        Maven was built with the goal to improve on the 
-                        problems that were faced while using the Ant tool.
+                        Maven was built to overcome the 
+                        problems that were faced in the Ant tool.
                         Maven still has use of XML but relatively less when 
                         compared to the Ant tool. Maven guaranties that it will
                         perform any kind of build, deploy, test and release 
@@ -192,9 +192,13 @@
 
         <p>
         Sources:<br>
-        <a href="http://pybuilder.github.io/"> PyBuild </a> <br>
-        <a href="https://en.wikipedia.org/wiki/Build_automation"> Build Concept </a> <br>
-        <a href="http://shop.oreilly.com/product/9780937175903.do">Managing projects with make</a>
+        <ol>
+        <li><a href="http://pybuilder.github.io/"> PyBuild </a> <br></li>
+        <li><a href="https://en.wikipedia.org/wiki/Build_automation"> Build Concept </a> <br></li>
+        <li><a href="http://shop.oreilly.com/product/9780937175903.do">Managing projects with make</a><br></li>
+        <li><a href="https://www.javacodegeeks.com/2014/06/java-build-tools-ant-vs-maven-vs-gradle.html">Java Code Geeks</a><br></li>
+        <li><a href="http://www.lihaoyi.com/post/WhatsinaBuildTool.html">Whats in a build tool</a></li>
+        </ol>
         </p>
 
             </div>
