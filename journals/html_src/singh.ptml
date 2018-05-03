@@ -45,7 +45,7 @@
         <p>
             <b>Week 5 :</b><br/>
             Got a chance to attend a very fruitful and informative session by Tom Limoncelli who's a Site reliability Engineer at StackOverflow. He gave a very detailed insight into how DevOps really works in industry. There were 3 main main takeaways from his presentation about the DevOps principles which were as follows:<br/>
-            -&gt; "The Three ways of DevOps" : The Process, Communication and Trying New Things.He believes that an organization can increase their throughput if they focus on improving the above three criteria's. <br/>
+            -&gt; "The Three ways of DevOps" : The Process, Communication and Trying New Things.He believes that an organization can increase their throughput if they focus on improving the above three criteria. <br/>
             -&gt; The Small Batches Principle : Doing work in small batches or increments is always better than developing the whole software and deploying only after completion. It ensures that feedback from all the stakeholders in the process is obtained at an early stage rather than at the end.<br/>
             -&gt; Minimum Viable Product: Delivering some value sooner is better than all value later.
         </p>
@@ -88,6 +88,14 @@
             2. Added the class roster to custom dictionary so that the tool recognizes names of class students.<br/> 
             3. Added a wrapper shell script to automate : executes the spell checker program , commits the custom dictionary to git, and subsequently returns the exit code to the calling shell script.<br/> 
             4. Added partial rollout feature by checking $USER in the shell script and rolled out the tool to only spell checker team and Professor Callahan.<br/> 
+        </p>
+        <p>
+            <b>Week 14 :</b><br/>
+            This week I presented the book review for Practical DevOps in class and gave all the students insight into why they should read this book.<br/>
+            During the week I made the following bug fix in the spell checker tool:<br/>
+            <b>Problem :</b> The tool wasn't recognizing some valid english words and was prompting the user for too many words which made the whole task laborious and the tool , virtually unfit for production.<br/>
+            <b>Diagnosis :</b> The cause was diagnosed as the dictionary source not being very elaborate and just containing 10k words.<br/>
+            <b>Fix :</b> I added an extensive dictionary source containing more than 300k words , which covered all the root forms of all possible words. Still, many inflections(tenses , plurals) of words were not being covered by this source and the presence of verified sources of dictionary covering everything as well as being free for download is rare on the internet, hence difficult to procure. So, I came up with a solution to add a backup dictionary source which is verified, trusted and popular. I did some research and came across Oxford Dictionary REST API which returns a boolean value on sending a word in the request URL.That instantly did the trick and I successfully integrated the API into the spell checker tool. Now the tool accuracy is almost near perfect. The decision to make the Oxford API as a backup source and not the sole source was taken because it has a limit of 60 requests/min in the free plan. Hence the cost factor was also taken into account in designing the Software Architecture.
         </p>
     </body>
 </html>
