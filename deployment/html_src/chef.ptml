@@ -102,27 +102,39 @@
     <img src="https://gcallah.github.io/DevOps/deployment/graphics/mkdirandhello.png" style="width:604px;height:442px;">
     <figcaption>Fig3. - Create a chef directory and a file called hello.rb.</figcaption>
     </figure>
-    </br>
+    </br></br>
+    Your hello.rb file should have the following content:
+    file '/tmp/motd' do
+      content 'hello world'
+    end
+    </br></br>
     <figure>
     <img src="https://gcallah.github.io/DevOps/deployment/graphics/morehellorb.png" style="width:604px;height:442px;">
     <figcaption>Fig4. - Display contents of hello.rb and run the file.</figcaption>
     </figure>
     </br>
+    </br></br>
+    Your webserver.rb file should have the following content:
+    <figure>
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/webservercontent.png" style="width:604px;height:442px;">
+    <figcaption>Fig5. - Contents of webserver.rb file.</figcaption>
+    </figure>
+    </br></br>
     <figure>
     <img src="https://gcallah.github.io/DevOps/deployment/graphics/webserver.png" style="width:604px;height:442px;">
-    <figcaption>Fig5. - Run the webserver.rb file.</figcaption>
+    <figcaption>Fig6. - Run the webserver.rb file.</figcaption>
     </figure>
     </br>
     <figure>
     <img src="https://gcallah.github.io/DevOps/deployment/graphics/webserver2.png" style="width:604px;height:442px;">
-    <figcaption>Fig6. - Run the webserver.rb file AGAIN.</figcaption>
+    <figcaption>Fig7. - Run the webserver.rb file AGAIN.</figcaption>
     </figure>
     </br>
     <figure>
     <img src="https://gcallah.github.io/DevOps/deployment/graphics/viewyourwebsite.png" style="width:604px;height:442px;">
-    <figcaption>Fig7. - View your sample website.</figcaption>
+    <figcaption>Fig8. - View your sample website.</figcaption>
     </figure>
-
+  </br></br>
       <b>Chef Cookbooks</b>:
       </br>
         "Cookbooks are said to be the fundamental unit of configuration." (Definition from <a href="https://www.digitalocean.com/community/tags/chef?type=tutorials"></a>)
