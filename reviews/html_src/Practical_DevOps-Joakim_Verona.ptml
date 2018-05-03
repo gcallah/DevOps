@@ -55,8 +55,8 @@
                   change the status quo of software development drawing
                   conclusions from their several years of experience in the
                   industry. One of the major concepts jotted down in this
-                  manifesto according to the author emphasizes the importance of 
-                  focusing on Individuals &amp; Interactions rather than on processes 
+                  manifesto according to the author emphasizes the importance of
+                  focusing on Individuals &amp; Interactions rather than on processes
                   &amp;tools which
                   basically means that company’s should invest not only in tools
                   and processes but rather also in breaking down the silos in
@@ -128,22 +128,35 @@
                 <br/>
                 <p>
                   In this chapter the author has described how the various
-                  components of the Continuous Delivery pipeline work and 
-                  how they fit in together to form the bigger picture. 
-                  After that he also goes on to explain how the Continuous 
+                  components of the Continuous Delivery pipeline work and
+                  how they fit in together to form the bigger picture.
+                  After that he also goes on to explain how the Continuous
                   Delivery pipeline fits into the Agile Development Cycles
-                  such as Scrum and Kanban. At the end of the chapter he 
-                  emphasizes on how to identify the bottlenecks in the 
-                  deployment process and gives a baseline that if a change 
+                  such as Scrum and Kanban. At the end of the chapter he
+                  emphasizes on how to identify the bottlenecks in the
+                  deployment process and gives a baseline that if a change
                   being propagated doesn’t reach the integration test servers
-                  within a 15 minute window, then there exists a problem in 
-                  your deployment pipeline which needs to be identified. 
+                  within a 15 minute window, then there exists a problem in
+                  your deployment pipeline which needs to be identified.
                   To support that,he gives an example of a real world practice
-                  called Scrum Retrospective also. Everywhere in the chapter 
-                  he makes comparisons about the various variations that 
-                  occur with respect to the CD pipeline depending on the 
-                  company size. 
+                  called Scrum Retrospective also. Everywhere in the chapter
+                  he makes comparisons about the various variations that
+                  occur with respect to the CD pipeline depending on the
+                  company size.
                 </p>
+
+                <h2>Chapter 3 </h2>
+                <p>
+                </p>
+
+                <h2>Chapter 4 - Everything is code </h2>
+                <p>
+                  Every software based organization needs a central code
+                  management system and this chapter discusses the strategies
+                  for selecting a suitable system and various practices
+                  associated with it. TBC..
+                </p>
+
             </p>
           </div>
       </div>
