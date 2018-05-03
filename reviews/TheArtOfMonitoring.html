@@ -309,10 +309,13 @@
         Chapter 5: Host-based monitoring with collectd
       </summary>
       <p> In this chapter, host-based data is collected and sent to Reimann.
-        This is done by collectd which is a daeamon acting as a monitoring
+        This is done by collectd which is a daemon acting as a monitoring
         collection agent. This will do the local monitoring and send
         it to Reimann. Collectd runs locally on the hosts and monitors
-        and collects data from a variety of components.
+        and collects data from a variety of components. In order to 
+        collect data some plugins are enabled. Events collect the data
+        and send them to graphite which in turn can be sent to grafana
+        where they can be graphed.
       </p>
   </details>
 
