@@ -81,12 +81,20 @@
                             received like email, mobile or using an
                             application. The next step explains how to
                             create the Slack Integration.
+                      <figure>
+                      <img src="https://gcallah.github.io/DevOps/monitoring/Images/Contact.png" 
+                    style="width:750px;height:600px;">
+                    </figure>
                         </li>
                         <li>
                           Slack: To receive alerts on a Slack channel we need
                           to integrate StatusCake with Slack. Generate a
                           webhook URL. Select slack as the 3RD party
                           integration. The Alias field is a must.
+                        <figure>
+                    <img src="https://gcallah.github.io/DevOps/monitoring/Images/Slack.png" 
+                    style="width:750px;height:600px;">
+                    </figure>
                         </li>
                         <li>
 
@@ -94,6 +102,10 @@
                             and select new test. Enter the url you want to
                             monitor. You can add a contact group for the test.
                             This group will be contacted in case of alerts.
+                    <figure>
+                    <img src="https://gcallah.github.io/DevOps/monitoring/Images/AddTest.png" 
+                    style="width:750px;height:600px;">
+                    </figure>
                         </li>
 
                     </ol>
