@@ -29,12 +29,16 @@
 
         <p>
     		</br></br>
-
+        <b>Prerequisites</b> </br>
+        Familiarity with Ruby and underlying system.
     		<b>WHAT IS CHEF?</b> </br>
 
     		CHEF is a configuration management tool written in Ruby and Erlang. It is used to configure and maintain a company's servers.
-        <a href="https://en.wikipedia.org/wiki/Chef_(software)">(Wikipedia definition)</a>
-    		</p>
+        <a href="https://en.wikipedia.org/wiki/Chef_(software)">(from Wikipedia's definition)</a>
+        "Chef helps you express your infrastructure policy – how your software is delivered and maintained on your servers – as code.
+        When infrastructure is code, it becomes more maintainable, versionable, testable, and collaborative." -Chef's official documentation page.
+        (<a href="https://learn.chef.io/modules/learn-the-basics/ubuntu/aws#/"></a>)
+        </p>
 
     		<p>
     		</br>
@@ -45,7 +49,6 @@
     		<h6>
     		<li>Meant to be used by programmers</li>
     		<li>Useful for large-scale development</li>
-    		<li>Stable and mature solution</li>
     		<li>Good version control capabilities</li>
     		</h6>
     		</ul>
@@ -63,23 +66,36 @@
         The following link can be used to download the Chef server: <a href="https://downloads.chef.io/chef-server">Link to download Chef server</a>
       </br>
       </br>
-        <b>Chef Cookbooks</b>:
+      <b>A number of terms related to Chef are:</b>
+      <ul>
+      <h6>
+      <li> <u>Recipes</u></li>
+      <li> <u>Resources</u></li>
+      <li> <u>Cookbooks</u></li>
+      </h6>
+      </ul>
+    </br></br>
+      <b>Chef Recipes</b>:
+      "A resource describes one part of the system and its desired state.
+      A recipe is a file that holds one or more resources."
+      (Definition from <a href="https://learn.chef.io/modules/learn-the-basics/ubuntu/aws/configure-a-resource#/"></a>)
+    </br></br>
+      <b>Chef Resources</b>:
+      "Each resource declares what state a part of the system should be in, but not how to get there.
+      Chef handles these complexities for us."
+      (Definition from <a href="https://learn.chef.io/modules/learn-the-basics/ubuntu/aws/configure-a-resource#/"></a>)
+
+
+
+      <b>Chef Cookbooks</b>:
       </br>
-        "Cookbooks are said to be the fundamental unit of configuration." (Definition from <a href="www.digitalocean.com"></a>) Chef uses cookbooks to perform work and makes sure everything is running smoothly.
+        "Cookbooks are said to be the fundamental unit of configuration." (Definition from <a href="https://www.digitalocean.com/community/tags/chef?type=tutorials"></a>)
+        Chef uses cookbooks to perform work and makes sure everything is running smoothly.
         The nodes on your system use the configuration details from your cookbooks.
-        A number of terms related to cookbooks are:
-        <ul>
-    		<h6>
-        <li> <u>Recipes</u></li>
-        <li> <u>Files</u></li>
-        <li> <u>Attributes</u></li>
-        <li> <u>Templates</u></li>
-        </h6>
-        </ul>
-        </br> </br>
+        </br></br>
       </p>
         <p>
-        <b>We can now move on to the creation of cookbooks:</b>
+        <b>We can now move on to the creation of cookbooks: (from www.digitalocean.com)</b>
       </br>
         Go to your specific chef directory:
       </br>
@@ -87,6 +103,7 @@
       </br>
         Create a cookbook:
       </br>
+      Install knife (command-line tool for Chef that could be a part of installation)
         knife cookbook create name_of_cookbook
       </br>
         Lets call it devops, so:
@@ -107,6 +124,9 @@
       <ul>
       <li><a href="https://blog.takipi.com/deployment-management-tools-chef-vs-puppet-vs-ansible-vs-saltstack-vs-fabric/"> Why
       Chef?
+      </a>
+      </li>
+      <li><a href="https://www.tutorialspoint.com/chef/chef_quick_guide.htm"> Chef tutorial
       </a>
       </li>
       <li><a href="https://www.digitalocean.com/community/tutorials/how-to-create-simple-chef-cookbooks-to-manage-infrastructure-on-ubuntu"> Basic
