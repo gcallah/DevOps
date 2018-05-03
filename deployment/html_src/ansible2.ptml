@@ -24,60 +24,69 @@
 
         <p><b>EXAMPLE 1: Copy file from a local machine to a remote server</b></p>
 
-    <p> The copy module copies a file from the local or remote machine to a 
-    location on the remote machine. Use the fetch module to copy files from 
-    remote locations to the local box. For Windows targets, use the win_copy 
-    module instead.
+        <p> One of the basic operations of copying a file from a local 
+        machine to a remote location can be achieved with help of 
+        'copy' module. In a similar manner, 'fetch' module can be used
+        to copy a file from a remote to a location on the localhost. 
+        For Windows target machines, we can use 'win_copy' module.
 
         <pre>
-        - hosts: blocks
+        - hosts: host_group
           tasks:
             - name: Copy a file from local to remote server
               copy:
-                src: ~/Users/test_file.txt
-                dest: /tmp
-                mode: u=rw,g=r,o=r
+                src: ~/root/test_file.txt
+                dest: /Desktop
+                mode: u=rwx,g=rw,o=r
         </pre>
-    </p>
-       <p> The above example describes simple module for copying a file from 
-       one system to another with specific mode and permission for users, 
-       group and others.
-    </p>
+        <i><b>source: </b></i> www.mydailytutorials.com/how-to-copy-files-and-
+        directories-in-ansible-using-copy-and-fetch-modules/ <br><br>
+        
+        </p>
+        <p> The above example describes simple module for copying a file from 
+        one system to another with specific mode and permissions for the 
+        users, groups and others.
+        </p>
         <br>
         <br>
 
          <p><b>EXAMPLE 2: Access Control List - Set and Retrieve file ACL 
          information</b> </p>
 
-    <p> Sets and retrieves file ACL information.
+        <p> The module basically sets or configures and retrieves the 
+        file's ACL information.
 
         <pre>
-        - hosts: blocks
+        - hosts: host_group
           tasks:
-            - name: Grant user John read access to a file
+            - name: Grant user Ravish read access to a file
             acl:
                 path: /etc/acl.conf
-                entity: John
+                entity: Ravish
                 etype: user
-                permissions: r
+                permissions: rw
                 state: present
         </pre>
-       </p>
-       <p> The above example describes a module for setting up access control 
-       permissions for a user to access a particular file or folder. An 
-       entity can be a user as well as a group of users, which may requires 
-       certain permissions.
-    </p>
+        <i><b>source: </b></i> tuxknight-notes.readthedocs.io/en/latest/ansible/ansible-module-doc.html <br><br>
+        
+        </p>
+        <p> In the above example the 'acl' is simply used for configuring
+        the access control permissions for a user to achieve read and 
+        write access on a particular file or folder. The etype, that is,
+        the entity type has been set as a user here, however, this can be
+        set as a group too with certain permissions. 
+        </p>
 
-    <br>
+        <br>
         <br>
 
-         <p><b>EXAMPLE 3: Manage IAM users, groups, roles and keys</b> </p>
+        <p><b>EXAMPLE 3: Manage IAM users, groups, roles and keys</b> </p>
 
-    <p> Allows for the management of IAM users, user API keys, groups, roles.
+        <p> The 'iam' modules enables the configuration and management 
+        of IAM users, user API keys, groups, roles.
 
         <pre>
-        - hosts: blocks
+        - hosts: hosts_block
           tasks:
             - name: Create IAM role with custom trust relationship
             iam:
@@ -92,40 +101,49 @@
                 Principal:
                     Service: lambda.amazonaws.com
         </pre>
-       </p>
-       <p> The above example describes a module for custom trust policy for 
-       Lambda Services
-       </p>
+        <i><b>source: </b></i> docs.ansible.com/ansible/2.4/iam_module.html <br> <br>
+        
+        </p>
+        <p> In the above example, the iam module creates a custom trust 
+        policy for Amazon's Lambda service. Different parameters like 
+        state, version, action controls are configured.
+        </p>
 
 
         <br>
         <br>
 
-         <p><b>EXAMPLE 4: net_system - Manage the system attributes on 
-         network devices</b> </p>
+        <p><b>EXAMPLE 4: net_system - Manage the system attributes on 
+        network devices</b> </p>
 
-    <p> This module provides declarative management of node system attributes
-    on network devices. It provides an option to configure host system 
-    parameters or remove those parameters from the device active 
-    configuration.
+        <p> The 'net_system' module allows to define the set of rules
+        and tasks for management of network devices. 
 
         <pre>
-        - hosts: blocks
+        - hosts: host_block
           tasks:
             - name: configure name servers
             net_system:
                 name_servers:
+                    - 218.86.11.16
                     - 8.8.8.8
-                    - 8.8.4.4
         </pre>
-    </p>
-       <p> The above example describes a module for configuring domain name 
-       service for multiple hosts on the network
-    </p>
-        <p>
-
-        <pre><b> SITE UNDER CONSTRUCTION</b></pre>
+        <i><b>source: </b></i> docs.ansible.com/ansible/devel/modules/net_system_module.html <br> <br>
+        
         </p>
+        <p> In the above example, the module is used to cofigure the
+        domain name servers on the target nodes present in the network, 
+        each of the device in concerned is configured with set of two 
+        name resolver IP addresses.
+        </p>
+        
+        <p>
+        </br>
+        <b>REFERENCES:</b>
+        <br>1. http://docs.ansible.com/ansible/latest/modules/list_of_all_modules.html
+
+        </p>
+
         </div>
       </div>
     </body>
