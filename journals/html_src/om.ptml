@@ -96,7 +96,11 @@ We perfomed scanning on the web server. We did not find any vulnerability, serve
 <p>
 This week task was to perfom analysis of various attack vectors in cloud envionment. We checked the configuration parameter of cloud infrastrcture
 hosting the static web application, sql server instance on cloud. We will be doing security testing on the cloud for the next week.
+</p>
 
+<h><b>Week 14</b></h>
+<p>
+I spent more time this week in updating book review since. We had few findings during our security testing of clud and we communicated that to concerned team. I also went through some of the certification which should be completed for a cloud based security engineer.
 </p>
  </div>
         </div>
