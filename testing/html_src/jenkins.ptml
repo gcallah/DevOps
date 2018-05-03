@@ -42,8 +42,8 @@
             <h4> Why Jenkins is better than Continuous Integration tools</h4>
             <ul>
                 <li>Jenkins is widespread.</li>
-                <li>It is interconnected very well with over a 1000 
-                plug-ins that allow easy integration with development, 
+                <li>It is interconnected very well with over a 1000
+                plug-ins that allow easy integration with development,
                 testing and deployment tools.
                 </li>
             </ul>
@@ -66,6 +66,8 @@
              <li> Jenkins is not free for private repositories. </li>
              <li> Even though Jenkins can be installed on windows, it does not provide further support for windows users. </li>
            </ul>
+
+           <a href="https://www.cloudbees.com/jenkins/about">Reference article</a>
             </div>
         </div>
     </body>

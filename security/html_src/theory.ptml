@@ -35,7 +35,7 @@
         </p>
 
           <h2>
-            Corss-Site Scripting (XSS)
+            Cross-Site Scripting (XSS)
          </h2>
         <p>
           "Cross-Site Scripting (XSS) attacks are a type of injection, in which
@@ -187,6 +187,19 @@
         </p>
            </div>
         </div>
-
+        <h5>
+            Sources:
+        </h5>
+            <ul class="contents">
+                <li>
+                    <a href="https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)">Cross-site Scripting (XSS)</a>
+                </li>
+                <li>
+                    <a href="https://www.owasp.org/index.php/SQL_Injection">SQL Injection</a>
+                </li>
+                <li>
+                    <a href="https://www.owasp.org/index.php/Top_10-2017_A8-Insecure_Deserialization">Insecure Deserialization</a>
+                </li>
+            </ul>
     </body>
 </html>

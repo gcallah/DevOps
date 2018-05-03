@@ -25,10 +25,11 @@
                   Introduction
                 </summary>
                 <p>
-                    This book is mainly about the Poppendiecks' unparalleled experience helping
-                    development organizations optimize the entire software value stream.
-                    This book uses Toyota and its "make it when need it" idea to illustrate the
-                    modern ways of developing softwares.
+                    This book is mainly about the Poppendiecks' unparalleled
+                    experience helpingdevelopment organizations optimize the entire
+                    software value stream. This book uses Toyota and its "make
+                    it when need it" idea to illustrate the modern ways of
+                    developing softwares.[1]
                 </p>
             </details>
             <details>
@@ -36,7 +37,7 @@
                   Chapter 1: History
                 </summary>
                 <p>
-                  The book starts with historical stories about Toyota Production System which, according to the designer Taiichi Ohno, was designed to eliminate waster abosulutely. One of the writers was working in a cassette plant when Japanese competitors entered the market with a much lower price. She described her experience about how she adopted the idea as an example of how lean production works before the term was invented.
+                  The book starts with historical stories about Toyota Production System which, according to the designer Taiichi Ohno, was designed to "eliminate waster abosulutely"(page 5). One of the writers was working in a cassette plant when Japanese competitors entered the market with a much lower price. She described her experience about how she adopted the idea as an example of how lean production works before the term was invented.
                   According to the writer, the key to a successful lean production is to put the Just-in-Time flow and stop-the-line together. Just-in-Time means you only produce when you customer makes a request and stop-the-line means you stop producing immediately after you find a problem in your system and start investigating. Next, She talked about lean supply chain, lean product development and finally, lean software development.
                   This chapter gives an insightful view about how the term 'lean' was introduced and how it is gradually accepted into the modern enterprises. There are plenty of stories and facts cited in this chapter. The way the author organizes the contents is brilliant and inspiring.
                 </p>
@@ -46,8 +47,8 @@
                   Chapter 2: Principles
                 </summary>
                 <p>
-                  This chapter talks about the senven principles of lean software development. The writers not only give detailed explanation on what the principles mean, they also provide a 'Myth' section after each principle, discussing one common wrong understanding of the principle. The book starts by pointing out the most important character of software development - software changes very often. It also claims that it assumes the development process should be empirical - have a high-level concept in mind and then apply feedback-driven methods to implement the concept.
-                  The seven principles of lean software development the book states are:
+                  This chapter talks about the senven principles of lean software development. The writers not only give detailed explanation on what the principles mean, they also provide a 'Myth' section after each principle, discussing one common wrong understanding of a certain principle. The book starts by pointing out the most important character of software development - "software changes very often"(page 20). It also claims that it assumes the development process should be empirical - "have a high-level concept in mind and then apply feedback-driven methods to implement the concept"(page 21).
+                  The seven principles of lean software development the book states are (page 23-41):
                   <ul>
                     <li>
                       Eliminate all nonvalue-adding waste: These wastes are generally partially done work, churns and unused feature.
@@ -74,67 +75,103 @@
                 </p>
             </details>
             <details>
-            	<summary class="sum2">
-            		Chapter 3: Value
-            	</summary>
-            	<p>
-            		The chapter starts with how Google creates their lean solution to Web search. The writer claims that Google's simple home page is a sample of a lean solution where there is no bunch of ads or pop-ups, just a search bar and the buttons the user truly needs. This is what Google makes their customers happy. Google also focuses on customer satisfaction first. They only start thinking about how to make money(create value) after user happiness is achieved.
-            		Then, the writer talks about how Google's lean solution moved from concept to cash and points out the key factor that leads to its success. For the concept stage, Google gives people with inspiration time and effort to pursue it. Therefore, new ideas and improvements are always welcome. For the feasibility stage, Google's founders did a lot of experiments and created a design that made it easy to do system upgrades. The author emphasizes that a good start design is crucial so experiments in feasibility stage are crucial as well. For the pilot stage, the book says that no start design is perfect and improvements should be made after we get feedbacks from our users, which is what Google sticks to. Finally, for the cash stage, Google also did plenty of tests to make sure their ads are not damaging user experience.
-            		Next, the book moves on to talk about how to make your customers happy. A model called Kano model is introduced, which shows that in order to make your customers as delightful as possible, meeting their needs they ask for is not enough - You need to dive into their world, find out what they forget to mention but truly need and surprise them. To achieve this, you need deep customer understanding and to focus on the job - on what your customers want to do with your software. In this section, the book cites two examples, one from a reporter the writer met in an interview and an software engineer worked for P&amp;G.
-            	</p>
-            	<p>
-            		Next, the book talks about how to surprise your customers. It emphasizes on good leadership and complete team. The writer gives an example about the development of Toyota's Sienna where the chief engineer drove the car for thousands of miles on his own so he could figure out what the customer wants. He also points out several problems in how to create good leadership. First, some organizations ask the chief engineer to focus more on risk management rather than integrate knowledge. Second, several good chief engineers who founded the enterprise fail to train more good chief engineers after they turn CEOs.
-            		Regarding how to build a customer-focused team, the author recommends two ways. First, keep leaders from multiple parts of the company together to form the team. Second, try to share leadership between different parts of the company. Also, you need to be sure there is a person who is responsible for the whole picture.
-            	</p>
-            	<p>
-            		Finally, the writer discusses on two funding models: the project fund model where everything is funded at the beginning and the product fund model where funds are raised gradually. The author claims that the first model is generally used in industries and is not suitable for software development. Software development should use the second model instead becaure it fits better for lean.
-            	</p>
+              <summary class="sum2">
+                Chapter 3: Value
+              </summary>
+              <p>
+                The chapter starts with how Google creates their lean solution to Web search. The writer claims that Google's simple home page is a sample of a lean solution where "there is no bunch of ads or pop-ups, just a search bar and the buttons the user truly needs"(page 44). This is what Google makes their customers happy. Google also focuses on customer satisfaction first. They only start thinking about how to make money(create value) after user happiness is achieved.
+                Then, the writer talks about how Google's lean solution moved from concept to cash and points out the key factor that leads to its success. According to the author (page 44-46), for the concept stage, Google gives people with inspiration time and effort to pursue it. Therefore, new ideas and improvements are always welcome. For the feasibility stage, Google's founders did a lot of experiments and created a design that made it easy to do system upgrades. The author emphasizes that a good start design is crucial so experiments in feasibility stage are crucial as well. For the pilot stage, the book says that no start design is perfect and improvements should be made after we get feedbacks from our users, which is what Google sticks to. Finally, for the cash stage, Google also did plenty of tests to make sure their ads are not damaging user experience.
+                Next, the book moves on to talk about how to make your customers happy. A model called "Kano model" is introduced, which shows that in order to make your customers as delightful as possible, meeting their needs they ask for is not enough - You need to dive into their world, find out what they forget to mention but truly need and surprise them (page 49-50). To achieve this, you need deep customer understanding and to focus on the job - on what your customers want to do with your software. In this section, the book cites two examples, one from a reporter the writer met in an interview and an software engineer worked for P&amp;G.
+              </p>
+              <p>
+                Next, the book talks about how to surprise your customers. It emphasizes on good leadership and complete team. The writer gives an example about the development of Toyota's Sienna where the chief engineer drove the car for thousands of miles on his own so he could figure out what the customer wants. He also points out several problems in how to create good leadership. First, some organizations ask the chief engineer to focus more on risk management rather than integrate knowledge. Second, several good chief engineers who founded the enterprise fail to train more good chief engineers after they turn CEOs (page 54-55).
+                Regarding how to build a customer-focused team, the author recommends two ways. First, keep leaders from multiple parts of the company together to form the team. Second, try to share leadership between different parts of the company. Also, you need to be sure there is a person who is responsible for the whole picture (page 57-58).
+              </p>
+              <p>
+                Finally, the writer introduces two funding models: the project fund model where "everything is funded at the beginning" and the product fund model where "funds are raised gradually" (page 60-61) . The author claims that the first model is generally used in industries and is not suitable for software development. Software development should use the second model instead becaure it fits better for lean.
+              </p>
             </details>
             <details>
-            	<summary class="sum2">
-            		Chapter 4: Waste
-            	</summary>
-            	<p>
-            		This chapter talks about where wastes come from and how to avoid them. The author gives explanations togther with vivid examples to illustrate them. 
-            		The topic of the first part is how to write less code. In other words, it discusses complexity in software development. The book starts with an example about a clothe design corporation named Zara. Instead of making a lot of clothes at one time, they make clothes on demand. In this way, the company pays much less expenses on stock, sales and IT management. The writer points out that complexity grows exponently and will finally dominate the costs.
-            		To handle the problem of complexity, the author gives two suggestions. First, we should limit features and functions. Some development teams put a huge amount of features in their product so some of them may suit the need of the customers. This, of course, adds great complexity to the software making it extremely hard and expensive to maintain. We should justify for the features we put in our software, minimize the feature sets so only those needed by our customers are added, and finally, we should NOT automate complexity.
-            		The second part of the chapter talks about 'the seven wastes' of software development that is derived from Toyota's Seven Waste in auto manufacturing. Here we list the seven wastes and the way the book proposes to handle them.
-            		<ul>
-	                    <li>
-	                        Partially Done Work: Divide works into small batches or iterations
-	                    </li>
-	                    <li>
-	                        Extra Features: Do not deploy them unless the customers need it
-	                    </li>
-	                    <li>
-	                        Relearning: Engage people with knowledge in development process and keep what we have learned (further discussions in Chpater 7)
-	                    </li>
-	                    <li>
-	                        Handoffs(give people something without telling them how to use it): More face-to-face communication instead of just handing them stacks of documents; use cross-functional teams so everyone in the team understands what other people are doing
-	                    </li>
-	                    <li>
-	                        Task Switching: Let developer finish what they are doing before making them do something else. Furthermore, do NOT fix this problem by forming a separate maintenance team, which is against agile principles. A team should handle the full cycle of its products.
-	                    </li>
-	                    <li>
-	                        Delays: Create collocated teams; make iterations short; regular feedbacks among team members.
-	                    </li>
-	                    <li>
-	                        Defects: Make defects at a low rate at the beginning of the development. Make sure you test in the customers' environment as well. Also, testing to find errors is a waste while testing to prevent errors is what we truly want.
-	                    </li>
+              <summary class="sum2">
+                Chapter 4: Waste
+              </summary>
+              <p>
+                This chapter talks about where wastes come from and how to avoid them. The author gives explanations togther with vivid examples to illustrate them.
+                The topic of the first part is how to write less code. In other words, it discusses complexity in software development. The book starts with an example about a clothe design corporation named Zara. Instead of making a lot of clothes at one time, they make clothes on demand. In this way, the company "pays much less expenses on stock, sales and IT management" (page 68). The writer points out that "complexity grows exponently and will finally dominate the costs" (page 69).
+                To handle the problem of complexity, the author gives two suggestions. First, we should limit features and functions. Some development teams put a huge amount of features in their product so some of them may suit the need of the customers. This, of course, adds great complexity to the software making it extremely hard and expensive to maintain. We should "justify for the features" (page 70) we put in our software, "minimize the feature sets" (page 71) so only those needed by our customers are added, and finally, we should "NOT automate complexity" (page 72).
+                The second part of the chapter talks about 'the seven wastes' of software development that is derived from Toyota's Seven Waste in auto manufacturing. Here we list the seven wastes and the way the book proposes to handle them (page 74-81).
+                <ul>
+                      <li>
+                          Partially Done Work: Divide works into small batches or iterations
+                      </li>
+                      <li>
+                          Extra Features: Do not deploy them unless the customers need it
+                      </li>
+                      <li>
+                          Relearning: Engage people with knowledge in development process and keep what we have learned (further discussions in Chpater 7)
+                      </li>
+                      <li>
+                          Handoffs(give people something without telling them how to use it): More face-to-face communication instead of just handing them stacks of documents; use cross-functional teams so everyone in the team understands what other people are doing
+                      </li>
+                      <li>
+                          Task Switching: Let developer finish what they are doing before making them do something else. Furthermore, do NOT fix this problem by forming a separate maintenance team, which is against agile principles. A team should handle the full cycle of its products.
+                      </li>
+                      <li>
+                          Delays: Create collocated teams; make iterations short; regular feedbacks among team members.
+                      </li>
+                      <li>
+                          Defects: Make defects at a low rate at the beginning of the development. Make sure you test in the customers' environment as well. Also, testing to find errors is a waste while testing to prevent errors is what we truly want.
+                      </li>
                     </ul>
-                    At last, the book discusses about value streams, a timeline showing what happens between the moment a customer makes an order to the time we deliver the product. The author claims that a value stream should always start and end with a customer and the aim of our lean approach is to remove all the non-value adding procedures in the stream. To create a value stream, first, we need to decide what to map. Then, we should decide when to start and end. Remember to idenitfy an owner of value stream and keep it as simple as possible.
-                    Next, the book gives detailed examples of value streams. It analyzes what wastes are included in the timeline and explains the lean principles using these samples. It points out that to diagnose problems in the value stream is to find churns and delays. Finally, if we want to create a future map, make sure we only draw the immediate improvements. We should draw a new one once these improvements are done.
-            	</p>
+                    At last, the book discusses about value streams, a timeline showing "what happens between the moment a customer makes an order to the time we deliver the product"(page 83). The author claims that "a value stream should always start and end with a customer and the aim of our lean approach is to remove all the non-value adding procedures in the stream"(page 83). To create a value stream, first, we need to decide what to map. Then, we should decide when to start and end. Remember to idenitfy an owner of value stream and keep it as simple as possible(page 84-85).
+                    Next, the book gives detailed examples of value streams. It analyzes what wastes are included in the timeline and explains the lean principles using these samples. It points out that to diagnose problems in the value stream is to find churns and delays. Finally, if we want to create a future map, make sure we only draw the immediate improvements. We should draw a new one once these improvements are done(page 92)
+              </p>
             </details>
             <details>
-            	<summary class="sum2">
-            		Chapter 5: Speed
-            	</summary>
-            	<p>
-            		This chapter talks about how speed impacts software development and how to achieve fast delivery. It starts with a story about PatientKeeper, a software company that dominates the market of patient information presentation by delivering products and features much faster than other competitors. The author explains the secrets behind this, which gives the readers an insight into the contents of this chapter. Then, the writer introduces a methodology on how to measure the quality of software development: to measure the AVERAGE time yoru team spend to deliver a product or release. The writer explains the word 'AVERAGE' clearly. For products with different sizes, try to establish a regular tiem for your release cycle, for example, two weeks or two months. 
-            		Next, the oook gives an equation called Little's Law which says that cycle time is calculated by dividing number of things in process by the average completion rate. Therefore, it becomes obvious that to speed things up (to reduce cycle time) is to increase average completion rate or reduce the number of things in process. The book claims that the former generally requires more money while the latter doesn't. The book moves on to discuss variations and utilization. It gives a real life example where, in general, when a server's utilizaton rate goes high, say 80%, the server tends to slow down. Therefore, we don't use our servers to maximum utilization. However, when managing software engineers, we almost always try to use our people to maximum utilization. The writer points out the controversy here and claims that we shouldn't focus on maximizing utilization but instead, assign work into small batches and keep more attention on making the work flow more easily.
-            	</p>
+              <summary class="sum2">
+                Chapter 5: Speed
+              </summary>
+              <p>
+                This chapter talks about how speed impacts software development and how to achieve fast delivery. It starts with a story about PatientKeeper, a software company that dominates the market of patient information presentation by delivering products and features much faster than other competitors. The author explains the secrets behind this, which gives the readers an insight into the contents of this chapter. Then, the writer introduces a methodology on how to measure the quality of software development: "to measure the AVERAGE time yoru team spend to deliver a product or release" (page 98-99). The writer explains the word 'AVERAGE' clearly. For products with different sizes, try to establish a regular tiem for your release cycle, for example, two weeks or two months.
+                Next, the book gives an equation called Little's Law which says that cycle time is calculated by dividing number of things in process by the average completion rate (page 100). Therefore, it becomes obvious that to speed things up (to reduce cycle time) is to increase average completion rate or reduce the number of things in process. The book claims that "the former generally requires more money while the latter doesn't" (page 101). The book moves on to discuss variations and utilization. It gives a real life example where, in general, when a server's utilizaton rate goes high, say 80%, the server tends to slow down. Therefore, we don't use our servers to maximum utilization. However, when managing software engineers, we almost always try to use our people to maximum utilization. The writer points out the controversy here and claims that we shouldn't focus on maximizing utilization but instead, "assign work into small batches and keep more attention on making the work flow more easily" (page 102).
+                On the topic of reducing cycle times, the author gives the six different suggestions(page 103). All of them are illustrated by real life examples both from industries and software development. We see a lot of stories told by one of the author in this part. They make the points clearer and more convincing.
+              </p>
             </details>
+
+            <details>
+              <summary class="sum2">
+                Chapter 6: People
+              </summary>
+              <p>
+                This chapter is mainly about how to treat and value poeple's ideas
+                in the lean software development. The chapter starts with an
+                Interesting example from Boeing 777[2]. The example illustrate
+                how Boeing beats other competitors by listening to people and their
+                customers. There is one line I find most interesting and insightful
+                is that "share early and share often"[3]. Personally, from my
+                experience in developing, the customers' opinions are often arrived
+                at very late stage of the developemt process, which sometimes results
+                in great conflicts at the end. The idea behind this chater is to
+                let us know that, we need to keep customers and developers idea
+                and their comments in mind at all time.
+              </p>
+            </details>
+
+            <h2>
+              Citation:
+            </h2>
+            <p>
+              [1] Mary, Tom Peppendieck. Implementing Lean Software Development:
+              From Concept to Cash (Agile Software Development Series)(Cover).
+              <br />
+              [2] Mary, Tom Peppendieck. Implementing Lean Software Development:
+              From Concept to Cash (Agile Software Development Series)(P117).
+              <br />
+              [3] Mary, Tom Peppendieck. Implementing Lean Software Development:
+              From Concept to Cash (Agile Software Development Series)(P118).
+              <br />
+            </p>
+
           </div>
         </div>
     </body>

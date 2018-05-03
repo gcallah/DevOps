@@ -207,6 +207,7 @@
       git to fetch the newest website resource from the repository.
       <pre>
         <code>
+          <span>
               # Docker file with Ubuntu Base image and performing apt install of,
               # * Nginx - To host the website
               # * Git   - To fetch the website resource from the git repository
@@ -245,6 +246,7 @@
               # * Use the docker build command to build an image out of this docker file or pull from rep
               # ** command: "docker build -f &gtname of the docker file&lt -t &gttag of the image&lt ."
               # *** repo to docker pull from: srinivas11789/devopswebsite
+            </span>
           </code>
         </pre>
       </p>
@@ -253,6 +255,7 @@
           Ensure to change the image name with the corresponding docker image created.
           <pre>
             <code>
+              <span>
               # Docker Compose file to build as a compose or stack or swarm
               # References:
               # * https://docs.docker.com/get-started/part3/#docker-composeyml
@@ -263,33 +266,33 @@
 
               # services declaration
               services:
-                # Name of the service and image details -
-                # image   - Name of the image to pull from
-                # port    - Port to expose or map
-                # deploy  - configuration to deploy
-                # replica - number of container to be replicated
-                devops:
+              # Name of the service and image details -
+              # image   - Name of the image to pull from
+              # port    - Port to expose or map
+              # deploy  - configuration to deploy
+              # replica - number of container to be replicated
+              devops:
                   image: srinivas11789/devopswebsite:v1
                   ports:
-                    - "80:80"
+                      - "80:80"
                   deploy:
-                    mode: replicated
-                    replicas: 3
-                    labels: [APP=devops_website]
-                    restart_policy:
-                      condition: on-failure
+                      mode: replicated
+                      replicas: 3
+                      labels: [APP=devops_website]
+                      restart_policy:
+                        condition: on-failure
+                  </span>
             </code>
         </pre></p>
 
 
 
-        <h5>Steps for Usage:</h5>
-        <ul class="nested">
-        <li> Use docker-machine command line to use the virtual box
+        <h3>Steps for Usage:</h3>
+        <p> * Use docker-machine command line to use the virtual box
           driver and create virtual machines for the cluster. For the
           demo, lets create three virtual machines. One being the master
           and the other two workers. Use the following command to perform
-           the required operation
+           the required operation</p>
         <pre>
         <code>
           <span>
@@ -325,8 +328,8 @@
          </span>
       </code>
     </pre>
-    </li>
-    <li> List the virtual machines to look at the created vms.
+
+    <p> * List the virtual machines to look at the created vms.</p>
       <pre>
         <code>
           <span>
@@ -339,18 +342,18 @@
       <code>
          <span>
           <b>MacBook-Pro:devOps deployment$ docker-machine ls</b>
-          NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER        ERRORS
+          NAME    ACTIVE     DRIVER       STATE     URL                SWARM   DOCKER        ERRORS
           myvm1     -        virtualbox   Running   tcp://192.168.99.100:2376           v18.03.1-ce
           myvm2     -        virtualbox   Running   tcp://192.168.99.101:2376           v18.03.1-ce
           myvm3     -        virtualbox   Running   tcp://192.168.99.102:2376           v18.03.1-ce
          </span>
       </code>
     </pre>
-    </li>
-        <li> The virtual machines can be connected using ssh to execute
+
+        <p>* The virtual machines can be connected using ssh to execute
           commands and make proper swarm setup. Consider the "vm1"
           machine as the master. Initiating the swarm from node1 "vm1"
-          would make the current node as master
+          would make the current node as master</p>
       <pre>
         <code>
           <span>
@@ -373,11 +376,11 @@
          </span>
       </code>
     </pre>
-    </li>
-      <li> Next, the worker nodes have to configured such that
+
+      <p> Next, the worker nodes have to configured such that
        they recognize the swarm configuration and know the master.
        Make sure to use the token and ip of the master node
-       generated when swarm was initialized
+       generated when swarm was initialized</p>
       <pre>
         <code>
           <span>
@@ -394,9 +397,72 @@
          </span>
       </code>
     </pre>
-    </li>
-    </ul>
+    <p>* Perform similar operation for myvm3<br></p>
 
+
+    <p>* Use the docker-machine shell environment of myvm1 &gtMASTER&lt as per
+      instructions at dockerSwarm reference</p>
+      <pre>
+      <code>
+         <span>
+           <b>MacBook-Pro:devOps deployment$ docker-machine env myvm1</b>
+           export DOCKER_TLS_VERIFY="1"
+           export DOCKER_HOST="tcp://192.168.99.100:2376"
+           export DOCKER_CERT_PATH="/Users/darkknight/.docker/machine/machines/myvm1"
+           export DOCKER_MACHINE_NAME="myvm1"
+           # Run this command to configure your shell:
+           # eval $(docker-machine env myvm1)
+           <b>MacBook-Pro:devOps deployment$ eval $(docker-machine env myvm1)</b>
+         </span>
+      </code>
+    </pre>
+    <p>Command line output sample - shows master is active</p>
+    <pre>
+    <code>
+       <span>
+         <b>MacBook-Pro:devOps deployment$ docker-machine ls</b>
+         NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER        ERRORS
+         myvm1     *        virtualbox   Running   tcp://192.168.99.100:2376           v18.03.1-ce
+         myvm2     -        virtualbox   Running   tcp://192.168.99.101:2376           v18.03.1-ce
+         myvm3     -        virtualbox   Running   tcp://192.168.99.102:2376           v18.03.1-ce
+       </span>
+    </code>
+  </pre>
+
+    <p> * Deploy the docker compose over the swarm</p>
+    <pre>
+      <code>
+        <span>
+          <b>MacBook-Pro:devOps deployment$ docker stack deploy -c docker-compose.yml devopswebsite</b>
+        </span>
+      </code>
+    </pre>
+    <p>Output:</p>
+    <pre>
+      <code>
+        <span>
+          Creating network devopswebsite_default
+          Creating service devopswebsite_devops
+
+          <b>MacBook-Pro:devOps deployment$  docker stack ps devopswebsite</b>
+          ID                  NAME                     IMAGE                            NODE                DESIRED STATE       CURRENT STATE              ERROR               PORTS
+          0cme6z0e9abz        devopswebsite_devops.1   srinivas11789/devopswebsite:v1   myvm3               Running             Preparing 12 seconds ago
+          sfrqlbtx8tes        devopswebsite_devops.2   srinivas11789/devopswebsite:v1   myvm2               Running             Running 12 seconds ago
+          mpq4i8s0zwm5        devopswebsite_devops.3   srinivas11789/devopswebsite:v1   myvm1               Running             Running 12 seconds ago
+        </span>
+      </code>
+    </pre>
+
+    <p> * Test by connecting the docker virtual machines ip using curl or browser to view the devops website</p>
+    <pre>
+      <code>
+        <span>
+          <b>MacBook-Pro:devOps deployment$ curl http://192.168.99.100</b>
+          <b>MacBook-Pro:devOps deployment$ curl http://192.168.99.101</b>
+          <b>MacBook-Pro:devOps deployment$ curl http://192.168.99.102</b>
+        </span>
+      </code>
+    </pre>
 
     <h3>References and Source:</h3>
     <ul class="nested">

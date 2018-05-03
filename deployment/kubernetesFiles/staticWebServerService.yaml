@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: devopswebsite
+spec:
+    type: NodePort
+    ports:
+      - name: http
+        port: 80
+        protocol: TCP
+    selector:
+        app: devopswebsite
