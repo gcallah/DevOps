@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <link href="../style.css" rel="stylesheet" type="text/css"/>
         <title>
-            CHEF!
+            CHEF BASICS
         </title>
     <!--include googleAnalyticsScript.txt -->
     </head>
@@ -105,7 +105,7 @@
     </br></br>
   </p>
     <p>
-    Your hello.rb file should have the following content:
+    <b>Your hello.rb file should have the following content:</b>
     file '/tmp/motd' do</br>
        content 'hello world'</br>
     end</br>
@@ -120,8 +120,9 @@
     </br></br>
   </p>
     <p>
-    Your webserver.rb file should have the following content:
+    <b>Your webserver.rb file should have the following content:</b>
   </p>
+  </br></br>
   <p>
     <figure>
     <img src="https://gcallah.github.io/DevOps/deployment/graphics/webservercontent.png" style="width:604px;height:442px;">
