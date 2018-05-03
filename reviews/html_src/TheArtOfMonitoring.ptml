@@ -153,12 +153,10 @@
         <li> The processes plugin is introduced to check for running processes.
           It generates a series of metrics for the processes such as ps_count
           metric which counts the number of running processes.</br>
-          These three streams are ustilized to measure availibility.
-          <ul>
-            <li>The tagged stream wrapper</li>
-            <li>A stream that matches the threshold notification</li>
-            <li>A stream that matches expired events.</li>
-          </ul>
+          These three streams are utilized to measure availibility.</br>
+            (i)The tagged stream wrapper</br>
+            (ii)A stream that matches the threshold notification</br>
+            (iii)A stream that matches expired events.</br>
         </li>
         <li>The other actions that can be taken using collectd notifications
           are redeploying the code,an attempt to restart a stopped service,
