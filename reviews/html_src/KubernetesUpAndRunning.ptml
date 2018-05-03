@@ -239,6 +239,18 @@
                 commands to manage them are described.
                 </p>
                 </details>
+                <details>
+                <summary class="sum2">
+                    SOURCE AND BOOK AVAILABILITY
+                </summary>
+                <p>
+                E-BOOK: https://www.safaribooksonline.com/library/view/
+                kubernetes-up-and/9781491935668/ <br><br>
+                PAPERBACK: https://www.amazon.com/Kubernetes-Running-Dive-
+                Future-Infrastructure/dp/1491935677
+                </p>
+                </details>
+
 
             </div>
         </div>
