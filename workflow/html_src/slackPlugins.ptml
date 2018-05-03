@@ -29,11 +29,12 @@
                       </figure>
 
                       <p>
-                      	Pixel Kit makes every part of your design work searchable, 
-                      	it integrates with all other workflow tools and also 
-                      	provides version control. It also has a great feature of 
-                      	automatically addidng comments from slack, meetings and 
-                      	emails to the designs.
+                        Pixel Kit makes every part of your design work 
+                        searchable, it integrates with all other workflow 
+                        tools and also provides version control. It also 
+                        has a great feature of automatically addidng 
+                        comments from slack, meetings and emails to the 
+                        designs.
                       </p>
                     </li>
 
@@ -50,9 +51,9 @@
                       </figure>
 
                       <p>
-                      	This Bot does a thorough link check on your 
-                      	website and notify you of any errors. It 
-                      	basically clicks every element of the page.
+                        This Bot does a thorough link check on your 
+                        website and notify you of any errors. It 
+                        basically clicks every element of the page.
                       </p>
                     </li>
 
@@ -69,11 +70,10 @@
                       </figure>
 
                       <p>
-                        Instead of having daily stand-up meetings, use this bot
-                        to get a more efficient take on what each member of
-                        your team is working on and has accomplished each day.
-                        It’s a fun way to keep track of the progress your team
-                        is making over the long run, too.
+                        This bot keeps track of what members of your time 
+                        are doing and reduces the need of daily stand-ups.
+                        It saves acomplishment per day and is effective in 
+                        track of progress over the long run.
                       </p>
                     </li>
 
@@ -90,20 +90,21 @@
                       </figure>
 
                       <p>
-                        Here's another great Slack integration for those 
-                        times when you want to take a conversation 
-                        face-to-face on a video conference call with a team 
-                        member who isn't in your office. To do so, simply 
-                        type /hangout to launch a Google+ Hangout in a new 
-                        window:
-                        <img src="multimedia/Hangout.png"><br>
-                        That command will provide you with a link that you can use to 
-                        quickly hop on a video call. <br>
 
-                        After opening the video call window, you may have to login 
-                        to your google account and also have the option of adding 
-                        more participants to the call beyond which you are added to 
-                        the meeting room.
+                        Google Hangout's slack integration lets you 
+                        make video calls with your workspace easy 
+                        without having the need to continously set-up. <br>
+
+                        Simply type /hangout to launch a Google+ Hangout in 
+                        a new window:
+                        <img src="multimedia/Hangout.png"><br>
+                        That command will provide you with a link that you 
+                        can use to quickly hop on a video call. <br>
+
+                        After opening the video call window, you may have 
+                        to login to your google account and also have 
+                        the option of adding more participants to the 
+                        call beyond which you are added to the meeting room.
                       </p>
                     </li>
 
@@ -120,24 +121,12 @@
                       </figure>
 
                       <p>
-                        A lot of people use Google Drive to store files 
-                        securely online, access them from anywhere, and 
-                        collaborate with others. If you're one of these 
-                        people, the Google Drive app is a great way to 
-                        make sharing files among teammates a lot easier. <br>
-                        
-                        First and foremost, the app lets you share Drive files 
-                        right in Slack. All you have to do is paste the 
-                        shareable link in a Slack conversation, and it'll 
-                        import the files in Slack. <br> 
-
-                        If you haven't already connected your Google Drive 
-                        to Slack, then Slack will guide you through the 
-                        quick process of letting it "read" the file. 
-                        (It'll only read and index files you decide to import.)<br>
-
-                        Once you have everything set up, you'll be able to 
-                        share the document right in Slack. <br>
+                        Google Drive is used to store files online by 
+                        almost everyone. This plugin links it with slack.
+                        <br>
+                        The plugin guides you through the initial set up
+                        and you will be able to share files directly from
+                        slack.<br>
 
                         You can also use another plugin to maintain one 
                         directory for the entire workspace to share. <br>
@@ -151,15 +140,15 @@
 
             </ul>
             <p>
-            	SOUCE:
+            SOUCE:
             </p>
             <ul class="nested">
-            	    <li>
-            	    	<p>
-            	    		<a href="https://blog.producthunt.com/20-slack-apps-you-ll-love-a295ef2c0f9c "> https://blog.producthunt.com/20-slack-apps-you-ll-love-a295ef2c0f9c
-            	    	    </a>
-            	    	</p>
-            	    </li>
+                    <li>
+                        <p>
+                            <a href="https://blog.producthunt.com/20-slack-apps-you-ll-love-a295ef2c0f9c "> https://blog.producthunt.com/20-slack-apps-you-ll-love-a295ef2c0f9c
+                            </a>
+                        </p>
+                    </li>
             </ul>
 
           </div>
