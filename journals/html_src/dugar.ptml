@@ -138,6 +138,11 @@
                  line flag to enable/disable strict mode which can skip
                  capitalized words.
                </li>
+               <li>
+                 Week 14: This week we replaced the main dictionary with a more
+                 verbose one and also integrated Oxford dictionary API. We
+                 continued to work on the book review.
+               </li>
 
             </ul>
           </div>
