@@ -197,45 +197,42 @@
         </h1>
 
         <p>
-    		In this section, we will cover the advantages of using Chef and a quick start guide for the same<br/></br>
+         In this section, we will cover the advantages of using Chef and a quick start guide for the same<br/></br>
 
-    		<div style="text-align: center;"> <img src="https://severalnines.com/sites/default/files/chef_logo.png"> </div>
-
-    		</p>
+        <div style="text-align: center;"> <img src="https://severalnines.com/sites/default/files/chef_logo.png"> </div>
+      </p>
 
         <p>
-    		</br></br>
+        </br></br>
         <b>Prerequisites</b> </br>
         Familiarity with Ruby and underlying system.
-    		<b>WHAT IS CHEF?</b> </br>
+        <b>WHAT IS CHEF?</b> </br>
 
-    		CHEF is a configuration management tool written in Ruby and Erlang. It is used to configure and maintain a company's servers.
+        CHEF is a configuration management tool written in Ruby and Erlang. It is used to configure and maintain a company's servers.
         <a href="https://en.wikipedia.org/wiki/Chef_(software)">(from Wikipedia's definition)</a>
         "Chef helps you express your infrastructure policy – how your software is delivered and maintained on your servers – as code.
         When infrastructure is code, it becomes more maintainable, versionable, testable, and collaborative." -Chef's official documentation page.
         (<a href="https://learn.chef.io/modules/learn-the-basics/ubuntu/aws#/"></a>)
         </p>
 
-    		<p>
-    		</br>
+        <p>
+        </br>
 
-    		<b>Why Chef?</b> </br>
+        <b>Why Chef?</b> </br>
+        <ul>
+        <h6>
+        <li>Meant to be used by programmers</li>
+        <li>Useful for large-scale development</li>
+        <li>Good version control capabilities</li>
+      </h6>
+    </ul>
+    </p>
 
-    		<ul>
-    		<h6>
-    		<li>Meant to be used by programmers</li>
-    		<li>Useful for large-scale development</li>
-    		<li>Good version control capabilities</li>
-    		</h6>
-    		</ul>
-
-    		</p>
-
-    		<p>
-    		</br>
-    		<u><b>CHEF INSTALLATION</b> </u>
-    		</br>
-    		Use the following link: <a href="https://downloads.chef.io/chefdk/">Link to install Chef DK</a> to install the Chef development toolkit.
+        <p>
+        </br>
+        <u><b>CHEF INSTALLATION</b> </u>
+      </br>
+      Use the following link: <a href="https://downloads.chef.io/chefdk/">Link to install Chef DK</a> to install the Chef development toolkit.
       </br>
         It has download and install options for different versions of Linux as well as Mac and Windows.
         It contains a set of tools needed to test your infrastructure.
@@ -251,6 +248,8 @@
       </h6>
       </ul>
     </br></br>
+  </p>
+    <p>
       <b>Chef Recipes</b>:
       "A resource describes one part of the system and its desired state.
       A recipe is a file that holds one or more resources."
@@ -260,8 +259,45 @@
       "Each resource declares what state a part of the system should be in, but not how to get there.
       Chef handles these complexities for us."
       (Definition from <a href="https://learn.chef.io/modules/learn-the-basics/ubuntu/aws/configure-a-resource#/"></a>)
-
-
+    </p>
+    <p>
+    The following steps are to be followed for the creation of Chef recipes and
+    resources. The steps and contents of the files hello.rb, webserver.rb have been
+    extracted from <a href="https://learn.chef.io/modules/learn-the-basics/ubuntu/aws/configure-a-resource#/"></a>
+    <figure>
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/installcurl.png" style="width:604px;height:442px;">
+    <figcaption>Fig1. - Install curl on your Ubuntu 14.04 instance.</figcaption>
+    </figure>
+    </br>
+    <figure>
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/installchef.png" style="width:604px;height:442px;">
+    <figcaption>Fig2. - Install Chef on your Ubuntu 14.04 instance.</figcaption>
+    </figure>
+    </br>
+    <figure>
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/mkdirandhello.png" style="width:604px;height:442px;">
+    <figcaption>Fig3. - Create a chef directory and a file called hello.rb.</figcaption>
+    </figure>
+    </br>
+    <figure>
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/morehellorb.png" style="width:604px;height:442px;">
+    <figcaption>Fig4. - Display contents of hello.rb and run the file.</figcaption>
+    </figure>
+    </br>
+    <figure>
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/webserver.png" style="width:604px;height:442px;">
+    <figcaption>Fig5. - Run the webserver.rb file.</figcaption>
+    </figure>
+    </br>
+    <figure>
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/webserver2.png" style="width:604px;height:442px;">
+    <figcaption>Fig6. - Run the webserver.rb file AGAIN.</figcaption>
+    </figure>
+    </br>
+    <figure>
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/viewyourwebsite.png" style="width:604px;height:442px;">
+    <figcaption>Fig7. - View your sample website.</figcaption>
+    </figure>
 
       <b>Chef Cookbooks</b>:
       </br>
@@ -298,6 +334,8 @@
           Sources
       </summary>
       <ul>
+      <li><a href="https://learn.chef.io/modules/learn-the-basics/ubuntu/aws/configure-a-resource#/">INSTALLATION STEPS and contents of sample test files</a>
+      </li>
       <li><a href="https://blog.takipi.com/deployment-management-tools-chef-vs-puppet-vs-ansible-vs-saltstack-vs-fabric/"> Why
       Chef?
       </a>
