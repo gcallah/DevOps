@@ -1,11 +1,15 @@
 #!/bin/bash
 
 source puppet.config
+source util.sh
 
-ssh -i $pem_file ec2-user@$master_dns /bin/bash <<- 'ENDHERE' 
+auto-retry ssh -i $pem_file ec2-user@$master_dns /bin/bash <<- 'ENDHERE' 
     sudo su
     echo "Listing certificates"
-    /opt/puppetlabs/bin/puppet cert list
+    certlist=""
+    while [ -z "$certlist" ]; do
+        certlist=$(/opt/puppetlabs/bin/puppet cert list) 
+    done
     echo "Signing certificates"
     /opt/puppetlabs/bin/puppet cert sign agent.devops.org
     echo "Writing to apache.pp"

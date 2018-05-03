@@ -1,8 +1,9 @@
 #!/bin/bash
 
 source puppet.config
+source util.sh
 
-ssh -i $pem_file ec2-user@$master_dns /bin/bash << 'ENDHERE' 
+auto-retry ssh -i $pem_file ec2-user@$master_dns /bin/bash << 'ENDHERE' 
     sudo su
     hostname master.devops.org
     yum -y install https://yum.puppetlabs.com/puppetlabs-release-pc1-el-7.noarch.rpm
@@ -17,6 +18,5 @@ ssh -i $pem_file ec2-user@$master_dns /bin/bash << 'ENDHERE'
     echo "Starting puppet server"
     systemctl enable puppetserver
     systemctl start puppetserver
-    /opt/puppetlabs/bin/puppet cert clean agent.devops.org
     exit
 ENDHERE
