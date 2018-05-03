@@ -312,7 +312,7 @@
         This is done by collectd which is a daemon acting as a monitoring
         collection agent. This will do the local monitoring and send
         it to Reimann. Collectd runs locally on the hosts and monitors
-        and collects data from a variety of components. In order to 
+        and collects data from a variety of components. In order to
         collect data some plugins are enabled. Events collect the data
         and send them to graphite which in turn can be sent to grafana
         where they can be graphed.
@@ -330,10 +330,28 @@
           It generates a series of metrics for the processes such as ps_count
           metric which counts the number of running processes.</br>
           These three streams are ustilized to measure availibility.
-          <ul>The tagged stream wrapper</ul>
-          <ul>A stream that matches the threshold notification</ul>
-          <ul>A stream that matches expired events.</ul>
-  
+          <ul>
+            <li>The tagged stream wrapper</li>
+            <li>A stream that matches the threshold notification</li>
+            <li>A stream that matches expired events.</li>
+          </ul>
+        </li>
+        <li>The other actions that can be taken using collectd notifications
+          are redeploying the code,an attempt to restart a stopped service,
+          trigger a configuration management run and many more.
+        </li>
+        <li>How to replicate some of the host monitoring checks is explained in
+           detail.
+        </li>
+        <li>We can apply two mechanisms: data granularity and check functions,
+           to make a better use of metric data.
+        </li>
+        <li>Constructing a new dashboard in graphana by creating a host
+          dashboard, a host graph and memory graph is demonstarted here.
+        </li>
+        <li> Commercial tools such as New Relic, Circonus, DataDog etc and
+          Open source tools such as Ganglia, Munin, StatsD etc are alternatives
+           to collectd.
         </li>
       </p>
   </details>
