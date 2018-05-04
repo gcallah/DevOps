@@ -147,6 +147,7 @@
 
                 <h2>Chapter 3 </h2>
                 <p>
+                  In this chapter the author explains how DevOps Principles affect architecture of a software, rather than just the deployment process, or in other words how the industry has accommodated DevOps practices into the current agile cycles In order for the architecture of the software to adhere to DevOps principles. One of the key take away concept from this chapter is the understanding of anti-pattern that promotes Monolithic Architectures which exists in legacy systems and significantly in current industry practices. The need to destroy this anti-pattern and promote modular systems with high cohesion and low coupling is of utmost importance when looking from the DevOps point of view. To further substantiate this point, the author explains a concept called “Separation of Concerns”, coined by the famous Computer Scientist Dijkstra in his 1974 paper. The author makes the reader understand this concept with a very practical example that explains the problems faced in the monolithic scenario rather that the opposite. Further on he explains how the concept of “Separation of Concerns” has manifested itself in today’s software architectures in the form of “Three tier Systems” which comprise of Presentation, Logic and Data tier usually , allowing them to be managed independently. Next, he gives code snippets of Liquibase(a Database Migration System) files ,to explain how version control is applied on databases rather than just code, which really helps the reader to get hands-on experience with Database Migration Management and I found this section to be especially useful. Further, he talks about the microservices architectures being adopted today that further promotes the idea of “Separation of concerns” and avoids monolithic structures. I was very enlightened after reading this chapter and had never previously thought that DevOps could seep into the whole Software Development process so immensely.
                 </p>
 
                 <h2>Chapter 4 - Everything is code </h2>
@@ -156,6 +157,8 @@
                   for selecting a suitable system and various practices
                   associated with it. TBC..
                 </p>
+
+
 
             </p>
           </div>
