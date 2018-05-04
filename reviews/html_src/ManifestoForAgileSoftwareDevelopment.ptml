@@ -39,14 +39,15 @@
                   expressed four key values and twelve principles of Agile
                   software development. Founded upon the values and principles
                   stated in the Agile Manifesto, Agile software development
-                  utilizes the iterative approach that delivers new pieces
-                  of the application more often and provides greater
+                  utilizes the iterative approach that delivers progresses
+                  of the application more often. It also provides greater
                   flexibility than the traditional waterfall approach.
               </p>
               <p>
                   The Manifesto for Agile Software Development provides
                   critical guidance on how to apply Agile practices to
-                  software development.
+                  software development. As we usually hear the phrase "agile
+                  development", this phrase is defined in the manifesto.
               </p>
               <h2>
               Core values and principles
@@ -61,7 +62,7 @@
                   people and communication over rigid processes and tools.
                   If a company value processes and tools, the processes are
                   on average clearer, but the processes and tools will be
-                  gradually out-of-date due to the lack of updates. New 
+                  gradually out-of-date due to the lack of updates. New
                   processes and tools are created by humans. In a
                   human-centric company, the improvements made to processes
                   and tools by its employees greatly boost the company's
@@ -69,12 +70,12 @@
                 </p>
                 <p>
                   One of the principles relevant to the first key value is
-                  that business people and developers must work together on
-                  a daily basis. The communication is of great importance in
-                  DevOps as listed above. Since the requirements are constantly
-                  changing and the highest priority is for the customer,
-                  working together helps the developers quickly notice the
-                  requirement changes and react accordingly.
+                  that business people and developers are supposed to work
+                  together on a daily basis. The communication is of great
+                  importance in DevOps as listed above. Since the requirements
+                  are constantly changing and the highest priority is for the
+                  customer, working together helps the developers quickly
+                  notice the requirement changes and react accordingly.
                 </p>
                 <p>
                   Another related principle states that the face-to-face
@@ -99,7 +100,8 @@
                 persuading than the documentation. The teammates are more
                 likely to honor your progress by working software instead of
                 the documentation. However, the documentation can be the
-                resource that assists in the understanding of working software.
+                resource that assists in the understanding of working software,
+                while it cannot prevail the importance.
                 </p>
                 <p>
                 As mentioned above, in order to show the development progress,
@@ -121,9 +123,9 @@
                 collaboration between the development team and customer,
                 instead of emphasizing contract negotiation.
                 Collaboration will make the product more valuable since the
-                customer is involved to provide helpful feedback to increase
+                customers are involved to provide helpful feedback to increase
                 values of the product during the sprint review.
-                In addition, technologies and the customer's needs
+                In addition, technologies and the customers' needs
                 are rapidly changing. Hence, it's hard to determine all the
                 details of the product at the very beginning. By collaborating
                 with the customer, the development team can integrate needed
@@ -154,7 +156,7 @@
                 project plan changes as well within the project's timeframe.
                 What's more, the goal of delivering maximum value to the
                 customer is more important than simply following a plan even
-                though plan changes might be needed in order to achieve the
+                though plan changes might be essential in order to achieve the
                 goal.
                 </p>
                 <p>
