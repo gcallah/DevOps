@@ -217,13 +217,14 @@
         
         <ul>
         <h6>
-        <li> <u>Scalable automation</u>: Ansible is designed to work beyond a 
-        small group of network devices. Ansible can be used to manage a fleet 
-        of infrastructure devices at a low-cost.
+        <li> <u>Scalable network operations</u>: Ansible is designed to 
+        specially designed in order to scale its functionality in 
+        accordance to work with small as we large fleet of devices 
+        in an infrastructure.
         </li>
-        <li> <u>Ease and Simplicity</u>: To accomplish a task YAML formatted 
-        files are used, which provides human readability and ease in machine 
-        parsing. 
+        <li> <u>Intact Simplicity</u>: To encourage the ease of understanding
+        and human readability, YAML format files are used to support 
+        declarative configuration feature.
         </li>
         <li> <u>LAN as well as Remote management</u>: One of the most 
         important feature of ansible is its capability to manage the remote 
@@ -243,7 +244,7 @@
         <u><b>ANSIBLE INSTALLATION</b> </u>
         </br>
         Ansible uses SSH protocol for management of the machines.
-        On installation, Ansible does not add any database, or starts any 
+        On installation, Ansible does not adds any database, or starts any 
         background process. The <b>control machine</b> is installed with 
         ansible, and then it is used to further control other machines 
         (referred as, Nodes) on the same LAN or on remote newtork.
@@ -319,16 +320,16 @@
         call for for an ansible module. A playbook is simply defined as a set 
         of multiple plays in a list. 
 
-        As a formal definition, Playbooks are Ansible’s configuration, 
+        As a formal definition, <i>"Playbooks are Ansible’s configuration, 
         deployment, and orchestration language. They can describe a policy 
         you want your remote systems to enforce, or a set of steps in a 
         general IT process. Ansible playbooks are a way to send commands to 
         remote computers in a scripted way. Instead of using Ansible commands 
         individually to remotely configure computers from the command line, 
         you can configure entire complex environments by passing a script to 
-        one or more systems.
+        one or more systems."<sup>[1]</sup></i>
 
-        As mentioned in previous section, playbooks are written in YAML, with 
+        <br><br>As mentioned in previous section, playbooks are written in YAML, with 
         help of minimum syntaxes and rules. The main intent is to make sure 
         that Ansible is least related to any scripting or programming 
         language. 
@@ -338,7 +339,7 @@
         <pre>
             ---
             - name: install ansible with pip
-            - hosts: host1
+            - hosts: hostA
 
             tasks:
               -name: ansible pip
@@ -347,9 +348,9 @@
                    virtualenv: ~/ansible_folder
         </pre>
         <p>
-        In this example, we are using pip module to install latest ansible 
-        package on the host1 in a particular python virtual environment named 
-        as 'ansible_folder' in home folder.
+        In this example, we have used pip module to install latest ansible 
+        package on the hostA in a particular python virtual environment named 
+        as 'ansible_folder'.
         <br>
         <br>
         Now let us break each step in the above playbook to understand the 
@@ -357,34 +358,33 @@
         <br><br>
         <b><u>INVENTORY and HOSTS</u></b>
         <br>
-        An inventory is a fundamental component of the Ansible, inventory 
-        basically defines the set of hosts which are the potential targets to 
-        execute a task. A simple inventory is just an uncategorized list of 
-        host names or IP addresses. Without any extra details, when Ansible 
-        executes a task on a host from the inventory, it will connect to the 
-        name of the host. As a fleet grows, it becomes advantageous to 
-        categorize hosts within groups. 
+        An inventory can be defined as a basic unit of the Ansible, which 
+        define the group of hosts on which task(s) are executed. In simplest 
+        form, it can be a put together as IPs of hostnames. When the number 
+        of these IP addresses exapand, it is advised to contain them into 
+        numbers of groups.
+ 
 
         In the above example, we have not defined any inventory but have 
-        simply mentioned a single host 'host1' as the target for the task. 
+        simply mentioned a single host 'hostA' as the target for the task. 
         <br>
-        <pre>   - hosts: host1 </pre>
+        <pre>   - hosts: hostA </pre>
 
         </p>
         <br>
         <p>
         <b><u>VARIABLES</u></b>
         <br>
-        Ansible uses variables to enable more flexibility in playbooks and 
-        roles. They can be used to loop through a set of given values, access 
-        various information like the hostname of a system and replace certain 
-        strings in templates by system specific values. 
+        Variables in any script or programming language provide flexibility 
+        to store and iterate through various values or information. 
+        Similary, in ansible, the variables play an important for evaluating 
+        system values or strings used in various formats.
         <br>
-        Variable names should be letters, numbers, and underscores. Variables 
-        should always start with a letter.
+        Variable could use letters, numbers, and underscores. However, a 
+        variables must have a letter as its first character.
 
-        'foo_port' or 'foo123' is a great variable. However, 'foo-port, foo 
-        port, foo.port and 12' are not valid variable names.
+        'foo_port' or 'foo123' are acceptable variable names. However, 
+        'foo-port, foo port, foo.port and 12' are invalid variable names.
 
         <br>
         In a playbook, variables can be defined as 
@@ -420,19 +420,19 @@
         <br>
         <b><u>TASKS</u></b>
         <br>
-        Each play contains a list of tasks. Tasks are executed in order, one 
-        at a time, against all machines matched by the host pattern, before 
-        moving on to the next task. It is important to understand that, 
-        within a play, all hosts are going to get the same task directives. 
-        It is the purpose of a play to map a selection of hosts to tasks.
+        Ansible uses plays to define the certain task which are executed 
+        serially againt the hosts or machine names defined as individual or in 
+        groups. This basically depends on the mapping of a certain task with 
+        the defined group of hosts as mentioned in previous section.
+        <br><br>
+        Errors generated or logged due to failiure of tasks are simply missed 
+        for the whole playbook and later the reason for failed execution can 
+        be simply edited or removed from the playbook, followed running the 
+        play again.
         <br>
-        When running the playbook, which runs top to bottom, hosts with 
-        failed tasks are taken out of the rotation for the entire playbook. 
-        If things fail, simply correct the playbook file and rerun.
         <br>
-        The goal of each task is to execute a module, with very specific 
-        arguments. Variables, as mentioned above, can be used in arguments to 
-        modules.
+        The main aim of a task is to execute an ansible module along with 
+        arguments as needed, here used-defined variables are used as arguments.
         <br>
         <br>
         In the main example, we have described a simple task of installing 
@@ -454,11 +454,10 @@
         <b><u>MODULES</u></b><br>       
         Ansible is majorly all about running a module in a correct way on a 
         list of hosts or inventory. Another major part of successful 
-        implementation is also dependent on 
-        Modules (also referred to as “task plugins” or “library plugins”) are 
-        the ones that do the actual work in ansible, they are what gets 
-        executed in each playbook task. But you can also run a single one 
-        using the ‘ansible’ command.
+        implementation is also dependent on <i>"Modules (also referred to as “task plugins” or “library
+        plugins”) are the ones that do the actual work in ansible, they are 
+        what gets executed in each playbook task. But you can also run a single
+        one using the ‘ansible’ command."<sup>[3]</sup> </i>
         <br><br>
         One of the most common way of using a module and passing arguments in 
         YAML is defined below as an example
@@ -470,11 +469,9 @@
         </pre>
         </p>
         <p>
-        Ansible modules normally return a data structure that can be 
-        registered into a variable, or seen directly when output by the 
-        ansible program. Each module can optionally document its own unique 
-        return values.     
-
+        The data returned by Ansible module results can be stored into a 
+        variable, as well as, it can be produced as text output results on 
+        the screen 
         </p>
         
         <p>
@@ -482,7 +479,7 @@
         This is the end of part 1 of Ansible basics tutorial, in the next 
         section of the tutorial we will only discuss various ansible modules, 
         working, and examples. The best way to learn is to dig into practice, 
-        thus, it is highly advisable to implenet the scripts and examples in 
+        thus, it is highly advisable to implement the scripts and examples in 
         the next section to understand the working and improve the ability to 
         debug the common issues faced during Ansible implementation.</b>
         <br><br>
@@ -492,12 +489,18 @@
         
         <p>
         </br>
-        <b>REFERENCE:</b>
-        <br>docs.ansible.com/ansible
-        <br>nsrc.org/workshops/2015/rwnog/raw-attachment/wiki/Track2Agenda/
+        <b>REFERENCES:</b>
+        <br>1. https://docs.microsoft.com/sl-si/azure/ansible/ansible-overview
+        <br>2. docs.ansible.com/ansible
+        <br>3. http://docs.ansible.com/ansible/2.4/modules_intro.html
+        <br>4. http://docs.w3cub.com/ansible/common_return_values/
+        <br>5. docs.ansible.com/ansible
+        <br>6. nsrc.org/workshops/2015/rwnog/raw-attachment/wiki/Track2Agenda/
         first-playbook.htm
-        <br>www.digitalocean.com/community/tutorials/how-to-create-ansible-
+        <br>7. www.digitalocean.com/community/tutorials/how-to-create-ansible-
         playbooks-to-automate-system-configuration-on-ubuntu       
+        <br>8. https://www.lynda.com/Ansible-tutorials/
+        <br>9. http://docs.w3cub.com/ansible/playbooks_variables/
         </p>
         </div>
       </div>

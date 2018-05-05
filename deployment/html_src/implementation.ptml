@@ -30,7 +30,7 @@
                     local machine.
                     <br>
                     <figure>
-                    <img src="graphics/key_pair.png" style="width:604px;height:442px;">
+                    <img src="https://gcallah.github.io/DevOps/deployment/graphics/key_pair.png" style="width:604px;height:442px;">
                     </figure>
                 </li>
                 <li> Security Group -
@@ -39,7 +39,7 @@
                     instances.
                     <br>
                     <figure>
-                    <img src="graphics/security_group.png" style="width:604px;height:442px;">
+                    <img src="https://gcallah.github.io/DevOps/deployment/graphics/security_group.png" style="width:604px;height:442px;">
                     </figure>
 
                 </li>
@@ -47,21 +47,21 @@
                     Go to Instances and click on "Launch Instance". On the
                     next screen select "Red Hat Enterprise Linux" image.
                     <figure>
-                    <img src="graphics/rhel.png" style="width:604px;height:442px;">
+                    <img src="https://gcallah.github.io/DevOps/deployment/graphics/rhel.png" style="width:604px;height:442px;">
                     </figure>
-
+                    <br>
                     Click "Configure Instance Details" and choose number of
                     instances 2 (master and agent).
-
+                    <br>
                     <figure>
-                    <img src="graphics/number_instances.png" style="width:604px;height:442px;">
+                    <img src="https://gcallah.github.io/DevOps/deployment/graphics/number_instances.png" style="width:604px;height:442px;">
                     </figure>
-
+                    <br>
                     Go to next and on Step 6: "Configure Security Group"
                     select the security group created before and then launch
                     the instances.
                     <figure>
-                    <img src="graphics/instance_security_group.png" style="width:604px;height:442px;">
+                    <img src="https://gcallah.github.io/DevOps/deployment/graphics/instance_security_group.png" style="width:604px;height:442px;">
                     </figure>
                 </li>
                 <li>
@@ -70,12 +70,15 @@
                 </li>
                 <li>
                 Next connect to the instances using ssh following the steps
-                in connect box as shown below -
+                in connect box as shown below
                     <figure>
-                    <img src="graphics/connect.png" style="width:604px;height:442px;">
+                    <img src="https://gcallah.github.io/DevOps/deployment/graphics/connect.png" style="width:604px;height:442px;">
                     </figure>
                 </li>
                 </ol>
+                <p> The puppet setup guide[2] was referenced for installing 
+                puppet on RHEL master and agent. The steps are described below:
+                </p>
                 <h4> Master Configuration </h4>
                 <ol class="nested">
                 <li> Configure hostname for master node as:
@@ -85,6 +88,7 @@
                 <li> Add entry for agent in hosts file of master:
                 <br>
                 [root@master ~]# vi /etc/hosts
+                <br>
                 ip-address-agent agent.devops.org agent
                 </li>
                 <li> Puppet can be installed from the yum.puppetlabs.com
@@ -102,24 +106,6 @@
                 <br>
                 [root@master ~]# ln -s /opt/puppetlabs/bin/puppet*
                 /usr/local/bin/
-                </li>
-                <li> For agents to connect to the puppet master server, it
-                must allow incoming connections on port 8140:
-                <br>
-                [root@master ~]# iptables -A INPUT -m state --state
-                ESTABLISHED,RELATED -j ACCEPT
-                <br>
-                [root@master ~]# iptables -A INPUT -m state --state NEW -p
-                tcp --dport 8140 -j ACCEPT
-                <br>
-                [root@master ~]# iptables-save
-                <br>
-                [root@master ~]# iptables -L -v
-                </li>
-                <li> In the file /etc/puppetlabs/puppet/puppet.conf add
-                below line in [master] section:
-                <br>
-                dns_alt_names = master.devops.org, master
                 </li>
                 <li> Generate CA certificate and the puppet master
                 certificate with the appropriate DNS names:
@@ -187,14 +173,14 @@
                 <br>
                 Go to path "/etc/puppetlabs/code/environments/production/
                 manifests" on master node and copy file
-                <a href="puppetScripts/manifests/apache.pp">apache.pp</a>
+                <a href="https://gcallah.github.io/DevOps/deployment/puppetScripts/manifests/apache.pp">apache.pp</a>
                 </li>
                 <li> Create manifests for setting up git and continuous
                 integration on agent:
                 <br>
                 Go to path "/etc/puppetlabs/code/environments/production/
                 manifests" on master node and copy file
-                <a href="puppetScripts/manifests/site.pp">site.pp</a>
+                <a href="https://gcallah.github.io/DevOps/deployment/puppetScripts/manifests/site.pp">site.pp</a>
                 </li>
                 <li> Install the puppet vcsrepo module for continuous 
                 delivery on master node:
@@ -224,18 +210,33 @@
                 shown -
                 </p>
                 <figure>
-                    <img src="graphics/websiteup.png" style="width:604px;height:442px;">
+                    <img src="https://gcallah.github.io/DevOps/deployment/graphics/websiteup.png" style="width:604px;height:442px;">
                 </figure>
                 <br>
                 <p>
                 If there are any new commits made on git the website will
                 be continuously refreshed with the changes.
                 </p>
+                <p> We have automated the above deployment steps for hosting
+                the course website on Amazon Cloud.
+                Steps to run -
+                <ol class="nested">
+                <li> Download <a href="https://github.com/gcallah/DevOps/tree/master/deployment/puppetScripts">
+                folder </a> from git repository. 
+                </li>
+                <li>
+                Go to the folder on your local machine. Run below command from
+                terminal -
+                <br>
+                python deploy.py
+                </li>
+                </ol>
+                </p>
                 <details>
                 <summary class="sum2">
                     Sources
                 </summary>
-                <ul>
+                <ol class="nested">
                 <li><a href="https://rnelson0.com/2014/09/29/deploying-your-custom-application-with-puppet/">Deploying
                 custom application using puppet
                 </a>
@@ -248,7 +249,7 @@
                 How to Create Puppet Manifests
                 </a>
                 </li>
-                </ul>
+                </ol>
                 </details>
             </div>
         </div>

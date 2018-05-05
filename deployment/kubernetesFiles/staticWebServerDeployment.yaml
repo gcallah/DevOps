@@ -1,0 +1,41 @@
+# Deployment YAML Configuration File
+# * Pod specification of using 2 containers with a shared volume
+# References:
+# * http://paulbakker.io/kubernetes/kubernetes-static-sites/
+# * https://github.com/dysinger/learn-minikube
+# * https://github.com/kubernetes/kompose
+kind: Deployment
+apiVersion: extensions/v1beta1
+metadata:
+  name: devopswebsite
+spec:
+  replicas: 2
+  template:
+    metadata: 
+       labels: 
+          app: devopswebsite
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - mountPath: "/usr/share/nginx/html"
+          name: www
+          readOnly: true
+      - image: paulbakker/git-sync
+        name: git-sync
+        imagePullPolicy: Always
+        env:
+        - name: GIT_SYNC_REPO
+          value: https://github.com/gcallah/DevOps
+        - name: GIT_SYNC_WAIT
+          value: '10'
+        volumeMounts:
+        - mountPath: "/git"
+          name: www
+      volumes:
+      - name: www
+        emptyDir: {}
+

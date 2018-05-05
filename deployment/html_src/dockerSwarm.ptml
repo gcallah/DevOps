@@ -13,12 +13,14 @@
     <!--include navbar.txt -->
     <div id="content">
 
+
+
     <h1>
       Deployment with Clusters
     </h1>
-    <p>Deployment of an application in a container over a number 
-      of machines with replicas to scale the applications as well 
-      as recover from failures is the principle concept of cluster 
+    <p>Deployment of an application in a container over a number
+      of machines with replicas to scale the applications as well
+      as recover from failures is the principle concept of cluster
       deployment.Such kind of deployment provision requires an
       automation infrastrucure to create, manage, maintain the clusters.
       Prominent cluster deployment and tools we will be looking at are,
@@ -27,151 +29,270 @@
       <li><strong>Docker Swarm</strong></li>
       <li><strong>Kubernetes</strong></li>
     </ol>
-    <h3>
+
+
+    <h2>
     1. Docker Swarm
-    </h3>
+    </h2>
     <p>
-      <img src="https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png">
+    <img src="https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png">
     </p>
-    <p>A swarm is a group of machines running docker tied togther 
+    <p>A swarm is a group of machines running docker tied togther
       to form a cluster managed by a swarm manager. Once a cluster is
-      created, all the machines tied together are referred to as 
-      nodes/workers. 
+      created, all the machines tied together are referred to as
+      nodes/workers.
       Only the swarm manager machine has authorization to execute commands
       or add more workers.
     </p>
-    <ul>
+    <ul class="nested">
       <li><strong>Swarm Manager</strong></li>
       <li><strong>Worker or Node</strong></li>
     </ul>
-    <h5>Example of a Docker Swarm Deployment</h5>
+
+
+
+    <h2>Example of a Docker Swarm Deployment</h2>
     <p>
     Lets look at a demonstration of a cluster deployment using docker swarm
     </p>
-    <h5>-- Aim:</h5>
-    <ul>
-      <li>To deploy the static webpage in a cluster with multiple 
-        instances using docker swarm
-        <ul>
-          <li ><p><b>Cluster/Nodes:</b> Group of virtual machines</p></li>
-          <li><p><b>Application:</b> devOps wesite served as static web pages</p></li>
-          <li><p><b>Tool Used:</b> Docker swarm</p></li>
-        </ul>
-      </li>
+    <h3>-- Aim:</h3>
+    <p>To deploy the static webpage in a cluster with multiple
+      instances using docker swarm</p>
+    <ul class="nested">
+      <li><p><b>Cluster/Nodes:</b> Group of virtual machines</p></li>
+      <li><p><b>Application:</b> devOps wesite served as static web pages</p></li>
+      <li><p><b>Tool Used:</b> Docker swarm</p></li>
     </ul>
-      <h5>-- Components:</h5>
-    <ul>
-      <li><strong>Swarm Manager -</strong> Assuming the local machine &lt;machine 
-          you are using&gt; or one of the cirtual machine to be the manager</li>
-      <li><strong>devOps website as a container -</strong>
-    <ul>
-      <li><strong>Dockerfile -</strong> Using standalone nginx container 
+
+
+
+    <h3>-- Components:</h3>
+    <p><strong>* Swarm Manager -</strong> Assuming the local machine &lt;machine
+      you are using&gt; or one of the cirtual machine to be the manager</p>
+    <p><strong>* devOps website as a container -</strong></p>
+    <ul class="nested">
+      <li><strong>Dockerfile -</strong> Using standalone nginx container
           and serving the static webpages from source</li>
       <li><strong>DockerCompose -</strong> Using a combination of multiple containers
-          of nginx &lt;to host the website&gt; + git-sync &lt;to sync with the 
+          of nginx &lt;to host the website&gt; + git-sync &lt;to sync with the
           repository&gt; + common container storage</li>
-      <li> while in this context, lets take a detour to briefly look at  
-          <em>dockerFile vs dockerCompose</em>
-    <ul>
+      <li><strong>Virutal machines -</strong>
+          either remote cloud machines or local setup of vms using virutalBox</li>
+      <li><strong>Setup Concern -</strong>
+            Due to cloud machine availability, lets resort to a local setup for
+            the example and peek into an instance of cloud deployment as well.</li>
+    </ul>
+
+
+    <h3>-- Detour: More on Docker and DockerCompose</h3>
+    <p>while in this context, lets take a detour to briefly look at
+      <em>dockerFile vs dockerCompose</em></p>
+    <ul class="nested">
       <li><strong>dockerFile:</strong><br>
-        When a self-contained container or monolithic container 
-        image is to be created which suffices the functionality 
+        When a self-contained container or monolithic container
+        image is to be created which suffices the functionality
         within itself, a docker file is used<br>
         <img src="https://i.stack.imgur.com/jc2IW.jpg" title="dockerFile">
+        <pre>
+        <code>
+          # DockerFile using Nginx base image and website source code copy from current directory
+          # * Build image with the docker file and run &gtcommands below&lt
+          # References:
+          # * https://www.katacoda.com/courses/docker/create-nginx-static-web-server
+
+          # Base Nginx docker image
+          FROM nginx:alpine
+
+          # Maintainer
+          MAINTAINER Srinivas Piskala Ganesh Babu "spg349@nyu.edu"
+
+          # Copy the DevOps repository contents present in the current directory to the default nginx web hosting directory
+          COPY DevOps /usr/share/nginx/html
+
+          # Usage:
+          # * To update the website source files,
+          # ** Clone the gcallah/DevOps repo at the same directory where dockerfile exists &gtgit clone&lt
+          # *** build a new image with this dockerfile - "docker build -f DockerFile -t devopsweb ."
+        </code>
+      </pre>
       </li>
-    <li>
-      <strong>dockerCompose:</strong><br>
-      When multiple containers are required which together suffice a 
-      functionlity as a team, docker compose is used<br>
-      <img src="https://raw.githubusercontent.com/docker/compose/master/logo.png" title="dockeCompose"></li>
-      </ul>
+      <li><strong>dockerCompose:</strong><br>
+      When multiple containers are required which together suffice a
+      functionlity as a team, docker compose is used. We wont be using the below docker-compose
+      for this example. The docker compose uses 2 containers to sync with the source code repository
+      update the resources as well as host the website by sharing the same volume.
+      The docker compose below is for demonstration purposes<br>
+      <img src="https://raw.githubusercontent.com/docker/compose/master/logo.png" title="dockeCompose">
+      <pre>
+      <code>
+        # A Docker compose to create the application with two containers
+        # * 1. Nginx container
+        # * 2. git-sync container
+        # Reference from: https://hub.docker.com/r/openweb/git-sync/
+        # Run with `docker-compose up -d` once the dockerCompose
+        file is created
+        version: "2"
+          services:
+            nginx:
+              image: nginx:latest
+              ports:
+                - "8080:80"
+              volumes:
+                - website_sources:/usr/share/nginx/html:z
+              depends_on:
+                - git-sync
+              restart: always
+            git-sync:
+              image: openweb/git-sync:0.0.1
+              environment:
+                GIT_SYNC_REPO: "https://github.com/gcallah/DevOps"
+                GIT_SYNC_DEST: "/git"
+                GIT_SYNC_BRANCH: "master"
+                GIT_SYNC_REV: "FETCH_HEAD"
+                GIT_SYNC_WAIT: "10"
+              volumes:
+                - website_sources:/git:z
+              restart: always
+          volumes:
+            website_sources:
+          driver: local
+      </code>
+    </pre>
     </li>
+  </ul>
+
+
+    <h3>-- Installation:</h3>
+    <ul class="nested">
+      <li><strong>Ensure docker is installed</strong>
+      * Possess any virtual machine setup provision using virtualbox or
+      vmware workstation or make cloud machines setup</li>
     </ul>
-    </li>
-      <li><strong>Virutal machines -</strong> 
-      either remote cloud machines or local setup of vms using virutalBox</li>
-      <li><strong>Setup Concern -</strong> 
-        Due to cloud machine availability, lets resort to a local setup for 
-        the example and peek into an instance of cloud deployment as well.</li>
-    </ul>
-      <h5>-- Installation:</h5>
-    <ul>
-      <li>Ensure docker is installed</li>
-        <li>Possess any virtual machine setup provision using virtualbox or
-         vmware workstation or make cloud machines setup</li>
-    </ul>
-        <h5>-- Setup:</h5>
-    <ul>
-        <li><strong>TestBed 1:</strong> As per instructions in docker page,
-         use a nginx container to host the website source code while running
-          docker instance</li>
-    </ul>
+
+
+
+    <h5>-- Setup:</h5>
+    <p><br><strong>TestBed Type 1 :</strong> Static SourceCode: Use the dockerfile
+      and dockerCompose file below to establish the setup, <br>
+      The Dockerfile created using the Nginx container and adding the website
+      source code from current directory,
+      <pre>
+        <code>
+          # DockerFile using Nginx base image and website source code copy from current directory
+          # * Build image with the docker file and run &gtcommands below&lt
+          # References:
+          # * https://www.katacoda.com/courses/docker/create-nginx-static-web-server
+
+          # Base Nginx docker image
+          FROM nginx:alpine
+
+          # Maintainer
+          MAINTAINER Srinivas Piskala Ganesh Babu "spg349@nyu.edu"
+
+          # Copy the DevOps repository contents present in the current directory to the default nginx web hosting directory
+          COPY DevOps /usr/share/nginx/html
+
+          # Usage:
+          # * To update the website source files,
+          # ** Clone the gcallah/DevOps repo at the same directory where dockerfile exists &gtgit clone&lt
+          # *** build a new image with this dockerfile - "docker build -f DockerFile -t devopsweb ."
+        </code>
+      </pre>
+    </p>
+
+    <p><br><strong>TestBed Type 2:</strong> Dynamic SourceCode Fetch: Use
+      the dockerfile and dockerCompose file below to establish the setup,<br>
+      The Dockerfile is created using the UBUNTU base image with apt install
+      nginx to host the webpage and apt install
+      git to fetch the newest website resource from the repository.
       <pre>
         <code>
           <span>
-          # Pull the nginx docker image from register =&gt; docker pull nginx
+              # Docker file with Ubuntu Base image and performing apt install of,
+              # * Nginx - To host the website
+              # * Git   - To fetch the website resource from the git repository
+              # References:
+              # * https://docs.docker.com/get-started/part2/#apppy
+              # * https://www.digitalocean.com/community/tutorials/docker-explained-using-dockerfiles-to-automate-building-of-images
+              # * https://gist.github.com/ivanacostarubio/7044770
 
-          $ docker run --name devops_website -p 127.0.0.1:8080:80 -v &lt; location of website sourcecode &gt;:/usr/share/nginx/html -d nginx
-          </span>
-        </code>
-      </pre>
-      <ul>
-      <li>
-        <strong>TestBed 2:</strong> 
-        Use the dockerCompose file below which uses,
-      <ul>
-        <li><em>Two containers:</em>
-        <ul>
-          <li>nginx - to host the website</li>
-          <li>git-sync - to sync with the git repo for new changes</li>
-        </ul>
-        </li>
-        <li><em>Storage</em> - a common datastore to hold the website source code</li>
-      </ul>
-      </li>
-      </ul>
-      <pre>
-        <code> 
-          # A Docker compose to create the application with two containers
-          # * 1. Nginx container
-          # * 2. git-sync container
-          # Reference from: https://hub.docker.com/r/openweb/git-sync/
-          # Run with `docker-compose up -d` once the dockerCompose 
-          file is created 
-          version: "2"
-            services:
-              nginx:
-                image: nginx:latest
-                ports:
-                  - "8080:80"
-                volumes:
-                  - website_sources:/usr/share/nginx/html:z
-                depends_on:
-                  - git-sync
-                restart: always
-              git-sync:
-                image: openweb/git-sync:0.0.1
-                environment:
-                  GIT_SYNC_REPO: "https://github.com/gcallah/DevOps"
-                  GIT_SYNC_DEST: "/git"
-                  GIT_SYNC_BRANCH: "master"
-                  GIT_SYNC_REV: "FETCH_HEAD"
-                  GIT_SYNC_WAIT: "10"
-                volumes:
-                  - website_sources:/git:z
-                restart: always
-            volumes:
-              website_sources:
-            driver: local
-        </code>
+              # Latest ubuntu base image
+              FROM ubuntu:latest
+
+              # Maintainer
+              MAINTAINER Srinivas Piskala Ganesh Babu "spg349@nyu.edu"
+
+              # Apt update and install - nginx and git
+              RUN apt-get update
+              RUN apt-get install -y nginx
+              RUN apt-get install -y git-core
+
+              # Fetching the latest source code from the github repo of devOps
+              RUN git clone https://github.com/gcallah/DevOps
+
+              # Clean up of existing files in the default folder
+              RUN rm /var/www/html/*
+
+              # Uploading the webpages and resource to the default nginx config pointer folder
+              RUN cp -a DevOps/. /var/www/html/
+
+              # Expose ports
+              EXPOSE 80
+
+              # Nginx daemon run
+              CMD ["nginx", "-g", "daemon off;"]
+
+              # Usage:
+              # * Use the docker build command to build an image out of this docker file or pull from rep
+              # ** command: "docker build -f &gtname of the docker file&lt -t &gttag of the image&lt ."
+              # *** repo to docker pull from: srinivas11789/devopswebsite
+            </span>
+          </code>
         </pre>
-        <h5>Steps for Usage:</h5>
-        <ul>
-        <li> Use docker-machine command line to use the virtual box 
-          driver and create virtual machines for the cluster. For the 
-          demo, lets create three virtual machines. One being the master 
+      </p>
+
+        <p><br><strong>Common File: </strong>Docker compose file common for both the testbeds, <br>
+          Ensure to change the image name with the corresponding docker image created.
+          <pre>
+            <code>
+              <span>
+              # Docker Compose file to build as a compose or stack or swarm
+              # References:
+              # * https://docs.docker.com/get-started/part3/#docker-composeyml
+              # * https://docs.docker.com/get-started/part5/#persist-the-data
+
+              # version
+              version: "3"
+
+              # services declaration
+              services:
+              # Name of the service and image details -
+              # image   - Name of the image to pull from
+              # port    - Port to expose or map
+              # deploy  - configuration to deploy
+              # replica - number of container to be replicated
+              devops:
+                  image: srinivas11789/devopswebsite:v1
+                  ports:
+                      - "80:80"
+                  deploy:
+                      mode: replicated
+                      replicas: 3
+                      labels: [APP=devops_website]
+                      restart_policy:
+                        condition: on-failure
+                  </span>
+            </code>
+        </pre></p>
+
+
+
+        <h3>Steps for Usage:</h3>
+        <p> * Use docker-machine command line to use the virtual box
+          driver and create virtual machines for the cluster. For the
+          demo, lets create three virtual machines. One being the master
           and the other two workers. Use the following command to perform
-           the required operation
+           the required operation</p>
         <pre>
         <code>
           <span>
@@ -207,8 +328,8 @@
          </span>
       </code>
     </pre>
-    </li>
-    <li> List the virtual machines to look at the created vms.
+
+    <p> * List the virtual machines to look at the created vms.</p>
       <pre>
         <code>
           <span>
@@ -221,22 +342,22 @@
       <code>
          <span>
           <b>MacBook-Pro:devOps deployment$ docker-machine ls</b>
-          NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER        ERRORS     
-          myvm1     -        virtualbox   Running   tcp://192.168.99.100:2376           v18.03.1-ce   
-          myvm2     -        virtualbox   Running   tcp://192.168.99.101:2376           v18.03.1-ce   
-          myvm3     -        virtualbox   Running   tcp://192.168.99.102:2376           v18.03.1-ce  
+          NAME    ACTIVE     DRIVER       STATE     URL                SWARM   DOCKER        ERRORS
+          myvm1     -        virtualbox   Running   tcp://192.168.99.100:2376           v18.03.1-ce
+          myvm2     -        virtualbox   Running   tcp://192.168.99.101:2376           v18.03.1-ce
+          myvm3     -        virtualbox   Running   tcp://192.168.99.102:2376           v18.03.1-ce
          </span>
       </code>
     </pre>
-    </li>
-        <li> The virtual machines can be connected using ssh to execute 
-          commands and make proper swarm setup. Consider the "vm1" 
-          machine as the master. Initiating the swarm from node1 "vm1" 
-          would make the current node as master
+
+        <p>* The virtual machines can be connected using ssh to execute
+          commands and make proper swarm setup. Consider the "vm1"
+          machine as the master. Initiating the swarm from node1 "vm1"
+          would make the current node as master</p>
       <pre>
         <code>
           <span>
-          docker-machine ssh myvm1 "docker swarm init --advertise-addr &ltmyvm1 ip&gt" 
+          docker-machine ssh myvm1 "docker swarm init --advertise-addr &ltmyvm1 ip&gt"
           </span>
         </code>
       </pre>
@@ -255,11 +376,11 @@
          </span>
       </code>
     </pre>
-    </li> 
-      <li> Next, the worker nodes have to configured such that
-       they recognize the swarm configuration and know the master. 
-       Make sure to use the token and ip of the master node 
-       generated when swarm was initialized
+
+      <p> Next, the worker nodes have to configured such that
+       they recognize the swarm configuration and know the master.
+       Make sure to use the token and ip of the master node
+       generated when swarm was initialized</p>
       <pre>
         <code>
           <span>
@@ -276,17 +397,83 @@
          </span>
       </code>
     </pre>
-    </li> 
+    <p>* Perform similar operation for myvm3<br></p>
+
+
+    <p>* Use the docker-machine shell environment of myvm1 &gtMASTER&lt as per
+      instructions at dockerSwarm reference</p>
+      <pre>
+      <code>
+         <span>
+           <b>MacBook-Pro:devOps deployment$ docker-machine env myvm1</b>
+           export DOCKER_TLS_VERIFY="1"
+           export DOCKER_HOST="tcp://192.168.99.100:2376"
+           export DOCKER_CERT_PATH="/Users/darkknight/.docker/machine/machines/myvm1"
+           export DOCKER_MACHINE_NAME="myvm1"
+           # Run this command to configure your shell:
+           # eval $(docker-machine env myvm1)
+           <b>MacBook-Pro:devOps deployment$ eval $(docker-machine env myvm1)</b>
+         </span>
+      </code>
+    </pre>
+    <p>Command line output sample - shows master is active</p>
+    <pre>
+    <code>
+       <span>
+         <b>MacBook-Pro:devOps deployment$ docker-machine ls</b>
+         NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER        ERRORS
+         myvm1     *        virtualbox   Running   tcp://192.168.99.100:2376           v18.03.1-ce
+         myvm2     -        virtualbox   Running   tcp://192.168.99.101:2376           v18.03.1-ce
+         myvm3     -        virtualbox   Running   tcp://192.168.99.102:2376           v18.03.1-ce
+       </span>
+    </code>
+  </pre>
+
+    <p> * Deploy the docker compose over the swarm</p>
+    <pre>
+      <code>
+        <span>
+          <b>MacBook-Pro:devOps deployment$ docker stack deploy -c docker-compose.yml devopswebsite</b>
+        </span>
+      </code>
+    </pre>
+    <p>Output:</p>
+    <pre>
+      <code>
+        <span>
+          Creating network devopswebsite_default
+          Creating service devopswebsite_devops
+
+          <b>MacBook-Pro:devOps deployment$  docker stack ps devopswebsite</b>
+          ID                  NAME                     IMAGE                            NODE                DESIRED STATE       CURRENT STATE              ERROR               PORTS
+          0cme6z0e9abz        devopswebsite_devops.1   srinivas11789/devopswebsite:v1   myvm3               Running             Preparing 12 seconds ago
+          sfrqlbtx8tes        devopswebsite_devops.2   srinivas11789/devopswebsite:v1   myvm2               Running             Running 12 seconds ago
+          mpq4i8s0zwm5        devopswebsite_devops.3   srinivas11789/devopswebsite:v1   myvm1               Running             Running 12 seconds ago
+        </span>
+      </code>
+    </pre>
+
+    <p> * Test by connecting the docker virtual machines ip using curl or browser to view the devops website</p>
+    <pre>
+      <code>
+        <span>
+          <b>MacBook-Pro:devOps deployment$ curl http://192.168.99.100</b>
+          <b>MacBook-Pro:devOps deployment$ curl http://192.168.99.101</b>
+          <b>MacBook-Pro:devOps deployment$ curl http://192.168.99.102</b>
+        </span>
+      </code>
+    </pre>
+
+    <h3>References and Source:</h3>
+    <ul class="nested">
+      <li><a href="https://raw.githubusercontent.com/docker-library/">Docker Swarm Image</a></li>
+      <li><a href="https://raw.githubusercontent.com/docker/compose/master/logo.png">Docker image</a></li>
+      <li><a href="https://i.stack.imgur.com/jc2IW.jpg">Docker compose image</a></li>
+      <li><a href="https://hub.docker.com/r/openweb/git-sync/">Docker compose concepts</a></li>
+      <li><a href="https://docs.docker.com/get-started/part4/#configure-a-docker-machine-shell-to-the-swarm-manager">Docker swarm concepts</a></li>
     </ul>
-    <ul>
-      <h4>References and Source:</h4>
-      <li>Image from https://raw.githubusercontent.com/docker-library/</li>
-      <li>Image from https://raw.githubusercontent.com/docker/compose/master/logo.png</li>
-      <li>Image from https://i.stack.imgur.com/jc2IW.jpg</li>
-      <li>Docker compose reference at https://hub.docker.com/r/openweb/git-sync/</li>
-      <li>Docker Swarm - https://docs.docker.com/get-started/part4/#configure-a-docker-machine-shell-to-the-swarm-manager</li>
-    </ul>
-      </div>
+
+    </div>
     </div>
     </body>
 </html>

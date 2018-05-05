@@ -1,0 +1,27 @@
+# Docker Compose file to build as a compose or stack or swarm 
+# References:
+# * https://docs.docker.com/get-started/part3/#docker-composeyml
+# * https://docs.docker.com/get-started/part5/#persist-the-data
+
+# version
+version: "3"
+
+# services declaration
+services:
+  # Name of the service and image details - 
+  # image   - Name of the image to pull from
+  # port    - Port to expose or map
+  # deploy  - configuration to deploy
+  # replica - number of container to be replicated 
+  devops:
+    image: srinivas11789/devopswebsite:v1
+    ports:
+      - "80:80"
+    deploy:
+      mode: replicated
+      replicas: 3
+      labels: [APP=devops_website]
+      restart_policy:
+        condition: on-failure
+
+

@@ -200,6 +200,8 @@
           containerized applications"<br>
         </p>
 
+        <img src="https://kubernetes.io/images/favicon.png"/>
+
         <h2>
             History?
         </h2>
@@ -215,12 +217,11 @@
         </h2>
         <p>
         <b>The Problem: </b><br>
-        <b>*</b> Containers (more here:<a>https://gcallah.github.io/DevOps/deployment/dockerSwarm.html</a>) 
-          simplied the deployment of an
-          application or bringing up a service across various environments.
-          When the application spans large scale or bed of users,
-          A problem or challenge that arose is the management, recovery,
-          scale, update of the container.<br>
+        <b>*</b> Containers (more here:<a>https://gcallah.github.io/DevOps/deployment/dockerSwarm.html</a>)
+          simplied the deployment of an application or bringing up a service
+          across various environments. When the application spans large scale
+          or bed of users, A problem or challenge that arose is the management,
+          recovery, scale, update of the container.<br>
         <b>The Solution: </b><br>
         <b>*</b> The elegant solution would be to build an automation framework
         that handles all of these requirements and maintains the service at
@@ -234,11 +235,11 @@
             How?
         </h2>
         <p>
-          * Basic usecase -
+          * Master - Worker Design
         </p>
 
         <h2>
-            Components?
+            Components:
         </h2>
         <p>
           <b>*</b> Kubernetes Cluster Service - Manage the pods, create, deploy,
@@ -252,17 +253,7 @@
         </p>
 
         <h2>
-            Setup?
-        </h2>
-        <p></p>
-
-        <h2>
-            Configuration?
-        </h2>
-        <p></p>
-
-        <h2>
-            Implementation?
+            Implementation:
         </h2>
         <p>
         <b>Kuberenets Locally</b><br>
@@ -276,15 +267,182 @@
         container ==&gt Kubernetes Cluster Service ==&gt AWS Worker machines<br>
         </p>
 
+        <h3>
+            Setup:
+        </h3>
+        <p>
+          <b>* Install minikube</b><br>
+          <b>* Install any hypervisor like virtualbox or vmware</b><br>
+        </p>
+
+        <h3>
+            Configuration:
+        </h3>
+        <p><b>*</b> Docker Compose used as a base and reference to create deployment
+           and service configuration</p>
+          <pre>
+            <code>
+                <span>
+              # A Docker compose to create the application with two containers
+              # * 1. Nginx container
+              # * 2. git-sync container
+              # Reference from: https://hub.docker.com/r/openweb/git-sync/
+              # Run with `docker-compose up -d` once the dockerCompose
+              file is created
+              version: "2"
+                services:
+                  nginx:
+                    image: nginx:latest
+                    ports:
+                      - "8080:80"
+                    volumes:
+                      - website_sources:/usr/share/nginx/html:z
+                    depends_on:
+                      - git-sync
+                    restart: always
+                  git-sync:
+                    image: openweb/git-sync:0.0.1
+                    environment:
+                      GIT_SYNC_REPO: "https://github.com/gcallah/DevOps"
+                      GIT_SYNC_DEST: "/git"
+                      GIT_SYNC_BRANCH: "master"
+                      GIT_SYNC_REV: "FETCH_HEAD"
+                      GIT_SYNC_WAIT: "100"
+                    volumes:
+                      - website_sources:/git:z
+                    restart: always
+                volumes:
+                  website_sources:
+                driver: local
+                </span>
+            </code>
+          </pre>
+
+
+        <b>*</b><p> Used "kompose" <a href="https://github.com/kubernetes/kompose"/>
+          to convert docker compose -&gt respective kubernetes deployment
+          and service configuration. Use this command
+          <b>./kompose convert -f ../docker-compose.yml </b> to get the configs.</p>
+          <p><br><b> Deployment configuration </b></p>
+            <pre>
+              <code>
+                <span>
+                # Deployment YAML Configuration File
+                # * Pod specification of using 2 containers with a shared volume
+                # References:
+                # * http://paulbakker.io/kubernetes/kubernetes-static-sites/
+                # * https://github.com/dysinger/learn-minikube
+                # * https://github.com/kubernetes/kompose
+                kind: Deployment
+                apiVersion: extensions/v1beta1
+                metadata:
+                  name: devopswebsite
+                spec:
+                  replicas: 2
+                  template:
+                    metadata:
+                       labels:
+                          app: devopswebsite
+                    spec:
+                      containers:
+                      - image: nginx
+                        name: nginx
+                        ports:
+                        - containerPort: 80
+                        volumeMounts:
+                        - mountPath: "/usr/share/nginx/html"
+                          name: www
+                          readOnly: true
+                      - image: paulbakker/git-sync
+                        name: git-sync
+                        imagePullPolicy: Always
+                        env:
+                        - name: GIT_SYNC_REPO
+                          value: https://github.com/gcallah/DevOps
+                        - name: GIT_SYNC_WAIT
+                          value: '10'
+                        volumeMounts:
+                        - mountPath: "/git"
+                          name: www
+                      volumes:
+                      - name: www
+                        emptyDir: {}
+                    </span>
+              </code>
+            </pre>
+
+          <p><br><b> Service configuration </b></p>
+            <pre>
+              <code>
+                <span>
+                apiVersion: v1
+                kind: Service
+                metadata:
+                  name: devopswebsite
+                spec:
+                    type: NodePort
+                    ports:
+                      - name: http
+                        port: 80
+                        protocol: TCP
+                    selector:
+                        app: devopswebsite
+                </span>
+              </code>
+            </pre>
+
+
+        <h3>
+            Steps:
+        </h3>
+        <p><br><b> Minikube Start </b></p>
+          <pre>
+            <code>
+              <span>
+
+              </span>
+            </code>
+          </pre>
+          <p><br><b> Status Verification </b></p>
+            <pre>
+              <code>
+                <span>
+
+                </span>
+              </code>
+            </pre>
+          <p><br><b> Deploy Pods and Create Service </b></p>
+              <pre>
+                <code>
+                  <span>
+
+                  </span>
+                </code>
+              </pre>
+
+          <p><br><b> Deploy Pods and Create Service </b></p>
+                  <pre>
+                    <code>
+                      <span>
+
+                      </span>
+                    </code>
+                  </pre>
+
+
         <h2>
             References and Source:
         </h2>
         <p>
-          <b>*</b> <a>https://kubernetes.io/</a><br>
-          <b>*</b> <a>https://youtu.be/PH-2FfFD2PU</a><br>
-          <b>*</b> <a>http://paulbakker.io/kubernetes/kubernetes-static-sites/</a><br>
-          <b>*</b> <a>https://daemonza.github.io/2017/01/15/kubernetes-on-aws/</a><br>
-          <b>*</b> <a>Docker compose reference at https://hub.docker.com/r/openweb/git-sync/</a><br>
+          <b>*</b> <a href="https://gcallah.github.io/DevOps/deployment/notes.html"> Some presentation notes</a><br>
+          <b>*</b> <a href="https://kubernetes.io/"> kubernetes site</a><br>
+          <b>*</b> <a href="https://youtu.be/PH-2FfFD2PU"> kubernetes in 5 mins</a><br>
+          <b>*</b> <a href="http://paulbakker.io/kubernetes/kubernetes-static-sites/"> Kubernetes Static Site reference</a><br>
+          <b>*</b> <a href="https://daemonza.github.io/2017/01/15/kubernetes-on-aws/"> Kubernetes on AWS</a><br>
+          <b>*</b> <a href="https://hub.docker.com/r/openweb/git-sync/">DockerCompose</a><br>
+          <b>*</b> <a href="https://github.com/dysinger/learn-minikube">DockerCompose2</a><br>
+          <b>*</b> <a href="https://github.com/kubernetes/kompose">Kompose</a><br>
+          <b>*</b> <a href="https://kubernetes.io/docs/user-guide/walkthrough/">Kubernetes101</a><br>
         </p>
             </div>
         </div>

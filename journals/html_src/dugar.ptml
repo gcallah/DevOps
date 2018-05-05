@@ -125,6 +125,24 @@
                  malicious. We learnt about the importance of security at every
                  level of the Dev+Ops pipeline.
                </li>
+               <li>
+                 Week 12: The spell-checker tool was finally pushed to
+                 production. As a result, we received invaluable user feedback
+                 and some issues were reported.
+               </li>
+               <li>
+                 Week 13: We met with Professor Callahan to discuss strategies
+                 to make the spell-checker more practical and decided to wrap
+                 the tool in a shell script to auto-commit added words to
+                 dictionary and enable limited rollout. We also added a command
+                 line flag to enable/disable strict mode which can skip
+                 capitalized words.
+               </li>
+               <li>
+                 Week 14: This week we replaced the main dictionary with a more
+                 verbose one and also integrated Oxford dictionary API. We
+                 continued to work on the book review.
+               </li>
 
             </ul>
           </div>

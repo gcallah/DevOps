@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
         <title>
-            Continuous Delivery
+            Infrastructure as Code
         </title>
         <!--include googleAnalyticsScript.txt -->
     </head>
 
     <body>
-<!--include menu.txt -->
+      <div class="wrapper">
+          <!--include navbar.txt -->
+          <div id="content">
         <h1>
-            Infrastructure as Code: Managing Servers in the Cloud<br>
-            Kief Morris
+            Infrastructure as Code: Managing Servers in the Cloud
         </h1>
         <p class="author">
+            Author: Keif Morris </br>
             Reviewers: Adit Kumar, Shivaraj Nesaragi
         </p>
 
@@ -29,9 +30,9 @@
               Chapter 1: Challenges and Principles
             </summary>
             <p>
-                The first chapter explains about what Infrastructure as Code means to the readers and the goals that Infrastructure as a Code intends to achieve. The author also explains 
-				the challanges with dynamic infrastructure with the help of case studies from his own experience as an engineer.The chapter then delves into the principles of
-                Infrastructure as code, introducing us to the principles with examples where they are necesary.
+                The first chapter explains about what Infrastructure as Code means to the readers and the goals that Infrastructure as a Code intends to achieve. The author also explains
+				the challenges with dynamic infrastructure with the help of case studies from his own experience as an engineer.The chapter then delves into the principles of
+                Infrastructure as code, introducing us to the principles with examples where they are necessary.
             </p>
         </details>
 
@@ -55,11 +56,11 @@
             <p>
                 The chapter describes infrastructure tools(Eg: TerraForm, Cloud Formation etc.) for managing resources following the principles mentioned in the previous chapter.
                 Many automation tools do not follow the principles mentioned here but they get the work done in real world following these principles in one or the other way. The first
-                part of the chapter deals with Command Line Interface(CLI) Tools and how the tools could be configured and writen using the scripts and their interdependency.
-                According to the book the scripts should follow the properties of Idempotency, Pre-checks, Post-checks, Visible failure and parameterized and it discusses how
+                part of the chapter deals with Command Line Interface(CLI) Tools and how the tools could be configured and written using the scripts and their interdependency.
+                According to the book the scripts should follow the properties of being Idempotent, Pre-checks, Post-checks, Visible failure and parameterized and it discusses how
                 these properties make scripts more reliable. The next half of the chapter deals with using VCS tools to configure resources for a particular infrastructure and
                 handles cases such as configuring files, users etc. Overall it describes how resources could be carefully and successfully allocated so that they work perfectly
-                in the given enviroment.
+                in the given environment.
             </p>
         </details>
 
@@ -128,5 +129,24 @@
             </p>
         </details>
 
+
+        <details>
+            <summary class="sum2">
+              Chapter 8: Patterns for Updating and changing servers
+            </summary>
+            <p>
+                Changing servers are difficult to maintain and this chapter gives us certain patterns and guidelines as how to manage and keep our running
+                servers up to date. Apart from these the chapter explains how to get into the best practices and the patterns that should be followed for
+                continuous deployment. The author talks about different types of servers and how to manage configuration definitions and explains in
+                details about updating servers by following standard set of rules.
+            </p>
+        </details>
+
+        <p><strong>References: </strong></p>
+        <p>
+          The chapter names and the key points if any mentioned are taken from the book <i>"Infrastructure as a code,Managing servers in cloud"</i> by Kief Morris
+        </p>
+      </div>
+  </div>
     </body>
 </html>

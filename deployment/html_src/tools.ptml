@@ -42,8 +42,9 @@
                         </li>
                         <li>Remote execution is challenging</li>
                     </ul>
+
                     <p>
-                    <a href="puppet.html"> More on puppet </a>
+                    <a href="https://gcallah.github.io/DevOps/deployment/puppet.html"> More on puppet </a>
                     </p>
                 </details>
                 <details>
@@ -68,7 +69,7 @@
                         <li>Documentation can be overwhelming</li>
                     </ul>
                     <p>
-                    <a href="chef.html"> More on Chef </a>
+                    <a href="https://gcallah.github.io/DevOps/deployment/chef.html"> More on Chef </a>
                     </p>
                 </details>
                 <details>
@@ -93,7 +94,7 @@
                         <li>Difficult to locate syntax errors with YAML</li>
                     </ul>
                     <p>
-                    <a href="ansible.html"> More on Ansible </a>
+                    <a href="https://gcallah.github.io/DevOps/deployment/ansible.html"> More on Ansible </a>
                     </p>
                 </details>
                 <details>
@@ -147,15 +148,21 @@
                     <h5>Pros:</h5>
                     <ul class="contents">
                         <li>Easy Installation and Use</li>
-                        <li>Faster reaction times with docker containers,
-                        (Most containers in the industry are docker) </li>
+                        <li>Native feature to docker hence possess faster
+                          operation with docker containers</li>
                     </ul>
                     <h5>Cons:</h5>
                     <ul class="contents">
-                        <li>Only supports 3rd party logging and monitoring tools</li>
-                        <li>Supports only manual scaling</li>
-                        <li>Limited fault tolerance and functionality</li>
+                        <li>No native monitoring or logging tools,
+                          only 3rd party tool available to suffice
+                          such operations</li>
+                        <li>Provision for only manual scaling</li>
+                        <li>Less capable for failures, recovery and such
+                          functionality</li>
                     </ul>
+                    <p>
+                    <a href="https://gcallah.github.io/DevOps/deployment/dockerSwarm.html"> More on DockerSwarm </a>
+                    </p>
                 </details>
                 <details>
                     <summary class="sum2">
@@ -163,56 +170,78 @@
                     </summary>
                     <h5>Pros:</h5>
                     <ul class="contents">
-                        <li> Offers inbuilt logging and monitoring tools</li>
+                        <li> Tool built with logging and monitoring capabilities</li>
                         <li> Open-source, scalable and powerful</li>
-                        <li>Stable and mature solution in the market, success stories
+                        <li>Stable and complete solution in the market, success stories
                         : Google, Pokemon GO</li>
-                        <li>Auto-scaling with CPU utilization</li>
+                        <li>Auto-scaling and Failure handling with CPU utilization</li>
                     </ul>
                     <h5>Cons:</h5>
                     <ul class="contents">
-                        <li>Not easy to use - a more complicated setup and configuration</li>
+                        <li>Not easy to use - a more complicated setup and
+                           configuration</li>
                     </ul>
+                    <p>
+                    <a href="https://gcallah.github.io/DevOps/deployment/kubernetes.html"> More on Kubernetes </a>
+                    </p>
                 </details>
                 <details>
-                    <summary class="sum2">
-                    Mesos
-                    </summary>
-                    <h5>Pros:</h5>
-                    <ul class="contents">
-                      <li></li>
-                    </ul>
-                    <h5>Cons:</h5>
-                     <ul class="contents">
-                      <li></li>
-                  </ul>
-                </details>
-                <details>
-                    <summary class="sum2">
-                    Amazon Elastic Container Service: Cluster Management
-                    </summary>
-                    <h5>Pros:</h5>
-                    <ul class="contents">
-                      <li></li>
-                    </ul>
-                    <h5>Cons:</h5>
-                    <ul class="contents">
-                      <li></li>
-                    </ul>
-                </details>
-                <details>
-                    <summary class="sum2">
-                      AWS CloudFormation: Infrastructure Deployment and
-                      Automation
-                    </summary>
-                    <h5>Pros:</h5>
-                    <ul class="contents">
-                      <li></li>
-                    </ul>
-                    <h5>Cons:</h5>
-                    <ul class="contents">
-                      <li></li>
-                    </ul>
+                <summary class="sum2">
+                    Sources
+                </summary>
+                <ul>
+                <li><a href="https://www.upguard.com/articles/ansible-puppet">
+                Puppet pros and cons
+                </a>
+                </li>
+                <li><a href="https://www.upguard.com/articles/ansible-puppet">
+                Ansible pros and cons
+                </a>
+                </li>
+                <li><a href="https://blog.takipi.com/deployment-management-tools-chef-vs-puppet-vs-ansible-vs-saltstack-vs-fabric/">
+                Chef, Puppet, Ansible comparison - 1
+                </a>
+                </li>
+                <li><a href="https://www.intigua.com/blog/puppet-vs.-chef-vs.-ansible-vs.-saltstack">
+                Chef, Puppet, Ansible comparison - 2
+                </a>
+                </li>
+                <li><a href="https://www.upguard.com/articles/puppet-vs-salt">
+                Puppet vs Salt
+                </a>
+                </li>
+                <li><a href="https://www.mirantis.com/blog/introduction-to-salt-and-saltstack/">
+                Intoduction to Saltstack
+                </a>
+                </li>
+                <li><a href="https://dzone.com/articles/docker-vs-kubernetes-prons-and-cons">
+                Docker vs Kubernetes</a>
+                </li>
+                <li><a href="https://kubernetes.io">
+                kubernetes.io </a>
+                </li>
+                <li><a href="https://koukia.ca/why-docker-pros-and-cons-949d104478c5">
+                Docker container pros and cons - 1</a>
+                </li>
+                <li><a href="https://sweetcode.io/3-pros-3-cons-working-docker-containers/">
+                Docker container pros and cons - 2</a>
+                </li>
+                <li><a href="https://docs.docker.com/engine/swarm/">
+                Docker Swarm </a>
+                </li>
+                <li><a href="https://searchitoperations.techtarget.com/definition/Docker-Swarm">
+                Docker Swarm overview</a>
+                </li>
+                <li><a href="https://www.upcloud.com/blog/docker-swarm-vs-kubernetes/">
+                Swarm vs Kubernetes - 1</a>
+                </li>
+                <li><a href="https://platform9.com/blog/kubernetes-docker-swarm-compared/">
+                Swarm vs Kubernetes - 2</a>
+                </li>
+                <li><a href="https://www.zdnet.com/article/kubernetes-graduates-to-full-pledged-open-source-program/">
+                Kubernetes examples</a>
+                </li>
+                </ul>
                 </details>
             </div>
         </div>

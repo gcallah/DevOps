@@ -32,21 +32,22 @@
                 </p>
               <h2>
               Introduction
-              </h2> 
+              </h2>
               <p>
                   The Manifesto for Agile Software Development was created
                   by seventeen software developers in 2001. The Agile Manifesto
                   expressed four key values and twelve principles of Agile
                   software development. Founded upon the values and principles
                   stated in the Agile Manifesto, Agile software development
-                  utilizes the iterative approach that delivers new pieces
-                  of the application more often and provides greater
+                  utilizes the iterative approach that delivers progresses
+                  of the application more often. It also provides greater
                   flexibility than the traditional waterfall approach.
               </p>
               <p>
-                  The Manifesto for Agile Software Development provides 
-                  critical guidance on how to apply Agile practices to 
-                  software development.
+                  The Manifesto for Agile Software Development provides
+                  critical guidance on how to apply Agile practices to
+                  software development. As we usually hear the phrase "agile
+                  development", this phrase is defined in the manifesto.
               </p>
               <h2>
               Core values and principles
@@ -58,31 +59,31 @@
                 </summary>
                 <p>
                   The first key value of the Agile Manifesto is to value
-                  people and communication over rigid processes and tools. 
-                  If a company value processes and tools, the processes are 
-                  on average more clear but the processes and tools will be 
-                  gradually out-of-date due to the lack of updates. New 
-                  processes and tools are created by humans. In a 
-                  human-centric company, the improvements made to processes 
-                  and tools by its employees greatly boost the company's 
+                  people and communication over rigid processes and tools.
+                  If a company value processes and tools, the processes are
+                  on average clearer, but the processes and tools will be
+                  gradually out-of-date due to the lack of updates. New
+                  processes and tools are created by humans. In a
+                  human-centric company, the improvements made to processes
+                  and tools by its employees greatly boost the company's
                   overall productivity.
                 </p>
                 <p>
-                  One of the principles relevant to the first key value is 
-                  that business people and developers must work together on 
-                  a daily basis. The communication is of great importance in 
-                  DevOps as listed above. Since the requirements are constantly
-                  changing and the highest priority is for the customer, 
-                  working together helps the developers quickly notice the 
-                  requirement changes and react accordingly.
+                  One of the principles relevant to the first key value is
+                  that business people and developers are supposed to work
+                  together on a daily basis. The communication is of great
+                  importance in DevOps as listed above. Since the requirements
+                  are constantly changing and the highest priority is for the
+                  customer, working together helps the developers quickly
+                  notice the requirement changes and react accordingly.
                 </p>
                 <p>
-                  Another related principle states that the face-to-face 
-                  conversation is the most efficient and effective method for 
-                  communication within a development team. The information is 
-                  more likely to divert via multiple channels. The 
-                  face-to-face communication also delivers the most original 
-                  idea, which reduces risk of misinterpreting and 
+                  Another related principle states that the face-to-face
+                  conversation is the most efficient and effective method for
+                  communication within a development team. The information is
+                  more likely to divert via multiple channels. The
+                  face-to-face communication also delivers the most original
+                  idea, which reduces risk of misinterpreting and
                   misunderstanding.
                 </p>
               </details>
@@ -95,19 +96,20 @@
                 The second key value shows that working software is more
                 important than comprehensive documentation. As stated in the
                 principles, working software is the primary way to measure the
-                development progress. In that case, working software is more 
-                persuading than the documentation. The teammates are more 
-                likely to honor your progress by working software instead of 
-                the documentation. However, the documentation can be the 
-                resource that assists in the understanding of working software.
+                development progress. In that case, working software is more
+                persuading than the documentation. The teammates are more
+                likely to honor your progress by working software instead of
+                the documentation. However, the documentation can be the
+                resource that assists in the understanding of working software,
+                while it cannot prevail the importance.
                 </p>
                 <p>
-                As mentioned above, in order to show the development progress, 
-                the quick delivery of working software helps. The shorter 
-                timescale informs other teammates about the development 
-                progress and improves the communication within the 
-                development team. It also reduces the work of detailed 
-                documentation because some codes are pretty self-explanatory 
+                As mentioned above, in order to show the development progress,
+                the quick delivery of working software helps. The shorter
+                timescale informs other teammates about the development
+                progress and improves the communication within the
+                development team. It also reduces the work of detailed
+                documentation because some codes are pretty self-explanatory
                 in the absence of detailed documentation.
                 </p>
               </details>
@@ -118,24 +120,24 @@
                 </summary>
                 <p>
                 The third key value of the Agile Manifesto is to focus on
-                collaboration between the development team and customer, 
-                instead of emphasizing contract negotiation. 
-                Collaboration will make the product more valuable since the 
-                customer is involved to provide helpful feedback to increase 
-                values of the product during the sprint review. 
-                In addition, technologies and the customer's needs
-                are rapidly changing. Hence it's hard to determine all the
-                details of the product at the very beginning. By collaborating 
-                with the customer, the development team can integrate needed 
+                collaboration between the development team and customer,
+                instead of emphasizing contract negotiation.
+                Collaboration will make the product more valuable since the
+                customers are involved to provide helpful feedback to increase
+                values of the product during the sprint review.
+                In addition, technologies and the customers' needs
+                are rapidly changing. Hence, it's hard to determine all the
+                details of the product at the very beginning. By collaborating
+                with the customer, the development team can integrate needed
                 changes with the existing product in a smooth manner.
                 </p>
                 <p>
-                    The highest priority is to satisfy the customer. As we 
-                    have seen in the manifesto, the agile development delivers 
-                    the new versions as soon as possible. In this instance, 
-                    working with customers help the products to be quickly 
+                    The highest priority is to satisfy the customer. As we
+                    have seen in the manifesto, the agile development delivers
+                    the new versions as soon as possible. In this instance,
+                    working with customers help the products to be quickly
                     updated and upgraded to meet the customers' needs.
-                    Meanwhile, making changes to the products quickly also 
+                    Meanwhile, making changes to the products quickly also
                     gathers customers' feedback soon and is of great help
                     for the products.
                 </p>
@@ -151,20 +153,20 @@
                 create a detailed plan in advance if the project context is
                 constantly changing and less information is available at the
                 present time. Feedback from the customer might demand
-                project plan changes as well within the project's timeframe. 
-                What's more, the goal of delivering maximum value to the 
-                customer is more important than simply following a plan even 
-                though plan changes might be needed in order to achieve the 
+                project plan changes as well within the project's timeframe.
+                What's more, the goal of delivering maximum value to the
+                customer is more important than simply following a plan even
+                though plan changes might be essential in order to achieve the
                 goal.
                 </p>
                 <p>
-                  Changing requirements are welcome in agile development since 
+                  Changing requirements are welcome in agile development since
                   agile devolvement iterates rapidly.
                   Changing requirements allow the developers to react quickly
-                  to customers' needs, which not only improves customers' 
+                  to customers' needs, which not only improves customers'
                   feedback, but also the product quality. Shorter timescale is
-                  preferred. Since work is done in small batches, the defects 
-                  and problems can be easily detected and resolved early. It 
+                  preferred. Since work is done in small batches, the defects
+                  and problems can be easily detected and resolved early. It
                   also helps the developers to identify the problems precisely.
                 </p>
               </details>

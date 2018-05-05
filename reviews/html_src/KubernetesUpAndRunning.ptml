@@ -218,6 +218,80 @@
                 orchestration systems.
                 </p>
                 </details>
+                <details>
+                <summary class="sum2">
+                    Chapter 11: ConfigMaps and Secrets
+                </summary>
+                <p>
+                In this chapter authors discuss about config maps and secrets
+                and how they can make the container images reusable across
+                environments or applications. Since config map is associated
+                with the Pod before running they can help reusing image and
+                pod across many applications by using different config map. 
+                Then the authors describe how to create and use a config map
+                with code sample. For handling the sensitive information,
+                Kubernetes API for secrets is used, which also allows
+                container images to be reused across environments. Next the
+                authors go in detail describing how to create and consume
+                secrets. How to access images stored in private registries
+                using secret API for storing credentials. In the end, the
+                naming conventions for config maps and secrets and some more
+                commands to manage them are described.
+                </p>
+                <details>
+                <summary class="sum2">
+                    Chapter 12: Deployments
+                </summary>
+                <p>
+                The authors had already covered most of the basics and command
+                which will help the kubernetes go up and running. In this 
+                chapter, they finally discuss the deployment aspect of 
+                kubernetes. For this kubernetes uses deployment object which
+                ensures the management of new release of any application. 
+                Kuberenetes in general support two strategies for this, 
+                namely, Recreate and Roll-out. In the later part of the 
+                chapter, a vivid description of the Roll-out strategy is given 
+                with flow diagram to explain the movement of the application
+                during deployment. Along with this, the authors give a 
+                practical example of various kubectl commands for creating, 
+                managing, updating rolling back, deleting a new deployment.
+                </p>
+                </details>
+                
+                <details>
+                <summary class="sum2">
+                    Chapter 13: Integrating storage solutions and Kubernetes
+                </summary>
+                <p>
+                In this chapter, the authors initialize with a discussion 
+                about the complexity of integrating a database or storage 
+                application with stateless microservices in general. They 
+                explain how integrating data with orchestration solutions 
+                could be very tricky. Thus to deal with it, they define 
+                various strategies which could be adopted for bringing 
+                together storage and container services in kubernetes. 
+                Authors explain the technique for importing external 
+                services with examples like DNS services and also briefly 
+                tell about the limitations.One of the major parts of the 
+                chapter is an introduction to the kubernetes-native 
+                storage with statefulsets which was exemplified a manually
+                replicated MongoDB with statefulset YAML script.
+                </p>
+                </details>
+
+                </details>
+                <details>
+                <summary class="sum2">
+                    SOURCE AND BOOK AVAILABILITY
+                </summary>
+                <p>
+                E-BOOK: https://www.safaribooksonline.com/library/view/
+                kubernetes-up-and/9781491935668/ <br><br>
+                PAPERBACK: https://www.amazon.com/Kubernetes-Running-Dive-
+                Future-Infrastructure/dp/1491935677
+                </p>
+                </details>
+
 
             </div>
         </div>

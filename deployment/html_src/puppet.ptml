@@ -36,7 +36,7 @@
                 architecture having one puppet master and one puppet agent.
                 </p>
                 <h4> Installation on Master </h4>
-                <ul>
+                <ul class="nested">
                     <li>
                         sudo su -
                     </li>
@@ -56,7 +56,7 @@
                     </li>
                 </ul>
                 <h4> Installation on Agent </h4>
-                <ul>
+                <ul class="nested">
                     <li>
                         sudo su -
                     </li>
@@ -76,7 +76,7 @@
                     </li>
                 </ul>
                 <h4> Certificates </h4>
-                <ul>
+                <ul class="nested">
                     <li>On Puppet Agent run:
                         <br>
                         puppet agent --test
@@ -93,15 +93,15 @@
                 <h3> Important Concepts </h3>
                 <h4> Manifests </h4>
                 <p>
-                Puppet programs are called manifests and they contain a set of
+                "Puppet programs are called manifests and they contain a set of
                 instructions to be executed for building the infrastructure. 
                 Manifests are a collection of resource declarations and use 
-                the .pp extension.
+                the .pp extension."[1]
                 <br>
                 <br>
                 Example of manifest file which first updates apt-get and
                 then installs mysql-server package and ensures mysql service 
-                is running -
+                is running[2] -
         <pre>
         exec { 'apt-get update':
             command =&gt; '/usr/bin/apt-get update'
@@ -119,23 +119,27 @@
                 <p>
                 Puppet comes with a number of built-in resources which can be 
                 used as the components for building the infrastructure. Some of
-                the most commonly used resource types are files, services, 
-                packages and user. 
+                the most commonly used resource types are "files, services, 
+                packages and user."[1] 
                 <br>
-                To know all the available resource types use this command-
+                To know all the available resource types use this command [2]-
+                </p>
         <pre>
         puppet resource --types
         </pre>
                 <br>
+                <p>
                 Examples of using file resource -
                 <br>
                 Put below lines in your manifest file.
+                </p>
         <pre>
         file { 'infra.txt':
             path    =&gt; '/home/infra.txt',
             content =&gt; 'Starting to learn puppet'
         }
         </pre>
+                <p>
                 After applying the catalog on agent node the file infra.txt 
                 will be created at the given path with the provided content.
                 </p>
@@ -143,9 +147,19 @@
                 <summary class="sum2">
                     Sources
                 </summary>
-                <ul>
+                <ol>
                 <li><a href="https://www.digitalocean.com/community/tutorials/configuration-management-101-writing-puppet-manifests">
                 Writing Puppet Manifests
+                </a>
+                </li>
+                <li>
+                <a href="https://www.digitalocean.com/community/tutorials/getting-started-with-puppet-code-manifests-and-modules">
+                Puppet Examples
+                </a>
+                </li>
+                <li>
+                <a href="https://www.example42.com/tutorials/PuppetTutorial/">
+                Puppet Tutorial By Alessandro Franceschi
                 </a>
                 </li>
                 <li>
@@ -153,7 +167,7 @@
                 Puppet Tutorial
                 </a>
                 </li>
-                </ul>
+                </ol>
                 </details>
             </div>
         </div>
