@@ -137,6 +137,33 @@
                                 
                             </ul>    
                     </details>
+
+                    <details>
+                        <summary class="sum2">
+                            Theory Questions
+                        </summary>
+                            <ul class = "nested">
+                                <p>
+                                    <li>
+                                        What is the difference between
+                                        CI and CD?
+                                    </li>
+                                    <li>
+                                        Explain situation where DevOps 
+                                        was helpful? 
+                                    </li>
+                                    <li>
+                                        Is DevOps change in the culture of
+                                        company or is it the change in 
+                                        software delivery?
+                                    </li>
+                                    <li>
+                                        System Design Problem?
+                                    </li>
+                                </p>
+                                
+                            </ul>    
+                    </details>                    
             </div>
         </div>
     </body>
