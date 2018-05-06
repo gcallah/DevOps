@@ -35,7 +35,8 @@
                  </p>
                     <details>
                         <summary class = "sum2">
-                            <h3>Linux Based Interview Questions</h3>
+                            Linux Based Interview Questions
+                        </summary>
                             <ul class= "nested">
                                 <p>
                                     <li>
@@ -54,13 +55,12 @@
                                         Server Status Commands
                                     </li>
                                 </p>
-                                
                             </ul>
-                        </summary>
                     </details>
                     <details>
                         <summary class="sum2">
-                            <h3>Software Delivery</h3>
+                            Software Delivery
+                        </summary>
                             <ul class = "nested">
                                 <p>
                                     <li>
@@ -83,12 +83,13 @@
                                 </p>
                                 
                             </ul>    
-                        </summary>
+                        
                     </details>
 
                     <details>
                         <summary class="sum2">
-                            <h3>Git Version Control</h3>
+                            Git Version Control
+                        </summary>
                             <ul class = "nested">
                                 <p>
                                     <li>
@@ -108,12 +109,13 @@
                                 </p>
                                 
                             </ul>    
-                        </summary>
+                        
                     </details>
 
                     <details>
                         <summary class="sum2">
-                            <h3>Cloud Technologies</h3>
+                            Cloud Technologies
+                        </summary>
                             <ul class = "nested">
                                 <p>
                                     <li>
@@ -134,8 +136,34 @@
                                 </p>
                                 
                             </ul>    
-                        </summary>
                     </details>
+
+                    <details>
+                        <summary class="sum2">
+                            Theory Questions
+                        </summary>
+                            <ul class = "nested">
+                                <p>
+                                    <li>
+                                        What is the difference between
+                                        CI and CD?
+                                    </li>
+                                    <li>
+                                        Explain situation where DevOps 
+                                        was helpful? 
+                                    </li>
+                                    <li>
+                                        Is DevOps change in the culture of
+                                        company or is it the change in 
+                                        software delivery?
+                                    </li>
+                                    <li>
+                                        System Design Problem?
+                                    </li>
+                                </p>
+                                
+                            </ul>    
+                    </details>                    
             </div>
         </div>
     </body>
