@@ -195,7 +195,7 @@
             <p class="author">
                 Reviewers: Kanishk Dugar and Pravar Singh<br/>
 
-                <h2>Chapter 1  - Introduction to DevOps and Continuous Delivery</h2>
+                <h2>Chapter 1- Introduction to DevOps and Continuous Delivery</h2>
                 <br/>
 
                 <p>
@@ -232,8 +232,8 @@
                   conclusions from their several years of experience in the
                   industry. One of the major concepts jotted down in this
                   manifesto according to the author emphasizes the importance of
-                  focusing on Individuals &amp; Interactions rather than on processes
-                  &amp;tools which
+                  focusing on Individuals &amp; Interactions rather than on 
+                  processes &amp;tools which
                   basically means that company’s should invest not only in tools
                   and processes but rather also in breaking down the silos in
                   which various software disciplines work &amp;fostering a
@@ -321,9 +321,42 @@
                   company size.
                 </p>
 
-                <h2>Chapter 3 </h2>
+                <h2>Chapter 3 - How DevOps affects Architecture </h2>
                 <p>
-                  In this chapter the author explains how DevOps Principles affect architecture of a software, rather than just the deployment process, or in other words how the industry has accommodated DevOps practices into the current agile cycles In order for the architecture of the software to adhere to DevOps principles. One of the key take away concept from this chapter is the understanding of anti-pattern that promotes Monolithic Architectures which exists in legacy systems and significantly in current industry practices. The need to destroy this anti-pattern and promote modular systems with high cohesion and low coupling is of utmost importance when looking from the DevOps point of view. To further substantiate this point, the author explains a concept called “Separation of Concerns”, coined by the famous Computer Scientist Dijkstra in his 1974 paper. The author makes the reader understand this concept with a very practical example that explains the problems faced in the monolithic scenario rather that the opposite. Further on he explains how the concept of “Separation of Concerns” has manifested itself in today’s software architectures in the form of “Three tier Systems” which comprise of Presentation, Logic and Data tier usually , allowing them to be managed independently. Next, he gives code snippets of Liquibase(a Database Migration System) files ,to explain how version control is applied on databases rather than just code, which really helps the reader to get hands-on experience with Database Migration Management and I found this section to be especially useful. Further, he talks about the microservices architectures being adopted today that further promotes the idea of “Separation of concerns” and avoids monolithic structures. I was very enlightened after reading this chapter and had never previously thought that DevOps could seep into the whole Software Development process so immensely.
+                  In this chapter the author explains how DevOps Principles 
+                  affect architecture of a software, rather than just the 
+                  deployment process, or in other words how the industry has 
+                  accommodated DevOps practices into the current agile cycles 
+                  In order for the architecture of the software to adhere to 
+                  DevOps principles. One of the key take away concept from this
+                  chapter is the understanding of anti-pattern that promotes 
+                  Monolithic Architectures which exists in legacy systems and 
+                  significantly in current industry practices. The need to 
+                  destroy this anti-pattern and promote modular systems with 
+                  high cohesion and low coupling is of utmost importance when 
+                  looking from the DevOps point of view. To further 
+                  substantiate this point, the author explains a concept 
+                  called “Separation of Concerns”, coined by the famous 
+                  Computer Scientist Dijkstra in his 1974 paper. The author 
+                  makes the reader understand this concept with a very 
+                  practical example that explains the problems faced in the 
+                  monolithic scenario rather that the opposite. Further on he 
+                  explains how the concept of “Separation of Concerns” has 
+                  manifested itself in today’s software architectures in the
+                  form of “Three tier Systems” which comprise of Presentation, 
+                  Logic and Data tier usually , allowing them to be managed 
+                  independently. Next, he gives code snippets of Liquibase(a 
+                  Database Migration System) files ,to explain how version 
+                  control is applied on databases rather than just code, 
+                  which really helps the reader to get hands-on experience 
+                  with Database Migration Management and I found this section
+                  to be especially useful. Further, he talks about the
+                  microservices architectures being adopted today that
+                  further promotes the idea of “Separation of concerns” 
+                  and avoids monolithic structures. I was very enlightened
+                  after reading this chapter and had never previously 
+                  thought that DevOps could seep into the whole Software
+                  Development process so immensely.
                 </p>
 
                 <h2>Chapter 4 - Everything is code </h2>
@@ -333,7 +366,37 @@
                   for selecting a suitable system and various practices
                   associated with it. TBC..
                 </p>
-
+                <h2>Chapter 5 - Building the code </h2>
+                <p>
+                  This chapter talks about the all the processes involved in 
+                  building the code and how the build process is so much more 
+                  than just compiling of code into build artifacts.During the
+                  build process many processes happen such as checking the code
+                  for errors,generating code quality metrics, applying unit 
+                  tests on the code, generating production quality artifacts.
+                  I found this chapter to be really interesting since it has 
+                  lots of screenshots of how Jenkins is used to manage the build
+                  process. He gives example of a plugin called "Sonar" for 
+                  Jenkins that visualizes code quality metrics such as 
+                  duplications in the code , Code coverage , Violations etc. 
+                  He explains how important it is for an organization to 
+                  spend money on a high performing build server with lots of 
+                  RAM , processor cores and hard disk space to make the build
+                  process as fast as possible. He talks a more efficient way
+                  to make the build faster by building in parallel using round 
+                  robin scheme , by having master and slave build servers, 
+                  where its not necessary for all the build servers to have the
+                  same OS. Later in the chapter he gives practical examples with
+                  screenshots to explain the Workflow plugin for Jenkins which 
+                  can create build job pipelines.He also explains the various
+                  concepts associated with the build process such build tree 
+                  dependencies, layout of the Jenkins filesystem etc.
+                  After giving the reader an idea about the workings of the 
+                  build process, he goes on to explain the problems faced in 
+                  real world scenarios when build fail , how they can be 
+                  resolved and how processes and priorities can be established 
+                  to take the build failures seriously.
+                </p>
 
 
             </p>
