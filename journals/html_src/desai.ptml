@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
@@ -10,7 +9,12 @@
     </head>
 
     <body>
-<!--include menu.txt -->
+    <div class = "wrapper">
+      <!--include navbar.txt -->
+    <div id = "content">
+        <h1>
+            My DevOps Story:
+        </h1>
 
         <h1>
             My DevOps Story
@@ -74,5 +78,8 @@
                 on various parameters to take an informed decision.
     	</p>
 
+
+        </div>
+    </div>
     </body>
 </html>
