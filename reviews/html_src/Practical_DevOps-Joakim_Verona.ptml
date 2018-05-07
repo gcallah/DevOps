@@ -188,7 +188,24 @@
                   Every software based organization needs a central code
                   management system and this chapter discusses the strategies
                   for selecting a suitable system and various practices
-                  associated with it. TBC..
+                  associated with it. According to the author source code
+                  management system is central to the DevOps world, as
+                  'everything' is code. The author believes that it is important
+                  for an organization to agree on a branching strategy and gives
+                  an overview of Git flow, which can be complex but has many
+                  good features. He also discusses certain problems which arise
+                  due to source of contention between branching strategies and
+                  Continuous Delivery practices, which advocate a single master
+                  branch. This poses a dilemma, when we need to fix bug on
+                  released code and the master branch has new features which
+                  are not ready to be released yet. Two basic ways to handle
+                  this sitiation is either make a new bug-fix branch to deploy
+                  from or toggle the new features. The author also discusses
+                  strategies for sensible versioning of artifact and provides
+                  guidance to setup git client and server. He also discusses
+                  a few plugins/tools (LFS/Annex, Gerrit etc) to add specific
+                  capabilities to git and strategies like squashing and rebasing
+                  to mainitain a simple and clean code history.
                 </p>
                 <h2>Chapter 5 - Building the code </h2>
                 <p>
