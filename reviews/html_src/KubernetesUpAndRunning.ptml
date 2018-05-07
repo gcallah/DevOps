@@ -238,6 +238,7 @@
                 naming conventions for config maps and secrets and some more
                 commands to manage them are described.
                 </p>
+                </details>
                 <details>
                 <summary class="sum2">
                     Chapter 12: Deployments
@@ -279,7 +280,27 @@
                 </p>
                 </details>
 
+                <details>
+                <summary class="sum2">
+                    Chapter 14: Deploying Real-World Applications
+                </summary>
+                <p>
+                Until now, the authors have widely discussed all the 
+                components and basics involved in deploying and managing 
+                a cluster or a simple containerized application with
+                Kubernetes. In this final installment of the book, the 
+                authors want to sum up by explaining the implementation 
+                of few real-world applications like Parse, Ghost and Redis
+                server.  To describe the implementation of each 
+                application, they start with prerequisites, followed by 
+                building of that application, and then end with deployment
+                and testing of the application. A very practical approach
+                has been maintained and all the configuration statements 
+                have been carefully explained.
+                </p>
                 </details>
+
+
                 <details>
                 <summary class="sum2">
                     SOURCE AND BOOK AVAILABILITY
