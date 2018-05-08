@@ -331,6 +331,33 @@
                 worse.
               </p><br />
               <p>
+                So to optimize a project process, first thing(toolkit) is
+                measurements. The authors raise the example of Armstrong's
+                race strategy to  explain to us why top measurement on subtasks
+                may not lead to a optimized result. It is very vivid and easy
+                to understand by doing such analog since development subtasks
+                are same as stages that cost in each of them will affect the
+                whole result. "maximizing local measurements is often at
+                crosspurposes with optimizing the organization as a whole"[20],
+                the authors have concluded so since the local measurements may
+                lead to idle period or extra features in other tasks which
+                cause the hurt to the whole system. Then the authors present
+                us reasons to use the pattern suboptimize and how to use it
+                correctly in measurement.
+              </p><br />
+              <p>
+                To work as a whole, trust is a very key features that different
+                groups need to hold to work together. So the second toolkit
+                introduced is the widely used trust guarantee - contract.
+                The authors go from the Toyata's cooperation with US suppliers
+                to indicate that different parties need contracting to help
+                them build trust on each other to work together. If groups have
+                to guard against their partners to take advantage from them,
+                work together as a whole is just a joke. After clarify the
+                importance of contruct, the authors shows us different
+                contracts and their application conditions, such as fixed-price
+                contracts, time-and muterials contracts, multistage
+                contracts[21] and etc..
               </p><br />
             </details>
             <details>
@@ -400,6 +427,12 @@
               [18] Senge, The Fifth Discipline, 95.
               <br />
               [19] Senge, The Fifth Discipline, 104.
+              <br />
+              [20] Poppendieck, Mary. Lean Software Development: An Agile
+              Toolkit (Agile Software Development Series)(p.157).
+              <br />
+              [21] Poppendieck, Mary. Lean Software Development: An Agile
+              Toolkit (Agile Software Development Series)(p.165-168).
             </p>
           </div>
         </div>
