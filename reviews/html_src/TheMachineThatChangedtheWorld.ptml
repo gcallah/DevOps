@@ -12,14 +12,17 @@
           <!--include navbar.txt -->
       <div id="content">
         <h1>
-            Review of: The Machine That
-            Changed the World - by James Womack,
-            Daniel Jones, and Daniel Roos
+            Book review:
+          </br>
+          The Machine That
+            Changed the World
+          </br>
+            by James Womack, Daniel Jones and Daniel Roos
         </h1>
         <p class="author">
         by
         <br />
-        Review by Anshal Savla , Saniya Alekar
+        Anshal Savla and Saniya Alekar
         </p>
         <h2>
             Summary
@@ -134,7 +137,8 @@
                 <li>Tools</li>
                 <li>Product</li>
               </ul>
-
+            </p>
+            <p>
               The author then talks about how Alfred Sloan of
                General Motors was a worthy and necessary
                competitor to Ford. "Sloan's innovative
@@ -246,6 +250,8 @@
                   <li>Teamwork</li>
                   <li>Simultaneous Development</li>
                 </ul>
+              </p>
+              <p>
                 After giving us an idea about the statistics of lean production
                 vs mass production, the author talks about the consequences of
                 lean production and also invention in lean and mass production.
@@ -306,6 +312,8 @@
                <li>Personnel Management</li>
                <li>Global coordination</li>
              </ul>
+           </p>
+           <p>
              He then talks about the advantages of global enterprise.
              The following are the advantages of global enterprise according to
              the author:
@@ -324,6 +332,8 @@
              vehicle market. A company with a presence in all markets has more
            protection against cyclicality.</li>
              </ul>
+           </p>
+           <p>
           The author then talks about managing the glocal enterprise and the
           "European failure to gain a global presence". The Japanese faced
           extraordinary global challenges. "The company that takes the boldest
@@ -348,7 +358,7 @@
              disappeared. As the author states, "lean production displaces
              armies of mass production workers who by the nature of this system
              have no skills and no place to go".
-             
+
            </p>
         </div>
       </div>
