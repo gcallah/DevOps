@@ -203,7 +203,15 @@ to allocate for Phoenix Project. Brent, one of the senior engineers
 was continuously disturbed by other teams with trivial matters
 that causes delays in Phoenix Project. Bill decided to meet Brent
 and discusses various possibilities of keeping him focused on 
-Phoenix.  
+Phoenix.
+
+After meeting with Brent, Bill meets Wes and Patty to decide how 
+to document every small changes in the system. As Brent is 
+the sole person who knows the production system in and out 
+they decided to allocate 2 more engineers to shadow Brent and learn
+from him. By this Brent will be able to focus on Phoenix Project 
+and the changes will be documented and stored in their knowledge
+base.  
 </p>
 
 </div>
