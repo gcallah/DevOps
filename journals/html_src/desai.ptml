@@ -105,6 +105,36 @@
                 throughput will be better. 
     	</p>
 
+<p class="leadquote">
+            Week 6
+        </p>
+
+        <p>
+    		During the Sprint session last week, it was brought to my 
+                notice that some teams needed help in hosting the websites 
+                on S3. Hence, I started with creating a bucket on AWS S3. 
+                I selected our domain and set the url to be hosted. I 
+                created a permission to enable public access to the webpage. 
+                Finally, I uploaded the entire source code and deployed the 
+                website on the S3 container successfully. A detailed tutorial 
+                comprising of documentation along with screenshots is my goal 
+                for the next week. 
+    	</p>
+
+<p class="leadquote">
+            Week 7
+        </p>
+
+        <p>
+              We had no class on account of Spring Break. I utilized this 
+              time to create a tutorial with step by step instructions and 
+              screenshots for deploying a website on Amazon S3. I am 
+              coordinating with the deployment team to make sure their 
+              requirements are met and that they are able to work with 
+              AWS as per their requirement.
+    	</p>
+
+
         </div>
     </div>
     </body>
