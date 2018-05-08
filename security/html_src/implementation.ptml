@@ -27,8 +27,10 @@
                      <br/>
 
                      <h4> Web Application Penetration Testing </h4>
+                     <p>
 
                            We configured ZAP on our local system which is the Web Application Vulnerability tool and pointed it to the Django. We ran an attack on the system to find any vulnerability. This tools produced a bunch of potential vulnerability which we shared with the development team along with mitigation technique to fix this.
+                      </p>     
                            
                            <figure>
                            <img src="images/Web_Application_Testing.png" style="width:604px;height:442px;">
