@@ -138,14 +138,28 @@
                 Found 8 bugs so far. Reported them as issues in TheDevOps 
                 repository.
             </li>
+            <li>
+                Discussed the book review of "Rugged Handbook v7" in class.
+            </li>
         </ul>
 
         <h3>Week 14 - [04/30/18 - 05/06/18]</h3>
         <ul>
-            <li></li>
+            <li>
+                Worked on review for "Rugged Handbook v7".
+            </li>
+            <li>
+                 Discussed the book review of "The Unix Programming 
+                 Environment" in class.
+            </li>
         </ul>
 
         <h3>Week 15 - [05/07/18 - 05/13/18]</h3>
-        <h3>Week 16 - [05/07/18 - 05/13/18]</h3>
+        <ul>
+            <li>
+                Completed review for "Rugged Handbook v7" - 
+                <a href="../reviews/ruggedDevOps.html">Review</a> 
+            </li>
+        </ul>
     </body>
 </html>
