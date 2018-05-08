@@ -179,8 +179,19 @@
   </details>
   <details>
     <summary class= "sum2">
-        Chapter 7: Containers - another kind of host
+        Chapter 7: Containers - another kind of host 
       </summary>
+      <p> This chapter deals with monitoring in containers. Containers
+        are light weighted and shortlived and this poses a problem 
+        in monitoring them. Docker does not have a default plugin for 
+        collectd and do an open source plugin is used. In docker, there 
+        is a daemon running on the host which creates and manages 
+        containers. We can interact with the daemon using the docker
+        cli command or using an api that lets user query docker for stats.
+        The docker collectd plugin is used to collect statistics on the 
+        containers. Once the statistics are collected they are
+        converted to metrics and then sent to Reimann. 
+      </p>
   </details>
 
 
