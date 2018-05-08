@@ -142,6 +142,20 @@
             </p>
         </details>
 
+        <details>
+            <summary class="sum2">
+              Chapter 9: Patterns for Defining Infrastructure
+            </summary>
+            <p>
+              The chapter discusses about how large Infrastructure should be provisioned and maintained. It discusses about the patterns and antipatterns
+              the software industries follow and gives us insight of Infrastructure stack. Managing parameters in a stack,sharing infrastructure elements
+              could be a challenging task and the author has done a great job in explainig these important things with relevant examples. He also discusses
+              how to maintain application code and infrastructure code abreast. The author also mentions about the pitfalls that occur while maintaining
+              such codes. Thus he has given an overall idea of how larger Infrastructure group works.
+            </p>
+        </details>
+
+
         <p><strong>References: </strong></p>
         <p>
           The chapter names and the key points if any mentioned are taken from the book <i>"Infrastructure as a code,Managing servers in cloud"</i> by Kief Morris
