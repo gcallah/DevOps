@@ -193,10 +193,20 @@
         converted to metrics and then sent to Reimann. 
       </p>
   </details>
+  <details>
+      <summary class= "sum2">
+        Chapter 8: Logs and Logging, covering structure logging and 
+        the ELK stack
+      </summary>
+  </details>
 
-
-    <h4>Chapter 8: Logs and Logging, covering structure logging and the ELK stack</h4>
-    <h4>Chapter 9: Building monitored applications</h4>
+ <details>
+      <summary class= "sum2">
+        Chapter 9: Building monitored applications
+      </summary>
+  </details>
+    
+   
     <h4>Chapter 10: Alerting and Alert Management</h4>
     <h4>Chapters 11-13: Monitoring an application and stack</h4>
     </div>
