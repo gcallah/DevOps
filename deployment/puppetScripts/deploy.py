@@ -22,16 +22,19 @@ def main(create_instance):
     ec2_client = boto3.client('ec2',
         region_name=constants.REGION)
     try:
-        existing_pair = ec2_client.describe_key_pairs(
+        key_pair = ec2_client.describe_key_pairs(
             KeyNames=[constants.KEY_PAIR])
+        print("EXISTING KEY PAIR")
     except ClientError as e:
+        os.system("echo 'yes' | rm '%s.pem'" % constants.KEY_PAIR)
         out_file = open(constants.KEY_PAIR+'.pem','w')
         key_pair = ec2_client.create_key_pair(
             KeyName=constants.KEY_PAIR)
         out_content = str(key_pair['KeyMaterial'])
+        print("Key PAIR CREATED")
         out_file.write(out_content)
-    subprocess.call(['chmod', '0400',
-        constants.KEY_PAIR+'.pem'])
+        out_file.close()
+        subprocess.call(['chmod', '0400', constants.KEY_PAIR+'.pem'])
     
     #Creating Security Groups
     try:
