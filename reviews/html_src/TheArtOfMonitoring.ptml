@@ -77,8 +77,8 @@
       <summary class= "sum2">
         Chapter 3: Managing Events and metrics with Riemann
       </summary>
+      <p>
         Key design features for routing engine are as follows :
-        <ul>
           <li> Receive events and metrics including scaling with growing
             environment. </li>
           <li>Maintain sufficient state to do event matching and provide
@@ -86,9 +86,7 @@
           <li>Munge events including extracting metrics from events.</li>
           <li>Categorize and route data to be stored, graphed, alerted on,
             or sent to any other potential destinations.</li>
-        </ul>
-        <br>
-        <p>
+        <br/>
         <b>"If only I had the theorems! Then I should  nd the proofs
           easily enough."</b> -Bernard Riemann <br>
           Riemann is a monitoring tool that aggregates events from hosts
@@ -210,7 +208,7 @@
         A log management platform is built to complement the other components
         of the monitoring framework. Some of the logs are collected and sent
         to Riemann and Graphite, to be recorded as metrics. They have also
-        explained how to integrate Docker containers into logging. 
+        explained how to integrate Docker containers into logging.
       </p>
   </details>
 
