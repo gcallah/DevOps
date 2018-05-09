@@ -343,8 +343,83 @@
         The chapter also covers the implementation of such attacks on different browser extensions and the changes brought by HTML5. The
         chapter concludes with explanation on attacks that do not depend on the vulnerabilities of any web application, but the ones that
         can be delivered by other user(attacker) or any other malicious/compromised website.       
+          </p>  
+		<h4> Chapter 14: Automating Customized Attacks </h4>  
+         <p>
+         This chapter talks about the hurdles in automation and how we can overcome them. 
+		 Most of the applications make use of session-handling mechanisms that terminate compromised sessions. 
+		 This chapter deals with customized attacks, how we can tailor the attack to application's behavior.
+		 Situations in which customized automation techniques can be employed:
+      <ul>
+         <li>Enumerating identifiers</li>
+         <li>Harvesting data</li>
+         <li>Web application fuzzing</li>
+      </ul></p>
+	  <p>
+        The author also describes how to automate the attacks and make them more faster, easier 
+		and effective and thus overcome the laborious manual attacks. The chapter concludes with 
+		explaining the vulnerabilities in CAPTCHA control and tools and techniques to mitigate them.       
           </p>
-
+		 <h4> Chapter 15: Exploiting Information Disclosure </h4>  
+         <p>
+         As the name suggests, this chapter examines different ways in which an application leaks information
+		 when attacked. The author describes how we should monitor the application to get further sources of 
+		 information disclosure by using the attacks explained in this book. The chapter explains how we can 
+		 get a deeper understanding of the application behavior and functioning by exploiting information disclosure.
+		 Different types of sources to get information:
+      <ul>
+         <li>Script error messages</li>
+         <li>Stack traces</li>
+         <li>Informative debug messages</li>
+         <li>Server and database messages</li>
+     <li>Enginnering informative error messages</li>
+      </ul></p>
+	  <p>
+        There are new sections in this book that gives detailed explanation on XSS in error messages.      
+          </p>
+		 <h4> Chapter 16: Attacking Native Compiled Applications </h4>  
+         <p>
+         This chapter focuses on the vulnerabilities and setbacks that occur in applications written in 
+		 native code languages such as C and C++.
+		 Some of these include:
+      <ul>
+         <li>Buffer overflow vulnerabilities</li>
+         <li>Off by one vulnerabilities</li>
+         <li>Integer vulnerabilities</li>
+         <li>Format String vulnerabilities</li>
+      </ul></p>
+	  <p>
+	  And ways to detect them:
+	  <ul>
+         <li>Send long strings of data to an identified target and monitor.</li>
+         <li>Avoid passing integer values as parameters within the strings or cookies.</li>
+         <li>Submit data containing different format specifiers and monitor.</li>
+      </ul></p>
+	  <p>
+        The author explains the vulnerabilities mentioned above in a detailed manner giving real-world examples.       
+          </p>
+		 <h4> Chapter 17: Attacking Application Architecture </h4>  
+         <p>
+         This chapter focuses on the vulnerabilities that the attacker can exploit related to the architecture of 
+		 the application. Many application developers fail to differentiate the architecture layers of web application 
+		 which enables an attacker to find a defect in one of the component of the application and hence the entire 
+		 environment is compromised. 
+		 The author also explains the precautions to be taken for securing the architecture:
+      <ul>
+         <li>Minimize trust relationships.</li>
+         <li>Segregate different components.</li>
+         <li>Apply defense in depth.</li>
+      </ul></p>
+	  <p>
+        The chapter concludes with the detailed explanation of the threats that arise in shared 
+		hosting environments i.e Cloud-based architectures.
+        And the ways to prevent those threats:
+		<ul>
+         <li>Secure Customer access</li>
+         <li>Segregate customer functionality</li>
+         <li>Segregate components in a shared application</li>
+      </ul>
+          </p>
  <h4> Chapter 18: Attacking the Application Server </h4>  
          <p>
                This chapter deals with attacking the web-server and application server rather than attacking application. It intially enumerates
