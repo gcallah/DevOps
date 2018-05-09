@@ -238,6 +238,32 @@
                   resolved and how processes and priorities can be established 
                   to take the build failures seriously.
                 </p>
+                <h2>Chapter 7 - Deploying the code </h2>
+                <p>
+                  This chapter basically focuses on choosing the right 
+                  deployment tool, where “right” is a very subjective term and 
+                  depends solely on the use case and the needs of the
+                  organization. At the starting of the chapter the author talks 
+                  about how modern deployment solutions have become mature and 
+                  automate the unnecessary steps such as automation of 
+                  installation of OSonto a bare virtual machine using pre-stored
+                  images. He goes on to talk about virtualization and container
+                  concepts.Further, he draws a parallel mainly between five 
+                  popular deployment tools namely Puppet , Chef, Pallet , 
+                  Ansible and Salt. Ifound the comparison table to be really 
+                  useful which tries to map the different terminologies used 
+                  by each tool with eachother. A common architectural pattern
+                  I found to exist between all these technologies was that 
+                  of master/slave, where aconfiguration file(Cookbook/Playbook 
+                  etc.) exists on the master node, and the slaves use eithpush 
+                  model or pull model to update themselves. Towards the closing
+                  of the chapter he talks about how Docker is emerging a mature 
+                  solution being opted by large enterprises due to its growing 
+                  eco system also gives a brief introduction about Aand Azure. 
+                  He also expresses a concern about how it is very popular to 
+                  build server farms with Puppet and Ansible, but doing the 
+                  same with Docker is not very well known right now.
+                </p>
 
 
             </p>
