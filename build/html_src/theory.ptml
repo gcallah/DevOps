@@ -163,7 +163,28 @@
                                 </p>
                                 
                             </ul>    
-                    </details>                    
+                    </details>
+                    <details>
+                        <summary class="sum2">
+                            Container Questions
+                        </summary>
+                            <ul class = "nested">
+                                <p>
+                                    <li>
+                                        Why do we need to containerize our
+                                        application?
+                                    </li>
+                                    <li>
+                                        What are Docker Sample Use Cases? 
+                                    </li>
+                                    <li>
+                                        How do Docker help in scalability
+                                        and distribured computing?
+                                    </li>
+                                </p>
+                                
+                            </ul>    
+                    </details>                                        
             </div>
         </div>
     </body>
