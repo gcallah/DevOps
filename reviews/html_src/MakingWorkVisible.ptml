@@ -12,158 +12,160 @@
         <div class="wrapper">
 <!--include navbar.txt -->
             <div id="content">
-            <h1>
-                Making Work Visible
-            </h1>
+                <h1>
+                    Making Work Visible
+                </h1>
 
-            <p class="author">
-                Author: Dominca DeGrandis <br>
-                Reviewer: Akshay Hazare <br>
-            </p>
+                <p class="author">
+                    Author: Dominca DeGrandis <br>
+                    Reviewer: Akshay Hazare <br>
+                </p>
 
-            <p>
-              In this timely book, IT time management expert
-              Dominica DeGrandis reveals the real crime of the
-              century—time theft, one of the most costly factors
-              impacting enterprises in their day-to-day operations.
-              <br>
-              Through simple solutions that make work visible,
-              DeGrandis helps people round up the five thieves
-              of time and take back their lives with time-saving
-              solutions. Chock-full of exercises, takeaways,
-              real-world examples, colorful diagrams, and an
-              easy-going writing style, readers will quickly
-              learn effective practices to create high-performing
-              workflows within an organization.<br><br>
-            </p>
-            <p>
-              In Part 1 of the book, The author
-              talks about the 5 Thieves of Time:<br>
-            <ul class="nested">
-                <li>Too much work-in-progress (wip)<br>
-                Trying to parallelize work or multitasking is not a 
-                beneficial approach as maintaing synchronisation
-                leads to undue loss of time.
-                </li>
+                <p>
+                    In this timely book, IT time management expert
+                    Dominica DeGrandis reveals the real crime of the
+                    century—time theft, one of the most costly factors
+                    impacting enterprises in their day-to-day operations.
+                    <br>
+                    Through simple solutions that make work visible,
+                    DeGrandis helps people round up the five thieves
+                    of time and take back their lives with time-saving
+                    solutions. Chock-full of exercises, takeaways,
+                    real-world examples, colorful diagrams, and an
+                    easy-going writing style, readers will quickly
+                    learn effective practices to create high-performing
+                    workflows within an organization.<br><br>
+                </p>
+                <p>
+                    In Part 1 of the book, The author
+                    talks about the 5 Thieves of Time:<br>
+                <ul class="nested">
+                    <li>Too much work-in-progress (wip)<br>
+                    Trying to parallelize work or multitasking is not a 
+                    beneficial approach as maintaing synchronisation
+                    leads to undue loss of time.
+                    </li>
 
-                <li>Unknown Dependencies<br>
-                Always know beforehand the set of things you need
-                to finish a task at hand.
-                </li>
+                    <li>Unknown Dependencies<br>
+                    Always know beforehand the set of things you need
+                    to finish a task at hand.
+                    </li>
 
-                <li>Unplanned Work<br>
-                Plan of action is the key to tackle any task as it 
-                keeps you in the right direction.
-                </li>
+                    <li>Unplanned Work<br>
+                    Plan of action is the key to tackle any task as it 
+                    keeps you in the right direction.
+                    </li>
 
-                <li>Conflicting Priorities<br>
-                When handling a task ensure to priorities its components
-                as it saves time over continuing from a checkpoint.
-                </li>
+                    <li>Conflicting Priorities<br>
+                    When handling a task ensure to priorities its components
+                    as it saves time over continuing from a checkpoint.
+                    </li>
 
-                <li>Neglected Work<br>
-                Ensure that you understand the scope of the task 
-                at hand to avoid future surprises.
-                </li>
-            </ul>
-            </p>
-            <p>
-              In Part 2 of the book, The author
-              talks about How to expose Time Theft
-              to optimize Workflow:<br>
-            <ul class="nested">
-                <li>Make Work Visible<br>
-                Here she talks about ensuring that all your tasks are 
-                well documented and clear to you.
-                </li>
+                    <li>Neglected Work<br>
+                    Ensure that you understand the scope of the task 
+                    at hand to avoid future surprises.
+                    </li>
+                </ul>
+                </p>
+                <p>
+                    In Part 2 of the book, The author
+                    talks about How to expose Time Theft
+                    to optimize Workflow:<br>
+                <ul class="nested">
+                    <li>Make Work Visible<br>
+                    Here she talks about ensuring that all your tasks are 
+                    well documented and clear to you.
+                    </li>
 
-                <li>Ambush the Ringleader<br>
-                Always try to tackle the core(connective) task to
-                multiple other tasks
-                </li>
+                    <li>Ambush the Ringleader<br>
+                    Always try to tackle the core(connective) task to
+                    multiple other tasks
+                    </li>
 
-                <li>Exposed Dependencies<br>
-                Mark down clear dependecies i.e Tasks that are dependent 
-                on other tasks
-                </li>
+                    <li>Exposed Dependencies<br>
+                    Mark down clear dependecies i.e Tasks that are dependent 
+                    on other tasks
+                    </li>
                 
-                <li>Committing the perfect crime - Unplanned Work<br>
-                Never approach your tasks without a plan of action 
-                as that can lead to confusion and chaos.
-                </li>
+                    <li>Committing the perfect crime - Unplanned Work<br>
+                    Never approach your tasks without a plan of action 
+                    as that can lead to confusion and chaos.
+                    </li>
 
-                <li>Prioritize Prioritize Prioritize<br>
-                Always approach your tasks with decreasing order 
-                of priority.
-                </li>
+                    <li>Prioritize Prioritize Prioritize<br>
+                    Always approach your tasks with decreasing order 
+                    of priority.
+                    </li>
 
-                <li>Preventing Negligence<br>
-                Ensure that critical tasks are not ignored and all 
-                work is chalked out effectively.
-                </li>
-            </ul>
-            </p>
-            <p>
-              In Part 3 of the book, The author
-              talks about How to use Metrics, Feedback and
-              Circumstances to optimize Workflow:<br>
-            <ul class="nested">
-                <li>Treat Metrics as Money<br>
-                Metrics are ver important and must be expended miserly
-                </li>
+                    <li>Preventing Negligence<br>
+                    Ensure that critical tasks are not ignored and all 
+                    work is chalked out effectively.
+                    </li>
+                </ul>
+                </p>
+                <p>
+                    In Part 3 of the book, The author
+                    talks about How to use Metrics, Feedback and
+                    Circumstances to optimize Workflow:<br>
+                <ul class="nested">
+                    <li>Treat Metrics as Money<br>
+                    Metrics are ver important and must be expended miserly
+                    </li>
 
-                <li>The time Thief o'gram<br>
-                Try new ways to visualize the time at disposal and tasks 
-                at hand
-                </li>
+                    <li>The time Thief o'gram<br>
+                    Try new ways to visualize the time at disposal and tasks 
+                    at hand
+                    </li>
 
-                <li>Operations review<br>
-                Review a task before adding them to the completion bucket
-                </li>
+                    <li>Operations review<br>
+                    Review a task before adding them to the completion bucket
+                    </li>
                 
-                <li>The art of the meeting<br>
-                Meeting are an important part of workflow and should 
-                be dealt in an organized fashion
-                </li>
+                    <li>The art of the meeting<br>
+                    Meeting are an important part of workflow and should 
+                    be dealt in an organized fashion
+                    </li>
                 
-                <li>Beastly Practices<br>
-                All events at hand must be handled like a beast with 
-                complete attention paid to tasks at hand.
-                </li>
-            </ul>
-            </p>
-            <p>
-            Conclusion:
-            Dominica starts by exposing the five time thieves and
-            detailing how they keep us busy and overcommited while
-            allowing critical work to fall by the wayside. It is in
-            this section that Dominica describes tech debt work (work
-            that has accumulated due to short cuts, deferred maintenence,
-            the passage of time, or other point in time decisions) as
-            revenue protection.
+                    <li>Beastly Practices<br>
+                    All events at hand must be handled like a beast with 
+                    complete attention paid to tasks at hand.
+                    </li>
+                </ul>
+                </p>
+                
+                <p>
+                    Conclusion:
+                    Dominica starts by exposing the five time thieves and
+                    detailing how they keep us busy and overcommited while
+                    allowing critical work to fall by the wayside. It is in
+                    this section that Dominica describes tech debt work (work
+                    that has accumulated due to short cuts, deferred 
+                    maintenence, the passage of time, or other point in 
+                    time decisions) as revenue protection. <br>
 
-            For me, this was a criticial connection. In the DevOps
-            and Digital Transformation discussion, we look at how
-            we can relate our development and IT operations work to
-            customer value. What we often have a hard time voicing is
-            how to fit those tech debt tasks into that value stream.
-            When we look at it from a perspective of revenue protection,
-            (keeping services available, responsive, and secure helps
-            keep customers ya know..), it becomes evident that those
-            tasks need to be represented in the work we are doing.
+                    For me, this was a criticial connection. In the DevOps
+                    and Digital Transformation discussion, we look at how
+                    we can relate our development and IT operations work to
+                    customer value. What we often have a hard time voicing is
+                    how to fit those tech debt tasks into that value stream.
+                    When we look at it from a perspective of revenue 
+                    protection, (keeping services available, responsive, 
+                    and secure helps keep customers ya know..), it becomes 
+                    evident that those tasks need to be represented in the 
+                    work we are doing. <br>
 
-            Another major takeaway for me was in the focus on the
-            metrics of the flow of work. Dominica dives in to a
-            variety of metrics that can be gleaned from using Kanban
-            and, more importantly, what those metrics mean for the
-            flow of work through the organization. <br>
+                    Another major takeaway for me was in the focus on the
+                    metrics of the flow of work. Dominica dives in to a
+                    variety of metrics that can be gleaned from using Kanban
+                    and, more importantly, what those metrics mean for the
+                    flow of work through the organization. <br>
 
 
-            I would most definitely recommend this book as it holds 
-            principles of time management which could be applied 
-            not only to the work life but also to private life for 
-            effective task/time management.
-            </p>
+                    I would most definitely recommend this book as it holds 
+                    principles of time management which could be applied 
+                    not only to the work life but also to private life for 
+                    effective task/time management.
+                </p>
 
             </div>
         </div>
