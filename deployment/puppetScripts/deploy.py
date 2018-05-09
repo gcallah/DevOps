@@ -1,13 +1,12 @@
 import sys
 import os
-import subprocess
 import boto3
 from botocore.exceptions import ClientError
 import constants
 
 def enter_host(dns, ip, hostnames, file):
     command = (
-'ssh -i %s ec2-user@%s /bin/bash << \'ENDHERE\'\n'
+'ssh -i %s ec2-user@%s -oStrictHostKeyChecking=no /bin/bash << \'ENDHERE\'\n'
 '    sudo su\n'
 '    found=$(grep %s /etc/hosts)\n'
 '    if [ -z "$found" ]; then\n'
@@ -26,7 +25,8 @@ def main(create_instance):
             KeyNames=[constants.KEY_PAIR])
         print("EXISTING KEY PAIR")
     except ClientError as e:
-        os.system("echo 'yes' | rm '%s.pem'" % constants.KEY_PAIR)
+        os.system("echo 'yes' | rm '%s.pem' &> /dev/null"
+                  % constants.KEY_PAIR)
         out_file = open(constants.KEY_PAIR+'.pem','w')
         key_pair = ec2_client.create_key_pair(
             KeyName=constants.KEY_PAIR)
@@ -34,7 +34,7 @@ def main(create_instance):
         print("Key PAIR CREATED")
         out_file.write(out_content)
         out_file.close()
-        subprocess.call(['chmod', '0400', constants.KEY_PAIR+'.pem'])
+        os.system('chmod 0400 %s.pem' % constants.KEY_PAIR)
     
     #Creating Security Groups
     try:
