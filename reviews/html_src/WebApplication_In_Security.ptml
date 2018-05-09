@@ -343,23 +343,21 @@
         chapter concludes with explanation on attacks that do not depend on the vulnerabilities of any web application, but the ones that
         can be delivered by other user(attacker) or any other malicious/compromised website.    
           </p>
-		<h4> Chapter 14: Automating Customized Attacks </h4>  
+	<h4> Chapter 14: Automating Customized Attacks </h4>  
          <p>
          This chapter talks about the hurdles in automation and how we can overcome them.
-		 Most of the applications make use of session-handling mechanisms that terminate
-         compromised sessions.
-         This chapter deals with customized attacks, how we can tailor the attack to application's behavior.
-		 Situations in which customized automation techniques can be employed:
+	Most of the applications make use of session-handling mechanisms that terminate
+         compromised sessions.This chapter deals with customized attacks, how we can tailor the attack to application's behavior.
+       Situations in which customized automation techniques can be employed:
       <ul>
          <li>Enumerating identifiers</li>
          <li>Harvesting data</li>
          <li>Web application fuzzing</li>
       </ul>
            The author also describes how to automate the attacks and make them more faster, easier 
-		   and effective and thus overcome the laborious manual attacks. The chapter concludes with explaining 
-		   the vulnerabilities in CAPTCHA control and tools and techniques to mitigate them.    
+		   and effective and thus overcome the laborious manual attacks. The chapter concludes with           explaining the vulnerabilities in CAPTCHA control and tools and techniques to mitigate them.    
           </p>
-		<h4> Chapter 15: Exploiting Information Disclosure </h4>  
+	<h4> Chapter 15: Exploiting Information Disclosure </h4>  
          <p>
          As the name suggests, this chapter examines different ways in which an application 
 		 leaks information when attacked. The author describes how we should monitor the application 
@@ -372,7 +370,7 @@
          <li>Stack traces</li>
          <li>Informative debug messages</li>
          <li>Server and database messages</li>
-		 <li>Enginnering informative error messages</li>
+	<li>Enginnering informative error messages</li>
       </ul>
            There are new sections in this book that gives detailed explanation on XSS in error messages.      
           </p>
