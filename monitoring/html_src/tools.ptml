@@ -26,30 +26,25 @@
                  Zabbix
                 </summary>
 
-                <ul class="contents">
-                    <li>
-                      Zabbix is an open source network monitoring tool that
-                      works with a centralized Linux-based Zabbix server.
-                    </li>
-                    <li>
-                      The Zabbix server automatically collects and parses data
+                <p>
+                      "Zabbix is an open source network monitoring tool that
+                      works with a centralized Linux-based Zabbix server." <br/>
+                      <i>-www.zabbix.com</i><br/>
+                      "The Zabbix server automatically collects and parses data
                       from monitored hardware so administrators can check
                       availability and see trends in network performance.
-                    </li>
-                    <li>
                       The server communicates to the native software agents
                       that are available for many operating systems,
-                      including Linux, UNIX and Windows.
-                    </li>
-                    <li>
+                      including Linux, UNIX and Windows.</br>
                       For operating systems without an agent, generic
                       monitoring protocols such as Simple Network Management
                       Protocol (SNMP) or Intelligent Platform
-                      Management Interface (IPMI) can be used.
+                      Management Interface (IPMI) can be used."</br>
+                      <i>-searchitoperations.techtarget.com</i><br/>
                       You can find more details
                       <a href="https://www.zabbix.com/" target="_blank">here.</a>
-                    </li>
-                </ul>
+
+                </p>
             </details>
 
             <details>
@@ -253,7 +248,7 @@
                       of your cloud accounts and projects into a single
                       comprehensive view of your environment. Hence you can
                       work easily with Google Cloud Platform, Amazon Web
-                      Services, or a hybrid of the two.You can find more 
+                      Services, or a hybrid of the two.You can find more
                       details
                       <a href="https://cloud.google.com/stackdriver/" target="_blank">here.</a>
                     </li>
