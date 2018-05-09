@@ -54,22 +54,20 @@
 
                 <ul class="contents">
                     <li>
-                      Nagios is a free and open source application that
+                      "Nagios is a free and open source application that
                       monitors systems, networks and infrastructure.
-                    </li>
-                    <li>
                       Nagios offers monitoring and alerting services for
                       servers, switches, applications and services.
-                    </li>
-                    <li>
                       It alerts users when things go wrong and alerts them a
-                      second time when the problem has been resolved.
+                      second time when the problem has been resolved."
+                      <i>-wikipedia.org</i>
                     </li>
                     <li>
-                      Nagios sets itself up as the “Industry Standard In IT
+                      "Nagios sets itself up as the “Industry Standard In IT
                       Infrastructure Monitoring” while Zabbix says it
                       is “the Enterprise-class Monitoring Solution for
-                      Everyone”. You can find more details
+                      Everyone.”" <i>-netadmintools.com</i>
+                      <br/>You can find more details
                       <a href="https://www.nagios.org/" target="_blank">here.</a>
                     </li>
                 </ul>
@@ -136,18 +134,22 @@
 
                 <ul class="contents">
                     <li>
-                      Sysdig is open source, system-level exploration that
+                      "Sysdig is open source, system-level exploration that
                       captures system state and activity from a running Linux
-                      instance, then save, filter and analyze.
+                      instance, then save, filter and analyze."
+                      <i>-xebialabs.com</i>
                     </li>
                     <li>
+                      "Sysdig Monitor combines container monitoring, alerting +
+                      troubleshooting with intelligent Kubernetes, Mesos and
+                      Swarm integration."<i>-sysdig.com</i><br/>
                       It is the first container-native Docker monitoring
-                      solution that combines container visibility with Swarm,
-                      Mesos, and Kubernetes monitoring intelligence.
+                      solution.
                     </li>
                     <li>
-                      Sysdig gives you the deployment flexibility you need
-                      for clouds. You can find more details
+                      "Sysdig gives you the deployment flexibility you need
+                      for clouds."<i>-sysdig.com</i><br/>
+                      You can find more details
                       <a href="https://sysdig.com/opensource/" target="_blank">here.</a>
                     </li>
                 </ul>
