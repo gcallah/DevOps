@@ -218,6 +218,21 @@
       <summary class= "sum2">
         Chapter 9: Building monitored applications
       </summary>
+      <p>
+        This chapter deals with monitoring applications. Two types of 
+        metrics are monitored in application monitoring. One is 
+        application metric which measures the state and performance of
+        the application. The other is business metric which is at a layer
+        higher than the application metric. For example, if
+        the payment transaction latency is an application metric then 
+        the business metric can be the value of that transaction. These 
+        metrics can be calulated using StatsD which is a daemon that
+        listens on TCP or UDP ports collects messages and parses metrics
+        out of the messages. We can add logging to our application log
+        events in our application. 
+        We can also add notification on our application when a
+        deployment takes place. 
+      </p>
   </details>
 
   <details>
