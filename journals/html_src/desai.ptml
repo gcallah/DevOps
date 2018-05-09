@@ -16,7 +16,6 @@
         <h1>
             My DevOps Story
         </h1>
-
         <p class="author">
             by
             <br />
@@ -26,8 +25,8 @@
             What is DevOps?
         </p>
         <p>
-    		DevOps brings together developers and operations, merging them into a single team, and driving them with the idea of mutual support.
-			DevOps methodology allows delivering software frequently with minor iterable changes.
+    		"DevOps brings together developers and operations, merging them into a single team, and driving them with the idea of mutual support.
+			DevOps methodology allows delivering software frequently with minor iterable changes."
     	</p>
 
         <p>
@@ -133,7 +132,21 @@
               requirements are met and that they are able to work with 
               AWS as per their requirement.
     	</p>
+<p class="leadquote">
+            Week 8
+        </p>
 
+        <p>
+              
+    	</p>
+
+<p class="leadquote">
+            Week 9
+        </p>
+
+        <p>
+              
+    	</p>
 
         </div>
     </div>
