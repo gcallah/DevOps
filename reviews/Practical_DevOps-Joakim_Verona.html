@@ -364,7 +364,24 @@
                   Every software based organization needs a central code
                   management system and this chapter discusses the strategies
                   for selecting a suitable system and various practices
-                  associated with it. TBC..
+                  associated with it. According to the author source code
+                  management system is central to the DevOps world, as
+                  'everything' is code. The author believes that it is important
+                  for an organization to agree on a branching strategy and gives
+                  an overview of Git flow, which can be complex but has many
+                  good features. He also discusses certain problems which arise
+                  due to source of contention between branching strategies and
+                  Continuous Delivery practices, which advocate a single master
+                  branch. This poses a dilemma, when we need to fix bug on
+                  released code and the master branch has new features which
+                  are not ready to be released yet. Two basic ways to handle
+                  this sitiation is either make a new bug-fix branch to deploy
+                  from or toggle the new features. The author also discusses
+                  strategies for sensible versioning of artifact and provides
+                  guidance to setup git client and server. He also discusses
+                  a few plugins/tools (LFS/Annex, Gerrit etc) to add specific
+                  capabilities to git and strategies like squashing and rebasing
+                  to maintain a simple and clean code history.
                 </p>
                 <h2>Chapter 5 - Building the code </h2>
                 <p>
@@ -396,6 +413,32 @@
                   real world scenarios when build fail , how they can be 
                   resolved and how processes and priorities can be established 
                   to take the build failures seriously.
+                </p>
+                <h2>Chapter 7 - Deploying the code </h2>
+                <p>
+                  This chapter basically focuses on choosing the right 
+                  deployment tool, where “right” is a very subjective term and 
+                  depends solely on the use case and the needs of the
+                  organization. At the starting of the chapter the author talks 
+                  about how modern deployment solutions have become mature and 
+                  automate the unnecessary steps such as automation of 
+                  installation of OSonto a bare virtual machine using pre-stored
+                  images. He goes on to talk about virtualization and container
+                  concepts.Further, he draws a parallel mainly between five 
+                  popular deployment tools namely Puppet , Chef, Pallet , 
+                  Ansible and Salt. Ifound the comparison table to be really 
+                  useful which tries to map the different terminologies used 
+                  by each tool with eachother. A common architectural pattern
+                  I found to exist between all these technologies was that 
+                  of master/slave, where a configuration file(Cookbook/Playbook 
+                  etc.) exists on the master node,and the slaves use either push 
+                  model or pull model to update themselves. Towards the closing
+                  of the chapter he talks about how Docker is emerging a mature 
+                  solution being opted by large enterprises due to its growing 
+                  eco system also gives a brief introduction about Aand Azure. 
+                  He also expresses a concern about how it is very popular to 
+                  build server farms with Puppet and Ansible, but doing the 
+                  same with Docker is not very well known right now.
                 </p>
 
 

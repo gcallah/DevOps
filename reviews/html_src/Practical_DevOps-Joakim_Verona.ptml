@@ -205,7 +205,7 @@
                   guidance to setup git client and server. He also discusses
                   a few plugins/tools (LFS/Annex, Gerrit etc) to add specific
                   capabilities to git and strategies like squashing and rebasing
-                  to mainitain a simple and clean code history.
+                  to maintain a simple and clean code history.
                 </p>
                 <h2>Chapter 5 - Building the code </h2>
                 <p>
@@ -254,8 +254,8 @@
                   useful which tries to map the different terminologies used 
                   by each tool with eachother. A common architectural pattern
                   I found to exist between all these technologies was that 
-                  of master/slave, where aconfiguration file(Cookbook/Playbook 
-                  etc.) exists on the master node, and the slaves use eithpush 
+                  of master/slave, where a configuration file(Cookbook/Playbook 
+                  etc.) exists on the master node,and the slaves use either push 
                   model or pull model to update themselves. Towards the closing
                   of the chapter he talks about how Docker is emerging a mature 
                   solution being opted by large enterprises due to its growing 
