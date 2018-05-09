@@ -265,6 +265,27 @@
                   build server farms with Puppet and Ansible, but doing the 
                   same with Docker is not very well known right now.
                 </p>
+                <h2>Chapter 8 - Monitoring the code </h2>
+                <p>
+                  The author discusses the features of various monitoring tools 
+                  available for monitoring the code deployed in production 
+                  servers also explains the necessity for using them. He 
+                  primarily talks about four tools : Nagios, Munin , Ganglia 
+                  and Graphite. Nagios monitors the states of various servers 
+                  and logs in binary whether the server is up or down. Munin 
+                  and Ganglia are pretty much the same, they provide graph 
+                  visualizations of various parameters such as Memory Usage 
+                  etc. for a much more intuitive experience and store their 
+                  data in RRD (Round Robin Databases). Ganglia is used for 
+                  larger clusters, otherwise Munin suffices. Graphite updates 
+                  graphs in real time as compared to a 5 minute latency in 
+                  Munin and Ganglia. Further, he expresses concern about how 
+                  doing Logging “right” is very difficult since one needs to 
+                  strike a balance between performance and usability. Towards 
+                  the end of the chapter he talks about ELK stack wherein 
+                  Logstash generates the logs, which are then indexed in 
+                  ElasticSearch, then visualized and made searchable in Kibana.
+                </p>
 
 
             </p>
