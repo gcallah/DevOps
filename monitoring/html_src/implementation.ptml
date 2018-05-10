@@ -57,10 +57,10 @@
                   </ul>
                   </ul>
                   <h4>Here's some example from our Website : </h4>
-                  <img src="Images/dashboardIMG.png"><br/>
-                  <img src="Images/userLocationTimeDeviceIMG.png"><br/>
-                  <img src="Images/ActiveUsersOverTimeIMG.png"><br/>
-                  <img src="Images/frequentlyVisitedPagesIMG.png">
+                  <img src="Images/dashboardIMG.png" width="80%"><br/>
+                  <img src="Images/userLocationTimeDeviceIMG.png" width="80%"><br/>
+                  <img src="Images/ActiveUsersOverTimeIMG.png" width="80%"><br/>
+                  <img src="Images/frequentlyVisitedPagesIMG.png" width="80%">
                 </details>
                 <details>
                   <summary class="sum2">
