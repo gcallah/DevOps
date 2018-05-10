@@ -166,6 +166,9 @@
             <p>
             Update the document of html_checker and url_checker.
             </p>
+            <p class="copyright">
+                &copy; 2018 Linfeng Wang
+            </p>
             </div>
         </div>
     </body>
