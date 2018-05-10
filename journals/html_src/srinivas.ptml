@@ -36,7 +36,7 @@
            I was fascinated by this particular Hacker who works as a build engineer automating
            anything that takes more than 90 seconds of his time.He even automated the coffee
            machine job so coffee was ready by the time he reached the machine from his desk -
-           <a align="center" href="http://www.businessinsider.com/programmer-automates-his-job-2015-11">Article</a>, 
+           <a align="center" href="http://www.businessinsider.com/programmer-automates-his-job-2015-11">Article</a>,
            <a align="center" href="https://github.com/NARKOZ/hacker-scripts">GithubProject</a>
         </p>
         <p>The following is an image which looks cool from
@@ -48,7 +48,7 @@
            Taking this course,I would like to dwell over different teams in SDLC especially
            deployment, explore different DevOps tools available, compare and build a project
            that would further iterate automation towards a single click operation. </p>
-        <center><img src="https://media.giphy.com/media/3rgXBETfAu65Gw6jwA/giphy.gif" align="middle" 
+        <center><img src="https://media.giphy.com/media/3rgXBETfAu65Gw6jwA/giphy.gif" align="middle"
         style="width:300px;height:300px;"/></center>
         <h3 align=left>Summary of planned tasks</h3>
         <p>   * Book Review: The Unix Programming Environment</p>
@@ -71,6 +71,13 @@
         <p>   * Deploy gcallah/devOps static website using kubernetes in the local environment </p>
         <h3 align=left>Week April 26 Update:</h3>
         <p>   * Deployment using Docker Swarm and documentation  </p>
+        <h3 align=left>Week May 3 Update:</h3>
+        <p>   * Summarized the write-up for dockerSwarm and Kubernetes </p>
+        <p>   * Created slides and prepared for a presentation </p>
+        <p>   * Included all the configuration and scripts in the repo </p>
+        <h3 align=left>Week May 10 Update:</h3>
+        <p>   * Finalized the kubernetes and dockerSwarm write-up </p>
+        <p>   * Book review - Unix Programming Environment </p>
         <h3>References:</h3>
         <p>* Article: http://www.businessinsider.com/programmer-automates-his-job-2015-11</p>
         <p>* Automation: http://www.fingertecblog.com/2017/05/automation-disrupts-everything.html</p>
