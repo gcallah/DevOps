@@ -182,45 +182,40 @@ a cutover to here!</a></li>
            "https://www.sitepoint.com/a-side-by-side-comparision-of-aws-google-cloud-and-azure/"
          </p>
          <p>
-           Amazon has come out with “commoditized” cloud computing services via 
-           its first ever AWS service which was launched in 2004. Ever since, 
-           they kept innovating and adding features, which somehow allowed them
-           having the stronger hand in business by creating the most elaborate
-           collection of services and solutions for cloud. 
+           Amazon introduced “commoditized” cloud computing services via 
+           its first ever AWS service which was launched in 2004. Since then, 
+           they kept evolving by adding newer features. This has enabled them to 
+           possess an upper hand in business by crafting a vast
+           array of cloud services as well as solutions. 
         </p>
 
-        <p>
-
-           Google, later followed by Microsoft, entered into this arena and are 
-           at par, bringing their own infrastructure and ideas, 
-           offering deals, and pulling the prices down.
-
-        </p>
+       
 
         <p>
             Compute: This is the main purpose behind using computers, to make 
             calculations, to process data and to compute. If we need faster and 
             better processing for something like graphics rendering, analysing 
-            huge sets of data, you can either probable get more hardware, or 
+            huge sets of data, you can either probably get more hardware, or 
             you can simply switch to the cloud.
         </p>
 
         <p>
-            When you move to cloud, you pay only for what you use and that 
-            can be scaled to thousands of processing nodes within minutes. 
-            Elastic Compute Cloud (EC2) is Amazon’s flagship for 
-            scalable computing on demand, at par with Google’s Compute 
-            Engine as well as Azure’s Virtual Machines and Virtual Machine 
-            Scale Sets. Amazon has the most comprehensive services, but pricing
-            for EC2 can get very complicated, similar is the case for 
-            Azure’s VM. Google’s offering is somewhat less flexible,
-            but the pricing is a lot easier to follow (see pricing section).
-        </p>
+            When you switch to using cloud, you have to only pay for the 
+            services you use. This can be scaled over a huge numberof 
+            processing nodes within minutes.  Amazon's Elastic Compute Cloud 
+            (EC2) is at par with Google’s Compute Engine as well as Azure’s 
+            Virtual Machines and Virtual Machine Scale Sets for one demand 
+            scalable computing. Amazon offers very comprehensive services. 
+            However, the pricing scheme for EC2 isn't very lucid. Same goes for 
+            Azure's VM. What Google offers is relatively less flexible, 
+            however they have a much simpler pricing scheme.
+         </p>
 
         <p>
-            You do have the option of renting computing processes for various 
-            apps, which can offer significant cuts in cost when used instead 
-            of EC2 or Compute Engine if your apps are suitable to the 
+            You always have the alternative of having computing processes 
+            rented for a while, to run/host various apps. This can offer 
+            significant reduction in cost when used instead of EC2 or other 
+            Computing Engine if your applications are compatible with the 
             specifications of this service.
 
 
@@ -232,26 +227,14 @@ a cutover to here!</a></li>
             services. 
             To store data, one can use Amazon Simple
             Storage Service (S3). It is one of the longest running serivces. 
-            It comes with elaborate documentation and free webinars, along 
-            with plenty of sample code and libraries, articles and tutorials.
-            Google Cloud Storage and Microsoft Azure Storage provide a reliable 
-            and robust service, but the resources aren't at par with those of 
-            Amazon. 
+            They provide an elaborate documentation as well as webinars at 
+            no additional costs, along with plenty of sample code and libraries, 
+            articles and tutorials. Google Cloud Storage and Microsoft Azure 
+            Storage, both offer services that are pretty reliable and robust. 
+            However, the resources offered aren't comparable with those of Amazon. 
         </p>
 
-        <p>
-            For archiving, also sometimes called “cold storage” (like when you
-            store objects you don’t plan to access regularly for the most 
-            part), you’ll enjoy lower rates but also lower access speeds, which
-            shouldn’t be much of a problem in most cases. The characteristics 
-            and prices are very similar among different providers, so most 
-            probably you’ll be conditioned by which API you have implemented on
-            your back-end. For the specs and details, see Amazon Glacier, Cloud
-            Storage Nearline by Google, and Azure Backup; and check also the 
-            archiving solutions these providers offer — Data Archive by AWS, 
-            and Backup and Archive by Azure.
-
-        </p>
+       
 
         <p> Analytics: Specific technologies as well as programming models 
             are required for efficient analytics. Google is marching ahead 
