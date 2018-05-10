@@ -22,6 +22,21 @@
             Drumil Bakhai
         </p>
             <p>
+                Week 12:
+                <br>
+                <br>
+                In the final concluding week, I compiled the list
+                of interview question. 
+
+                Also finally I made a sample Jenkinsfile that can
+                run if Jenkins is configured properly. 
+                In order to keep the things simple I have kept
+                3 stages build, test, deploy
+
+                In order to generalize the users can then customize
+                their steps.
+            </p>
+            <p>
                 Week 11:
                 <br>
                 <br>
