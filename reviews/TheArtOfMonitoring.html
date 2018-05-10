@@ -263,8 +263,10 @@
           <li>Categorize and route data to be stored, graphed, alerted on,
             or sent to any other potential destinations.</li>
         <br/>
+      </p>
         <b>"If only I had the theorems! Then I should  nd the proofs
-          easily enough."</b> -Bernard Riemann <br>
+          easily enough."</b> -Bernard Riemann <br/>
+      <p>
           Riemann is a monitoring tool that aggregates events from hosts
           and applications and can feed them into a stream processing
           language to be manipulated, summarized, or actioned. It can also
@@ -392,14 +394,80 @@
       <summary class= "sum2">
         Chapter 9: Building monitored applications
       </summary>
+      <p>
+        This chapter deals with monitoring applications. Two types of 
+        metrics are monitored in application monitoring. One is 
+        application metric which measures the state and performance of
+        the application. The other is business metric which is at a layer
+        higher than the application metric. For example, if
+        the payment transaction latency is an application metric then 
+        the business metric can be the value of that transaction. These 
+        metrics can be calulated using StatsD which is a daemon that
+        listens on TCP or UDP ports collects messages and parses metrics
+        out of the messages. We can add logging to our application log
+        events in our application. 
+        We can also add notification on our application when a
+        deployment takes place. 
+      </p>
   </details>
 
   <details>
        <summary class= "sum2">
          Chapter 10: Alerting and Alert Management
        </summary>
+
    </details>
-    <h4>Chapters 11-13: Monitoring an application and stack</h4>
+
+  <details>
+       <summary class= "sum2">
+         Chapter 11: Monitoring Tornado: a capstone
+       </summary>
+       <p> The chapter combines all peices from the previous chapters
+        to monitor an application stack. The application is Tornado which
+        is an order processing system that buys and sells items. The 
+        chapter discusses the monitoring of the web tier for the
+        application. The collectd plugin is used to monitor the
+        different web components. The log output from the services
+        are used to collect metrics and diagonistic information. 
+        Small checks are added in Reimann to notify if any issues occur.
+       </p>
+   </details>
+
+
+  <details>
+       <summary class= "sum2">
+         Chapter 12: Monitoring Tornado: Application
+         Tier
+       </summary>
+       <p>
+        This chapter deals with monitoring the application tier
+        of the Tornado application which is made up of two
+        API servers running on top of the Java Virtual Machine.
+        The JVM is monitored using the GenericJMX plugin executed
+        by java collectd plugin. To collect the logs, the logging
+        framework timbre is used. The tornado api is monitored by
+        querying the api to make sure that its returning results
+        and instrumenting the application so that it generate 
+        events when it operates. 
+       </p>
+   </details>
+
+   <details>
+       <summary class= "sum2">
+         Chapter 13: Monitoring Tornado: Data tier
+       </summary>
+       <p>
+        In this chapter the Tornado database tier is monitored.
+        The database tier consists of the tornado-db server running
+        MYSQL and a tornado-redis running Redis. For monitoring MYSQL,
+        the MYSQL server is monitored using its health and metrics as well
+        as looking at the results of application specific queries. This 
+        is done using a plugin. To monitor the redis server the collect redis 
+        plugin is used to connect to the Redis instances using the credis
+        library. This return usage statistics.
+    </p>
+   </details>
+
     </div>
     </div>
     </body>

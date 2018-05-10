@@ -385,9 +385,9 @@
                 </p>
                 <h2>Chapter 5 - Building the code </h2>
                 <p>
-                  This chapter talks about the all the processes involved in 
+                  This chapter talks about all the processes involved in 
                   building the code and how the build process is so much more 
-                  than just compiling of code into build artifacts.During the
+                  than just compiling of code into build artifacts. During the
                   build process many processes happen such as checking the code
                   for errors,generating code quality metrics, applying unit 
                   tests on the code, generating production quality artifacts.
@@ -399,18 +399,18 @@
                   He explains how important it is for an organization to 
                   spend money on a high performing build server with lots of 
                   RAM , processor cores and hard disk space to make the build
-                  process as fast as possible. He talks a more efficient way
-                  to make the build faster by building in parallel using round 
-                  robin scheme , by having master and slave build servers, 
+                  process as fast as possible. He talks about a more efficient 
+                  way to make the build faster by building in parallel using 
+                  round robin scheme ,by having master and slave build servers, 
                   where its not necessary for all the build servers to have the
                   same OS. Later in the chapter he gives practical examples with
                   screenshots to explain the Workflow plugin for Jenkins which 
-                  can create build job pipelines.He also explains the various
-                  concepts associated with the build process such build tree 
+                  can create build job pipelines. He also explains the various
+                  concepts associated with the build process such as build tree 
                   dependencies, layout of the Jenkins filesystem etc.
                   After giving the reader an idea about the workings of the 
                   build process, he goes on to explain the problems faced in 
-                  real world scenarios when build fail , how they can be 
+                  real world scenarios when builds fail , how they can be 
                   resolved and how processes and priorities can be established 
                   to take the build failures seriously.
                 </p>
@@ -433,12 +433,34 @@
                   of master/slave, where a configuration file(Cookbook/Playbook 
                   etc.) exists on the master node,and the slaves use either push 
                   model or pull model to update themselves. Towards the closing
-                  of the chapter he talks about how Docker is emerging a mature 
-                  solution being opted by large enterprises due to its growing 
-                  eco system also gives a brief introduction about Aand Azure. 
+                  of the chapter he talks about how Docker is emerging as a 
+                  mature solution being opted by large enterprises due to its 
+                  growing eco system and also gives a brief introduction about 
+                  AWS and Azure. 
                   He also expresses a concern about how it is very popular to 
                   build server farms with Puppet and Ansible, but doing the 
                   same with Docker is not very well known right now.
+                </p>
+                <h2>Chapter 8 - Monitoring the code </h2>
+                <p>
+                  The author discusses the features of various monitoring tools 
+                  available for monitoring the code deployed in production 
+                  servers also explains the necessity for using them. He 
+                  primarily talks about four tools : Nagios, Munin , Ganglia 
+                  and Graphite. Nagios monitors the states of various servers 
+                  and logs in binary whether the server is up or down. Munin 
+                  and Ganglia are pretty much the same, they provide graph 
+                  visualizations of various parameters such as Memory Usage 
+                  etc. for a much more intuitive experience and store their 
+                  data in RRD (Round Robin Databases). Ganglia is used for 
+                  larger clusters, otherwise Munin suffices. Graphite updates 
+                  graphs in real time as compared to a 5 minute latency in 
+                  Munin and Ganglia. Further, he expresses concern about how 
+                  doing Logging “right” is very difficult since one needs to 
+                  strike a balance between performance and usability. Towards 
+                  the end of the chapter he talks about ELK stack wherein 
+                  Logstash generates the logs, which are then indexed in 
+                  ElasticSearch, then visualized and made searchable in Kibana.
                 </p>
 
 
