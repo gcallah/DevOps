@@ -187,8 +187,8 @@
         
                 <p>The AWS Management Console is a web application that 
                    comprises and refers to a broad collection of service
-                   consoles for managing Amazon Web Services. When you first
-                   sign in, you see the console home page.
+                   consoles for managing Amazon Web Services. On logging in,
+                   you can see the home page of the console.
 
                 <br />
                 <br />
@@ -206,12 +206,12 @@ images/console-home.png" alt="Mountain View" style="width:604px;height:442px;">
                 <p>
                   The home page provides access to each service console as well
                   as an intuitive user interface for exploring AWS and getting
-                  helpful tips. Among other things, the individual service 
-                  consoles offer tools for working with Amazon S3 buckets,
-                  launching and connecting to Amazon EC2 instances, setting 
-                  Amazon CloudWatch alarms, and getting information about your
-                  account and about billing.
-                  </p>
+                  helpful tips. The individual service 
+                  consoles offer to you tools and resources for working with 
+                  buckets on Amazon S3, launching and then connecting to the 
+                  instances on Amazon EC2, setting alarms on Amazon CloudWatch, 
+                  and fetching your billing and account data. 
+                 </p>
                   <br />
 
                   <figure>
@@ -276,9 +276,10 @@ console-parts-new.png" alt="Mountain View" style="width:604px;height:442px;">
                Now, since we have our domain name ready, let's continue with 
                the further steps. 
 
-               We need to create the bucket. The bucket name must match with
-               our website. In our case, to host gcallah.github.io on Amazon 
-               S3, we will name the bucket gcallah.github.io.
+               We have to create a bucket. The name of the bucket should be 
+               the same as that of our website. In our case, to host 
+               gcallah.github.io on Amazon S3, we will name the bucket 
+               gcallah.github.io.
 
 
 
