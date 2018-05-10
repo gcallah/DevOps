@@ -489,7 +489,47 @@
               </ul>
            <p>
               It further enlist various langauage specific potentially dangerous APIs which can result in malicious code execution depending on user supplied input. Finally, the solution to above problem will be a source code review which can help to find atleast low hanging fruits but again this technique is not a silver bullet.
-            </p>  
+            </p>
+        <h4> Chapter 20: A Web Application Hacker’s Toolkit </h4>  
+         <p>
+         This chapter actually is a overview of all the tools that are explained in the book. The author 
+		 talks about various scenarios in which we can use these tools and also explains key features to 
+		 get the best out of them. This chapter also talks about the ways in which an automated tool can 
+		 assist in finding application vulnerabilities.
+		 Also explains the tools given below that the security testers use:
+      <ul>
+         <li>Burp Suite</li>
+         <li>WebScarab</li>
+         <li>Paros</li>
+         <li>Zed Attack Proxy</li>
+		 <li>Fiddler</li>
+		 <li>Andiparos</li>
+		 <li>CAT</li>
+		 <li>Charles</li>
+      </ul></p>
+	  <p>
+        The chapter concludes with detailed explanation on Web application scanners, fuzzers and spiders.       
+          </p>
+        <h4> Chapter 21: A Web Application Hacker’s Methodology </h4>  
+         <p>
+         This chapter is an overview or summary of the procedures and techniques explained in this book. 
+		 This chapter provides a general guidelines/checklist and work plan to carry an attack against a 
+		 web application.
+		 And the author also explains the precautions or steps to be taken to avoid such attacks:
+      <ul>
+         <li>Map the Application’s Content</li>
+         <li>Analyze the Application</li>
+         <li>Test Client-Side Controls</li>
+         <li>Test the Authentication Mechanism</li>
+		 <li>Test the Session Management Mechanism</li>
+		 <li>Test Access Controls</li>
+		 <li>Test for Input-Based Vulnerabilities</li>
+		 <li>Test for Function-Specific Input Vulnerabilities</li>
+		 <li>Test for Logic Flaws</li>
+		 <li>Test for Shared Hosting Vulnerabilities</li>
+		 <li>Test for Application Server Vulnerabilities</li>
+		 <li>Follow Up Any Information Leakage</li>
+      </ul></p>
 
          </div>
           </div>
