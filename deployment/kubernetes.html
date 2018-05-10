@@ -399,23 +399,50 @@
           <pre>
             <code>
               <span>
+              MacBook-Pro:devOps deployment$  minikube start
+              There is a newer version of minikube available (v0.26.1).  Download it here:
+              https://github.com/kubernetes/minikube/releases/tag/v0.26.1
+
+              To disable this notification, run the following:
+              minikube config set WantUpdateNotification false
+              Starting local Kubernetes v1.9.4 cluster...
+              Starting VM...
+              Getting VM IP address...
+              Moving files into cluster...
+              Setting up certs...
+              Connecting to cluster...
+              Setting up kubeconfig...
+              Starting cluster components...
+              Kubectl is now configured to use the cluster.
+              Loading cached images from config file.
 
               </span>
             </code>
           </pre>
+
           <p><br><b> Status Verification </b></p>
             <pre>
               <code>
                 <span>
+                  MacBook-Pro:devOps deployment$  kubectl get services
+                  NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+                  kubernetes   ClusterIP   10.96.0.1    &gtnone&lt        443/TCP   4m
+
+                  MacBook-Pro:devOps deployment$  kubectl get pods
+                  No resources found.
 
                 </span>
               </code>
             </pre>
+
           <p><br><b> Deploy Pods and Create Service </b></p>
               <pre>
                 <code>
                   <span>
-
+                    MacBook-Pro:devOps deployment$  kubectl create -f kubernetesFiles/staticWebServerDeployment.yaml
+                    deployment.extensions "devopswebsite" created
+                    MacBook-Pro:devOps deployment$  kubectl create -f kubernetesFiles/staticWebServerService.yaml
+                    service "devopswebsite" created
                   </span>
                 </code>
               </pre>
@@ -428,6 +455,7 @@
                       </span>
                     </code>
                   </pre>
+
 
 
         <h2>
