@@ -325,21 +325,21 @@
                 <p>
                   Issue tracker is a part of development workflow within an
                   organization and might represent issues, bugs and work items.
-                  The author starts with an illustartion of a conventional
+                  The author starts with an illustartion of conventional
                   white-boards with post-it notes (Kanban actually means
-                  signboard) and then describes it's computerized counterpart,
+                  signboard) and then describes its computerized counterpart,
                   which is essetially a 'databse of objects representing a state
                   machine'. The author then provides some examples of workflows
-                  and issues and discusses the various attributed associated
+                  and issues and discusses the various attributes associated
                   with an 'object in the state machine' or an issue. Next, he
                   discusses the general and project specific requirements for
                   an issue tracker. Issue tracker, unlike a code editor, is a
                   shared/collaborative tool, which may cause problems such as
                   'issue tracker prolifertion' which generally has no simple
-                  solution. The author then genrously walks through the setup
+                  solution. The author then generously walks through the setup
                   and usage of various issue trackers like Bugzilla, Trac,
                   Redmine, Gitlab issue tracker and Jira, which could be a great
-                  help for anybody who has a use case for any of these tools.
+                  help to anybody who has a use case for any of these tools.
                 </p>
 
 
