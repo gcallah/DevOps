@@ -150,10 +150,7 @@
            This chapter dives into various filters in unix to perform,
            <b>input (stdin) ===&gt processing (pattern) ===&gt output (stdout)</b>
            operations based on categories of data tranformation filters vs
-           programmable filters. This chapter dives into various filters in unix to perform,
-           <b>input (stdin) ===&gt processing (pattern) ===&gt output (stdout)</b>
-           operations based on categories of data tranformation filters vs
-           programmable filters. The chapter goes through different filters specifically
+           programmable filters.The chapter goes through different filters specifically
            grep and techniques for optimal usage by combining different filters for different
            tasks with some examples.
         </p>
@@ -170,11 +167,33 @@
 
         <h4>Chapter 6: Programming with Standard I/O</h4>
         <p>
+        This chapter migrates from robust usage of existing tools to building new
+        tools with C Programming language. When the problem at hand could not be
+        solved with the existing tools, new programs or tools could be created from a
+        minimal viable solution and incrementally adding features and options on top
+        of it to make it a robust tool that others could also use. As the kernel and other
+        native unix programs are written in C, the default choice of the language remains C.
+        The chapter initially takes the "vis" program which displays text and non text characters,
+        achieves a minimal program and iteratively updates version with additional features.
+        </p>
+
+        <h4>Chapter 7: UNIX System Calls</h4>
+        <p>
+        System calls provision a way of talking to the kernel. Specifically, lowest level
+        of interaction with the unix operating systems kernel. All the tasks in a operating
+        system boils down to multiple system calls sent to the kernel to request a resources
+        or a service. 
+        </p>
+
+        <h4>Chapter 8: Program Development</h4>
+        <p>
 
         </p>
-        <h4>Chapter 7: UNIX System Calls</h4>
-        <h4>Chapter 8: Program Development</h4>
+
         <h4>Chapter 9: Document Preparation</h4>
+        <p>
+
+        </p>
     </div>
     </div>
     </body>
