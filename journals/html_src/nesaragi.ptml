@@ -32,6 +32,7 @@
         </p>
         <h2>Weekly Updates: </h2>
         <ul>
+            <li><strong>Week 11:</strong> Working on test scripts in Jenkins for checking the recently commited files to the github.</li>
             <li><strong>Week 10:</strong> Integrated slack with the Jenkins and working on creating scripts to use html checker and url checker in Jenkins.</li>
             <li><strong>Week 9:</strong> Working on running the html checker and url scripts on Jenkins </li>
             <li><strong>Week 8:</strong> Integrated Jenkins with the Github repository of mine and tested various scenarios such as multiple commits,commits from different users etc. </li>

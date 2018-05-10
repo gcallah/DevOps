@@ -212,13 +212,14 @@
                     Chapter 1: Introduction
                 </summary>
                 <p>
-                This chapter provides a quick introduction to Kubernetes with 
-                its several benefits. Kubernetes is an open source tool for 
-                deploying containerized applications and can be used to deploy 
-                scalable, reliable distributed systems. It provides benefits 
-                like velocity, scaling, abstraction of infrastructure and 
-                efficiency. The authors also describe how these benefits are 
-                easily achieved by using Kubernetes for deployment.
+                This chapter provides a quick introduction to Kubernetes 
+                illustrating its several benefits. Kubernetes is an open 
+                source tool for deploying containerized applications and can 
+                be used to deploy scalable, reliable distributed systems. It 
+                provides benefits like velocity, scaling, abstraction of 
+                infrastructure and efficiency. The authors also describe how 
+                these benefits are easily achieved by using Kubernetes for 
+                deployment.
                 </p>
                 </details>
                 <details>
@@ -229,18 +230,17 @@
                 This chapter starts by discussing the problems that occur in
                 distributed system such as applications having dependency on
                 shared library or any dependency on asset files which causes
-                failures or complexities when deployed in production. Then the
-                solution for these problems are discussed which involve using 
-                container immutable images for deploying the application. 
-                Docker is the most popular container image that can package an 
-                application and is supported by Kubernetes. The authors then 
-                discuss how to package an application into Docker image, 
-                security related considerations to keep in mind while building
-                images and how to optimize image sizes. The authors recommend
-                storing images in remote repository and describe its benefits.
-                Then they discuss how to start running the application using
-                docker image, how to limit resource utilization while running
-                and in the end how to clean up docker images.
+                failures or complexities when deployed in production. It also
+                discusses how to solve this problem by using container 
+                immutable images to deploy the application. Kubernetes 
+                supports Docker, which is the most popular container image 
+                that can package an application. The authors then discuss how
+                to package an application into Docker image, security related 
+                considerations to keep in mind while building images and how 
+                to optimize image sizes. The authors recommend storing images 
+                in remote repository describing its benefits. The book also
+                illustrates how to start running the application using docker
+                image, how to limit its resource usage and how to clean it up.
                 </p>
                 </details>
                 <details>
@@ -248,16 +248,17 @@
                     Chapter 3: Deploying a Kubernetes Cluster
                 </summary>
                 <p>
-                In this chapter steps for installing Kubernetes cluster are
-                discussed. The steps for installing Kubernetes on 3 major
-                cloud providers Google Cloud Platform, Amazon Web Services and
-                Microsoft Azure is described. Then steps for deploying
-                Kubernetes single node cluster on local machine using minikube
-                is discussed. The commands using kubectl which is the
-                Kubernetes client for exploring the cluster and verifying its
-                health are described. At last, the Kubernetes cluster
-                components like Kubernetes Proxy, Kubernetes DNS and
-                Kubernetes UI and their role within the cluster is discussed. 
+                This chapter focusses on how to install, deploy and manage a 
+                Kubernetes cluster. It provides a step-by-step guide on how to
+                install a Kubernetes cluster on 3 major cloud providers - 
+                Google Cloud Platform, Amazon Web Services and Microsoft 
+                Azure. The book describes how minikube can be used to 
+                deploy a single node Kubernetes cluster on a local machine. 
+                It also mentions how the Kubernetes client kubectl can be used 
+                for exploring the cluster and verifying its health. It ends 
+                with describing various other components in a cluster including
+                Kubernetes Proxy, Kubernetes DNS and Kubernetes UI and their 
+                respective roles within the cluster. 
                 </p>
                 </details>
                 <details>
@@ -330,17 +331,18 @@
                     Chapter 7: Service Discovery
                 </summary>
                 <p>
-                The authors start by defining what Service discovery is and
-                the characteristics of a good service discovery system. Since
-                Kubernetes is a dynamic system where applications are placed
-                dynamically, service discovery is crucial to fully utilize the
-                power of Kubernetes. The service object allows to expose
-                services within and outside the cluster. Kubernetes provides a
-                DNS service which provides DNS names for cluster IPs, exposed
-                to Pods running in the cluster. The authors also describe how
-                to add readiness check within deployment to track which pods
-                are ready. Some advanced features like using Endpoints to
-                communicate directly with the service are also discussed.
+                The authors start by defining Service discovery and the 
+                characteristics of a good service discovery system. Since
+                applications are placed dynamically in Kubernetes, service 
+                discovery is crucial to fully utilize the power of Kubernetes. 
+                The service object allows to expose services within and 
+                outside the cluster. Kubernetes associates a cluster IP to 
+                each service (which may contain multiple Pods) and also 
+                provides a DNS service which provides DNS names for these 
+                cluster IPs. The authors also describe how to add readiness 
+                check within deployment to track which pods are ready. Some 
+                advanced features like using Endpoints to communicate directly 
+                with the service are also discussed.
                 </p>
                 </details>
                 <details>
@@ -409,17 +411,17 @@
                     Chapter 11: ConfigMaps and Secrets
                 </summary>
                 <p>
-                In this chapter authors discuss about config maps and secrets
-                and how they can make the container images reusable across
-                environments or applications. Since config map is associated
-                with the Pod before running they can help reusing image and
-                pod across many applications by using different config map. 
-                Then the authors describe how to create and use a config map
-                with code sample. For handling the sensitive information,
+                In this chapter authors discuss about config maps and secrets, 
+                illustrating how they can make the container images reusable  
+                across environments or applications. Since config map is 
+                associated with the Pod before running, one can reuse the 
+                image and pod across many applications by using different 
+                config map. Authors also provide a code sample for creating 
+                and using a config map. For handling the sensitive information,
                 Kubernetes API for secrets is used, which also allows
                 container images to be reused across environments. Next the
                 authors go in detail describing how to create and consume
-                secrets. How to access images stored in private registries
+                secrets and how to access images stored in private registries
                 using secret API for storing credentials. In the end, the
                 naming conventions for config maps and secrets and some more
                 commands to manage them are described.

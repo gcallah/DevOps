@@ -142,6 +142,33 @@
             </p>
         </details>
 
+        <details>
+            <summary class="sum2">
+              Chapter 9: Patterns for Defining Infrastructure
+            </summary>
+            <p>
+              The chapter discusses about how large Infrastructure should be provisioned and maintained. It discusses about the patterns and antipatterns
+              the software industries follow and gives us insight of Infrastructure stack. Managing parameters in a stack,sharing infrastructure elements
+              could be a challenging task and the author has done a great job in explainig these important things with relevant examples. He also discusses
+              how to maintain application code and infrastructure code abreast. The author also mentions about the pitfalls that occur while maintaining
+              such codes. Thus he has given an overall idea of how larger Infrastructure group works.
+            </p>
+        </details>
+
+        <details>
+            <summary class="sum2">
+              Chapter 10: Software Engineering practices for Infrastructure
+            </summary>
+            <p>
+               This is the first of the chapters in the part 3 of the book. The chapter mainly speaks about the quality of the infrastructure system and
+               outlines the principles for achieving this quality that author talks about. The key point mentioned here is how quality of system is proportional
+               to how easily a system can be changed or replaced. The author talks about how build fails and what constitues continuous integration(CI) and what
+               doesn't. He explains the differences between continuous delivery and continuous deployment, thus explaining how to view infrastructure from a Software
+               Engineering principles.
+            </p>
+        </details>
+
+
         <p><strong>References: </strong></p>
         <p>
           The chapter names and the key points if any mentioned are taken from the book <i>"Infrastructure as a code,Managing servers in cloud"</i> by Kief Morris
