@@ -454,7 +454,13 @@
                     Chapter 15: Combining Projects
                 </summary>
                 <p>
-                
+                Combining projects can be achieved by importing the code into 
+                our projects. By doing this, one wont have the incorrect library 
+                version by mistake. The entire process is pretty easy and only 
+                requires basic knowledge of Git. This process is also independent 
+                of the version control system used. And finally, the repository 
+                is always complete and thus, a clone consists of everything one 
+                may need.
                 
                 </p>
             </details>
@@ -463,7 +469,10 @@
                     Chapter 16: Using Git with Subversion Repositories
                 </summary>
                 <p>
-                
+                This chapter basically summarizes how we can synchronize our 
+                work with other version control systems. The developers of 
+                Git have created a number of plugins to import as well as 
+                sync the code between various different systems. 
                 </p>
             </details>
         </div>
