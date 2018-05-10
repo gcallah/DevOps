@@ -193,51 +193,127 @@
                 </h1>
 
                 <p>
-                    
+                    We are responsible for the security of the DevOps Project. 
+                    We have used the best security industry practices and 
+                    ensure every other team to be in compliance with that.
+                </p>
+                <p>
+                    Initially, We started understanding the system, its 
+                    component, and interactions between them. We spent a good 
+                    amount of time to holistically analyze the system to find 
+                    various threat vectors. Our focus was to build a robust 
+                    and secure infrastructure and hence we scope the web 
+                    application and Network infrastructure for our security 
+                    testing.
 
-               We are responsible for the security of the DevOps Project. We have used the best security industry practices and ensure every other team to be in compliance with that.
+                    <br/>
 
-
-                     Initially, We started understanding the system, its component, and interactions between them. We spent a good amount of time to holistically analyze the system to find various threat vectors. Our focus was to build a robust and secure infrastructure and hence we scope the Web-application and Network infrastructure for our security testing.
-
-                     <br/>
-
-                     <h4> Web Application Penetration Testing </h4>
-
-                           We configured ZAP on our local system which is the Web Application Vulnerability tool and pointed it to the Django. We ran an attack on the system to find any vulnerability. This tools produced a bunch of potential vulnerability which we shared with the development team along with mitigation technique to fix this.
-                           
-                           <figure>
-                           <img src="images/Web_Application_Testing.png" style="width:604px;height:442px;">
-                        <figcaption> Zap Web Application Security Testing</figcaption>
-                           </figure>
-                     <br/>    
-                     <h4> Network Penetration Testing </h4>
-                          For performing Network based penetration testing we followed the standard approach which involves mainly six steps.
-                          <ul>
-                              <li>Reconnaissance</li>
-                              <li>Scanning</li>
-                              <li>Vulnerability Detection</li>
-                              <li>Exploitation</li>
-                              <li>Post Exploitation</li>
-                              <li>Reporting</li>
-                          </ul>    
-                   <br/>
+                    <h4> Web Application Penetration Testing </h4>
+                    <p>
+                        We configured ZAP on our local system which is the Web 
+                        Application Vulnerability tool and pointed it to the 
+                        Django. We ran an attack on the system to find any 
+                        vulnerability. This tools produced a bunch of 
+                        potential vulnerability which we shared with the 
+                        development team along with mitigation technique to 
+                        fix this.
+                    </p>        
                     <figure>
-                           <img src="images/dns.png" style="width:604px;height:442px;">
+                        <img src="images/Web_Application_Testing.png" 
+                        style="width:604px;height:442px;">
+                        <figcaption> Zap Web Application Security Testing</figcaption>
+                    </figure>
+                    <br/>    
+                    <h4> Network Penetration Testing </h4>
+                    <p>
+                        For performing Network based penetration testing we 
+                        followed the standard approach which involves mainly 
+                        six steps.
+                        <ul>
+                            <li>Reconnaissance</li>
+                            <li>Scanning</li>
+                            <li>Vulnerability Detection</li>
+                            <li>Exploitation</li>
+                            <li>Post Exploitation</li>
+                            <li>Reporting</li>
+                        </ul>  
+                    </p>  
+                    <br/>
+                    <figure>
+                        <img src="images/dns.png" 
+                        style="width:604px;height:442px;">
                         <figcaption>DNS resolution</figcaption>
-                           </figure>
+                    </figure>
                      <br/>
-                           <figure>
-                           <img src="images/nmap.png" style="width:604px;height:442px;">
+                    <figure>
+                        <img src="images/nmap.png" 
+                        style="width:604px;height:442px;">
                         <figcaption> Nmap Scanning</figcaption>
-                           </figure>
+                    </figure>
                  
-                   In the ninth week, we completed the Reconnaissance phase which essentially is gathering information about the target. We built a profile of the system which includes gathering information about DNS record, Location, POC for this website and much more.
-                   <br/>
+                    <br/>
+                    <p> 
+                        We did not find any vulnerability with the application 
+                        server hosting the django website. There were few XSS 
+                        low level warnings which were conveyed to developers. 
+                        While doing a network based security testing namely a 
+                        black box testing of the infrastructure hosting the 
+                        server, we found only port open was the port 80 and 
+                        rest of the ports were either close and block by 
+                        firewall. After analysing the service version, we did 
+                        not see any vulnerability associated with it. So, we 
+                        conluded the infrastructure was secure based on our 
+                        testing artifacts.
+                    </p>
 
-                   We are currently in scanning phase where we are analyzing the network infrastructure, ports, and services for vulnerability.
+                    <h4>Application Source Code Review</h4>
 
+                    <p>
+                        Our source code analysis found 8 low severity bugs in 
+                        the Django based Quiz system. that were raised as 
+                        issues in GitHub. These issues were promptly handled 
+                        and appropriate measures were taken. 
+                    </p>
 
+                    <p>
+                        The following are the bugs that we discovered in the 
+                        Quiz system:
+                        <ul>
+                            <li>
+                                <a href="https://github.com/gcallah/TheDevOpsCourse/issues/8">
+                                    Additional files present in the repository
+                                </a>
+                                <a href="https://github.com/gcallah/TheDevOpsCourse/issues/7">
+                                    Database credentials present in codebase
+                                </a>
+                                <a href="https://github.com/gcallah/TheDevOpsCourse/issues/5">
+                                    Input validation missing in URL routing
+                                </a>
+                                <a href="https://github.com/gcallah/TheDevOpsCourse/issues/4">
+                                    Default URL not specified for root 
+                                    directory
+                                </a>
+                                <a href="https://github.com/gcallah/TheDevOpsCourse/issues/3">
+                                    Database Credentials are public
+                                </a>
+                                <a href="https://github.com/gcallah/TheDevOpsCourse/issues/2">
+                                    DEBUG=True in prod
+                                </a>
+                                <a href="https://github.com/gcallah/TheDevOpsCourse/issues/1">
+                                    Secret Key mentioned in source code
+                                </a>
+                            </li>
+                        </ul>
+                    </p>
+
+                    <h4>Additional Implementation</h4>
+
+                    <p>
+                        We also set up the GitHub app to track Issues as they 
+                        are added to GitHub to be reported to a specific slack 
+                        channel. This slack channel would be monitored by all 
+                        teams involved in the development of the Quiz website.
+                    </p>
                 </p>
 
             </div>

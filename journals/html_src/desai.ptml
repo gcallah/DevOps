@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <!--include subhead.txt -->
         <title>
             My DevOps Story
         </title>
@@ -10,12 +9,13 @@
     </head>
 
     <body>
-<!--include menu.txt -->
-
+    <div class = "wrapper">
+      <!--include navbar.txt -->
+    <div id = "content">
+       
         <h1>
             My DevOps Story
         </h1>
-
         <p class="author">
             by
             <br />
@@ -25,8 +25,8 @@
             What is DevOps?
         </p>
         <p>
-    		DevOps brings together developers and operations, merging them into a single team, and driving them with the idea of mutual support.
-			DevOps methodology allows delivering software frequently with minor iterable changes.
+    		"DevOps brings together developers and operations, merging them into a single team, and driving them with the idea of mutual support.
+			DevOps methodology allows delivering software frequently with minor iterable changes."
     	</p>
 
         <p>
@@ -49,5 +49,106 @@
     		With good knowledge on DevOps, we can propose solutions to make things easier, repeatable and qualitative.
     	</p>
 
+<p class="leadquote">
+            Week 2
+        </p>
+
+        <p>
+    		In our class, we installed Docker and browesed throught our DevOps 
+                website through a container created by us. What fascinates me is 
+                how Docker is so much lighter than Virtualization. We create 
+                separate containers and run various applications in them 
+                independently on different operating systems and configurations.
+    	</p>
+
+<p class="leadquote">
+            Week 3
+        </p>
+
+        <p>
+    		During week 3, I was assigned the task of going through 
+                different cloud platforms and selecting one most suitable 
+                for our classwork. I am studying and comparing the 4 leading 
+                cloud service providers: Amazon Web Services, Microsoft Azure, 
+                Google Cloud Services, and OpenStack. I will be comparing them 
+                on various parameters to take an informed decision.
+    	</p>
+
+
+<p class="leadquote">
+            Week 4
+        </p>
+
+        <p>
+    		During week 4, I collected data about the 4 major cloud 
+                platforms. I am evaluating them based on their availability, 
+                scalability, cost, and ease of use. By the next class, I will 
+                be ready with my results. I am also documenting my thoughts 
+                and reasons for selecting a particular service provider, so 
+                that anyone interested can have a look and give their feedback.
+    	</p>
+
+
+<p class="leadquote">
+            Week 5
+        </p>
+
+        <p>
+    		Last week, I was trying to collect as much information as 
+                possible to make an informed decision regarding which cloud 
+                services to use. I have come to the conclusion that we should 
+                go ahead with Amazon Web Services. This is because it has 
+                suitable coverage, the plans are pocket friendly, the AWS 
+                console and all the features are easy to use, and most of 
+                the teams are comfortable using it, hence the overall 
+                throughput will be better. 
+    	</p>
+
+<p class="leadquote">
+            Week 6
+        </p>
+
+        <p>
+    		During the Sprint session last week, it was brought to my 
+                notice that some teams needed help in hosting the websites 
+                on S3. Hence, I started with creating a bucket on AWS S3. 
+                I selected our domain and set the url to be hosted. I 
+                created a permission to enable public access to the webpage. 
+                Finally, I uploaded the entire source code and deployed the 
+                website on the S3 container successfully. A detailed tutorial 
+                comprising of documentation along with screenshots is my goal 
+                for the next week. 
+    	</p>
+
+<p class="leadquote">
+            Week 7
+        </p>
+
+        <p>
+              We had no class on account of Spring Break. I utilized this 
+              time to create a tutorial with step by step instructions and 
+              screenshots for deploying a website on Amazon S3. I am 
+              coordinating with the deployment team to make sure their 
+              requirements are met and that they are able to work with 
+              AWS as per their requirement.
+    	</p>
+<p class="leadquote">
+            Week 8
+        </p>
+
+        <p>
+              
+    	</p>
+
+<p class="leadquote">
+            Week 9
+        </p>
+
+        <p>
+              
+    	</p>
+
+        </div>
+    </div>
     </body>
 </html>

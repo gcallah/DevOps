@@ -194,7 +194,8 @@
                 <br />
                 <br />
                 <figure>
-                  <img src="https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/images/console-home.png" alt="Mountain View" style="width:604px;height:442px;">
+                  <img src="https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/
+images/console-home.png" alt="Mountain View" style="width:604px;height:442px;">
                 <figcaption> </figcaption>
                 </figure>
                    
@@ -215,7 +216,8 @@
                   <br />
 
                   <figure>
-                    <img src="https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/images/console-parts-new.png" alt="Mountain View" style="width:604px;height:442px;">
+                    <img src="https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/images/
+console-parts-new.png" alt="Mountain View" style="width:604px;height:442px;">
                   <figcaption> </figcaption>
                   </figure>
                   
@@ -403,13 +405,15 @@
                     Database Implementation
                 </h1>
         
-                <p>The AWS counterpart for relational database is AWS RDS(Relational Database Schema). It supports several database engines. In our implementation we will use MySQL because
-				it is compatible with SQLite Database implemented by coding team.
+                <p>The AWS counterpart for relational database is AWS RDS(Relational 
+Database Schema). It supports several database engines. In our implementation 
+we will use MySQL because it is compatible with SQLite Database implemented by coding team.
 
                 <br />
                 <br />
                 <figure>
-                  <img src="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/images/MySQL-Launch01.png" alt="Mountain View" style="width:604px;height:442px;"></img>
+                  <img src="https://docs.aws.amazon.com/AmazonRDS/latest/
+UserGuide/images/MySQL-Launch01.png" alt="Mountain View" style="width:604px;height:442px;"></img>
                 <figcaption> </figcaption>
                 </figure>
                 </p>
@@ -417,20 +421,35 @@
                  <br />   
 				<p>Following steps are involved in our implementation.
 				<ul>
-					<li> Download the original database from <a href="https://github.com/gcallah/TheDevOpsCourse/blob/master/db.sqlite3">here</a>.
+					<li> Download the original database from 
+<a href="https://github.com/gcallah/TheDevOpsCourse/blob/master/db.sqlite3">here</a>.
 					</li>
-					<li> The obtained database is from sqlite. It is converted into MySQL type using free online tools such as <a href="https://www.rebasedata.com/convert-sqlite-to-mysql-online">this</a>.
+					<li> The obtained database is from sqlite. 
+It is converted into MySQL type using free online tools such as <a href="https://www.
+rebasedata.com/convert-sqlite-to-mysql-online">this</a>.
 					</li>
-					<li> Restore the obtained mysql database file in local MySQL Server.
+					<li> Restore the obtained mysql database file 
+in local MySQL Server.
 					</li>
-					<li> Create an AWS RDS MySql instance using the tutorial given <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html">here</a>.
+					<li> Create an AWS RDS MySql instance using 
+the tutorial given <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/
+CHAP_GettingStarted.CreatingConnecting.MySQL.html">here</a>.
 					</li>
-					<li> Once instance is up and running, note down the instance endpoint url. This url will be used to access our AWS RDS database.
+					<li> Once instance is up and running, note 
+down the instance endpoint url. This url will be used to access our AWS RDS database.
 					</li>
-					<li> Migrate the MySql database from local MySQL Server to AWS RDS using the tutorial given <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Procedural.Importing.SmallExisting.html">here</a>. In our case the final command for migration using windows OS is 
-					<code>mysqldump -u adi ^ --databases db ^ --single-transaction ^ --compress ^ --order-by-primary  ^ -p temp | mysql -u devops ^ --port=3306 ^ --host=db.c4x1mr3ptoih.us-east-1.rds.amazonaws.com ^ -p nyu123456</code>.
+					<li> Migrate the MySql database from local 
+MySQL Server to AWS RDS using the tutorial given <a href="https://docs.aws.amazon.com
+/AmazonRDS/latest/UserGuide/MySQL.Procedural.Importing.SmallExisting.html">here</a>. 
+In our case the final command for migration using windows OS is 
+					<code>mysqldump -u adi ^ --databases db ^ 
+--single-transaction ^ --compress ^ --order-by-primary  ^ -p temp | mysql -u 
+devops ^ --port=3306 ^ --host=db.c4x1mr3ptoih.us-east-1.rds.amazonaws.com ^ -p 
+nyu123456</code>.
 					</li>
-					<li> Once the command is executed successfully. Check the database on AWS RDS instance. In our case the implemented AWS RDS url is  "db.c4x1mr3ptoih.us-east-1.rds.amazonaws.com".
+					<li> Once the command is executed 
+successfully. Check the database on AWS RDS instance. In our case the 
+implemented AWS RDS url is  "db.c4x1mr3ptoih.us-east-1.rds.amazonaws.com".
 					</li>
 					
 				</ul>
@@ -438,41 +457,7 @@
             </div>
                   
               </details>
-				 <details>
-                  <summary class="sum2">
-                   Plagirism Implementation
-                  </summary>
-                   <div id="content">
-                <h1>
-                    Plagiarism Implementation
-                </h1>
-        
-                <p>To implement plagiarism detection, We used AWS Lambda to host a plagiarism detection script coded in python. This Lambda function is then used to create API gateway which will be used by coding team to send a document for plagiarism detection.</p>
-                <br />
-                <br />
-                </p>
-                 <br />
-                 <br />   
-				<p>Following Algorithm is used in the coding of script.
-				<ul>
-					<li>The script divides the document into n words subtrings. </li><br/>
-					<li>Each substring are sent to FAROO Web Search API as a query.</li><br/>
-					<li>Plagiarism is checked into returned result from Faroo.</li><br/>
-					<li>The final plagiarism % is calculated using the formula - </li><br/>
-					<li><code>(no of plagiarized subs/ total no of subs)*100</code></li>
-					<li>The final script is hosted <a href="https://github.com/aditkumar1/PlagiarismCheck">here</a></li>
-				</ul>
-				</p>
-				<p>Following steps are involved in our implementation of script On AWS.
-				<ul>
-					<li>Implementation here </li><br/>
-				</ul>
-				</p>
             </div>
-                  
-              </details>
-            
-			</div>
         </div>
     </body>
 </html>

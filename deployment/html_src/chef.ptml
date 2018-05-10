@@ -87,20 +87,20 @@
     </p>
     <p>
     The following steps are to be followed for the creation of Chef recipes and
-    resources. The steps and contents of the files hello.rb, webserver.rb have been
-    extracted from <a href="https://learn.chef.io/modules/learn-the-basics/ubuntu/aws/configure-a-resource#/">Chef basics page</a>
+    resources. <i>The steps and contents of the files hello.rb, webserver.rb have been
+    extracted from</i> <b><a href="https://learn.chef.io/modules/learn-the-basics/ubuntu/aws/configure-a-resource#/">Chef basics page</a></b>
     <figure>
-    <img src="https://gcallah.github.io/DevOps/deployment/graphics/installcurl.png" style="width:604px;height:442px;">
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/installcurl.png" style="width:1065px;height:596px;">
     <figcaption>Fig1. - Install curl on your Ubuntu 14.04 instance.</figcaption>
     </figure>
     </br>
     <figure>
-    <img src="https://gcallah.github.io/DevOps/deployment/graphics/installchef.png" style="width:604px;height:442px;">
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/installchef.png" style="width:1195px;height:473px;">
     <figcaption>Fig2. - Install Chef on your Ubuntu 14.04 instance.</figcaption>
     </figure>
     </br>
     <figure>
-    <img src="https://gcallah.github.io/DevOps/deployment/graphics/mkdirandhello.png" style="width:604px;height:442px;">
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/mkdirandhello.png" style="width:1159px;height:793px;">
     <figcaption>Fig3. - Create a chef directory and a file called hello.rb.</figcaption>
     </figure>
     </br></br>
@@ -115,7 +115,7 @@
     <p>
     </br></br>
     <figure>
-    <img src="https://gcallah.github.io/DevOps/deployment/graphics/morehellorb.png" style="width:604px;height:442px;">
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/morehellorb.png" style="width:1154px;height:363px;">
     <figcaption>Fig4. - Display contents of hello.rb and run the file.</figcaption>
     </figure>
     </br>
@@ -127,22 +127,22 @@
   </br></br>
   <p>
     <figure>
-    <img src="https://gcallah.github.io/DevOps/deployment/graphics/webservercontent.png" style="width:604px;height:442px;">
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/webservercontent.png" style="width:414px;height:354px;">
     <figcaption>Fig5. - Contents of webserver.rb file.</figcaption>
     </figure>
     </br></br>
     <figure>
-    <img src="https://gcallah.github.io/DevOps/deployment/graphics/webserver.png" style="width:604px;height:442px;">
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/webserver.png" style="width:1398px;height:395px;">
     <figcaption>Fig6. - Run the webserver.rb file.</figcaption>
     </figure>
     </br>
     <figure>
-    <img src="https://gcallah.github.io/DevOps/deployment/graphics/webserver2.png" style="width:604px;height:442px;">
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/webserver2.png" style="width:1437px;height:778px;">
     <figcaption>Fig7. - Run the webserver.rb file AGAIN.</figcaption>
     </figure>
     </br>
     <figure>
-    <img src="https://gcallah.github.io/DevOps/deployment/graphics/viewyourwebsite.png" style="width:604px;height:442px;">
+    <img src="https://gcallah.github.io/DevOps/deployment/graphics/viewyourwebsite.png" style="width:492px;height:121px;">
     <figcaption>Fig8. - View your sample website.</figcaption>
     </figure>
    </br></br>
@@ -150,7 +150,7 @@
       <p>
       <b>Chef Cookbooks</b>:
       </br>
-        "Cookbooks are said to be the fundamental unit of configuration." (Definition from <a href="https://www.digitalocean.com/community/tags/chef?type=tutorials"></a>)
+        "Cookbooks are said to be the fundamental unit of configuration." (Definition from <a href="https://www.digitalocean.com/community/tags/chef?type=tutorials">www.digitalocean.com</a>)
         Chef uses cookbooks to perform work and makes sure everything is running smoothly.
         The nodes on your system use the configuration details from your cookbooks.
         </br></br>
