@@ -395,19 +395,19 @@
         Chapter 9: Building monitored applications
       </summary>
       <p>
-        This chapter deals with monitoring applications. Two types of 
-        metrics are monitored in application monitoring. One is 
+        This chapter deals with monitoring applications. Two types of
+        metrics are monitored in application monitoring. One is
         application metric which measures the state and performance of
         the application. The other is business metric which is at a layer
         higher than the application metric. For example, if
-        the payment transaction latency is an application metric then 
-        the business metric can be the value of that transaction. These 
+        the payment transaction latency is an application metric then
+        the business metric can be the value of that transaction. These
         metrics can be calulated using StatsD which is a daemon that
         listens on TCP or UDP ports collects messages and parses metrics
         out of the messages. We can add logging to our application log
-        events in our application. 
+        events in our application.
         We can also add notification on our application when a
-        deployment takes place. 
+        deployment takes place.
       </p>
   </details>
 
@@ -415,6 +415,21 @@
        <summary class= "sum2">
          Chapter 10: Alerting and Alert Management
        </summary>
+       <p>
+         The main purpose of this chapter is to make notifications useful:
+         to send them at the right time and put useful information in them.
+         Sending too many notifications will make the recipients numb to
+         notifications and they would want to turn them off which might lead
+         to crucial notifications being regarded as unimportant updates.
+         Sometimes, the notifications that move across are not all useful
+         to the recipients and hence, this chapter helps us in knowing how to
+         add appropriate context to these notifications so that they become
+         instantly useful to the recipients. Apart from this, we also get to
+         learn how to maintenance of these notifications. What notifications
+         the recipients read that are not so important will eventually help
+         in identifying patterns and trends and the focus is also to learn
+         how to identify them.
+       </p>
 
    </details>
 
@@ -424,11 +439,11 @@
        </summary>
        <p> The chapter combines all peices from the previous chapters
         to monitor an application stack. The application is Tornado which
-        is an order processing system that buys and sells items. The 
+        is an order processing system that buys and sells items. The
         chapter discusses the monitoring of the web tier for the
         application. The collectd plugin is used to monitor the
         different web components. The log output from the services
-        are used to collect metrics and diagonistic information. 
+        are used to collect metrics and diagonistic information.
         Small checks are added in Reimann to notify if any issues occur.
        </p>
    </details>
@@ -447,8 +462,8 @@
         by java collectd plugin. To collect the logs, the logging
         framework timbre is used. The tornado api is monitored by
         querying the api to make sure that its returning results
-        and instrumenting the application so that it generate 
-        events when it operates. 
+        and instrumenting the application so that it generate
+        events when it operates.
        </p>
    </details>
 
@@ -461,8 +476,8 @@
         The database tier consists of the tornado-db server running
         MYSQL and a tornado-redis running Redis. For monitoring MYSQL,
         the MYSQL server is monitored using its health and metrics as well
-        as looking at the results of application specific queries. This 
-        is done using a plugin. To monitor the redis server the collect redis 
+        as looking at the results of application specific queries. This
+        is done using a plugin. To monitor the redis server the collect redis
         plugin is used to connect to the Redis instances using the credis
         library. This return usage statistics.
     </p>

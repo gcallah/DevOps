@@ -261,17 +261,18 @@
                 <p> This creates an environment for learning and 
                   experimentation. Allows us to find a perfact balance between 
                   the two to improve the value being added to the stream.</p>
-          <p> Why should you read The DevOps handbook?</p>
+          <h4>Why should you read The DevOps handbook?</h4>
               <li> The book explains the concept of Devops in detail going 
                 from it's inception to the mordern day usage. This is the book
                 for you if you want to know where to get started with DevOps 
                 altogether.</li>
-              <li> The book throws light at various success stories of Companies 
-                like Amazon, Google and Facebook using DevOps principles in their 
-                development environment and how one can go about emulating them.</li>
-              <li>Lastly, The book emphasizes on the fact that code, containers and 
-                configuration becomes stronger when it is integrated with people,
-                culture and processes</li>
+              <li> The book throws light at various success stories of 
+                Companies like Amazon, Google and Facebook using DevOps 
+                principles in their development environment and how one
+                can go about emulating them.</li>
+              <li>Lastly, The book emphasizes on the fact that code, 
+                containers and configuration becomes stronger when it is 
+                integrated with people, culture and processes</li>
         </div>
     </div>
     </body>
