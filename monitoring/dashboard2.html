@@ -18,9 +18,7 @@
 <div id="chart-2-container"></div>
 
 <script>
-
 gapi.analytics.ready(function() {
-
   /**
    * Authorize the user with an access token obtained server side.
    */
@@ -28,15 +26,13 @@ gapi.analytics.ready(function() {
     'serverAuth': {
       'access_token': 'ya29.c.Elm3BaGLb6QgiKuzbqSuRqF5b-XeeuqHrqCDJd_dxxGTyOFf_IF1tKLst6zJ81lKEGQyzbINf8dK6mwSFQidPR7hdOrNcIi-f8Q2Rm3YcGrgeFUQt95EIs25VA'}
   });
-
-
   /**
    * Creates a new DataChart instance showing sessions over the past 30 days.
    * It will be rendered inside an element with the id "chart-1-container".
    */
   var dataChart1 = new gapi.analytics.googleCharts.DataChart({
     query: {
-      'ids': 'ga:170564094',
+      'ids': 'ga:170564094', // <-- Replace with the ids value for your view.
       'start-date': '30daysAgo',
       'end-date': 'yesterday',
       'metrics': 'ga:sessions,ga:users',
@@ -51,8 +47,6 @@ gapi.analytics.ready(function() {
     }
   });
   dataChart1.execute();
-
-
   /**
    * Creates a new DataChart instance showing top 5 most popular demos/tools
    * amongst returning users only.
@@ -60,7 +54,7 @@ gapi.analytics.ready(function() {
    */
   var dataChart2 = new gapi.analytics.googleCharts.DataChart({
     query: {
-      'ids': 'ga:170564094',
+      'ids': 'ga:170564094', // <-- Replace with the ids value for your view.
       'start-date': '30daysAgo',
       'end-date': 'yesterday',
       'metrics': 'ga:pageviews',
@@ -79,7 +73,6 @@ gapi.analytics.ready(function() {
     }
   });
   dataChart2.execute();
-
 });
 </script>
 </body>
