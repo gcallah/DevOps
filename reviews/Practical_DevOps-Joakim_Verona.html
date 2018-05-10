@@ -232,7 +232,7 @@
                   conclusions from their several years of experience in the
                   industry. One of the major concepts jotted down in this
                   manifesto according to the author emphasizes the importance of
-                  focusing on Individuals &amp; Interactions rather than on 
+                  focusing on Individuals &amp; Interactions rather than on
                   processes &amp;tools which
                   basically means that company’s should invest not only in tools
                   and processes but rather also in breaking down the silos in
@@ -323,38 +323,38 @@
 
                 <h2>Chapter 3 - How DevOps affects Architecture </h2>
                 <p>
-                  In this chapter the author explains how DevOps Principles 
-                  affect architecture of a software, rather than just the 
-                  deployment process, or in other words how the industry has 
-                  accommodated DevOps practices into the current agile cycles 
-                  In order for the architecture of the software to adhere to 
+                  In this chapter the author explains how DevOps Principles
+                  affect architecture of a software, rather than just the
+                  deployment process, or in other words how the industry has
+                  accommodated DevOps practices into the current agile cycles
+                  In order for the architecture of the software to adhere to
                   DevOps principles. One of the key take away concept from this
-                  chapter is the understanding of anti-pattern that promotes 
-                  Monolithic Architectures which exists in legacy systems and 
-                  significantly in current industry practices. The need to 
-                  destroy this anti-pattern and promote modular systems with 
-                  high cohesion and low coupling is of utmost importance when 
-                  looking from the DevOps point of view. To further 
-                  substantiate this point, the author explains a concept 
-                  called “Separation of Concerns”, coined by the famous 
-                  Computer Scientist Dijkstra in his 1974 paper. The author 
-                  makes the reader understand this concept with a very 
-                  practical example that explains the problems faced in the 
-                  monolithic scenario rather that the opposite. Further on he 
-                  explains how the concept of “Separation of Concerns” has 
+                  chapter is the understanding of anti-pattern that promotes
+                  Monolithic Architectures which exists in legacy systems and
+                  significantly in current industry practices. The need to
+                  destroy this anti-pattern and promote modular systems with
+                  high cohesion and low coupling is of utmost importance when
+                  looking from the DevOps point of view. To further
+                  substantiate this point, the author explains a concept
+                  called “Separation of Concerns”, coined by the famous
+                  Computer Scientist Dijkstra in his 1974 paper. The author
+                  makes the reader understand this concept with a very
+                  practical example that explains the problems faced in the
+                  monolithic scenario rather that the opposite. Further on he
+                  explains how the concept of “Separation of Concerns” has
                   manifested itself in today’s software architectures in the
-                  form of “Three tier Systems” which comprise of Presentation, 
-                  Logic and Data tier usually , allowing them to be managed 
-                  independently. Next, he gives code snippets of Liquibase(a 
-                  Database Migration System) files ,to explain how version 
-                  control is applied on databases rather than just code, 
-                  which really helps the reader to get hands-on experience 
+                  form of “Three tier Systems” which comprise of Presentation,
+                  Logic and Data tier usually , allowing them to be managed
+                  independently. Next, he gives code snippets of Liquibase(a
+                  Database Migration System) files ,to explain how version
+                  control is applied on databases rather than just code,
+                  which really helps the reader to get hands-on experience
                   with Database Migration Management and I found this section
                   to be especially useful. Further, he talks about the
                   microservices architectures being adopted today that
-                  further promotes the idea of “Separation of concerns” 
+                  further promotes the idea of “Separation of concerns”
                   and avoids monolithic structures. I was very enlightened
-                  after reading this chapter and had never previously 
+                  after reading this chapter and had never previously
                   thought that DevOps could seep into the whole Software
                   Development process so immensely.
                 </p>
@@ -385,82 +385,137 @@
                 </p>
                 <h2>Chapter 5 - Building the code </h2>
                 <p>
-                  This chapter talks about all the processes involved in 
-                  building the code and how the build process is so much more 
+                  This chapter talks about all the processes involved in
+                  building the code and how the build process is so much more
                   than just compiling of code into build artifacts. During the
                   build process many processes happen such as checking the code
-                  for errors,generating code quality metrics, applying unit 
+                  for errors,generating code quality metrics, applying unit
                   tests on the code, generating production quality artifacts.
-                  I found this chapter to be really interesting since it has 
+                  I found this chapter to be really interesting since it has
                   lots of screenshots of how Jenkins is used to manage the build
-                  process. He gives example of a plugin called "Sonar" for 
-                  Jenkins that visualizes code quality metrics such as 
-                  duplications in the code , Code coverage , Violations etc. 
-                  He explains how important it is for an organization to 
-                  spend money on a high performing build server with lots of 
+                  process. He gives example of a plugin called "Sonar" for
+                  Jenkins that visualizes code quality metrics such as
+                  duplications in the code , Code coverage , Violations etc.
+                  He explains how important it is for an organization to
+                  spend money on a high performing build server with lots of
                   RAM , processor cores and hard disk space to make the build
-                  process as fast as possible. He talks about a more efficient 
-                  way to make the build faster by building in parallel using 
-                  round robin scheme ,by having master and slave build servers, 
+                  process as fast as possible. He talks about a more efficient
+                  way to make the build faster by building in parallel using
+                  round robin scheme ,by having master and slave build servers,
                   where its not necessary for all the build servers to have the
                   same OS. Later in the chapter he gives practical examples with
-                  screenshots to explain the Workflow plugin for Jenkins which 
+                  screenshots to explain the Workflow plugin for Jenkins which
                   can create build job pipelines. He also explains the various
-                  concepts associated with the build process such as build tree 
+                  concepts associated with the build process such as build tree
                   dependencies, layout of the Jenkins filesystem etc.
-                  After giving the reader an idea about the workings of the 
-                  build process, he goes on to explain the problems faced in 
-                  real world scenarios when builds fail , how they can be 
-                  resolved and how processes and priorities can be established 
+                  After giving the reader an idea about the workings of the
+                  build process, he goes on to explain the problems faced in
+                  real world scenarios when builds fail , how they can be
+                  resolved and how processes and priorities can be established
                   to take the build failures seriously.
+                </p>
+                <h2>Chapter 6 - Testing the Code</h2>
+                <p>
+                  Achieving continuous delivery of business value is central to
+                  DevOps principle, which in turn would require the code to be
+                  released early and often. In order to maintain quality,
+                  automated regression testing is required. However, manual
+                  testing cannot completely be eliminated, as every test has to
+                  be performed manually at least once before automation. So the
+                  author starts with how to make manual testing easier and less
+                  error prone and then proceeds to unit testing. Author uses
+                  JUnit as an example to discuss a family of testing frameworks
+                  collectively called xUnit. He goes through JUnit nomenclature
+                  and examples and also explains 'mocking' and importance of
+                  test coverage. Next, he discusses automated integration
+                  testing. While in unit testing, interaction with an external
+                  platform, say a database is mocked, in integration testing
+                  actual interaction with other platforms is attempted. Hence,
+                  it can be trickier and one needs to be more careful. Docker
+                  can come in very handy in situations where application is to
+                  be deployed in a cluster. It can provide a virtual network of
+                  clusters and also restore the environment to a known state
+                  after testing. The author illustrates the utility of Docker
+                  with a practical example and proceeds to other areas for
+                  testing. He covers performance testing, automated acceptance
+                  testing and automated GUI testing along with various tools
+                  and techniques used for each of them. The author then talks
+                  about Test-driven development (TDD), which was made popular by
+                  Extreme Programming movement and describes it as sequence of
+                  steps. According to the author, TDD is a style if development
+                  that fits well with DevOps among few others. He mentions
+                  REPL-driven development as his favoured style of development.
+                  The author then walks through a complete testing scenario,
+                  including manual testing, running automated test, finding a
+                  bug and implementation of the tests.
                 </p>
                 <h2>Chapter 7 - Deploying the code </h2>
                 <p>
-                  This chapter basically focuses on choosing the right 
-                  deployment tool, where “right” is a very subjective term and 
+                  This chapter basically focuses on choosing the right
+                  deployment tool, where “right” is a very subjective term and
                   depends solely on the use case and the needs of the
-                  organization. At the starting of the chapter the author talks 
-                  about how modern deployment solutions have become mature and 
-                  automate the unnecessary steps such as automation of 
+                  organization. At the starting of the chapter the author talks
+                  about how modern deployment solutions have become mature and
+                  automate the unnecessary steps such as automation of
                   installation of OSonto a bare virtual machine using pre-stored
                   images. He goes on to talk about virtualization and container
-                  concepts.Further, he draws a parallel mainly between five 
-                  popular deployment tools namely Puppet , Chef, Pallet , 
-                  Ansible and Salt. Ifound the comparison table to be really 
-                  useful which tries to map the different terminologies used 
+                  concepts.Further, he draws a parallel mainly between five
+                  popular deployment tools namely Puppet , Chef, Pallet ,
+                  Ansible and Salt. Ifound the comparison table to be really
+                  useful which tries to map the different terminologies used
                   by each tool with eachother. A common architectural pattern
-                  I found to exist between all these technologies was that 
-                  of master/slave, where a configuration file(Cookbook/Playbook 
-                  etc.) exists on the master node,and the slaves use either push 
+                  I found to exist between all these technologies was that
+                  of master/slave, where a configuration file(Cookbook/Playbook
+                  etc.) exists on the master node,and the slaves use either push
                   model or pull model to update themselves. Towards the closing
-                  of the chapter he talks about how Docker is emerging as a 
-                  mature solution being opted by large enterprises due to its 
-                  growing eco system and also gives a brief introduction about 
-                  AWS and Azure. 
-                  He also expresses a concern about how it is very popular to 
-                  build server farms with Puppet and Ansible, but doing the 
+                  of the chapter he talks about how Docker is emerging as a
+                  mature solution being opted by large enterprises due to its
+                  growing eco system and also gives a brief introduction about
+                  AWS and Azure.
+                  He also expresses a concern about how it is very popular to
+                  build server farms with Puppet and Ansible, but doing the
                   same with Docker is not very well known right now.
                 </p>
                 <h2>Chapter 8 - Monitoring the code </h2>
                 <p>
-                  The author discusses the features of various monitoring tools 
-                  available for monitoring the code deployed in production 
-                  servers also explains the necessity for using them. He 
-                  primarily talks about four tools : Nagios, Munin , Ganglia 
-                  and Graphite. Nagios monitors the states of various servers 
-                  and logs in binary whether the server is up or down. Munin 
-                  and Ganglia are pretty much the same, they provide graph 
-                  visualizations of various parameters such as Memory Usage 
-                  etc. for a much more intuitive experience and store their 
-                  data in RRD (Round Robin Databases). Ganglia is used for 
-                  larger clusters, otherwise Munin suffices. Graphite updates 
-                  graphs in real time as compared to a 5 minute latency in 
-                  Munin and Ganglia. Further, he expresses concern about how 
-                  doing Logging “right” is very difficult since one needs to 
-                  strike a balance between performance and usability. Towards 
-                  the end of the chapter he talks about ELK stack wherein 
-                  Logstash generates the logs, which are then indexed in 
+                  The author discusses the features of various monitoring tools
+                  available for monitoring the code deployed in production
+                  servers also explains the necessity for using them. He
+                  primarily talks about four tools : Nagios, Munin , Ganglia
+                  and Graphite. Nagios monitors the states of various servers
+                  and logs in binary whether the server is up or down. Munin
+                  and Ganglia are pretty much the same, they provide graph
+                  visualizations of various parameters such as Memory Usage
+                  etc. for a much more intuitive experience and store their
+                  data in RRD (Round Robin Databases). Ganglia is used for
+                  larger clusters, otherwise Munin suffices. Graphite updates
+                  graphs in real time as compared to a 5 minute latency in
+                  Munin and Ganglia. Further, he expresses concern about how
+                  doing Logging “right” is very difficult since one needs to
+                  strike a balance between performance and usability. Towards
+                  the end of the chapter he talks about ELK stack wherein
+                  Logstash generates the logs, which are then indexed in
                   ElasticSearch, then visualized and made searchable in Kibana.
+                </p>
+                <h2>Chapter 9 - Issue Tracking</h2>
+                <p>
+                  Issue tracker is a part of development workflow within an
+                  organization and might represent issues, bugs and work items.
+                  The author starts with an illustartion of a conventional
+                  white-boards with post-it notes (Kanban actually means
+                  signboard) and then describes it's computerized counterpart,
+                  which is essetially a 'databse of objects representing a state
+                  machine'. The author then provides some examples of workflows
+                  and issues and discusses the various attributed associated
+                  with an 'object in the state machine' or an issue. Next, he
+                  discusses the general and project specific requirements for
+                  an issue tracker. Issue tracker, unlike a code editor, is a
+                  shared/collaborative tool, which may cause problems such as
+                  'issue tracker prolifertion' which generally has no simple
+                  solution. The author then genrously walks through the setup
+                  and usage of various issue trackers like Bugzilla, Trac,
+                  Redmine, Gitlab issue tracker and Jira, which could be a great
+                  help for anybody who has a use case for any of these tools.
                 </p>
 
 
