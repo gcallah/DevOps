@@ -56,6 +56,11 @@
                       </li>
                   </ul>
                   </ul>
+                  <h4>Here's some example from our Website : </h4>
+                  <img src="graphics/dashboardIMG.png"><br/>
+                  <img src="graphics/userLocationTimeDeviceIMG.png"><br/>
+                  <img src="graphics/ActiveUsersOverTimeIMG.png"><br/>
+                  <img src="graphics/frequentlyVisitedPagesIMG.png">
                 </details>
                 <details>
                   <summary class="sum2">
@@ -82,7 +87,7 @@
                             application. The next step explains how to
                             create the Slack Integration.
                       <figure>
-                      <img src="https://gcallah.github.io/DevOps/monitoring/Images/Contact.png" 
+                      <img src="https://gcallah.github.io/DevOps/monitoring/Images/Contact.png"
                     style="width:750px;height:600px;">
                     </figure>
                         </li>
@@ -92,7 +97,7 @@
                           webhook URL. Select slack as the 3RD party
                           integration. The Alias field is a must.
                         <figure>
-                    <img src="https://gcallah.github.io/DevOps/monitoring/Images/Slack.png" 
+                    <img src="https://gcallah.github.io/DevOps/monitoring/Images/Slack.png"
                     style="width:750px;height:600px;">
                     </figure>
                         </li>
@@ -103,7 +108,7 @@
                             monitor. You can add a contact group for the test.
                             This group will be contacted in case of alerts.
                     <figure>
-                    <img src="https://gcallah.github.io/DevOps/monitoring/Images/AddTest.png" 
+                    <img src="https://gcallah.github.io/DevOps/monitoring/Images/AddTest.png"
                     style="width:750px;height:600px;">
                     </figure>
                         </li>
