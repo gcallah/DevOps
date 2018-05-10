@@ -155,6 +155,19 @@
             </p>
         </details>
 
+        <details>
+            <summary class="sum2">
+              Chapter 10: Software Engineering practices for Infrastructure
+            </summary>
+            <p>
+               This is the first of the chapters in the part 3 of the book. The chapter mainly speaks about the quality of the infrastructure system and
+               outlines the principles for achieving this quality that author talks about. The key point mentioned here is how quality of system is proportional
+               to how easily a system can be changed or replaced. The author talks about how build fails and what constitues continuous integration(CI) and what
+               doesn't. He explains the differences between continuous delivery and continuous deployment, thus explaining how to view infrastructure from a Software
+               Engineering principles.
+            </p>
+        </details>
+
 
         <p><strong>References: </strong></p>
         <p>
