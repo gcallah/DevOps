@@ -86,8 +86,9 @@
                   a good start to re-evalue steps in development waterfall
                   process. Then the authors translates the 7 wastes of
                   manufacturing identified by Shigeo into 7 corresponding
-                  wastes in software development: partially done work, extra
-                  process, extra features, task switching, waiting, motion,
+                  wastes in software development: partially done work[4],
+                  extra process[4], extra features[4], task switching[4],
+                  waiting[4], motion[4],
                   defects[4]. Although items like management, project tracking
                   would not directly contribute to the production process,
                   they are still very important because wastes mentioned above
@@ -115,20 +116,95 @@
                     Chapter 2: Amplify Learning
                 </summary>
                 <p>
-                  From the first chapter, we have known some principle about lean thinking in production, but the lean principles cannot be transplanted directly from production mode to software development mode. “Many attempts to apply lean production practices to software development have been unsuccessful because generating good software is not a production process”The author noticed that, “it is a development process. ”[22]
-                  So from this chapter, the author began to show some thinking tool about how we can do the lean software development. In the author’s opinion, development is quite different from production. If we think production as making dishes, then development is making recipe. It is easy to understand that when a chef is trying to make a new recipe, he might fail several times before he can make out the best recipe. There are several aspects that need to be concerned before considering about development: Quality,Variability,way to face Failure and Design Cycles.
+                  From the first chapter, we have known some principle about
+                  lean thinking in production, but the lean principles cannot
+                  be transplanted directly from production mode to software
+                  development mode. “Many attempts to apply lean production
+                  practices to software development have been unsuccessful
+                  because generating good software is not a production process”
+                  The author noticed that, “it is a development process. ”[22]
+                  So from this chapter, the author began to show some
+                  thinking tool about how we can do the lean software
+                  development. In the author’s opinion, development is
+                  quite different from production. If we think production as
+                  making dishes, then development is making recipe. It is easy
+                  to understand that when a chef is trying to make a new
+                  recipe, he might fail several times before he can make out
+                  the best recipe. There are several aspects that need to be
+                  concerned before considering about development: Quality,
+                  Variability,way to face Failure and Design Cycles.
                 </p><br />
                 <p>
-                  After this the author introduce 4 thinking toolkits. First thinking toolkit is called Feedback. By definition, feedback loop is a method that the developer get suggestions that based on earlier production, and then adjust the production.The feedback loop is a indispensable part in developing software, because there are lots of problem that may not be predicted at the beginning. It was pointed out by Winston Royce in 1970 that waiting until the end of to test the system is too late, “the feedback provided by testing was needed early in the development process.”[23] Although this principle have being established early, the traditional way of project management such as waterfall model of software development is still difficult to abandon. This might because that feedback loop is concerned as a threaten to the system, as it might change the predetermined plan. So when an organization has software development challenges, there is a tendency to impose a more disciplined process on the organization, which, as the control theory predicts, makes a bad situation worse. In most cases, increasing feedback, not decreasing it, is the single most effective way to deal with troubled software development projects and environments. The developer should run tests as soon as the code is finished, checking out ideas by writing code, etc.
+                  After this the author introduce 4 thinking toolkits.
+                  First thinking toolkit is called Feedback. By definition,
+                  feedback loop is a method that the developer get suggestions
+                  that based on earlier production, and then adjust the
+                  roduction.The feedback loop is a indispensable part in
+                  developing software, because there are lots of problem that
+                  may not be predicted at the beginning. It was pointed out by
+                  Winston Royce in 1970 that waiting until the end of to test
+                  the system is too late, “the feedback provided by testing was
+                  needed early in the development process.”[23] Although this
+                  principle have being established early, the traditional way
+                  of project management such as waterfall model of software
+                  development is still difficult to abandon. This might because
+                  that feedback loop is concerned as a threaten to the system,
+                  as it might change the predetermined plan. So when an
+                  organization has software development challenges,
+                  there is a tendency to impose a more disciplined process
+                  on the organization, which, as the control theory predicts,
+                  makes a bad situation worse. In most cases, increasing
+                  feedback, not decreasing it, is the single most effective
+                  way to deal with troubled software development projects and
+                  environments. The developer should run tests as soon as the
+                  code is finished, checking out ideas by writing code, etc.
                 </p><br />
                 <p>
-                  The second tool is Iterations. By definition, iteration in software development includes all processes to gain a minimum completed production, from design to deliver.This production will be improved in further iterations.After a brief introduction about the reason why we need iterations, the author shows four steps that need to be done to achieve a good iteration: iteration planning, team commitment, convergence, negotiable scope. Iteration planning means that we need to make sure what should be done in a single iteration. The features that will be implement should be the most valuable part of the business, but the team need also keep it small enough to deliver fast. Team commitment means that the project team should choose a set of features that they can finish in a few weeks, in this way the team members will try their best to find out the way to get the features finished in the time-box. The convergence should be concerned because without doing that, the project will last forever as it don’t have a predefined stoping point. Negotiable scope is a strategy to achieve convergence. 
+                  The second tool is Iterations. By definition, iteration in
+                  software development includes all processes to gain a minimum
+                  completed production, from design to deliver.This production
+                  will be improved in further iterations.After a brief
+                  introduction about the reason why we need iterations, the
+                  author shows four steps that need to be done to achieve a
+                  good iteration: iteration planning, team commitment,
+                  convergence, negotiable scope. Iteration planning means that
+                  we need to make sure what should be done in a single
+                  iteration. The features that will be implement should be
+                  the most valuable part of the business, but the team need
+                  also keep it small enough to deliver fast. Team commitment
+                  means that the project team should choose a set of features
+                  that they can finish in a few weeks, in this way the team
+                  members will try their best to find out the way to get the
+                  features finished in the time-box. The convergence should be
+                  concerned because without doing that, the project will last
+                  forever as it don’t have a predefined stoping point.
+                  Negotiable scope is a strategy to achieve convergence.
                 </p><br />
                 <p>
-                  The third toolkit is Synchronization. This is important when multiple teams are involved in the same iteration. In this part, the author introduces three different ways to synchronize the work, known as Synch & Stabilize, Spanning application, and Matrix. The first method is realized by building a small batch of work in a short period of time and then test it. In this way the manager can make the developers be synchronized. The spanning application method means that a small advance team will develop a simple spanning application which works continuously during the iteration. The spanning application can be policy or introduction or something like that. Besides these two methods, matrix is often chosen when different teams are not stay in the same place, thus Synch & Stabilize won’t work. This approach stars by developing interfaces between teams, after which each team can only deal with their own subsystems.
+                  The third toolkit is Synchronization. This is important when
+                  multiple teams are involved in the same iteration. In this
+                  part, the author introduces three different ways to
+                  synchronize the work, known as Synch & Stabilize, Spanning
+                  application, and Matrix. The first method is realized by
+                  building a small batch of work in a short period of time and
+                  then test it. In this way the manager can make the developers
+                  be synchronized. The spanning application method means that a
+                  small advance team will develop a simple spanning application
+                  which works continuously during the iteration. The spanning
+                  application can be policy or introduction or something like
+                  that. Besides these two methods, matrix is often chosen when
+                  different teams are not stay in the same place, thus Synch &
+                  Stabilize won’t work. This approach stars by developing
+                  interfaces between teams, after which each team can only deal
+                  with their own subsystems.
                 </p><br />
                 <p>
-                The last tool is Set-Based Development. “In set-based development, communication is about constraints, not choices.” [24]The main aim of this tool is to make communication more efficiently. To apply this toolkit, the manager should develop multiple options, communicate constraints, and let solutions emerge.
+                The last tool is Set-Based Development. “In set-based
+                development, communication is about constraints, not
+                choices.”[24]The main aim of this tool is to make communication
+                more efficiently. To apply this toolkit, the manager should
+                develop multiple options, communicate constraints, and let
+                solutions emerge.
                 </p>
             </details>
             <details>
@@ -146,13 +222,13 @@
                   efficient and change-tolerance method, concurrent process.
                   And same in software development, programing has shown great
                   improvement after switching to concurrent development[6].
-                  Instead of traditional depth-first design that constrains
-                  high-level and low-level decisions together,
-                  the new developemt applies breadth-first approach in design
-                  that high-level problem or changes can be adapted with much
-                  less cost since breadth-first method allow engineers
-                  to consider most options so inevitable changes or problems
-                  can be found and worked out as soon as
+                  According to the book, instead of traditional depth-first
+                  design that constrains high-level and low-level decisions
+                  together, the new developemt applies breadth-first approach
+                  in design that high-level problem or changes can be adapted
+                  with much less cost since breadth-first method allow
+                  engineers to consider most options so inevitable changes or
+                  problems can be found and worked out as soon as
                   possible which will overal cost much less time in deliverying
                   the final product. Also, the design of
                   a product should be more flexible to accept possible changes
@@ -203,9 +279,9 @@
                   help make decision before the last responsible moment but
                   also teach us how to decide and improve the last
                   responsible moment, such as "share partially complete design
-                  information", "organize for direct, worker-to-worker
-                  collaboration", "develop a sense of how to absorb changes"[9]
-                  and etc..
+                  information"[9], "organize for direct, worker-to-worker
+                  collaboration"[9], "develop a sense of how to absorb
+                  changes"[9]and etc..
                 </p><br />
                 <p>
                   The third tool is making decisions. In this part, the authors
@@ -236,16 +312,74 @@
                     Chapter 4: Deliver as fast as possible
                 </summary>
                 <p>
-                  This chapter is stared with a series of examples of real life delivery in different businesses. Using those examples, the author trying to tell us the benefits of fast delivery: “Rapid delivery means companies can deliver faster than customers can change their minds. It means that companies have fewer resources tied up in work-in- process, whether inventory or partially done development. When work-in-process represents risk, rapid delivery reduces risk”[25]. Deliver as fast as possible can not only reduce risks, but also a complement of decide as late as possible (which is already introduced in the third chapter), this is because you will have longer time to delay your decisions if you can deliver faster.
+                  This chapter is stared with a series of examples of real life
+                  delivery in different businesses. Using those examples, the
+                  author trying to tell us the benefits of fast delivery:
+                  “Rapid delivery means companies can deliver faster than
+                  customers can change their minds. It means that companies
+                  have fewer resources tied up in work-in- process, whether
+                  inventory or partially done development. When work-in-process
+                  represents risk, rapid delivery reduces risk”[25]. Deliver as
+                  fast as possible can not only reduce risks, but also a
+                  complement of decide as late as possible (which is already
+                  introduced in the third chapter), this is because you will
+                  have longer time to delay your decisions if you can deliver
+                  faster.
                 </p><br />
                 <p>
-                  There are three toolkits related to fast delivery. The first toolkit is called pull system, it is a method that can assure that employers always know what they should do, so that they can make full use of their time, and make largest contribution to the company. The main strategy of pull system is letting the customer pulling work instead of using a schedule to push the work. In 1980s, many manufacturing plants used to use material requirements planning (known as MRP) software to schedule their business. The workers are pushed to work based on what the schedule tell them to do. Similar method is also used in software development. The disadvantage of this method is that if there is even the slightest change, there have to be a totally new plan, which will cause a restart of the whole working flow. After many years struggling,  people began to use kanban system to deal with the scheduling problem. “Kanban is the enabling mechanism of just-in-time. It is the thing that tells people and machines what to do from hour to hour in order to achieve optimum plant output.”[26] Kanban is now known as one of information radiators of software development systems which shows what need to be done and what is already done and who is working on what.[27]
+                  There are three toolkits related to fast delivery. The first
+                  toolkit is called pull system, it is a method that can assure
+                  that employers always know what they should do, so that they
+                  can make full use of their time, and make largest
+                  contribution to the company. The main strategy of pull
+                  system is letting the customer pulling work instead of using
+                  a schedule to push the work. In 1980s, many manufacturing
+                  plants used to use material requirements planning
+                  (known as MRP) software to schedule their business. The
+                  workers are pushed to work based on what the schedule tell
+                  them to do. Similar method is also used in software
+                  development. The disadvantage of this method is that if there
+                  is even the slightest change, there have to be a totally new
+                  plan, which will cause a restart of the whole working flow.
+                  After many years struggling,  people began to use kanban
+                  system to deal with the scheduling problem. “Kanban is the
+                  enabling mechanism of just-in-time. It is the thing that
+                  tells people and machines what to do from hour to hour in
+                  order to achieve optimum plant output.”[26] Kanban is now
+                  known as one of information radiators of software development
+                  systems which shows what need to be done and what is already
+                  done and who is working on what.[27]
                 </p><br />
                 <p>
-                  The second toolkit is queuing theory. The software development process is actually a queue, in which every batch of code need to be built, debugged, and tested. The queuing theory provides a thinking about how to find the bottleneck in software development, and how to solve it. In the author’s point of view, cycle time is the fundamental measurement of a queue, it is “the average time it takes something to get from one end of a process to the other. ”[28]. So our main aim here is to reduce the whole cycle time. Two methods can be done to solve this problem: steady rate of arrival, and steady rate of service. The way to control the rate of arrival of work is to release small packages of work, which in software development, can be translated as release small batch of code.The way to remove the variability from processing time is increasing number of people that process work in a single queue.
+                  The second toolkit is queuing theory. The software
+                  development process is actually a queue, in which every batch
+                  of code need to be built, debugged, and tested. The queuing
+                  theory provides a thinking about how to find the bottleneck
+                  in software development, and how to solve it. In the author’s
+                  point of view, cycle time is the fundamental measurement of a
+                  queue, it is “the average time it takes something to get from
+                  one end of a process to the other. ”[28]. So our main aim
+                  here is to reduce the whole cycle time. Two methods can
+                  be done to solve this problem: steady rate of arrival, and
+                  steady rate of service. The way to control the rate of
+                  arrival of work is to release small packages of work,
+                  which in software development, can be translated as release
+                  small batch of code.The way to remove the variability from
+                  processing time is increasing number of people that process
+                  work in a single queue.
                 </p><br />
                 <p>
-                  Cost of delay is the third toolkit being introduced. This thinking tool is quite important when you are trying to determine whether you need to buy a tool to speed up development or not. According to Preston Smith and Donald Reinertsen in their book Developing Products in Half the Time ,the benefits of rapid development are usually larger than you might expect. So, before you turn down the tool request, you should put a price tag on time. In this part, the author provides a series of economic model to drive development decisions, such as product model and application model. These model can help you to tradeoff decisions.
+                  Cost of delay is the third toolkit being introduced. This
+                  thinking tool is quite important when you are trying to
+                  determine whether you need to buy a tool to speed up
+                  development or not. According to Preston Smith and Donald
+                  Reinertsen in their book Developing Products in Half the
+                  Time, the benefits of rapid development are usually larger
+                  than you might expect. So, before you turn down the tool
+                  request, you should put a price tag on time. In this part,
+                  the author provides a series of economic model to drive
+                  development decisions, such as product model and application
+                  model. These model can help you to tradeoff decisions.
                 </p><br />
             </details>
             <details>
@@ -329,16 +463,78 @@
                   Chapter 6: Build Integrity In
               </summary>
               <p>
-                  This chapter is talking about toolkits related to integrity. The integrity is divided into two dimensions: external integrity and internal integrity, which in this book being renamed to perceived integrity and conceptual integrity. “Perceived integrity means that the totality of the product achieves a balance of function, usability, reliability, and economy that delights customers. Conceptual integrity means that the system's central concepts work together as a smooth, cohesive whole. ”[29]
+                  This chapter is talking about toolkits related to integrity.
+                  The integrity is divided into two dimensions: external
+                  integrity and internal integrity, which in this book being
+                  renamed to perceived integrity and conceptual integrity.
+                  “Perceived integrity means that the totality of the product
+                  achieves a balance of function, usability, reliability,
+                  and economy that delights customers. Conceptual integrity
+                  means that the system's central concepts work together as
+                  a smooth, cohesive whole. ”[29]
                 </p><br />
                 <p>
-                  The first two toolkits are perceived integrity and conceptual integrity. To apply perceived integrity, we should establish first-class customer-developer information flows first. There are several techniques can be used here. Firstly, the people who judge the system’s integrity should have immediate access to development teams. Secondly, ask customer to test the production, which can provide best customer-developer feedback. Next, a type of language should be established between user and developer of which the customer can understand while the developers can use it directly. Finally, there should be a master developer as a manager to connect between the developer and the customer and make sure the product is just as the customers expected. As for conceptual integrity, it is also realized using four techniques. The first technique is try your best to use existing parts. The second way is to begin to write the software before the design detail are finalized. After the software is partially finished, show it to customers to get feedback. The third method is letting most experienced developers being involved in the most critical part of code, they will make sure the user interface is designed well. Last, there should be a master developer to control different teams to work together as a whole.
+                  The first two toolkits are perceived integrity and conceptual
+                  integrity. To apply perceived integrity, we should establish
+                  first-class customer-developer information flows first.
+                  There are several techniques can be used here. Firstly,
+                  the people who judge the system’s integrity should have
+                  immediate access to development teams. Secondly, ask customer
+                  to test the production, which can provide best
+                  customer-developer feedback. Next, a type of language
+                  should be established between user and developer of which
+                  the customer can understand while the developers can use it
+                  directly. Finally, there should be a master developer as a
+                  manager to connect between the developer and the customer
+                  and make sure the product is just as the customers expected.
+                  As for conceptual integrity, it is also realized using four
+                  techniques. The first technique is try your best to use
+                  existing parts. The second way is to begin to write the
+                  software before the design detail are finalized. After the
+                  software is partially finished, show it to customers to get
+                  feedback. The third method is letting most experienced
+                  developers being involved in the most critical part of code,
+                  they will make sure the user interface is designed well.
+                  Last, there should be a master developer to control different
+                  teams to work together as a whole.
                 </p><br />
                 <p>
-                  The third toolkit is called refactoring. This toolkit is a complementary to conceptual integrity. When new features are asked by customers, and when the system structure looks not healthy enough, refactoring should be applied. So the most important thing is to find out in what kind of situation the system can be considered as ‘not healthy’.  In the author’s point of view, there are five characteristics, each of which when lost, will cause the software architecture unhealthy. The first factor is simplicity, which means the functional design should never be too complex. The second factor is clarity, this factor is similar as the first one, which means that code should be easy to be understood. The third factor is called suitability for use, this tells us that every design should meet its original purpose, in other words, the production should be easy to use. The last two factors are No repetition and no extra features. The former means identical code should only exist once, while the latter tells that if a part of code is no longer needed, it should be deleted.
+                  The third toolkit is called refactoring. This toolkit is a
+                  complementary to conceptual integrity. When new features
+                  are asked by customers, and when the system structure looks
+                  not healthy enough, refactoring should be applied. So the
+                  most important thing is to find out in what kind of situation
+                  the system can be considered as ‘not healthy’.  In the
+                  author’s point of view, there are five characteristics,
+                  each of which when lost, will cause the software architecture
+                  unhealthy. The first factor is simplicity, which means the
+                  functional design should never be too complex. The second
+                  factor is clarity, this factor is similar as the first one,
+                  which means that code should be easy to be understood.
+                  The third factor is called suitability for use, this tells us
+                  that every design should meet its original purpose, in other
+                  words, the production should be easy to use. The last two
+                  factors are No repetition and no extra features. The former
+                  means identical code should only exist once, while the latter
+                  tells that if a part of code is no longer needed, it should
+                  be deleted.
                 </p><br />
                 <p>
-                  The last toolkit is testing. As to the author, testing is a main part in software development. First, tests unambiguously communicate how things are supposed to work. Second, they provide feedback on whether the system actually works the way it is supposed to work. Third, tests provide the scaffolding that allows developers to make changes throughout the development process, making tools such as last responsible moment, set-based development, and refactoring useful in practice. When development is done, the test suite provides an accurate representation of how the system was actually built. Finally, by developing and maintaining test suites for all systems in production, making changes to production systems that interact with each other can be done safely by running a full suite of tests for all related applications. [30]
+                  The last toolkit is testing. As to the author, testing is
+                  a main part in software development. First, tests
+                  unambiguously communicate how things are supposed to work.
+                  Second, they provide feedback on whether the system actually
+                  works the way it is supposed to work. Third, tests provide
+                  the scaffolding that allows developers to make changes
+                  throughout the development process, making tools such as
+                  last responsible moment, set-based development, and
+                  refactoring useful in practice. When development is done,
+                  the test suite provides an accurate representation of
+                  how the system was actually built. Finally, by developing
+                  and maintaining test suites for all systems in production,
+                  making changes to production systems that interact with
+                  each other can be done safely by running a full suite of
+                  tests for all related applications. [30]
                 </p><br />
             </details>
             <details>
@@ -396,7 +592,16 @@
                   Chapter 8: Instructions and Warranties
               </summary>
               <p>
-                As the last chapter of this book, no more toolkits are introduced.The author are trying to give us some advise about how to gain the understanding of lean principles and how to be a manager of a company. I would highly recommend you to treat this chapter as a relaxation after you finish study all 22 toolkits, just as the author said here, "Toolkits are usually packaged with instruction sheets and a warranty card, which most of us try to ignore", this chapter is something that we may not care, but still important:)
+                As the last chapter of this book, no more toolkits are
+                introduced.The author are trying to give us some advise
+                about how to gain the understanding of lean principles and
+                how to be a manager of a company. I would highly recommend
+                you to treat this chapter as a relaxation after you finish
+                study all 22 toolkits, just as the author said here,
+                "Toolkits are usually packaged with instruction sheets
+                and a warranty card, which most of us try to ignore",
+                this chapter is something that we may not care, but still
+                important:)
               </p>
             </details>
             <h2>
