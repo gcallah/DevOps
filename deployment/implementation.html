@@ -191,8 +191,8 @@
                 <h1>
                     Our Deployment Implementation
                 </h1>
-                <h3> Steps to deploy the website on Amazon EC2
-                    instances using puppet </h3>
+                <h2> Steps to deploy the website on Amazon EC2
+                    instances using puppet </h2>
 
                 <h4> Configuration </h4>
                 <p> We have used client/server architecture having one
@@ -393,18 +393,31 @@
                 If there are any new commits made on git the website will
                 be continuously refreshed with the changes.
                 </p>
+                <h2>Run Deployment Automation</h2>
                 <p> We have automated the above deployment steps for hosting
                 the course website on Amazon Cloud.
-                Steps to run -
+                Steps to run:
                 <ol class="nested">
                 <li> Download <a href="https://github.com/gcallah/DevOps/tree/master/deployment/puppetScripts">
-                folder </a> from git repository. 
+                puppetScripts folder </a> from git repository. 
                 </li>
                 <li>
-                Go to the folder on your local machine. Run below command from
-                terminal -
+                Go to the folder on your local machine.
+                </li>
+                <li>
+                To install the required packages and configure AWS account run
+                the following script:
+                <b>./install.sh</b>
+                </li>
+                <li>
+                Run the following command to start the deployment on Amazon
+                AWS:
                 <br>
-                python deploy.py
+                <b>python deploy.py</b>
+                <br>
+                <i>Note: There might be additional python packages not
+                installed on your machine. Please make sure to install them if
+                error prompts while running the deploy script.</i>
                 </li>
                 </ol>
                 </p>
