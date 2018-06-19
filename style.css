@@ -182,6 +182,10 @@ h5 {
     font-weight: bold;
 }
 
+summary:focus{
+    outline: none;
+}
+
 summary.sum1 {
     font-size: 2em;
     color: #903;
