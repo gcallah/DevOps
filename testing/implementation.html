@@ -231,7 +231,7 @@
                   </li>
                 </ul>
 
-            <h4>Here's a way of Trigerring a Jenkins 
+            <h4>Here's a way of triggering a Jenkins 
             build from a push to Github.</h4>
                 <p> A reason to choose Jenkins was the 
                 availability of many plugins.
@@ -240,10 +240,12 @@
 
                 <ul class="nested">
                     <li>
-                    <b>Step 1: Install Github Integration Plugin</b><br>
-                    It can be accessed through Plugin Manager under 
-                    'available' tab or simply through search box.
-                    After checking against the plugin, click on 'Download Now'.
+                    <b>Step 1: Install the Github Integration Plugin</b><br>
+                    On the "Manage Jenkins" page, you will find
+                    "Manage Plugins."
+                    Then click on the "Available" tab.
+                    After checking the GitHub plugin,
+                    click on 'Download Now'.
                     </li>
 
                     <li>
@@ -251,13 +253,15 @@
                     We now need to add service to call Jenkins Github 
                     webhook on a push.
                     Inside the github repo, go to Settings - Integrations 
-                    & Services - Add service <br>
+                    &and; Services - Add service <br>
                     Select Jenkins(Github Integration) from 
                     drop-down menu.
                     In the new window, enter 
                     "Jenkins Hook URL+ "/github-webhook/"
                     e.g. http://ci.jenkins-ci.org/github-webhook/ <br>
                     Click on "test service"
+                    (NOTE: Services are being deprecated: new docuemntation
+                    soon on how to use webhook!)
                     </li>
 
                     <li>
