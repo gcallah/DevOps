@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--include head.txt -->
+        <title>
+            DevOps: Course Outline Fall 2018
+        </title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+<!--include navbar.txt -->
+            <div id="content">
+            <h1>
+                DevOps: Course Outline Fall 2018
+            </h1>
+
+
+
+            <p>
+                Units for online course:
+            </p>
+
+            <ol class="nested">
+                <li>
+                Communication is at the core. Tool: Slack
+                </li>
+
+                <li>
+                Incremental development enables continual releases
+                </li>
+
+                <li>
+                Control of our source code is essential to rapid deployment.
+                Tools: git and GitHUb
+                </li>
+
+                <li>
+                Controlling the flow of work to avoid waste. Tools: kanban
+                boards (Trello)
+                </li>
+
+                <li>
+                Software as infrastructure: virtual machines and containers
+                </li>
+
+                <li>
+                Automating builds: make
+                </li>
+
+                <li>
+                To be confident in rapid releases, we must automate testing
+                </li>
+
+                <li>
+                Automating deployment: Chef, Puppet and Ansible. Cloud
+                deployment.
+                </li>
+
+                <li>
+                We have to know what the software is up to: monitoring tools
+                </li>
+
+                <li>
+                 The meaning of DevOps in the larger work setting
+                </li>
+
+            </ol>
+
+            </div>
+        </div>
+
+    </body>
+</html>
